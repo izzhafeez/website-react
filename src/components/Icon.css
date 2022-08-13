@@ -1,0 +1,39 @@
+.icon {
+  width: 15rem;
+  border-radius: 50%;
+  border: 0.5rem solid var(--je);
+  background-color: white;
+}
+
+.mini-icon {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid var(--dark-text);
+  background-color: white;
+}
+
+.micro-icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 50%;
+  float: right;
+  background-color: white;
+}
+
+.mini-icon ~ div {
+  display: none;
+  position: absolute;
+}
+
+.mini-icon:hover ~ div {
+  display: block;
+}
+
+.mini-icon-section {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
