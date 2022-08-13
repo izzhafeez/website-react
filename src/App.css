@@ -1,38 +1,52 @@
+@import "./colors/main.css";
+@import "./colors/mrt.css";
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  background-color: var(--back);
+  color: var(--text);
+  font-family: Raleway;
+  font-size: 1rem;
+  padding-bottom: 5rem;
+}
+
+.content-container {
+  display: grid;
+  place-items: center;
+}
+
+.content-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  place-items: center;
+  width: min(90%, 1000px);
+}
+
+.content-section > * {
+  margin: 3rem 0;
+  display: grid;
+  place-items: center;
+}
+
+.page {
+  width: 100%;
+}
+
+h2 {
+  width: 100%;
+  font-family: Droid Sans Mono;
+  color: var(--je);
+}
+
+a {
+  text-decoration-color: var(--dark-text);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  text-decoration-color: var(--je);
+  color: var(--je);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+star {
+  color: var(--cc);
 }
