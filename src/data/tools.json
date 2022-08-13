@@ -1,0 +1,106 @@
+{
+  "tools": [
+    {
+      "title": "Pandas",
+      "date": "Since 2019",
+      "img": "pandas",
+      "starred": true
+    },
+    {
+      "title": "Django",
+      "date": "Since 2021",
+      "img": "django",
+      "starred": true
+    },
+    {
+      "title": "MongoDB",
+      "date": "Since 2021",
+      "img": "mongo",
+      "starred": true
+    },
+    {
+      "title": "Microsoft Excel",
+      "date": "Since 2013",
+      "img": "excel"
+    },
+    {
+      "title": "Vue.js",
+      "date": "Since 2022",
+      "img": "vue"
+    },
+    {
+      "title": "Node.js",
+      "date": "Since 2021",
+      "img": "node"
+    },
+    {
+      "title": "Google Cloud Platform",
+      "date": "Since 2019",
+      "img": "gcp"
+    },
+    {
+      "title": "React.js",
+      "date": "Since 2021",
+      "img": "react",
+      "starred": true
+    },
+    {
+      "title": "QGIS",
+      "date": "Since 2020",
+      "img": "qgis",
+      "starred": true
+    },
+    {
+      "title": "More Tools",
+      "date": "Various",
+      "img": "tools",
+      "link": "tools/tools",
+      "ignore": true
+    },
+    {
+      "title": "Power BI",
+      "date": "Since 2020",
+      "img": "powerbi"
+    },
+    {
+      "title": "Telegram Bots",
+      "date": "Since 2019",
+      "img": "telegram"
+    },
+    {
+      "title": "Jupyter Notebook",
+      "date": "Since 2019",
+      "img": "jupyter"
+    },
+    {
+      "title": "Musescore",
+      "date": "Since 2019",
+      "img": "musescore"
+    },
+    {
+      "title": "Flask",
+      "date": "Since 2019",
+      "img": "flask"
+    },
+    {
+      "title": "LaTeX",
+      "date": "Since 2022",
+      "img": "latex"
+    },
+    {
+      "title": "Tableau",
+      "date": "Since 2019",
+      "img": "tableau"
+    },
+    {
+      "title": "ER Studio",
+      "date": "Since 2021",
+      "img": "erstudio"
+    },
+    {
+      "title": "Angular.js",
+      "date": "Since 2022",
+      "img": "angular"
+    }
+  ]
+}

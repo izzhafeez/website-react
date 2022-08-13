@@ -1,0 +1,30 @@
+{
+  "awards": [
+    {
+      "title": "Dean's List (NUS School of Computing)",
+      "date": "AY21/22 Sem 2",
+      "link": "https://credentials.nus.edu.sg/4d203d39-dd5c-4129-bc4e-7e7255355c32",
+      "starred": true,
+      "img": "nus"
+    },
+    {
+      "title": "Top Students for Ethics in Computing",
+      "date": "AY21/22 Sem 2",
+      "link": "https://credentials.nus.edu.sg/8b1f9bad-faee-4f3f-97b2-f599933cdd2a",
+      "img": "nus"
+    },
+    {
+      "title": "Texas Instruments Graphing Competition (Gold)",
+      "date": "2018",
+      "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxkZXNpZ253aXRoZ2Njb21wZXRpdGlvbnxneDo5ZTc3Mzg4ODNkYjc1ZWY",
+      "starred": true,
+      "img": "ti"
+    },
+    {
+      "title": "Singapore Mathematical Olympiad (Silver)",
+      "date": "2011, 2014, 2016, 2017, 2018",
+      "starred": true,
+      "img": "sms"
+    }
+  ]
+}

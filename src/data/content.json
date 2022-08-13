@@ -1,0 +1,74 @@
+{
+  "about": {
+    "title": "HI, MY NAME IZZ HAFEEZ",
+    "content": [
+      [
+        "I'm a ",
+        ["link", "./blog/modules/", "CS/Maths"],
+        " student in ",
+        ["link", "https://www.nus.edu.sg/", "NUS", true],
+        " with 3.5 years of ",
+        ["link", "./merits#experience", "experience"],
+        " in ",
+        ["link", "./merits/experience/robotics", "Robotics"],
+        ", ",
+        ["link", "./merits/experience/data-analytics", "Data Analytics"],
+        " and ",
+        ["link", "./merits/experience/data-management", "Data Management"],
+        ". My main ",
+        ["link", "./merits#skills", "skills"],
+        " include ",
+        ["link", "./merits/geospatial-analytics", "Geospatial Analytics"],
+        ", ",
+        ["link", "./merits/web-programming", "Web Programming"],
+        " and ",
+        ["link", "./merits/data-mining", "Data Mining"],
+        "."
+      ],
+      [
+        "In my spare time, I learn new ",
+        ["link", "./merits/languages/languages", "languages"], 
+        ", build ",
+        ["link", "./works/geography/", "geography projects"],
+        ", arrange ",
+        ["link", "./works/music/", "piano pieces"],
+        ", design ",
+        ["link", "./works/math/", "math art"], 
+        " and ",
+        ["link", "./works/puzzles/", "create puzzles"],
+        "."
+      ],
+      [
+        "I'm looking for opportunities to further my interests and apply my knowledge in an open-minded environment."
+      ],
+      [
+        "Interested? Do contact me on any one of my platforms: ",
+        ["link", "https://www.linkedin.com/in/izzhafeez/", "LinkedIn", true],
+        " | ",
+        ["link", "mailto:izzhafeez@gmail.com", "Email", true],
+        " | ",
+        ["link", "https://www.youtube.com/c/izzhafeez", "YouTube", true],
+        " | ",
+        ["link", "https://www.instagram.com/mynameizzhafeez/?hl=en", "Instagram", true],
+        " | ",
+        ["link", "https://github.com/mynameizzhafeez", "GitHub", true]
+      ]
+    ]
+  },
+  "merits": {
+    "title": "MERITS",
+    "content": [
+      [
+        "While I have picked up many ",
+        ["link", "./merits#skills", "skills"],
+        " during my IT ",
+        ["link", "./merits#experience", "experience"], 
+        ", most of my merits have arisen because of my self-learning and hobbies. Do also see some of the ",
+        ["link", "./merits#awards", "awards"],
+        " and ",
+        ["link", "./merits#certifications", "certifications"],
+        " I have attained during throughout my life."
+      ]
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "languages": [
+    {
+      "title": "Python",
+      "date": "Since 2016",
+      "starred": true,
+      "img": "python"
+    },
+    {
+      "title": "JavaScript",
+      "date": "Since 2017",
+      "starred": true,
+      "img": "javascript"
+    },
+    {
+      "title": "English",
+      "date": "Native",
+      "img": "english"
+    },
+    {
+      "title": "SQL",
+      "date": "Since 2016",
+      "img": "sql"
+    },
+    {
+      "title": "Chinese",
+      "date": "Since 2018",
+      "img": "chinese",
+      "starred": true
+    },
+    {
+      "title": "R Language",
+      "date": "Since 2019",
+      "img": "r"
+    },
+    {
+      "title": "Ruby",
+      "date": "Since 2019",
+      "img": "ruby"
+    },
+    {
+      "title": "Japanese",
+      "date": "Since 2020",
+      "img": "japanese",
+      "starred": true
+    },
+    {
+      "title": "Java",
+      "date": "Since 2021",
+      "img": "java"
+    },
+    {
+      "title": "More Languages",
+      "date": "Various",
+      "img": "language",
+      "link": "languages/languages",
+      "ignore": true
+    },
+    {
+      "title": "Malay",
+      "date": "Native",
+      "img": "malay"
+    },
+    {
+      "title": "French",
+      "date": "Since 2015",
+      "img": "french"
+    },
+    {
+      "title": "Rust",
+      "date": "Since 2022",
+      "starred": true,
+      "img": "rust"
+    },
+    {
+      "title": "C#",
+      "date": "Since 2020",
+      "img": "csharp"
+    },
+    {
+      "title": "Spanish",
+      "date": "Since 2018",
+      "img": "spanish"
+    },
+    {
+      "title": "C++",
+      "date": "Since 2017",
+      "img": "cpp"
+    }
+  ]
+}

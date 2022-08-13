@@ -1,0 +1,74 @@
+{
+  "experiences": {
+    "data-management": {
+      "title": "Data Management",
+      "organization": "Ministry of Manpower",
+      "start": "Feb'21",
+      "end": "Jul'21",
+      "description": "Designed data pipelines and dashboards to facilitate analytics",
+      "link": "/merits/experience/data-management",
+      "img": "mom",
+      "full-description": [
+        [
+          "I created Power BI dashboards and ER Studio data models to facilitate analytics. I also designed an organisation-wide Data Governance Portal in an effort to enforce good data management practices in the ministry. I further worked on managing user permissions data, implementing scripts to reduce the workflow by over 80%."
+        ]
+      ],
+      "tools": [
+        "powerbi",
+        "ssms",
+        "excel",
+        "sql",
+        "sharepoint",
+        "erstudio"
+      ]
+    },
+    "data-analytics": {
+      "title": "Data Analytics",
+      "organization": "Singapore Civil Defence Force",
+      "start": "Feb'19",
+      "end": "Jan'21",
+      "description": "Developed and operated models to optimise the placement of ambulances",
+      "starred": true,
+      "link": "/merits/experience/data-analytics",
+      "img": "scdf",
+      "full-description": [
+        [
+          "I worked on and operated a data science model that optimised the placement of SCDF appliances; I proposed and implemented pipelines that reduced workflow by 67%. I further used it to produce analytics reports and predictions to assist in the decision-making process."
+        ],
+        [
+          "I further conducted operational analysis on over a dozen projects from the 6 departments (Medical, Technology, Operations, Finance, Training, Logistics)."
+        ],
+        [
+          "I also supervised and trained a team of 4 juniors in the creation of Tableau dashboards and data science models."
+        ]
+      ],
+      "tools": [
+        "python",
+        "r",
+        "tableau",
+        "pandas",
+        "gcp",
+        "ruby"
+      ]
+    },
+    "robotics": {
+      "title": "Programming Head",
+      "organization": "Victoria Robotics-Makers Club",
+      "start": "Jun'17",
+      "end": "May'18",
+      "description": "Taught and facilitated programming at Victoria Junior College",
+      "link": "/merits/experience/robotics",
+      "img": "vrmc",
+      "full-description": [
+        [
+          "As a speciality head, I organised training sessions to impart relevant coding knowledge upon other club-members, guiding them to win competitions. I also developed robotics programs using Python and C, participating in various robotics competitions. Besides that, as an executive committee member, I played a role in organising events such as camps and other club activities."
+        ]
+      ],
+      "tools": [
+        "python",
+        "c",
+        "vex"
+      ]
+    }
+  }
+}
