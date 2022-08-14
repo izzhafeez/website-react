@@ -12,7 +12,13 @@ function Merit(props) {
       <div className="merit-title">
         <MicroIcon logo={logos[props.merit.img]} alt={props.merit.img}></MicroIcon>
         {
-          props.merit.link &&
+          props.merit.link && props.merit.external &&
+          <a href={props.merit.link}>
+            {props.merit.title}
+          </a> 
+        }
+        {
+          props.merit.link && !props.merit.external &&
           <Link to={props.merit.link}>
             {props.merit.title}
           </Link> 
