@@ -1,106 +1,264 @@
 {
-  "tools": [
-    {
+  "tools": {
+    "pandas": {
       "title": "Pandas",
       "date": "Since 2019",
+      "projects": true,
       "img": "pandas",
-      "starred": true
+      "starred": true,
+      "description": [
+        [
+          "Pandas is by far my most used programming tool (apart from ",
+          ["link", "../merits/tools/details/python", "Python"],
+          "). It started during my National Service in 2019, where I started to deal with lots of csv files. Initially, when I didn't know about Pandas, I used to read the csv as a string, and handle all the parsing on my own. Quickly though, my senior introduced me to this package, and I've never turned back."
+        ],
+        [
+          "At the time, I used Pandas for all sorts of tasks. I mainly used it for ",
+          ["link", "../merits/skills/details/operational-analysis", "Operational Analysis"],
+          " where I first cleaned the data before performing visualizations. But I also used it for data compilation, where I created pipelines to produce analytics reports and master files."
+        ],
+        [
+          "Nowadays, I use Pandas in nearly every single one of my projects; I used it with ",
+          ["link", "../merits/skills/details/data-science", "Data Science"],
+          ", ",
+          ["link", "../merits/skills/details/web-programming", "Web Programming"],
+          " and ",
+          ["link", "../merits/skills/details/game-development", "Game Development"],
+          "."
+        ]
+      ]
     },
-    {
+    "django": {
       "title": "Django",
       "date": "Since 2021",
+      "projects": true,
       "img": "django",
-      "starred": true
+      "starred": true,
+      "description": [
+        [
+          "I started learning Django in early 2021 and I definitely prefer it over Flask. At the start, I mainly experimented with making simple apps that followed online tutorials very closely. However, after I've had some experience in web programming, I got a much better understanding of the entire development process, leading me to produce new projects in mid 2022."
+        ],
+        [
+          "Despite this, the main bulk of my experience in Django came from designing and scrapping Django projects. Scrapped because I found better tools to achieve my goals."
+        ]
+      ]
     },
-    {
+    "mongodb": {
       "title": "MongoDB",
       "date": "Since 2021",
+      "projects": true,
       "img": "mongo",
-      "starred": true
+      "starred": true,
+      "description": [
+        [
+          "While I briefly touched MongoDB during in early 2021, much of my experience comes from my development of ",
+          ["link", "../works/projects/details/notetogether", "NoteTogether"],
+          " with a partner. This was a full-stack MEVN project, with MongoDB Atlas as its database. With some prior experience in ",
+          ["link", "../merits/skills/details/data-modeling", "Data Modeling"],
+          " I designed a lot of the data models that were used in the final product, adjusting to MongoDB's unique properties. I got as far as using MongoDB Atlas' dashboarding to analyse the data stored within the database."
+        ],
+        [
+          "I also experimented with MongoDB's geospatial features, which would help a lot in geospatial queries. However, I could not get this version of MongoDB to work well with my Django project and as a result, I ended up not diving deeper into this."
+        ]
+      ]
     },
-    {
+    "microsoft-excel": {
       "title": "Microsoft Excel",
       "date": "Since 2013",
       "img": "excel"
     },
-    {
+    "vue-js": {
       "title": "Vue.js",
       "date": "Since 2022",
-      "img": "vue"
+      "projects": true,
+      "img": "vue",
+      "description": [
+        [
+          "For our ",
+          ["link", "../works/projects/details/notetogether", "Orbital project"],
+          ", my partner and I decided to use Vue.js as our frontend framework. Despite the great reviews, this turned out to be a difficult experience, as many packages lacked support in Vue; we had to make do with what's available. Despite this, I'm glad our combined frontend skills were sufficient in producing a neat final design."
+        ]
+      ]
     },
-    {
+    "node-js": {
       "title": "Node.js",
       "date": "Since 2021",
-      "img": "node"
+      "projects": true,
+      "img": "node",
+      "description": [
+        [
+          "For our ",
+          ["link", "../works/projects/details/notetogether", "Orbital project"],
+          ", my partner and I decided to use MEVN as our tech stack, which meant using Node.js. Despite the great reviews, this turned out to be a difficult experience, as many packages lacked support in Vue; we had to make do with what's available."
+        ]
+      ]
     },
-    {
+    "google-cloud-platform": {
       "title": "Google Cloud Platform",
       "date": "Since 2019",
-      "img": "gcp"
+      "projects": true,
+      "img": "gcp",
+      "starred": true,
+      "description": [
+        [
+          "I've used GCP for many things during my National Service and beyond. Firstly, for the DRO project, I was tasked with maintaining the GCP computing tools, including the various API that the project calls for. This caused problems in mid-June 2019 as Google started charging for API usage. As such, the team needed to cache as many results as possible so as to not rely too much on this data."
+        ],
+        [
+          "Apart from that, I've used GCP for many of my personal projects. In particular, most of my Telegram Bots were written in Google Apps Script, and is deployed as a free-tier project."
+        ]
+      ]
     },
-    {
+    "react-js": {
       "title": "React.js",
       "date": "Since 2021",
+      "projects": true,
       "img": "react",
-      "starred": true
+      "starred": true,
+      "description": [
+        [
+          "My first React project was an improved tic-tac-toe board closely following an online tutorial. That scared me, as the tutorial's props were unintuitively designed. This pushed me away from frontend work for quite some time. However, as I restarted my work on web development, I found React to be quite intuitive and easy to develop."
+        ],
+        [
+          "Now, I develop in React to develop this personal website that you are seeing now."
+        ]
+      ]
     },
-    {
+    "qgis": {
       "title": "QGIS",
       "date": "Since 2020",
       "img": "qgis",
-      "starred": true
+      "starred": true,
+      "description": [
+        [
+          "I was first introduced to QGIS during my second year in National Service, as part of my work in ",
+          ["link", "../merits/skills/details/operational-analysis", "Operational Analysis"],
+          ". However, as I started to create more geospatial projects, the need for such visualization increased, and I used QGIS more and more often. But I pretty much do it for myself and make my own explorations of data."
+        ]
+      ]
     },
-    {
+    "more": {
       "title": "More Tools",
       "date": "Various",
       "img": "tools",
       "link": "tools/tools",
       "ignore": true
     },
-    {
+    "power-bi": {
       "title": "Power BI",
       "date": "Since 2020",
-      "img": "powerbi"
+      "img": "powerbi",
+      "description": [
+        [
+          "I used Power BI during my time at the ",
+          ["link", "merits/experience/data-management", "Ministry of Manpower"],
+          " as well as a little bit before that period of time. Tasked with building dashboards to facilitate analytics, I learned SQL queries for extracting Power BI data. I also learned the M and DAX languages, which are used in Power BI."
+        ]
+      ]
     },
-    {
+    "telegram-bots": {
       "title": "Telegram Bots",
       "date": "Since 2019",
-      "img": "telegram"
+      "projects": true,
+      "img": "telegram",
+      "starred": true,
+      "description": [
+        [
+          "Telegram Bots allow me to do various tasks when I'm not at home, which has since improved my productivity during long commutes. As such, I made quite a lot of Telegram Bots for different things. For example, some Bots are used for language-learning, some Bots are for finding Halal food, some Bots are for studying course material."
+        ]
+      ]
     },
-    {
+    "jupyter-notebook": {
       "title": "Jupyter Notebook",
       "date": "Since 2019",
       "img": "jupyter"
     },
-    {
+    "musescore": {
       "title": "Musescore",
       "date": "Since 2019",
+      "link": "./works/music",
       "img": "musescore"
     },
-    {
+    "flask": {
       "title": "Flask",
       "date": "Since 2019",
-      "img": "flask"
+      "projects": true,
+      "img": "flask",
+      "description": [
+        [
+          "Like ",
+          ["link", "../merits/tools/details/django", "Django"],
+          ", I've experimented several times with creating new projects using Flask. Only to scrap those projects later on because a better technology existed to perform the same task. However, I have done quite a bit of maintainence work on Flask projects during my time in National Service. I mostly needed to understand how the code works, and where to fix should something go wrong."
+        ]
+      ]
     },
-    {
+    "latex": {
       "title": "LaTeX",
       "date": "Since 2022",
-      "img": "latex"
+      "img": "latex",
+      "description": [
+        [
+          "I've used LaTeX during my time in the Mathematics Society as well as the Astronomical Society."
+        ]
+      ]
     },
-    {
+    "tableau": {
       "title": "Tableau",
       "date": "Since 2019",
-      "img": "tableau"
+      "img": "tableau",
+      "description": [
+        [
+          "I've worked with Tableau during my time in National Service, where I first underwent several UATs to test some dashboards. Next, several projects came which required dashboards in Tableau. Mostly, they were done by a junior of mine, but I sometimes had to come in to help, develop or operate on it when he was unavailable."
+        ]
+      ]
     },
-    {
+    "er-studio": {
       "title": "ER Studio",
       "date": "Since 2021",
-      "img": "erstudio"
+      "img": "erstudio",
+      "description": [
+        [
+          "While not a lot, I have some experience in ER Studio, which is an enterprise-level data modeling software. The training for ER Studio came with the training for complex concepts in Data Virtualization."
+        ]
+      ]
     },
-    {
+    "angular-js": {
       "title": "Angular.js",
       "date": "Since 2022",
-      "img": "angular"
+      "projects": true,
+      "img": "angular",
+      "description": [
+        [
+          "While my knowledge on Angular is not as good as mine for ",
+          ["link", "../merits/tools/details/react-js", "React"],
+          " and ",
+          ["link", "../merits/tools/details/vue-js", "Vue"],
+          ", some skills can indeed be transferred over. I'm currently working on a Flask-Angular project for this."
+        ]
+      ]
+    },
+    "vex-robotics": {
+      "title": "VEX Robotics",
+      "date": "Since 2017",
+      "img": "vex",
+      "description": [
+        [
+          "Along with RobotC, I've had quite a bit of experience coding and building robots during my time in the ",
+          ["link", "../merits/experience/robotics", "Robotics Club"],
+          "."
+        ]
+      ]
+    },
+    "ssms": {
+      "title": "SSMS",
+      "date": "Since 2021",
+      "img": "ssms",
+      "description": [
+        [
+          "SSMS stands for SQL Server Management Studio and was a tool I used during my time in the ",
+          ["link", "../merits/experience/data-management", "Ministry of Manpower"],
+          " to develop data pipelines as part of my role in Enterprise Information Management."
+        ]
+      ]
     }
-  ]
+  }
 }
