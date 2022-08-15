@@ -1,13 +1,13 @@
 {
-  "certificates": [
-    {
+  "certificates": {
+    "mongo-data-modeling": {
       "title": "M320 Data Modeling",
       "date": "Jul'22",
       "link": "https://university.mongodb.com/course_completion/df998645-f68a-4957-931e-1c8f3ffa2ac4",
       "external": true,
       "img": "mongo"
     },
-    {
+    "hsk-6": {
       "title": "HSK 6 (157/300)",
       "date": "Jun'22",
       "link": "http://www.chinesetest.cn/searchChengJi.do",
@@ -15,35 +15,35 @@
       "starred": true,
       "img": "confucius"
     },
-    {
+    "java-udemy": {
       "title": "Java Certification Course",
       "date": "Mar'22",
       "link": "https://www.udemy.com/certificate/UC-ea3408de-bd00-4eba-96bf-3ab78ac4bda8/",
       "external": true,
       "img": "udemy"
     },
-    {
+    "web-developer-udemy": {
       "title": "Fullstack Web Developer Course",
       "date": "Sep'21",
       "link": "https://www.udemy.com/certificate/UC-edbe5bd6-e40e-4227-9449-7d161eade40e/",
       "external": true,
       "img": "udemy"
     },
-    {
+    "hsk-5": {
       "title": "HSK 5 (211/300)",
       "date": "Mar'21",
       "link": "http://www.chinesetest.cn/queryScore.do?sid=c2tActR9Wb%27d1ab44da677955ce3b5c9231ff65ea765c6b8d2a3849b500%2724d7sWsQ5nVUQSwD",
       "external": true,
       "img": "confucius"
     },
-    {
+    "deep-learning-tensorflow": {
       "title": "Deep Learning with Tensorflow",
       "date": "Oct'20",
       "link": "https://courses.edx.org/certificates/06e2f6469b7f48eca94f244e3ed0de42",
       "external": true,
       "img": "ibm"
     },
-    {
+    "harvardx-data-science": {
       "title": "HarvardX Data Science",
       "date": "Feb'20",
       "link": "https://credentials.edx.org/credentials/ed430b9eb6d3496fb6fc8257b0e2a90a/",
@@ -51,26 +51,26 @@
       "starred": true,
       "img": "harvardx"
     },
-    {
+    "python-for-everybody": {
       "title": "Python for Everybody",
       "date": "Jan'17",
       "link": "https://www.coursera.org/account/accomplishments/specialization/B4URY8QXHQRW",
       "external": true,
       "img": "uom"
     },
-    {
+    "linkedin-certs": {
       "title": "LinkedIn Certificates",
       "date": "Various",
       "link": "/merits/certificates/linkedin",
       "img": "linkedin"
     },
-    {
+    "hackerrank-certs": {
       "title": "Hackerrank Certificates",
       "date": "Various",
       "link": "/merits/certificates/hackerrank",
       "img": "hackerrank"
     }
-  ],
+  },
   "linkedin": [
     {
       "title": "Python",
