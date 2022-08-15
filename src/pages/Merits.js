@@ -5,6 +5,7 @@ import awardsData from '../data/awards.json';
 import certificatesData from '../data/certificates.json';
 import experiencesData from '../data/experiences.json';
 import languagesData from '../data/languages.json';
+import skillsData from '../data/skills.json';
 import toolsData from '../data/tools.json';
 
 import Text from '../components/Text.js';
@@ -21,31 +22,53 @@ function Merits() {
       ></Experience>
     );
   });
-  const certificatesPreview = certificatesData.certificates.map((certificate) => {
+  const certificatesPreview = Object.keys(certificatesData.certificates).map((key, certificate) => {
+    const merit = certificatesData.certificates[key];
+    merit["key"] = key;
+    merit["kind"] = "certificates";
     return (
       <Merit
-        merit={certificate}
+        merit={merit}
       ></Merit>
     );
   });
-  const awardsPreview = awardsData.awards.map((award) => {
+  const awardsPreview = Object.keys(awardsData.awards).slice(0, 5).map((key, award) => {
+    const merit = awardsData.awards[key];
+    merit["key"] = key;
+    merit["kind"] = "awards";
     return (
       <Merit
-        merit={award}
+        merit={merit}
       ></Merit>
     );
   });
-  const languagesPreview = languagesData.languages.slice(0, 10).map((language) => {
+  const languagesPreview = Object.keys(languagesData.languages).slice(0, 10).map((key, language) => {
+    const merit = languagesData.languages[key];
+    merit["key"] = key;
+    merit["kind"] = "languages";
     return (
       <Merit
-        merit={language}
+        merit={merit}
       ></Merit>
     );
   });
-  const toolsPreview = toolsData.tools.slice(0, 10).map((tool) => {
+  const toolsPreview = Object.keys(toolsData.tools).slice(0, 10).map((key, tool) => {
+    const merit = toolsData.tools[key];
+    merit["key"] = key;
+    merit["kind"] = "tools";
     return (
       <Merit
-        merit={tool}
+        merit={merit}
+      ></Merit>
+    );
+  });
+  const skillsPreview = Object.keys(skillsData.skills).slice(0, 10).map((key, skill) => {
+    const merit = skillsData.skills[key];
+    merit["key"] = key;
+    merit["kind"] = "skills";
+    return (
+      <Merit
+        merit={merit}
       ></Merit>
     );
   });
@@ -70,6 +93,9 @@ function Merits() {
       <br></br>
       <h2 id="tools">TOOLS</h2>
       <div className="merits-entries">{toolsPreview}</div>
+      <br></br>
+      <h2 id="skills">SKILLS</h2>
+      <div className="merits-entries">{skillsPreview}</div>
     </div>
   );
 }
