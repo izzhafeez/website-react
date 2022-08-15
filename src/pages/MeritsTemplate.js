@@ -2,8 +2,10 @@ import { useParams } from 'react-router-dom';
 
 import './Merits.css';
 
+import awardsData from '../data/awards.json';
 import certificatesData from '../data/certificates.json';
 import languagesData from '../data/languages.json';
+import skillsData from '../data/skills.json';
 import toolsData from '../data/tools.json';
 import logos from '../assets/logo-controller';
 
@@ -12,16 +14,21 @@ import Merit from '../components/Merit';
 function MeritsTemplate(props) {
   const dataPath = props.dataPath;
   const dataDict = {
+    awards: awardsData,
     certificates: certificatesData,
     languages: languagesData,
+    skills: skillsData,
     tools: toolsData
   }
-  const data = dataDict[dataPath];
 
   const { name } = useParams();
+  const data = dataDict[dataPath][name];
 
-  const merits = data[name].filter(data => !data.ignore).map((merit) => {
-    return <Merit merit={merit}/>
+  const merits = Object.keys(data).map((key, _) => {
+    const merit = data[key];
+    merit["key"] = key;
+    merit["kind"] = dataPath;
+    return merit.ignore ? null : <Merit merit={merit}/>;
   });
   return (
     <div className="page">
