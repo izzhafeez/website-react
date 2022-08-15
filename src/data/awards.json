@@ -1,33 +1,140 @@
 {
-  "awards": [
-    {
+  "awards": {
+    "dean-list-y1s2": {
       "title": "Dean's List (NUS School of Computing)",
       "date": "AY21/22 Sem 2",
       "link": "https://credentials.nus.edu.sg/4d203d39-dd5c-4129-bc4e-7e7255355c32",
       "external": true,
       "starred": true,
-      "img": "nus"
+      "img": "nus",
+      "description": [
+        [
+          "Owing to my efforts during the second semester of my first year in NUS, I received a 4.92 SAP. As a result, I obtained the coveted Dean's List, which is awarded to the top 5-10% of each cohort. Here are the modules I took this semester:"
+        ],
+        [
+          ["link", "../blog/modules/cs2030s", "CS2030S"],
+          " Programming Methodology II (A+)"
+        ],
+        [
+          ["link", "../blog/modules/cs2040s", "CS2040S"],
+          " Data Structures and Algorithms (A)"
+        ],
+        [
+          ["link", "../blog/modules/st2334", "ST2334"],
+          " Probability and Statistics (A+)"
+        ],
+        [
+          ["link", "../blog/modules/is1103", "IS1103"],
+          " Ethics for Computing (A+)"
+        ],
+        [
+          ["link", "../blog/modules/gea1000", "GEA1000"],
+          " Quantitative Reasoning with Data (A)"
+        ],
+        [
+          ["link", "../blog/modules/gec1030", "GEC1030"],
+          " Metropolis: A City in World History (A-)"
+        ],
+        [
+          ["link", "https://credentials.nus.edu.sg/4d203d39-dd5c-4129-bc4e-7e7255355c32", "CREDENTIAL", true]
+        ]
+      ]
     },
-    {
+    "top-students-ethics": {
       "title": "Top Students for Ethics in Computing",
       "date": "AY21/22 Sem 2",
       "link": "https://credentials.nus.edu.sg/8b1f9bad-faee-4f3f-97b2-f599933cdd2a",
       "external": true,
-      "img": "nus"
+      "img": "nus",
+      "description": [
+        [
+          "Obtained the subject award for IS1103: Ethics in Computing during the second semester of my first year in NUS."
+        ],
+        [
+          ["link", "https://credentials.nus.edu.sg/8b1f9bad-faee-4f3f-97b2-f599933cdd2a", "CREDENTIAL", true]
+        ]
+      ]
     },
-    {
+    "ti-graphing": {
       "title": "Texas Instruments Graphing Competition (Gold)",
       "date": "2018",
       "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxkZXNpZ253aXRoZ2Njb21wZXRpdGlvbnxneDo5ZTc3Mzg4ODNkYjc1ZWY",
       "external": true,
       "starred": true,
-      "img": "ti"
+      "img": "ti",
+      "description": [
+        [
+          "In 2017 and 2018, my favourite past time was ",
+          ["link", "../works/desmos", "creating math art"],
+          " using the Desmos graphing calculator. This eventually led me to participating in design competitions, like this one by Texas Instruments. In the 2018 rendition, the theme was 'Towards a Smart Nation', where I created an ",
+          ["link", "https://www.desmos.com/calculator/o6ioqimvq6", "AI-inspired design", true],
+          " that eventually led me to win the Gold Award. It is to be noted that I also participated in the 2017 competition, where I obtained the Silver Award."
+        ],
+        [
+          ["link", "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxkZXNpZ253aXRoZ2Njb21wZXRpdGlvbnxneDo5ZTc3Mzg4ODNkYjc1ZWY", "CREDENTIAL", true]
+        ]
+      ]
     },
-    {
+    "smo": {
       "title": "Singapore Mathematical Olympiad (Silver)",
       "date": "2011, 2014, 2016, 2017, 2018",
       "starred": true,
-      "img": "sms"
+      "img": "sms",
+      "description": [
+        [
+          "I frequented the SMO for many years during my time in school, and I made it to the second round almost every time. But while a Silver Award is a good enough achievement, it was still unfortunate that I didn't manage to obtain any Gold Award in the end."
+        ],
+        [
+          "I also participated in 2013 and 2015, where I received the Bronze Award."
+        ]
+      ]
+    },
+    "more": {
+      "title": "More Awards",
+      "date": "Various",
+      "img": "awards",
+      "link": "awards/awards",
+      "ignore": true
+    },
+    "admin-support": {
+      "title": "Best Trainee Award for Admin Support Course",
+      "date": "2019",
+      "img": "scdf",
+      "description": [
+        [
+          "During the training period at the start of my National Service, I underwent training for my vocation. The training mainly consisted of basic Microsoft Office skills, as well as memorise a list of routine orders, and included multiple test components. Amongst the 50+ trainees during the programme, I managed to achieve the best results."
+        ]
+      ]
+    },
+    "australian": {
+      "title": "Australian Mathematics Competition (High Distinction)",
+      "date": "2018",
+      "img": "australianmc"
+    },
+    "euclid": {
+      "title": "Euclid Contest (Distinction)",
+      "date": "2017, 2018",
+      "img": "euclid"
+    },
+    "seamo": {
+      "title": "Southeast Asian Math Olympiad (Bronze)",
+      "date": "2017",
+      "img": "seamo"
+    },
+    "noi": {
+      "title": "National Olympiad in Informatics (Participation)",
+      "date": "2018",
+      "img": "nus"
+    },
+    "simc": {
+      "title": "Singapore International Maths Challenge (Participation)",
+      "date": "2018",
+      "img": "nus"
+    },
+    "spho": {
+      "title": "Singapore Physics Olympiad (Participation)",
+      "date": "2017",
+      "img": "nus"
     }
-  ]
+  }
 }
