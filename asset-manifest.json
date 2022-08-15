@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-react/static/css/main.184c400d.css",
-    "main.js": "/website-react/static/js/main.78c6f144.js",
+    "main.css": "/website-react/static/css/main.1adfc308.css",
+    "main.js": "/website-react/static/js/main.0faafc40.js",
     "static/media/izzhafeez.png": "/website-react/static/media/izzhafeez.4f0cd22dc48528ce0783.png",
     "static/media/desmosito.png": "/website-react/static/media/desmosito.433d02075666b474dec9.png",
     "static/media/confucius.png": "/website-react/static/media/confucius.cf3d2245b0b4268c2c10.png",
@@ -17,9 +17,11 @@
     "static/media/python.png": "/website-react/static/media/python.875c48bfc616e94afa2e.png",
     "static/media/malay.png": "/website-react/static/media/malay.f33b4ff2a7e4f6a80084.png",
     "static/media/minutes.png": "/website-react/static/media/minutes.0fe7cf9165ffcf52916d.png",
+    "static/media/vba.png": "/website-react/static/media/vba.a7427bb0ae4cb6593845.png",
     "static/media/mongo.png": "/website-react/static/media/mongo.b9e24b8bb2aef42f7ee6.png",
     "static/media/problem-solving.png": "/website-react/static/media/problem-solving.c3e86679982ef1514ff8.png",
     "static/media/game.png": "/website-react/static/media/game.dba476cf43b4d4431115.png",
+    "static/media/selenium.png": "/website-react/static/media/selenium.951cd046350299c96640.png",
     "static/media/nus.png": "/website-react/static/media/nus.ba81cd7c5c26b06f9305.png",
     "static/media/flask.png": "/website-react/static/media/flask.247545f474c37804ee3e.png",
     "static/media/euclid.png": "/website-react/static/media/euclid.3233cf893db91e6473b1.png",
@@ -27,11 +29,11 @@
     "static/media/hackerrank.png": "/website-react/static/media/hackerrank.eab675a51239a438321a.png",
     "static/media/react.png": "/website-react/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/website-react/index.html",
-    "main.184c400d.css.map": "/website-react/static/css/main.184c400d.css.map",
-    "main.78c6f144.js.map": "/website-react/static/js/main.78c6f144.js.map"
+    "main.1adfc308.css.map": "/website-react/static/css/main.1adfc308.css.map",
+    "main.0faafc40.js.map": "/website-react/static/js/main.0faafc40.js.map"
   },
   "entrypoints": [
-    "static/css/main.184c400d.css",
-    "static/js/main.78c6f144.js"
+    "static/css/main.1adfc308.css",
+    "static/js/main.0faafc40.js"
   ]
 }
