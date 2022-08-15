@@ -14,12 +14,18 @@
         ]
       ],
       "tools": [
-        "powerbi",
+        "power-bi",
         "ssms",
-        "excel",
-        "sql",
-        "sharepoint",
-        "erstudio"
+        "microsoft-excel",
+        "er-studio"
+      ],
+      "skills": [
+        "data-visualization",
+        "web-programming",
+        "operational-analysis"
+      ],
+      "languages": [
+        "sql"
       ]
     },
     "data-analytics": {
@@ -43,11 +49,24 @@
         ]
       ],
       "tools": [
+        "pandas",
+        "microsoft-excel",
+        "google-cloud-platform",
+        "tableau",
+        "qgis",
+        "flask"
+      ],
+      "skills": [
+        "geospatial-analytics",
+        "web-programming",
+        "data-mining",
+        "data-visualization",
+        "data-extraction",
+        "data-cleaning"
+      ],
+      "languages": [
         "python",
         "r",
-        "tableau",
-        "pandas",
-        "gcp",
         "ruby"
       ]
     },
@@ -65,9 +84,14 @@
         ]
       ],
       "tools": [
+        "vex-robotics"
+      ],
+      "skills": [
+        "robotics"
+      ],
+      "languages": [
         "python",
-        "c",
-        "vex"
+        "c"
       ]
     }
   }
