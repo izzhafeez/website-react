@@ -18,11 +18,11 @@
         ". My main ",
         ["link", "./merits#skills", "skills"],
         " include ",
-        ["link", "./merits/geospatial-analytics", "Geospatial Analytics"],
+        ["link", "./works/projects/geospatial-analytics", "Geospatial Analytics"],
         ", ",
-        ["link", "./merits/web-programming", "Web Programming"],
+        ["link", "./merits/projects/web-programming", "Web Programming"],
         " and ",
-        ["link", "./merits/data-mining", "Data Mining"],
+        ["link", "./merits/projects/data-mining", "Data Mining"],
         "."
       ],
       [
@@ -60,13 +60,13 @@
     "content": [
       [
         "While I have picked up many ",
-        ["link", "./merits#skills", "skills"],
+        ["link", "#skills", "skills"],
         " during my IT ",
-        ["link", "./merits#experience", "experience"], 
+        ["link", "#experience", "experience"], 
         ", most of my merits have arisen because of my self-learning and hobbies. Do also see some of the ",
-        ["link", "./merits#awards", "awards"],
+        ["link", "awards", "awards"],
         " and ",
-        ["link", "./merits#certifications", "certifications"],
+        ["link", "#certificates", "certificates"],
         " I have attained during throughout my life."
       ]
     ]
