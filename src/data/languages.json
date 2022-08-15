@@ -1,91 +1,223 @@
 {
-  "languages": [
-    {
+  "languages": {
+    "python": {
       "title": "Python",
       "date": "Since 2016",
+      "projects": true,
       "starred": true,
-      "img": "python"
+      "img": "python",
+      "description": [
+        [
+          "Python is my favourite language for all sorts of development. Mainly because of the enriched ecosystem; basically everything has a comprehensive library for it."
+        ],
+        [
+          "My first exposure to Python was the Coursera course by the University of Michigan, where I learned all sorts of Python development, from web scraping, to data clearning, to SQL queries. Due to this prior experience, I was selected to become the ",
+          ["link", "../merits/experience/robotics", "Programming Head"],
+          " of my school's Robotics Club. In July that year, I organized training sessions to teach Python to the other members of the club (even if it didn't go that well). I further used Python to participate in the National Olympiad for Informatics."
+        ],
+        [
+          "I was also selected for the Data Analytics position during my National Service, where 95% of the work was Python-based. Coupled with ",
+          ["link", "../merits/tools/details/pandas", "Pandas"],
+          ", I used Python to perform ",
+          ["link", "../merits/skills/details/operational-analysis", "Operational Analysis"],
+          " and ",
+          ["link", "../merits/skills/details/data-cleaning", "Data Cleaning"],
+          " for several projects. But my proudest achievement in Python during this period of time was my development work on the DRO project, where I managed to greatly streamline and optimise workflows."
+        ],
+        [
+          "Outside of that, I've developed quite a lot of Python projects; Some were for data science, some were Python packages. Among them, I think my geospatial projects are the most prominent, as they all build upon each other, eventually leading up to my ",
+          ["link", "../works/projects/malls-card-game", "Malls Card Game"],
+          "."
+        ]
+      ]
     },
-    {
+    "javascript": {
       "title": "JavaScript",
       "date": "Since 2017",
+      "projects": true,
       "starred": true,
-      "img": "javascript"
+      "img": "javascript",
+      "description": [
+        [
+          "JavaScript is one of the languages that nobody can avoid, as it is essential for every single aspect of the web. As such, I had an early start in JavaScript, with lots of coding practices to learn the syntax."
+        ],
+        [
+          "Early development in JavaScript involved static pages for my websites. In those, JavaScript work simply meant animations and basic functionality (like search bars). Early work also included my Telegram Bots, which were written in Google Apps Script."
+        ],
+        [
+          "But all that changed in 2021-2022, where I went full steam ahead on web programming, picking up several frameworks like ",
+          ["link", "../merits/tools/details/react-js", "React"],
+          ", ",
+          ["link", "../merits/tools/details/vue-js", "Vue"],
+          " and ",
+          ["link", "../merits/tools/details/angular-js", "Angular"],
+          ". With a partner, I also developed a ",
+          ["link", "../works/projects/notetogether", "note-sharing platform"],
+          " using additional tools like ",
+          ["link", "../merits/tools/details/node-js", "Node"],
+          " and Express."
+        ]
+      ]
     },
-    {
+    "english": {
       "title": "English",
       "date": "Native",
       "img": "english"
     },
-    {
+    "sql": {
       "title": "SQL",
       "date": "Since 2016",
-      "img": "sql"
+      "projects": true,
+      "img": "sql",
+      "description": [
+        [
+          "Professionally, I've only ever used SQL during my time at the ",
+          ["link", "../merits/experience/data-management", "Ministry of Manpower"],
+          ". In that role, I used SQL to extract and transform data for use in ",
+          ["link", "../merits/tools/details/power-bi", "Power BI"],
+          " dashboards. I also used SQL to create scripts in SQL Server Managment Studio (SSMS) as part of data pipeline development."
+        ],
+        [
+          "Outside of work, basically any of the backend work I do involves some sort of database, mostly MySQL, but I have tried PostgreSQL sometimes."
+        ]
+      ]
     },
-    {
+    "chinese": {
       "title": "Chinese",
       "date": "Since 2018",
       "img": "chinese",
-      "starred": true
+      "starred": true,
+      "description": [
+        [
+          "I started learning Chinese in 2018, where I quickly started and completed the course on Duolingo. After that, I was motivated to try out the 汉语水平考试, which is the standardized test for non-native speakers of the language. I did the HSK 3 test in late 2019, where I scored over 90% in the test. In 2021, I scored just over 70% for the HSK 5 test while in 2022, I scored in the 50-60% range."
+        ],
+        [
+          "Apart from regularly reading my news in Chinese, I have created several coding projects to assist me in my learning journey. Firstly, my language extraction package allows me to search for sample sentences programmatically. Secondly, my language database allows for enhanced search queries. Thirdly, my language-learning telegram bot helps me revise my vocabulary."
+        ]
+      ]
     },
-    {
+    "r": {
       "title": "R Language",
       "date": "Since 2019",
-      "img": "r"
+      "projects": true,
+      "img": "r",
+      "description": [
+        [
+          "R is also another language that I love using, mainly because of its %>% pipeline operator, which makes the data science process very enjoyable. Firstly, I learned R programming mostly from EDX, under the HarvardX course on Data Science. I then quickly applied it to my work in National Service, where I developed and maintained data cleaning processes in R. I also was involved in the mass-migration of R scripts into Python, which meant proficiency in both languages."
+        ]
+      ]
     },
-    {
-      "title": "Ruby",
-      "date": "Since 2019",
-      "img": "ruby"
-    },
-    {
+    "japanese": {
       "title": "Japanese",
       "date": "Since 2020",
       "img": "japanese",
-      "starred": true
+      "starred": true,
+      "description": [
+        [
+          "After Chinese, the logical progression would be to study Japanese, which turned out to be quite fun, as the grammar was interesting and very different from English. Coupled with my newfound enjoyment of anime, I learned Japanese intensely during the initial stages, as well as during the weeks leading up to my JLPT test in 2022."
+        ]
+      ]
     },
-    {
+    "java": {
       "title": "Java",
       "date": "Since 2021",
-      "img": "java"
+      "projects": true,
+      "img": "java",
+      "description": [
+        [
+          "As part of the core CS modules, learning Java was an inevitability. As such, I went along and got a head start in Java, starting a Java course in late 2021. As of now, I haven't built anything substantial in Java, though I do have some experience from course material and assignments."
+        ]
+      ]
     },
-    {
+    "ruby": {
+      "title": "Ruby",
+      "date": "Since 2019",
+      "projects": true,
+      "img": "ruby",
+      "description": [
+        [
+          "My experience in Ruby is quite brief, mainly maintaining scripts during my time in National Service. This involved a lot of stack tracing, and making sense of Ruby's weird abstractions, but I managed to get it done."
+        ],
+        [
+          "Apart from that, I have followed some tutorials to produce a Rails project, as well as made some simple improvements upon them."
+        ]
+      ]
+    },
+    "more": {
       "title": "More Languages",
       "date": "Various",
       "img": "language",
       "link": "languages/languages",
       "ignore": true
     },
-    {
+    "malay": {
       "title": "Malay",
       "date": "Native",
       "img": "malay"
     },
-    {
+    "french": {
       "title": "French",
       "date": "Since 2015",
       "img": "french"
     },
-    {
+    "rust": {
       "title": "Rust",
       "date": "Since 2022",
+      "projects": true,
       "starred": true,
-      "img": "rust"
+      "img": "rust",
+      "description": [
+        [
+          "Although Rust introduces additional complexity to C++, I find it quite enjoyable to code in Rust, and I've been using it for all sorts of things. Firstly, to practice my Data Structures, I used Rust to find optimal routes for navigating Singapore. I also used Rust to create a CLI for practicing languages, which I sometimes use."
+        ]
+      ]
     },
-    {
+    "php": {
+      "title": "PHP",
+      "date": "Since 2020",
+      "img": "php",
+      "description": [
+        [
+          "PHP development came with the web developer course, as sparing as it may be. I do understand that PHP is pretty much a dying language, but I still had to try my hands on one project."
+        ]
+      ]
+    },
+    "c": {
+      "title": "C Programming",
+      "date": "Since 2017",
+      "img": "c",
+      "description": [
+        [
+          "Apart from course work, the only time I've used C was in the form of RobotC, which was used to code up robots during my time in ",
+          ["link", "../merits/experience/robotics", "Robotics Club"],
+          "."
+        ]
+      ]
+    },
+    "c-sharp": {
       "title": "C#",
       "date": "Since 2020",
-      "img": "csharp"
+      "img": "csharp",
+      "description": [
+        [
+          "I don't have much experience in C#, mainly just coding practices, as well as my small attempt at game-making in Unity. But that was just following simple tutorials that's all."
+        ]
+      ]
     },
-    {
+    "spanish": {
       "title": "Spanish",
       "date": "Since 2018",
       "img": "spanish"
     },
-    {
+    "c++": {
       "title": "C++",
       "date": "Since 2017",
-      "img": "cpp"
+      "img": "cpp",
+      "description": [
+        [
+          "C++ was a very early language for me, maybe as early as 2013 when I was learning programming for the first time on online compilers. But I haven't developed anything substantial in C++ (much rather use Rust for development because of its package manager)."
+        ]
+      ]
     }
-  ]
+  }
 }
