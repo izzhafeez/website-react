@@ -1,9 +1,172 @@
 {
-  "skills": [
-    {
+  "skills": {
+    "geospatial-analytics": {
       "title": "Geospatial Analytics",
       "date": "Since 2019",
-      "img": ""
+      "projects": true,
+      "img": "geospatial",
+      "starred": true,
+      "description": [
+        [
+          "Due to my deep interest in geography, Geospatial Analytics is what I spend most of my coding time on. Be it malls, schools, buses, roads, MRT or others, a lot of my projects involve Singapore's urban geography in one way or another."
+        ],
+        [
+          "A typical project would first include the data extraction process, which means either performing ",
+          ["link", "../merits/skills/details/web-scraping", "Web Scraping"],
+          " or calling data from API. Next, using my ",
+          ["link", "../works/projects/geospatial-management", "Geospatial Management Tool"],
+          ", I process this data and perform ",
+          ["link", "../merits/skills/details/data-cleaning", "Data Cleaning"],
+          "."
+        ],
+        [
+          "I'd say Geospatial Analytics best describes my work during my ",
+          ["link", "../merits/experience/data-analytics", "National Service"],
+          ". Be it predicting and optimising ambulance response times, to finding trends in fire alarm data, this skill was intensely practiced during my time there."
+        ],
+        [
+          "But I think I'm most proud of my ",
+          ["link", "../works/projects/malls-card-game", "Malls Card Game"],
+          ", which really was the culmination of all the geospatial skills I've picked up till then."
+        ]
+      ]
+    },
+    "web-programming": {
+      "title": "Web Programming",
+      "date": "Since 2019",
+      "projects": true,
+      "img": "web",
+      "starred": true,
+      "description": [
+        [
+          "I've done a lot of personal websites over the years. This is version 6 of my personal website, based entirely in ",
+          ["link", "../merits/tools/details/react-js", "React.js"],
+          ". But before this, I have practiced quite a bit of UI/UX skills, incorporating design elements inspired by different sites out there."
+        ],
+        [
+          "Apart from these personal websites, I have also created actual projects that use frameworks in one way or another. This would include my ",
+          ["link", "../works/projects/notetogether", "NoteTogether"],
+          " project, which was designed using the MEVN tech stack for Orbital. Other projects use frameworks such as ",
+          ["link", "../merits/tools/details/django", "Django"],
+          ", ",
+          ["link", "../merits/tools/details/flask", "Flask"],
+          ", ",
+          ["link", "../merits/tools/details/react-js", "React.js"],
+          ", ",
+          ["link", "../merits/tools/details/angular-js", "Angular.js"],
+          ", ",
+          ["link", "../merits/languages/details/php", "PHP"],
+          " and ",
+          ["link", "../merits/languages/details/ruby", "Rails"],
+          "."
+        ],
+        [
+          "Professionally though, I've designed an organization-wide data governance portal during my time in the ",
+          ["link", "../merits/achievements/data-management", "Ministry of Manpower"],
+          ", which aimed at enforcing sound data management principles. During my time in ",
+          ["link", "../merits/experience/data-analytics", "National Service"],
+          ", I also assisted in the development of the department website."
+        ]
+      ]
+    },
+    "data-mining": {
+      "title": "Data Mining",
+      "date": "Since 2019",
+      "img": "mining",
+      "description": [
+        [
+          "Data Mining involves ",
+          ["link", "../merits/skills/details/data-extraction", "extracting"],
+          " useful information, patterns and trends from raw data. It consists firstly of understanding and preparing the business data, followed by building models and evaluating the results."
+        ],
+        [
+          "Indeed, this perfectly describes my role in ",
+          ["link", "../merits/experience/data-analytics", "National Service"],
+          ", where I was often tasked to extract data to predict and describe outcomes using machine learning processes. This mainly came in the form of the optimization model that I operated, but I also applied this to my juniors' work, supervising them in the development of data science models for the Logistics Department."
+        ]
+      ]
+    },
+    "operational-analysis": {
+      "title": "Operational Analysis",
+      "date": "Since 2019",
+      "img": "analysis",
+      "description": [
+        [
+          "Operational Analysis involves examining the current and historical perfomance of operations. Similarly to ",
+          ["link", "../merits/skills/details/data-mining", "Data Mining"],
+          ", I was heavily involved in Operational Analysis during my time in ",
+          ["link", "../merits/experience/data-analytics", "National Service"],
+          ". This included the visualizations I've done using ",
+          ["link", "../merits/tools/details/qgis", "QGIS"],
+          ", ",
+          ["link", "../merits/tools/details/tableau", "Tableau"],
+          " and ",
+          ["link", "../merits/languages/details/python", "Python"],
+          ". Mainly, senior officers from other departments would approach my supervisor for assistance (since we are the analytics branch). Then, my supervisor would explain to me the situation the department is in, and what needs to be accomplished through the data. Then, I would proceed with the analysis, finding as many useful trends as I can, before presenting the findings."
+        ]
+      ]
+    },
+    "data-visualization": {
+      "title": "Data Visualization",
+      "date": "Since 2019",
+      "img": "visualization",
+      "description": [
+        [
+          "There isn't any particular personal project that I fully applied data visualization on.  However, I do have quite a bit of professional experience in this, with visualization software such as ",
+          ["link", "../merits/tools/details/tableau", "Tableau"],
+          ", ",
+          ["link", "../merits/tools/details/power-bi", "Power BI"],
+          ", ",
+          ["link", "../merits/tools/details/qgis", "QGIS"],
+          " and Seaborn."
+        ],
+        [
+          "During my time in the ",
+          ["link", "../merits/experience/data-managment", "Ministry of Manpower"],
+          " as well as ",
+          ["link", "../merits/experience/data-analytics", "SCDF"],
+          ", I've done many ad-hoc dashboards (that I don't think I'm allowed to go into detail)."
+        ],
+        [
+          "I also participated in the Data Analytics Competition organized by the NUS Statistics and Data Science Society, where teams had to visualize Grab taxi data."
+        ]
+      ]
+    },
+    "data-extraction": {
+      "title": "Data Extraction",
+      "date": "Since 2019",
+      "projects": true,
+      "img": "extraction",
+      "description": [
+        [
+          "Data Extraction is an essential part of the data science process, as it is responsible for retrieving the data."
+        ],
+        [
+          "This can be achieved through Web Scraping, which is just my favourite thing to do. Professionally, I haven't had to do much, just extract information about Community Centres and Neighbourhood Police Posts. However, as part of my personal projects, I've done quite a lot. For my language-learning adventures, I used a lot of web scraping to extract sample sentences given a certain queried word. As part of my geospatial adventures, I used web scraping to extract data pertaining to all sorts of features such as malls, schools and basically anything that doesn't yet have an official dataset."
+        ]
+      ]
+    },
+    "data-cleaning": {
+      "title": "Data Cleaning",
+      "date": "Since 2019",
+      "img": "cleaning",
+      "description": [
+        [
+          "The data cleaning process involves fixing the incorrect, incomplete, duplicate or otherwise erroneous data in a dataset. With the help of inbuilt Python libraries like datetime and regex, as well as some of my own packages, I built comprehensive pipelines for processing complex data into usable formats. This included a lot of free-written text, so quite a bit of regex matching was needed to get the job done."
+        ]
+      ]
+    },
+    "robotics": {
+      "title": "Robotics",
+      "date": "Since 2017",
+      "img": "vex",
+      "description": [
+        [
+          "As an EXCO member of my ",
+          ["link", "../merits/experience/robotics", "Robotics Club"],
+          ", I was heavily involved in Robotics, specifically VEX Robotics. After spending over a year in the club, I've picked up quite a few things along the way."
+        ]
+      ]
     }
-  ]
+  }
 }
