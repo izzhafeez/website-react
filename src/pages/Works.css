@@ -1,0 +1,14 @@
+.projects-entries, .merits-entries {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+	transition: all 1s;
+}
+
+.projects-entries {
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+}
+
+.merits-entries {
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
