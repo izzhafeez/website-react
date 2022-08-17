@@ -1,5 +1,7 @@
 .icon {
   width: 15rem;
+  height: 15rem;
+  object-fit: cover;
   border-radius: 50%;
   border: 0.5rem solid var(--je);
   background-color: white;
@@ -23,12 +25,12 @@
   background-color: white;
 }
 
-.mini-icon ~ div {
+.mini-icon ~ * {
   display: none;
   position: absolute;
 }
 
-.mini-icon:hover ~ div {
+.mini-icon:hover ~ * {
   display: block;
 }
 
