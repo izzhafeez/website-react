@@ -12,17 +12,19 @@ import Text from '../components/Text.js';
 import Merit from '../components/Merit.js';
 import Experience from '../components/Experience.js';
 
-import desmosito from '../assets/desmosito.png';
+import merits from '../assets/merits.png';
 
 function Merits() {
   const experiencesPreview = Object.keys(experiencesData.experiences).map((key, experience) => {
+    const merit = experiencesData.experiences[key];
+    merit["key"] = key;
     return (
       <Experience
-        experience={experiencesData.experiences[key]}
+        merit={merit}
       ></Experience>
     );
   });
-  const certificatesPreview = Object.keys(certificatesData.certificates).map((key, certificate) => {
+  const certificatesPreview = Object.keys(certificatesData.certificates).slice(0, 6).map((key, certificate) => {
     const merit = certificatesData.certificates[key];
     merit["key"] = key;
     merit["kind"] = "certificates";
@@ -32,7 +34,7 @@ function Merits() {
       ></Merit>
     );
   });
-  const awardsPreview = Object.keys(awardsData.awards).slice(0, 5).map((key, award) => {
+  const awardsPreview = Object.keys(awardsData.awards).slice(0, 6).map((key, award) => {
     const merit = awardsData.awards[key];
     merit["key"] = key;
     merit["kind"] = "awards";
@@ -42,7 +44,7 @@ function Merits() {
       ></Merit>
     );
   });
-  const languagesPreview = Object.keys(languagesData.languages).slice(0, 10).map((key, language) => {
+  const languagesPreview = Object.keys(languagesData.languages).slice(0, 6).map((key, language) => {
     const merit = languagesData.languages[key];
     merit["key"] = key;
     merit["kind"] = "languages";
@@ -52,7 +54,7 @@ function Merits() {
       ></Merit>
     );
   });
-  const toolsPreview = Object.keys(toolsData.tools).slice(0, 10).map((key, tool) => {
+  const toolsPreview = Object.keys(toolsData.tools).slice(0, 6).map((key, tool) => {
     const merit = toolsData.tools[key];
     merit["key"] = key;
     merit["kind"] = "tools";
@@ -62,7 +64,7 @@ function Merits() {
       ></Merit>
     );
   });
-  const skillsPreview = Object.keys(skillsData.skills).slice(0, 10).map((key, skill) => {
+  const skillsPreview = Object.keys(skillsData.skills).slice(0, 6).map((key, skill) => {
     const merit = skillsData.skills[key];
     merit["key"] = key;
     merit["kind"] = "skills";
@@ -74,7 +76,7 @@ function Merits() {
   });
   return (
     <div className="page">
-      <img src={desmosito} alt="Logo" className="icon"></img>
+      <img src={merits} alt="Logo" className="icon"></img>
       <Text
         title={contentData.merits.title}
         content={contentData.merits.content}

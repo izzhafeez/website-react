@@ -30,7 +30,7 @@ function MeritsDescriptionTemplate(props) {
         title={data.title.toUpperCase()}
         content={data.description}
       ></Text>
-      {data.projects && <h2><Link to={`../works/projects/${name}`}>PROJECTS</Link></h2>}
+      {data.projects && <h2><Link to={`../works/projects/search/${name}`}>PROJECTS</Link></h2>}
     </div>
   );
 }

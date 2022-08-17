@@ -1,6 +1,9 @@
 import { useParams } from 'react-router-dom';
 
 import experiencesData from '../data/experiences.json';
+import languagesData from '../data/languages.json';
+import skillsData from '../data/skills.json';
+import toolsData from '../data/tools.json';
 import logos from '../assets/logo-controller';
 
 import Text from '../components/Text';
@@ -10,7 +13,16 @@ function ExperienceTemplate() {
   const { name } = useParams();
   const experience = experiencesData.experiences[name];
   const tools = experience.tools.map((tool) => {
-    return <MiniIcon logo={logos[tool]} alt={tool}></MiniIcon>
+    const toolData = toolsData.tools[tool];
+    return <MiniIcon logo={logos[toolData.img]} alt={tool} kind="tools"></MiniIcon>
+  });
+  const skills = experience.skills.map((skill) => {
+    const skillData = skillsData.skills[skill];
+    return <MiniIcon logo={logos[skillData.img]} alt={skill} kind="skills"></MiniIcon>
+  });
+  const languages = experience.languages.map((language) => {
+    const languageData = languagesData.languages[language];
+    return <MiniIcon logo={logos[languageData.img]} alt={language} kind="languages"></MiniIcon>
   });
   return (
     <div className="page">
@@ -32,6 +44,12 @@ function ExperienceTemplate() {
       ></Text>
       <h2>TOOLS</h2>
       <div className="mini-icon-section">{tools}</div>
+      <br></br>
+      <h2>SKILLS</h2>
+      <div className="mini-icon-section">{skills}</div>
+      <br></br>
+      <h2>LANGUAGES</h2>
+      <div className="mini-icon-section">{languages}</div>
     </div>
   );
 }
