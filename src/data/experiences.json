@@ -6,7 +6,6 @@
       "start": "Feb'21",
       "end": "Jul'21",
       "description": "Designed data pipelines and dashboards to facilitate analytics",
-      "link": "/merits/experience/data-management",
       "img": "mom",
       "full-description": [
         [
@@ -22,10 +21,12 @@
       "skills": [
         "data-visualization",
         "web-programming",
-        "operational-analysis"
+        "operational-analysis",
+        "minutes-taking"
       ],
       "languages": [
-        "sql"
+        "sql",
+        "m-programming"
       ]
     },
     "data-analytics": {
@@ -35,7 +36,6 @@
       "end": "Jan'21",
       "description": "Developed and operated models to optimise the placement of ambulances",
       "starred": true,
-      "link": "/merits/experience/data-analytics",
       "img": "scdf",
       "full-description": [
         [
@@ -67,7 +67,8 @@
       "languages": [
         "python",
         "r",
-        "ruby"
+        "ruby",
+        "visual-basic-for-applications"
       ]
     },
     "robotics": {
@@ -76,7 +77,6 @@
       "start": "Jun'17",
       "end": "May'18",
       "description": "Taught and facilitated programming at Victoria Junior College",
-      "link": "/merits/experience/robotics",
       "img": "vrmc",
       "full-description": [
         [

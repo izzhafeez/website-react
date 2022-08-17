@@ -89,6 +89,11 @@
         ]
       ]
     },
+    "euclid": {
+      "title": "Euclid Contest (Distinction)",
+      "date": "2017, 2018",
+      "img": "euclid"
+    },
     "more": {
       "title": "More Awards",
       "date": "Various",
@@ -110,11 +115,6 @@
       "title": "Australian Mathematics Competition (High Distinction)",
       "date": "2018",
       "img": "australianmc"
-    },
-    "euclid": {
-      "title": "Euclid Contest (Distinction)",
-      "date": "2017, 2018",
-      "img": "euclid"
     },
     "seamo": {
       "title": "Southeast Asian Math Olympiad (Bronze)",

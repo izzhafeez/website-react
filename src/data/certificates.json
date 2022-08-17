@@ -36,6 +36,13 @@
       "external": true,
       "img": "confucius"
     },
+    "more": {
+      "title": "More Certificates",
+      "date": "Various",
+      "img": "certificates",
+      "link": "certificates/certificates",
+      "ignore": true
+    },
     "deep-learning-tensorflow": {
       "title": "Deep Learning with Tensorflow",
       "date": "Oct'20",

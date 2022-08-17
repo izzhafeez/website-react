@@ -80,6 +80,13 @@
         ]
       ]
     },
+    "more": {
+      "title": "More Tools",
+      "date": "Various",
+      "img": "tools",
+      "link": "tools/tools",
+      "ignore": true
+    },
     "node-js": {
       "title": "Node.js",
       "date": "Since 2021",
@@ -136,13 +143,6 @@
         ]
       ]
     },
-    "more": {
-      "title": "More Tools",
-      "date": "Various",
-      "img": "tools",
-      "link": "tools/tools",
-      "ignore": true
-    },
     "power-bi": {
       "title": "Power BI",
       "date": "Since 2020",
@@ -178,6 +178,37 @@
       "link": "./works/music",
       "img": "musescore"
     },
+    "express-js": {
+      "title": "Express.js",
+      "date": "Since 2022",
+      "projects": true,
+      "img": "express",
+      "description": [
+        [
+          "Along with ",
+          ["link", "../merits/tools/details/vue-js", "Vue.js"],
+          " and ",
+          ["link", "../merits/tools/details/node-js", "Note.js"],
+          ", my partner and I created a note-sharing platform for our Orbital project."
+        ]
+      ]
+    },
+    "postman": {
+      "title": "Postman",
+      "date": "Since 2022",
+      "projects": true,
+      "img": "postman",
+      "description": [
+        [
+          "Postman API is useful for testing the backend of web applications. It excels at Unit and Integration Testing, where entire test flows can be created to test different scenarios and test cases. For my ",
+          ["link", "../works/projects/notetogether", "Orbital project"],
+          ", I comprehensively tested our backend API, which was good enough for the highest level of achievement."
+        ],
+        [
+          "Despite its ease of use on small-scale testing, it does slow down a lot as it is a web program. As such, I'd much rather use Python's Request library to run the tests."
+        ]
+      ]
+    },
     "flask": {
       "title": "Flask",
       "date": "Since 2019",
@@ -198,6 +229,16 @@
       "description": [
         [
           "I've used LaTeX during my time in the Mathematics Society as well as the Astronomical Society."
+        ]
+      ]
+    },
+    "selenium": {
+      "title": "Selenium",
+      "date": "Since 2020",
+      "img": "selenium",
+      "description": [
+        [
+          "Selenium is a web scraper available to Python. It allows user mimicking, which makes it easier to test frontend code and design. Apart from this, I used it for some web scraping, but went back to BeautifulSoup as it is easier to set up."
         ]
       ]
     },
@@ -236,6 +277,16 @@
         ]
       ]
     },
+    "github-actions": {
+      "title": "GitHub Actions",
+      "date": "Since 2022",
+      "img": "github",
+      "description": [
+        [
+          "I used GitHub Actions for running CI/CD checks, as well as regression testing for my Orbital project."
+        ]
+      ]
+    },
     "vex-robotics": {
       "title": "VEX Robotics",
       "date": "Since 2017",
@@ -249,14 +300,14 @@
       ]
     },
     "ssms": {
-      "title": "SSMS",
+      "title": "SQL Server Management Studio",
       "date": "Since 2021",
       "img": "ssms",
       "description": [
         [
-          "SSMS stands for SQL Server Management Studio and was a tool I used during my time in the ",
+          "SQL Server Management Studio, also known as SSMS, was a tool I used during my time in the ",
           ["link", "../merits/experience/data-management", "Ministry of Manpower"],
-          " to develop data pipelines as part of my role in Enterprise Information Management."
+          " to develop data pipelines as part of my duties in Enterprise Information Management."
         ]
       ]
     }

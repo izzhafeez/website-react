@@ -1,0 +1,97 @@
+{
+  "projects": {
+    "malls-card-game": {
+      "title": "Malls Card Game",
+      "start": "Mar'21",
+      "end": "Current",
+      "link": "https://github.com/mynameizzhafeez/malls",
+      "external": true,
+      "starred": true,
+      "description": "A statistics-driven card game based on the shopping malls of Singapore",
+      "languages": [
+        "python",
+        "javascript"
+      ],
+      "tools": [
+        "pandas",
+        "flask",
+        "angular-js"
+      ],
+      "skills": [
+        "data-mining",
+        "geospatial-analytics",
+        "data-science",
+        "data-extraction"
+      ],
+      "full-description": [
+        [
+          ""
+        ]
+      ]
+    },
+    "notetogether": {
+      "title": "NoteTogether",
+      "start": "Mar'22",
+      "end": "Aug'22",
+      "link": "https://github.com/shotnothing/NoteTogether",
+      "external": true,
+      "starred": true,
+      "description": "A note-sharing platform with Reddit and GitHub-like functionalities",
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "tools": [
+        "mongodb",
+        "express-js",
+        "vue-js",
+        "node-js",
+        "postman",
+        "github-actions",
+        "selenium"
+      ],
+      "skills": [
+        "web-programming"
+      ],
+      "full-description": [
+        [
+          "NoteTogether is a note-sharing platform that incorporates Reddit and GitHub-like features. In essences, users can create and format their notes using our custom markdown editor, edit them, and publish them for others to see. Users can also search for notes created by others, with the option to upvote, downvote or favourite the note. If users want to make their own small edits to notes creatd by others, they can 'fork' from them, similar to GitHUb's system. Finally, this is surrounded by a credit system which encourages users to actively contribute to the platform."
+        ],
+        [
+          "Along with my partner, we developed NoteTogether using the MEVN tech stack, which included ",
+          ["link", "../merits/tools/details/mongodb", "MongoDB"],
+          " Atlas, ",
+          ["link", "../merits/tools/details/express-js", "Express"],
+          ", ",
+          ["link", "../merits/tools/details/vue-js", "Vue"],
+          " and ",
+          ["link", "../merits/tools/details/node-js", "Node"],
+          "."
+        ]
+      ]
+    },
+    "website-react": {
+      "title": "Personal React Website",
+      "start": "Jul'22",
+      "end": "Current",
+      "link": "https://github.com/mynameizzhafeez/website-react",
+      "external": true,
+      "starred": true,
+      "description": "Personal website created using the React.js library",
+      "languages": [
+        "javascript"
+      ],
+      "tools": [
+        "react-js"
+      ],
+      "skills": [
+        "web-programming"
+      ],
+      "full-description": [
+        [
+          ""
+        ]
+      ]
+    }
+  }
+}

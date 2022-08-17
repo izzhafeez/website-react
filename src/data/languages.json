@@ -59,11 +59,6 @@
         ]
       ]
     },
-    "english": {
-      "title": "English",
-      "date": "Native",
-      "img": "english"
-    },
     "sql": {
       "title": "SQL",
       "date": "Since 2016",
@@ -97,7 +92,7 @@
       ]
     },
     "r": {
-      "title": "R Language",
+      "title": "R Programming",
       "date": "Since 2019",
       "projects": true,
       "img": "r",
@@ -106,6 +101,18 @@
           "R is also another language that I love using, mainly because of its %>% pipeline operator, which makes the data science process very enjoyable. Firstly, I learned R programming mostly from EDX, under the HarvardX course on Data Science. I then quickly applied it to my work in National Service, where I developed and maintained data cleaning processes in R. I also was involved in the mass-migration of R scripts into Python, which meant proficiency in both languages."
         ]
       ]
+    },
+    "more": {
+      "title": "More Languages",
+      "date": "Various",
+      "img": "language",
+      "link": "languages/languages",
+      "ignore": true
+    },
+    "english": {
+      "title": "English",
+      "date": "Native",
+      "img": "english"
     },
     "japanese": {
       "title": "Japanese",
@@ -143,17 +150,30 @@
         ]
       ]
     },
-    "more": {
-      "title": "More Languages",
-      "date": "Various",
-      "img": "language",
-      "link": "languages/languages",
-      "ignore": true
+    "html": {
+      "title": "HTML",
+      "date": "Since 2013",
+      "img": "html",
+      "description": [
+        [
+          "I've done up my personal website countless times now (this is version 6), so I'm quite familiar with HTML and its functionalities."
+        ]
+      ]
     },
     "malay": {
       "title": "Malay",
       "date": "Native",
       "img": "malay"
+    },
+    "css": {
+      "title": "CSS",
+      "date": "Since 2013",
+      "img": "css",
+      "description": [
+        [
+          "Along with HTML, CSS is essential for every website. While I do have quite a bit of experience in Bootstrap and Tailwind, I still prefer raw css as I have most control over it."
+        ]
+      ]
     },
     "french": {
       "title": "French",
@@ -216,6 +236,28 @@
       "description": [
         [
           "C++ was a very early language for me, maybe as early as 2013 when I was learning programming for the first time on online compilers. But I haven't developed anything substantial in C++ (much rather use Rust for development because of its package manager)."
+        ]
+      ]
+    },
+    "visual-basic-for-applications": {
+      "title": "Visual Basic for Applications",
+      "date": "Since 2019",
+      "img": "vba",
+      "description": [
+        [
+          "This is the language used within Microsoft Excel. I used it only a few times, mainly maintaining existing scripts written in the language."
+        ]
+      ]
+    },
+    "m-programming": {
+      "title": "M Programming",
+      "date": "Since 2021",
+      "img": "m",
+      "description": [
+        [
+          "M is the language used for Power BI queries, serving as the gateway between the SQL data imports and the DAX data transformation. I used it 3 times during my time in the ",
+          ["link", "../merits/experience/data-management", "Ministry of Manpower"],
+          "."
         ]
       ]
     }

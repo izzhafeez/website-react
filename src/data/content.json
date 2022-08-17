@@ -60,14 +60,34 @@
     "content": [
       [
         "While I have picked up many ",
-        ["link", "#skills", "skills"],
+        ["link", "skills/skills", "skills"],
         " during my IT ",
         ["link", "#experience", "experience"], 
         ", most of my merits have arisen because of my self-learning and hobbies. Do also see some of the ",
-        ["link", "awards", "awards"],
+        ["link", "awards/awards", "awards"],
         " and ",
-        ["link", "#certificates", "certificates"],
-        " I have attained during throughout my life."
+        ["link", "certificates/certificates", "certificates"],
+        " I have attained during throughout my life, as well as the ",
+        ["link", "languages/languages", "languages"],
+        " and ",
+        ["link", "tools/tools", "tools"],
+        " that I learned along the way."
+      ]
+    ]
+  },
+  "works": {
+    "title": "WORKS",
+    "content": [
+      [
+        "A large portion of my time has always been spent on developing various ",
+        ["link", "projects", "Projects"],
+        ", ",
+        ["link", "music", "Piano Pieces"],
+        ", ",
+        ["link", "art", "Artwork"],
+        " and ",
+        ["link", "puzzles", "Puzzles"],
+        ". Do check them out here, as this site serves as a navigable dumping ground."
       ]
     ]
   }

@@ -86,6 +86,23 @@
         ]
       ]
     },
+    "music-transcription": {
+      "title": "Music Transcription",
+      "date": "Since 2019",
+      "img": "music",
+      "description": [
+        [
+          "Inspired by piano tutorial channels like LittleTranscriber, I started creating my own piano covers of popular music in early 2019. Among them, my covers of ",
+          ["link", "https://www.youtube.com/watch?v=r7WJBaBQYrQ", "Speechless", true],
+          " and ",
+          ["link", "https://www.youtube.com/watch?v=Ysz_bKoUplQ", "The Road Ahead", true],
+          " were my most popular."
+        ],
+        [
+          ["link", "../works/music/transcriptions", "TRANSCRIPTIONS"]
+        ]
+      ]
+    },
     "operational-analysis": {
       "title": "Operational Analysis",
       "date": "Since 2019",
@@ -103,6 +120,63 @@
           " and ",
           ["link", "../merits/languages/details/python", "Python"],
           ". Mainly, senior officers from other departments would approach my supervisor for assistance (since we are the analytics branch). Then, my supervisor would explain to me the situation the department is in, and what needs to be accomplished through the data. Then, I would proceed with the analysis, finding as many useful trends as I can, before presenting the findings."
+        ]
+      ]
+    },
+    "more": {
+      "title": "More Skills",
+      "date": "Various",
+      "img": "skills",
+      "link": "skills/skills",
+      "ignore": true
+    },
+    "databases": {
+      "title": "Databases",
+      "date": "Since 2017",
+      "projects": true,
+      "img": "databases",
+      "description": [
+        [
+          "My experience in databases first started when I took the Python course by the University of Michigan. It taught SQL quite briefly, but I managed to get the gist of it."
+        ],
+        [
+          "Further along, during my time in ",
+          ["link", "../merits/experience/data-managment", "Enterprise Information Management"],
+          ", I was taught various database concepts, from virtualization, to cloud storage, to ETL scripts. As such, I was involved in producing SSMS scripts as part of data pipeline development."
+        ],
+        [
+          "Besides work, my various web progamming projects also use databases in one form or another. One in ",
+          ["link", "../merits/tools/details/mongodb", "MongoDB"],
+          ", and the others in ",
+          ["link", "../merits/languages/details/sql", "SQL"],
+          "."
+        ],
+        [
+          "I also have the various databases on Google Sheets, used for various purposes. For example, 'Geo' is used for storing geospatial data while 'Language' is used for storing vocabulary and grammar points for the languages I'm currently learning."
+        ]
+      ]
+    },
+    "data-science": {
+      "title": "Data Science",
+      "date": "Since 2019",
+      "projects": true,
+      "img": "datascience",
+      "starred": true,
+      "description": [
+        [
+          "My data science journey started when I entered my ",
+          ["link", "../merits/experience/data-analytics", "National Service"],
+          ", where I was tasked with simple data-cleaning tasks. However, the complexity of my work rapidly increased when I was exposed to the DRO project, which was an analytics model used to optimise the placement of ambulances in Singapore. I operates and closely maintained the model, resolving issues on my own as much as possible. From there, I had to answer analytics queries from various departments using the findings from the model, either by using ",
+          ["link", "../merits/skills/details/data-visualization", "Data Visualization"],
+          " software or simple report files."
+        ],
+        [
+          "Besides work, however, my interests in Geography and Music took control. For geography, I made many packages and projects to assist in the data science process, which eventually led me to creating my ",
+          ["link", "../works/puzzles/mrt-puzzle", "MRT Puzzle"],
+          " whose solutions were visualized on Jupyter Notebook."
+        ],
+        [
+          "On the other hand, thanks to my knowledge on Deep Learning from my IBM course, I also developed RNN models to predict music chords, although they don't work very well."
         ]
       ]
     },
@@ -146,6 +220,21 @@
         ]
       ]
     },
+    "game-development": {
+      "title": "Game Development",
+      "date": "Since 2021",
+      "projects": true,
+      "img": "game",
+      "description": [
+        [
+          "While I do know some basic C# and programming in Unity, most of my game development was done in Python, mainly creating my ",
+          ["link", "../works/projects/malls-card-game", "Malls Card Game"],
+          ". I have also been working on my ",
+          ["link", "../works/projects/regex-codewords", "Regex Codewords Game"],
+          ", which uses employs the use of JavaScript regex."
+        ]
+      ]
+    },
     "data-cleaning": {
       "title": "Data Cleaning",
       "date": "Since 2019",
@@ -153,6 +242,38 @@
       "description": [
         [
           "The data cleaning process involves fixing the incorrect, incomplete, duplicate or otherwise erroneous data in a dataset. With the help of inbuilt Python libraries like datetime and regex, as well as some of my own packages, I built comprehensive pipelines for processing complex data into usable formats. This included a lot of free-written text, so quite a bit of regex matching was needed to get the job done."
+        ]
+      ]
+    },
+    "cloud-computing": {
+      "title": "Cloud Computing",
+      "date": "Since 2019",
+      "projects": true,
+      "img": "gcp",
+      "description": [
+        [
+          "Early tasks in cloud computing were to manage and use the APIs on Google Suite to assist in analytics work during my time in ",
+          ["link", "../merits/experience/data-analytics", "National Service"],
+          ". Further training in ",
+          ["link", "../merits/experience/data-management", "Enterprise Information Management"],
+          " introduced me to AWS and Azure cloud features."
+        ],
+        [
+          "But I think the most impactful projects I've made using Cloud Computing were my Telegram Bots, which operated on Google's Cloud Platform (",
+          ["link", "../merits/tools/details/gcp", "GCP"],
+          ")."
+        ]
+      ]
+    },
+    "minutes-taking": {
+      "title": "Minutes-Taking",
+      "date": "Since 2021",
+      "img": "minutes",
+      "description": [
+        [
+          "As part of my work in ",
+          ["link", "../merits/experience/data-management", "Enterprise Information Management"],
+          ", I sat in various departmental meetings where I had to record down minutes and summarise their key points. This improved my note-taking skills, as well as my ability to summarise large chunks of text."
         ]
       ]
     },
