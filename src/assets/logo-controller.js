@@ -73,6 +73,7 @@ import analysis from './logo/analysis.png';
 import cleaning from './logo/cleaning.png';
 import databases from './logo/databases.png';
 import datascience from './logo/datascience.png';
+import datastructures from './logo/datastructures.png';
 import extraction from './logo/extraction.png';
 import game from './logo/game.png';
 import geospatial from './logo/geospatial.png';
@@ -83,6 +84,9 @@ import problemsolving from './logo/problem-solving.png';
 import skills from './logo/skills.png';
 import visualization from './logo/visualization.png';
 import web from './logo/web.png';
+
+import notetogether from './logo/notetogether.png';
+import projects from './logo/projects.png';
 
 const publicDict = {
 }
@@ -172,6 +176,7 @@ const skillsDict = {
   cleaning: cleaning,
   databases: databases,
   datascience: datascience,
+  datastructures: datastructures,
   extraction: extraction,
   game: game,
   geospatial: geospatial,
@@ -184,6 +189,11 @@ const skillsDict = {
   web: web,
 }
 
+const projectsDict = {
+  notetogether: notetogether,
+  projects: projects,
+}
+
 var logos = {
   ...publicDict,
   ...experiencesDict,
@@ -191,6 +201,7 @@ var logos = {
   ...certificatesDict,
   ...toolsDict,
   ...skillsDict,
+  ...projectsDict,
 };
 
 export default logos;
