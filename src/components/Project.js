@@ -6,7 +6,7 @@ import languagesData from '../data/languages.json';
 import toolsData from '../data/tools.json';
 
 function Project(props) {
-  const languages = props.project.languages.map((language) => {
+  const languages = !props.project.languages ? "" : props.project.languages.map((language) => {
     const languageData = languagesData.languages[language];
     return (
       <span>
@@ -15,7 +15,7 @@ function Project(props) {
       </span>
     )
   });
-  const tools = props.project.tools.map((tool) => {
+  const tools = !props.project.tools ? "" : props.project.tools.map((tool) => {
     const toolData = toolsData.tools[tool];
     return (
       <span>
@@ -24,18 +24,36 @@ function Project(props) {
       </span>
     )
   });
-  const merits = [...languages.slice(0, 4), ...tools.slice(0, 4)].slice(0, 6);
+  const merits = [...languages.slice(0, 4), ...tools.slice(0, 4)];
   return (
     <div className="project">
-      <div className="project-duration">{props.project.start} - {props.project.end}</div>
+      {
+        props.project.start && 
+        <div className="project-duration">{props.project.start} - {props.project.end}</div>
+      }
       <div className="project-title">
-        <Link to={`../works/projects/${props.project.key}`}>
-          {props.project.title}
-        </Link>
+        {
+          props.project.repo &&
+          <Link to={`../works/projects/${props.project.key}`}>
+            {props.project.title}
+          </Link>
+        }
+        {
+          !props.project.repo &&
+          <Link to={props.project.link}>
+            {props.project.title}
+          </Link>
+        }
         {props.project.starred && <star> ★</star>}
       </div>
-      <div className="project-description">{props.project.description}</div>
-      <div className="project-merits">{merits}</div>
+      {
+        props.project.description &&
+        <div className="project-description">{props.project.description}</div>
+      }
+      {
+        props.project.languages &&
+        <div className="project-merits">{merits}</div>
+      }
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Merit(props) {
         <MicroIcon logo={logos[props.merit.img]} alt={props.merit.img}></MicroIcon>
         {
           props.merit.description &&
-          <Link to={`../merits/${props.merit.kind}/details/${props.merit.key}`}>
+          <Link to={`../merits/${props.merit.kind}/${props.merit.key}`}>
             {props.merit.title}
           </Link>
         }

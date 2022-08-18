@@ -10,7 +10,7 @@
 .mini-icon {
   width: 3rem;
   height: 3rem;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 50%;
   border: 1px solid var(--dark-text);
   background-color: white;
@@ -36,6 +36,7 @@
 
 .mini-icon-section {
   width: 100%;
-  display: flex;
-  gap: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
 }
