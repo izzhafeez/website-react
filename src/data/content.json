@@ -18,16 +18,16 @@
         ". My main ",
         ["link", "./merits#skills", "skills"],
         " include ",
-        ["link", "./works/projects/geospatial-analytics", "Geospatial Analytics"],
+        ["link", "./merits/skills/geospatial-analytics", "Geospatial Analytics"],
         ", ",
-        ["link", "./merits/projects/web-programming", "Web Programming"],
+        ["link", "./merits/skills/web-programming", "Web Programming"],
         " and ",
-        ["link", "./merits/projects/data-mining", "Data Mining"],
+        ["link", "./merits/skills/data-mining", "Data Mining"],
         "."
       ],
       [
         "In my spare time, I learn new ",
-        ["link", "./merits/languages/languages", "languages"], 
+        ["link", "./merits/languages", "languages"], 
         ", build ",
         ["link", "./works/geography/", "geography projects"],
         ", arrange ",
@@ -60,17 +60,17 @@
     "content": [
       [
         "While I have picked up many ",
-        ["link", "skills/skills", "skills"],
+        ["link", "skills", "skills"],
         " during my IT ",
         ["link", "#experience", "experience"], 
         ", most of my merits have arisen because of my self-learning and hobbies. Do also see some of the ",
-        ["link", "awards/awards", "awards"],
+        ["link", "awards", "awards"],
         " and ",
-        ["link", "certificates/certificates", "certificates"],
+        ["link", "certificates", "certificates"],
         " I have attained during throughout my life, as well as the ",
-        ["link", "languages/languages", "languages"],
+        ["link", "languages", "languages"],
         " and ",
-        ["link", "tools/tools", "tools"],
+        ["link", "tools", "tools"],
         " that I learned along the way."
       ]
     ]
