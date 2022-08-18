@@ -17,11 +17,11 @@
         ],
         [
           "I was also selected for the Data Analytics position during my National Service, where 95% of the work was Python-based. Coupled with ",
-          ["link", "../merits/tools/details/pandas", "Pandas"],
+          ["link", "../merits/tools/pandas", "Pandas"],
           ", I used Python to perform ",
-          ["link", "../merits/skills/details/operational-analysis", "Operational Analysis"],
+          ["link", "../merits/skills/operational-analysis", "Operational Analysis"],
           " and ",
-          ["link", "../merits/skills/details/data-cleaning", "Data Cleaning"],
+          ["link", "../merits/skills/data-cleaning", "Data Cleaning"],
           " for several projects. But my proudest achievement in Python during this period of time was my development work on the DRO project, where I managed to greatly streamline and optimise workflows."
         ],
         [
@@ -46,15 +46,15 @@
         ],
         [
           "But all that changed in 2021-2022, where I went full steam ahead on web programming, picking up several frameworks like ",
-          ["link", "../merits/tools/details/react-js", "React"],
+          ["link", "../merits/tools/react-js", "React"],
           ", ",
-          ["link", "../merits/tools/details/vue-js", "Vue"],
+          ["link", "../merits/tools/vue-js", "Vue"],
           " and ",
-          ["link", "../merits/tools/details/angular-js", "Angular"],
+          ["link", "../merits/tools/angular-js", "Angular"],
           ". With a partner, I also developed a ",
           ["link", "../works/projects/notetogether", "note-sharing platform"],
           " using additional tools like ",
-          ["link", "../merits/tools/details/node-js", "Node"],
+          ["link", "../merits/tools/node-js", "Node"],
           " and Express."
         ]
       ]
@@ -69,7 +69,7 @@
           "Professionally, I've only ever used SQL during my time at the ",
           ["link", "../merits/experience/data-management", "Ministry of Manpower"],
           ". In that role, I used SQL to extract and transform data for use in ",
-          ["link", "../merits/tools/details/power-bi", "Power BI"],
+          ["link", "../merits/tools/power-bi", "Power BI"],
           " dashboards. I also used SQL to create scripts in SQL Server Managment Studio (SSMS) as part of data pipeline development."
         ],
         [
@@ -106,7 +106,7 @@
       "title": "More Languages",
       "date": "Various",
       "img": "language",
-      "link": "languages/languages",
+      "link": "languages",
       "ignore": true
     },
     "english": {

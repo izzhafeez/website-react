@@ -4,9 +4,9 @@
       "title": "Malls Card Game",
       "start": "Mar'21",
       "end": "Current",
-      "link": "https://github.com/mynameizzhafeez/malls",
-      "external": true,
+      "repo": "https://github.com/mynameizzhafeez/malls",
       "starred": true,
+      "img": "projects",
       "description": "A statistics-driven card game based on the shopping malls of Singapore",
       "languages": [
         "python",
@@ -20,12 +20,17 @@
       "skills": [
         "data-mining",
         "geospatial-analytics",
+        "web-programming",
         "data-science",
-        "data-extraction"
+        "data-extraction",
+        "game-development"
       ],
       "full-description": [
         [
-          ""
+          "I love learning about Singapore's urban environment, including its shopping malls. As my interest grew, I began researching specific statistics for each mall, creating scripts to scrape the web and process the data."
+        ],
+        [
+          "The game I've created is a statistics-driven card game centred around risk-taking and sacrifice. The cards have eight statistics each, which may include Latitude, Longitude, Nearby Bus Services, Number of Stores, Retail Area etc. Each statistic is treated as a separate battle and each round, players will fight four battles at once. As such, players choose which of their cards will fight which battle."
         ]
       ]
     },
@@ -33,8 +38,8 @@
       "title": "NoteTogether",
       "start": "Mar'22",
       "end": "Aug'22",
-      "link": "https://github.com/shotnothing/NoteTogether",
-      "external": true,
+      "repo": "https://github.com/shotnothing/NoteTogether",
+      "img": "notetogether",
       "starred": true,
       "description": "A note-sharing platform with Reddit and GitHub-like functionalities",
       "languages": [
@@ -59,13 +64,13 @@
         ],
         [
           "Along with my partner, we developed NoteTogether using the MEVN tech stack, which included ",
-          ["link", "../merits/tools/details/mongodb", "MongoDB"],
+          ["link", "../merits/tools/mongodb", "MongoDB"],
           " Atlas, ",
-          ["link", "../merits/tools/details/express-js", "Express"],
+          ["link", "../merits/tools/express-js", "Express"],
           ", ",
-          ["link", "../merits/tools/details/vue-js", "Vue"],
+          ["link", "../merits/tools/vue-js", "Vue"],
           " and ",
-          ["link", "../merits/tools/details/node-js", "Node"],
+          ["link", "../merits/tools/node-js", "Node"],
           "."
         ]
       ]
@@ -74,10 +79,10 @@
       "title": "Personal React Website",
       "start": "Jul'22",
       "end": "Current",
-      "link": "https://github.com/mynameizzhafeez/website-react",
-      "external": true,
+      "repo": "https://github.com/mynameizzhafeez/website-react",
+      "img": "react",
       "starred": true,
-      "description": "Personal website created using the React.js library",
+      "description": "Responsive personal website created using the React.js library",
       "languages": [
         "javascript"
       ],
@@ -89,7 +94,78 @@
       ],
       "full-description": [
         [
-          ""
+          "This is the current version of my website, using the React library as my frontend. It features some of the works I've done, the merites I've attained, and a blog where I share some of my experiences."
+        ],
+        [
+          "It contains many other projects within it, accessed through different subpages in the site."
+        ]
+      ]
+    },
+    "more": {
+      "title": "More Projects",
+      "link": "projects",
+      "img": "project",
+      "ignore": true
+    },
+    "geospatial-management": {
+      "title": "Geo Management System",
+      "start": "Feb'22",
+      "end": "Jul'22",
+      "repo": "https://github.com/mynameizzhafeez/geo",
+      "img": "languages",
+      "starred": true,
+      "description": "A Python package to process and manage geospatial data in Singapore",
+      "languages": [
+        "python"
+      ],
+      "tools": [
+        "pandas",
+        "google-cloud-platform"
+      ],
+      "skills": [
+        "geospatial-analytics",
+        "data-structures",
+        "data-mining"
+      ],
+      "full-description": [
+        [
+          "This Python package processes and manages data about various geospatial features in Singapore, including the planning areas, malls, schools, MRT system and bus services."
+        ],
+        [
+          "I created this to support my other projects like ",
+          ["link", "../works/projects/malls-card-game", "Malls Card Game"],
+          ", ",
+          ["link", "../works/projects/meetupmaker", "MeetupMaker"],
+          " and my ",
+          ["link", "../works/puzzles/mrt-puzzle", "MRT Puzzle"],
+          "."
+        ],
+        [
+          "Apart from that, I practiced strong type annotations and programming practices. I also implemented quite a lot of useful data structures, such as the KDTree, AVLTree, Priority Queue and my own BoundsTree."
+        ]
+      ]
+    },
+    "meetupmaker": {
+      "title": "MeetupMaker",
+      "start": "Jun'22",
+      "end": "Jul'22",
+      "repo": "https://github.com/mynameizzhafeez/MeetupMaker",
+      "img": "projects",
+      "description": "A geospatial app that recommends meetup locations based on user positions",
+      "languages": [
+        "python"
+      ],
+      "tools": [
+        "django"
+      ],
+      "skills": [
+        "web-programming",
+        "geospatial-analytics",
+        "databases"
+      ],
+      "full-description": [
+        [
+          "MeetupMaker was built using Django REST API and helps users make decisions on when and where to meet up with friends. For example, users want to meet up after their work ends. So, a request is sent with information regarding their work location and work end time, and a recommended meetup location is returned. It will be expanded upon to include better search criteria."
         ]
       ]
     }

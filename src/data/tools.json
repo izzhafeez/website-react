@@ -9,21 +9,21 @@
       "description": [
         [
           "Pandas is by far my most used programming tool (apart from ",
-          ["link", "../merits/tools/details/python", "Python"],
+          ["link", "../merits/tools/python", "Python"],
           "). It started during my National Service in 2019, where I started to deal with lots of csv files. Initially, when I didn't know about Pandas, I used to read the csv as a string, and handle all the parsing on my own. Quickly though, my senior introduced me to this package, and I've never turned back."
         ],
         [
           "At the time, I used Pandas for all sorts of tasks. I mainly used it for ",
-          ["link", "../merits/skills/details/operational-analysis", "Operational Analysis"],
+          ["link", "../merits/skills/operational-analysis", "Operational Analysis"],
           " where I first cleaned the data before performing visualizations. But I also used it for data compilation, where I created pipelines to produce analytics reports and master files."
         ],
         [
           "Nowadays, I use Pandas in nearly every single one of my projects; I used it with ",
-          ["link", "../merits/skills/details/data-science", "Data Science"],
+          ["link", "../merits/skills/data-science", "Data Science"],
           ", ",
-          ["link", "../merits/skills/details/web-programming", "Web Programming"],
+          ["link", "../merits/skills/web-programming", "Web Programming"],
           " and ",
-          ["link", "../merits/skills/details/game-development", "Game Development"],
+          ["link", "../merits/skills/game-development", "Game Development"],
           "."
         ]
       ]
@@ -52,9 +52,9 @@
       "description": [
         [
           "While I briefly touched MongoDB during in early 2021, much of my experience comes from my development of ",
-          ["link", "../works/projects/details/notetogether", "NoteTogether"],
+          ["link", "../works/projects/notetogether", "NoteTogether"],
           " with a partner. This was a full-stack MEVN project, with MongoDB Atlas as its database. With some prior experience in ",
-          ["link", "../merits/skills/details/data-modeling", "Data Modeling"],
+          ["link", "../merits/skills/data-modeling", "Data Modeling"],
           " I designed a lot of the data models that were used in the final product, adjusting to MongoDB's unique properties. I got as far as using MongoDB Atlas' dashboarding to analyse the data stored within the database."
         ],
         [
@@ -75,7 +75,7 @@
       "description": [
         [
           "For our ",
-          ["link", "../works/projects/details/notetogether", "Orbital project"],
+          ["link", "../works/projects/notetogether", "Orbital project"],
           ", my partner and I decided to use Vue.js as our frontend framework. Despite the great reviews, this turned out to be a difficult experience, as many packages lacked support in Vue; we had to make do with what's available. Despite this, I'm glad our combined frontend skills were sufficient in producing a neat final design."
         ]
       ]
@@ -84,7 +84,7 @@
       "title": "More Tools",
       "date": "Various",
       "img": "tools",
-      "link": "tools/tools",
+      "link": "tools",
       "ignore": true
     },
     "node-js": {
@@ -95,7 +95,7 @@
       "description": [
         [
           "For our ",
-          ["link", "../works/projects/details/notetogether", "Orbital project"],
+          ["link", "../works/projects/notetogether", "Orbital project"],
           ", my partner and I decided to use MEVN as our tech stack, which meant using Node.js. Despite the great reviews, this turned out to be a difficult experience, as many packages lacked support in Vue; we had to make do with what's available."
         ]
       ]
@@ -138,7 +138,7 @@
       "description": [
         [
           "I was first introduced to QGIS during my second year in National Service, as part of my work in ",
-          ["link", "../merits/skills/details/operational-analysis", "Operational Analysis"],
+          ["link", "../merits/skills/operational-analysis", "Operational Analysis"],
           ". However, as I started to create more geospatial projects, the need for such visualization increased, and I used QGIS more and more often. But I pretty much do it for myself and make my own explorations of data."
         ]
       ]
@@ -186,9 +186,9 @@
       "description": [
         [
           "Along with ",
-          ["link", "../merits/tools/details/vue-js", "Vue.js"],
+          ["link", "../merits/tools/vue-js", "Vue.js"],
           " and ",
-          ["link", "../merits/tools/details/node-js", "Note.js"],
+          ["link", "../merits/tools/node-js", "Note.js"],
           ", my partner and I created a note-sharing platform for our Orbital project."
         ]
       ]
@@ -217,7 +217,7 @@
       "description": [
         [
           "Like ",
-          ["link", "../merits/tools/details/django", "Django"],
+          ["link", "../merits/tools/django", "Django"],
           ", I've experimented several times with creating new projects using Flask. Only to scrap those projects later on because a better technology existed to perform the same task. However, I have done quite a bit of maintainence work on Flask projects during my time in National Service. I mostly needed to understand how the code works, and where to fix should something go wrong."
         ]
       ]
@@ -270,9 +270,9 @@
       "description": [
         [
           "While my knowledge on Angular is not as good as mine for ",
-          ["link", "../merits/tools/details/react-js", "React"],
+          ["link", "../merits/tools/react-js", "React"],
           " and ",
-          ["link", "../merits/tools/details/vue-js", "Vue"],
+          ["link", "../merits/tools/vue-js", "Vue"],
           ", some skills can indeed be transferred over. I'm currently working on a Flask-Angular project for this."
         ]
       ]

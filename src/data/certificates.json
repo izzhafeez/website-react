@@ -40,7 +40,7 @@
       "title": "More Certificates",
       "date": "Various",
       "img": "certificates",
-      "link": "certificates/certificates",
+      "link": "certificates",
       "ignore": true
     },
     "deep-learning-tensorflow": {
@@ -68,13 +68,13 @@
     "linkedin-certs": {
       "title": "LinkedIn Certificates",
       "date": "Various",
-      "link": "/merits/certificates/linkedin",
+      "link": "/merits/linkedin",
       "img": "linkedin"
     },
     "hackerrank-certs": {
       "title": "Hackerrank Certificates",
       "date": "Various",
-      "link": "/merits/certificates/hackerrank",
+      "link": "/merits/hackerrank",
       "img": "hackerrank"
     }
   },
