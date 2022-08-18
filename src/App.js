@@ -9,11 +9,12 @@ import Navbar from './components/Navbar.js';
 import Home from './pages/Home';
 
 import Merits from './pages/Merits';
-import MeritsDescriptionTemplate from './pages/MeritsDescriptionTemplate';
+import MeritsDescTemplate from './pages/MeritsDescTemplate';
 import MeritsTemplate from './pages/MeritsTemplate';
-import ExperienceTemplate from './pages/ExperienceTemplate';
+import ExperienceDescTemplate from './pages/ExperienceDescTemplate';
 
 import Works from './pages/Works';
+import ProjectsDescTemplate from './pages/ProjectsDescTemplate';
 import ProjectsTemplate from './pages/ProjectsTemplate';
 
 function App() {
@@ -28,21 +29,18 @@ function App() {
             <Route path="merits" element={<Merits />} />
             <Route path="works" element={<Works />} />
 
-            <Route path="merits/experience/:name" element={<ExperienceTemplate />} />
+            <Route path="merits/experience/:name" element={<ExperienceDescTemplate />} />
 
-            <Route path="merits/awards/:name" element={<MeritsTemplate dataPath="awards"/>} />
-            <Route path="merits/certificates/:name" element={<MeritsTemplate dataPath="certificates"/>} />
-            <Route path="merits/languages/:name" element={<MeritsTemplate dataPath="languages"/>} />
-            <Route path="merits/tools/:name" element={<MeritsTemplate dataPath="tools"/>} />
-            <Route path="merits/skills/:name" element={<MeritsTemplate dataPath="skills"/>} />
+            <Route path="merits/:kind" element={<MeritsTemplate/>} />
 
-            <Route path="merits/awards/details/:name" element={<MeritsDescriptionTemplate dataPath="awards"/>} />
-            <Route path="merits/certificates/details/:name" element={<MeritsDescriptionTemplate dataPath="certificates"/>} />
-            <Route path="merits/languages/details/:name" element={<MeritsDescriptionTemplate dataPath="languages"/>} />
-            <Route path="merits/skills/details/:name" element={<MeritsDescriptionTemplate dataPath="skills"/>} />
-            <Route path="merits/tools/details/:name" element={<MeritsDescriptionTemplate dataPath="tools"/>} />
+            <Route path="merits/awards/:name" element={<MeritsDescTemplate dataPath="awards"/>} />
+            <Route path="merits/certificates/:name" element={<MeritsDescTemplate dataPath="certificates"/>} />
+            <Route path="merits/languages/:name" element={<MeritsDescTemplate dataPath="languages"/>} />
+            <Route path="merits/skills/:name" element={<MeritsDescTemplate dataPath="skills"/>} />
+            <Route path="merits/tools/:name" element={<MeritsDescTemplate dataPath="tools"/>} />
 
-            <Route path="works/projects/:name" element={<ProjectsTemplate/>} />
+            <Route path="works/projects" element={<ProjectsTemplate/>} />
+            <Route path="works/projects/:name" element={<ProjectsDescTemplate/>} />
 
             <Route
               path="full-page"
