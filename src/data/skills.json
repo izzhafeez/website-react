@@ -156,6 +156,26 @@
         ]
       ]
     },
+    "web-scraping": {
+      "title": "Web Scraping",
+      "date": "Since 2019",
+      "projects": true,
+      "img": "webscraping",
+      "starred": true,
+      "description": [
+        [
+          "Web scraping is one of my favourite things to do in the world of data science. Exploring different websites, finding patterns within data, and extracting and parsing the relevant information is quite satisfying to me. It gives a much better indication to me whether I did my job properly, as compared to machine learning and AI."
+        ],
+        [
+          "My first proper taste of Web Scraping came during my time in National Service, where I had to extract out information pertaining to police stations and police posts, as well as community centres. This involved certain trickeries that were very fun to do."
+        ],
+        [
+          "And while I do have some experience in Selenium, I must say that most of my experience comes from BeautifulSoup and my own creation ",
+          ["link", "../works/projects/spiderman-scraper", "Spiderman Scraper"],
+          ", which is a custom web scraper I've built."
+        ]
+      ]
+    },
     "data-science": {
       "title": "Data Science",
       "date": "Since 2019",
