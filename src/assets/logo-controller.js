@@ -84,9 +84,12 @@ import problemsolving from './logo/problem-solving.png';
 import skills from './logo/skills.png';
 import visualization from './logo/visualization.png';
 import web from './logo/web.png';
+import webscraping from './logo/webscraping.png';
 
+import halal from './logo/halal.png';
 import notetogether from './logo/notetogether.png';
 import projects from './logo/projects.png';
+import spiderman from './logo/spiderman.png';
 
 const publicDict = {
 }
@@ -187,11 +190,14 @@ const skillsDict = {
   skills: skills,
   visualization: visualization,
   web: web,
+  webscraping: webscraping,
 }
 
 const projectsDict = {
+  halal: halal,
   notetogether: notetogether,
   projects: projects,
+  spiderman: spiderman,
 }
 
 var logos = {
