@@ -107,6 +107,7 @@
       "title": "Operational Analysis",
       "date": "Since 2019",
       "img": "analysis",
+      "projects": true,
       "description": [
         [
           "Operational Analysis involves examining the current and historical perfomance of operations. Similarly to ",

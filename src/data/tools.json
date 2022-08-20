@@ -170,7 +170,12 @@
     "jupyter-notebook": {
       "title": "Jupyter Notebook",
       "date": "Since 2019",
-      "img": "jupyter"
+      "img": "jupyter",
+      "description": [
+        [
+          "This is my favourite Python code editor, as it easily allows for debugging and testing. It also features useful visualization features that make it easier to work with as compared to VS Code."
+        ]
+      ]
     },
     "musescore": {
       "title": "Musescore",

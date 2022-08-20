@@ -98,7 +98,7 @@
           "This is the current version of my website, using the React library as my frontend. It features some of the works I've done, the merites I've attained, and a blog where I share some of my experiences."
         ],
         [
-          "It contains many other projects within it, accessed through different subpages in the site."
+          "It contains many other projects within it, accessed through different subpages in the site. Some preprocessing of the JS Scripts were done in Rust and Python."
         ]
       ]
     },
@@ -223,6 +223,45 @@
         ]
       ]
     },
+    "dynamic-resource-optimizer": {
+      "title": "Dynamic Resource Optimizer",
+      "start": "Feb'19",
+      "end": "Jan'21",
+      "repo": "https://scis.smu.edu.sg/news/2018/dec/17/scdf-rides-data-get-ambulances-patients-more-quickly",
+      "img": "scdf",
+      "starred": true,
+      "description": "Simulation/Optimisation model that recommends the optimal placement of emergency vehicles in Singapore",
+      "languages": [
+        "python",
+        "ruby"
+      ],
+      "tools": [
+        "google-cloud-platform",
+        "pandas",
+        "jupyter-notebook",
+        "tableau",
+        "microsoft-excel",
+        "telegram-bots",
+        "flask"
+      ],
+      "skills": [
+        "geospatial-analytics",
+        "operational-analysis",
+        "data-science",
+        "databases",
+        "data-cleaning",
+        "web-scraping",
+        "cloud-computing"
+      ],
+      "full-description": [
+        [
+          "Dynamic Resource Optimisation is a simulation and optimisation platform that recommends the optimal placement of emergency appliances to minimise overall response time in attending to emergency incidents. Although I mainly use it for producing analytics reports and predictions, I was also involved in the development of the project. In particular, my experience as an end user allowed me to implement many of my own improvements to the model. For instance, the entire analytics process was originally a six-stepped one, but I managed to drop it down to a more intuitive two steps."
+        ],
+        [
+          "Not only that, but I was also responsible for developing the master file for the project, which meant compiling information from over a dozen sources and file formats, all the while ensuring the data's accuracy. I was also responsible for generating predicted data to account for population trends. I took this project seriously, as it had tangible impact on Singapore's emergency medical response times."
+        ]
+      ]
+    },
     "chords-search-engine": {
       "title": "Chords Search Engine",
       "start": "Feb'20",
@@ -261,7 +300,18 @@
         "jupyter-notebook"
       ],
       "skills": [
-        "data-vizualisation"
+        "data-visualization"
+      ],
+      "full-description": [
+        [
+          "As part of the Mathematical Society's Weekly Puzzle Challenge, I've made this graph theory question regarding Singapore's MRT network. The question reads:"
+        ],
+        [
+          "“Your train-loving friend is travelling to Singapore for the first time and wants to visit all the MRT interchanges (shown in the picture). However, he does not want to visit or pass through any station more than once. Furthermore, he wants to take each non-LRT (non-grey) train line exactly 3 distinct times during the journey. Can you help plan his route?”"
+        ],
+        [
+          "It turns out, there are 46 possible solutions to this puzzle, and this projects details the methodology I used when extracting, parsing, solving and visualising the problem. Do forgive my code formatting; it was done in a hurry and didn't use knowledge from my CS2040S DSA course."
+        ]
       ]
     },
     "jap-vocab-trainer": {
