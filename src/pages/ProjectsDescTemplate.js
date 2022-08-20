@@ -40,11 +40,11 @@ function ProjectsDescTemplate() {
       <h2>TOOLS</h2>
       <div className="mini-icon-section">{tools}</div>
       <br></br>
-      <h2>SKILLS</h2>
-      <div className="mini-icon-section">{skills}</div>
-      <br></br>
       <h2>LANGUAGES</h2>
       <div className="mini-icon-section">{languages}</div>
+      <br></br>
+      <h2>SKILLS</h2>
+      <div className="mini-icon-section">{skills}</div>
     </div>
   );
 }
