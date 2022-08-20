@@ -84,7 +84,8 @@
       "starred": true,
       "description": "Responsive personal website created using the React.js library",
       "languages": [
-        "javascript"
+        "javascript",
+        "rust"
       ],
       "tools": [
         "react-js"
@@ -147,8 +148,8 @@
     },
     "notes-telegram-bot": {
       "title": "Notes Reviewer",
-      "start": "Oct'21",
-      "end": "Jan'22",
+      "start": "Jul'21",
+      "end": "Sep'21",
       "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/code.js",
       "img": "telegram",
       "description": "Telegram Bot that lets users review notes on the go",
@@ -168,6 +169,9 @@
         ],
         [
           "Apart from redirects that lead to further notes, this Telegram bot also features a search function, that returns a list of topics ranked by a metric of importance. It is also capable of rendering cheatsheets, for use in examinations."
+        ],
+        [
+          "Close to a dozen people have used this bot ever since it was created, and hopefully it managed to help them even a little."
         ]
       ]
     },
@@ -186,7 +190,8 @@
         "google-cloud-platform"
       ],
       "skills": [
-        "databases"
+        "databases",
+        "cloud-computing"
       ],
       "full-description": [
         [
@@ -218,28 +223,6 @@
         ]
       ]
     },
-    "jap-vocab-trainer": {
-      "title": "Japanese Vocab Trainer",
-      "start": "May'22",
-      "end": "Aug'22",
-      "repo": "https://github.com/mynameizzhafeez/jap-vocab-trainer",
-      "img": "japanese",
-      "description": "Anki-like Rust CLI application for practicing Japanese Kanji",
-      "languages": [
-        "rust"
-      ],
-      "tools": [
-        
-      ],
-      "skills": [
-
-      ],
-      "full-description": [
-        [
-          "This Rust CLI application works like Anki in that I can review my vocabulary list for Japanese. Specifically, the application tests my knowledge of kanji pronunciation, and if I get it wrong, the application will bump up that word's difficulty. It would then appear more often until I get it right."
-        ]
-      ]
-    },
     "chords-search-engine": {
       "title": "Chords Search Engine",
       "start": "Feb'20",
@@ -261,6 +244,45 @@
       "full-description": [
         [
           "In short, this module allows the user to find out the chords used in a particular song. Given the song title and song artist as parameters, the module will scrape the web for existing transcriptions for the song. Afterwards, using a series of pattern matches, the module standardises the chord progressions into the same key and further segments them into manageable sections. Finally, the data is compiled based on popularity, outputting the most accurate result. Using this standardised data, I am able to advance my development of my RNN model, which tries to predict chords based on lyrics."
+        ]
+      ]
+    },
+    "mrt-analysis": {
+      "title": "MRT Paths Analysis",
+      "start": "Sep'21",
+      "end": "Sep'21",
+      "repo": "https://github.com/mynameizzhafeez/MRT-puzzle",
+      "img": "mrt",
+      "description": "Analysis of Hamiltonian Paths in Singapore's MRT Network",
+      "languages": [
+        "python"
+      ],
+      "tools": [
+        "jupyter-notebook"
+      ],
+      "skills": [
+        "data-vizualisation"
+      ]
+    },
+    "jap-vocab-trainer": {
+      "title": "Japanese Vocab Trainer",
+      "start": "May'22",
+      "end": "Aug'22",
+      "repo": "https://github.com/mynameizzhafeez/jap-vocab-trainer",
+      "img": "japanese",
+      "description": "Anki-like Rust CLI application for practicing Japanese Kanji",
+      "languages": [
+        "rust"
+      ],
+      "tools": [
+        
+      ],
+      "skills": [
+
+      ],
+      "full-description": [
+        [
+          "This Rust CLI application works like Anki in that I can review my vocabulary list for Japanese. Specifically, the application tests my knowledge of kanji pronunciation, and if I get it wrong, the application will bump up that word's difficulty. It would then appear more often until I get it right."
         ]
       ]
     },
@@ -336,7 +358,8 @@
         "web-scraping",
         "data-mining",
         "data-extraction",
-        "geospatial-analytics"
+        "geospatial-analytics",
+        "data-cleaning"
       ],
       "full-description": [
         [
