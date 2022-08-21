@@ -15,8 +15,8 @@ function NotesDesc(props) {
   const parents = data.parents;
 
   const parentLinks = parents.map(parent => {
-    if (!parent in notesData) return;
-    return <Note note={notesData.notes[parent]}/>
+    if (parent in notesData) return <Note note={notesData.notes[parent]}/>;
+    return "";
   });
 
   const contents = Object.keys(data.contents).map((key, _) => {
@@ -24,8 +24,8 @@ function NotesDesc(props) {
     const sublinks = content.sublinks;
 
     const sublinkLinks = sublinks.map(sublink => {
-      if (!sublink in notesData.notes) return;
-      return <Note note={notesData.notes[sublink]}/>
+      if (sublink in notesData.notes) return <Note note={notesData.notes[sublink]}/>;
+      return "";
     });
 
     return [

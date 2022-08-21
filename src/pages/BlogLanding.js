@@ -26,7 +26,7 @@ function BlogLanding(props) {
       case ("modules"):
         return blog.ignore ? null : <Module module={blog}/>;
       default:
-        return;
+        return "";
     }
     
   });
