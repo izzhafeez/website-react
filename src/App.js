@@ -8,17 +8,18 @@ import Navbar from './components/Navbar.js';
 
 import Home from './pages/Home';
 
-import Merits from './pages/Merits';
-import MeritsDescTemplate from './pages/MeritsDescTemplate';
-import MeritsTemplate from './pages/MeritsTemplate';
-import ExperienceDescTemplate from './pages/ExperienceDescTemplate';
+import MeritsHome from './pages/MeritsHome';
+import MeritsDesc from './pages/MeritsDesc';
+import MeritsLanding from './pages/MeritsLanding';
+import ExperienceDesc from './pages/ExperienceDesc';
 
-import Works from './pages/Works';
-import ProjectsDescTemplate from './pages/ProjectsDescTemplate';
-import ProjectsTemplate from './pages/ProjectsTemplate';
+import WorksHome from './pages/WorksHome';
+import ProjectsDesc from './pages/ProjectsDesc';
+import ProjectsLanding from './pages/ProjectsLanding';
 
-import ModulesDescTemplate from './pages/ModulesDescTemplate';
-import NotesDescTemplate from './pages/NotesDescTemplate';
+import BlogLanding from './pages/BlogLanding';
+import ModulesDesc from './pages/ModulesDesc';
+import NotesDesc from './pages/NotesDesc';
 
 function App() {
   return (
@@ -29,24 +30,26 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="website-react" element={<Home />} />
-            <Route path="merits" element={<Merits />} />
-            <Route path="works" element={<Works />} />
+            <Route path="merits" element={<MeritsHome />} />
+            <Route path="works" element={<WorksHome />} />
 
-            <Route path="merits/experience/:name" element={<ExperienceDescTemplate />} />
+            <Route path="merits/experience/:name" element={<ExperienceDesc />} />
 
-            <Route path="merits/:kind" element={<MeritsTemplate/>} />
+            <Route path="merits/:kind" element={<MeritsLanding/>} />
 
-            <Route path="merits/awards/:name" element={<MeritsDescTemplate dataPath="awards"/>} />
-            <Route path="merits/certificates/:name" element={<MeritsDescTemplate dataPath="certificates"/>} />
-            <Route path="merits/languages/:name" element={<MeritsDescTemplate dataPath="languages"/>} />
-            <Route path="merits/skills/:name" element={<MeritsDescTemplate dataPath="skills"/>} />
-            <Route path="merits/tools/:name" element={<MeritsDescTemplate dataPath="tools"/>} />
+            <Route path="merits/awards/:name" element={<MeritsDesc dataPath="awards"/>} />
+            <Route path="merits/certificates/:name" element={<MeritsDesc dataPath="certificates"/>} />
+            <Route path="merits/languages/:name" element={<MeritsDesc dataPath="languages"/>} />
+            <Route path="merits/skills/:name" element={<MeritsDesc dataPath="skills"/>} />
+            <Route path="merits/tools/:name" element={<MeritsDesc dataPath="tools"/>} />
 
-            <Route path="blog/modules/:name" element={<ModulesDescTemplate/>} />
-            <Route path="blog/notes/:module/:name" element={<NotesDescTemplate/>} />
+            <Route path="blog/:kind" element={<BlogLanding/>} />
 
-            <Route path="works/projects" element={<ProjectsTemplate/>} />
-            <Route path="works/projects/:name" element={<ProjectsDescTemplate/>} />
+            <Route path="blog/modules/:name" element={<ModulesDesc/>} />
+            <Route path="blog/notes/:module/:name" element={<NotesDesc/>} />
+
+            <Route path="works/projects" element={<ProjectsLanding/>} />
+            <Route path="works/projects/:name" element={<ProjectsDesc/>} />
 
             <Route
               path="full-page"
@@ -54,9 +57,13 @@ function App() {
                 <div>
                   <Home></Home>
                   <br></br>
-                  <Merits></Merits>
                   <br></br>
-                  <Works></Works>
+                  <br></br>
+                  <MeritsHome></MeritsHome>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <WorksHome></WorksHome>
                 </div>
               }
             ></Route>
