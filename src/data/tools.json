@@ -180,7 +180,7 @@
     "musescore": {
       "title": "Musescore",
       "date": "Since 2019",
-      "link": "./works/music",
+      "link": "../works/music",
       "img": "musescore"
     },
     "express-js": {
