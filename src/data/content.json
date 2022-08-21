@@ -75,6 +75,16 @@
       ]
     ]
   },
+  "blog": {
+    "title": "BLOG",
+    "content": [
+      [
+        "Welcome to my blog! Here is where I share some of my experiences and thoughts on the ",
+        ["link", "modules", "modules"],
+        " I've taken."
+      ]
+    ]
+  },
   "works": {
     "title": "WORKS",
     "content": [

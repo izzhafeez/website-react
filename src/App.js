@@ -17,6 +17,7 @@ import WorksHome from './pages/WorksHome';
 import ProjectsDesc from './pages/ProjectsDesc';
 import ProjectsLanding from './pages/ProjectsLanding';
 
+import BlogHome from './pages/BlogHome';
 import BlogLanding from './pages/BlogLanding';
 import ModulesDesc from './pages/ModulesDesc';
 import NotesDesc from './pages/NotesDesc';
@@ -31,6 +32,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="website-react" element={<Home />} />
             <Route path="merits" element={<MeritsHome />} />
+            <Route path="blog" element={<BlogHome />} />
             <Route path="works" element={<WorksHome />} />
 
             <Route path="merits/experience/:name" element={<ExperienceDesc />} />
