@@ -5,11 +5,13 @@ import awardsData from '../data/awards.json';
 import certificatesData from '../data/certificates.json';
 import experiencesData from '../data/experiences.json';
 import languagesData from '../data/languages.json';
+import modulesData from '../data/modules.json';
 import skillsData from '../data/skills.json';
 import toolsData from '../data/tools.json';
 
 import Text from '../components/Text.js';
 import Merit from '../components/Merit.js';
+import Module from '../components/Module.js';
 import Experience from '../components/Experience.js';
 
 import merits from '../assets/merits.png';
@@ -74,6 +76,16 @@ function Merits() {
       ></Merit>
     );
   });
+  const modulesPreview = Object.keys(modulesData.modules).slice(0, 6).map((key, _) => {
+    const module = modulesData.modules[key];
+    module["key"] = key;
+    module["kind"] = "modules";
+    return (
+      <Module
+        module={module}
+      ></Module>
+    );
+  });
   return (
     <div className="page">
       <img src={merits} alt="Logo" className="icon"></img>
@@ -98,6 +110,9 @@ function Merits() {
       <br></br>
       <h2 id="skills">SKILLS</h2>
       <div className="merits-entries">{skillsPreview}</div>
+      <br></br>
+      <h2 id="modules">MODULES</h2>
+      <div className="merits-entries">{modulesPreview}</div>
     </div>
   );
 }
