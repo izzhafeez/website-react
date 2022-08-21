@@ -15,7 +15,7 @@ function NotesDesc(props) {
   const parents = data.parents;
 
   const parentLinks = parents.map(parent => {
-    if (parent in notesData) return <Note note={notesData.notes[parent]}/>;
+    if (parent in notesData.notes) return <Note note={notesData.notes[parent]}/>;
     return "";
   });
 
