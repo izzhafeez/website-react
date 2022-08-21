@@ -17,6 +17,8 @@ import Works from './pages/Works';
 import ProjectsDescTemplate from './pages/ProjectsDescTemplate';
 import ProjectsTemplate from './pages/ProjectsTemplate';
 
+import ModulesDescTemplate from './pages/ModulesDescTemplate';
+
 function App() {
   return (
     <div className="App">
@@ -38,6 +40,8 @@ function App() {
             <Route path="merits/languages/:name" element={<MeritsDescTemplate dataPath="languages"/>} />
             <Route path="merits/skills/:name" element={<MeritsDescTemplate dataPath="skills"/>} />
             <Route path="merits/tools/:name" element={<MeritsDescTemplate dataPath="tools"/>} />
+
+            <Route path="blog/modules/:name" element={<ModulesDescTemplate/>} />
 
             <Route path="works/projects" element={<ProjectsTemplate/>} />
             <Route path="works/projects/:name" element={<ProjectsDescTemplate/>} />
