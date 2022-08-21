@@ -8,15 +8,15 @@ import logos from '../assets/logo-controller';
 import Note from '../components/Note';
 import Text from '../components/Text';
 
-function NotesDescTemplate(props) {
+function NotesDesc(props) {
   const { name } = useParams();
-  const data = notesData[name];
+  const data = notesData.notes[name];
 
   const parents = data.parents;
 
   const parentLinks = parents.map(parent => {
     if (!parent in notesData) return;
-    return <Note note={notesData[parent]}/>
+    return <Note note={notesData.notes[parent]}/>
   });
 
   const contents = Object.keys(data.contents).map((key, _) => {
@@ -24,8 +24,8 @@ function NotesDescTemplate(props) {
     const sublinks = content.sublinks;
 
     const sublinkLinks = sublinks.map(sublink => {
-      if (!sublink in notesData) return;
-      return <Note note={notesData[sublink]}/>
+      if (!sublink in notesData.notes) return;
+      return <Note note={notesData.notes[sublink]}/>
     });
 
     return [
@@ -54,7 +54,7 @@ function NotesDescTemplate(props) {
           [
             [
               "Module: ",
-              ["link", "../blog/modules/"+data.course.toLowerCase(), data.course.toLowerCase()]
+              ["link", "../blog/modules/"+data.course.toLowerCase(), data.course.toUpperCase()]
             ],
             ["Date: " + data.date]
           ]
@@ -68,4 +68,4 @@ function NotesDescTemplate(props) {
   );
 }
 
-export default NotesDescTemplate;
+export default NotesDesc;

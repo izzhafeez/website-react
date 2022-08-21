@@ -11,7 +11,7 @@ import logos from '../assets/logo-controller';
 
 import Merit from '../components/Merit';
 
-function MeritsTemplate(props) {
+function MeritsLanding(props) {
   // const dataPath = props.dataPath;
   const dataDict = {
     awards: awardsData,
@@ -43,4 +43,4 @@ function MeritsTemplate(props) {
   )
 }
 
-export default MeritsTemplate;
+export default MeritsLanding;

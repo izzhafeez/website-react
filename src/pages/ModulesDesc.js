@@ -9,15 +9,15 @@ import logos from '../assets/logo-controller';
 import Note from '../components/Note';
 import Text from '../components/Text';
 
-function ModulesDescTemplate(props) {
+function ModulesDesc(props) {
   const { name } = useParams();
   const data = modulesData.modules[name];
   const description = [...data.description];
   description.push(["DATE: " + data.date]);
   description.push(["GRADE: " + data.grade]);
 
-  const notes = notesData[name.toUpperCase()].contents.Topics.sublinks.map(link => {
-    const note = notesData[link];
+  const notes = notesData.notes[name.toUpperCase()].contents.Topics.sublinks.map(link => {
+    const note = notesData.notes[link];
     return <Note note={note}/>;
   });
 
@@ -39,4 +39,4 @@ function ModulesDescTemplate(props) {
   );
 }
 
-export default ModulesDescTemplate;
+export default ModulesDesc;

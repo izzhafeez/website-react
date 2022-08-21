@@ -8,7 +8,7 @@ import Project from '../components/Project.js';
 
 import desmosito from '../assets/desmosito.png';
 
-function Works() {
+function WorksHome() {
   const projectsPreview = Object.keys(projectsData.projects).slice(0, 4).map((key, project) => {
     const projectData = projectsData.projects[key];
     projectData["key"] = key;
@@ -31,4 +31,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default WorksHome;

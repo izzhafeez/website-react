@@ -9,7 +9,7 @@ import logos from '../assets/logo-controller';
 import Text from '../components/Text';
 import MiniIcon from '../components/MiniIcon';
 
-function ProjectsDescTemplate() {
+function ProjectsDesc() {
   const { name } = useParams();
   const project = projectsData.projects[name];
   const tools = project.tools.map((tool) => {
@@ -49,4 +49,4 @@ function ProjectsDescTemplate() {
   );
 }
 
-export default ProjectsDescTemplate;
+export default ProjectsDesc;

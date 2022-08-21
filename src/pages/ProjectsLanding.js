@@ -5,7 +5,7 @@ import logos from '../assets/logo-controller';
 
 import Project from '../components/Project';
 
-function ProjectsTemplate(props) {
+function ProjectsLanding(props) {
   const dataPath = "projects";
   const dataDict = {
     projects: projectsData,
@@ -29,4 +29,4 @@ function ProjectsTemplate(props) {
   )
 }
 
-export default ProjectsTemplate;
+export default ProjectsLanding;

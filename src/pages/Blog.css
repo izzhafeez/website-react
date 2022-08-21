@@ -1,3 +1,5 @@
+@import "../colors/mrt.css";
+
 .notes-entries, .blog-entries {
   width: 100%;
   display: grid;
@@ -10,5 +12,17 @@
 }
 
 .blog-entries {
-  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
+
+.AP {
+  color: var(--cr);
+}
+
+.A {
+  color: var(--cc);
+}
+
+.AM {
+  color: var(--ns);
 }

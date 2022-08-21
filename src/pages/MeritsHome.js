@@ -16,7 +16,7 @@ import Experience from '../components/Experience.js';
 
 import merits from '../assets/merits.png';
 
-function Merits() {
+function MeritsHome() {
   const experiencesPreview = Object.keys(experiencesData.experiences).map((key, experience) => {
     const merit = experiencesData.experiences[key];
     merit["key"] = key;
@@ -117,4 +117,4 @@ function Merits() {
   );
 }
 
-export default Merits;
+export default MeritsHome;

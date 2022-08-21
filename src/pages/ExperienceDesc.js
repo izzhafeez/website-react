@@ -9,7 +9,7 @@ import logos from '../assets/logo-controller';
 import Text from '../components/Text';
 import MiniIcon from '../components/MiniIcon';
 
-function ExperienceDescTemplate() {
+function ExperienceDesc() {
   const { name } = useParams();
   const experience = experiencesData.experiences[name];
   const tools = experience.tools.map((tool) => {
@@ -54,4 +54,4 @@ function ExperienceDescTemplate() {
   );
 }
 
-export default ExperienceDescTemplate;
+export default ExperienceDesc;

@@ -13,7 +13,7 @@ import logos from '../assets/logo-controller';
 import Project from '../components/Project';
 import Text from '../components/Text';
 
-function MeritsDescTemplate(props) {
+function MeritsDesc(props) {
   const dataPath = props.dataPath;
   const dataDict = {
     awards: awardsData,
@@ -55,4 +55,4 @@ function MeritsDescTemplate(props) {
   );
 }
 
-export default MeritsDescTemplate;
+export default MeritsDesc;
