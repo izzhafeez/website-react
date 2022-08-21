@@ -52,7 +52,7 @@
       "code": "MA2001",
       "title": "Linear Algebra I",
       "date": "AY21/22 S1",
-      "grade": "A",
+      "grade": "A-",
       "description": [
         [
           "This module teaches about linear spaces and matrices and is a good foundational module for AI modules in CS. For me, the greatest setback I faced was the constant construction happening around me throughout the semester; it was especially bad during the final exam as the lift was being renovated on my level throughout that week."
@@ -80,6 +80,14 @@
         ]
       ]
     },
+    "more": {
+      "code": "Various",
+      "title": "More Modules",
+      "date": "Various",
+      "link": "../blog/modules",
+      "grade": "",
+      "ignore": true
+    },
     "cs2030s": {
       "code": "CS2030S",
       "title": "Programming Methodology II",
@@ -92,7 +100,110 @@
       ],
       "tips": [
         [
-          "The labs were brutal, and the marker will fault you over the smallest mistakes. So even if your code runs perfectly for all the test cases, your solution may not be perfect. For labs, make sure you handle null cases properly, as they often use this as a trick to catch us."
+          "The labs were brutal, and the marker will fault you over the smallest mistakes. So even if your code runs perfectly for all the test cases, your solution may not be perfect. So for labs, make sure you handle null cases properly, as they often use this as a trick to catch us."
+        ],
+        [
+          "If you're like me and you're struggling with diagrams (like the Stack Heap diagram), then rewrite the instructions in your own terms. You can also cross check against your tutor so that there are no conceptual errors."
+        ]
+      ]
+    },
+    "cs2040s": {
+      "code": "CS2040S",
+      "title": "Data Structures and Algorithms",
+      "date": "AY21/22 S2",
+      "grade": "A",
+      "description": [
+        [
+          "This module introduces us to the world of algorithms and problem-solving, and is super useful for coding interviews. From arrays, to trees, to graphs and more, this module has definitely helped me develop my projects. Among the data structures taught in the module, I found the AVL Tree, Priority Queue and the KD Tree to be the most useful to me, having used them to develop my ",
+          ["link", "../works/projects/geospatial-management", "Geospatial Management Tool"],
+          ". I even implemented my own Bounds Tree, which was heavily inspired by the KD Tree."
+        ]
+      ],
+      "tips": [
+        [
+          "Many of the optional practices were way too time-consuming to be worth the tiny amount of EXP on Coursemology. One notable one would be the implementation of the AVL Tree in Java. So unless you want to pursue Java all the way, it's just not worth it. It might've been better if they gave us the implementation, and ask us to improve upon it; much less pain and much more rewarding."
+        ],
+        [
+          "Overall, this module is all about problem-solving, so the best way to do well is to expose yourself to a healthy assortment of programming problems. More importantly, examine the solutions to those problems and convince yourself why they work. Leetcode it if you want, but I think tutorials and consults are good enough."
+        ]
+      ]
+    },
+    "st2334": {
+      "code": "ST2334",
+      "title": "Probability and Statistics",
+      "date": "AY21/22 S2",
+      "grade": "A+",
+      "description": [
+        [
+          "The first half of this module is basically revision for topics taught in JC; it focusses on the fundamentals of probability and basic combinatorics. However, at the middle of the module, the difficulty ramps up quite drastically. Manageable topics, but can get lost if you don't follow the lecture; it goes into the various hypothesis tests and integration techniques."
+        ],
+        [
+          "However, the most frightening thing about this module was the format of the final exam. It prevented backtracking, so we couldn't return to a previous question once past it. This led to absurd time management tactics, leaving me with 30 minutes to solve the last 2 questions (out of 35)."
+        ]
+      ],
+      "tips": [
+        [
+          "If coding scripts are available for future exams, then be sure to abuse them as much as possible. For my finals, I prepared my Python script to answer basically any question they throw at me, so all I needed to do was use the right one for the job."
+        ],
+        [
+          "Otherwise, figure out which topics are new to you, and you can safely skip the lectures for the rest of them."
+        ]
+      ]
+    },
+    "gec1030": {
+      "code": "GEC1030",
+      "title": "Metropolis: A City in World History",
+      "date": "AY21/22 S2",
+      "grade": "A-",
+      "description": [
+        [
+          "This module teaches about the evolution of cities throughout history. Coupled with loads of case studies like Istanbul, Manchester and Edo, the module details the common trends for why cities succeed, be it as a city of power, commerce, transformation etc.."
+        ],
+        [
+          "The module basically had no lectures, so that's a massive plus. So no need to do => don't do."
+        ]
+      ],
+      "tips": [
+        [
+          "Ugh I suck at essays..."
+        ]
+      ]
+    },
+    "gea1000": {
+      "code": "GEA1000",
+      "title": "Quantitative Reasoning with Data",
+      "date": "AY21/22 S2",
+      "grade": "A",
+      "description": [
+        [
+          "Made the mistake of taking this module over the more useful ST1131. But while this module doesn't progress far in terms of technical knowledge, it does make it manageable for non-STEM students. The lessons on Excel and visualization software (Radiant) I guess were important for people who haven't any experience in them. But since many of us are already familiar with Excel, it merely serves as a refresher course."
+        ],
+        [
+          "The project can be done within a weekend, so naturally, that's when all the work happens."
+        ]
+      ],
+      "tips": [
+        [
+          "Be good at CTRL-F for the notes that they give. But if it's in person for future semesters, then oops."
+        ]
+      ]
+    },
+    "is1103": {
+      "code": "IS1103",
+      "title": "Ethics in Computing",
+      "date": "AY21/22 S2",
+      "grade": "A+",
+      "description": [
+        [
+          "Absolute waste of time. Take if you want to pull your hair out for no reason whatsoever. Everyone ages 20 years when taking this module."
+        ],
+        [
+          "That aside, the content is common sense, but the questions are designed to make you question your sanity every week. Be prepared to examine all interpretations of every question, only to get the question wrong in the end."
+        ]
+      ],
+      "tips": [
+        [
+          "Just SU bro... It's not worth the mental torture."
         ]
       ]
     }

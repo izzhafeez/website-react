@@ -72,12 +72,12 @@ notes_dict.each do |key, value|
       if notes_dict.has_key?(sublink)
         notes_dict[sublink]["parents"].append(value["topic"])
       else
-        puts sublink
+        # puts sublink
       end
     end
   end
 end
 
 File.open("notes.json", "w") do |f|
-  f.write(JSON.pretty_generate(notes_dict))
+  f.write(JSON.pretty_generate({"notes" => notes_dict}))
 end
