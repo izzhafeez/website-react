@@ -1,0 +1,100 @@
+{
+  "modules": {
+    "cs1101s": {
+      "code": "CS1101S",
+      "title": "Programming Methodology I",
+      "date": "AY21/22 S1",
+      "grade": "A",
+      "description": [
+        [
+          "This module used the Source Academy platform, a derivative of JavaScript that focusses on teaching programming concepts, rather than the language itself. I quite enjoyed the module, due to the highly gamified nature of this platform. I also participated in most of the optional competitions and did most of the optional practices as well."
+        ]
+      ],
+      "tips": [
+        [
+          "Be prepared to spend a lot of time on this module. But unless you’re aiming for bonus points in CS1010R, there’s no need to complete EVERY optional task. Some of them are really difficult, and you may take a lot of time to even get something working. But when you do get it working, it is quite satisfying."
+        ]
+      ]
+    },
+    "cs1231s": {
+      "code": "CS1231S",
+      "title": "Discrete Structures",
+      "date": "AY21/22 S1",
+      "grade": "A+",
+      "description": [
+        [
+          "This module is math-intensive and usually is the first hurdle for CS students in the world of math. I found the middle sections to be the hardest, covering topics like Equivalence Relations and the deadly Cardinality."
+        ]
+      ],
+      "tips": [
+        [
+          "Proofs are the most painful part of this module and the first taste of university-level mathematical rigour. As such, it is very important to read the solutions to the proving questions, and identify patterns to help you remember. Especially for the middle topics, as those are the killer topics for this module. Get your arsenal of proofs ready in your cheatsheet, and you should be fine for most proving questions. Really helped me a lot."
+        ]
+      ]
+    },
+    "ma1521": {
+      "code": "MA1521",
+      "title": "Calculus for Computing",
+      "date": "AY21/22 S1",
+      "grade": "A",
+      "description": [
+        [
+          "This module is mainly a refresher course for calculus so naturally, the bell curve is highly skewed, and any loss of marks could just send you back a grade. I think this module was a little poorly executed, because of the lack of anti-cheat measures. But it really feels like the professor cares about his students, so he really did try his best."
+        ]
+      ],
+      "tips": [
+        [
+          "This module does introduce some new concepts in multi variate calculus and convergence tests. Figure out which weeks those fall on, and make sure you do not miss them. They are new topics not covered in JC or whatever."
+        ]
+      ]
+    },
+    "ma2001": {
+      "code": "MA2001",
+      "title": "Linear Algebra I",
+      "date": "AY21/22 S1",
+      "grade": "A",
+      "description": [
+        [
+          "This module teaches about linear spaces and matrices and is a good foundational module for AI modules in CS. For me, the greatest setback I faced was the constant construction happening around me throughout the semester; it was especially bad during the final exam as the lift was being renovated on my level throughout that week."
+        ]
+      ],
+      "tips": [
+        [
+          "The concepts in this module are cumulative, and if you get lost at one point, then you’ll likely be lost for the rest. Can’t anyhow skip lectures and try to backtrack.  But as long as you can keep up, should be all good to go. A flowchart of concepts works very well here, and do maintain key identities such as that for rank and invertible matrices."
+        ]
+      ]
+    },
+    "gess1019": {
+      "code": "GESS1019",
+      "title": "Urban Planning in Singapore",
+      "date": "AY21/22 S1",
+      "grade": "A-",
+      "description": [
+        [
+          "This module teaches about Singapore’s urban history and the policy process for urban development. While I found the middle topics of policy frameworks and development plans to be quite dry, I did appreciate the efforts of the professor to make them interesting."
+        ]
+      ],
+      "tips": [
+        [
+          "There was not much studying to be done for the finals, as it was open book. In addition, a lot of the examples I gave were from general knowledge anyway, just shoehorning whatever I can think of to bolster my arguments in the essay questions. Otherwise, just keep a list of master plans and concept plans handy, and should be fine."
+        ]
+      ]
+    },
+    "cs2030s": {
+      "code": "CS2030S",
+      "title": "Programming Methodology II",
+      "date": "AY21/22 S2",
+      "grade": "A+",
+      "description": [
+        [
+          "This module teaches programming practices, and core concepts in object-oriented programming, asynchronous programming and functional programming. That semester, the infamous practical examination was handled very poorly, as students had to wait over 2 hours for the test to start, only to be struck with an unfair time limit and grading system. I got lucky for this practical, as I managed to complete everything within the time limit. But otherwise, though the professor stumbled a bit with his words, the concepts were quite easy to understand."
+        ]
+      ],
+      "tips": [
+        [
+          "The labs were brutal, and the marker will fault you over the smallest mistakes. So even if your code runs perfectly for all the test cases, your solution may not be perfect. For labs, make sure you handle null cases properly, as they often use this as a trick to catch us."
+        ]
+      ]
+    }
+  }
+}
