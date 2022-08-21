@@ -10,7 +10,9 @@
       "description": "A statistics-driven card game based on the shopping malls of Singapore",
       "languages": [
         "python",
-        "javascript"
+        "javascript",
+        "html",
+        "css"
       ],
       "tools": [
         "pandas",
@@ -87,7 +89,9 @@
         "javascript",
         "rust",
         "python",
-        "ruby"
+        "ruby",
+        "html",
+        "css"
       ],
       "tools": [
         "react-js"
@@ -209,7 +213,8 @@
       "img": "projects",
       "description": "A geospatial app that recommends meetup locations based on user positions",
       "languages": [
-        "python"
+        "python",
+        "sql"
       ],
       "tools": [
         "django"
@@ -324,7 +329,8 @@
       "img": "japanese",
       "description": "Anki-like Rust CLI application for practicing Japanese Kanji",
       "languages": [
-        "rust"
+        "rust",
+        "japanese"
       ],
       "tools": [
         
@@ -382,7 +388,10 @@
       "img": "languages",
       "description": "Extracts vocabulary and sample sentences for Chinese, Japanese and Korean words",
       "languages": [
-        "python"
+        "python",
+        "chinese",
+        "japanese",
+        "korean"
       ],
       "tools": [
 
@@ -391,6 +400,23 @@
         "web-scraping",
         "data-mining",
         "data-extraction"
+      ],
+      "full-description": [
+        [
+          "I have a deep passion for learning foreign languages and as such, I have made several scripts that improve my learning journey. In this module, I detail the scripts I've made to help me improve my Chinese, Japanese and Korean; they offer the following functionality:"
+        ],
+        [
+          "- Compile vocabulary words required for HSK, JLPT and TOPIK tests"
+        ],
+        [
+          "- Compile grammar lessons from free sources"
+        ],
+        [
+          "- Search for sample sentences based on any given word"
+        ],
+        [
+          "I've also implemented the same features for French and Spanish, but they are not included as they don't align with my current language goals."
+        ]
       ]
     },
     "geospatial-extraction-tool": {

@@ -80,6 +80,7 @@
     "chinese": {
       "title": "Chinese",
       "date": "Since 2018",
+      "projects": true,
       "img": "chinese",
       "starred": true,
       "description": [
@@ -118,6 +119,7 @@
       "title": "Japanese",
       "date": "Since 2020",
       "img": "japanese",
+      "projects": true,
       "starred": true,
       "description": [
         [
@@ -236,6 +238,16 @@
       "description": [
         [
           "C++ was a very early language for me, maybe as early as 2013 when I was learning programming for the first time on online compilers. But I haven't developed anything substantial in C++ (much rather use Rust for development because of its package manager)."
+        ]
+      ]
+    },
+    "korean": {
+      "title": "Korean",
+      "date": "Since 2020",
+      "img": "korean",
+      "description": [
+        [
+          "Besides partially attending a Korean class at Sejong, I've a bit of self-study done in Korean. Not much, but I think I've got the gist of the grammar. I will be taking the TOPIK I test within the next two years."
         ]
       ]
     },
