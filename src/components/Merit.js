@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import './Merit.css';
+import './SmallPreview.css';
 
 import logos from '../assets/logo-controller';
 
@@ -8,7 +8,7 @@ import MicroIcon from './MicroIcon';
 
 function Merit(props) {
   return (
-    <div className="merit">
+    <div className="preview">
       <div className="merit-title">
         <MicroIcon logo={logos[props.merit.img]} alt={props.merit.img}></MicroIcon>
         {

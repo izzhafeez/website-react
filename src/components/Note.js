@@ -6,21 +6,21 @@ import logos from '../assets/logo-controller';
 
 import MicroIcon from './MicroIcon';
 
-function Module(props) {
+function Note(props) {
   return (
     <div className="preview">
-      <div className="module-title">
+      <div className="note-title">
         <MicroIcon logo={logos["nus"]} alt="NUS"></MicroIcon>
-        <Link to={`../blog/modules/${props.module.key}`}>
-          {props.module.title}
+        <Link to={`../blog/notes/${props.note.course.toLowerCase()}/${props.note.topic}`}>
+          {props.note.topic}
         </Link>
-        {props.module.starred && <star> ★</star>}
+        {props.note.important && <star> ★</star>}
       </div>
-      <div className="module-date">
-        {props.module.code}&nbsp;({props.module.grade})
+      <div className="note-course">
+        {props.note.course}
       </div>
     </div>
   );
 }
 
-export default Module;
+export default Note;

@@ -1,3 +1,10 @@
+@import "../colors/mrt.css";
+
 .text {
   width: 100%;
+}
+
+.math {
+  font-size: 1.2rem;
+  color: var(--cc);
 }
