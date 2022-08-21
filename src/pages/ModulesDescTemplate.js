@@ -1,10 +1,12 @@
 import { useParams } from 'react-router-dom';
 
-import './Works.css';
+import './Blog.css';
 
 import modulesData from '../data/modules.json';
+import notesData from '../data/notes.json';
 import logos from '../assets/logo-controller';
 
+import Note from '../components/Note';
 import Text from '../components/Text';
 
 function ModulesDescTemplate(props) {
@@ -13,6 +15,11 @@ function ModulesDescTemplate(props) {
   const description = [...data.description];
   description.push(["DATE: " + data.date]);
   description.push(["GRADE: " + data.grade]);
+
+  const notes = notesData[name.toUpperCase()].contents.Topics.sublinks.map(link => {
+    const note = notesData[link];
+    return <Note note={note}/>;
+  });
 
   return (
     <div className="page">
@@ -26,6 +33,8 @@ function ModulesDescTemplate(props) {
         title="TIPS"
         content={data.tips}
       ></Text>
+      <h2>TOPICS</h2>
+      <div className="notes-entries">{notes}</div>
     </div>
   );
 }

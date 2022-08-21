@@ -18,6 +18,7 @@ import ProjectsDescTemplate from './pages/ProjectsDescTemplate';
 import ProjectsTemplate from './pages/ProjectsTemplate';
 
 import ModulesDescTemplate from './pages/ModulesDescTemplate';
+import NotesDescTemplate from './pages/NotesDescTemplate';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             <Route path="merits/tools/:name" element={<MeritsDescTemplate dataPath="tools"/>} />
 
             <Route path="blog/modules/:name" element={<ModulesDescTemplate/>} />
+            <Route path="blog/notes/:module/:name" element={<NotesDescTemplate/>} />
 
             <Route path="works/projects" element={<ProjectsTemplate/>} />
             <Route path="works/projects/:name" element={<ProjectsDescTemplate/>} />
