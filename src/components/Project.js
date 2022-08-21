@@ -10,7 +10,7 @@ function Project(props) {
     const languageData = languagesData.languages[language];
     return (
       <span>
-        <Link to={`../merits/languages/details/${language}`}>{languageData.title}</Link>
+        <Link to={`../merits/languages/${language}`}>{languageData.title}</Link>
         &nbsp;
       </span>
     )
@@ -19,7 +19,7 @@ function Project(props) {
     const toolData = toolsData.tools[tool];
     return (
       <span>
-        <Link to={`../merits/tools/details/${tool}`}>{toolData.title}</Link>
+        <Link to={`../merits/tools/${tool}`}>{toolData.title}</Link>
         &nbsp;
       </span>
     )
