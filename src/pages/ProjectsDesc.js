@@ -34,6 +34,17 @@ function ProjectsDesc() {
       ></Text>
 
       <Text
+        title="REPOSITORY"
+        content={
+          [
+            [
+              ["link", project.repo, "LINK", true]
+            ]
+          ]
+        }
+      ></Text>
+
+      <Text
         title="DURATION"
         content={[[project.start+ " - " +project.end]]}
       ></Text>
