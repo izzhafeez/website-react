@@ -1,0 +1,55 @@
+@import "../../colors/main.css";
+
+.projects-entries, .merits-entries {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+	transition: all 1s;
+}
+
+.projects-entries {
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+}
+
+.merits-entries {
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+
+form {
+  width: 100%;
+  float: left;
+}
+
+form > * {
+  font-size: 1rem;
+}
+
+input[type=text] {
+  padding: 0.5rem;
+  color: white;
+  background-color: var(--back);
+  border: var(--border);
+  width: 14rem;
+}
+
+input[type=submit] {
+  padding: 0.6rem;
+  color: white;
+  background-color: var(--jr);
+  border: 1px solid var(--jr);
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  filter: contrast(2);
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
