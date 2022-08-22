@@ -65,7 +65,17 @@
     "microsoft-excel": {
       "title": "Microsoft Excel",
       "date": "Since 2013",
-      "img": "excel"
+      "projects": true,
+      "img": "excel",
+      "description": [
+        [
+          "Microsoft Excel is one of the important tools that everyone knows how to use. That said, I've used it on numerous occasions while I was in the ",
+          ["link", "../merits/experience/data-management", "Ministry of Manpower"],
+          ", where I created automation scripts to process and evaluate user permissions data. I also used it during my time in ",
+          ["link", "../merits/experience/data-analytics", "SCDF"],
+          ", where data usually comes in as an Excel file, or has to be sent out in this format."
+        ]
+      ]
     },
     "vue-js": {
       "title": "Vue.js",
