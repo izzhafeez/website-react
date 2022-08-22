@@ -14,7 +14,7 @@ def clean_markdown(text)
     .sub(/^\s/, "")
 end
 
-notes.each do |row|
+notes.reverse_each do |row|
   course = row[1]
   topic = row[2]
   description = row[3]
