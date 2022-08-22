@@ -231,6 +231,17 @@
       "date": "Since 2018",
       "img": "spanish"
     },
+    "bash": {
+      "title": "Bash",
+      "date": "Since 2018",
+      "projects": true,
+      "img": "bash",
+      "description": [
+        [
+          "Bash was a language I haven't really touched until recently, where I've been writing script in different languages. Now, I use it to automate many of my processes, especially when creating my React website, whose data jsons are processed by different languages in Ruby, Python and Rust."
+        ]
+      ]
+    },
     "c++": {
       "title": "C++",
       "date": "Since 2017",
