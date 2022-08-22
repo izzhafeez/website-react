@@ -29,7 +29,7 @@ input[type=text] {
   color: white;
   background-color: var(--back);
   border: var(--border);
-  width: 18rem;
+  width: 14rem;
 }
 
 input[type=submit] {
