@@ -3,25 +3,25 @@ import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import './index.css';
-import './components/Icon.css';
+import './components/icon/Icon.css';
 import Navbar from './components/Navbar.js';
 
 import Home from './pages/Home';
 
-import MeritsHome from './pages/MeritsHome';
-import MeritsDesc from './pages/MeritsDesc';
-import MeritsLanding from './pages/MeritsLanding';
-import ExperienceDesc from './pages/ExperienceDesc';
+import MeritsHome from './pages/merits/MeritsHome';
+import MeritsDesc from './pages/merits/MeritsDesc';
+import MeritsLanding from './pages/merits/MeritsLanding';
+import ExperienceDesc from './pages/merits/ExperienceDesc';
 
-import WorksHome from './pages/WorksHome';
-import ProjectsDesc from './pages/ProjectsDesc';
-import ProjectsLanding from './pages/ProjectsLanding';
+import WorksHome from './pages/works/WorksHome';
+import NotesLanding from './pages/works/NotesLanding';
+import NotesDesc from './pages/works/NotesDesc';
+import ProjectsDesc from './pages/works/ProjectsDesc';
+import ProjectsLanding from './pages/works/ProjectsLanding';
 
-import BlogHome from './pages/BlogHome';
-import BlogLanding from './pages/BlogLanding';
-import ModulesDesc from './pages/ModulesDesc';
-import NotesLanding from './pages/NotesLanding';
-import NotesDesc from './pages/NotesDesc';
+import BlogHome from './pages/blog/BlogHome';
+import BlogLanding from './pages/blog/BlogLanding';
+import ModulesDesc from './pages/blog/ModulesDesc';
 
 function App() {
   return (
