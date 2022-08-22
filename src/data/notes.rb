@@ -57,6 +57,7 @@ notes.reverse_each do |row|
   note_dict = {
     "course" => course,
     "parents" => [],
+    "children" => 0,
     "topic" => topic,
     "contents" => contents,
     "date" => row[4],
@@ -71,6 +72,7 @@ notes_dict.each do |key, value|
     sublinks.each do |sublink|
       if notes_dict.has_key?(sublink)
         notes_dict[sublink]["parents"].append(value["topic"])
+        value["children"] = value["children"] + 1
       else
         # puts sublink
       end
@@ -78,6 +80,11 @@ notes_dict.each do |key, value|
   end
 end
 
+sorted_dict = {}
+notes_dict.sort_by{|_key, value| -value["children"]}.each do |value|
+  sorted_dict[value[0]] = value[1]
+end
+
 File.open("notes.json", "w") do |f|
-  f.write(JSON.pretty_generate({"notes" => notes_dict}))
+  f.write(JSON.pretty_generate({"notes" => sorted_dict}))
 end
