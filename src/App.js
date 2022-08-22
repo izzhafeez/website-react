@@ -49,6 +49,7 @@ function App() {
 
             <Route path="blog/modules/:name" element={<ModulesDesc/>} />
             <Route path="blog/notes/:module/:name" element={<NotesDesc/>} />
+            <Route path="works/notes/:search" element={<MeritsLanding/>} />
 
             <Route path="works/projects" element={<ProjectsLanding/>} />
             <Route path="works/projects/:name" element={<ProjectsDesc/>} />
