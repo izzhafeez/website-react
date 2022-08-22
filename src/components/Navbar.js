@@ -37,16 +37,16 @@ function Navbar() {
       >
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="../">Home</Link>
           </li>
           <li>
-            <Link to="/merits">Merits</Link>
+            <Link to="../merits">Merits</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="../blog">Blog</Link>
           </li>
           <li>
-            <Link to="/works">Works</Link>
+            <Link to="../works">Works</Link>
           </li>
         </ul>
       </div>
