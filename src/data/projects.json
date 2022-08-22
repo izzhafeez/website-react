@@ -238,7 +238,7 @@
       "repo": "https://scis.smu.edu.sg/news/2018/dec/17/scdf-rides-data-get-ambulances-patients-more-quickly",
       "img": "scdf",
       "starred": true,
-      "description": "Simulation/Optimisation model that recommends the optimal placement of emergency vehicles in Singapore",
+      "description": "Optimisation model that recommends the optimal placement of emergency vehicles",
       "languages": [
         "python",
         "ruby"
