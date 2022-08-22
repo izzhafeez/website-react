@@ -24,6 +24,11 @@ function ProjectsDesc() {
     const languageData = languagesData.languages[language];
     return <MiniIcon logo={logos[languageData.img]} alt={language} kind="languages"></MiniIcon>
   });
+
+  const site = project.link
+    ? ["link", project.link, "LINK"]
+    : ["link", project.repo, "LINK", true];
+
   return (
     <div className="page">
       <img src={logos[project.img]} alt={project.title} className="icon"></img>
@@ -38,7 +43,7 @@ function ProjectsDesc() {
         content={
           [
             [
-              ["link", project.repo, "LINK", true]
+              site
             ]
           ]
         }
