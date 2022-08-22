@@ -30,6 +30,7 @@ import languages from './logo/languages.png';
 import mom from './logo/mom.png';
 import sharepoint from './logo/sharepoint.png';
 import sql from './logo/sql.png';
+import bash from './logo/bash.png';
 import ibm from './logo/ibm.png';
 import github from './logo/github.png';
 import java from './logo/java.png';
@@ -121,6 +122,7 @@ languages: languages,
 mom: mom,
 sharepoint: sharepoint,
 sql: sql,
+bash: bash,
 ibm: ibm,
 github: github,
 java: java,
