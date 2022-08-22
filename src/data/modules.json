@@ -7,7 +7,13 @@
       "grade": "A+",
       "description": [
         [
-          "This module teaches programming practices, and core concepts in object-oriented programming, asynchronous programming and functional programming. That semester, the infamous practical examination was handled very poorly, as students had to wait over 2 hours for the test to start, only to be struck with an unfair time limit and grading system. I got lucky for this practical, as I managed to complete everything within the time limit. But otherwise, though the professor stumbled a bit with his words, the concepts were quite easy to understand."
+          "This module teaches programming practices, and core concepts in object-oriented programming, asynchronous programming and functional programming. These topics were not very interconnected, so you could focus on certain topics and be relatively fine (as compared to other mods). But do note that some questions may be absolutely painful in the Midterms and Finals, so putting all your eggs in one basket may not work out."
+        ],
+        [
+          "That semester, the infamous practical examination was handled very poorly, as students had to wait over 2 hours for the test to start, only to be struck with an unfair time limit and grading system. I got lucky for this practical, as I managed to complete everything within the time limit."
+        ],
+        [
+          "But otherwise, though the professor stumbled a bit with his words, the concepts were quite easy to understand, and I managed to get my A+ (despite scoring below average for Midterms)."
         ]
       ],
       "tips": [
@@ -15,7 +21,7 @@
           "The labs were brutal, and the marker will fault you over the smallest mistakes. So even if your code runs perfectly for all the test cases, your solution may not be perfect. So for labs, make sure you handle null cases properly, as they often use this as a trick to catch us."
         ],
         [
-          "If you're like me and you're struggling with diagrams (like the Stack Heap diagram), then rewrite the instructions in your own terms. You can also cross check against your tutor so that there are no conceptual errors."
+          "If you're like me and you're struggling with diagrams (like the Stack Heap diagram), then rewrite the instructions in your own terms. Do also cross check against your tutor so that there are no conceptual errors."
         ]
       ]
     },
@@ -26,7 +32,10 @@
       "grade": "A+",
       "description": [
         [
-          "This module is math-intensive and usually is the first hurdle for CS students in the world of math. I found the middle sections to be the hardest, covering topics like Equivalence Relations and the deadly Cardinality."
+          "This module is math-intensive and usually is the first hurdle for CS students in the world of math. Like most other students, I found the middle sections to be the hardest, covering topics like Equivalence Relations and the deadly Cardinality."
+        ],
+        [
+          "That aside, this module exposes students to quite a lot of topics in discrete math, so it serves as a good foundation for future topics in such fields. In addition, the proving techniques learnt here are super useful in many other later modules, like CS2040S which is usually taken the semester after."
         ]
       ],
       "tips": [
