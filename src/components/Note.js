@@ -17,7 +17,7 @@ function Note(props) {
         {props.note.important && <star> ★</star>}
       </div>
       <div className="note-course">
-        {props.note.course}
+        {props.note.course + " - " + props.note.date}
       </div>
     </div>
   );
