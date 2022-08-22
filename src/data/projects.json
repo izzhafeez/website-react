@@ -274,7 +274,7 @@
       "title": "Notes Search App",
       "start": "Jul'21",
       "end": "Sep'21",
-      "link": "../works/notes/search/cheatsheet",
+      "link": "../works/notes/search",
       "repo": "https://github.com/mynameizzhafeez/website-react",
       "img": "react",
       "description": "Note-viewing site for easy access of personal notes",
