@@ -5,6 +5,7 @@ import projectsData from '../data/projects.json';
 
 import Text from '../components/Text.js';
 import Project from '../components/Project.js';
+import NameForm from '../components/SearchBar.js';
 
 import desmosito from '../assets/desmosito.png';
 
@@ -25,8 +26,12 @@ function WorksHome() {
         title={contentData.works.title}
         content={contentData.works.content}
       ></Text>
+      <h2 id="notes">NOTES</h2>
+      <NameForm className="search-bar" />
+      <br></br>
       <h2 id="projects">PROJECTS</h2>
       <div className="projects-entries">{projectsPreview}</div>
+      <br></br>
     </div>
   );
 }
