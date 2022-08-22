@@ -291,7 +291,10 @@
       ],
       "full-description": [
         [
-          ""
+          "Here are the notes I've accumulated over the years. Mostly notes from CS, but there are other topics as well. I store them on my Google Sheets, and I used Python and Ruby to process this data for this site. I also used a custom markdown for my notes, using '?>' to indicate a subtopic relationship etc.. It works for my Telegram Bots, but I don't know whether it works fully on this app (as I haven't tested it yet)."
+        ],
+        [
+          "Do use the search bar to look for notes based on title. There is no backend involved in this, just pure React.js. As such, the amount of stress I can put on the frontend cannot be very high."
         ]
       ]
     },
