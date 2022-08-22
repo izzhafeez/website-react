@@ -49,8 +49,8 @@ function App() {
             <Route path="blog/:kind" element={<BlogLanding/>} />
 
             <Route path="blog/modules/:name" element={<ModulesDesc/>} />
-            <Route path="blog/notes/:module/:name" element={<NotesDesc/>} />
 
+            <Route path="works/notes/:module/:name" element={<NotesDesc/>} />
             <Route path="works/notes/search/:searchTerm" element={<NotesLanding/>} />
             <Route path="works/notes/search" element={<NotesLanding/>} />
             <Route path="works/projects" element={<ProjectsLanding/>} />
