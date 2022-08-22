@@ -269,6 +269,32 @@
         ]
       ]
     },
+    "notes-searcher-app": {
+      "title": "Notes Search App",
+      "start": "Jul'21",
+      "end": "Sep'21",
+      "link": "../works/notes/search/cheatsheet",
+      "repo": "https://github.com/mynameizzhafeez/website-react",
+      "img": "react",
+      "description": "Note-viewing site for easy access of personal notes",
+      "languages": [
+        "javascript",
+        "python",
+        "ruby"
+      ],
+      "tools": [
+        "react-js"
+      ],
+      "skills": [
+        "web-programming",
+        "web-scraping"
+      ],
+      "full-description": [
+        [
+          ""
+        ]
+      ]
+    },
     "chords-search-engine": {
       "title": "Chords Search Engine",
       "start": "Feb'20",
