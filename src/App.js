@@ -20,6 +20,7 @@ import ProjectsLanding from './pages/ProjectsLanding';
 import BlogHome from './pages/BlogHome';
 import BlogLanding from './pages/BlogLanding';
 import ModulesDesc from './pages/ModulesDesc';
+import NotesLanding from './pages/NotesLanding';
 import NotesDesc from './pages/NotesDesc';
 
 function App() {
@@ -49,8 +50,9 @@ function App() {
 
             <Route path="blog/modules/:name" element={<ModulesDesc/>} />
             <Route path="blog/notes/:module/:name" element={<NotesDesc/>} />
-            <Route path="works/notes/:search" element={<MeritsLanding/>} />
 
+            <Route path="works/notes/search/:searchTerm" element={<NotesLanding/>} />
+            <Route path="works/notes/search" element={<NotesLanding/>} />
             <Route path="works/projects" element={<ProjectsLanding/>} />
             <Route path="works/projects/:name" element={<ProjectsDesc/>} />
 
