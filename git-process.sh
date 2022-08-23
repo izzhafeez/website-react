@@ -2,7 +2,10 @@ for FILE in *
 do
   for SUBFILE in $FILE
   do
-    git add $SUBFILE
-    git commit -m "Edited $FILE - minor changes"
+    for SUBSUBFILE in $SUBFILE
+    do
+      git add $SUBSUBFILE
+      git commit -m "Edited $SUBSUBFILE"
+    done
   done
 done
