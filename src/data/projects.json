@@ -92,7 +92,8 @@
         "ruby",
         "html",
         "css",
-        "bash"
+        "bash",
+        "c"
       ],
       "tools": [
         "react-js"
