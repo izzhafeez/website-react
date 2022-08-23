@@ -375,6 +375,34 @@
         ]
       ]
     },
+    "programming-lines-counter": {
+      "title": "Programming Lines Counter",
+      "start": "Aug'22",
+      "end": "Aug'22",
+      "repo": "https://github.com/mynameizzhafeez/website-react/tree/master/src/data/coding-languages",
+      "img": "c",
+      "description": "For a selection of languages, count the number of lines of code written across multiple files",
+      "languages": [
+        "c"
+      ],
+      "tools": [
+
+      ],
+      "skills": [
+
+      ],
+      "full-description": [
+        [
+          "I made this project as a practice for C programming, which I took that semester. It basically counts the number of lines of code that I wrote in each language, scraping each folder in my directory."
+        ],
+        [
+          "While the script largely has no bugs, due to Apple's auto upload to iCloud, many of the script folders are made unavailable to scrapers. As such, many of the numbers are under-represented."
+        ],
+        [
+          "Also, it was difficult to map all my Python and JavaScript codes, as they could be hidden within ipynb files or vue or tsx files. So some complex regex searches were needed for those cases."
+        ]
+      ]
+    },
     "spiderman": {
       "title": "Spiderman Scraper",
       "start": "Jul'19",
