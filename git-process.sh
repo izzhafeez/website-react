@@ -9,3 +9,5 @@ do
     done
   done
 done
+
+git push origin master
