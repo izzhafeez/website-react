@@ -3,6 +3,7 @@
 #include <sys/types.h>
 #include <dirent.h>
 #include <setjmp.h>
+#include <time.h>
 
 #define NAME_LENGTH 1000
 #define FILES_LENGTH 100
@@ -222,11 +223,14 @@ int main() {
   for (int i = 0; i < 10; i++) {
     // printf("%s - %d\n", languages[i].ext, languages[i].lines);
     fprintf(fptr, "\"%s\": %d", languages[i].name, languages[i].lines);
-    if (i < 9) {
+    if (i < 10) {
       fprintf(fptr, ",");
     }
     fprintf(fptr, "\n");
   }
+  time_t t = time(NULL);
+  struct tm tm = *localtime(&t);
+  fprintf(fptr, "\"time\": \"%d-%d-%d\"", tm.tm_hour, tm.tm_min, tm.tm_sec);
   fprintf(fptr, "}");
 
   fclose(fptr);
