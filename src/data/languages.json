@@ -4,6 +4,7 @@
       "title": "Python",
       "date": "Since 2016",
       "projects": true,
+      "lines": 31174,
       "starred": true,
       "img": "python",
       "description": [
@@ -35,6 +36,7 @@
       "title": "JavaScript",
       "date": "Since 2017",
       "projects": true,
+      "lines": 12551,
       "starred": true,
       "img": "javascript",
       "description": [
@@ -96,6 +98,7 @@
       "title": "R Programming",
       "date": "Since 2019",
       "projects": true,
+      "lines": 1925,
       "img": "r",
       "description": [
         [
@@ -131,6 +134,7 @@
       "title": "Java",
       "date": "Since 2021",
       "projects": true,
+      "lines": 1814,
       "img": "java",
       "description": [
         [
@@ -142,6 +146,7 @@
       "title": "Ruby",
       "date": "Since 2019",
       "projects": true,
+      "lines": 1139,
       "img": "ruby",
       "description": [
         [
@@ -186,6 +191,7 @@
       "title": "Rust",
       "date": "Since 2022",
       "projects": true,
+      "lines": 458,
       "starred": true,
       "img": "rust",
       "description": [
@@ -198,6 +204,7 @@
       "title": "PHP",
       "date": "Since 2020",
       "img": "php",
+      "lines": 970,
       "description": [
         [
           "PHP development came with the web developer course, as sparing as it may be. I do understand that PHP is pretty much a dying language, but I still had to try my hands on one project."
@@ -208,6 +215,7 @@
       "title": "C Programming",
       "date": "Since 2017",
       "img": "c",
+      "lines": 238,
       "description": [
         [
           "Apart from course work, the only time I've used C was in the form of RobotC, which was used to code up robots during my time in ",
@@ -235,6 +243,7 @@
       "title": "Bash",
       "date": "Since 2018",
       "projects": true,
+      "lines": 164,
       "img": "bash",
       "description": [
         [
