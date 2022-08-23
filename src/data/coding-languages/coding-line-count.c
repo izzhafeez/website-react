@@ -187,65 +187,17 @@ int main() {
   struct Language languages[12];
 
   assignLanguage(&languages[0], "python", ".py", 0);
-  // strcpy(languages[0].name, "python");
-  // strcpy(languages[0].ext, ".py");
-  // languages[0].lines = 0;
-
   assignLanguage(&languages[1], "javascript", ".js", 0);
-  // strcpy(languages[1].name, "javascript");
-  // strcpy(languages[1].ext, ".js");
-  // languages[1].lines = 0;
-
   assignLanguage(&languages[2], "java", ".java", 0);
-  // strcpy(languages[2].name, "java");
-  // strcpy(languages[2].ext, ".java");
-  // languages[2].lines = 0;
-
   assignLanguage(&languages[3], "ruby", ".rb", 0);
-  // strcpy(languages[3].name, "ruby");
-  // strcpy(languages[3].ext, ".rb");
-  // languages[3].lines = 0;
-
   assignLanguage(&languages[4], "r", ".r", 0);
-  // strcpy(languages[4].name, "r");
-  // strcpy(languages[4].ext, ".r");
-  // languages[4].lines = 0;
-
   assignLanguage(&languages[5], "c", ".c", 0);
-  // strcpy(languages[5].name, "c");
-  // strcpy(languages[5].ext, ".c");
-  // languages[5].lines = 0;
-
   assignLanguage(&languages[6], "rust", ".rs", 0);
-  // strcpy(languages[6].name, "rust");
-  // strcpy(languages[6].ext, ".rs");
-  // languages[6].lines = 0;
-
   assignLanguage(&languages[7], "cpp", ".cpp", 0);
-  // strcpy(languages[7].name, "cpp");
-  // strcpy(languages[7].ext, ".cpp");
-  // languages[7].lines = 0;
-
   assignLanguage(&languages[8], "bash", ".sh", 0);
-  // strcpy(languages[8].name, "bash");
-  // strcpy(languages[8].ext, ".sh");
-  // languages[8].lines = 0;
-
   assignLanguage(&languages[9], "php", ".php", 0);
-  // strcpy(languages[9].name, "php");
-  // strcpy(languages[9].ext, ".php");
-  // languages[9].lines = 0;
-
   assignLanguage(&languages[10], "python", ".ipynb", 0);
-  // strcpy(languages[10].name, "python");
-  // strcpy(languages[10].ext, ".ipynb");
-  // languages[10].lines = 0;
-
   assignLanguage(&languages[11], "vue", ".vue", 0);
-  // strcpy(languages[11].name, "vue");
-  // strcpy(languages[11].ext, ".vue");
-  // languages[11].lines = 0;
-
 
   // struct Stack folders;
   // folders.index = 0;
@@ -260,15 +212,15 @@ int main() {
   languages[0].lines += languages[10].lines;
   languages[1].lines += languages[11].lines;
 
-  for (int i = 0; i < 12; i++) {
-    printf("%s - %d\n", languages[i].ext, languages[i].lines);
-  }
+  // for (int i = 0; i < 12; i++) {
+  //   printf("%s - %d\n", languages[i].ext, languages[i].lines);
+  // }
 
   FILE *fptr = fopen("../coding-lines.json", "w"); 
 
   fprintf(fptr, "{\n");
   for (int i = 0; i < 10; i++) {
-    printf("%s - %d\n", languages[i].ext, languages[i].lines);
+    // printf("%s - %d\n", languages[i].ext, languages[i].lines);
     fprintf(fptr, "\"%s\": %d", languages[i].name, languages[i].lines);
     if (i < 9) {
       fprintf(fptr, ",");
