@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for FILE in *
 do
   for SUBFILE in $FILE
