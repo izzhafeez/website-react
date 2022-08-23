@@ -1,25 +1,15 @@
 #!/bin/bash
 
 for FILE in *
-do 
-  echo $FILE
-  cd $FILE
-  for SUBFILE in *
+do
+  for SUBFILE in $FILE
   do
-    cd $SUBFILE
-    for SUBSUBFILE in *
+    for SUBSUBFILE in $SUBFILE
     do
-      cd $SUBSUBFILE
-      for SUB3FILE in *
-      do
-        git add $SUB3FILE
-        git commit -m "Edited $SUB3FILE"
-      done
-      cd ..
+      git add $SUBSUBFILE
+      git commit -m "Edited $SUBSUBFILE"
     done
-    cd ..
   done
-  cd ..
 done
 
 git push origin master
