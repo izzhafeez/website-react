@@ -1,7 +1,8 @@
 #!/bin/bash
 
 for FILE in *
-do
+do 
+  echo $FILE
   cd $FILE
   for SUBFILE in *
   do
