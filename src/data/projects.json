@@ -273,10 +273,10 @@
     },
     "notes-searcher-app": {
       "title": "Notes Search App",
-      "start": "Jul'21",
-      "end": "Sep'21",
+      "start": "Jul'22",
+      "end": "Sep'22",
       "link": "../works/notes/search",
-      "repo": "https://github.com/mynameizzhafeez/website-react",
+      "repo": "https://www.izzhafeez.com/#/works/notes/search/",
       "img": "react",
       "description": "Note-viewing site for easy access of personal notes",
       "languages": [
