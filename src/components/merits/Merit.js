@@ -42,7 +42,7 @@ function Merit(props) {
         {props.merit.starred && <star> ★</star>}
       </div>
       <div className="merit-date">
-        {props.merit.date}
+        {props.merit.date} {props.merit.lines && " ("+props.merit.lines+" lines)" }
       </div>
     </div>
   );
