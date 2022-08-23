@@ -4,6 +4,7 @@ for FILE in *
 do
   for SUBFILE in $FILE
   do
+    echo $SUBFILE
     for SUBSUBFILE in $SUBFILE
     do
       git add $SUBSUBFILE
