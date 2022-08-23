@@ -155,7 +155,7 @@
       ]
     },
     "notes-telegram-bot": {
-      "title": "Notes Reviewer",
+      "title": "Notes Telegram Bot",
       "start": "Jul'21",
       "end": "Sep'21",
       "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/code.js",
@@ -278,7 +278,7 @@
       "link": "../works/notes/search",
       "repo": "https://www.izzhafeez.com/#/works/notes/search/",
       "img": "react",
-      "description": "Note-viewing site for easy access of personal notes",
+      "description": "Note-viewing site for easy access of personal notes in a structured format",
       "languages": [
         "javascript",
         "python",
@@ -306,7 +306,7 @@
       "end": "Mar'21",
       "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/chords.py",
       "img": "music",
-      "description": "Finds and standardises the chord progression of any song",
+      "description": "Finds, standardises and analyses the chord progression of any song",
       "languages": [
         "python"
       ],
