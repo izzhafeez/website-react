@@ -13,7 +13,7 @@ do
   done
 done
 
-for FOLDER in src/*/
+for FOLDER in src/*
 do
   for FILE in $FOLDER
   do
