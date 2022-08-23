@@ -4,8 +4,11 @@ do
   do
     for SUBSUBFILE in $SUBFILE
     do
-      git add $SUBSUBFILE
-      git commit -m "Edited $SUBSUBFILE"
+      for SUB3FILE in $SUBSUBFILE
+      do
+        git add $SUB3FILE
+        git commit -m "Edited $SUB3FILE"
+      done
     done
   done
 done
