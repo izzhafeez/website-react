@@ -13,4 +13,12 @@ do
   done
 done
 
+for FOLDER in */
+do
+  for FILE in FOLDER
+  do
+    echo $FILE
+  done
+done
+
 git push origin master
