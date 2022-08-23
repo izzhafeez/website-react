@@ -15,7 +15,7 @@ done
 
 for FOLDER in */
 do
-  for FILE in FOLDER
+  for FILE in $FOLDER
   do
     echo $FILE
   done
