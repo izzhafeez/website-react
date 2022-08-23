@@ -2,17 +2,23 @@
 
 for FILE in *
 do
-  for SUBFILE in $FILE
+  cd $FILE
+  for SUBFILE in *
   do
-    for SUBSUBFILE in $SUBFILE
+    cd $SUBFILE
+    for SUBSUBFILE in *
     do
-      for SUB3FILE in $SUBSUBFILE
+      cd $SUBSUBFILE
+      for SUB3FILE in *
       do
         git add $SUB3FILE
         git commit -m "Edited $SUB3FILE"
       done
+      cd ..
     done
+    cd ..
   done
+  cd ..
 done
 
 git push origin master
