@@ -131,6 +131,43 @@
       "link": "skills",
       "ignore": true
     },
+    "software-testing": {
+      "title": "Software Testing",
+      "date": "Since 2019",
+      "starred": true,
+      "img": "testing",
+      "description": [
+        [
+          "Software Testing is done to validate and verify the behaviour of software; I applied it in three distinct instances. The most important of them would be the ",
+          ["link", "../works/projects/notetogether", "NoteTogether"],
+          " project, where I did most of the background testing. Other instances would be this website, where I tested whether each subsite works properly (including the notes page)."
+        ],
+        [
+          "1. Unit Testing: I used the Postman API to test the API endpoints of NoteTogether, where variables such as verification token and note IDs are stored as environment variables. I set up over 50 unit test cases, which test different aspects of each API (error handling etc.)"
+        ],
+        [
+          "2. Integration Testing: I used Postman Flows to test the integration of different API endpoints of NoteTogether, creating complex networks of logic flow to simulate an actual interaction."
+        ],
+        [
+          "3. System Testing: For more thorough testing of NoteTogether's backend design, I used Python to send requests to the server, and verify that all the data is updated accordingly."
+        ],
+        [
+          "4. Regression Testing: For NoteTogether, the regression testing was done using GitHub Actions, using Python to run some scripts that test the behaviour of the app."
+        ],
+        [
+          "5. Continuous Integration / Continuous Deployment: For NoteTogether, most of the CI/CD was done by my partner so my main experience in this area would be in the deployment of this personal site, where the build command is run in GitHub Actions."
+        ],
+        [
+          "6. Frontend Testing: I like web scraping, so for NoteTogether, I was responsible for the frontend testing as well. Using Selenium on Python, I created scripts that mimicked the behaviour of the end user and tested whether the front responded accordingly."
+        ],
+        [
+          "7. Load Testing: Using Python requests again, I tested the behaviour of our application at different loads, and made a regression curve approximating its performance as load increases."
+        ],
+        [
+          "8. Stress Testing: Using Python requests again, I tested the ability of the application to handle high amounts of traffic. In particular, whether a large number of requests coming in would lead to a mismatch in fields."
+        ]
+      ]
+    },
     "databases": {
       "title": "Databases",
       "date": "Since 2017",
@@ -253,43 +290,6 @@
           ". I have also been working on my ",
           ["link", "../works/projects/regex-codewords", "Regex Codewords Game"],
           ", which uses employs the use of JavaScript regex."
-        ]
-      ]
-    },
-    "software-testing": {
-      "title": "Software Testing",
-      "date": "Since 2019",
-      "starred": true,
-      "img": "testing",
-      "description": [
-        [
-          "Software Testing is done to validate and verify the behaviour of software; I applied it in three distinct instances. The most important of them would be the ",
-          ["link", "../works/projects/notetogether", "NoteTogether"],
-          " project, where I did most of the background testing. Other instances would be this website, where I tested whether each subsite works properly (including the notes page)."
-        ],
-        [
-          "1. Unit Testing: I used the Postman API to test the API endpoints of NoteTogether, where variables such as verification token and note IDs are stored as environment variables. I set up over 50 unit test cases, which test different aspects of each API (error handling etc.)"
-        ],
-        [
-          "2. Integration Testing: I used Postman Flows to test the integration of different API endpoints of NoteTogether, creating complex networks of logic flow to simulate an actual interaction."
-        ],
-        [
-          "3. System Testing: For more thorough testing of NoteTogether's backend design, I used Python to send requests to the server, and verify that all the data is updated accordingly."
-        ],
-        [
-          "4. Regression Testing: For NoteTogether, the regression testing was done using GitHub Actions, using Python to run some scripts that test the behaviour of the app."
-        ],
-        [
-          "5. Continuous Integration / Continuous Deployment: For NoteTogether, most of the CI/CD was done by my partner so my main experience in this area would be in the deployment of this personal site, where the build command is run in GitHub Actions."
-        ],
-        [
-          "6. Frontend Testing: I like web scraping, so for NoteTogether, I was responsible for the frontend testing as well. Using Selenium on Python, I created scripts that mimicked the behaviour of the end user and tested whether the front responded accordingly."
-        ],
-        [
-          "7. Load Testing: Using Python requests again, I tested the behaviour of our application at different loads, and made a regression curve approximating its performance as load increases."
-        ],
-        [
-          "8. Stress Testing: Using Python requests again, I tested the ability of the application to handle high amounts of traffic. In particular, whether a large number of requests coming in would lead to a mismatch in fields."
         ]
       ]
     },
