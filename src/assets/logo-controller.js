@@ -5,6 +5,7 @@ import chinese from './logo/chinese.png';
 import australianmc from './logo/australianmc.png';
 import problemsolving from './logo/problemsolving.png';
 import telegram from './logo/telegram.png';
+import software-testing from './logo/software-testing.png';
 import spiderman from './logo/spiderman.png';
 import hackerrank from './logo/hackerrank.png';
 import vex from './logo/vex.png';
@@ -97,6 +98,7 @@ chinese: chinese,
 australianmc: australianmc,
 problemsolving: problemsolving,
 telegram: telegram,
+software-testing: software-testing,
 spiderman: spiderman,
 hackerrank: hackerrank,
 vex: vex,
