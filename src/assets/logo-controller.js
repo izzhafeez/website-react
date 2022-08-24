@@ -5,10 +5,10 @@ import chinese from './logo/chinese.png';
 import australianmc from './logo/australianmc.png';
 import problemsolving from './logo/problemsolving.png';
 import telegram from './logo/telegram.png';
-import software-testing from './logo/software-testing.png';
 import spiderman from './logo/spiderman.png';
 import hackerrank from './logo/hackerrank.png';
 import vex from './logo/vex.png';
+import testing from './logo/testing.png';
 import malay from './logo/malay.png';
 import sms from './logo/sms.png';
 import tableau from './logo/tableau.png';
@@ -98,10 +98,10 @@ chinese: chinese,
 australianmc: australianmc,
 problemsolving: problemsolving,
 telegram: telegram,
-software-testing: software-testing,
 spiderman: spiderman,
 hackerrank: hackerrank,
 vex: vex,
+testing: testing,
 malay: malay,
 sms: sms,
 tableau: tableau,
