@@ -2,6 +2,8 @@
 @import "./colors/mrt.css";
 
 .App {
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
   background-color: var(--back);
   color: var(--text);
