@@ -65,6 +65,7 @@
       "title": "SQL",
       "date": "Since 2016",
       "projects": true,
+      "lines": 810,
       "img": "sql",
       "description": [
         [
@@ -227,6 +228,7 @@
     "c-sharp": {
       "title": "C#",
       "date": "Since 2020",
+      "lines": 472,
       "img": "csharp",
       "description": [
         [
@@ -254,6 +256,7 @@
     "c++": {
       "title": "C++",
       "date": "Since 2017",
+      "lines": 644,
       "img": "cpp",
       "description": [
         [
