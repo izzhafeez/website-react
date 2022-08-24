@@ -107,6 +107,9 @@
         ],
         [
           "It contains many other projects within it, accessed through different subpages in the site. Some preprocessing of the JS Scripts and data were done in Rust, Python and Ruby."
+        ],
+        [
+          "Deployment is done through automatic CI/CD into GitHub and then Netlify."
         ]
       ]
     },
