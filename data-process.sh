@@ -32,7 +32,7 @@ cd ../../..
 # Runs the C script that counts how many lines I've written in each language
 cd src/data/coding-languages
 echo "Compiling C..."
-gcc coding-line-count.c
+# gcc coding-line-count.c
 echo "Completed Compilation"
 echo "Running C..."
 ./a.out
