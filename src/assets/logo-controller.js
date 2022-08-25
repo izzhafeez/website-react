@@ -55,6 +55,7 @@ import certificates from './logo/certificates.png';
 import harvardx from './logo/harvardx.png';
 import notetogether from './logo/notetogether.png';
 import node from './logo/node.png';
+import postgresql from './logo/postgresql.png';
 import datastructures from './logo/datastructures.png';
 import csharp from './logo/csharp.png';
 import excel from './logo/excel.png';
@@ -148,6 +149,7 @@ certificates: certificates,
 harvardx: harvardx,
 notetogether: notetogether,
 node: node,
+postgresql: postgresql,
 datastructures: datastructures,
 csharp: csharp,
 excel: excel,
