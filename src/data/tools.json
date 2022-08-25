@@ -267,6 +267,16 @@
         ]
       ]
     },
+    "postgresql": {
+      "title": "PostgreSQL",
+      "date": "Since 2022",
+      "img": "postgresql",
+      "description": [
+        [
+          "I do have some experience managing PostgreSQL database, although most of the management is done using Django's architecture, as well as Railway's database hosting and auto-scaling."
+        ]
+      ]
+    },
     "er-studio": {
       "title": "ER Studio",
       "date": "Since 2021",
