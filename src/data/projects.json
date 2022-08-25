@@ -222,7 +222,8 @@
         "sql"
       ],
       "tools": [
-        "django"
+        "django",
+        "postgresql"
       ],
       "skills": [
         "web-programming",
