@@ -16,7 +16,6 @@ function ProjectsDesc() {
     : [projectsData.projects[name]];
   
   const projectsContent = projects.filter(project => project.tools).map(project => {
-    console.log(project);
     const tools = project.tools.map((tool) => {
       const toolData = toolsData.tools[tool];
       return <MiniIcon logo={logos[toolData.img]} alt={tool} kind="tools" key={tool}></MiniIcon>
