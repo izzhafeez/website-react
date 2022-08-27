@@ -100,5 +100,13 @@
         ". Do check them out here, as this site serves as a navigable dumping ground."
       ]
     ]
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "content": [
+      [
+        "Here are all the projects that I've done over the years, some completed and some not. Most are done in Python, as it is my most comfortable language, and the language which has most of my useful packages."
+      ]
+    ]
   }
 }
