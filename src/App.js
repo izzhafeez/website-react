@@ -23,8 +23,6 @@ import BlogHome from './pages/blog/BlogHome';
 import BlogLanding from './pages/blog/BlogLanding';
 import ModulesDesc from './pages/blog/ModulesDesc';
 
-import All from './pages/all/All';
-
 function App() {
   return (
     <div className="App">
@@ -57,8 +55,6 @@ function App() {
             <Route path="works/notes/search" element={<NotesLanding/>} />
             <Route path="works/projects" element={<ProjectsLanding/>} />
             <Route path="works/projects/:name" element={<ProjectsDesc/>} />
-
-            <Route path="all/:name" element={<All/>} />
 
             <Route
               path="full-page"
