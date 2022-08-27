@@ -4,6 +4,7 @@ import languagesData from '../../data/languages.json';
 import projectsData from '../../data/projects.json';
 import skillsData from '../../data/skills.json';
 import toolsData from '../../data/tools.json';
+import contentData from '../../data/content.json';
 import logos from '../../assets/logo-controller';
 
 import Text from '../../components/Text';
@@ -11,7 +12,8 @@ import MiniIcon from '../../components/icon/MiniIcon';
 
 function ProjectsDesc() {
   const { name } = useParams();
-  const projects = name === "all"
+  const isAll = name === "all";
+  const projects = isAll
     ? Object.values(projectsData.projects)
     : [projectsData.projects[name]];
   
@@ -73,6 +75,14 @@ function ProjectsDesc() {
 
   return (
     <div className="page">
+      {
+        isAll &&
+        <Text
+          title="ALL PROJECTS"
+          content={contentData.projects.content}
+        ></Text>
+      }
+      <br></br>
       {projectsContent}
     </div>
   )

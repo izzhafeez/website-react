@@ -1,5 +1,7 @@
 import './Works.css';
 
+import { Link } from 'react-router-dom';
+
 import contentData from '../../data/content.json';
 import projectsData from '../../data/projects.json';
 
@@ -29,7 +31,7 @@ function WorksHome() {
       <h2 id="notes">NOTES</h2>
       <SearchBar className="search-bar" />
       <br></br>
-      <h2 id="projects">PROJECTS</h2>
+      <h2 id="projects">PROJECTS (<Link to="../works/projects/all">VIEW ALL</Link>)</h2>
       <div className="projects-entries">{projectsPreview}</div>
       <br></br>
     </div>
