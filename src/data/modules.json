@@ -233,6 +233,23 @@
           "Ugh I suck at essays..."
         ]
       ]
+    },
+    "cp2106": {
+      "code": "CP2106",
+      "title": "Independent Computing Project (Orbital)",
+      "date": "Y1 Sem Break",
+      "grade": "Artemis",
+      "noNotes": true,
+      "description": [
+        [
+          "Over the course of my first year semester break, my partner and I created a note-sharing platform that combined the features of Reddit and GitHub. We used the MongoDB-Express-Vue-Node (MEVN) tech stack to build it, which might've been a bad choice. Main reason being, we didn't manage to get a mentor for a project, unlike most other Artemis groups. But nonetheless, we managed to resolve our own issues and retain our highest level of achievement."
+        ]
+      ],
+      "tips": [
+        [
+          "We didn't get a mentor for our project, which had led to several hiccups when initialising and deploying our project. But we ultimately found it unnecessary as we could eventually solve those issues. So even without a mentor, it is not the end of the world."
+        ]
+      ]
     }
   }
 }
