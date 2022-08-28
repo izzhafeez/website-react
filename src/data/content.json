@@ -89,7 +89,7 @@
     "title": "WORKS",
     "content": [
       [
-        "A large portion of my time has always been spent on developing various ",
+        "Welcome to my Works Page! Here, I share some of the ",
         ["link", "projects", "Projects"],
         ", ",
         ["link", "music", "Piano Pieces"],
@@ -97,7 +97,9 @@
         ["link", "art", "Artwork"],
         " and ",
         ["link", "puzzles", "Puzzles"],
-        ". Do check them out here, as this site serves as a navigable dumping ground."
+        " I've created over the years, along with my own personal ",
+        ["link", "notes", "Notes"],
+        " that I use for my modules."
       ]
     ]
   },
@@ -105,7 +107,7 @@
     "title": "PROJECTS",
     "content": [
       [
-        "Here are all the projects that I've done over the years, some completed and some not. Most are done in Python, as it is my most comfortable language, and the language which has most of my useful packages."
+        "Welcome to my Projects Page! Here, I share some of the projects that I've done over the years, as well as my experiences in developing them. Most are done in Python, as it is my most comfortable language, and the language which has most of my useful packages."
       ]
     ]
   }
