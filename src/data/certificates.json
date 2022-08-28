@@ -37,19 +37,19 @@
       "external": true,
       "img": "udemy"
     },
-    "hsk-5": {
-      "title": "HSK 5 (211/300)",
-      "date": "Mar'21",
-      "link": "http://www.chinesetest.cn/queryScore.do?sid=c2tActR9Wb%27d1ab44da677955ce3b5c9231ff65ea765c6b8d2a3849b500%2724d7sWsQ5nVUQSwD",
-      "external": true,
-      "img": "confucius"
-    },
     "more": {
       "title": "More Certificates",
       "date": "Various",
       "img": "certificates",
       "link": "certificates",
       "ignore": true
+    },
+    "hsk-5": {
+      "title": "HSK 5 (211/300)",
+      "date": "Mar'21",
+      "link": "http://www.chinesetest.cn/queryScore.do?sid=c2tActR9Wb%27d1ab44da677955ce3b5c9231ff65ea765c6b8d2a3849b500%2724d7sWsQ5nVUQSwD",
+      "external": true,
+      "img": "confucius"
     },
     "deep-learning-tensorflow": {
       "title": "Deep Learning with Tensorflow",
