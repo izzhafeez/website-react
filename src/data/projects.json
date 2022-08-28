@@ -223,7 +223,8 @@
       ],
       "tools": [
         "django",
-        "postgresql"
+        "postgresql",
+        "heroku"
       ],
       "skills": [
         "web-programming",
