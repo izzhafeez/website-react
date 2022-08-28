@@ -35,8 +35,10 @@ function ProjectsDesc() {
       ? ["link", project.link, "LINK"]
       : ["link", project.repo, "LINK", true];
 
+    const className = isAll ? "" : "page";
+
     return (
-      <div>
+      <div className={className}>
         <img src={logos[project.img]} alt={project.title} className="icon"></img>
         <br></br>
         <Text

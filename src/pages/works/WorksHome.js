@@ -31,7 +31,7 @@ function WorksHome() {
       <h2 id="notes">NOTES</h2>
       <SearchBar className="search-bar" />
       <br></br>
-      <h2 id="projects">PROJECTS (<Link to="../works/projects/all">VIEW ALL</Link>)</h2>
+      <h2 id="projects">PROJECTS (<Link to="../works/projects/all">FULL VIEW</Link>)</h2>
       <div className="projects-entries">{projectsPreview}</div>
       <br></br>
     </div>
