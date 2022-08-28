@@ -37,7 +37,7 @@ function ModulesDesc(props) {
       <h2>TOPICS</h2>
       <div className="notes-entries">{notes}</div>
       <Helmet>
-        <title>{data.title+"Module Review"}</title>
+        <title>{data.code.toUpperCase()+" Module Review"}</title>
         <meta name="description"
           content={description.slice(0, 150)} />
       </Helmet>
