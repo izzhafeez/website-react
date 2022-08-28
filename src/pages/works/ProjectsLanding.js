@@ -1,5 +1,7 @@
 import './Works.css';
 
+import { Helmet } from 'react-helmet';
+
 import projectsData from '../../data/projects.json';
 import logos from '../../assets/logo-controller';
 
@@ -25,6 +27,11 @@ function ProjectsLanding(props) {
       <br></br>
       <h2>{dataPath.toUpperCase()}</h2>
       <div className="projects-entries">{projects}</div>
+      <Helmet>
+        <title>My Projects</title>
+        <meta name="description"
+          content="Welcome to my Projects Page! Here, I share some of the projects that I've done over the years, as well as my experiences in developing them." />
+      </Helmet>
     </div>
   )
 }

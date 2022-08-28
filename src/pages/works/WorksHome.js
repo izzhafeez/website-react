@@ -1,5 +1,6 @@
 import './Works.css';
 
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 import contentData from '../../data/content.json';
@@ -34,6 +35,11 @@ function WorksHome() {
       <h2 id="projects">PROJECTS (<Link to="../works/projects/all">FULL VIEW</Link>)</h2>
       <div className="projects-entries">{projectsPreview}</div>
       <br></br>
+      <Helmet>
+        <title>My Works</title>
+        <meta name="description"
+          content="Welcome to my Works Page! Here, I share some of the projects, piano pieces, artwork and puzzles that I've created over the years, as well as my personal notes." />
+      </Helmet>
     </div>
   );
 }

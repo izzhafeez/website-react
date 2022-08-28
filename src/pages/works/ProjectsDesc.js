@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { useParams } from 'react-router-dom';
 
 import languagesData from '../../data/languages.json';
@@ -86,6 +87,15 @@ function ProjectsDesc() {
       }
       <br></br>
       {projectsContent}
+      <Helmet>
+        <title>{isAll && "ALL PROJECTS"}{!isAll && projects[0].title + " Project"}</title>
+        <meta name="description"
+          content={
+            isAll
+            ? "Welcome to my Projects Page! Here, I share some of the projects that I've done over the years, as well as my experiences in developing them."
+            : projects[0].description
+          } />
+      </Helmet>
     </div>
   )
 }
