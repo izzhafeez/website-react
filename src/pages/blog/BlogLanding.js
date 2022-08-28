@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { useParams } from 'react-router-dom';
 
 import './Blog.css';
@@ -36,6 +37,11 @@ function BlogLanding(props) {
       <br></br>
       <h2>{kind.toUpperCase()}</h2>
       <div className="blog-entries">{blogs}</div>
+      <Helmet>
+        <title>{"My "+kind}</title>
+        <meta name="description"
+          content={"Welcome to my "+kind+" Page! Here, I share some of the "+kind+" I've accumulated over my programming life."} />
+      </Helmet>
     </div>
   )
 }

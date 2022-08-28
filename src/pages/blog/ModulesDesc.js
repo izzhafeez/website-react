@@ -35,6 +35,11 @@ function ModulesDesc(props) {
       ></Text>
       <h2>TOPICS</h2>
       <div className="notes-entries">{notes}</div>
+      <Helmet>
+        <title>{data.title.toUpperCase()}</title>
+        <meta name="description"
+          content={description.slice(0, 150)} />
+      </Helmet>
     </div>
   );
 }

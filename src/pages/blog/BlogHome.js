@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet';
+
 import './Blog.css';
 
 import contentData from '../../data/content.json';
@@ -31,6 +33,11 @@ function BlogHome() {
       <h2 id="modules">MODULE REVIEWS</h2>
       <div className="notes-entries">{modulesPreview}</div>
       <br></br>
+      <Helmet>
+        <title>My Blog</title>
+        <meta name="description"
+          content="Welcome to my Blog Page! Here, I share some of my experiences for the modules I've taken thus far." />
+      </Helmet>
     </div>
   );
 }
