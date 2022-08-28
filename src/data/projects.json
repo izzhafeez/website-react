@@ -55,10 +55,12 @@
         "node-js",
         "postman",
         "github-actions",
-        "selenium"
+        "selenium",
+        "heroku"
       ],
       "skills": [
-        "web-programming"
+        "web-programming",
+        "software-testing"
       ],
       "full-description": [
         [
