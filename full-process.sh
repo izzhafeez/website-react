@@ -1,5 +1,5 @@
 #!/bin/bash
 
 bash data-process.sh
-bash git-process.sh
 npm run sitemap
+bash git-process.sh
