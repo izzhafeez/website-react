@@ -277,6 +277,16 @@
         ]
       ]
     },
+    "heroku": {
+      "title": "Heroku",
+      "date": "Since 2021",
+      "img": "heroku",
+      "description": [
+        [
+          "Although I've had some prior experience in Heroku in 2021, I have used Heroku quite a bit in 2022, for hosting NoteTogether and a couple of other projects. Painful process."
+        ]
+      ]
+    },
     "er-studio": {
       "title": "ER Studio",
       "date": "Since 2021",
