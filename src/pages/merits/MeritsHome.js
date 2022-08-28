@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet';
+
 import './Merits.css';
 
 import contentData from '../../data/content.json';
@@ -113,6 +115,11 @@ function MeritsHome() {
       <br></br>
       <h2 id="modules">MODULES</h2>
       <div className="merits-entries">{modulesPreview}</div>
+      <Helmet>
+        <title>My Merits</title>
+        <meta name="description"
+          content="Welcome to my Merits Page! Here, I share some of my programming experience, along with my certifications and awards, as well as my languages, skills and tools." />
+      </Helmet>
     </div>
   );
 }

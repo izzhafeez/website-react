@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { useParams } from 'react-router-dom';
 
 import experiencesData from '../../data/experiences.json';
@@ -50,6 +51,11 @@ function ExperienceDesc() {
       <br></br>
       <h2>LANGUAGES</h2>
       <div className="mini-icon-section">{languages}</div>
+      <Helmet>
+        <title>{experience.title}</title>
+        <meta name="description"
+          content={experience.description} />
+      </Helmet>
     </div>
   );
 }

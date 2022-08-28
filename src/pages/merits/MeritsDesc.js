@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { useParams } from 'react-router-dom';
 
 import '../works/Works.css';
@@ -51,6 +52,11 @@ function MeritsDesc(props) {
       ></Text>
       <h2>PROJECTS</h2>
       <div className="projects-entries">{projects}</div>
+      <Helmet>
+        <title>{data.title}</title>
+        <meta name="description"
+          content={data.description.slice(0, 150)} />
+      </Helmet>
     </div>
   );
 }

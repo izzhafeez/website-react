@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import { useParams } from 'react-router-dom';
 
 import './Merits.css';
@@ -39,6 +40,11 @@ function MeritsLanding(props) {
       <br></br>
       <h2>{kind.toUpperCase()}</h2>
       <div className="merits-entries">{merits}</div>
+      <Helmet>
+        <title>{"My "+kind}</title>
+        <meta name="description"
+          content={"Welcome to my "+kind.toUpperCase()+" Page! Here, I share some of the "+kind+" I've accumulated over my programming life."} />
+      </Helmet>
     </div>
   )
 }
