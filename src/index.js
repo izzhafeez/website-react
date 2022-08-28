@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { useEffect } from 'react';
-import { HashRouter, useLocation } from "react-router-dom";
+import { BrowserRouter, useLocation } from "react-router-dom";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -18,9 +18,9 @@ function ScrollToTop() {
 }
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <ScrollToTop />
     <App />
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById("root")
 );
