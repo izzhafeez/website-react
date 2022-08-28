@@ -76,6 +76,7 @@ import udemy from './logo/udemy.png';
 import databases from './logo/databases.png';
 import web from './logo/web.png';
 import korean from './logo/korean.png';
+import jlpt from './logo/jlpt.png';
 import ssms from './logo/ssms.png';
 import analysis from './logo/analysis.png';
 import minutes from './logo/minutes.png';
@@ -173,6 +174,7 @@ udemy: udemy,
 databases: databases,
 web: web,
 korean: korean,
+jlpt: jlpt,
 ssms: ssms,
 analysis: analysis,
 minutes: minutes,
