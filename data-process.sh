@@ -1,5 +1,10 @@
 #!/bin/bash
 
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
 # Runs the Rust script that:
 # 1. Processes the logo folder
 # 2. Creates a js file that imports all those logos
@@ -18,6 +23,7 @@ then
   cd src/data/notes
   echo "Running Sheets retrieval..."
   python notes.py
+  echo -e "${GREEN}Completed${NC} Sheets retrieval..."
   cd ../../..
 fi
 
@@ -26,15 +32,15 @@ fi
 cd src/data/notes
 echo "Running Ruby..."
 ruby notes.rb
-echo "Completed Ruby"
+echo -e "${GREEN}Completed${NC} Ruby"
 cd ../../..
 
 # Runs the C script that counts how many lines I've written in each language
 cd src/data/coding-languages
 echo "Compiling C..."
 # gcc coding-line-count.c
-echo "Completed Compilation"
+echo -e "${GREEN}Completed${NC} Compilation"
 echo "Running C..."
 ./a.out
-echo "Completed C"
+echo -e "${GREEN}Completed${NC} C"
 cd ../../..
