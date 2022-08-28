@@ -20,35 +20,35 @@ import ModulesDesc from './pages/blog/ModulesDesc';
  
 const router = (
   <Routes>
-    <Route path="/" exact element={<Home />} />
-    <Route path="website-react" exact element={<Home />} />
-    <Route path="merits" exact element={<MeritsHome />} />
-    <Route path="blog" exact element={<BlogHome />} />
-    <Route path="works" exact element={<WorksHome />} />
+    <Route exact path="/" element={<Home />} />
+    <Route exact path="website-react" element={<Home />} />
+    <Route exact path="merits" element={<MeritsHome />} />
+    <Route exact path="blog" element={<BlogHome />} />
+    <Route exact path="works" element={<WorksHome />} />
 
-    <Route path="merits/experience/:name" exact element={<ExperienceDesc />} />
+    <Route exact path="merits/experience/:name" element={<ExperienceDesc />} />
 
-    <Route path="merits/:kind" exact element={<MeritsLanding/>} />
+    <Route exact path="merits/:kind" element={<MeritsLanding/>} />
 
-    <Route path="merits/awards/:name" exact element={<MeritsDesc dataPath="awards"/>} />
-    <Route path="merits/certificates/:name" exact element={<MeritsDesc dataPath="certificates"/>} />
-    <Route path="merits/languages/:name" exact element={<MeritsDesc dataPath="languages"/>} />
-    <Route path="merits/skills/:name" exact element={<MeritsDesc dataPath="skills"/>} />
-    <Route path="merits/tools/:name" exact element={<MeritsDesc dataPath="tools"/>} />
+    <Route exact path="merits/awards/:name" element={<MeritsDesc dataPath="awards"/>} />
+    <Route exact path="merits/certificates/:name" element={<MeritsDesc dataPath="certificates"/>} />
+    <Route exact path="merits/languages/:name" element={<MeritsDesc dataPath="languages"/>} />
+    <Route exact path="merits/skills/:name" element={<MeritsDesc dataPath="skills"/>} />
+    <Route exact path="merits/tools/:name" element={<MeritsDesc dataPath="tools"/>} />
 
-    <Route path="blog/:kind" exact element={<BlogLanding/>} />
+    <Route exact path="blog/:kind" element={<BlogLanding/>} />
 
-    <Route path="blog/modules/:name" exact element={<ModulesDesc/>} />
+    <Route exact path="blog/modules/:name" element={<ModulesDesc/>} />
 
-    <Route path="works/notes/:module/:name" exact element={<NotesDesc/>} />
-    <Route path="works/notes/search/:searchTerm" exact element={<NotesLanding/>} />
-    <Route path="works/notes/search" exact element={<NotesLanding/>} />
-    <Route path="works/projects" exact element={<ProjectsLanding/>} />
-    <Route path="works/projects/:name" exact element={<ProjectsDesc/>} />
+    <Route exact path="works/notes/:module/:name" element={<NotesDesc/>} />
+    <Route exact path="works/notes/search/:searchTerm" element={<NotesLanding/>} />
+    <Route exact path="works/notes/search" element={<NotesLanding/>} />
+    <Route exact path="works/projects" element={<ProjectsLanding/>} />
+    <Route exact path="works/projects/:name" element={<ProjectsDesc/>} />
 
     <Route
       path="full-page"
-      exact element={
+     elementexact ={
         <div>
           <Home></Home>
           <br></br>
