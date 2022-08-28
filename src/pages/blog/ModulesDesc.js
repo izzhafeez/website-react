@@ -17,7 +17,7 @@ function ModulesDesc(props) {
   description.push(["DATE: " + data.date]);
   description.push(["GRADE: " + data.grade]);
 
-  const notes = notesData.notes[name.toUpperCase()].contents.Topics.sublinks.map(link => {
+  const notes = data.noNotes ? "" : notesData.notes[name.toUpperCase()].contents.Topics.sublinks.map(link => {
     const note = notesData.notes[link];
     return <Note note={note}/>;
   });
