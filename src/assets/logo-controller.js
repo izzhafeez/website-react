@@ -13,6 +13,7 @@ import malay from './logo/malay.png';
 import sms from './logo/sms.png';
 import tableau from './logo/tableau.png';
 import m from './logo/m.png';
+import heroku from './logo/heroku.png';
 import nus from './logo/nus.png';
 import datascience from './logo/datascience.png';
 import game from './logo/game.png';
@@ -49,6 +50,7 @@ import javascript from './logo/javascript.png';
 import mongo from './logo/mongo.png';
 import tools from './logo/tools.png';
 import geospatial from './logo/geospatial.png';
+import desmoslong from './logo/desmoslong.png';
 import extraction from './logo/extraction.png';
 import cleaning from './logo/cleaning.png';
 import certificates from './logo/certificates.png';
@@ -77,6 +79,7 @@ import korean from './logo/korean.png';
 import ssms from './logo/ssms.png';
 import analysis from './logo/analysis.png';
 import minutes from './logo/minutes.png';
+import youtube from './logo/youtube.png';
 import c from './logo/c.png';
 import mining from './logo/mining.png';
 import visualization from './logo/visualization.png';
@@ -107,6 +110,7 @@ malay: malay,
 sms: sms,
 tableau: tableau,
 m: m,
+heroku: heroku,
 nus: nus,
 datascience: datascience,
 game: game,
@@ -143,6 +147,7 @@ javascript: javascript,
 mongo: mongo,
 tools: tools,
 geospatial: geospatial,
+desmoslong: desmoslong,
 extraction: extraction,
 cleaning: cleaning,
 certificates: certificates,
@@ -171,6 +176,7 @@ korean: korean,
 ssms: ssms,
 analysis: analysis,
 minutes: minutes,
+youtube: youtube,
 c: c,
 mining: mining,
 visualization: visualization,
