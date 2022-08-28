@@ -21,34 +21,34 @@ import ModulesDesc from './pages/blog/ModulesDesc';
 const router = (
   <Routes>
     <Route exact path="/" element={<Home />} />
-    <Route exact path="website-react" element={<Home />} />
-    <Route exact path="merits" element={<MeritsHome />} />
-    <Route exact path="blog" element={<BlogHome />} />
-    <Route exact path="works" element={<WorksHome />} />
+    <Route path="website-react" element={<Home />} />
+    <Route path="merits" element={<MeritsHome />} />
+    <Route path="blog" element={<BlogHome />} />
+    <Route path="works" element={<WorksHome />} />
 
-    <Route exact path="merits/experience/:name" element={<ExperienceDesc />} />
+    <Route path="merits/experience/:name" element={<ExperienceDesc />} />
 
-    <Route exact path="merits/:kind" element={<MeritsLanding/>} />
+    <Route path="merits/:kind" element={<MeritsLanding/>} />
 
-    <Route exact path="merits/awards/:name" element={<MeritsDesc dataPath="awards"/>} />
-    <Route exact path="merits/certificates/:name" element={<MeritsDesc dataPath="certificates"/>} />
-    <Route exact path="merits/languages/:name" element={<MeritsDesc dataPath="languages"/>} />
-    <Route exact path="merits/skills/:name" element={<MeritsDesc dataPath="skills"/>} />
-    <Route exact path="merits/tools/:name" element={<MeritsDesc dataPath="tools"/>} />
+    <Route path="merits/awards/:name" element={<MeritsDesc dataPath="awards"/>} />
+    <Route path="merits/certificates/:name" element={<MeritsDesc dataPath="certificates"/>} />
+    <Route path="merits/languages/:name" element={<MeritsDesc dataPath="languages"/>} />
+    <Route path="merits/skills/:name" element={<MeritsDesc dataPath="skills"/>} />
+    <Route path="merits/tools/:name" element={<MeritsDesc dataPath="tools"/>} />
 
-    <Route exact path="blog/:kind" element={<BlogLanding/>} />
+    <Route path="blog/:kind" element={<BlogLanding/>} />
 
-    <Route exact path="blog/modules/:name" element={<ModulesDesc/>} />
+    <Route path="blog/modules/:name" element={<ModulesDesc/>} />
 
-    <Route exact path="works/notes/:module/:name" element={<NotesDesc/>} />
-    <Route exact path="works/notes/search/:searchTerm" element={<NotesLanding/>} />
-    <Route exact path="works/notes/search" element={<NotesLanding/>} />
-    <Route exact path="works/projects" element={<ProjectsLanding/>} />
-    <Route exact path="works/projects/:name" element={<ProjectsDesc/>} />
+    <Route path="works/notes/:module/:name" element={<NotesDesc/>} />
+    <Route path="works/notes/search/:searchTerm" element={<NotesLanding/>} />
+    <Route path="works/notes/search" element={<NotesLanding/>} />
+    <Route path="works/projects" element={<ProjectsLanding/>} />
+    <Route path="works/projects/:name" element={<ProjectsDesc/>} />
 
     <Route
       path="full-page"
-     elementexact ={
+     elemen ={
         <div>
           <Home></Home>
           <br></br>
