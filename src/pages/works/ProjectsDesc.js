@@ -88,7 +88,7 @@ function ProjectsDesc() {
       <br></br>
       {projectsContent}
       <Helmet>
-        <title>{isAll && "ALL PROJECTS"}{!isAll && projects[0].title + " Project"}</title>
+        <title>{projects[0].title + " Project"}</title>
         <meta name="description"
           content={
             isAll
