@@ -311,19 +311,20 @@
       "title": "Chords Search Engine",
       "start": "Feb'20",
       "end": "Mar'21",
-      "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/chords.py",
+      "repo": "https://github.com/mynameizzhafeez/chords",
       "img": "music",
       "description": "Finds, standardises and analyses the chord progression of any song",
       "languages": [
         "python"
       ],
       "tools": [
-
+        "flask"
       ],
       "skills": [
         "web-scraping",
         "data-mining",
-        "data-extraction"
+        "data-extraction",
+        "web-programming"
       ],
       "full-description": [
         [
