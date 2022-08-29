@@ -419,6 +419,28 @@
         ]
       ]
     },
+    "singapore-django-project": {
+      "title": "Singapore Simulator",
+      "start": "Mar'21",
+      "end": "Jun'21",
+      "repo": "https://github.com/mynameizzhafeez/singapore",
+      "img": "languages",
+      "description": "Django project for simulating Singapore's urban geography",
+      "languages": [
+        "python"
+      ],
+      "tools": [
+        "django"
+      ],
+      "skills": [
+        "web-programming"
+      ],
+      "full-description": [
+        [
+          "A discontinued project for simulating Singapore's urban geography, and is my second Django project. All it can do is calculate distances, as well as the elevation at any given point, with frontends implemented in Django as well."
+        ]
+      ]
+    },
     "language-review-bot": {
       "title": "Language Review Bot",
       "start": "Apr'20",
