@@ -251,6 +251,42 @@
         ]
       ]
     },
+    "spiderman": {
+      "title": "Spiderman Scraper",
+      "start": "Jul'19",
+      "end": "Jun'20",
+      "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/spiderman.py",
+      "img": "spiderman",
+      "description": "Enhanced web-scraping tool that simplifies the process by providing shortcuts",
+      "languages": [
+        "python"
+      ],
+      "tools": [
+
+      ],
+      "skills": [
+        "web-scraping",
+        "data-mining",
+        "data-extraction"
+      ],
+      "full-description": [
+        [
+          "After reading through the BeautifulSoup documentation, I realised that many common operations are not in the module. As such, I filled in as many holes as I possibly can, applying OOP principles to boost the extensibility of my web scraper. Among its features are the following:"
+        ],
+        [
+          "- Extract all tables from a particular webpage and merge them based on whichever tables have the same column names"
+        ],
+        [
+          "- Extract hrefs and insert them into the text itself using delimiters like brackets (same can be done for tables and lists)"
+        ],
+        [
+          "- Standardises all hrefs to be complete links, rather than relational ones"
+        ],
+        [
+          "I use this module most frequently, so I feel that it is the most impactful out of my earlier projects (to me, at least)."
+        ]
+      ]
+    },
     "meetupmaker": {
       "title": "MeetupMaker",
       "start": "Jun'22",
@@ -434,39 +470,25 @@
         ]
       ]
     },
-    "spiderman": {
-      "title": "Spiderman Scraper",
-      "start": "Jul'19",
-      "end": "Jun'20",
-      "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/spiderman.py",
-      "img": "spiderman",
-      "description": "Enhanced web-scraping tool that simplifies the process by providing shortcuts",
+    "mrt-simulator": {
+      "title": "MRT Simulation Module",
+      "start": "Feb'22",
+      "end": "Feb'22",
+      "repo": "https://github.com/mynameizzhafeez/MRT",
+      "img": "mrt",
+      "description": "OOP Java project to simulate the MRT network",
       "languages": [
-        "python"
+        "java"
       ],
       "tools": [
 
       ],
       "skills": [
-        "web-scraping",
-        "data-mining",
-        "data-extraction"
+
       ],
       "full-description": [
         [
-          "After reading through the BeautifulSoup documentation, I realised that many common operations are not in the module. As such, I filled in as many holes as I possibly can, applying OOP principles to boost the extensibility of my web scraper. Among its features are the following:"
-        ],
-        [
-          "- Extract all tables from a particular webpage and merge them based on whichever tables have the same column names"
-        ],
-        [
-          "- Extract hrefs and insert them into the text itself using delimiters like brackets (same can be done for tables and lists)"
-        ],
-        [
-          "- Standardises all hrefs to be complete links, rather than relational ones"
-        ],
-        [
-          "I use this module most frequently, so I feel that it is the most impactful out of my earlier projects (to me, at least)."
+          "While undergoing my CS2030S and CS2040S courses in Java, I had some additional practice when developing this MRT simulator. Essentially, I implemented my AVLTree as well as my Double Linked List in this module, and that's pretty much the entire development cycle. I have no use for this, as I already have it in Python."
         ]
       ]
     },
