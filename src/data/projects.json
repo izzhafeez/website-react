@@ -514,6 +514,29 @@
           "The data extracted using this script has since been uploaded onto Google Sheets."
         ]
       ]
+    },
+    "movielens-analysis": {
+      "title": "Movielens Analysis",
+      "start": "Jan'20",
+      "end": "Jan'20",
+      "repo": "https://github.com/mynameizzhafeez/arcturus",
+      "img": "r",
+      "description": "Analysis of Movielens data for HarvardX course",
+      "languages": [
+        "r"
+      ],
+      "tools": [
+
+      ],
+      "skills": [
+        "data-science",
+        "data-visualization"
+      ],
+      "full-description": [
+        [
+          "This is an analysis of Movielens data for HarvardX course. This is a standard dataset for data science courses, so there is nothing much to say about it. It was used purely for this course and nothing else."
+        ]
+      ]
     }
   }
 }
