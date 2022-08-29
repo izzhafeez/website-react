@@ -235,7 +235,7 @@
       ],
       "full-description": [
         [
-          "MeetupMaker was built using Django REST API and helps users make decisions on when and where to meet up with friends. For example, users want to meet up after their work ends. So, a request is sent with information regarding their work location and work end time, and a recommended meetup location is returned. It will be expanded upon to include better search criteria."
+          "MeetupMaker was built using Django REST API and helps users make decisions on when and where to meet up with friends. For example, users want to meet up after their work ends. So, a request is sent with information regarding their work location and work end time, and a recommended meetup location is returned. It will be expanded upon to include better search criteria. Further development is halted for now, as I figure out how to properly scrape and store information about shops and stores."
         ]
       ]
     },
