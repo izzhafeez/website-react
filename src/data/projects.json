@@ -121,45 +121,6 @@
       "img": "project",
       "ignore": true
     },
-    "dynamic-resource-optimizer": {
-      "title": "Dynamic Resource Optimizer",
-      "start": "Feb'19",
-      "end": "Jan'21",
-      "repo": "https://scis.smu.edu.sg/news/2018/dec/17/scdf-rides-data-get-ambulances-patients-more-quickly",
-      "img": "scdf",
-      "starred": true,
-      "description": "Optimisation model that recommends the placement of emergency vehicles",
-      "languages": [
-        "python",
-        "ruby"
-      ],
-      "tools": [
-        "google-cloud-platform",
-        "pandas",
-        "jupyter-notebook",
-        "tableau",
-        "microsoft-excel",
-        "telegram-bots",
-        "flask"
-      ],
-      "skills": [
-        "geospatial-analytics",
-        "operational-analysis",
-        "data-science",
-        "databases",
-        "data-cleaning",
-        "web-scraping",
-        "cloud-computing"
-      ],
-      "full-description": [
-        [
-          "Dynamic Resource Optimisation is a simulation and optimisation platform that recommends the optimal placement of emergency appliances to minimise overall response time in attending to emergency incidents. Although I mainly use it for producing analytics reports and predictions, I was also involved in the development of the project. In particular, my experience as an end user allowed me to implement many of my own improvements to the model. For instance, the entire analytics process was originally a six-stepped one, but I managed to drop it down to a more intuitive two steps."
-        ],
-        [
-          "Not only that, but I was also responsible for developing the master file for the project, which meant compiling information from over a dozen sources and file formats, all the while ensuring the data's accuracy. I was also responsible for generating predicted data to account for population trends. I took this project seriously, as it had tangible impact on Singapore's emergency medical response times."
-        ]
-      ]
-    },
     "geospatial-management": {
       "title": "Geo Management System",
       "start": "Feb'22",
@@ -204,7 +165,7 @@
       "end": "Sep'21",
       "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/code.js",
       "img": "telegram",
-      "description": "Telegram Bot that lets users search and review notes on the go",
+      "description": "Telegram Bot that lets users review notes on the go",
       "languages": [
         "javascript"
       ],
@@ -251,42 +212,6 @@
         ]
       ]
     },
-    "spiderman": {
-      "title": "Spiderman Scraper",
-      "start": "Jul'19",
-      "end": "Jun'20",
-      "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/spiderman.py",
-      "img": "spiderman",
-      "description": "Enhanced web-scraping tool that simplifies the process by providing shortcuts",
-      "languages": [
-        "python"
-      ],
-      "tools": [
-
-      ],
-      "skills": [
-        "web-scraping",
-        "data-mining",
-        "data-extraction"
-      ],
-      "full-description": [
-        [
-          "After reading through the BeautifulSoup documentation, I realised that many common operations are not in the module. As such, I filled in as many holes as I possibly can, applying OOP principles to boost the extensibility of my web scraper. Among its features are the following:"
-        ],
-        [
-          "- Extract all tables from a particular webpage and merge them based on whichever tables have the same column names"
-        ],
-        [
-          "- Extract hrefs and insert them into the text itself using delimiters like brackets (same can be done for tables and lists)"
-        ],
-        [
-          "- Standardises all hrefs to be complete links, rather than relational ones"
-        ],
-        [
-          "I use this module most frequently, so I feel that it is the most impactful out of my earlier projects (to me, at least)."
-        ]
-      ]
-    },
     "meetupmaker": {
       "title": "MeetupMaker",
       "start": "Jun'22",
@@ -310,7 +235,46 @@
       ],
       "full-description": [
         [
-          "MeetupMaker was built using Django REST API and helps users make decisions on when and where to meet up with friends. For example, users want to meet up after their work ends. So, a request is sent with information regarding their work location and work end time, and a recommended meetup location is returned. It will be expanded upon to include better search criteria. Further development is halted for now, as I figure out how to properly scrape and store information about shops and stores."
+          "MeetupMaker was built using Django REST API and helps users make decisions on when and where to meet up with friends. For example, users want to meet up after their work ends. So, a request is sent with information regarding their work location and work end time, and a recommended meetup location is returned. It will be expanded upon to include better search criteria."
+        ]
+      ]
+    },
+    "dynamic-resource-optimizer": {
+      "title": "Dynamic Resource Optimizer",
+      "start": "Feb'19",
+      "end": "Jan'21",
+      "repo": "https://scis.smu.edu.sg/news/2018/dec/17/scdf-rides-data-get-ambulances-patients-more-quickly",
+      "img": "scdf",
+      "starred": true,
+      "description": "Optimisation model that recommends the optimal placement of emergency vehicles",
+      "languages": [
+        "python",
+        "ruby"
+      ],
+      "tools": [
+        "google-cloud-platform",
+        "pandas",
+        "jupyter-notebook",
+        "tableau",
+        "microsoft-excel",
+        "telegram-bots",
+        "flask"
+      ],
+      "skills": [
+        "geospatial-analytics",
+        "operational-analysis",
+        "data-science",
+        "databases",
+        "data-cleaning",
+        "web-scraping",
+        "cloud-computing"
+      ],
+      "full-description": [
+        [
+          "Dynamic Resource Optimisation is a simulation and optimisation platform that recommends the optimal placement of emergency appliances to minimise overall response time in attending to emergency incidents. Although I mainly use it for producing analytics reports and predictions, I was also involved in the development of the project. In particular, my experience as an end user allowed me to implement many of my own improvements to the model. For instance, the entire analytics process was originally a six-stepped one, but I managed to drop it down to a more intuitive two steps."
+        ],
+        [
+          "Not only that, but I was also responsible for developing the master file for the project, which meant compiling information from over a dozen sources and file formats, all the while ensuring the data's accuracy. I was also responsible for generating predicted data to account for population trends. I took this project seriously, as it had tangible impact on Singapore's emergency medical response times."
         ]
       ]
     },
@@ -347,20 +311,19 @@
       "title": "Chords Search Engine",
       "start": "Feb'20",
       "end": "Mar'21",
-      "repo": "https://github.com/mynameizzhafeez/chords",
+      "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/chords.py",
       "img": "music",
       "description": "Finds, standardises and analyses the chord progression of any song",
       "languages": [
         "python"
       ],
       "tools": [
-        "flask"
+
       ],
       "skills": [
         "web-scraping",
         "data-mining",
-        "data-extraction",
-        "web-programming"
+        "data-extraction"
       ],
       "full-description": [
         [
@@ -419,51 +382,6 @@
         ]
       ]
     },
-    "singapore-django-project": {
-      "title": "Singapore Simulator",
-      "start": "Mar'21",
-      "end": "Jun'21",
-      "repo": "https://github.com/mynameizzhafeez/singapore",
-      "img": "languages",
-      "description": "Django project for simulating Singapore's urban geography",
-      "languages": [
-        "python"
-      ],
-      "tools": [
-        "django"
-      ],
-      "skills": [
-        "web-programming"
-      ],
-      "full-description": [
-        [
-          "A discontinued project for simulating Singapore's urban geography, and is my second Django project. All it can do is calculate distances, as well as the elevation at any given point, with frontends implemented in Django as well."
-        ]
-      ]
-    },
-    "language-review-bot": {
-      "title": "Language Review Bot",
-      "start": "Apr'20",
-      "end": "May'20",
-      "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/vocab.js",
-      "img": "telegram",
-      "description": "Telegram Bot that provides monthly reports and dictionary features to facilitate the language-learning process",
-      "languages": [
-        "javascript"
-      ],
-      "tools": [
-        "telegram-bots",
-        "google-cloud-platform"
-      ],
-      "skills": [
-        "databases"
-      ],
-      "full-description": [
-        [
-          "This Telegram bot has helped me study for my many language tests, mainly my HSK and my JLPT tests. Through it, I can search for words like a dictionary, giving me results in Chinese, Japanese and Korean. Also, it sends me monthly and weekly reports based on what words I've recently learnt."
-        ]
-      ]
-    },
     "programming-lines-counter": {
       "title": "Programming Lines Counter",
       "start": "Aug'22",
@@ -492,25 +410,39 @@
         ]
       ]
     },
-    "mrt-simulator": {
-      "title": "MRT Simulation Module",
-      "start": "Feb'22",
-      "end": "Feb'22",
-      "repo": "https://github.com/mynameizzhafeez/MRT",
-      "img": "mrt",
-      "description": "OOP Java project to simulate the MRT network",
+    "spiderman": {
+      "title": "Spiderman Scraper",
+      "start": "Jul'19",
+      "end": "Jun'20",
+      "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/spiderman.py",
+      "img": "spiderman",
+      "description": "Enhanced web-scraping tool that simplifies the process by providing shortcuts",
       "languages": [
-        "java"
+        "python"
       ],
       "tools": [
 
       ],
       "skills": [
-
+        "web-scraping",
+        "data-mining",
+        "data-extraction"
       ],
       "full-description": [
         [
-          "While undergoing my CS2030S and CS2040S courses in Java, I had some additional practice when developing this MRT simulator. Essentially, I implemented my AVLTree as well as my Double Linked List in this module, and that's pretty much the entire development cycle. I have no use for this, as I already have it in Python."
+          "After reading through the BeautifulSoup documentation, I realised that many common operations are not in the module. As such, I filled in as many holes as I possibly can, applying OOP principles to boost the extensibility of my web scraper. Among its features are the following:"
+        ],
+        [
+          "- Extract all tables from a particular webpage and merge them based on whichever tables have the same column names"
+        ],
+        [
+          "- Extract hrefs and insert them into the text itself using delimiters like brackets (same can be done for tables and lists)"
+        ],
+        [
+          "- Standardises all hrefs to be complete links, rather than relational ones"
+        ],
+        [
+          "I use this module most frequently, so I feel that it is the most impactful out of my earlier projects (to me, at least)."
         ]
       ]
     },
@@ -579,29 +511,6 @@
         ],
         [
           "The data extracted using this script has since been uploaded onto Google Sheets."
-        ]
-      ]
-    },
-    "movielens-analysis": {
-      "title": "Movielens Analysis",
-      "start": "Jan'20",
-      "end": "Jan'20",
-      "repo": "https://github.com/mynameizzhafeez/arcturus",
-      "img": "r",
-      "description": "Analysis of Movielens data for HarvardX course",
-      "languages": [
-        "r"
-      ],
-      "tools": [
-
-      ],
-      "skills": [
-        "data-science",
-        "data-visualization"
-      ],
-      "full-description": [
-        [
-          "This is an analysis of Movielens data for HarvardX course. This is a standard dataset for data science courses, so there is nothing much to say about it. It was used purely for this course and nothing else."
         ]
       ]
     }
