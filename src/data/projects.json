@@ -575,6 +575,36 @@
         ]
       ]
     },
+    "school-codes": {
+      "title": "NUS CS Codes",
+      "start": "Aug'21",
+      "end": "Current",
+      "repo": "https://github.com/mynameizzhafeez/School",
+      "img": "nus",
+      "description": "The codes I've created so far for my Computer Science Course in NUS",
+      "languages": [
+        "java",
+        "c",
+        "sql",
+        "javascript",
+        "python"
+      ],
+      "skills": [
+        "databases",
+        "data-cleaning",
+        "data-visualization",
+        "data-structures",
+        "software-testing"
+      ],
+      "tools": [
+        "microsoft-excel"
+      ],
+      "full-description": [
+        [
+          "This is my school folder that I keep on GitHub for safe-keeping. You may see it if you'd like, but I'm not really proud of anything I've built in there. Reason being, they were just assignments; I didn't really think of those projects by myself."
+        ]
+      ]
+    },
     "geospatial-extraction-tool": {
       "title": "Geo Extraction Tool",
       "start": "May'19",
