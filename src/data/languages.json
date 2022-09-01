@@ -284,6 +284,16 @@
         ]
       ]
     },
+    "assembly": {
+      "title": "Assembly",
+      "date": "Since Aug'22",
+      "img": "asm",
+      "description": [
+        [
+          "This was just taught in my course, and I've never written a single line of Assembly to produce my own projects nor do I intend to."
+        ]
+      ]
+    },
     "m-programming": {
       "title": "M Programming",
       "date": "Since 2021",
