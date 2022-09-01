@@ -1,3 +1,4 @@
+import asm from './logo/asm.png';
 import uom from './logo/uom.png';
 import plus from './logo/plus.png';
 import flask from './logo/flask.png';
@@ -96,7 +97,8 @@ import halal from './logo/halal.png';
 import english from './logo/english.png';
 import frontend from './logo/frontend.png';
 
-var logos = {uom: uom,
+var logos = {asm: asm,
+uom: uom,
 plus: plus,
 flask: flask,
 chinese: chinese,
