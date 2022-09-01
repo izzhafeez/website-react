@@ -587,7 +587,8 @@
         "c",
         "sql",
         "javascript",
-        "python"
+        "python",
+        "assembly"
       ],
       "skills": [
         "databases",
