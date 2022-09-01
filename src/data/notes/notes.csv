@@ -6849,12 +6849,14 @@ Topics
 1155,CS3230,Algorithm (CS3230),"Types
 ?> Iterative_Algorithm__CS3230_
 ?> Divide_Conquer_Algorithm__CS3230_
-?> Approximation_Algorithm",23/08/2022,,
+?> Approximation_Algorithm
+?> Randomized_Algorithm",23/08/2022,,
 1156,CS3230,Iterative Algorithm (CS3230),"Definition
 > Goes through loops
 
 Topics
-?> Loop_Invariant__CS3230_",23/08/2022,,
+?> Loop_Invariant__CS3230_
+?> Solve_Summation_Techniques",23/08/2022,,
 1157,CS3230,Loop Invariant (CS3230),"Properties
 ?> Iteration_Initialization
 ?> Iteration_Maintenance
@@ -6862,17 +6864,19 @@ Topics
 
 Topics
 ?> Loop_Invariant",23/08/2022,,
-1158,CS3230,Iteration Initialization,"Definition
+1158,CS3230,Solve Summation Techniques,"Theorem
+> ∑1/k = θ(lgk)",31/08/2022,,
+1159,CS3230,Iteration Initialization,"Definition
 > Invariant true at beginning of loop",23/08/2022,,
-1159,CS3230,Iteration Maintenance,"Definition
+1160,CS3230,Iteration Maintenance,"Definition
 > Invariant remains true at beginning of next loop
 
 Proof
 ::Prove invariant holds for subsequent loops
 > Use induction",23/08/2022,,
-1160,CS3230,Iteration Termination,"Definition
+1161,CS3230,Iteration Termination,"Definition
 > Invariant true at the end means correct solution",23/08/2022,,
-1161,CS3230,Divide Conquer Algorithm (CS3230),"Definition
+1162,CS3230,Divide Conquer Algorithm (CS3230),"Definition
 > Recurse through different values of n
 
 Proof
@@ -6882,17 +6886,17 @@ Proof
 
 Topics
 ?> Divide_Conquer_Analysis",23/08/2022,,
-1162,CS3230,Divide Conquer Analysis,"Topics
+1163,CS3230,Divide Conquer Analysis,"Topics
 ?> Solve_Recurrence_Techniques",23/08/2022,,
-1163,CS3230,Solve Recurrence Techniques,"Types
+1164,CS3230,Solve Recurrence Techniques,"Types
 ?> Recursion_Tree
 ?> Master_Method",23/08/2022,,
-1164,CS3230,Recursion Tree,"Process
+1165,CS3230,Recursion Tree,"Process
 ::Solve recurrence
 > Start with constant term at the top
 > Split all the way down to base case
 > Find the height of the tree",23/08/2022,,
-1165,CS3230,Master Method,"Usage
+1166,CS3230,Master Method,"Usage
 > Applies to recurrences of the form <MA T(n)=aT(n/b)+ƒ(n) MA>
 
 Process
@@ -6900,28 +6904,28 @@ Process
 ><MA ƒ(n)=O(n^(logba-ε)) ⟹ T(n) = θ(n^(logba)) MA>
 ><MA ƒ(n)=Θ(n^(logba)(lg^k)(n)) ⟹ T(n)=Θ(n^(logba)(lg^(k+1))(n)) MA>
 ><MA ƒ(n)=Ω(n^(logba+ε)) ⟹ T(n) = Θ(ƒ(n)) MA>",23/08/2022,Important,
-1166,CS3230,Limits Cheatsheet,"Properties
+1167,CS3230,Limits Cheatsheet,"Properties
 > lim = ƒ(n)/𝒈(n)
 > lim = 0 ⟹ o
 > lim < ∞ ⟹ O
 > 0 < lim < ∞ ⟹ Θ
 > lim > 0 ⟹ Ω
 > lim = ∞ ⟹ ω",16/08/2022,Important,
-1167,CS3230,Little O Notation,"Definition
+1168,CS3230,Little O Notation,"Definition
 ><MA ƒ(n) < c𝒈(n) MA>
 > DOES NOT PERMIT EQUALITY
 > o(𝒈(n)) ⟹ !Ω(𝒈(n))",16/08/2022,,
-1168,CS3230,Little Ω Notation,"Definition
+1169,CS3230,Little Ω Notation,"Definition
 ><MA ƒ(n) > c𝒈(n) MA>
 > DOES NOT PERMIT EQUALITY
 > ω(𝒈(n)) ⟹ !O(𝒈(n))",16/08/2022,,
-1169,CS3230,Word RAM Model,"Definition
+1170,CS3230,Word RAM Model,"Definition
 > Shows the set of instructions to complete an action
 > Memory retrievals + Operator + Return
 
 Properties
 > Running time in real life is dependent on the machine used",16/08/2022,Important,
-1170,CS3230,Simulation Analysis,"Definition
+1171,CS3230,Simulation Analysis,"Definition
 > Run the algorithm multiple times for different inputs
 
 Benefits
@@ -6930,29 +6934,83 @@ Benefits
 Disadvantages
 - Depends on input
 - Depends on machine",16/08/2022,,
-1171,CS3230,Mathematical Algorithm Analysis,"Definition
+1172,CS3230,Mathematical Algorithm Analysis,"Definition
 >-",16/08/2022,,
-1172,CS3230,Probabilistic Analysis,"Definition
+1173,CS3230,Probabilistic Analysis,"Definition
 >-",09/08/2022,,611.0
-1173,CS3230,Amortized Analysis,"Definition
+1174,CS3230,Amortized Analysis,"Definition
 >-",09/08/2022,,612.0
-1174,CS3230,Approximation Algorithm,"Definition
+1175,CS3230,Approximation Algorithm,"Definition
 >-",09/08/2022,,613.0
-1175,CS3230,NP Completeness,"Definition
+1176,CS3230,Randomized Algorithm,"Definition
+> It's all about expectation, and we randomize the inputs to the algorithm
+
+Topics
+?> Linearity_Of_Expectation
+?> Average_Case_Analysis
+?> Worst_Case_Analysis
+?> Distribution_Sensitive
+?> Sources_Of_Randomness
+
+Types
+?> Las_Vegas_Algorithms
+?> Monte_Carlo_Algorithms",30/08/2022,,
+1177,CS3230,Linearity Of Expectation,"Definition
+> ∑E(X) = E(∑(X))",30/08/2022,,
+1178,CS3230,Average Case Analysis,"Definition
+> A(n)
+
+Process
+> Create an observation about the inputs (in the case of QuickSort, the execution depends on the permutation of eᵢ)
+> Choose input uniformly at random from the set of all permutations
+> Average out time complexity across all permutations
+?> Integral_Test
+
+Topics
+?> Deviation_From_Average_Case",30/08/2022,,
+1179,CS3230,Deviation From Average Case,"Definition
+> A measure of reliability of the algorithm over higher values",30/08/2022,,
+1180,CS3230,Worst Case Analysis,"Definition
+> T(n)
+
+Properties
+> Easier to perform
+> More applicable for complicated randomization
+
+Types
+?> Worst_Case_Expected",30/08/2022,,
+1181,CS3230,Worse Case Expected,"Definition
+> E(n) = maxE(T)",30/08/2022,,
+1182,CS3230,Distribution Sensitive,"Definition
+> Input depends on the input values
+> As such, worst-case analysis is better",30/08/2022,,
+1183,CS3230,Sources Of Randomness,"Definition
+> What makes the algorithm randomized
+
+Examples
+> Choice of pivot in QuickSort",30/08/2022,,
+1184,CS3230,Las Vegas Algorithms,"Properties
+> Output is always correct
+> Running time is random",30/08/2022,,
+1185,CS3230,Monte Carlo Algorithms,"Properties
+> Output may be incorrect with a small probability
+> Running time is fixed",30/08/2022,,
+1186,CS3230,NP Completeness,"Definition
 >-",09/08/2022,,614.0
-1176,MA2101,MA2101,"Topics
+1187,MA2101,MA2101,"Topics
 > /MA2001
 ?> Field",10/08/2022,,615.0
-1177,MA2101,Vector Space,"Topics
+1188,MA2101,Vector Space,"Topics
 ?> Vector_Axioms
 ?> Vector_Space_Axioms
 ?> Vector_Space_Addition
 ?> Linear_Span__MA2101_
 ?> Linear_Independence__MA2101_
+?> Dimension__MA2101_
 
 Types
 ?> Matrix_Space",10/08/2022,,
-1178,MA2101,Vector Axioms,"Types
+1189,MA2101,Vector Axioms,"Types
 > Additive_Identity__V_
 > Additive_Associativity__V_
 > Additive_Inverse__V_
@@ -6960,27 +7018,27 @@ Types
 > Multiplicative_Identity__V_
 ?> Distributive_Vector_Addition__MA2101_
 ?> Distributive_Scalar_Addition__MA2101_",17/08/2022,Important,
-1179,MA2101,Distributive Vector Addition (MA2101),"Definition
+1190,MA2101,Distributive Vector Addition (MA2101),"Definition
 > a(u+v) = au + av",17/08/2022,,
-1180,MA2101,Distributive Scalar Addition (MA2101),"Definition
+1191,MA2101,Distributive Scalar Addition (MA2101),"Definition
 > (a+b)v = av + bv",17/08/2022,,
-1181,MA2101,Vector Space Axioms,"Types
+1192,MA2101,Vector Space Axioms,"Types
 ?> Addition_Closure__VS_
 ?> Multiplication_Closure__VS_
 ?> Linear_Combination_Closure",17/08/2022,,
-1182,MA2101,Addition Closure (VS),"Definition
+1193,MA2101,Addition Closure (VS),"Definition
 > v₁+v₂ ∈ V",17/08/2022,,
-1183,MA2101,Multiplication Closure (VS),"Definition
+1194,MA2101,Multiplication Closure (VS),"Definition
 > av ∈ V
 > Fv ∈ V",17/08/2022,,
-1184,MA2101,Linear Combination Closure,"Definition
+1195,MA2101,Linear Combination Closure,"Definition
 > av₁ + bv₂ ∈ V",17/08/2022,,
-1185,MA2101,Vector Space Addition,"Definition
+1196,MA2101,Vector Space Addition,"Definition
 > ∑Wᵢ is the smallest vector subspace of V containing all Wᵢ
 
 Types
 ?> Direct_Sum",17/08/2022,,
-1186,MA2101,Direct Sum,"Definition
+1197,MA2101,Direct Sum,"Definition
 > If W₁ ⋂ W₂ = {0} and W = W₁ + W₂, then W = W₁ ⊕ W₂
 > W₁, W₂ have no common element
 
@@ -6989,14 +7047,14 @@ Properties
 
 Topics
 ?> Direct_Sum_Equivalent",17/08/2022,Important,
-1187,MA2101,Direct Sum Equivalent,"Types
+1198,MA2101,Direct Sum Equivalent,"Types
 > ∑Wᵢ=⊕Wᵢ
 > (∑Wᵢ)⋂Wₖ={0}
 > Dim(∑Wᵢ)=∑Dim(Wᵢ)
 ?> Unique_Direct_Sum",24/08/2022,Important,
-1188,MA2101,Unique Direct Sum,"Definition
+1199,MA2101,Unique Direct Sum,"Definition
 > If W₁+W₂ = W₁⊕W₂, then w = w₁+w₂ is unique",17/08/2022,,
-1189,MA2101,Field,"Properties
+1200,MA2101,Field,"Properties
 ?> Field_Axioms
 ?> Operation_Map_Axiom__F_
 ?> Triangle_Inequality
@@ -7007,9 +7065,9 @@ Types
 ?> Multiplicative_Group
 ?> Continuous_Function__F_
 ?> Vector_Space",10/08/2022,,
-1190,MA2101,Field Notation,"Types
+1201,MA2101,Field Notation,"Types
 ?> Field_Zero_Removed",10/08/2022,,
-1191,MA2101,Field Axioms,"Types
+1202,MA2101,Field Axioms,"Types
 ?> Additive_Identity__F_
 ?> Additive_Associativity__F_
 ?> Additive_Inverse__F_
@@ -7018,60 +7076,60 @@ Types
 ?> Multiplicative_Inverse__F_
 ?> Distributive_Law__F_
 ?> Commutative_Law__F_",10/08/2022,Important,616.0
-1192,MA2101,Operation Map Axiom (F),"Definition
+1203,MA2101,Operation Map Axiom (F),"Definition
 > Axiom 0
 ><MA ∀x∈F, ∀y∈F ⟹ x+y∈F MA>
 ><MA ∀x∈F, ∀y∈F ⟹ xy∈F MA>
 > Basically that regular operations are closed",10/08/2022,Important,617.0
-1193,MA2101,Additive Identity (F),"Definition
+1204,MA2101,Additive Identity (F),"Definition
 > 0_F is the additive identity
 ><MA x+0 = x = 0+x ∀x∈F MA>",10/08/2022,,618.0
-1194,MA2101,Additive Associativity (F),"Definition
+1205,MA2101,Additive Associativity (F),"Definition
 ><MA (x+y)+z = x+(y+z) ∀x,y,z∈F MA>",10/08/2022,,619.0
-1195,MA2101,Additive Inverse (F),"Definition
+1206,MA2101,Additive Inverse (F),"Definition
 ><MA ∀x∈F, ∃y∈F: x+y=0 MA>
 ><MA x+(-x) = 0 = (-x)+x ∀x∈F MA>",10/08/2022,,620.0
-1196,MA2101,Multiplicative Identity (F),"Definition
+1207,MA2101,Multiplicative Identity (F),"Definition
 > 1_F is the additive identity
 ><MA x1 = x = 1x ∀x∈F MA>",10/08/2022,,621.0
-1197,MA2101,Multiplicative Associativity (F),"Definition
+1208,MA2101,Multiplicative Associativity (F),"Definition
 ><MA (xy)z = x(yz) ∀x,y,z∈F MA>",10/08/2022,,622.0
-1198,MA2101,Multiplicative Inverse (F),"Definition
+1209,MA2101,Multiplicative Inverse (F),"Definition
 > Everyone must have an inverse except for 0
 ><MA ∀x∈F, ∃y∈F: xy=0 MA>
 ><MA xx⁻¹ = 1 = x⁻¹x ∀x∈F MA>",10/08/2022,,623.0
-1199,MA2101,Distributive Law (F),"Definition
+1210,MA2101,Distributive Law (F),"Definition
 > x(y+z) = xy + xz
 > (x+y)z = xz + yz",10/08/2022,,624.0
-1200,MA2101,Commutative Law (F),"Definition
+1211,MA2101,Commutative Law (F),"Definition
 > x+y=y+x
 > xy=yx",10/08/2022,,
-1201,MA2101,Commutative Ring,"Definition
+1212,MA2101,Commutative Ring,"Definition
 > Triplet (F, +, ×) with Axiom 6 (/Multiplicative_Inverse__F_) unsatisfied
 
 Types
 ?> Polynomial_Ring",10/08/2022,,626.0
-1202,MA2101,Additive Group,"Definition
+1213,MA2101,Additive Group,"Definition
 > Pair (F, +) only satisfies the additive axioms
 
 Examples
 > ℤ",10/08/2022,,627.0
-1203,MA2101,Field Zero Removed,"Definition
+1214,MA2101,Field Zero Removed,"Definition
 ><MA Fˣ MA>",10/08/2022,,628.0
-1204,MA2101,Polynomial Ring,"Definition
+1215,MA2101,Polynomial Ring,"Definition
 > F[x] = {1, x, x², ...}
 ><MA F[x] = {∑bᵢxⁱ, bᵢ∈F} MA>
 > Pₙ[x] = {1, x, ..., xⁿ}
 
 Types
 ?> Polynomial_Ring__N_Variables_",10/08/2022,Important,629.0
-1205,MA2101,Polynomial Ring (N Variables),"Definition
+1216,MA2101,Polynomial Ring (N Variables),"Definition
 ><MA F[x, y] = (F[x])[y] MA>
 ><MA F[x₁, x₂, ..., xₙ] = (F[x₁, x₂, ..., xₙ₋₁])[xₙ] MA>",10/08/2022,,630.0
-1206,MA2101,Continuous Function (F),"Definition
+1217,MA2101,Continuous Function (F),"Definition
 > C⁰[x] is all continuous functions that can be differentiated 0 times
 > C^r[x] is all continuous functions that can be differentiated r times",10/08/2022,,
-1207,MA2101,Matrix Space,"Definition
+1218,MA2101,Matrix Space,"Definition
 > M_n(F) is the square n-matrix with elements all in F
 
 Types
@@ -7080,215 +7138,287 @@ Types
 ?> Upper_Triangle_Space
 ?> Lower_Triangle_Space
 ?> Trace_Free_Space",10/08/2022,,
-1208,MA2101,Column M Space,"Definition
+1219,MA2101,Column M Space,"Definition
 > F_c^m is the column vector m-space with elements all in F",10/08/2022,,
-1209,MA2101,Row N Space,"Definition
+1220,MA2101,Row N Space,"Definition
 > F^n is the row vector n-space with elements all in F",10/08/2022,,
-1210,MA2101,Upper Triangle Space,"Definition
+1221,MA2101,Upper Triangle Space,"Definition
 > UTₙ(F)",17/08/2022,,
-1211,MA2101,Lower Triangle Space,"Definition
+1222,MA2101,Lower Triangle Space,"Definition
 > LTₙ(F)",17/08/2022,,
-1212,MA2101,Skew Symmetric Matrix,"Definition
+1223,MA2101,Skew Symmetric Matrix,"Definition
 > (A-Aᵀ)/2
 > Aᵀ=-A",17/08/2022,,
-1213,MA2101,Trace Free Space,"Definition
+1224,MA2101,Trace Free Space,"Definition
 > TFₙ(F) where Tr(A)=0",17/08/2022,,
-1214,MA2101,Multiplicative Group,"Definition
+1225,MA2101,Multiplicative Group,"Definition
 > Pair (F, ×) only satisfies the multiplicative axioms
 
 Examples
 > ℝ",10/08/2022,,631.0
-1215,MA2101,Cancellation Law,"Definition
+1226,MA2101,Cancellation Law,"Definition
 ><MA b+x = b+y ⟹ x=y MA
 ><MA 0x = 0 MA>",10/08/2022,,632.0
-1216,MA2101,Linear Span (MA2101),"Definition
-><MA Fv = span(v) MA>",19/08/2022,,
-1217,MA2101,Span Union Equality,"Definition
+1227,MA2101,Linear Span (MA2101),"Definition
+><MA Fv := span(v) MA>
+
+Properties
+><MA S ⊆ V ⟺ Span(S) ⊆ V MA>
+
+Types
+?> Standard_Spanning_Set",19/08/2022,,
+1228,MA2101,Standard Spanning Set,"Definition
+> The most simple way to write the basis, like {e₁,..., eₙ}",26/08/2022,,
+1229,MA2101,Span Union Equality,"Definition
 ><MA span(S ⋃ T) = span(S)+span(T) MA>",19/08/2022,,
-1218,MA2101,Inclusion Sum,"Definition
+1230,MA2101,Inclusion Sum,"Definition
 > If U₁ ⊆ U₂ and W₁ ⊆ W₂, then U₁ + W₁ ⊆ U₂ + W₂",19/08/2022,,
-1219,MA2101,Homogeneity Check,"Usage
+1231,MA2101,Homogeneity Check,"Usage
 > Check whether is subset
 
 Process
 > Express all values in the matrix as filters to the vector space
 > If homo (AKA no constants), then all good",19/08/2022,,
-1220,MA2101,Linear Independence (MA2101),"Definition
+1232,MA2101,Linear Independence (MA2101),"Definition
 > {0} is LD, {v} is LI
 
-Topics
-?> LI_Equivalent",24/08/2022,,
-1221,MA2101,LI Equivalent,"Properties
+Properties
 > Only have trivial relation (x₁v₁+...+xₙvₙ)=0 ⟹ x₁=...=xₙ=0
 > No linear combination available
-> Every non-empty subset is LI",24/08/2022,,
-1222,CS2102,CS2102,"Topics
+> Every non-empty subset is LI
+> For {v₁, v₂}, then one is a scalar multiple of the other
+
+Topics
+?> Basis__MA2101_
+?> Maximal_LI_Subset",24/08/2022,,
+1233,MA2101,Basis (MA2101),"Definition
+> B is a basis of V if V=Span(B) and B is LI
+
+Properties
+> B is a basis of V
+> For v∈V, expression in terms of B is unique
+> V = ⊕Fvₙ",26/08/2022,,
+1234,MA2101,Maximal LI Subset,"Definition
+> No other elements can be added to maintain LI",26/08/2022,,
+1235,MA2101,Dimension (MA2101),"Definition
+> dim Fcⁿ = n
+> dim Fⁿ = n
+> dim F[x]=∞
+> dim Pₙ[x]=n
+
+Types
+?> Finite_Dimensional",26/08/2022,,
+1236,MA2101,Finite Dimensional,"Defintion
+> If B is a basis of V and |B|<∞, then dimV:=|B|",26/08/2022,Important,
+1237,CS2102,CS2102,"Topics
 ?> Database_Challenges
 ?> Database_Design
 ?> Database_Query
 ?> Database_Refinement
 ?> SQL",11/08/2022,,634.0
-1223,CS2102,Database Design,"Topics
+1238,CS2102,Database Design,"Topics
 ?> Database_Architecture
 ?> Integrity_Constraint
-?> SQL_DDL",11/08/2022,,635.0
-1224,CS2102,Database Query,"Topics
+?> SQL_DDL
+
+Process
+?> Requirement_Analysis
+?> Conceptual_DB_Design
+?> Logical_DB_Design
+?> Schema_Refinement
+?> Physical_DB_Design
+?> Security_Design",11/08/2022,,635.0
+1239,CS2102,Database Query,"Topics
 ?> Relational_Algebra
 ?> SQL_Query
 ?> Stored_Procedures",11/08/2022,,636.0
-1225,CS2102,Database Refinement,"Topics
+1240,CS2102,Database Refinement,"Topics
 ?> Triggers
 ?> Functional_Dependencies
 ?> Normal_Forms
 ?> 3NF
 ?> BCNF",11/08/2022,,637.0
-1226,CS2102,Data Model,"Types
+1241,CS2102,Data Model,"Types
 ?> Relational_Model
-?> ER_Diagram",11/08/2022,,
-1227,CS2102,Database Challenges,"Types
+?> ER_Model",11/08/2022,,
+1242,CS2102,Database Challenges,"Types
 ?> Database_Efficiency
 ?> Database_Transactions
 ?> Data_Integrity
 ?> Data_Recovery
 ?> Data_Security
 ?> Concurrent_Execution_Challenges",11/08/2022,,638.0
-1228,CS2102,Database Efficiency,"Definition
+1243,CS2102,Database Efficiency,"Definition
 > Fast access to information in huge volumes of data",11/08/2022,,639.0
-1229,CS2102,Database Transactions,"Definition
+1244,CS2102,Database Transactions,"Definition
 > Changes to data
 
 Properties
 ?> ACID_Properties
 ?> Transaction_States",11/08/2022,,640.0
-1230,CS2102,Data Integrity,"Definition
+1245,CS2102,Data Integrity,"Definition
 > Parallel access and changes to data",11/08/2022,,641.0
-1231,CS2102,Data Recovery,"Definition
+1246,CS2102,Data Recovery,"Definition
 > Failure handling",11/08/2022,,642.0
-1232,CS2102,Data Security,"Definition
+1247,CS2102,Data Security,"Definition
 > Data access rights",11/08/2022,,643.0
-1233,CS2102,Concurrent Execution Challenges,"Types
+1248,CS2102,Concurrent Execution Challenges,"Types
 ?> Lost_Update
 ?> Dirty_Read
 ?> Unrepeatable_Read
 ?> Serializability",11/08/2022,,
-1234,CS2102,Lost Update,"Definition
+1249,CS2102,Lost Update,"Definition
 > Transactions can be overwritten by other transactions",11/08/2022,,
-1235,CS2102,Dirty Read,"Definition
+1250,CS2102,Dirty Read,"Definition
 > Transactions are not properly processed",11/08/2022,,
-1236,CS2102,Unrepeatable Read,"Definition
+1251,CS2102,Unrepeatable Read,"Definition
 > Values differ during multiple retrievals",11/08/2022,,
-1237,CS2102,Serializability,"Definition
+1252,CS2102,Serializability,"Definition
 > Execution of a set of transactions is equivalent to some serial execution of the same set of transactions
 > AKA concurrent same as not concurrent output",11/08/2022,,
-1238,CS2102,ACID Properties,"Types
+1253,CS2102,ACID Properties,"Types
 ?> Transaction_Atomicity
 ?> Transaction_Consistency
 ?> Transaction_Isolation
 ?> Transaction_Durability",11/08/2022,,
-1239,CS2102,Transaction Atomicity,"Definition
+1254,CS2102,Transaction Atomicity,"Definition
 > Either all effects of T are reflected in database or none",11/08/2022,,644.0
-1240,CS2102,Transaction Consistency,"Definition
+1255,CS2102,Transaction Consistency,"Definition
 > The execution of T guarantees to yield a correct state of the database",11/08/2022,,645.0
-1241,CS2102,Transaction Isolation,"Definition
+1256,CS2102,Transaction Isolation,"Definition
 > The execution of T is isolated from the effects of concurrent transactions",11/08/2022,,646.0
-1242,CS2102,Transaction Durability,"Definition
+1257,CS2102,Transaction Durability,"Definition
 > After the commit of T, its effects are permanent even during failure",11/08/2022,,647.0
-1243,CS2102,Transaction States,"Types
+1258,CS2102,Transaction States,"Types
 ?> Initial_State
 ?> Result_State
 ?> Internal_State
 ?> Error_State",11/08/2022,,648.0
-1244,CS2102,Initial State,"Definition
+1259,CS2102,Initial State,"Definition
 > Begins the /Internal_State to begin processing",11/08/2022,,649.0
-1245,CS2102,Result State,"Definition
+1260,CS2102,Result State,"Definition
 > Final state visible to other transactions",11/08/2022,,650.0
-1246,CS2102,Internal State,"Definition
+1261,CS2102,Internal State,"Definition
 > Server-side processing that can lead to the /Error_State
 > Commits the transaction to the /Result_State",11/08/2022,,651.0
-1247,CS2102,Error State,"Definition
+1262,CS2102,Error State,"Definition
 > Informs the /Initial_State to abort the transaction",11/08/2022,,652.0
-1248,CS2102,Database Architecture,"Types
+1263,CS2102,Database Architecture,"Types
 ?> Physical_Schema
 ?> Logical_Schema
 ?> External_Schema",11/08/2022,,653.0
-1249,CS2102,Physical Schema,"Definition
+1264,CS2102,Physical Schema,"Definition
 > Organization of data on disk and in memory",11/08/2022,,654.0
-1250,CS2102,Logical Schema,"Topics
+1265,CS2102,Logical Schema,"Topics
 ?> Physical_Data_Independence
 ?> Logical_Data_Independence
 ?> Data_Model",11/08/2022,Important,655.0
-1251,CS2102,External Schema,"Definition
+1266,CS2102,External Schema,"Definition
 > User-specific view on the data",11/08/2022,,656.0
-1252,CS2102,Data Model,"Definition
+1267,CS2102,Data Model,"Definition
 > Logical organization of data",11/08/2022,,657.0
-1253,CS2102,Logical Data Independence,"Definition
+1268,CS2102,Logical Data Independence,"Definition
 > Ability to change logical schema without affecting external schemas
 > Can change data types, edit attributes",11/08/2022,,658.0
-1254,CS2102,Physical Data Independence,"Definition
+1269,CS2102,Physical Data Independence,"Definition
 > Physical schema can be changed without affecting logical schema
 > Can create new indexes, new caching strategies",11/08/2022,,659.0
-1255,CS2102,Relational Model,"Topics
+1270,CS2102,Relational Model,"Topics
 ?> Relation_Schema
 ?> Relational_Model_Domain
 ?> Relational_Model_Relation
 ?> Relational_Model_Schema",11/08/2022,,660.0
-1256,CS2102,Relation Schema,"Definition
+1271,CS2102,Relation Schema,"Definition
 > Specifies attributes and constraints
 > Tables with rows and columns
 
 Examples
 > Modules(course, mc, exam)",11/08/2022,,661.0
-1257,CS2102,Relational Model Domain,"Definition
+1272,CS2102,Relational Model Domain,"Definition
 > Set of atomic values (int, num, str)
 
 Examples
 > dom(course) = {cs2102, cs3223, cs4221}",11/08/2022,,662.0
-1258,CS2102,Relational Model Relation,"Definition
+1273,CS2102,Relational Model Relation,"Definition
 > Set of records R(A₁... Aₙ) is a /Relation_Schema with name R and n attributes
 > Row-wise MUST be unique",11/08/2022,Important,663.0
-1259,CS2102,Relational Model Schema,"Definition
+1274,CS2102,Relational Model Schema,"Definition
 > Set of /Relation_Schema and /Data_Constraint",11/08/2022,,664.0
-1260,CS2102,Named Constraint,"Code <SQL
+1275,CS2102,Named Constraint,"Code <SQL
 id INTEGER CONSTRAINT nn_id NOT NULL
 SQL>",23/08/2022,,
-1261,CS2102,Unnamed Constraint,"Code <SQL
+1276,CS2102,Unnamed Constraint,"Code <SQL
 id INTEGER NOT NULL
 SQL>",23/08/2022,,
-1262,CS2102,Assertion Constraint,"Definition
+1277,CS2102,Assertion Constraint,"Definition
 > Stand-alone command
 
 Disadvantages
 - Cannot modify data",23/08/2022,,
-1263,CS2102,Column Constraint,"Definition
+1278,CS2102,Column Constraint,"Definition
 > Applies to a single column (specified at column definition)
 
 Types
 ?> Named_Column_Constraint
 ?> Unnamed_Column_Constraint",23/08/2022,,
-1264,CS2102,Named Column Constraint,"Code <SQL
+1279,CS2102,Named Column Constraint,"Code <SQL
 id INTEGER CONSTRAINT nn_id NOT NULL
 SQL>",23/08/2022,,
-1265,CS2102,Unnamed Column Constraint,"Code <SQL
+1280,CS2102,Unnamed Column Constraint,"Code <SQL
 id INTEGER NOT NULL
 SQL>",23/08/2022,,
-1266,CS2102,Table Constraint,"Definition
+1281,CS2102,Table Constraint,"Definition
 > Applies to one or more columns (specified after all column definitions)
 > Can access multiple rows at the same time
 
 Types
 ?> Named_Table_Constraint
 ?> Unnamed_Table_Constraint",23/08/2022,,
-1267,CS2102,Named Table Constraint,"Code <SQL
+1282,CS2102,Named Table Constraint,"Code <SQL
 age INTEGER,
 id INTEGER,
 UNIQUE(id)
 SQL>",23/08/2022,,
-1268,CS2102,Unnamed Table Constraint,"Code <SQL
+1283,CS2102,Unnamed Table Constraint,"Code <SQL
 age INTEGER,
 id INTEGER,
 CONSTRAINT u_id UNIQUE(id)
 SQL>",23/08/2022,,
-1269,CS2102,Integrity Constraint,"Definition
+1284,CS2102,Cardinality Constraint,"Definition
+> Defines how many times an entity can participate in
+> Upper bound for the number
+
+Types
+?> One_To_One
+?> Many_To_One
+?> Many_To_Many",30/08/2022,,
+1285,CS2102,One To One,"Definition
+> includes",30/08/2022,,
+1286,CS2102,Many To One,"Definition
+> Each user can make 0 or more bookings
+> makes
+> Arrow",30/08/2022,,
+1287,CS2102,Many To Many,"Definition
+> has",30/08/2022,,
+1288,CS2102,Participation Constraint,"Definition
+> Defines whether an entity needs to participate in a relation
+> Lower bound for the number
+> Single line
+
+Types
+?> Total_Participation_Constraint",30/08/2022,,
+1289,CS2102,Total Participation Constraint,"Definition
+> Participation is mandatory
+> Double line",30/08/2022,,
+1290,CS2102,Dependency Constraint,"Definition
+> Defines whether an entity needs another to survive",30/08/2022,,
+1291,CS2102,Overlap Constraint,"Definition
+> Whether a superclass can belong to multiple subclasses
+> Arrow",30/08/2022,,
+1292,CS2102,Covering Constraint,"Definition
+> Whether a superclass has to belong to a subclasses
+> Double line",30/08/2022,,
+1293,CS2102,Integrity Constraint,"Definition
 > Condition that restricts what constitutes valid data
 > May affect performance
 
@@ -7302,16 +7432,21 @@ Types
 ?> Check_Constraint
 ?> Column_Constraint
 ?> Table_Constraint
-?> Assertion_Constraint",11/08/2022,Important,666.0
-1270,CS2102,Domain Constraint,"Definition
+?> Assertion_Constraint
+?> Cardinality_Constraint
+?> Participation_Constraint
+?> Dependency_Constraint
+?> Overlap_Constraint
+?> Covering_Constraint",11/08/2022,Important,666.0
+1294,CS2102,Domain Constraint,"Definition
 > Ensure that the correct data types",11/08/2022,,667.0
-1271,CS2102,Key Constraint,"Topics
+1295,CS2102,Key Constraint,"Topics
 ?> Superkey
 ?> Key__CS2102_
 ?> Candidate_Key
 ?> Primary_Key
 ?> Foreign_Key",11/08/2022,,668.0
-1272,CS2102,Foreign Key,"Definition
+1296,CS2102,Foreign Key,"Definition
 > Must refer to a primary key or is a null value
 
 Code <SQL
@@ -7322,7 +7457,7 @@ SQL>
 
 Topics
 ?> Foreign_Key_Violation",11/08/2022,Important,669.0
-1273,CS2102,Foreign Key Violation,"Definition
+1297,CS2102,Foreign Key Violation,"Definition
 > What to do when the reference table changes
 
 Types
@@ -7331,11 +7466,11 @@ Types
 
 Topics
 ?> Foreign_Key_Resolution",23/08/2022,,
-1274,CS2102,On Delete,"Definition
+1298,CS2102,On Delete,"Definition
 > When something in the reference table is deleted",23/08/2022,,
-1275,CS2102,On Update,"Definition
+1299,CS2102,On Update,"Definition
 > When something in the reference table is updated",23/08/2022,,
-1276,CS2102,Foreign Key Resolution,"Types
+1300,CS2102,Foreign Key Resolution,"Types
 ?> No_Action
 ?> Restrict
 ?> Cascade
@@ -7344,52 +7479,52 @@ Topics
 
 Topics
 ?> Deferred_Constraint",23/08/2022,,
-1277,CS2102,No Action,"Definition
+1301,CS2102,No Action,"Definition
 > Does nothing (default what happens)
 > Aborts the action if it violates the constraints
 
 Code <SQL
 FOREIGN KEY (eid) REFERENCES Employees(id) ON DELETE SET NULL
 SQL>",23/08/2022,,
-1278,CS2102,Restrict,"Definition
+1302,CS2102,Restrict,"Definition
 > Same as No Action but the system checks cannot be deferred
 
 Code <SQL
 NOT DEFERRABLE
 SQL>",23/08/2022,,
-1279,CS2102,Cascade,"Definition
+1303,CS2102,Cascade,"Definition
 > Deletes and updates are propagated to referencing tuples
 
 Disadvantages
 - It can have very bad consequences when deleting
 - Performance is bad",23/08/2022,,
-1280,CS2102,Set Default,"Definition
+1304,CS2102,Set Default,"Definition
 > Any change sets the value to default value (default value must still exist
 
 Code <SQL
 pname VARCHAR(100) DEFAULT 'FastCash'
 FOREIGN KEY (eid) REFERENCES Employees(id) ON DELETE SET DEFAULT
 SQL>",23/08/2022,,
-1281,CS2102,Set Null,"Definition
+1305,CS2102,Set Null,"Definition
 > Any change sets the value to null value
 
 Code <SQL
 FOREIGN KEY (eid) REFERENCES Employees(id) ON DELETE SET NULL
 SQL>",23/08/2022,,
-1282,CS2102,Not Null Constraint,"Definition
+1306,CS2102,Not Null Constraint,"Definition
 > Prevents null
 
 Code <SQL
 id INTEGER NOTNULL
 SQL>",23/08/2022,,
-1283,CS2102,Check Constraint,"Definition
+1307,CS2102,Check Constraint,"Definition
 > Boolean conditions to columns or multiple columns
 > Can be very complex like normal programming languages
 
 Code <SQL
 --CHECK(start_year ≤ end_year)
 SQL>",23/08/2022,,
-1284,CS2102,Deferred Constraint,"Definition
+1308,CS2102,Deferred Constraint,"Definition
 > We know something is violated, but we'll handle it at the end of the execution
 
 Benefits
@@ -7406,44 +7541,44 @@ Types
 ?> Deferrable
 ?> Deferrable_Initially_Deferred
 ?> Deferrable_Initially_Immediate",23/08/2022,Important,
-1285,CS2102,Not Deferrable,"Definition
+1309,CS2102,Not Deferrable,"Definition
 > Checks EVERY LINE whether something is violated
 > Just returns an error
 
 Code <SQL
 NOT DEFERRABLE
 SQL>",23/08/2022,,
-1286,CS2102,Deferrable,"Definition
+1310,CS2102,Deferrable,"Definition
 > Waits to check whether something is violated only at the end of the execution",23/08/2022,,
-1287,CS2102,Deferrable Initially Deferred,"Definition
+1311,CS2102,Deferrable Initially Deferred,"Definition
 > Sets the default behaviour
 
 Code <SQL
 DEFERRABLE INITIALLY DEFERRED
 SQL>",23/08/2022,,
-1288,CS2102,Deferrable Initially Immediate,"Definition
+1312,CS2102,Deferrable Initially Immediate,"Definition
 > Sets the default behaviour
 
 Code <SQL
 DEFERRABLE INITIALLY IMMEDIATE
 SQL>",23/08/2022,,
-1289,CS2102,Superkey,"Definition
+1313,CS2102,Superkey,"Definition
 > Subset of attributes that uniquely identifies a tuple (index)
 > {id, title} is a superkey",11/08/2022,,670.0
-1290,CS2102,Key (CS2102),"Definition
+1314,CS2102,Key (CS2102),"Definition
 > /Superkey that is also minimal
 > No subset of the key is a superkey
 > {id, title} is not a key",11/08/2022,,671.0
-1291,CS2102,Candidate Key,"Definition
+1315,CS2102,Candidate Key,"Definition
 > Set of all /Key for a relation",11/08/2022,,672.0
-1292,CS2102,Primary Key,"Definition
+1316,CS2102,Primary Key,"Definition
 > Selected /Candidate_Key for a relation
 > Cannot be null
 
 Code <SQL
 id INTEGER PRIMARY KEY
 SQL>",11/08/2022,,673.0
-1293,CS2102,Relational Algebra,"Definition
+1317,CS2102,Relational Algebra,"Definition
 > Procedural query language
 
 Properties
@@ -7452,44 +7587,44 @@ Properties
 Topics
 ?> Operand__CS2102_
 ?> Operator__CS2102_",16/08/2022,,
-1294,CS2102,Operand (CS2102),"Definition
+1318,CS2102,Operand (CS2102),"Definition
 > Relation
 > Transform one or more input relations into one output relation",16/08/2022,,
-1295,CS2102,Operator (CS2102),"Types
+1319,CS2102,Operator (CS2102),"Types
 ?> Unary_Operator__CS2102_
 ?> Binary_Operator__CS2102_
 ?> Null_Operator__CS2102_
 ?> Operator_Precedence__CS2102_",16/08/2022,Important,
-1296,CS2102,Operator Precedence (CS2102),"Definition
+1320,CS2102,Operator Precedence (CS2102),"Definition
 > () op not ⋀ ⋁",16/08/2022,,
-1297,CS2102,Unary Operator (CS2102),"Definition
+1321,CS2102,Unary Operator (CS2102),"Definition
 > Applies to one relation at a time
 
 Types
 ?> Selection_Operator
 ?> Projection_Operator
 ?> Renaming_Operator",16/08/2022,,
-1298,CS2102,Set Operator (CS2102),"Types
+1322,CS2102,Set Operator (CS2102),"Types
 > Join_Operator
 > Intersection_Operator__CS2102_
 > Set_Difference_Operator__CS2102_
 
 Topics
 ?> Union_Compatibility",16/08/2022,,
-1299,CS2102,Binary Operator (CS2102),"Definition
+1323,CS2102,Binary Operator (CS2102),"Definition
 > Applies to two relations at a time
 
 Types
 ?> Set_Operator__CS2102_
 ?> Cross_Product__CS2102_",16/08/2022,,
-1300,CS2102,Cross Product (CS2102),"Definition
+1324,CS2102,Cross Product (CS2102),"Definition
 > Gives all possible combinations from both tables
 > Ordering doesn't really matter
 > R × S ⟹ |R|*|S| rows",16/08/2022,,
-1301,CS2102,Join Operator,"Types
+1325,CS2102,Join Operator,"Types
 ?> Inner_Join
 ?> Outer_Join",16/08/2022,,
-1302,CS2102,Inner Join,"Definition
+1326,CS2102,Inner Join,"Definition
 > R ⋈_θ S = σ_θ(R × S) is joining by θ
 
 Examples
@@ -7497,14 +7632,14 @@ Examples
 
 Types
 ?> Natural_Join",16/08/2022,,
-1303,CS2102,Natural Join,"Definition
+1327,CS2102,Natural Join,"Definition
 > Join is performed over all attributes that R and S have in common
 > If both R and S has the ""manager"" attribute, then merge on there
 > If nothing in common, then empty
 
 Examples
 > R ⋈ S → join wherever possible",16/08/2022,Important,
-1304,CS2102,Outer Join,"Definition
+1328,CS2102,Outer Join,"Definition
 > R ⟗_θ S = σ_θ(R × S) is joining by θ
 > Dangling tuples, incomplete data is allowed
 > Keep all data
@@ -7513,25 +7648,25 @@ Types
 ?> Left_Outer_Join
 ?> Right_Outer_Join
 ?> Natural_Outer_Join",16/08/2022,,
-1305,CS2102,Left Outer Join,"Definition
+1329,CS2102,Left Outer Join,"Definition
 > R ⟕_θ S = σ_θ(R × S) is joining by θ
 > Keep all from the left, and force the right to the left
 
 Types
 ?> Natural_Left_Outer_Join",16/08/2022,,
-1306,CS2102,Right Outer Join,"Definition
+1330,CS2102,Right Outer Join,"Definition
 > R ⟖_θ S = σ_θ(R × S) is joining by θ
 > Keep all from the right, and force the left to the right
 
 Types
 ?> Natural_Right_Outer_Join",16/08/2022,,
-1307,CS2102,Natural Outer Join,"Definition
+1331,CS2102,Natural Outer Join,"Definition
 > Joins wherever possible",16/08/2022,,
-1308,CS2102,Natural Left Outer Join,"Definition
+1332,CS2102,Natural Left Outer Join,"Definition
 > Joins wherever possible",16/08/2022,,
-1309,CS2102,Natural Right Outer Join,"Definition
+1333,CS2102,Natural Right Outer Join,"Definition
 > Joins wherever possible",16/08/2022,,
-1310,CS2102,Union Compatibility,"Definition
+1334,CS2102,Union Compatibility,"Definition
 > For all set operators, R and S must be union compatible
 
 Properties
@@ -7543,31 +7678,31 @@ Properties
 Examples
 > [name, age] not compatible with [age, name]
 > [name, age] compatible with [fname, year]",16/08/2022,,
-1311,CS2102,Selection Operator,"Definition
+1335,CS2102,Selection Operator,"Definition
 > σ_c(R) selects all tuples from a relation R that satisfy condition c
 > Basically WHERE
 > Attribute MUST exist
 
 Examples
 > σ_{age<5}(5) gives all the relations with age < 5",16/08/2022,,
-1312,CS2102,Null Operator,"Properties
+1336,CS2102,Null Operator,"Properties
 > Comparing null → unknown
 > Arithmetic null → null
 > A ≡ null → checks whether is equal to null",16/08/2022,Important,
-1313,CS2102,Projection Operator,"Definition
+1337,CS2102,Projection Operator,"Definition
 > π_l(R) projects all the attributes of a relation in list l
 > Basically SELECT UNIQUE
 > Ordering matters
 
 Examples
 > π_name,address(R) gives all the unique name, address pairs ",16/08/2022,,
-1314,CS2102,Renaming Operator,"Definition
+1338,CS2102,Renaming Operator,"Definition
 > ρ_l(R) renames the columns in the relation
 > Basically AS
 
 Examples
 > ρ_fname<-name,age<-dob renames name to fname, and dob to age",16/08/2022,,
-1315,CS2102,SQL,"Properties
+1339,CS2102,SQL,"Properties
 > Domain-specific language, rather than a general purpose language
 ?> Declarative_Language
 
@@ -7582,26 +7717,26 @@ Topics
 ?> SQL_DCL
 ?> SQL_TCL
 ?> SQL_Data_Types",23/08/2022,Important,
-1316,CS2102,Declarative Language,"Definition
+1340,CS2102,Declarative Language,"Definition
 > Focus on what to compute, not how to compute",23/08/2022,,
-1317,CS2102,Interactive SQL,"Types
+1341,CS2102,Interactive SQL,"Types
 ?> SQL_CLI
 ?> SQL_GUI",23/08/2022,,
-1318,CS2102,SQL CLI,"Types
+1342,CS2102,SQL CLI,"Types
 > PostgreSQL psql",23/08/2022,,
-1319,CS2102,SQL GUI,"Types
+1343,CS2102,SQL GUI,"Types
 > PostgreSQL",23/08/2022,,
-1320,CS2102,Non Interactive SQL,"Definition
+1344,CS2102,Non Interactive SQL,"Definition
 > SQL statements are written in another language
 
 Types
 ?> SQL_SLI
 ?> SQL_CaLI",23/08/2022,,
-1321,CS2102,SQL SLI,"Definition
+1345,CS2102,SQL SLI,"Definition
 > Line-by-line SQL like SSMS",23/08/2022,,
-1322,CS2102,SQL CaLI,"Definition
+1346,CS2102,SQL CaLI,"Definition
 > Embedded within other language code like Python",23/08/2022,,
-1323,CS2102,SQL DDL,"Definition
+1347,CS2102,SQL DDL,"Definition
 > Data Definition
 
 Topics
@@ -7610,7 +7745,7 @@ Topics
 ?> Integrity_Constraint
 ?> SQL_Alter
 ?> SQL_Drop",23/08/2022,,
-1324,CS2102,SQL Create,"Definition
+1348,CS2102,SQL Create,"Definition
 > Defines table name and attributes
 > Defines /Data_Integrity and /Integrity_Constraint
 
@@ -7619,36 +7754,36 @@ CREATE TABLE Employees {
   varchar(20) name;
 }
 SQL>",23/08/2022,,
-1325,CS2102,SQL Alter,"Types
+1349,CS2102,SQL Alter,"Types
 > ADD COLUMN x TYPE DEFAULT y
 > DROP COLUMN
 > ADD CONSTRAINT
 > DROP CONSTRAINT",23/08/2022,,
-1326,CS2102,SQL Drop,"Types
+1350,CS2102,SQL Drop,"Types
 > DROP TABLE
 > DROP TABLE IF EXISTS
 > DROP TABLE CASCADE - resolves the foreign key violations",23/08/2022,,
-1327,CS2102,SQL DML,"Definition
+1351,CS2102,SQL DML,"Definition
 > Data Manipulation
 
 Topics
 ?> SQL_Insert
 ?> SQL_Delete
 ?> SQL_Update",23/08/2022,,
-1328,CS2102,SQL Insert,"Definition
+1352,CS2102,SQL Insert,"Definition
 > Inserts an entry into the DB
 
 Code <SQL
 INSERT INTO Employees
 SQL>",23/08/2022,,
-1329,CS2102,SQL Delete,"Definition
+1353,CS2102,SQL Delete,"Definition
 > Deletes entries from the DB
 
 Code <SQL
 DELETE FROM Employees
 WHERE role='dev'
 SQL>",23/08/2022,,
-1330,CS2102,SQL Update,"Definition
+1354,CS2102,SQL Update,"Definition
 > Updates entries from the DB
 
 Code <SQL
@@ -7656,12 +7791,12 @@ UPDATE Employees
 SET name = UPPER(name),
     role = UPPER(role)
 SQL>",,,
-1331,CS2102,SQL DQL,"Definition
+1355,CS2102,SQL DQL,"Definition
 > Data Query
 
 Topics
 ?> SQL_Distinct",23/08/2022,,
-1332,CS2102,SQL Distinct,"Definition
+1356,CS2102,SQL Distinct,"Definition
 > Equivalent to x <> y if x,y are non-null
 > Both null ⟹ false
 > One null ⟹ true
@@ -7669,39 +7804,142 @@ Topics
 Code <SQL
 x IS DISTINCT FROM y
 SQL>",23/08/2022,,
-1333,CS2102,SQL DCL,"Definition
+1357,CS2102,SQL DCL,"Definition
 > Data Control",23/08/2022,,
-1334,CS2102,SQL TCL,"Definition
+1358,CS2102,SQL TCL,"Definition
 > Transaction Control",23/08/2022,,
-1335,CS2102,SQL Data Types,"Types
+1359,CS2102,SQL Data Types,"Types
 > char(n)
 > varchar(n)
 > numeric[(p,s)] - exact numeric of selectable position
 > document types
 ?> SQL_UDT",23/08/2022,,
-1336,CS2102,SQL UDT,"Definition
+1360,CS2102,SQL UDT,"Definition
 > User-defined type",23/08/2022,,
-1337,MA2108,MA2108,"Topics
+1361,CS2102,ER Model,"Definition
+> Used for conceptual database design
+
+Topics
+?> Entity
+?> Attribute
+?> Relationship__CS2102_
+?> Role__CS2102_
+?> Degree__CS2102_
+?> Aggregation__CS2102_
+?> ER_Diagram_Cheatsheet",30/08/2022,,
+1362,CS2102,ER Diagram Cheatsheet,"Properties
+> Entity := rectangle
+> Relationship := diamond
+> Attribute := oval
+> Upper bound := arrow
+> Lower bound := double line",30/08/2022,Important,
+1363,CS2102,Entity,"Definition
+> Real-world things that are distinguishable from other objects
+
+Topics
+?> Entity_Set",30/08/2022,,
+1364,CS2102,Entity Set,"Definition
+> Collection of entities of the same type
+> Rectangle
+> Nouns
+
+Types
+?> Weak_Entity_Set",30/08/2022,,
+1365,CS2102,Weak Entity Set,"Definition
+> Depends on the parent entity
+> CANNOT EXIST ON ITS OWN
+> Double rectangle",30/08/2022,,
+1366,CS2102,Attribute,"Types
+?> Key_Attribute
+?> Composite_Attribute
+?> Multivalued_Attribute
+?> Derived_Attribute",30/08/2022,,
+1367,CS2102,Key Attribute,"Definition
+> Uniquely defines each entity
+> Oval with underline",30/08/2022,,
+1368,CS2102,Composite Attribute,"Definition
+> Multiple attributes contained within
+> Oval comprising of ovals",30/08/2022,,
+1369,CS2102,Multivalued Attribute,"Definition
+> Can contain multiple values
+> Double oval",30/08/2022,,
+1370,CS2102,Derived Attribute,"Definition
+> Can be calculated from other information in the database
+> Dashed oval",30/08/2022,,
+1371,CS2102,Relationship (CS2102),"Definition
+> Association among two ot more entities
+
+Topics
+?> Relationship_Set
+
+Examples
+::Represented as a separate table, with foreign keys to both sides
+> PRIMARY KEY id
+> FOREIGN KEY left
+> FOREIGN KEY right
+::Represented in the same table (better choice as minimises tables)
+> PRIMARY KEY id
+> FOREIGN KEY left",30/08/2022,,
+1372,CS2102,Relationship Set,"Definition
+> Collection of relationships of the same type
+> Diamond
+> Verbs
+
+Topics
+?> Cardinality_Constraint
+?> Participation_Constraint",30/08/2022,,
+1373,CS2102,Role (CS2102),"Definition
+> Describes the directed relationship between entities
+> Labelled lines",30/08/2022,,
+1374,CS2102,Degree (CS2102),"Definition
+> n-nary relationship set has degree n",30/08/2022,,
+1375,CS2102,Aggregation (CS2102),"Definition
+> Treat relationships as higher-level entities
+> Bounding rectangle around the entire entity-relationship set, or just the relationship is fine",30/08/2022,,
+1376,CS2102,Requirement Analysis,"Definition
+> Identification and collection of user needs",30/08/2022,,
+1377,CS2102,Conceptual DB Design,"Topics
+?> ER_Model",30/08/2022,,
+1378,CS2102,Logical DB Design,"Definition
+> Maps Conceptual Model to the Logical Schema
+
+Topics
+?> Logical_Schema
+?> Logical_Mapping",30/08/2022,,
+1379,CS2102,Logical Mapping,"Process
+> Name of entity set := name of table
+> Attributes := attributes of table
+> Key attributes := primary key of table
+> Composit attributes := flatten into different columns (we lose the connection between these columns)
+> Multivalued attributes := flatten into different columns, or create new table",30/08/2022,Important,
+1380,CS2102,Schema Refinement,"Definition
+> Checking schema for anomalies and optimisations",30/08/2022,,
+1381,CS2102,Physical DB Design,"Topics
+?> Physical_Schema",30/08/2022,,
+1382,CS2102,Security Design,"Definition
+> User permissions",30/08/2022,,
+1383,MA2108,MA2108,"Topics
 ?> CS1231S
 ?> MA1521
 ?> Mathematical_Analysis_Foundation
 ?> Field
-?> Completeness_Of_Real_Numbers",12/08/2022,,674.0
-1338,MA2108,Mathematical Analysis Foundation,"Topics
+?> Completeness_Of_Real_Numbers
+?> Sequences",12/08/2022,,674.0
+1384,MA2108,Mathematical Analysis Foundation,"Topics
 ?> Sets__MA2108_
 ?> Functions__MA2108_
 ?> Mathematical_Induction",16/08/2022,,
-1339,MA2108,Sets (MA2108),"Topics
+1385,MA2108,Sets (MA2108),"Topics
 ?> Sets
 ?> Uniqueness_Theorem__MA2108_
 ?> Cardinality__MA2108_",16/08/2022,,
-1340,MA2108,Cardinality (MA2108),"Topics
+1386,MA2108,Cardinality (MA2108),"Topics
 ?> Cardinality",16/08/2022,,
-1341,MA2108,Functions (MA2108),"Topics
+1387,MA2108,Functions (MA2108),"Topics
 ?> Function_Correspondence",16/08/2022,,
-1342,MA2108,Uniqueness Theorem (MA2108),"Definition
+1388,MA2108,Uniqueness Theorem (MA2108),"Definition
 > If S is a finite set, then the number of elements is a unique number",16/08/2022,,
-1343,MA2108,Mathematical Induction,"Definition
+1389,MA2108,Mathematical Induction,"Definition
 > P(k-1) true ⟹ P(k) true
 
 Types
@@ -7709,15 +7947,38 @@ Types
 
 Topics
 ?> Well_Ordering_Principle",16/08/2022,,
-1344,MA2108,Strong Mathematical Induction,"Definition
+1390,MA2108,Strong Mathematical Induction,"Definition
 > P(1) to P(k-1) true ⟹ P(k) true",16/08/2022,,
-1345,MA2108,Triangle Inequality,"Properties
+1391,MA2108,Triangle Inequality,"Properties
 > |a+b| ≤ |a|+|b|
 > ||a|-|b|| ≤ |a-b|",16/08/2022,Important,
-1346,MA2108,Completeness Of Real Numbers,"Topics
+1392,MA2108,Completeness Of Real Numbers,"Topics
 ?> Neighbourhood
-?> Density_Theorems",19/08/2022,,
-1347,MA2108,Neighbourhood,"Definition
+?> Density_Theorems
+
+Theorem
+?> Real_Number_Theorems",19/08/2022,,
+1393,MA2108,Real Number Theorems,"Theorem
+> a<b and b<c ⟹ a<c
+> a<b ⟹ a+c<b+c ∀c∈ℝ
+> a<b and c>0 ⟹ ac<bc
+> a<b and c<0 ⟹ ac>bc
+> a∈ℝ ⟹ a²≥0
+> 0≤a<ε ∀ε>0 ⟹ a=0
+> ab<0 ⟹ opposite signs
+> ab>0 ⟹ same signs
+> x>-1 ⟹ (1+x)ⁿ ≥ 1+nx n∈ℕ
+
+Types
+?> Absolute_Number_Theorems",30/08/2022,Important,
+1394,MA2108,Absolute Number Theorems,"Theorem
+> |ab| = |a||b|
+> |a|² = a²
+> -|a| ≤ a ≤ |a|
+> |a+-b| ≤ |a|+|b|
+> ||a|-|b|| ≤ |a-b|
+> |a₁+a₂+...| ≤ |a₁|+|a₂|+...",30/08/2022,,
+1395,MA2108,Neighbourhood,"Definition
 > V_{ε}(a) is the ε neighbourhood centred at a (a-ε,a+ε)
 > |x-a| < ε
 > If a∈V_{ε}(c) ∀ε>0, then a=c
@@ -7726,32 +7987,32 @@ Topics
 ?> Open_Set
 ?> Closed_Set
 ?> Bounded",19/08/2022,Important,
-1348,MA2108,Open Set,"Properties
+1396,MA2108,Open Set,"Properties
 > a∈(0,1) ⟹ V_a(a) ⊆ (0,1) or V_{1-a}(a) ⊆ (0,1)
 > Does not work for /Closed_Set cos V_0(0) !⊆ [0,1]",19/08/2022,,
-1349,MA2108,Closed Set,"Properties
+1397,MA2108,Closed Set,"Properties
 >",19/08/2022,,
-1350,MA2108,Upper Bound,"Definition
+1398,MA2108,Upper Bound,"Definition
 > w is upper bound of S if w≥s ∀s∈S
 > Doesn't need to be tight
 > May not exist and may not be part of the set
 
 Types
 ?> Supremum",19/08/2022,,
-1351,MA2108,Lower Bound,"Definition
+1399,MA2108,Lower Bound,"Definition
 > w is lower bound of S if w≤s ∀s∈S
 > Doesn't need to be tight
 > May not exist and may not be part of the set
 
 Types
 ?> Infimum",19/08/2022,,
-1352,MA2108,Bounded,"Definition
+1400,MA2108,Bounded,"Definition
 > Must have an /Upper_Bound and /Lower_Bound, otherwise unbounded
 
 Topics
 ?> Upper_Bound
 ?> Lower_Bound",19/08/2022,,
-1353,MA2108,Supremum,"Definition
+1401,MA2108,Supremum,"Definition
 > Least /Upper_Bound
 > Unique for each set
 > u is supremum of S (sup S) if it is an /Upper_Bound and is tight (∀v upper bounds ⟹ u ≤ v)
@@ -7769,9 +8030,9 @@ Types
 
 Topics
 ?> Supremum_Axiom",19/08/2022,,
-1354,MA2108,Supremum Axiom,"Definition
+1402,MA2108,Supremum Axiom,"Definition
 > For subset of ℝ, upper bound exists ⟹ supremum exists",23/08/2022,,
-1355,MA2108,Infimum,"Definition
+1403,MA2108,Infimum,"Definition
 > Largest /Lower_Bound
 > Unique for each set
 > u is infimum of S (inf S) if it is an /Lower_Bound and is tight (∀v lower bounds ⟹ u ≥ v)
@@ -7788,40 +8049,77 @@ Prove
 
 Types
 ?> Minimum__MA2108_",19/08/2022,Important,
-1356,MA2108,Maximum (MA2108),"Definition
+1404,MA2108,Maximum (MA2108),"Definition
 > max S is the /Supremum that is in the set",19/08/2022,,
-1357,MA2108,Minimum (MA2108),"Definition
+1405,MA2108,Minimum (MA2108),"Definition
 > min S is the /Infimum that is in the set",19/08/2022,,
-1358,MA2108,Archimedean Property,"Definition
+1406,MA2108,Archimedean Property,"Definition
 > If x∈ℝ, then ∃n∈ℕ st x<n",23/08/2022,,
-1359,MA2108,Density Theorems,"Types
+1407,MA2108,Density Theorems,"Types
 ?> Density_Theorem_Of_Rational
 ?> Density_Theorem_Of_Irrational",26/08/2022,Important,
-1360,MA2108,Density Theorem Of Rational,"Definition
+1408,MA2108,Density Theorem Of Rational,"Definition
 > If x,y∈ℚ and x<y, then ∃r∈ℚ st x<r<y",26/08/2022,,
-1361,MA2108,Density Theorem Of Irrational,"Proof
+1409,MA2108,Density Theorem Of Irrational,"Proof
 > Use /Density_Theorem_Of_Rational on x/√2 and y/√2",26/08/2022,,
-1362,MA2108,Nested Intervals,"Definition
+1410,MA2108,Nested Intervals,"Definition
 > A sequence of intervals I₁...Iₙ is nested iff I₁⊇I₂⊇...⊇Iₙ
 
 Properties
-> If Iₙ is a nested sequence of intervals, then ∃ξ∈ℝ st ξ∈Iₙ, n∈ℕ (Using supremum-infimum)",26/08/2022,,
-1363,CS2100,CS2100,"Topics
+> If Iₙ is a nested sequence of intervals, then ∃ξ∈ℝ st ξ∈Iₙ, n∈ℕ (Using supremum-infimum)
+> If inf{bₙ-aₙ}=0, then ζ is unique",26/08/2022,,
+1411,MA2108,Sequences,"Definition
+> (xₙ), (xₙ: n∈ℕ) are sequences, while {xₙ: n∈ℕ} is a set
+
+Topics
+?> Limits__MA2108_
+
+Types
+?> Constant_Sequence
+?> Inductive_Sequence
+?> Convergent_Sequence
+?> Divergent_Sequence",26/08/2022,,
+1412,MA2108,Limits (MA2108),"Theorem
+> ∀ε>0, ∃K(ε)∈ℕ st |xₙ-x|<ε, ∀n≥K(ε)
+> If xₙ converges, then it only has one limit
+
+Properties
+> (xₙ) converges to x
+> ∀ε>0, ∃K st |xₙ-x|<ε
+> ∀ε-neighbourhood of x, ∃K, such that n≥K ⟹ xₙ all falls within the neighbourhood 
+
+Process
+::Prove a sequence converges to x
+> Shift x to the left
+> Let ε>0 be arbitrary
+> n≥K ⟹ |xₙ-x|≤L<ε",26/08/2022,Important,
+1413,MA2108,Constant Sequence,"Definition
+> (c) = (c,c,c,c,...,c)",26/08/2022,,
+1414,MA2108,Inductive Sequence,"Definition
+> nᵗʰ element is dependent on previous element
+
+Examples
+> Fibonacci Sequence",26/08/2022,,
+1415,MA2108,Convergent Sequence,"Definition
+> Limit exists",26/08/2022,,
+1416,MA2108,Divergent Sequence,"Definition
+> Limit doesn't exist",26/08/2022,,
+1417,CS2100,CS2100,"Topics
 ?> C_Programming
 ?> Number_Systems
 ?> Pointers_And_Functions
 ?> Arrays_Strings_Structures
 ?> MIPS",13/08/2022,,676.0
-1364,CS2100,C Programming,"Topics
+1418,CS2100,C Programming,"Topics
 ?> Von_Neumann_Architecture
 ?> C_Operator_Associativity
 ?> C_Program_Structure
 ?> C_Selection_Statements
 ?> C_Repetition_Statements",13/08/2022,,677.0
-1365,CS2100,Pointers And Functions,"Topics
+1419,CS2100,Pointers And Functions,"Topics
 ?> Pointer
 ?> Scope_Rule",13/08/2022,,679.0
-1366,CS2100,Pointer,"Definition
+1420,CS2100,Pointer,"Definition
 > System keeps track of a variable's address
 > Assigned using &var
 > Declared using *var
@@ -7841,128 +8139,128 @@ C>
 Topics
 ?> Memory_Address
 ?> Incrementing_Pointers",17/08/2022,Important,
-1367,CS2100,Memory Address,"Definition
+1421,CS2100,Memory Address,"Definition
 > Where the variable is stored in memory
 
 Topics
 ?> Memory_Allocation",17/08/2022,,
-1368,CS2100,Memory Allocation,"Properties
+1422,CS2100,Memory Allocation,"Properties
 > int - 4 bytes
 > float - 4 bytes
 > char - 1 byte
 > double - 8 bytes",17/08/2022,,
-1369,CS2100,Incrementing Pointers,"Definition
+1423,CS2100,Incrementing Pointers,"Definition
 > When performing a pointer++, the memory shifts by /Memory_Allocation
 
 Examples
 > double pt = ffbff090
 > pt++ ⟹ pt = ffbff090+8 = ffbff098",17/08/2022,,
-1370,CS2100,Scope Rule,"Definition
+1424,CS2100,Scope Rule,"Definition
 > Determines which variables are available where
 
 Topics
 ?> Static_Variable
 ?> Automatic_Variable
 ?> Activation_Record",17/08/2022,,
-1371,CS2100,Static Variable,"Definition
+1425,CS2100,Static Variable,"Definition
 > Static Variables exist in memory even after the function is completed",17/08/2022,,
-1372,CS2100,Automatic Variable,"Definition
+1426,CS2100,Automatic Variable,"Definition
 > Variables that only exist in memory when the function is running
 
 Types
 ?> Local_Parameter
 > Local_Function",17/08/2022,,
-1373,CS2100,Local Parameter,"Definition
+1427,CS2100,Local Parameter,"Definition
 > Local parameters are only accessible in the function they are defined in
 > They can't even change the value outside the function (have to use pointers)
 
 Types
 ?> Formal_Parameter",17/08/2022,,
-1374,CS2100,Formal Parameter,"Definition
+1428,CS2100,Formal Parameter,"Definition
 > Formal parameters are local to the function they are declared in",17/08/2022,,
-1375,CS2100,Activation Record,"Definition
+1429,CS2100,Activation Record,"Definition
 > When a function is called, an activation record is created in the call stack, and memory is allocated for local parameters and variables",17/08/2022,,
-1376,CS2100,Arrays Strings Structures,"Topics
+1430,CS2100,Arrays Strings Structures,"Topics
 ?> Arrays__CS2100_
 ?> Strings__CS2100_
 ?> Structures__CS2100_",17/08/2022,,680.0
-1377,CS2100,Arrays (CS2100),"Topics
+1431,CS2100,Arrays (CS2100),"Topics
 ?> Array_Declaration
 ?> Array_Pointer
 ?> Array_Assignment
 ?> Array_Parameters
 ?> Array_Modification",17/08/2022,,
-1378,CS2100,Array Declaration,"Definition
+1432,CS2100,Array Declaration,"Definition
 > Includes element type, name and size
 
 Topics
 ?> Valid_Array_Declaration
 ?> Invalid_Array_Declaration",17/08/2022,,
-1379,CS2100,Valid Array Declaration,"Examples
+1433,CS2100,Valid Array Declaration,"Examples
 > c[] = {4,5,6};
 > c[5] = {4,5,6}; ⟹ missing values are padded with 0",17/08/2022,,
-1380,CS2100,Invalid Array Declaration,"Examples
+1434,CS2100,Invalid Array Declaration,"Examples
 > c[2] = {4,5,6};
 > int c[5]; c[5] = {4,5,6};",,,
-1381,CS2100,Array Pointer,"Definition
+1435,CS2100,Array Pointer,"Definition
 > Array pointer will be the same as the &a[0] first element pointer",17/08/2022,,
-1382,CS2100,Array Assignment,"Definition
+1436,CS2100,Array Assignment,"Definition
 > We cannot reassign arrays, as this will point it somewhere else
 > We must copy the values individually
 
 Examples
 > L1 = L2 (illegal)",17/08/2022,,
-1383,CS2100,Array Parameters,"Definition
+1437,CS2100,Array Parameters,"Definition
 > Can be written as [] in function header
 > Provide size as another parameter
 
 Examples
 > function f(int [], int size);",17/08/2022,,
-1384,CS2100,Array Modification,"Definition
+1438,CS2100,Array Modification,"Definition
 > Arrays can be modified once they are sent into a function, even if unintentional",17/08/2022,,
-1385,CS2100,Strings (CS2100),"Definition
+1439,CS2100,Strings (CS2100),"Definition
 > A string is an array of characters
 > Terminates with \0, otherwise it is just an array of strings
 > Without the \0, any accesses of the string will result in illegal access of memory (excess characters will be jibberish)
 Topics
 ?> String_IO
 ?> String_Functions",17/08/2022,,
-1386,CS2100,String IO,"Definition
+1440,CS2100,String IO,"Definition
 > fgets() reads a string, including a newline, so may need to remove that \n
 > printf() prints a string
 > puts() prints a string, and adds a newline",17/08/2022,,
-1387,CS2100,String Functions,"Types
+1441,CS2100,String Functions,"Types
 > strlen(s) - number of characters in s
 > strcmp(s1, s2) - compares strings for ordering
 > strncmp(s1, s2, n) - compares the first n characters
 > strcpy(s1, s2) - copies s2 values to s1",17/08/2022,,
-1388,CS2100,Structures (CS2100),"Definition
+1442,CS2100,Structures (CS2100),"Definition
 > Grouping of members of different types
 
 Topics
 ?> Structure_Declaration
 ?> Structure_Accessing
 ?> Structure_Modification",17/08/2022,,
-1389,CS2100,Structure Declaration,"Code <C
+1443,CS2100,Structure Declaration,"Code <C
 typedef struct {
   int length, width, height;
 } box_t;
 
 box_t box = {3,4,5};
 C>",17/08/2022,,
-1390,CS2100,Structure Accessing,"Code <C
+1444,CS2100,Structure Accessing,"Code <C
 box_t.height;
 C>",17/08/2022,,
-1391,CS2100,Structure Modification,"Code <C
+1445,CS2100,Structure Modification,"Code <C
 strcpy((*player_ptr).name, ""Peter"");
 (*player_ptr).age = 56;
 
 strcpy(player_ptr->name, ""Peter"");
 player_ptr->age = 56;
 C>",17/08/2022,,
-1392,CS2100,Von Neumann Architecture,"Definition
+1446,CS2100,Von Neumann Architecture,"Definition
 > Describes a computer consisting of CPU, Memory and IO",13/08/2022,,681.0
-1393,CS2100,C Operator Associativity,"Properties
+1447,CS2100,C Operator Associativity,"Properties
 > y=x++ ⟹ x ≠ y
 > y=++x ⟹ x = y
 
@@ -7972,77 +8270,77 @@ Types
 ?> C_Binary_Operators
 ?> C_Ternary_Operators
 ?> C_Assignment_Operators",13/08/2022,Important,
-1394,CS2100,C Primary Expression Operators,"Properties
+1448,CS2100,C Primary Expression Operators,"Properties
 > Associativity - L2R
 
 Examples
 > () [] . → expr++ expr--",13/08/2022,,
-1395,CS2100,C Unary Operators,"Properties
+1449,CS2100,C Unary Operators,"Properties
 > Associativity - R2L
 
 Examples
 > * & + - ! ~ ++expr --expr (typecast) sizeof ",13/08/2022,,
-1396,CS2100,C Binary Operators,"Properties
+1450,CS2100,C Binary Operators,"Properties
 > Associativity - L2R
 
 Examples
 > * / % + - < > == ≠ && ||",13/08/2022,,
-1397,CS2100,C Ternary Operators,"Properties
+1451,CS2100,C Ternary Operators,"Properties
 > Associativity - R2L
 
 Examples
 > cond ? e1 : e2",13/08/2022,,
-1398,CS2100,C Assignment Operators,"Properties
+1452,CS2100,C Assignment Operators,"Properties
 > Associativity - R2L
 
 Examples
 > = +=",13/08/2022,,
-1399,CS2100,C Program Structure,"Topics
+1453,CS2100,C Program Structure,"Topics
 ?> Preprocessor_Directive
 ?> C_Input_Output",13/08/2022,,682.0
-1400,CS2100,Preprocessor Directive,"Definition
+1454,CS2100,Preprocessor Directive,"Definition
 > What the computer will do before running the actual code
 
 Topics
 ?> C_Header_Files
 ?> Macro_Expansions",13/08/2022,,
-1401,CS2100,C Header Files,"Usage
+1455,CS2100,C Header Files,"Usage
 > Enables the user to use certain functions like scanf() printf()
 > Basically imports
 
 Examples
 ><C #include <stdio.h> C>",13/08/2022,,
-1402,CS2100,Macro Expansions,"Usage
+1456,CS2100,Macro Expansions,"Usage
 > Define a macro for a constant value
 
 Examples
 ><C #define Π 3.142 C>",13/08/2022,,
-1403,CS2100,C Input Output,"Topics
+1457,CS2100,C Input Output,"Topics
 ?> C_Escape_Sequence
 ?> C_Input
 ?> C_Output",13/08/2022,,
-1404,CS2100,C Escape Sequence,"Properties
+1458,CS2100,C Escape Sequence,"Properties
 ><C \n C> - new line
 ><C \t C> - horizontal tab
 ><C \"" C> - double quote
 ><C %% C> - % character",13/08/2022,,
-1405,CS2100,C Input,"Topics
+1459,CS2100,C Input,"Topics
 ?> C_Input_Placeholder
 
 Examples
 ><C scanf() C>",13/08/2022,,
-1406,CS2100,C Output,"Topics
+1460,CS2100,C Output,"Topics
 ?> C_Output_Placeholder
 
 Examples
 ><C printf() C>",13/08/2022,,
-1407,CS2100,C Input Placeholder,"Properties
+1461,CS2100,C Input Placeholder,"Properties
 ><C %c C> - char
 ><C %d C> - int
 ><C %f C> - float
 ><C %lf C> - double
 ><C %s C> - string",13/08/2022,,
-1408,CS2100,C Output Placeholder,"Properties
+1462,CS2100,C Output Placeholder,"Properties
 ><C %c C> - char
 ><C %d C> - int
 ><C %f C> - float/double
@@ -8050,58 +8348,58 @@ Examples
 ><C %e C> - float/double (scientific notation)
 ><C %p C> - pointer
 ><C %s C> - string",13/08/2022,,
-1409,CS2100,C Selection Statements,"Topics
+1463,CS2100,C Selection Statements,"Topics
 ?> C_Condition_Operators
 ?> C_Truth_Values
 ?> C_Logical_Operators
 ?> C_Short_Circuit_Evaluation",13/08/2022,,683.0
-1410,CS2100,C Condition Operators,"Definition
+1464,CS2100,C Condition Operators,"Definition
 > Expression evaluated to true or false",13/08/2022,,
-1411,CS2100,C Truth Values,"Definition
+1465,CS2100,C Truth Values,"Definition
 > Boolean values
 > 0 is false, anything else is true",13/08/2022,,
-1412,CS2100,C Logical Operators,"Definition
+1466,CS2100,C Logical Operators,"Definition
 > Combining two or more boolean expressions
 > && || !",13/08/2022,,
-1413,CS2100,C Short Circuit Evaluation,"Definition
+1467,CS2100,C Short Circuit Evaluation,"Definition
 > Skips the second part of the expression if unnecessary
 
 Examples
 ><C e1 || e2 C>",13/08/2022,,
-1414,CS2100,C Repetition Statements,"Topics
+1468,CS2100,C Repetition Statements,"Topics
 ?> C_Break
 ?> C_Continue",13/08/2022,,684.0
-1415,CS2100,C Break,"Definition
+1469,CS2100,C Break,"Definition
 > Breaks the innermost loop",13/08/2022,,685.0
-1416,CS2100,C Continue,"Definition
+1470,CS2100,C Continue,"Definition
 > Skips to the next iteration of the innermost loop",13/08/2022,,686.0
-1417,CS2100,Number Systems,"Topics
+1471,CS2100,Number Systems,"Topics
 ?> C_Number_Systems
 ?> Binary_System
 ?> MSB",13/08/2022,,687.0
-1418,CS2100,Binary System,"Topics
+1472,CS2100,Binary System,"Topics
 ?> Binary_Conversion
 ?> Binary_Negative_Numbers
 ?> Binary_Arithmetic
 ?> Binary_Excess
 ?> Binary_Real_Numbers
 ?> Binary_Char",13/08/2022,,
-1419,CS2100,Binary Char,"Definition
+1473,CS2100,Binary Char,"Definition
 > Chars are represented in positive numbers, so any type casts done can mess up the value of the char",23/08/2022,,
-1420,CS2100,C Number Systems,"Types
+1474,CS2100,C Number Systems,"Types
 ?> C_Octal_System
 ?> C_Hexadecimal_System",13/08/2022,,688.0
-1421,CS2100,C Octal System,"Definition
+1475,CS2100,C Octal System,"Definition
 ><C 032 C> is for octal number (32)",13/08/2022,,689.0
-1422,CS2100,C Hexadecimal System,"Definition
+1476,CS2100,C Hexadecimal System,"Definition
 ><C 0x32 C> is for hexadecimal number (32)",13/08/2022,,690.0
-1423,CS2100,Binary Conversion,"Topics
+1477,CS2100,Binary Conversion,"Topics
 ?> Binary_Whole_Number_Conversion
 ?> Binary_Decimal_Conversion
 ?> Binary_Octal_Conversion",13/08/2022,,691.0
-1424,CS2100,Binary Whole Number Conversion,"Process
+1478,CS2100,Binary Whole Number Conversion,"Process
 > Successively divide by 2 until quotient is 0",13/08/2022,,692.0
-1425,CS2100,Binary Decimal Conversion,"Process
+1479,CS2100,Binary Decimal Conversion,"Process
 > Successively multiply by 2 until the fractional product is 0
 > Use an additional bit to check whether to round up or round down (0.001≈0.01)
 
@@ -8113,29 +8411,29 @@ Examples
 0.5*2 = 1 → 1
 ⟹ 0.3125₁₀ = 0.0101₂
 MA>",13/08/2022,Important,693.0
-1426,CS2100,Binary Octal Conversion,"Process
+1480,CS2100,Binary Octal Conversion,"Process
 > Partition in groups of 3
 
 Examples
 ><MA (10 111 011 001)_2 = (2731)_8 MA>",13/08/2022,,694.0
-1427,CS2100,Binary Hexadecimal Conversion,"Process
+1481,CS2100,Binary Hexadecimal Conversion,"Process
 > Partition in groups of 4
 
 Examples
 ><MA (101 1101 1001)_2 = (5D9)_16 MA>",13/08/2022,,695.0
-1428,CS2100,Binary Negative Numbers,"Types
+1482,CS2100,Binary Negative Numbers,"Types
 ?> Binary_Sign_Magnitude
 ?> Binary_1s_Complement
 ?> Binary_2s_Complement
 ?> Binary_Radix_Diminished_Complement",13/08/2022,Important,696.0
-1429,CS2100,Binary Sign Magnitude,"Definition
+1483,CS2100,Binary Sign Magnitude,"Definition
 > Use 1 bit for sign and 7 bits for magnitude
 > Just invert the sign bit to change sign
 
 Examples
 ><MA 00110100 = +110100₂ = +52₁₀ MA>
 ><MA 00000000 = 10000000 = 0₁₀ MA>",13/08/2022,,697.0
-1430,CS2100,Binary 1s Complement,"Process
+1484,CS2100,Binary 1s Complement,"Process
 > Invert all bits to negate value
 ><MA -x=2ⁿ-x-1 MA>
 > /MSB is still sign and means -127
@@ -8151,7 +8449,7 @@ Examples
 
 Topics
 ?> Binary_1s_Arithmetic",13/08/2022,Important,698.0
-1431,CS2100,Binary 2s Complement,"Definition
+1485,CS2100,Binary 2s Complement,"Definition
 > Invert all bits then add 1 to negate value
 > Can also invert by maintaining the trailing 0s, then inverting the rest
 ><MA -x=2ⁿ-x MA>
@@ -8165,46 +8463,46 @@ Properties
 Topics
 ?> Binary_2s_Arithmetic
 ?> Binary_Sign_Extension",13/08/2022,Important,699.0
-1432,CS2100,Binary Sign Extension,"Definition
+1486,CS2100,Binary Sign Extension,"Definition
 > Convert small bits to larger bits, just copy the sign that many times
 > Works for all complement systems
 > Doesn't work for sign-and-magnitude",26/08/2022,,
-1433,CS2100,Binary Radix Diminished Complement,"Definition
+1487,CS2100,Binary Radix Diminished Complement,"Definition
 > (r-1) Complement means rⁿ-r⁻ᵃ-N for n digits and a fractional digits",26/08/2022,,
-1434,CS2100,MSB,"Definition
+1488,CS2100,MSB,"Definition
 > Most Significant Bit",13/08/2022,,700.0
-1435,CS2100,Binary Arithmetic,"Topics
+1489,CS2100,Binary Arithmetic,"Topics
 ?> Binary_Overflow
 
 Types
 ?> Binary_1s_Arithmetic
 ?> Binary_2s_Arithmetic
 ?> Binary_Fraction_Arithmetic",13/08/2022,Important,701.0
-1436,CS2100,Binary Fraction Arithmetic,"Process
+1490,CS2100,Binary Fraction Arithmetic,"Process
 ::Evaluate 0101.11-010.0101
 > Pad the values (0101.1100-0010.0101)
 > Convert subtractions into negative numbers (0101.1100+1101.1010)
 > Boomz",26/08/2022,Important,
-1437,CS2100,Binary Overflow,"Definition
+1491,CS2100,Binary Overflow,"Definition
 > Easy to detect as positive+positive will become negative, and negative+negative will become positive
 > Happens when the number is large and does not scale properly
 
 Examples
 > 0110+0110=1100 (Overflow)",13/08/2022,,702.0
-1438,CS2100,Binary 1s Arithmetic,"Process
+1492,CS2100,Binary 1s Arithmetic,"Process
 > Add the 2 numbers as usual
 > If there is overflow, then add 1
 
 Disadvantages
 - There are multiple rounds of addition before you get the answer",13/08/2022,,703.0
-1439,CS2100,Binary 2s Arithmetic,"Process
+1493,CS2100,Binary 2s Arithmetic,"Process
 > Simply add the two numbers together and ignore overflow",13/08/2022,,704.0
-1440,CS2100,Binary Real Numbers,"Topics
+1494,CS2100,Binary Real Numbers,"Topics
 ?> Fixed_Point_Representation
 ?> Floating_Point_Representation",13/08/2022,,705.0
-1441,CS2100,Fixed Point Representation,"Definition
+1495,CS2100,Fixed Point Representation,"Definition
 > The number of bits allocated for the whole number are fixed, decimal part is fixed",13/08/2022,,706.0
-1442,CS2100,Floating Point Representation,"Definition
+1496,CS2100,Floating Point Representation,"Definition
 > Flexible number of decimal places
 
 Properties
@@ -8214,14 +8512,14 @@ Properties
 
 Examples
 > 110.1₂ = 1.101₂ × 2² ⟹ Mantissa is 101",13/08/2022,Important,707.0
-1443,CS2100,Binary Excess,"Definition
+1497,CS2100,Binary Excess,"Definition
 > Excess-n means that 000 is -n",13/08/2022,Important,708.0
-1444,CS2100,Error Correction,"Topics
+1498,CS2100,Error Correction,"Topics
 ?> Parity_Correction",16/08/2022,,
-1445,CS2100,Parity Correction,"Definition
+1499,CS2100,Parity Correction,"Definition
 > Only 7 bits are necessary for all ASCII characters
 > Last bit is to check whether odd or even (both computers need to decide on either odd or even, so that can check for errors afterwards)",16/08/2022,Important,
-1446,CS2100,MIPS,"Definition
+1500,CS2100,MIPS,"Definition
 >
 
 Topics
@@ -8230,17 +8528,17 @@ Topics
 ?> Machine_Code
 ?> Assembly_Language
 ?> Register",23/08/2022,,
-1447,CS2100,Computer Components,"Types
+1501,CS2100,Computer Components,"Types
 ?> Compiler__CS2100_
 ?> Assembler__CS2100_
 ?> Processor
 ?> Bus
 ?> Memory",23/08/2022,,
-1448,CS2100,Processor,"Usage
+1502,CS2100,Processor,"Usage
 > Perform computations",23/08/2022,,
-1449,CS2100,Bus,"Usage
+1503,CS2100,Bus,"Usage
 > Bridge between the /Processor and /Memory",23/08/2022,,
-1450,CS2100,Memory,"Usage
+1504,CS2100,Memory,"Usage
 > Storage of code and data
 
 Properties
@@ -8248,19 +8546,19 @@ Properties
 
 Topics
 ?> Register",23/08/2022,,
-1451,CS2100,Assembler (CS2100),"Definition
+1505,CS2100,Assembler (CS2100),"Definition
 > Converts assembly code into binary",23/08/2022,,
-1452,CS2100,Compiler (CS2100),"Definition
+1506,CS2100,Compiler (CS2100),"Definition
 > Converts programming language into assembly code",23/08/2022,,
-1453,CS2100,Instruction Set Architecture,"Definition
+1507,CS2100,Instruction Set Architecture,"Definition
 > Abstraction on the interface between the hardware and the software
 > Human-readable",23/08/2022,,
-1454,CS2100,Machine Code,"Definition
+1508,CS2100,Machine Code,"Definition
 > Instructions in binary
 > Tedious to code",23/08/2022,,
-1455,CS2100,Assembly Language,"Types
+1509,CS2100,Assembly Language,"Types
 ?> MIPS_Assembly_Language",23/08/2022,,
-1456,CS2100,MIPS Assembly Language,"Topics
+1510,CS2100,MIPS Assembly Language,"Topics
 ?> MIPS_Syntax
 ?> MIPS_Arithmetic
 ?> MIPS_Control_Flow
@@ -8270,36 +8568,36 @@ Topics
 ?> Memory_Instructions
 ?> MIPS_Decisions
 ?> MIPS_Loops",23/08/2022,,
-1457,CS2100,MIPS Syntax,"Definition
+1511,CS2100,MIPS Syntax,"Definition
 > Each instruction executes a simple command
 > Each line holds at most one instruction
 
 Code <ASM
 add $s0, $s1, $s2 - $s0=$s1+$s2
 ASM>",23/08/2022,,
-1458,CS2100,MIPS Arithmetic,"Definition
+1512,CS2100,MIPS Arithmetic,"Definition
 > Arithmetic operations work directly on registers only (register to register)",23/08/2022,,
-1459,CS2100,MIPS Control Flow,"Definition
+1513,CS2100,MIPS Control Flow,"Definition
 > Instructions to change the control flow based on conditions
 > Allows for looping",23/08/2022,,
-1460,CS2100,MIPS Operands,"Definition
+1514,CS2100,MIPS Operands,"Definition
 > MIPS instruction can handle at most two source operands, so have to break everything up like Jamie Oliver tofu
 
 Types
 ?> Immediate_Operands",23/08/2022,,
-1461,CS2100,Immediate Operands,"Definition
+1515,CS2100,Immediate Operands,"Definition
 > Immediate values are numerical constants that are frequently used
 > Special operations like <ASM addi $s0, $s0, 4 ASM>",23/08/2022,,
-1462,CS2100,MIPS Assignment,"Definition
+1516,CS2100,MIPS Assignment,"Definition
 > To assign something equals something, we use <ASM add $s0, $s1, $zero ASM>",23/08/2022,Important,
-1463,CS2100,Logical Operations,"Types
+1517,CS2100,Logical Operations,"Types
 ?> Shift_Left
 ?> Shift_Right
 ?> Bitwise_And
 ?> Bitwise_Or
 ?> Bitwise_Not
 ?> Bitwise_Xor",23/08/2022,,
-1464,CS2100,Shift Left,"Usage
+1518,CS2100,Shift Left,"Usage
 > Move all bits in a word to the left and fill the emptied positions with zeroes
 > Multiplication
 
@@ -8307,34 +8605,34 @@ Code
 > C: >>
 > ASM: sll
 ><ASM sll $t2, $s0, 4 ASM>",23/08/2022,,
-1465,CS2100,Shift Right,"Usage
+1519,CS2100,Shift Right,"Usage
 > Division
 
 Code
 > C: <<
 > ASM: srl",23/08/2022,,
-1466,CS2100,Bitwise And,"Usage
+1520,CS2100,Bitwise And,"Usage
 > Force certain bits to be 0s
 > Masking data
 
 Code
 > C: &
 > ASM: and, andi",23/08/2022,,
-1467,CS2100,Bitwise Or,"Usage
+1521,CS2100,Bitwise Or,"Usage
 > Force certain bits to 1s
 > Forcing data
 
 Code
 > C: |
 > ASM: or, ori",23/08/2022,,
-1468,CS2100,Bitwise Not,"Code
+1522,CS2100,Bitwise Not,"Code
 > C: ~
 > ASM: nor
 ><ASM nor $t0, $t0, $zero ASM>",23/08/2022,,
-1469,CS2100,Bitwise Xor,"Code
+1523,CS2100,Bitwise Xor,"Code
 > C: ^
 > ASM: xor",23/08/2022,,
-1470,CS2100,Register,"Definition
+1524,CS2100,Register,"Definition
 > Provide temporary storage for values in the processor
 > Load data from memory
 > Store data to memory
@@ -8343,7 +8641,7 @@ Code
 
 Types
 ?> General_Purpose_Register",23/08/2022,Important,
-1471,CS2100,General Purpose Register,"Properties
+1525,CS2100,General Purpose Register,"Properties
 > Fast memory in the processor
 > Limited to 16 to 32 registers
 > No data type
@@ -8359,49 +8657,50 @@ Types
 ?> Stack_Pointer_Register
 ?> Frame_Pointer_Register
 ?> Return_Address",23/08/2022,,
-1472,CS2100,Assembler Register,"Definition
+1526,CS2100,Assembler Register,"Definition
 > $at
 > Register 1",23/08/2022,,
-1473,CS2100,Evaluation Register,"Definition
+1527,CS2100,Evaluation Register,"Definition
 > $v0-$v1
 > Register 2-3",23/08/2022,,
-1474,CS2100,Arguments Register,"Definition
+1528,CS2100,Arguments Register,"Definition
 > $a0-$a3
 > Register 4-7",23/08/2022,,
-1475,CS2100,Temporaries Register,"Definition
+1529,CS2100,Temporaries Register,"Definition
 > $t0-$t7, $t8-$t9
 > Register 8-15, 24-25",23/08/2022,,
-1476,CS2100,Variables Register,"Definition
+1530,CS2100,Variables Register,"Definition
 > $s0-$s7
 > Register 16-23",23/08/2022,,
-1477,CS2100,Global Pointer Register,"Definition
+1531,CS2100,Global Pointer Register,"Definition
 > $gp
 > Register 28",23/08/2022,,
-1478,CS2100,Stack Pointer Register,"Definition
+1532,CS2100,Stack Pointer Register,"Definition
 > $sp
 > Register 29",23/08/2022,,
-1479,CS2100,Frame Pointer Register,"Definition
+1533,CS2100,Frame Pointer Register,"Definition
 > $fp
 > Register 30",23/08/2022,,
-1480,CS2100,Return Address,"Definition
+1534,CS2100,Return Address,"Definition
 > $ra
 > Register 31",23/08/2022,,
-1481,CS2100,Memory Instructions,"Properties
+1535,CS2100,Memory Instructions,"Properties
 > Take up 4 bytes per instruction, doesn't include breakpoints
+> 6 for operation, 5 register, 5 register, 16 data
 
 Topics
 ?> Word__CS2100_",25/08/2022,Important,709.0
-1482,CS2100,Word (CS2100),"Definition
+1536,CS2100,Word (CS2100),"Definition
 > A word is usually 2ⁿ bytes
 > Common unit of transfer between processor and memory
 
 Topics
 ?> Word_Aligned
 ?> Load_Word",25/08/2022,,
-1483,CS2100,Word Aligned,"Definition
+1537,CS2100,Word Aligned,"Definition
 > Words begin at a byte address that is a multiple of the number of bytes in a word
 > Address / 4 = word size",25/08/2022,,
-1484,CS2100,Load Word,"Definition
+1538,CS2100,Load Word,"Definition
 > ASM: lw $t0, 4($s0)
 > Transfers the memory address Mem[$s0+4] into $t0
 > Cannot load word from an unaligned word
@@ -8409,7 +8708,7 @@ Topics
 Types
 ?> Load_Byte
 ?> Unaligned_Load_Word",25/08/2022,,
-1485,CS2100,Store Word,"Definition
+1539,CS2100,Store Word,"Definition
 > ASM: sw $t0, 12($s0)
 > Content of $t0 is stored into word at Mem[$s0+12]
 > Cannot store word as an unaligned word
@@ -8417,15 +8716,15 @@ Types
 Types
 ?> Store_Byte
 ?> Unaligned_Store_Word",25/08/2022,,
-1486,CS2100,Load Byte,"Definition
+1540,CS2100,Load Byte,"Definition
 > ASM: lb $t1, 12($s3)",25/08/2022,,
-1487,CS2100,Store Byte,"Definition
+1541,CS2100,Store Byte,"Definition
 > ASM: sb $t2, 12($s3)",25/08/2022,,
-1488,CS2100,Unaligned Load Word,"Definition
+1542,CS2100,Unaligned Load Word,"Definition
 > ASM: ulw",25/08/2022,,
-1489,CS2100,Unaligned Store Word,"Definition
+1543,CS2100,Unaligned Store Word,"Definition
 > ASM: usw",25/08/2022,,
-1490,CS2100,MIPS Decisions,"Definition
+1544,CS2100,MIPS Decisions,"Definition
 > Alter the control flow of the program
 
 Types
@@ -8433,237 +8732,237 @@ Types
 ?> Unconditional_Branch
 ?> MIPS_Inequalities
 ?> Jump_To",25/08/2022,,710.0
-1491,CS2100,Conditional Branch,"Definition
+1545,CS2100,Conditional Branch,"Definition
 > Processor follows the branch only when the condition is satisfied
 
 Types
 ?> Branch_If_Equal
 ?> Branch_Not_Equal",25/08/2022,Important,
-1492,CS2100,Branch If Equal,"Definition
+1546,CS2100,Branch If Equal,"Definition
 > ASM: beq $r1, $r2, L1
 > Go to statement L1 if equal",25/08/2022,,
-1493,CS2100,Branch Not Equal,"Definition
+1547,CS2100,Branch Not Equal,"Definition
 > ASM: bne $r1, $r2, L1
 > Go to statement L1 if not equal",25/08/2022,,
-1494,CS2100,Unconditional Branch,"Definition
+1548,CS2100,Unconditional Branch,"Definition
 > ASM: j L1
 > Always jump to label L1",25/08/2022,,
-1495,CS2100,MIPS Inequalities,"Definition
+1549,CS2100,MIPS Inequalities,"Definition
 > ASM: slt $t0, $s1, $s2 ⟺ $t0=($s1<$s2)?1:0
 > ASM: sgt $t0, $s1, $s2 ⟺ $t0=($s1>$s2)?1:0",25/08/2022,,
-1496,CS2100,Jump To,"Definition
+1550,CS2100,Jump To,"Definition
 > L1: sub $s0, $s1, $s2
 > Jump statements will go to this line",25/08/2022,,
-1497,CS2100,MIPS Loops,"Code <ASM
+1551,CS2100,MIPS Loops,"Code <ASM
 Loop: beq $s0, $s1, Exit
 j Loop
 ASM>",25/08/2022,,711.0
-1498,,,,,,712.0
-1499,,,,,,713.0
-1500,,,,,,714.0
-1501,,,,,,715.0
-1502,,,,,,716.0
-1503,,,,,,717.0
-1504,,,,,,718.0
-1505,,,,,,719.0
-1506,,,,,,720.0
-1507,,,,,,721.0
-1508,,,,,,722.0
-1509,,,,,,723.0
-1510,,,,,,724.0
-1511,,,,,,725.0
-1512,,,,,,726.0
-1513,,,,,,727.0
-1514,,,,,,728.0
-1515,,,,,,729.0
-1516,,,,,,730.0
-1517,,,,,,731.0
-1518,,,,,,732.0
-1519,,,,,,733.0
-1520,,,,,,734.0
-1521,,,,,,735.0
-1522,,,,,,736.0
-1523,,,,,,737.0
-1524,,,,,,738.0
-1525,,,,,,739.0
-1526,,,,,,740.0
-1527,,,,,,741.0
-1528,,,,,,742.0
-1529,,,,,,743.0
-1530,,,,,,744.0
-1531,,,,,,745.0
-1532,,,,,,746.0
-1533,,,,,,747.0
-1534,,,,,,748.0
-1535,,,,,,749.0
-1536,,,,,,750.0
-1537,,,,,,751.0
-1538,,,,,,752.0
-1539,,,,,,753.0
-1540,,,,,,754.0
-1541,,,,,,755.0
-1542,,,,,,756.0
-1543,,,,,,757.0
-1544,,,,,,758.0
-1545,,,,,,759.0
-1546,,,,,,760.0
-1547,,,,,,761.0
-1548,,,,,,762.0
-1549,,,,,,763.0
-1550,,,,,,764.0
-1551,,,,,,765.0
-1552,,,,,,766.0
-1553,,,,,,767.0
-1554,,,,,,768.0
-1555,,,,,,769.0
-1556,,,,,,770.0
-1557,,,,,,771.0
-1558,,,,,,772.0
-1559,,,,,,773.0
-1560,,,,,,774.0
-1561,,,,,,775.0
-1562,,,,,,776.0
-1563,,,,,,777.0
-1564,,,,,,778.0
-1565,,,,,,779.0
-1566,,,,,,780.0
-1567,,,,,,781.0
-1568,,,,,,782.0
-1569,,,,,,783.0
-1570,,,,,,784.0
-1571,,,,,,785.0
-1572,,,,,,786.0
-1573,,,,,,787.0
-1574,,,,,,788.0
-1575,,,,,,789.0
-1576,,,,,,790.0
-1577,,,,,,791.0
-1578,,,,,,792.0
-1579,,,,,,793.0
-1580,,,,,,794.0
-1581,,,,,,795.0
-1582,,,,,,796.0
-1583,,,,,,797.0
-1584,,,,,,798.0
-1585,,,,,,799.0
-1586,,,,,,800.0
-1587,,,,,,801.0
-1588,,,,,,802.0
-1589,,,,,,803.0
-1590,,,,,,804.0
-1591,,,,,,805.0
-1592,,,,,,806.0
-1593,,,,,,807.0
-1594,,,,,,808.0
-1595,,,,,,809.0
-1596,,,,,,810.0
-1597,,,,,,811.0
-1598,,,,,,812.0
-1599,,,,,,813.0
-1600,,,,,,814.0
-1601,,,,,,815.0
-1602,,,,,,816.0
-1603,,,,,,817.0
-1604,,,,,,818.0
-1605,,,,,,819.0
-1606,,,,,,820.0
-1607,,,,,,821.0
-1608,,,,,,822.0
-1609,,,,,,823.0
-1610,,,,,,824.0
-1611,,,,,,825.0
-1612,,,,,,826.0
-1613,,,,,,827.0
-1614,,,,,,828.0
-1615,,,,,,829.0
-1616,,,,,,830.0
-1617,,,,,,831.0
-1618,,,,,,832.0
-1619,,,,,,833.0
-1620,,,,,,834.0
-1621,,,,,,835.0
-1622,,,,,,836.0
-1623,,,,,,837.0
-1624,,,,,,838.0
-1625,,,,,,839.0
-1626,,,,,,840.0
-1627,,,,,,841.0
-1628,,,,,,842.0
-1629,,,,,,843.0
-1630,,,,,,844.0
-1631,,,,,,845.0
-1632,,,,,,846.0
-1633,,,,,,847.0
-1634,,,,,,848.0
-1635,,,,,,849.0
-1636,,,,,,850.0
-1637,,,,,,851.0
-1638,,,,,,852.0
-1639,,,,,,853.0
-1640,,,,,,854.0
-1641,,,,,,855.0
-1642,,,,,,856.0
-1643,,,,,,857.0
-1644,,,,,,858.0
-1645,,,,,,859.0
-1646,,,,,,860.0
-1647,,,,,,861.0
-1648,,,,,,862.0
-1649,,,,,,863.0
-1650,,,,,,864.0
-1651,,,,,,865.0
-1652,,,,,,866.0
-1653,,,,,,867.0
-1654,,,,,,868.0
-1655,,,,,,869.0
-1656,,,,,,870.0
-1657,,,,,,871.0
-1658,,,,,,872.0
-1659,,,,,,873.0
-1660,,,,,,874.0
-1661,,,,,,875.0
-1662,,,,,,876.0
-1663,,,,,,877.0
-1664,,,,,,878.0
-1665,,,,,,879.0
-1666,,,,,,880.0
-1667,,,,,,881.0
-1668,,,,,,882.0
-1669,,,,,,883.0
-1670,,,,,,884.0
-1671,,,,,,885.0
-1672,,,,,,886.0
-1673,,,,,,887.0
-1674,,,,,,888.0
-1675,,,,,,889.0
-1676,,,,,,890.0
-1677,,,,,,891.0
-1678,,,,,,892.0
-1679,,,,,,893.0
-1680,,,,,,894.0
-1681,,,,,,895.0
-1682,,,,,,896.0
-1683,,,,,,897.0
-1684,,,,,,898.0
-1685,,,,,,899.0
-1686,,,,,,900.0
-1687,,,,,,901.0
-1688,,,,,,902.0
-1689,,,,,,903.0
-1690,,,,,,904.0
-1691,,,,,,905.0
-1692,,,,,,906.0
-1693,,,,,,907.0
-1694,,,,,,908.0
-1695,,,,,,909.0
-1696,,,,,,910.0
-1697,,,,,,911.0
-1698,,,,,,912.0
-1699,,,,,,913.0
-1700,,,,,,914.0
-1701,,,,,,915.0
-1702,,,,,,916.0
-1703,,,,,,917.0
-1704,,,,,,918.0
-1705,,,,,,919.0
-1706,,,,,,920.0
+1552,,,,,,712.0
+1553,,,,,,713.0
+1554,,,,,,714.0
+1555,,,,,,715.0
+1556,,,,,,716.0
+1557,,,,,,717.0
+1558,,,,,,718.0
+1559,,,,,,719.0
+1560,,,,,,720.0
+1561,,,,,,721.0
+1562,,,,,,722.0
+1563,,,,,,723.0
+1564,,,,,,724.0
+1565,,,,,,725.0
+1566,,,,,,726.0
+1567,,,,,,727.0
+1568,,,,,,728.0
+1569,,,,,,729.0
+1570,,,,,,730.0
+1571,,,,,,731.0
+1572,,,,,,732.0
+1573,,,,,,733.0
+1574,,,,,,734.0
+1575,,,,,,735.0
+1576,,,,,,736.0
+1577,,,,,,737.0
+1578,,,,,,738.0
+1579,,,,,,739.0
+1580,,,,,,740.0
+1581,,,,,,741.0
+1582,,,,,,742.0
+1583,,,,,,743.0
+1584,,,,,,744.0
+1585,,,,,,745.0
+1586,,,,,,746.0
+1587,,,,,,747.0
+1588,,,,,,748.0
+1589,,,,,,749.0
+1590,,,,,,750.0
+1591,,,,,,751.0
+1592,,,,,,752.0
+1593,,,,,,753.0
+1594,,,,,,754.0
+1595,,,,,,755.0
+1596,,,,,,756.0
+1597,,,,,,757.0
+1598,,,,,,758.0
+1599,,,,,,759.0
+1600,,,,,,760.0
+1601,,,,,,761.0
+1602,,,,,,762.0
+1603,,,,,,763.0
+1604,,,,,,764.0
+1605,,,,,,765.0
+1606,,,,,,766.0
+1607,,,,,,767.0
+1608,,,,,,768.0
+1609,,,,,,769.0
+1610,,,,,,770.0
+1611,,,,,,771.0
+1612,,,,,,772.0
+1613,,,,,,773.0
+1614,,,,,,774.0
+1615,,,,,,775.0
+1616,,,,,,776.0
+1617,,,,,,777.0
+1618,,,,,,778.0
+1619,,,,,,779.0
+1620,,,,,,780.0
+1621,,,,,,781.0
+1622,,,,,,782.0
+1623,,,,,,783.0
+1624,,,,,,784.0
+1625,,,,,,785.0
+1626,,,,,,786.0
+1627,,,,,,787.0
+1628,,,,,,788.0
+1629,,,,,,789.0
+1630,,,,,,790.0
+1631,,,,,,791.0
+1632,,,,,,792.0
+1633,,,,,,793.0
+1634,,,,,,794.0
+1635,,,,,,795.0
+1636,,,,,,796.0
+1637,,,,,,797.0
+1638,,,,,,798.0
+1639,,,,,,799.0
+1640,,,,,,800.0
+1641,,,,,,801.0
+1642,,,,,,802.0
+1643,,,,,,803.0
+1644,,,,,,804.0
+1645,,,,,,805.0
+1646,,,,,,806.0
+1647,,,,,,807.0
+1648,,,,,,808.0
+1649,,,,,,809.0
+1650,,,,,,810.0
+1651,,,,,,811.0
+1652,,,,,,812.0
+1653,,,,,,813.0
+1654,,,,,,814.0
+1655,,,,,,815.0
+1656,,,,,,816.0
+1657,,,,,,817.0
+1658,,,,,,818.0
+1659,,,,,,819.0
+1660,,,,,,820.0
+1661,,,,,,821.0
+1662,,,,,,822.0
+1663,,,,,,823.0
+1664,,,,,,824.0
+1665,,,,,,825.0
+1666,,,,,,826.0
+1667,,,,,,827.0
+1668,,,,,,828.0
+1669,,,,,,829.0
+1670,,,,,,830.0
+1671,,,,,,831.0
+1672,,,,,,832.0
+1673,,,,,,833.0
+1674,,,,,,834.0
+1675,,,,,,835.0
+1676,,,,,,836.0
+1677,,,,,,837.0
+1678,,,,,,838.0
+1679,,,,,,839.0
+1680,,,,,,840.0
+1681,,,,,,841.0
+1682,,,,,,842.0
+1683,,,,,,843.0
+1684,,,,,,844.0
+1685,,,,,,845.0
+1686,,,,,,846.0
+1687,,,,,,847.0
+1688,,,,,,848.0
+1689,,,,,,849.0
+1690,,,,,,850.0
+1691,,,,,,851.0
+1692,,,,,,852.0
+1693,,,,,,853.0
+1694,,,,,,854.0
+1695,,,,,,855.0
+1696,,,,,,856.0
+1697,,,,,,857.0
+1698,,,,,,858.0
+1699,,,,,,859.0
+1700,,,,,,860.0
+1701,,,,,,861.0
+1702,,,,,,862.0
+1703,,,,,,863.0
+1704,,,,,,864.0
+1705,,,,,,865.0
+1706,,,,,,866.0
+1707,,,,,,867.0
+1708,,,,,,868.0
+1709,,,,,,869.0
+1710,,,,,,870.0
+1711,,,,,,871.0
+1712,,,,,,872.0
+1713,,,,,,873.0
+1714,,,,,,874.0
+1715,,,,,,875.0
+1716,,,,,,876.0
+1717,,,,,,877.0
+1718,,,,,,878.0
+1719,,,,,,879.0
+1720,,,,,,880.0
+1721,,,,,,881.0
+1722,,,,,,882.0
+1723,,,,,,883.0
+1724,,,,,,884.0
+1725,,,,,,885.0
+1726,,,,,,886.0
+1727,,,,,,887.0
+1728,,,,,,888.0
+1729,,,,,,889.0
+1730,,,,,,890.0
+1731,,,,,,891.0
+1732,,,,,,892.0
+1733,,,,,,893.0
+1734,,,,,,894.0
+1735,,,,,,895.0
+1736,,,,,,896.0
+1737,,,,,,897.0
+1738,,,,,,898.0
+1739,,,,,,899.0
+1740,,,,,,900.0
+1741,,,,,,901.0
+1742,,,,,,902.0
+1743,,,,,,903.0
+1744,,,,,,904.0
+1745,,,,,,905.0
+1746,,,,,,906.0
+1747,,,,,,907.0
+1748,,,,,,908.0
+1749,,,,,,909.0
+1750,,,,,,910.0
+1751,,,,,,911.0
+1752,,,,,,912.0
+1753,,,,,,913.0
+1754,,,,,,914.0
+1755,,,,,,915.0
+1756,,,,,,916.0
+1757,,,,,,917.0
+1758,,,,,,918.0
+1759,,,,,,919.0
+1760,,,,,,920.0
