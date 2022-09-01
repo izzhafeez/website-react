@@ -22,6 +22,11 @@ This script aims to process the notes data obtained from Google Sheets.
 notes = CSV.read("notes.csv", headers: true)
 notes_dict = {}
 
+=begin
+The clean_markdown function parses my markdown as best as it can.
+
+This includes swapping _s_ for 's, __ for (, trailing _ to ) etc. Though it may not accurately captue everything, it is good enough for my purposes. One thing it cannot handle properly though, would be code blocks, as those do not use the > symbol at all.
+=end
 def clean_markdown(text)
   return text
     .sub(/_s_/, "'s ")
@@ -72,6 +77,7 @@ notes.reverse_each do |row|
     end
   end
 
+  # Initializes a note, before all the children pointers start coming in.
   note_dict = {
     "course" => course,
     "parents" => [],
@@ -84,6 +90,7 @@ notes.reverse_each do |row|
   notes_dict[topic] = note_dict
 end
 
+# This block of code maps notes to their parent topics, which is triggered when the parent points at them.
 notes_dict.each do |key, value|
   value["contents"].each do |section, content|
     sublinks = content["sublinks"]
@@ -98,6 +105,7 @@ notes_dict.each do |key, value|
   end
 end
 
+# Sorts the dictionary based on the number of subtopics and subtypes a particular note has.
 sorted_dict = {}
 notes_dict.sort_by{|_key, value| -value["children"]}.each do |value|
   sorted_dict[value[0]] = value[1]

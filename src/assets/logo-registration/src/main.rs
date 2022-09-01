@@ -8,6 +8,17 @@ use std::path::Path;
 //     import_statement: String
 // }
 
+/*
+
+When downloading a new image into this website project, I often have to register this as part of the "logo-controller" in JavaScript code. This is a very tedious process, as I would need to open the file, insert the image at multiple points, and commit-push this new file.
+
+This Rust project streamlines this process, by writing to a JavaScript file, instead of having to do it manually. Essentially, the code scrapes the logo folder, and reads the files within it. Then, using some string parsing, we standardise these strings into their appropriate format.
+
+Finally, we write the JavaScript code line by line, until we get our desired JavaScript code.
+
+I also intended to create a struct for this purpose, which would include the logo's name and import statement. However, I later found this to be unnecessary, and wastes more memory, whereas the import statement purely relies on the name and nothing much else.
+
+*/
 fn main() {
     let logo_paths = fs::read_dir("../logo/").unwrap();
     let logo_count = logo_paths.size_hint().0;
