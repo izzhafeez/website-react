@@ -1,6 +1,24 @@
 require 'csv'
 require 'json'
 
+=begin
+This script aims to process the notes data obtained from Google Sheets.
+
+1. Firstly, after the Python script has been run, this Ruby script reads the csv file.
+
+2. Next, starting from the most recent notes, we loop through the different cells in the csv.
+
+3. For each loop, we examine the description box, as this is where most of the content lies.
+
+4. For each section of the description, we assign each point into its own attribute in the notes Object. So for example, points under "Definitions" will be assigned to note.Definitions, and points under "Code" will be assigned to note.Code.
+
+5. If the description box has the "?>" operator, then this signifies that we will be looking at a subtopic or subtype of this note.
+
+6. If that is the case, once the first loop has been completed, we loop through again, and map each topic to its parent topic instead. So for example, the topic "Generics" may have a subtopic "Generic Types". This step is to add the relation that "Generic Types" has a parent topic "Generics".
+
+7. Lastly, we sort the notes in order of how many children they have, which gives a rough understanding of how important the note is.
+=end
+
 notes = CSV.read("notes.csv", headers: true)
 notes_dict = {}
 
