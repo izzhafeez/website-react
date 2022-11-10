@@ -13,7 +13,7 @@ function generateSitemap() {
 return (
     new Sitemap(router)
         .build("https://izzhafeez.com")
-        .save("./public/sitemap.xml")
+        .save("./sitemap.xml")
 );
 }
 
