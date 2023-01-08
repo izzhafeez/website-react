@@ -33,7 +33,7 @@
       "description": [
         [
           "Taught by: Christian Von Der Weth, Adi Yoga Sidi Prabawa , Stéphane Bressan"
-        ]
+        ],
         [
           "The first half of the module teaches about SQL queries and schema, including the ER diagram. It goes from regular select statements, to CTEs, subqueries and views. The midterms was partly a practical test for SQL statements, and partly algebraic manipulation (which is very confusing)."
         ],
@@ -80,7 +80,7 @@
       "description": [
         [
           "Taught by: Colin (REC), Aaron (WEBLEC)"
-        ]
+        ],
         [
           "Out of the CS holy trinity, this module is well-known to have the most content. It starts off with the high levels of abstraction with the C programming language. It taught us basic memory management, and the functionalities of pointers. The lectures then moved onto teaching the MIPS Assembly language, and how to decode/encode it into binary form."
         ],
@@ -108,7 +108,7 @@
         ],
         [
           "At first, the theorems are quite difficult to understand and apply, but they slowly get more intuitive as the same proofs are used in different contexts. It becomes quite elegant eventually."
-        ]
+        ],
         [
           "I got rekt by the bell curve, getting my first ever non-A for math in my life. But yeah, kind of expected, seeing as though the midterms and finals were both brutally easy and careless-prone."
         ]
@@ -166,7 +166,7 @@
       "description": [
         [
           "Taught by: Seth Gilbert"
-        ]
+        ],
         [
           "This module introduces us to the world of algorithms and problem-solving, and is super useful for coding interviews. From arrays, to trees, to graphs and more, this module has definitely helped me develop my projects. Among the data structures taught in the module, I found the AVL Tree, Priority Queue and the KD Tree to be the most useful to me, having used them to develop my ",
           ["link", "../works/projects/geospatial-management", "Geospatial Management Tool"],
@@ -281,7 +281,7 @@
       "description": [
         [
           "Taught by: Aaron"
-        ]
+        ],
         [
           "This module is math-intensive and usually is the first hurdle for CS students in the world of math. Like most other students, I found the middle sections to be the hardest, covering topics like Equivalence Relations and the deadly Cardinality."
         ],
@@ -303,7 +303,7 @@
       "description": [
         [
           "Taught by: Martin Henz"
-        ]
+        ],
         [
           "This module used the Source Academy platform, a derivative of JavaScript that focusses on teaching programming concepts, rather than the language itself. I quite enjoyed the module, due to the highly gamified nature of this platform. I also participated in most of the optional competitions and did most of the optional practices as well."
         ]
@@ -322,7 +322,7 @@
       "description": [
         [
           "Taught by: Chan Heng Huat"
-        ]
+        ],
         [
           "This module is mainly a refresher course for calculus so naturally, the bell curve is highly skewed, and any loss of marks could just send you back a grade. I think this module was a little poorly executed, because of the lack of anti-cheat measures. But it really feels like the professor cares about his students, so he really did try his best."
         ],
@@ -344,7 +344,7 @@
       "description": [
         [
           "Taught by: Vincent Tan"
-        ]
+        ],
         [
           "This module teaches about linear spaces and matrices and is a good foundational module for AI modules in CS."
         ],
