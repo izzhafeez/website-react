@@ -185,7 +185,7 @@ void iterateThroughFolder(
 }
 
 int main() {
-  struct Language languages[12];
+  struct Language languages[14];
 
   assignLanguage(&languages[0], "python", ".py", 0);
   assignLanguage(&languages[1], "javascript", ".js", 0);
@@ -199,6 +199,8 @@ int main() {
   assignLanguage(&languages[9], "php", ".php", 0);
   assignLanguage(&languages[10], "python", ".ipynb", 0);
   assignLanguage(&languages[11], "vue", ".vue", 0);
+  assignLanguage(&languages[12], "go", ".go", 0);
+  assignLanguage(&languages[13], "haskell", ".hs", 0);
 
   // struct Stack folders;
   // folders.index = 0;
