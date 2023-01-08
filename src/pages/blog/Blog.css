@@ -16,13 +16,17 @@
 }
 
 .AP {
-  color: var(--cr);
+  color: var(--dt);
 }
 
 .A {
-  color: var(--cc);
+  color: var(--cr);
 }
 
 .AM {
+  color: var(--cc);
+}
+
+.BP {
   color: var(--ns);
 }
