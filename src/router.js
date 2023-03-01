@@ -28,7 +28,7 @@ const router = (
 
     <Route path="merits/experience/:name" element={<ExperienceDesc />} />
 
-    <Route path="merits/:kind" element={<MeritsLanding/>} />
+    <Route path="merits/:kind" element={<MeritsLanding/>} />\
 
     <Route path="merits/awards/:name" element={<MeritsDesc dataPath="awards"/>} />
     <Route path="merits/certificates/:name" element={<MeritsDesc dataPath="certificates"/>} />
