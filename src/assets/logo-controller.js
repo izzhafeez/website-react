@@ -1,5 +1,6 @@
 import asm from './logo/asm.png';
 import uom from './logo/uom.png';
+import experiences from './logo/experiences.png';
 import plus from './logo/plus.png';
 import flask from './logo/flask.png';
 import chinese from './logo/chinese.png';
@@ -99,6 +100,7 @@ import frontend from './logo/frontend.png';
 
 var logos = {asm: asm,
 uom: uom,
+experiences: experiences,
 plus: plus,
 flask: flask,
 chinese: chinese,
