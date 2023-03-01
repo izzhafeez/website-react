@@ -5,11 +5,13 @@ import './Merits.css';
 
 import awardsData from '../../data/awards.json';
 import certificatesData from '../../data/certificates.json';
+import experiencesData from '../../data/experiences.json';
 import languagesData from '../../data/languages.json';
 import skillsData from '../../data/skills.json';
 import toolsData from '../../data/tools.json';
 import logos from '../../assets/logo-controller';
 
+import Experience from '../../components/merits/Experience';
 import Merit from '../../components/merits/Merit';
 
 function MeritsLanding(props) {
@@ -17,6 +19,7 @@ function MeritsLanding(props) {
   const dataDict = {
     awards: awardsData,
     certificates: certificatesData,
+    experiences: experiencesData,
     linkedin: certificatesData,
     hackerrank: certificatesData,
     languages: languagesData,
@@ -32,14 +35,20 @@ function MeritsLanding(props) {
     const merit = data[key];
     merit["key"] = key;
     merit["kind"] = kind;
+    if (kind === "experiences") {
+      return merit.ignore ? null : <Experience merit={merit}/>;
+    }
     return merit.ignore ? null : <Merit merit={merit}/>;
   });
+
+  const className = (kind === "experiences") ? "experience-entries" : "merits-entries";
+
   return (
     <div className="page">
       <img src={logos[kind]} alt={kind} className="icon"></img>
       <br></br>
       <h2>{kind.toUpperCase()}</h2>
-      <div className="merits-entries">{merits}</div>
+      <div className={className}>{merits}</div>
       <Helmet>
         <title>{"My "+kind}</title>
         <meta name="description"
