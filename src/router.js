@@ -3,20 +3,20 @@ import { Route, Routes } from 'react-router';
 
 import Home from './pages/Home';
 
-import MeritsHome from './pages/merits/MeritsHome';
-import MeritsDesc from './pages/merits/MeritsDesc';
-import MeritsLanding from './pages/merits/MeritsLanding';
-import ExperienceDesc from './pages/merits/ExperienceDesc';
+import MeritsHome from 'pages/merits/MeritsHome';
+import MeritsDesc from 'pages/merits/MeritsDesc';
+import MeritsLanding from 'pages/merits/MeritsLanding';
+import ExperienceDesc from 'pages/merits/ExperienceDesc';
 
-import WorksHome from './pages/works/WorksHome';
-import NotesLanding from './pages/works/NotesLanding';
-import NotesDesc from './pages/works/NotesDesc';
-import ProjectsDesc from './pages/works/ProjectsDesc';
-import ProjectsLanding from './pages/works/ProjectsLanding';
+import WorksHome from 'pages/works/WorksHome';
+import NotesLanding from 'pages/works/NotesLanding';
+import NotesDesc from 'pages/works/NotesDesc';
+import ProjectsDesc from 'pages/works/ProjectsDesc';
+import ProjectsLanding from 'pages/works/ProjectsLanding';
 
-import BlogHome from './pages/blog/BlogHome';
-import BlogLanding from './pages/blog/BlogLanding';
-import ModulesDesc from './pages/blog/ModulesDesc';
+import BlogHome from 'pages/blog/BlogHome';
+import BlogLanding from 'pages/blog/BlogLanding';
+import ModulesDesc from 'pages/blog/ModulesDesc';
  
 const router = (
   <Routes>
@@ -48,7 +48,7 @@ const router = (
 
     <Route
       path="full-page"
-     elemen ={
+      element={
         <div>
           <Home></Home>
           <br></br>

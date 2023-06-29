@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["env", {
+      "debug": true,
+      "targets": {
+        "node": "0.12"
+      }
+    }]
+  ]
+}
