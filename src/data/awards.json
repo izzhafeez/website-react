@@ -1,5 +1,21 @@
 {
   "awards": {
+    "dean-list-y2s2": {
+      "title": "Dean's List (NUS School of Computing)",
+      "date": "AY22/23 Sem 2",
+      "link": "https://credentials.nus.edu.sg/8ecf4cd4-3603-465a-baea-7c3bafd5c377",
+      "external": true,
+      "starred": true,
+      "img": "nus",
+      "description": [
+        [
+          "Owing to my efforts during the second semester of my second year in NUS, I received a 5.0 SAP. As a result, I obtained the coveted Dean's List, which is awarded to the top 5-10% of each cohort."
+        ],
+        [
+          ["link", "https://credentials.nus.edu.sg/4d203d39-dd5c-4129-bc4e-7e7255355c32", "CREDENTIAL", true]
+        ]
+      ]
+    },
     "dean-list-y1s2": {
       "title": "Dean's List (NUS School of Computing)",
       "date": "AY21/22 Sem 2",
