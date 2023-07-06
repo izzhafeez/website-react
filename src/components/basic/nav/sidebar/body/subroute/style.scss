@@ -1,0 +1,9 @@
+@import 'assets/colors/mrt.css';
+
+.nav-link.subroute:hover {
+  background-color: var(--jr-v-light);
+}
+
+.nav-link.subroute.active {
+  background-color: var(--jr-light);
+}

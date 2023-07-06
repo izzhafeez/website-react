@@ -1,21 +1,23 @@
-import React from 'react';
-
+import { Sidebar, Topbar } from 'components/basic/nav';
 import './App.css';
-import './index.css';
-import './components/icon/Icon.css';
-import Navbar from './components/Navbar.js';
+import { useMediaQuery } from 'react-responsive';
+import { Col, Row } from 'react-bootstrap';
+import Main from 'containers/Main';
 
-import router from './router';
+const App = () => {
+  const isSmall = useMediaQuery({ maxWidth: 576 });
 
-function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <div className="content-container">
-        <div className="content-section">
-          {router}
-        </div>
-      </div>
+      <Topbar isSmall={isSmall}/>
+      <Row>
+        <Col xs='auto'>
+          <Sidebar isSmall={isSmall}/>
+        </Col>
+        <Col>
+          <Main/>
+        </Col>
+      </Row>
     </div>
   );
 }

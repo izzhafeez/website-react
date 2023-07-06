@@ -1,0 +1,20 @@
+#aside-sidebar {
+  padding-top: 5rem;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.sidebar {
+  background-color: #FFF;
+  width: 250px;
+}
+
+.icon-col {
+  width: 30px;
+}
+
+.nav-link {
+  display: flex;
+  line-height: 1rem;
+  transition: background-color 0.3s ease;
+}

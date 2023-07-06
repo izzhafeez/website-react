@@ -1,0 +1,60 @@
+:root {
+  --cr: #97C616;
+  --sn: #F16D9F;
+
+  --ew: #009645;
+  --ew-background: #e6f5ec;
+  --ew-light: #4db67d;
+  --ew-v-light: #99d5b5;
+  --ew-dark: #006930;
+  --ew-v-dark: #003c1c;
+
+  --dt: #005EC4;
+  --dt-background: #e6eff9;
+  --dt-light: #4d8ed6;
+  --dt-v-light: #99bfe7;
+  --dt-dark: #004289;
+  --dt-v-dark: #00264e;
+
+  --ns: #D42E12;
+  --ns-background: #fbeae7;
+  --ns-light: #e16d59;
+  --ns-v-light: #eeaba0;
+  --ns-dark: #94200d;
+  --ns-v-dark: #551207;
+
+  --cc: #FA9E0D;
+  --cc-background: #fff5e7;
+  --cc-light: #fcbb56;
+  --cc-v-light: #fdd89e;
+  --cc-dark: #af6f09;
+  --cc-v-dark: #643f05;
+
+  --te: #9D5B25;
+  --te-background: #f5efe9;
+  --te-light: #ba8c66;
+  --te-v-light: #d8bda8;
+  --te-dark: #6e401a;
+  --te-v-dark: #3f240f;
+
+  --ne: #9900AA;
+  --ne-background: #f5e6f7;
+  --ne-light: #b84dc4;
+  --ne-v-light: #d699dd;
+  --ne-dark: #6b0077;
+  --ne-v-dark: #3d0044;
+
+  --jr: #0099AA;
+  --jr-background: #e6f5f7;
+  --jr-light: #4db8c4;
+  --jr-v-light: #99d6dd;
+  --jr-dark: #006b77;
+  --jr-v-dark: #003d44;
+
+  --lrt: #748477;
+  --lrt-background: #f1f3f1;
+  --lrt-light: #9EA9A0;
+  --lrt-v-light: #C7CEC9;
+  --lrt-dark: #515C53;
+  --lrt-v-dark: #2E3530;
+}

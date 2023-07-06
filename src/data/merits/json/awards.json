@@ -1,0 +1,29 @@
+{
+  "dean-list-y1s2": {
+    "title": "Dean's List",
+    "imgPath": "nus.png",
+    "importance": 9,
+    "date": "AY21/22 Sem 2",
+    "link": "https://credentials.nus.edu.sg/4d203d39-dd5c-4129-bc4e-7e7255355c32",
+    "description": [
+      {
+        "title": "Description",
+        "text": "Hello there"
+      },
+      {
+        "title": "Award",
+        "text": "Hollo thor"
+      }
+    ]
+  },
+  "dean-list-y2s2": {
+    "title": "Dean's List",
+    "imgPath": "nus.png",
+    "importance": 10,
+    "date": "AY22/23 Sem 2",
+    "link": "https://credentials.nus.edu.sg/8ecf4cd4-3603-465a-baea-7c3bafd5c377",
+    "description": [
+
+    ]
+  }
+}

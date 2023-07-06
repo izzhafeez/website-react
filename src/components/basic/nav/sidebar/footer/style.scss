@@ -1,0 +1,11 @@
+.logo {
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: 0.5;
+  filter: saturate(0) brightness(0);
+}
+
+.logo:hover {
+  opacity: 1;
+  filter: saturate(1) brightness(1);
+}
