@@ -9,13 +9,13 @@ $light: #F5EFE9;
 $dark: #272727;
 
 @import 'node_modules/bootstrap/scss/bootstrap';
-@import url("http://fonts.googleapis.com/css?family=Poppins:400,300,700");
+// @import url("http://fonts.googleapis.com/css?family=Poppins:400,300,700");
 
 body {
   margin: 0;
   background-color: $light;
   line-height: 1;
-  font-family: 'Poppins', 'Raleway', 'Ubuntu', 'Fira Sans';
+  font-family: 'Raleway', 'Ubuntu', 'Fira Sans';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
