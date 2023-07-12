@@ -1,31 +1,32 @@
 import MeritPage from "containers/pages/merits/MeritPage";
 import MeritsHome from "containers/pages/merits/MeritsHome";
-import { blogRoutesData } from "data/blog";
+// import { blogRoutesData } from "data/blog";
 import { meritsRoutesData } from "data/merits";
-import { projectsRoutesData } from "data/projects";
+import { worksRoutesData } from "data/works";
 
 const routesData = [
-  // {
-  //   path: '/',
-  //   label: 'Home',
-  //   imgPath: 'icons/home.svg',
-  //   element: <div></div>,
-  //   subroutes: []
-  // },
+  {
+    path: '/',
+    label: 'Home',
+    imgPath: 'home.svg',
+    element: () => <div></div>,
+    pageElement: () => <div></div>,
+    subroutes: []
+  },
   {
     path: '/merits',
     label: 'Merits',
-    imgPath: 'icons/merits.svg',
-    element: (subpage) => <MeritsHome subpage={subpage}/>,
-    pageElement: (subpage) => <MeritPage subpage={subpage}/>,
+    imgPath: 'merits.svg',
+    element: (type) => <MeritsHome type={type}/>,
+    pageElement: (type) => <MeritPage type={type}/>,
     subroutes: meritsRoutesData
   },
   // {
-  //   path: '/projects',
-  //   label: 'Projects',
-  //   imgPath: 'icons/projects.svg',
+  //   path: '/works',
+  //   label: 'Works',
+  //   imgPath: 'icons/works.svg',
   //   element: <div></div>,
-  //   subroutes: projectsRoutesData
+  //   subroutes: worksRoutesData
   // },
   // {
   //   path: '/blog',

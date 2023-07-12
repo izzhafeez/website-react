@@ -2,14 +2,13 @@
   "jlpt-n3": {
     "title": "JLPT N3 (86/180)",
     "imgPath": "jlpt.png",
-    "issuer": "Japanese Language Proficiency Test",
     "date": "Jul'22",
     "link": "https://www.jlpt-overseas.jp/onlineresults/search.do?id1=2030101&id2=30068&password=80286002&image_bottun.x=77&image_bottun.y=33&image_bottun=send",
     "importance": 5
   },
   "mongo-data-modeling": {
     "title": "M320 Data Modeling",
-    "imgPath": "mongo.png",
+    "imgPath": "mongo.svg",
     "issuer": "Mongo University",
     "date": "Jul'22",
     "link": "https://university.mongodb.com/course_completion/df998645-f68a-4957-931e-1c8f3ffa2ac4",
@@ -25,7 +24,7 @@
   },
   "java-udemy": {
     "title": "Java Certification",
-    "imgPath": "udemy.png",
+    "imgPath": "udemy.svg",
     "issuer": "Udemy",
     "date": "Mar'22",
     "link": "https://www.udemy.com/certificate/UC-ea3408de-bd00-4eba-96bf-3ab78ac4bda8/",
@@ -33,7 +32,7 @@
   },
   "web-developer-udemy": {
     "title": "Web Developer",
-    "imgPath": "udemy.png",
+    "imgPath": "udemy.svg",
     "issuer": "Udemy",
     "date": "Sep'21",
     "link": "https://www.udemy.com/certificate/UC-edbe5bd6-e40e-4227-9449-7d161eade40e/",
@@ -49,7 +48,7 @@
   },
   "deep-learning-tensorflow": {
     "title": "Deep Learning with Tensorflow",
-    "imgPath": "ibm.png",
+    "imgPath": "ibm.svg",
     "issuer": "IBM",
     "date": "Oct'20",
     "link": "https://courses.edx.org/certificates/06e2f6469b7f48eca94f244e3ed0de42",
@@ -70,143 +69,5 @@
     "date": "Jan'17",
     "link": "https://www.coursera.org/account/accomplishments/specialization/B4URY8QXHQRW",
     "importance": 6
-  },
-  "linkedin-python": {
-    "title": "Python",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-r": {
-    "title": "R Programming",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-rails": {
-    "title": "Ruby on Rails",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-django": {
-    "title": "Django",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-gcp": {
-    "title": "Google Cloud Platform (GCP)",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-mongodb": {
-    "title": "MongoDB",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-javascript": {
-    "title": "JavaScript",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-frontend-development": {
-    "title": "Front-End Development",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-arcgis": {
-    "title": "ArcGIS Products",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-css": {
-    "title": "Cascading Style Sheets (CSS)",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-git": {
-    "title": "Git",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-html": {
-    "title": "HTML",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-machine-learning": {
-    "title": "Machine Learning",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-oop": {
-    "title": "Object-Oriented Programming (OOP)",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "linkedin-node": {
-    "title": "Node.js",
-    "imgPath": "linkedin.png",
-    "issuer": "LinkedIn",
-    "link": "https://www.linkedin.com/in/izzhafeez/details/skills/"
-  },
-  "hackerrank-csharp": {
-    "title": "C#",
-    "imgPath": "hackerrank.png",
-    "issuer": "HackerRank",
-    "link": "https://www.hackerrank.com/certificates/9d2cfbc9fea1"
-  },
-  "hackerrank-css": {
-    "title": "CSS",
-    "imgPath": "hackerrank.png",
-    "issuer": "HackerRank",
-    "link": "https://www.hackerrank.com/certificates/43b961488519"
-  },
-  "hackerrank-java": {
-    "title": "Java (Basic)",
-    "imgPath": "hackerrank.png",
-    "issuer": "HackerRank",
-    "link": "https://www.hackerrank.com/certificates/bc6460bf1f81"
-  },
-  "hackerrank-javascript": {
-    "title": "JavaScript (Basic)",
-    "imgPath": "hackerrank.png",
-    "issuer": "HackerRank",
-    "link": "https://www.hackerrank.com/certificates/7473bb4d97e4"
-  },
-  "hackerrank-problem-solving": {
-    "title": "Problem Solving (Intermediate)",
-    "imgPath": "hackerrank.png",
-    "issuer": "HackerRank",
-    "link": "https://www.hackerrank.com/certificates/4e8324cab486"
-  },
-  "hackerrank-python": {
-    "title": "Python (Basic)",
-    "imgPath": "hackerrank.png",
-    "issuer": "HackerRank",
-    "link": "https://www.hackerrank.com/certificates/3be5a03a9e0e"
-  },
-  "hackerrank-r": {
-    "title": "R (Basic)",
-    "imgPath": "hackerrank.png",
-    "issuer": "HackerRank",
-    "link": "https://www.hackerrank.com/certificates/d54e36418ed1"
-  },
-  "hackerrank-sql": {
-    "title": "SQL (Advanced)",
-    "imgPath": "hackerrank.png",
-    "issuer": "HackerRank",
-    "link": "https://www.hackerrank.com/certificates/42e443810674"
   }
 }

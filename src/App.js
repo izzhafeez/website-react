@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <Topbar isSmall={isSmall}/>
-      <Row>
+      <Row className='g-0'>
         <Col xs='auto'>
           <Sidebar isSmall={isSmall}/>
         </Col>

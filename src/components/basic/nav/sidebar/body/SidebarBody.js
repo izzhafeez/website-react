@@ -9,7 +9,7 @@ const SidebarBody = () => {
       {routesData.map(route => (
         <Row key={route.label}>
           <RouteWithIcon
-            imgPath={route.imgPath}
+            imgPath={`png/${route.imgPath}`}
             path={route.path}
             label={route.label}
           />

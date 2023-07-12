@@ -4,7 +4,7 @@ import SidebarHeader from "./header/SidebarHeader";
 
 const OffcanvasSidebar = () => (
   <aside
-    id='offcanvas-sidebar'
+    id='offcanvasSidebar'
     className='sidebar offcanvas offcanvas-start shadow-lg p-2'
     data-bs-scroll='true'
     data-bs-backdrop='false'

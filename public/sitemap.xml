@@ -14,7 +14,7 @@
 <url> <loc>https://izzhafeez.com/merits/skills/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/merits/tools/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/blog/:kind</loc> </url>
-<url> <loc>https://izzhafeez.com/blog/modules/:name</loc> </url>
+<url> <loc>https://izzhafeez.com/blog/courses/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/works/notes/:module/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/works/notes/search/:searchTerm</loc> </url>
 <url> <loc>https://izzhafeez.com/works/notes/search</loc> </url>

@@ -1,45 +1,43 @@
 const meritsRoutesData = [
   {
+    type: 'all',
+    path: '/all',
+    label: 'All'
+  },
+  {
     type: 'experiences',
     path: '/experiences',
-    label: 'Experience',
-    imgPath: 'experience.png'
+    label: 'Experience'
   },
   {
     type: 'awards',
     path: '/awards',
-    label: 'Awards',
-    imgPath: 'award.png'
+    label: 'Awards'
   },
   {
     type: 'certificates',
     path: '/certificates',
-    label: 'Certificates',
-    imgPath: 'certificate.png'
-  },
-  {
-    type: 'languages',
-    path: '/languages',
-    label: 'Languages',
-    imgPath: 'language.png'
-  },
-  {
-    type: 'technologies',
-    path: '/technologies',
-    label: 'Technologies',
-    imgPath: 'technology.png'
-  },
-  {
-    type: 'skills',
-    path: '/skills',
-    label: 'Skills',
-    imgPath: 'skill.png'
+    label: 'Certificates'
   },
   {
     type: 'modules',
     path: '/modules',
-    label: 'Modules',
-    imgPath: 'module.png'
+    label: 'Modules'
+  },
+  {
+    type: 'languages',
+    path: '/languages',
+    label: 'Languages'
+  },
+  {
+    type: 'technologies',
+    path: '/technologies',
+    label: 'Technologies'
+  },
+  {
+    type: 'skills',
+    path: '/skills',
+    label: 'Skills'
   },
 ];
 

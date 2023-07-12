@@ -1,19 +1,30 @@
+import { parseLinkSection, parseParagraphSection, parseProficiency } from "./SectionParser";
+
 class Description {
   constructor(description) {
     this.description = description;
   };
 
   getParsed() {
-    this.description.map(descriptionSection => {
-      const title = descriptionSection.title;
-      const text = descriptionSection.title;
-      const paragraphs = text.split('\n');
+    if (this.description === undefined) {
+      return <></>;
+    }
 
-      return <section>
-        <h5>{title}</h5>
-        {paragraphs.map(paragraph => <p>{paragraph}</p>)}
-      </section>
-    })
+    return this.description.map(this.parseSection);
+  };
+
+  parseSection(descriptionSection) {
+    const title = descriptionSection.title;
+    const text = descriptionSection.text;
+
+    switch (title) {
+      case 'link':
+        return parseLinkSection(text);
+      case 'proficiency':
+        return parseProficiency(text);
+      default:
+        return parseParagraphSection(title, text);
+    }
   };
 };
 

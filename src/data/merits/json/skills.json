@@ -1,3 +1,291 @@
 {
-  
+  "api-development": {
+    "title": "API Dev",
+    "imgPath": "api-development.svg",
+    "importance": 7,
+    "date": 2019,
+    "proficiency": 8,
+    "description": [
+      {
+        "title": "description",
+        "text": "API development refers to the process of creating and implementing Application Programming Interfaces (APIs) that enable communication and data exchange between different software systems, allowing developers to expose functionalities, share data, and integrate applications in a standardised and efficient manner."
+      },
+      {
+        "title": "background",
+        "text": ""
+      }
+    ]
+  },
+  "data-cleaning": {
+    "title": "Data Cleaning",
+    "imgPath": "data-cleaning.svg",
+    "importance": 6,
+    "date": 2019,
+    "proficiency": 9,
+    "description": [
+      {
+        "title": "description",
+        "text": "Data cleaning, also known as data cleansing or data scrubbing, refers to the process of identifying and correcting or removing errors, inconsistencies, and inaccuracies in datasets, ensuring data quality and reliability for analysis, decision-making, and other data-driven processes."
+      },
+      {
+        "title": "background",
+        "text": "The data cleaning process involves fixing the incorrect, incomplete, duplicate or otherwise erroneous data in a dataset. With the help of inbuilt Python libraries like datetime and regex, as well as some of my own packages, I built comprehensive pipelines for processing complex data into usable formats. This included a lot of free-written text, so quite a bit of regex matching was needed to get the job done.\nI also developed several reusable scripts and libraries that facilitate future cleaning of datasets."
+      }
+    ]
+  },
+  "data-management": {
+    "title": "Data Management",
+    "imgPath": "data-management.svg",
+    "importance": 5,
+    "date": 2021,
+    "proficiency": 4,
+    "description": [
+      {
+        "title": "description",
+        "text": "Data Management refers to the process of organizing, storing, protecting, and analysing data throughout its lifecycle, ensuring its availability, accuracy, and usability to support business operations, decision-making, and compliance with regulatory requirements."
+      },
+      {
+        "title": "background",
+        "text": "During my time in <<../merits/experiences/data-management>>Enterprise Information Management</>, I was tasked with developing a Sharepoint portal to promote good data management practices within the organisation. As such, not only do I have to internalise the information, but I also have to phrase it in a way that others can easily understand."
+      }
+    ]
+  },
+  "data-mining": {
+    "title": "Data Mining",
+    "imgPath": "data-mining.svg",
+    "importance": 7,
+    "date": 2019,
+    "proficiency": 8,
+    "description": [
+      {
+        "title": "description",
+        "text": "Data mining is the process of extracting valuable insights, patterns, and knowledge from large volumes of data, using various statistical and machine learning techniques, to discover hidden patterns, relationships, and trends that can be used for making informed business decisions and predictions."
+      },
+      {
+        "title": "background",
+        "text": "Data Mining perfectly describes my role in <<../merits/experiences/data-analytics>>NS</>, where I was often tasked to extract data to predict and describe outcomes using machine learning processes. This mainly came in the form of the optimisation model that I operated, but I also applied this to my juniors' work, supervising them in the development of data science models for the Logistics Department."
+      }
+    ]
+  },
+  "data-modeling": {
+    "title": "Data Modeling",
+    "imgPath": "data-modeling.svg",
+    "importance": 5,
+    "date": 2021,
+    "proficiency": 6,
+    "description": [
+      {
+        "title": "description",
+        "text": "Data modeling is the process of creating a conceptual representation of data entities, relationships, and attributes, allowing for the design and organisation of data structures that accurately represent real-world scenarios and support efficient data management and analysis."
+      },
+      {
+        "title": "background",
+        "text": "Data Modeling was part of my duties in <<../merits/experiences/data-management>>Enterprise Information Management</>, where I used ER Studio to create data models.\nAfterwards, I took several courses on Data Modeling, including the one by Mongo University, which helped to deepen my understanding of how to design databases.\nFinally, I took the <<../merits/modules/cs2102>>CS2102 Database Systems</> module, where I learnt how to normalise and design databases to optimise for queries."
+      }
+    ]
+  },
+  "data-science": {
+    "title": "Data Science",
+    "imgPath": "data-science.svg",
+    "importance": 8,
+    "date": 2019,
+    "proficiency": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "Data Science is an interdisciplinary field that combines scientific methods, algorithms, and tools to extract insights and knowledge from structured and unstructured data, using techniques such as data analysis, machine learning, and statistical modeling, to solve complex problems, make predictions, and drive data-informed decision-making."
+      },
+      {
+        "title": "background",
+        "text": "My data science journey started when I entered my <<../merits/experiences/data-analytics>>National Service</>, where I was tasked with simple data-cleaning tasks. However, the complexity of my work rapidly increased when I was exposed to the DRO project, which was an analytics model used to optimise the placement of ambulances in Singapore. I operates and closely maintained the model, resolving issues on my own as much as possible. From there, I had to answer analytics queries from various departments using the findings from the model, either by using <<../merits/skills/data-visualisation>>Data Visualisation</> software or simple report files.\nBesides work, however, my interests in Geography and Music took control. For geography, I made many packages and projects to assist in the data science process, which eventually led me to creating my <<../works/puzzles/mrt-puzzle>>MRT Puzzle</>, whose solutions were visualised on Jupyter Notebook.\nOn the other hand, thanks to my knowledge on Deep Learning from my IBM course, I also developed RNN models to predict music chords, although they don't work very well."
+      }
+    ]
+  },
+  "data-structures": {
+    "title": "Data Structures",
+    "imgPath": "data-structures.svg",
+    "importance": 5,
+    "date": 2017,
+    "proficiency": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "Data structures refer to the way data is organized, stored, and managed in computer memory, providing efficient and optimised ways to access, manipulate, and store data, enabling effective data management and algorithmic problem-solving in various software applications."
+      },
+      {
+        "title": "background",
+        "text": "While I did have some prior experience in Linked Lists and Binary Search Trees, I did learn quite a lot of new data structures during my <<../merits/modules/cs2040s>>CS2040S Data Structures and Algorithms</> and <<../merits/modules/cs3230>>CS3230 Design and Analysis of Algorithms</> modules. Among them, I used the KDTree, AVLTree and Graph Structures to design my <<../works/projects/geospatial-management>>Geospatial Management Framework</>."
+      }
+    ]
+  },
+  "data-visualisation": {
+    "title": "Data Visualisation",
+    "imgPath": "data-visualisation.svg",
+    "importance": 7,
+    "date": 2019,
+    "proficiency": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "Data visualisation is the process of presenting data in a visual format, such as charts, graphs, and maps, to facilitate understanding, exploration, and communication of patterns, trends, and insights hidden within the data."
+      },
+      {
+        "title": "background",
+        "text": "There isn't any particular personal project that I fully applied data visualisation on.  However, I do have quite a bit of professional experience in this, with visualisation software such as <<../merits/technologies/tableau>>Tableau</>, <<../merits/technologies/power-bi>>PowerBI</>, <<../merits/technologies/qgis>>QGIS</> and Seaborn.\nDuring my time in the <<../merits/experiences/data-management>>Ministry of Manpower</> as well as <<../merits/technologies/data-analytics>>SCDF</>, I've done many ad-hoc dashboards (that I don't think I'm allowed to go into detail).\nI also participated in the Data Analytics Competition organized by the NUS Statistics and Data Science Society, where teams had to visualise Grab taxi data."
+      }
+    ]
+  },
+  "documentation": {
+    "title": "Code Docs",
+    "imgPath": "documentation.svg",
+    "importance": 5,
+    "date": 2020,
+    "proficiency": 5,
+    "description": [
+      {
+        "title": "description",
+        "text": "Code documentation is the practice of creating descriptive and explanatory information about software code, including comments, annotations, and supplementary documents, to facilitate understanding, maintainability, and collaboration among developers, aiding in code comprehension, usage, and future updates or modifications."
+      },
+      {
+        "title": "background",
+        "text": "Apart from work, I'd say I've documented quite a lot during my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module. <<https://ay2223s2-cs2103t-w14-2.github.io/tp/DeveloperGuide.html>>Here is the documentation that my team did.</> In total, I contributed over 2,600 lines of code for documentation alone, so I think I'm familiar enough with documentation."
+      }
+    ]
+  },
+  "frontend": {
+    "title": "Frontend Dev",
+    "imgPath": "frontend.svg",
+    "importance": 8,
+    "date": 2019,
+    "proficiency": 8,
+    "description": [
+      {
+        "title": "description",
+        "text": "Frontend development involves creating the user interface and user experience of a website or application, utilising HTML, CSS, and JavaScript to design and implement the visual and interactive components that users interact with directly."
+      },
+      {
+        "title": "background",
+        "text": "I've done a lot of personal websites over the years. This is version 6 of my personal website, based entirely in <<../merits/technologies/react-js>>React</>. But before this, I have practiced quite a bit of UI/UX skills, incorporating design elements inspired by different sites out there.\nAs for personal projects, I've used many frameworks over the years. For example, I've used <<../merits/technologies/vue-js>>Vue</> to develop the <<../works/projects/note-together>>NoteTogther</> project, and I've used <<../merits/technologies/angular-js>>Angular</> and <<../merits/technologies/svelte-js>>Svelte</> for other projects as well. Then there's also <<../merits/technologies/bootstrap>>Bootstrap</>, which I heavily use to style the frontend.\nBesides that, for my internship, I created a web application using React that showcased the company's geospatial API, so I got to apply my frontend knowledge to a proper application. Also, I've designed an organisation-wide data governance portal during my time in the <<../merits/experiences/data-management>>Ministry of Manpower</>, which aimed at enforcing sound data management principles. During my time in <<../merits/experiences/data-analytics>>National Service</>, I also assisted in the development of the department website."
+      }
+    ]
+  },
+  "game-development": {
+    "title": "Game Dev",
+    "imgPath": "game.svg",
+    "importance": 3,
+    "date": 2020,
+    "proficiency": 3,
+    "description": [
+      {
+        "title": "description",
+        "text": "Game development encompasses the creation, design, and programming of interactive games, involving various disciplines such as graphics rendering, physics simulation, artificial intelligence, audio engineering, and user interface design to create immersive and entertaining gaming experiences."
+      },
+      {
+        "title": "background",
+        "text": "Besides following a couple of game development tutorials on YouTube, I don't think I've created anything substantial on my own. Probably my only proper experience comes when attending club sessions of the Games Development Group, where we worked on games together (though I don't think I did much)."
+      }
+    ]
+  },
+  "geospatial-analytics": {
+    "title": "Geospatial Analytics",
+    "imgPath": "geospatial.svg",
+    "importance": 10,
+    "date": 2019,
+    "proficiency": 10,
+    "description": [
+      {
+        "title": "description",
+        "text": "Geospatial analytics refers to the process of analysing and interpreting data that has a geographic or spatial component, allowing for the extraction of valuable insights, patterns, and relationships within spatially referenced data, enabling applications in fields such as urban planning, environmental monitoring, logistics, and location-based services."
+      },
+      {
+        "title": "background",
+        "text": "Due to my deep interest in geography, Geospatial Analytics is what I spend most of my coding time on. Be it malls, schools, buses, roads, MRT or others, a lot of my projects involve Singapore's urban geography in one way or another.\nA typical project would first include the data extraction process, which means either performing <<../merits/skills/web-scraping>>Web Scraping</> or calling data from API. Next, using my <<../works/projects/geospatial-management>>Geospatial Management Framework</>, I process this data and perform <<../merits/skills/data-cleaning>>Data Cleaning</>.\nI'd say Geospatial Analytics best describes my work during my <<../merits/experience/data-analytics>>National Service</>. Be it predicting and optimising ambulance response times, to finding trends in fire alarm data, this skill was intensely practiced during my time there.\nBut I think I'm most proud of my <<../works/projects/malls-card-game>>Malls Card Game</>, which really was the culmination of all the geospatial skills I've picked up till then."
+      }
+    ]
+  },
+  "operational-analysis": {
+    "title": "Operational Analysis",
+    "imgPath": "operational-analysis.svg",
+    "importance": 8,
+    "date": 2019,
+    "proficiency": 8,
+    "description": [
+      {
+        "title": "description",
+        "text": "Operational Analysis involves the systematic evaluation and optimisation of business operations, processes, and systems to identify inefficiencies, improve productivity, enhance performance, and streamline workflows, resulting in more effective and efficient operations and ultimately driving better business outcomes."
+      },
+      {
+        "title": "background",
+        "text": "Similarly to <<../merits/skills/data-mining>>Data Mining</>, I was heavily involved in Operational Analysis during my time in <<../merits/experiences/data-analytics>>National Service</>. This included the visualisations I've done using <<../merits/technologies/qgis>>QGIS</>, <<../merits/technologies/tableau>>Tableau</> and <<../merits/languages/python>>Python</>. Mainly, senior officers from other departments would approach my supervisor for assistance (since we are the analytics branch). Then, my supervisor would explain to me the situation the department is in, and what needs to be accomplished through the data. Then, I would proceed with the analysis, finding as many useful trends as I can, before presenting the findings."
+      }
+    ]
+  },
+  "problem-solving": {
+    "title": "Problem Solving",
+    "imgPath": "problem-solving.svg",
+    "importance": 6,
+    "date": 2017,
+    "proficiency": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "Problem-solving is the process of identifying, analysing, and resolving challenges or issues by employing critical thinking, logical reasoning, creativity, and decision-making skills, aiming to find effective solutions and overcome obstacles in various domains and contexts."
+      },
+      {
+        "title": "background",
+        "text": "There's no particular instance that comes to mind when talking about problem solving skills. Rather, I think it is just the way people approach problems that matters. I don't think I'm close to the best at solving such problems, but I think I'm ok."
+      }
+    ]
+  },
+  "testing": {
+    "title": "Software Testing",
+    "imgPath": "testing.svg",
+    "importance": 6,
+    "date": 2019,
+    "proficiency": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "Software testing is the process of evaluating a software system or application to ensure that it meets specified requirements, functions correctly, and performs as expected, using various techniques and tools to detect defects, verify functionality, and validate the quality and reliability of the software."
+      },
+      {
+        "title": "background",
+        "text": "Software Testing is done to validate and verify the behaviour of software; I applied it in three distinct instances. The most important of them would be the <<../works/projects/note-together>>NoteTogether</> project, where I did most of the background testing. Other instances would be this website, where I tested whether each subsite works properly (including the notes page).\n1. **Unit Testing**: I used the Postman API to test the API endpoints of NoteTogether, where variables such as verification token and note IDs are stored as environment variables. I set up over 50 unit test cases, which test different aspects of each API (error handling etc.)\n2. **Integration Testing**: I used Postman Flows to test the integration of different API endpoints of NoteTogether, creating complex networks of logic flow to simulate an actual interaction.\n3. **System Testing**: For more thorough testing of NoteTogether's backend design, I used Python to send requests to the server, and verify that all the data is updated accordingly.\n4. **Regression Testing**: For NoteTogether, the regression testing was done using GitHub Actions, using Python to run some scripts that test the behaviour of the app.\n5. **Continuous Integration / Continuous Deployment**: For NoteTogether, most of the CI/CD was done by my partner so my main experience in this area would be in the deployment of this personal site, where the build command is run in GitHub Actions.\n6. **Frontend Testing**: I like web scraping, so for NoteTogether, I was responsible for the frontend testing as well. Using Selenium on Python, I created scripts that mimicked the behaviour of the end user and tested whether the front responded accordingly.\n7. **Load Testing**: Using Python requests again, I tested the behaviour of our application at different loads, and made a regression curve approximating its performance as load increases.\n8. **Stress Testing**: Using Python requests again, I tested the ability of the application to handle high amounts of traffic. In particular, whether a large number of requests coming in would lead to a mismatch in fields."
+      }
+    ]
+  },
+  "web-development": {
+    "title": "Web Dev",
+    "imgPath": "web-development.svg",
+    "importance": 9,
+    "date": 2019,
+    "proficiency": 9,
+    "description": [
+      {
+        "title": "description",
+        "text": "Web development refers to the process of creating and building websites and web applications, involving the design, development, and implementation of web technologies such as HTML, CSS, JavaScript, and backend programming languages, to create interactive and functional websites that can be accessed and used over the internet."
+      },
+      {
+        "title": "background",
+        "text": "I think my commitment towards Web Development is best shown through the many projects I've built over the years. Do check them out, as they are made using different technologies."
+      }
+    ]
+  },
+  "web-scraping": {
+    "title": "Web Scraping",
+    "imgPath": "web-scraping.svg",
+    "importance": 8,
+    "date": 2019,
+    "proficiency": 10,
+    "description": [
+      {
+        "title": "description",
+        "text": "Web scraping is the automated extraction of data from websites, typically using specialised software or scripts, to collect and retrieve information from web pages, enabling tasks such as data aggregation, content extraction, and monitoring, for various purposes such as research, analysis, and data integration."
+      },
+      {
+        "title": "background",
+        "text": "Web scraping is one of my favourite things to do in the world of data science. Exploring different websites, finding patterns within data, and extracting and parsing the relevant information is quite satisfying to me. It gives a much better indication to me whether I did my job properly, as compared to machine learning and AI.\nMy first proper taste of Web Scraping came during my time in National Service, where I had to extract out information pertaining to police stations and police posts, as well as community centres. This involved certain trickeries that were very fun to do.\nAnd while I do have some experience in Selenium, I must say that most of my experience comes from BeautifulSoup and my own creation <<../works/projects/spiderman-scraper>>Spiderman Scraper</>, which is a custom web scraper I've built."
+      }
+    ]
+  }
 }
