@@ -1,0 +1,152 @@
+{
+  "bus-routes-optimiser": {
+    "title": "Bus Route Optimiser (Web)",
+    "imgPath": "qi.png",
+    "importance": 6,
+    "date": "May'23",
+    "overview": "Optimisation model that recommends the optimal routes for buses to pick up passengers"
+  },
+  "chords-search-engine": {
+    "title": "Chords Search Engine",
+    "imgPath": "music.svg",
+    "importance": 6,
+    "date": "Feb'20",
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/chords.py",
+    "overview": "Finds, standardises and analyses the chord progression of any song"
+  },
+  "dynamic-resource-optimiser": {
+    "title": "Dynamic Resource Optimiser",
+    "imgPath": "scdf.png",
+    "importance": 10,
+    "date": "Feb'19",
+    "overview": "Optimisation model that recommends the optimal placement of emergency vehicles"
+  },
+  "edumate": {
+    "title": "EduMate",
+    "imgPath": "nus.png",
+    "importance": 6,
+    "date": "Feb'23",
+    "repo": "https://github.com/AY2223S2-CS2103T-W14-2/tp",
+    "overview": "Desktop app designed for NUS students to manage their contacts"
+  },
+  "geospatial-extraction": {
+    "title": "Geo Extraction Framework",
+    "imgPath": "geospatial.svg",
+    "importance": 6,
+    "date": "May'19",
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/geo.py",
+    "overview": "Web scraping tool for extracting geospatial data"
+  },
+  "geospatial-management": {
+    "title": "Geo Management Framework",
+    "imgPath": "geospatial.svg",
+    "importance": 8,
+    "date": "Feb'22",
+    "repo": "https://github.com/mynameizzhafeez/geo",
+    "overview": "A Python package to process and manage geospatial data in Singapore"
+  },
+  "halal-recommender": {
+    "title": "Halal Recommender",
+    "imgPath": "halal.png",
+    "importance": 5,
+    "date": "Jun'20",
+    "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/geo.js",
+    "overview": "Telegram Bot that recommends halal food based on location and preferences"
+  },
+  "jap-vocab-trainer": {
+    "title": "Japanese Vocab Trainer",
+    "imgPath": "japanese.svg",
+    "importance": 2,
+    "date": "May'22",
+    "repo": "https://github.com/mynameizzhafeez/jap-vocab-trainer",
+    "overview": "Anki-like Rust CLI application for practicing Japanese Kanji"
+  },
+  "malls-of-singapore": {
+    "title": "Malls of Singapore",
+    "imgPath": "malls.jpeg",
+    "importance": 9,
+    "date": "Mar'21",
+    "repo": "https://github.com/mynameizzhafeez/malls",
+    "overview": "A statistics-driven card game based on the shopping malls of Singapore"
+  },
+  "meetup-maker": {
+    "title": "MeetupMaker",
+    "imgPath": "geospatial.svg",
+    "importance": 8,
+    "date": "Jun'22",
+    "repo": "https://github.com/mynameizzhafeez/MeetupMaker",
+    "overview": "A geospatial app that recommends meetup locations based on user positions"
+  },
+  "mrt-paths-analysis": {
+    "title": "MRT Paths Analysis",
+    "imgPath": "mrt.svg",
+    "importance": 3,
+    "date": "Sep'21",
+    "repo": "https://github.com/mynameizzhafeez/MRT-puzzle",
+    "overview": "Analysis of Hamiltonian Paths in Singapore's MRT Network"
+  },
+  "neothesia": {
+    "title": "Neothesia",
+    "imgPath": "music.svg",
+    "importance": 2,
+    "date": "May'23",
+    "repo": "https://github.com/mynameizzhafeez/Neothesia",
+    "overview": "Flashy Synthesia-like software"
+  },
+  "note-together": {
+    "title": "NoteTogether",
+    "imgPath": "notetogether.png",
+    "importance": 8,
+    "date": "Mar'22",
+    "repo": "https://github.com/shotnothing/NoteTogether",
+    "overview": "A note-sharing platform with Reddit and GitHub-like functionalities"
+  },
+  "notes-telegram-bot": {
+    "title": "Notes Telegram Bot",
+    "imgPath": "telegram.svg",
+    "importance": 5,
+    "date": "Jul'21",
+    "repo": "https://github.com/mynameizzhafeez/telegram/blob/main/code.js",
+    "overview": "Telegram Bot that lets users review notes on the go"
+  },
+  "programming-lines-counter": {
+    "title": "Programming Lines Counter",
+    "imgPath": "c.svg",
+    "importance": 1,
+    "date": "Aug'22",
+    "repo": "https://github.com/mynameizzhafeez/website-react/tree/master/src/data/coding-languages",
+    "overview": "For a selection of languages, count the number of lines of code written across multiple files"
+  },
+  "sentence-searcher": {
+    "title": "Sentence Searcher",
+    "imgPath": "languages.svg",
+    "importance": 4,
+    "date": "May'20",
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/language.py",
+    "overview": "Extracts vocabulary and sample sentences for Chinese, Japanese and Korean words"
+  },
+  "spiderman-web-scraper": {
+    "title": "Spiderman Web Scraper",
+    "imgPath": "spiderman.png",
+    "importance": 5,
+    "date": "Jul'19",
+    "repo": "https://github.com/mynameizzhafeez/wilcoxon/blob/main/spiderman.py",
+    "overview": "Enhanced web-scraping tool that simplifies the process by providing shortcuts"
+  },
+  "svg-converter": {
+    "title": "SVG Converter",
+    "imgPath": "geospatial.svg",
+    "importance": 2,
+    "date": "Jun'23",
+    "repo": "https://github.com/mynameizzhafeez/svg-converter",
+    "overview": "Converts GeoJson objects into SVG format"
+  },
+  "website-react": {
+    "title": "Personal React Website",
+    "imgPath": "react.svg",
+    "importance": 8,
+    "date": "Jul'23",
+    "repo": "https://github.com/mynameizzhafeez/website-react",
+    "overview": "Responsive personal website created using the React.js library"
+  }
+}

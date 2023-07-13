@@ -1,5 +1,9 @@
+import ItemFactory from './ItemFactory';
+import './style.scss';
+
 class Items {
-  constructor({ type, data, limit, isHome }) {
+  constructor({ category, type, data, limit, isHome }) {
+    this.category = category;
     this.type = type;
     this.data = data;
     this.limit = limit;
@@ -8,11 +12,19 @@ class Items {
   }
 
   getItems() {
-    return [];
+    const constructor = ItemFactory.getConstructor(this.category)(this.type);
+    let items = ItemFactory.getList(this.data, constructor);
+    const length = items.length;
+    const seeMore = constructor({ key: '', title: 'See More', link: this.getPath() });
+    items = items.slice(0, this.limit);
+    if (length > this.limit) {
+      items.push(seeMore);
+    }
+    return items;
   }
 
   getPath() {
-    return '';
+    return `/${this.category}/${this.type}`;
   };
 
   getLink() {
@@ -26,12 +38,18 @@ class Items {
   }
 
   getReturnButton() {
-    return '';
+    if (this.isHome) {
+      return <></>;
+    }
+
+    return <span>
+      (<a href={`/${this.category}`} className='link-body-emphasis'>GO BACK</a>)
+    </span>;
   }
 
-  getHeader() {
+  getHeader(withReturnButton) {
     return <h3 className='mt-2'>
-      <span>{this.getLink()} {this.getReturnButton()}</span>
+      <span>{this.getLink()} {withReturnButton && this.getReturnButton()}</span>
     </h3>;
   };
 
@@ -47,10 +65,10 @@ class Items {
     return '';
   }
 
-  getPreview(withHeader) {
+  getPreview({ withHeader=true, withReturnButton=true }) {
     return <div className='text-start ps-4' key={this.type}>
       <header className='align-items-center'>
-        {withHeader && this.getHeader()}
+        {withHeader && this.getHeader(withReturnButton)}
       </header>
       <div className='container'>
         <div className={this.getClassNames()}>

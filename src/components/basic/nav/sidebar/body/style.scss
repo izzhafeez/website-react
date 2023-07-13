@@ -1,0 +1,21 @@
+@import 'assets/colors/mrt.css';
+
+.nav-link.merits:hover {
+  background-color: var(--ew-v-light);
+}
+
+.nav-link.merits.active {
+  background-color: var(--ew-light);
+}
+
+.nav-link.projects:hover {
+  background-color: var(--ns-v-light);
+}
+
+.nav-link.projects.active {
+  background-color: var(--ns-light);
+}
+
+.nav-img {
+  height: 1.5rem;
+}

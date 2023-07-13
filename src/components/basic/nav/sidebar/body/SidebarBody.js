@@ -2,6 +2,7 @@ import routesData from 'routes';
 import RouteWithIcon from './route/RouteWithIcon';
 import Subroute from './subroute';
 import { Row } from 'react-bootstrap';
+import './style.scss';
 
 const SidebarBody = () => {
   return (
@@ -11,12 +12,12 @@ const SidebarBody = () => {
           <RouteWithIcon
             imgPath={`png/${route.imgPath}`}
             path={route.path}
-            label={route.label}
+            category={route.category}
           />
           {route.subroutes.map(subroute => (
             <Subroute
-              key={subroute.label}
-              route={route}
+              key={subroute.type}
+              category={route.category}
               subroute={subroute}
             />
           ))}

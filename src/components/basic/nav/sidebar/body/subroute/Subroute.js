@@ -1,18 +1,18 @@
+import { capitalise } from 'common/text';
 import { Col, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import './style.scss';
 
-const Subroute = ({ route, subroute }) => {
+const Subroute = ({ category, subroute }) => {
   return (
     <Row>
       <Col className='col-2'></Col>
       <Col xs='auto'>
         <NavLink
-          to={route.path+subroute.path}
-          className='nav-link px-2 py-1 rounded subroute'
+          to={`${category}/${subroute.type}`}
+          className={'nav-link px-2 py-1 rounded subroute ' + category}
           activeclassname='active'
         >
-          {subroute.label}
+          {capitalise(subroute.type)}
         </NavLink>
       </Col>
     </Row>

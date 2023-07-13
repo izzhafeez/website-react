@@ -1,26 +1,23 @@
-import './style.scss';
 import Items from '../Items';
 
-class Merits extends Items {
+class Projects extends Items {
   constructor(fields) {
     super({
-      category: 'merits',
+      category: 'projects',
       ...fields
     });
   }
 
   getClassNames() {
     switch (this.type) {
-      case 'technologies':
-      case 'languages':
-      case 'skills':
-        return 'row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2'
-      case 'experiences':
+      case 'coding':
         return 'row row-cols-lg-2 row-cols-1 g-2'
+      case 'music':
+        return 'row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2'
       default:
         return 'row row-cols-xl-3 row-cols-lg-2 row-cols-1 g-2'
     }
   }
 }
 
-export default Merits;
+export default Projects;

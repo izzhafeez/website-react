@@ -8,16 +8,32 @@ const Main = () => {
       <div id='routes-container'>
         <Routes>
           {routesData.map(route => 
-            <Route key={route.path} path={route.path} element={route.element()}/>
+            <Route
+              key={route.category}
+              path={route.category}
+              element={route.element()}
+            />
           )}
           {routesData.map(route => 
-            <Route key={route.path+'-all'} path={route.path+'/all'} element={route.element('all')}/>
+            <Route
+              key={route.category+'-all'}
+              path={route.category+'/all'}
+              element={route.element('all')}
+            />
           )}
           {routesData.map(route => route.subroutes.map(subroute =>
-            <Route key={subroute.path} path={route.path+subroute.path} element={route.element(subroute.type)}/>
+            <Route
+              key={`/${subroute.type}`}
+              path={`${route.category}/${subroute.type}`}
+              element={route.element(subroute.type)}
+            />
           ))}
           {routesData.map(route => route.subroutes.map(subroute =>
-            <Route key={subroute.path+'-page'} path={route.path+subroute.path+'/:page'} element={route.pageElement(subroute.type)}/>
+            <Route
+              key={`/${subroute.type}-page`}
+              path={`${route.category}/${subroute.type}`+'/:page'}
+              element={route.pageElement(subroute.type)}
+            />
           ))}
         </Routes>
         <br/><br/>

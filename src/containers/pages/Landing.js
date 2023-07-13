@@ -1,49 +1,54 @@
-import Merits from "components/pages/details/merits/Merits";
 import MacroIcon from 'components/basic/img/MacroIcon';
-import { meritsData, meritsRoutesData } from "data/merits";
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const MeritsHome = ({ type }) => {
+const Landing = ({ category, constructor, data, routesData, type }) => {
+  // category is merits, projects etc.
+  // data is meritsData etc.
+  // routesData is meritsRoutesData etc.
+  // type is languages, skills etc.
   const isHome = type === undefined;
   const isAll = type === 'all';
   const limit = isHome ? 5 : Number.POSITIVE_INFINITY;
   const navigate = useNavigate();
 
-  const possibleTypes = meritsRoutesData
-    .map(data => data.type)
+  const possibleTypes = routesData
+    .map(routeData => routeData.type)
     .filter(type => type !== 'all');
 
   useEffect(() => {
     // check whether the type is valid
     if (!isHome && !isAll && !possibleTypes.includes(type)) {
-      navigate('/merits');
+      navigate(`/${category}`);
     }
   }, []);
 
-  const meritsSections = isHome || isAll
+  const sections = isHome || isAll
     ? possibleTypes
     : [type].filter(page => possibleTypes.includes(page));
 
-  const title = isHome || isAll ? 'merits' : type;
-  const backLink = isHome || isAll ? '/' : '/merits';
+  const title = isHome || isAll ? category : type;
+  const backLink = isHome || isAll ? '/' : `/${category}`;
 
   return <div className='col'>
-    <MacroIcon imgPath={title+'.svg'} key='1'/>
+    <MacroIcon imgPath={title+'.svg'} type={type}/>
     <h2 className='display-6 text-start ps-4'>
       {title.toUpperCase()}&nbsp;
       (<Link to={backLink} className='link-body-emphasis'>GO BACK</Link>)
     </h2>
-    {meritsSections.map(section => {
-      const merits = new Merits({
+    {sections.map(section => {
+      const items = constructor({
         type: section,
-        data: meritsData[section],
+        data: data[section],
         limit: limit,
         isHome: isHome || isAll
       });
-      return merits.getPreview(isHome || isAll);
+      return items.getPreview({
+        withHeader: isHome || isAll,
+        withReturnButton: isHome || isAll
+      });
     })}
   </div>
 };
 
-export default MeritsHome;
+export default Landing;

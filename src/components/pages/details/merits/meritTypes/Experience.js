@@ -20,7 +20,7 @@ class Experience extends Merit {
   };
 
   getPreview() {
-    let classNames = 'container preview-lg border border-info merit row align-items-center';
+    let classNames = 'merits container preview-lg border border-info merit row align-items-center';
     if (this.isStarred()) {
       classNames += ' starred';
     }

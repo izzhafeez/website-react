@@ -4,12 +4,13 @@ import MacroIcon from "components/basic/img/MacroIcon";
 import MicroIcon from "components/basic/img/MicroIcon";
 
 class Item {
-  constructor({ key, title, imgPath, importance, description }) {
+  constructor({ key, title, imgPath, importance, description, related }) {
     this.key = key;
     this.title = title;
     this.imgPath = imgPath;
     this.importance = importance || 0;
     this.description = new Description(description);
+    this.related = related || [];
   };
 
   getImage(isBig) {
@@ -17,9 +18,9 @@ class Item {
       return "";
     }
     if (isBig) {
-      return <MacroIcon imgPath={this.imgPath} key={this.key}/>
+      return <MacroIcon imgPath={this.imgPath} type={this.key}/>
     }
-    return <MicroIcon imgPath={this.imgPath} key={this.key}/>;
+    return <MicroIcon imgPath={this.imgPath} type={this.key}/>;
   }
 
   getTitle() {
@@ -110,7 +111,7 @@ class Item {
   
   getPage(type) {
     // element for the page view for the item.
-    return <article className='container'>
+    return <article className='container p-4'>
       {this.getImage(true)}
       <div className='text-start'>
         {this.getHeader()}

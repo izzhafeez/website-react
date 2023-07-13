@@ -13,7 +13,8 @@
     ],
     "related": [
       {
-        "title": "modules",
+        "category": "merits",
+        "type": "modules",
         "items": [
           "cs2030s",
           "cs2040s",
@@ -39,7 +40,8 @@
     ],
     "related": [
       {
-        "title": "modules",
+        "category": "merits",
+        "type": "modules",
         "items": [
           "cs2103t",
           "cs2109s",
@@ -65,7 +67,8 @@
     ],
     "related": [
       {
-        "title": "modules",
+        "category": "merits",
+        "type": "modules",
         "items": [
           "is1103"
         ]

@@ -1,9 +1,9 @@
 import Item from '../Item';
 import './style.scss';
 
-class Merit extends Item {
+class Project extends Item {
   getClassNames() {
-    let classNames = 'merits container preview border border-info row align-items-center';
+    let classNames = 'projects container preview border border-info row align-items-center';
     if (this.isStarred()) {
       classNames += ' starred';
     }
@@ -11,8 +11,8 @@ class Merit extends Item {
   }
 
   getBackLink(type) {
-    return `/merits/${type}`;
+    return `/projects/${type}`;
   }
-}
+};
 
-export default Merit;
+export default Project;

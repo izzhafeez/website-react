@@ -80,7 +80,7 @@
       },
       {
         "title": "background",
-        "text": "My first experience with Bootstrap was when working on the <<../works/projects/note-together>>NoteTogether</> project, where Bootstrap was heavily used in designing the frontend. In particular, we had to design a Reddit-like main page, so Bootstrap was used to design the previews. Afterwards, I used Bootstrap during my internship, where the <<../merits/technologies/react-js>>React</> frontend was styled using Bootstrap. Extending that, we have this website, which also uses Bootstrap to enhance the React code. I've also tried Tailwind, but that is far less supported and documented than Bootstrap."
+        "text": "My first experience with Bootstrap was when working on the <<../projects/coding/note-together>>NoteTogether</> project, where Bootstrap was heavily used in designing the frontend. In particular, we had to design a Reddit-like main page, so Bootstrap was used to design the previews. Afterwards, I used Bootstrap during my internship, where the <<../merits/technologies/react-js>>React</> frontend was styled using Bootstrap. Extending that, we have this website, which also uses Bootstrap to enhance the React code. I've also tried Tailwind, but that is far less supported and documented than Bootstrap."
       }
     ]
   },
@@ -97,7 +97,7 @@
       },
       {
         "title": "background",
-        "text": "Django is by far my most used backend framework. This is mainly because most of the libraries I have created were written in Python, making it easier to import them into Django applications such as <<../works/projects/meetup-maker>>MeetupMaker</>. It is just much easier to get a simple application running, as compared to the more rigid frameworks found in other languages like Java, Go and Rust. I'm sure that when the application becomes more complex, I will start to see the issues with Django. But for most of my development work, I love it."
+        "text": "Django is by far my most used backend framework. This is mainly because most of the libraries I have created were written in Python, making it easier to import them into Django applications such as <<../projects/coding/meetup-maker>>MeetupMaker</>. It is just much easier to get a simple application running, as compared to the more rigid frameworks found in other languages like Java, Go and Rust. I'm sure that when the application becomes more complex, I will start to see the issues with Django. But for most of my development work, I love it."
       }
     ]
   },
@@ -148,7 +148,7 @@
       },
       {
         "title": "background",
-        "text": "I used Express.js when developing the <<../works/projects/note-together>>NoteTogether</> application. It was a lot of work, but there's nothing much else."
+        "text": "I used Express.js when developing the <<../projects/coding/note-together>>NoteTogether</> application. It was a lot of work, but there's nothing much else."
       }
     ]
   },
@@ -301,7 +301,7 @@
       },
       {
         "title": "background",
-        "text": "I took a couple of free courses on Mongo University (such as Data Modeling) to learn the technology. As for development work, I did most of the database design in the <<../works/projects/note-together>>NoteTogether</> project, which was a MEVN application with complex functionality. I am also quite familiar with Mongoose, as well as working with Mongo Atlas (which is the free online service in Mongo). Overall, it was relatively easy to set up and maintain, which made it suitable as my first deployed database."
+        "text": "I took a couple of free courses on Mongo University (such as Data Modeling) to learn the technology. As for development work, I did most of the database design in the <<../projects/coding/note-together>>NoteTogether</> project, which was a MEVN application with complex functionality. I am also quite familiar with Mongoose, as well as working with Mongo Atlas (which is the free online service in Mongo). Overall, it was relatively easy to set up and maintain, which made it suitable as my first deployed database."
       }
     ]
   },
@@ -335,7 +335,7 @@
       },
       {
         "title": "background",
-        "text": "I only used Node.js when developing the <<../works/projects/note-together>>NoteTogether</> application. It was still a lot of API routing to be done, but it was quite effective."
+        "text": "I only used Node.js when developing the <<../projects/coding/note-together>>NoteTogether</> application. It was still a lot of API routing to be done, but it was quite effective."
       }
     ]
   },
@@ -403,7 +403,7 @@
       },
       {
         "title": "background",
-        "text": "For the <<../works/projects/note-together>>NoteTogether</> project, I comprehensively tested our backend API, performing Unit, Integration and System testing. This testing was good enough for our project to be considered for the highest level of achievement (Artemis).\nDespite its ease of use on small-scale testing, it does slow down a lot as it is a web program. As such, I'd much rather use Python's Request library to run the tests."
+        "text": "For the <<../projects/coding/note-together>>NoteTogether</> project, I comprehensively tested our backend API, performing Unit, Integration and System testing. This testing was good enough for our project to be considered for the highest level of achievement (Artemis).\nDespite its ease of use on small-scale testing, it does slow down a lot as it is a web program. As such, I'd much rather use Python's Request library to run the tests."
       }
     ]
   },
@@ -522,7 +522,7 @@
       },
       {
         "title": "background",
-        "text": "I mainly use Selenium to test out the frontend of my web applications, such as the <<../works/projects/note-together>>NoteTogether</> application. Besides that, I sometimes use Selenium to perform web-scraping, but I mostly just use my <<../works/projects/spiderman>>SpiderMan</> web scraper to do so, as it is much easier for me to use."
+        "text": "I mainly use Selenium to test out the frontend of my web applications, such as the <<../projects/coding/note-together>>NoteTogether</> application. Besides that, I sometimes use Selenium to perform web-scraping, but I mostly just use my <<../projects/coding/spiderman>>SpiderMan</> web scraper to do so, as it is much easier for me to use."
       }
     ]
   },
@@ -692,7 +692,7 @@
       },
       {
         "title": "background",
-        "text": "For <<../works/projects/note-together>>NoteTogether</>, my partner and I decided to use Vue.js as our frontend framework. Despite the great reviews, this turned out to be a difficult experience, as many packages lacked support in Vue; we had to make do with what's available. Despite this, I'm glad our combined frontend skills were sufficient in producing a neat final design."
+        "text": "For <<../projects/coding/note-together>>NoteTogether</>, my partner and I decided to use Vue.js as our frontend framework. Despite the great reviews, this turned out to be a difficult experience, as many packages lacked support in Vue; we had to make do with what's available. Despite this, I'm glad our combined frontend skills were sufficient in producing a neat final design."
       }
     ]
   }

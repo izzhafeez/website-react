@@ -1,0 +1,13 @@
+@import '/src/assets/colors/mrt.css';
+
+.starred:hover {
+  background-color: var(--cc-v-light);
+}
+
+.preview {
+  height: 5rem;
+}
+
+.preview-lg {
+  height: 8rem;
+}
