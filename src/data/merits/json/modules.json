@@ -22,7 +22,16 @@
     "importance": 4,
     "semester": "AY21/22 S1",
     "grade": "A+",
-    "description": []
+    "description": [
+      {
+        "title": "content",
+        "text": "This module is math-intensive and usually is the first hurdle for CS students in the world of math. Like most other students, I found the middle sections to be the hardest, covering topics like Equivalence Relations and the deadly Cardinality.\nThat aside, this module exposes students to quite a lot of topics in discrete math, so it serves as a good foundation for future topics in such fields. In addition, the proving techniques learnt here are super useful in many other later modules, like <<../merits/modules/cs2040s>>CS2040S</> which is usually taken the semester after."
+      },
+      {
+        "title": "tips",
+        "text": "Proofs are the most painful part of this module and the first taste of university-level mathematical rigour. As such, it is very important to read the solutions to the proving questions, and identify patterns to help you remember. Especially for the middle topics, as those are the killer topics for this module. Get your arsenal of proofs ready in your cheatsheet, and you should be fine for most proving questions. Really helped me a lot."
+      }
+    ]
   },
   "ma2001": {
     "title": "MA2001",
@@ -38,6 +47,15 @@
       {
         "title": "tips",
         "text": "The concepts in this module accumulate over time, and if you get lost at one point, then you’ll likely be lost for the rest. Can’t anyhow skip lectures and try to backtrack. But as long as you can keep up, should be all good to go. A flowchart of concepts works very well here, and do maintain key identities such as that for rank and invertible matrices."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "matlab"
+        ]
       }
     ]
   },
@@ -88,6 +106,15 @@
         "title": "tips",
         "text": "The labs were brutal, and the marker will fault you over the smallest mistakes. So even if your code runs perfectly for all the test cases, your solution may not be perfect. So for labs, make sure you handle null cases properly, as they often use this as a trick to catch us.\nIf you're like me and you're struggling with diagrams (like the Stack Heap diagram), then rewrite the instructions in your own terms. Do also cross check against your tutor so that there are no conceptual errors."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      }
     ]
   },
   "cs2040s": {
@@ -104,6 +131,29 @@
       {
         "title": "tips",
         "text": "Many of the optional practices were way too time-consuming to be worth the tiny amount of EXP on Coursemology. One notable one would be the implementation of the AVL Tree in Java. So unless you want to pursue Java all the way, it's just not worth it. It might've been better if they gave us the implementation, and ask us to improve upon it; much less pain and much more rewarding.\nOverall, this module is all about problem-solving, so the best way to do well is to expose yourself to a healthy assortment of programming problems. More importantly, examine the solutions to those problems and convince yourself why they work. Leetcode it if you want, but I think tutorials and consults are good enough.\nIf you want to be extra spicy, then you can code up your own personal projects like what I did. In that way, you can practice concepts from both <<../merits/modules/cs2030s>>CS2030S</> and CS2040S, so it's quite effective."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-structures"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "intellij"
+        ]
       }
     ]
   },
@@ -153,6 +203,15 @@
         "title": "tips",
         "text": "Be good at CTRL-F for the notes that they give. But if it's in-person for future finals, then just try to remember the nitty-gritty of the important concepts. There's not much content anyway."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "excel"
+        ]
+      }
     ]
   },
   "gec1030": {
@@ -199,6 +258,31 @@
         "title": "tips",
         "text": "We didn't get a mentor for our project, which had led to several hiccups when initialising and deploying our project. But we ultimately found it unnecessary as we could eventually solve those issues. So even without a mentor, it is not the end of the world."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "typescript",
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "mongo-db",
+          "node-js",
+          "vue-js",
+          "express-js",
+          "selenium",
+          "postman",
+          "vscode",
+          "heroku"
+        ]
+      }
     ]
   },
   "cs2100": {
@@ -215,6 +299,15 @@
       {
         "title": "tips",
         "text": "Too many topics, and not enough time to revise for all of them. Prepare for the tutorials, as they can help you rectify your understanding of the topics."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "c"
+        ]
       }
     ]
   },
@@ -271,6 +364,15 @@
         "title": "tips",
         "text": "One of the biggest problems with this module is the lack of feedback for our solutions. The feedback for our assignments come very late, and pretty much half the feedback was returned to us after our finals. Your tutor is your best bet for getting guidance.\nBesides that, I'd say to practice analysing the runtime of algorithms using the recursive strategy. After getting used to it, future ones are a piece of cake."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      }
     ]
   },
   "cs2102": {
@@ -287,6 +389,29 @@
       {
         "title": "tips",
         "text": "Get good groupmates for the project section. And also, be sure to practice normalisation as much as possible, to remove any careless mistakes along the way."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "sql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "postgresql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-modeling"
+        ]
       }
     ]
   },
@@ -322,6 +447,33 @@
         "title": "tips",
         "text": "For the team project, team mates are key, as I've heard quite a number of horror stories with groupmates either not contributing at all, or even worse, delete or misappropriate the work of other people. These people are the worst, and it is hard to find out the true nature of these people until it is too late. As such, make it your best effort to **do this module with friends** and people you know well. Doesn't matter if you get an 8AM slot, just do it together. Apes together **strong**."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "junit",
+          "plant-uml",
+          "intellij",
+          "github"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "software-engineering",
+          "software-testing"
+        ]
+      }
     ]
   },
   "cs2109s": {
@@ -339,6 +491,31 @@
         "title": "tips",
         "text": "Learn Python early if you haven't, and maybe some Pytorch if you're new to AI. It is definitely easier to learn than Tensorflow, but it gets quite messy at times.\nAs for the learning aspect, just know that the math is there to appreciate what happens behind the scenes for each of our functions like backpropagation. No worries if you don't get it, but just try to participate a bit in the tutorials, as that's where most of the math is discussed."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "pytorch",
+          "jupyter"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "machine-learning",
+          "data-visualisation"
+        ]
+      }
     ]
   },
   "ma3252": {
@@ -347,7 +524,16 @@
     "importance": 6,
     "semester": "AY22/23 S2",
     "grade": "A",
-    "description": []
+    "description": [
+      {
+        "title": "content",
+        "text": "The module teaches how to solve optimisation problems with linear constraints and objective functions. That is, we are trying to find the best combination of variables such that they satisfy the constraints and give the best cost. Such a problem would be maximising profit for a factory that produces several items at different capacities. We learn the different ways to formulate such problems in a standardised way, so that the same algorithm can be applied to all the problems. This is the Simplex Method.\nWe also learn the Dual Simplex Method, which solves the same problem but approaching it from a different angle.\nWe also went through Sensitivity Analysis, which is how we can predict how the costs and capacities would change relative to each other. In other words, if the production capacity of a certain item is increased, how much would the total cost change?\nThe last topic involves network optimisation, where we can solve graph optimisation problems such as shortest path, maximal flow, minimum cost flow, salesman and minimal spanning tree problems. I found this part interesting because all these very different graph problems can be solved in the same way. It's just that the formulation of the problem can differ slightly."
+      },
+      {
+        "title": "tips",
+        "text": "This module has a lot of computation problems that needs a lot of mental arithmetic. For example, when conducting the Simplex method, we will often have to do arithmetic on several rows at a time (think row reduction), which can generate a lot of errors. So pay attention when doing the algorithms.\nAs for the proving questions, don't be scared off by the excessive notation used. Just be sure to get a nice, VISUAL cheatsheet that tells you what variabes belong where."
+      }
+    ]
   },
   "ma2104": {
     "title": "MA2104",
@@ -355,7 +541,16 @@
     "importance": 4,
     "semester": "AY22/23 S2",
     "grade": "A",
-    "description": []
+    "description": [
+      {
+        "title": "content",
+        "text": "This module teaches the fundamentals of working in higher dimensions. In particular, this module extends calculus concepts into their 2D and 3D equivalents. Think integrals, differentiation, min/max values and continuity. It also introduces vector fields, where we have to analyse the interaction of the field with certain surfaces, using techniques such as Green's Theorem, Stokes' Theorem and Gauss' Theorem."
+      },
+      {
+        "title": "tips",
+        "text": "Lots of drawing is necessary to be able to visualise what's going on (a lot of it is in 3D). So I guess the most impactful way to improve at this module is to learn how to draw such diagrams, learning from the prof, or just watching YouTube videos on the subject. There's a LOT of them."
+      }
+    ]
   },
   "cs2108": {
     "title": "CS2108",
@@ -363,21 +558,53 @@
     "importance": 3,
     "semester": "AY22/23 S2",
     "grade": "A",
-    "description": []
+    "description": [
+      {
+        "title": "content",
+        "text": "The module talks a lot about signal processing, and how to compress data. This is crucial in the real world, because most of the files we work with, and most of the internet uses these concepts very frequently. Starting with Fourier Transform, the module teaches us that higher frequencies are harder to detect, which means we can easily remove them and not lose that much information. We later moved on to sampling, convolution and correlation, which were not explained very well, so I ended up skipping most of the later lectures.\nLater on, we moved on to image processing, which means removing as much detail from images as possible, without destroying too much of the quality. We can do this because the human eye is not very perceptive to small changes in color, giving rise to the JPEG compression algorithm, which was a big topic in this module. There was a whole section for string compression, where we learnt the inner workings of algorithms such as LZW, Run Length Encoding (RLE) and the famous Huffman Coding, which all have their strength and weaknesses.\nFor homework, we were given MatLab assignments, where we had to implement these algorithms from scratch. I think they were okay, but we had to do a lot of Googling to learn MatLab on our own. 6 MatLab worksheets in total.\nThere was also a project, where we had to implement the JPEG compression algorithm in MatLab. However, there was a twist. Normally, the algorithm uses a certain Discrete Cosine Transform (DCT) function to convert the pixel data into frequencies. This led to real numbers for the frequencies, so they can easily be encoded. For the project, however, we had to use the Fast Fourier Transform (FFT), which gives rise to complex frequencies. This made it considerably more difficult to encode and decode the image, as we had to keep track of both the real and imaginary components of the frequencies. In conjunction with MatLab's poor debugging tools, this project was rather difficult."
+      },
+      {
+        "title": "tips",
+        "text": "The finals were nonsense, just the typical questions you'd find on a Physics paper. Lots of signal reading, and lots of simple calculations. Sure, they tested us on string compression algorithms, but the entire paper was kind of weird for a CS paper. Prof said no point studying, so okay.\nBut I guess the advice I could give for the project would be that the Prof cares most about the students' learning. As such, you need to prove to him that you put in the effort. The project doesn't need to be the best quality. So whatever you've tried, put it in a backup file or something. He will read through it and give due credit. At least, that's what I interpret from his words."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "matlab"
+        ]
+      }
+    ]
   },
   "cfg1002": {
     "title": "CFG1002",
     "name": "Career Catalyst",
     "semester": "AY22/23 S2",
     "grade": "CS",
-    "description": []
+    "description": [
+      {
+        "title": "content",
+        "text": "It's a career preparation module, so they give tips for creating resumes and attending interviews, with lots of emphasis on self-reflection. Free mod, so just take for the Module Feedback points."
+      }
+    ]
   },
   "cp3200": {
     "title": "CP3200",
     "name": "Student Internship Programme I",
     "semester": "Y2 Summer Break",
     "grade": "CS",
-    "description": []
+    "description": [],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      }
+    ]
   },
   "cs3216": {
     "title": "CS3216",

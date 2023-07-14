@@ -14,7 +14,7 @@ class Certificate extends Merit {
   };
 
   getLink() {
-    return this.link;
+    return `/merits/certificates/${this.key}`;
   };
 
   getFields() {

@@ -50,6 +50,13 @@
           "ma3252",
           "ma2104"
         ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "edumate"
+        ]
       }
     ]
   },

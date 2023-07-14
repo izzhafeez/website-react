@@ -12,7 +12,60 @@
       },
       {
         "title": "background",
-        "text": ""
+        "text": "Over the years, I've picked up quite a few backend frameworks. With them, I've built quite a number of projects, from geospatial, to music, to languages. Currently, all of them have been taken down from Heroku (due to the discontinuation of the free tier), but I am continuing to develop them for use on my local machine (as I do find them useful to me)."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "javascript",
+          "java",
+          "rust",
+          "go",
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "django",
+          "flask",
+          "node-js",
+          "express-js",
+          "ruby-on-rails",
+          "rocket-rs",
+          "spring"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "meetup-maker",
+          "note-together",
+          "bus-routes-optimiser",
+          "chords-search-engine"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "software-engineering",
+          "web-development",
+          "frontend"
+        ]
       }
     ]
   },
@@ -29,7 +82,51 @@
       },
       {
         "title": "background",
-        "text": "The data cleaning process involves fixing the incorrect, incomplete, duplicate or otherwise erroneous data in a dataset. With the help of inbuilt Python libraries like datetime and regex, as well as some of my own packages, I built comprehensive pipelines for processing complex data into usable formats. This included a lot of free-written text, so quite a bit of regex matching was needed to get the job done.\nI also developed several reusable scripts and libraries that facilitate future cleaning of datasets."
+        "text": "With the help of inbuilt Python libraries like datetime and regex, as well as some of my own packages, I built comprehensive pipelines for processing complex data into usable formats. This included a lot of free-written text, so quite a bit of regex matching was needed to get the job done.\nI also developed several reusable scripts and libraries that facilitate future cleaning of datasets."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r",
+          "sql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "pandas"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-management",
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "malls-of-singapore",
+          "geospatial-extraction",
+          "sentence-searcher"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-scraping",
+          "data-science",
+          "data-mining"
+        ]
       }
     ]
   },
@@ -48,6 +145,36 @@
         "title": "background",
         "text": "During my time in <<../merits/experiences/data-management>>Enterprise Information Management</>, I was tasked with developing a Sharepoint portal to promote good data management practices within the organisation. As such, not only do I have to internalise the information, but I also have to phrase it in a way that others can easily understand."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "sql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "ssms"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science"
+        ]
+      }
     ]
   },
   "data-mining": {
@@ -64,6 +191,37 @@
       {
         "title": "background",
         "text": "Data Mining perfectly describes my role in <<../merits/experiences/data-analytics>>NS</>, where I was often tasked to extract data to predict and describe outcomes using machine learning processes. This mainly came in the form of the optimisation model that I operated, but I also applied this to my juniors' work, supervising them in the development of data science models for the Logistics Department."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "pandas"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "web-scraping"
+        ]
       }
     ]
   },
@@ -82,6 +240,46 @@
         "title": "background",
         "text": "Data Modeling was part of my duties in <<../merits/experiences/data-management>>Enterprise Information Management</>, where I used ER Studio to create data models.\nAfterwards, I took several courses on Data Modeling, including the one by Mongo University, which helped to deepen my understanding of how to design databases.\nFinally, I took the <<../merits/modules/cs2102>>CS2102 Database Systems</> module, where I learnt how to normalise and design databases to optimise for queries."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "mongo-db",
+          "er-studio",
+          "postgresql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "sql",
+          "javascript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2102"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science"
+        ]
+      }
     ]
   },
   "data-science": {
@@ -98,6 +296,60 @@
       {
         "title": "background",
         "text": "My data science journey started when I entered my <<../merits/experiences/data-analytics>>National Service</>, where I was tasked with simple data-cleaning tasks. However, the complexity of my work rapidly increased when I was exposed to the DRO project, which was an analytics model used to optimise the placement of ambulances in Singapore. I operates and closely maintained the model, resolving issues on my own as much as possible. From there, I had to answer analytics queries from various departments using the findings from the model, either by using <<../merits/skills/data-visualisation>>Data Visualisation</> software or simple report files.\nBesides work, however, my interests in Geography and Music took control. For geography, I made many packages and projects to assist in the data science process, which eventually led me to creating my <<../works/puzzles/mrt-puzzle>>MRT Puzzle</>, whose solutions were visualised on Jupyter Notebook.\nOn the other hand, thanks to my knowledge on Deep Learning from my IBM course, I also developed RNN models to predict music chords, although they don't work very well."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "r",
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "tensorflow",
+          "pytorch",
+          "pandas",
+          "power-bi",
+          "tableau",
+          "qgis",
+          "excel"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "malls-of-singapore",
+          "dynamic-resource-optimiser",
+          "mrt-paths-analysis"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2109s",
+          "cs2102"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-visualisation",
+          "geospatial-analytics",
+          "operational-analysis",
+          "data-mining",
+          "data-cleaning",
+          "data-management",
+          "data-modeling",
+          "machine-learning"
+        ]
       }
     ]
   },
@@ -116,6 +368,24 @@
         "title": "background",
         "text": "While I did have some prior experience in Linked Lists and Binary Search Trees, I did learn quite a lot of new data structures during my <<../merits/modules/cs2040s>>CS2040S Data Structures and Algorithms</> and <<../merits/modules/cs3230>>CS3230 Design and Analysis of Algorithms</> modules. Among them, I used the KDTree, AVLTree and Graph Structures to design my <<../projects/coding/geospatial-management>>Geospatial Management Framework</>."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2040s"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "rust",
+          "cpp"
+        ]
+      }
     ]
   },
   "data-visualisation": {
@@ -132,6 +402,34 @@
       {
         "title": "background",
         "text": "There isn't any particular personal project that I fully applied data visualisation on.  However, I do have quite a bit of professional experience in this, with visualisation software such as <<../merits/technologies/tableau>>Tableau</>, <<../merits/technologies/power-bi>>PowerBI</>, <<../merits/technologies/qgis>>QGIS</> and Seaborn.\nDuring my time in the <<../merits/experiences/data-management>>Ministry of Manpower</> as well as <<../merits/technologies/data-analytics>>SCDF</>, I've done many ad-hoc dashboards (that I don't think I'm allowed to go into detail).\nI also participated in the Data Analytics Competition organized by the NUS Statistics and Data Science Society, where teams had to visualise Grab taxi data."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "pandas",
+          "power-bi",
+          "tableau",
+          "qgis",
+          "excel"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science"
+        ]
       }
     ]
   },
@@ -150,6 +448,22 @@
         "title": "background",
         "text": "Apart from work, I'd say I've documented quite a lot during my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module. <<https://ay2223s2-cs2103t-w14-2.github.io/tp/DeveloperGuide.html>>Here is the documentation that my team did.</> In total, I contributed over 2,600 lines of code for documentation alone, so I think I'm familiar enough with documentation."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "plant-uml"
+        ]
+      }
     ]
   },
   "frontend": {
@@ -166,6 +480,44 @@
       {
         "title": "background",
         "text": "I've done a lot of personal websites over the years. This is version 6 of my personal website, based entirely in <<../merits/technologies/react-js>>React</>. But before this, I have practiced quite a bit of UI/UX skills, incorporating design elements inspired by different sites out there.\nAs for personal projects, I've used many frameworks over the years. For example, I've used <<../merits/technologies/vue-js>>Vue</> to develop the <<../projects/coding/note-together>>NoteTogther</> project, and I've used <<../merits/technologies/angular-js>>Angular</> and <<../merits/technologies/svelte-js>>Svelte</> for other projects as well. Then there's also <<../merits/technologies/bootstrap>>Bootstrap</>, which I heavily use to style the frontend.\nBesides that, for my internship, I created a web application using React that showcased the company's geospatial API, so I got to apply my frontend knowledge to a proper application. Also, I've designed an organisation-wide data governance portal during my time in the <<../merits/experiences/data-management>>Ministry of Manpower</>, which aimed at enforcing sound data management principles. During my time in <<../merits/experiences/data-analytics>>National Service</>, I also assisted in the development of the department website."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "angular-js",
+          "react-js",
+          "vue-js",
+          "svelte-js"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "html",
+          "css"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern",
+          "data-analytics",
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "api-development"
+        ]
       }
     ]
   },
@@ -184,6 +536,22 @@
         "title": "background",
         "text": "Besides following a couple of game development tutorials on YouTube, I don't think I've created anything substantial on my own. Probably my only proper experience comes when attending club sessions of the Games Development Group, where we worked on games together (though I don't think I did much)."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "c-sharp"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "unity"
+        ]
+      }
     ]
   },
   "geospatial-analytics": {
@@ -201,6 +569,105 @@
         "title": "background",
         "text": "Due to my deep interest in geography, Geospatial Analytics is what I spend most of my coding time on. Be it malls, schools, buses, roads, MRT or others, a lot of my projects involve Singapore's urban geography in one way or another.\nA typical project would first include the data extraction process, which means either performing <<../merits/skills/web-scraping>>Web Scraping</> or calling data from API. Next, using my <<../projects/coding/geospatial-management>>Geospatial Management Framework</>, I process this data and perform <<../merits/skills/data-cleaning>>Data Cleaning</>.\nI'd say Geospatial Analytics best describes my work during my <<../merits/experience/data-analytics>>National Service</>. Be it predicting and optimising ambulance response times, to finding trends in fire alarm data, this skill was intensely practiced during my time there.\nBut I think I'm most proud of my <<../projects/coding/malls-card-game>>Malls Card Game</>, which really was the culmination of all the geospatial skills I've picked up till then."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "qgis",
+          "pandas",
+          "excel"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "malls-of-singapore",
+          "geospatial-extraction",
+          "geospatial-management",
+          "dynamic-resource-optimiser",
+          "bus-routes-optimiser",
+          "meetup-maker",
+          "halal-recommender",
+          "mrt-paths-analysis"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "operational-analysis",
+          "data-visualisation"
+        ]
+      }
+    ]
+  },
+  "machine-learning": {
+    "title": "Machine Learning",
+    "imgPath": "machine-learning.svg",
+    "importance": 6,
+    "date": 2019,
+    "proficiency": 5,
+    "description": [
+      {
+        "title": "description",
+        "text": "Machine Learning (ML) consists of letting algorithms discover 'patterns', namely recurring patterns, in data sets. This data can be numbers, words, images, statistics etc."
+      },
+      {
+        "title": "background",
+        "text": "Besides the ML course I took in university, I've had a few run ins with Machine Learning during my <<../merits/experiences/data-analytics>>Data Analytics</> role. As part of my duties, I created a couple of models to aid in operational analysis. I'm not sure what I can divulge from my time there, but it roughly revolved around the Ops and Logistics departments."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2109s"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "tensorflow",
+          "pytorch",
+          "pandas"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "data-visualisation"
+        ]
+      }
     ]
   },
   "operational-analysis": {
@@ -217,6 +684,50 @@
       {
         "title": "background",
         "text": "Similarly to <<../merits/skills/data-mining>>Data Mining</>, I was heavily involved in Operational Analysis during my time in <<../merits/experiences/data-analytics>>National Service</>. This included the visualisations I've done using <<../merits/technologies/qgis>>QGIS</>, <<../merits/technologies/tableau>>Tableau</> and <<../merits/languages/python>>Python</>. Mainly, senior officers from other departments would approach my supervisor for assistance (since we are the analytics branch). Then, my supervisor would explain to me the situation the department is in, and what needs to be accomplished through the data. Then, I would proceed with the analysis, finding as many useful trends as I can, before presenting the findings."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "tableau",
+          "qgis",
+          "power-bi",
+          "pandas",
+          "excel"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "dynamic-resource-optimiser"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "geospatial-analytics",
+          "data-visualisation"
+        ]
       }
     ]
   },
@@ -237,7 +748,59 @@
       }
     ]
   },
-  "testing": {
+  "software-engineering": {
+    "title": "Software Engineering",
+    "imgPath": "software-engineering.svg",
+    "importance": 8,
+    "date": 2019,
+    "proficiency": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "Software Engineering is the branch of computer science that deals with the design, development, testing and maintenance of software applications."
+      },
+      {
+        "title": "background",
+        "text": "If we're walking about pure desktop applications, I think my most fruitful contribution was during my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module. The projects were built using Java, and we had to extend an existing application (Address Book 3). Due to my over-zealousness during that semester, I ended up contributing 18,000+ lines of code to the codebase. As such, I think I have enough Software Engineering experience for now, or at least in Java.\nBesides that, I've done some software development on Rust, where I made modifications to the <<../projects/coding/neothesia>>Neothesia</> project, which I adapted to suit my needs."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2103t",
+          "cs3216"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "rust",
+          "java"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "junit",
+          "intellij",
+          "vscode"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "software-testing"
+        ]
+      }
+    ]
+  },
+  "software-testing": {
     "title": "Software Testing",
     "imgPath": "testing.svg",
     "importance": 6,
@@ -251,6 +814,58 @@
       {
         "title": "background",
         "text": "Software Testing is done to validate and verify the behaviour of software; I applied it in three distinct instances. The most important of them would be the <<../projects/coding/note-together>>NoteTogether</> project, where I did most of the background testing. Other instances would be this website, where I tested whether each subsite works properly (including the notes page).\n1. **Unit Testing**: I used the Postman API to test the API endpoints of NoteTogether, where variables such as verification token and note IDs are stored as environment variables. I set up over 50 unit test cases, which test different aspects of each API (error handling etc.)\n2. **Integration Testing**: I used Postman Flows to test the integration of different API endpoints of NoteTogether, creating complex networks of logic flow to simulate an actual interaction.\n3. **System Testing**: For more thorough testing of NoteTogether's backend design, I used Python to send requests to the server, and verify that all the data is updated accordingly.\n4. **Regression Testing**: For NoteTogether, the regression testing was done using GitHub Actions, using Python to run some scripts that test the behaviour of the app.\n5. **Continuous Integration / Continuous Deployment**: For NoteTogether, most of the CI/CD was done by my partner so my main experience in this area would be in the deployment of this personal site, where the build command is run in GitHub Actions.\n6. **Frontend Testing**: I like web scraping, so for NoteTogether, I was responsible for the frontend testing as well. Using Selenium on Python, I created scripts that mimicked the behaviour of the end user and tested whether the front responded accordingly.\n7. **Load Testing**: Using Python requests again, I tested the behaviour of our application at different loads, and made a regression curve approximating its performance as load increases.\n8. **Stress Testing**: Using Python requests again, I tested the ability of the application to handle high amounts of traffic. In particular, whether a large number of requests coming in would lead to a mismatch in fields."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2103t",
+          "cp2106"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "javascript",
+          "java",
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "jest",
+          "junit",
+          "postman",
+          "selenium"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "note-together",
+          "bus-routes-optimiser"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "software-engineering"
+        ]
       }
     ]
   },
@@ -269,6 +884,77 @@
         "title": "background",
         "text": "I think my commitment towards Web Development is best shown through the many projects I've built over the years. Do check them out, as they are made using different technologies."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "frontend",
+          "api-development",
+          "software-testing"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "html",
+          "css",
+          "python",
+          "javascript",
+          "typescript",
+          "java",
+          "rust",
+          "go",
+          "php"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "django",
+          "flask",
+          "vue-js",
+          "react-js",
+          "angular-js",
+          "svelte-js",
+          "mongo-db",
+          "heroku",
+          "bootstrap",
+          "selenium",
+          "node-js",
+          "express-js",
+          "postman",
+          "ruby-on-rails",
+          "postgresql",
+          "rocket-rs",
+          "gcp",
+          "junit",
+          "spring"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern",
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "dynamic-resource-optimiser",
+          "note-together",
+          "website-react",
+          "bus-routes-optimiser",
+          "chords-search-engine",
+          "meetup-maker"
+        ]
+      }
     ]
   },
   "web-scraping": {
@@ -285,6 +971,54 @@
       {
         "title": "background",
         "text": "Web scraping is one of my favourite things to do in the world of data science. Exploring different websites, finding patterns within data, and extracting and parsing the relevant information is quite satisfying to me. It gives a much better indication to me whether I did my job properly, as compared to machine learning and AI.\nMy first proper taste of Web Scraping came during my time in National Service, where I had to extract out information pertaining to police stations and police posts, as well as community centres. This involved certain trickeries that were very fun to do.\nAnd while I do have some experience in Selenium, I must say that most of my experience comes from BeautifulSoup and my own creation <<../projects/coding/spiderman-scraper>>Spiderman Scraper</>, which is a custom web scraper I've built."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "pandas",
+          "selenium",
+          "gcp",
+          "jupyter"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "data-cleaning",
+          "data-mining"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "spiderman-web-scraper",
+          "malls-of-singapore",
+          "geospatial-extraction",
+          "chords-search-engine",
+          "halal-recommender",
+          "sentence-searcher"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
       }
     ]
   }

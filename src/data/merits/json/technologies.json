@@ -14,6 +14,37 @@
         "title": "background",
         "text": "The current Anaconda setup on my laptop can support both R and Python at the same time, and holds some Python libraries that I have built over the years. But other than this convenience, Anaconda is slow to start up, and just causes additional confusion, so I don't use it as much.\nMy previous experience with Anaconda was during my <<../merits/experiences/data-analytics>>NS</>, where Anaconda was often used as the package manager. So I guess, I've debugged enough to be able to resolve simple Anaconda issues."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "jupyter"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2109s"
+        ]
+      }
     ]
   },
   "angular-js": {
@@ -31,6 +62,24 @@
         "title": "background",
         "text": "My least favourite out of the JavaScript frameworks I currently know, I've tried Angular to create the frontend of my card game. However, the size of the Angular application was too large for me to continue developing locally, and so I stopped using it entirely. I now mostly use React, which offers better support for libraries anyway."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "typescript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "frontend"
+        ]
+      }
     ]
   },
   "aws": {
@@ -47,6 +96,22 @@
       {
         "title": "background",
         "text": "I have brief experience with AWS when I took a course on it during my time in <<../merits/experiences/mom>>MOM</>. I've also tried deploying my backend APIs in AWS, but I am hesitant to involve money in my personal projects, for fear of receiving an oversized bill."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development"
+        ]
       }
     ]
   },
@@ -82,6 +147,39 @@
         "title": "background",
         "text": "My first experience with Bootstrap was when working on the <<../projects/coding/note-together>>NoteTogether</> project, where Bootstrap was heavily used in designing the frontend. In particular, we had to design a Reddit-like main page, so Bootstrap was used to design the previews. Afterwards, I used Bootstrap during my internship, where the <<../merits/technologies/react-js>>React</> frontend was styled using Bootstrap. Extending that, we have this website, which also uses Bootstrap to enhance the React code. I've also tried Tailwind, but that is far less supported and documented than Bootstrap."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "css"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "frontend",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "bus-routes-optimiser",
+          "website-react"
+        ]
+      }
     ]
   },
   "django": {
@@ -98,6 +196,30 @@
       {
         "title": "background",
         "text": "Django is by far my most used backend framework. This is mainly because most of the libraries I have created were written in Python, making it easier to import them into Django applications such as <<../projects/coding/meetup-maker>>MeetupMaker</>. It is just much easier to get a simple application running, as compared to the more rigid frameworks found in other languages like Java, Go and Rust. I'm sure that when the application becomes more complex, I will start to see the issues with Django. But for most of my development work, I love it."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "api-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "meetup-maker"
+        ]
       }
     ]
   },
@@ -116,6 +238,22 @@
         "title": "background",
         "text": "During my time in <<../merits/experiences/data-management>>Enterprise Information Management</>, I was tasked with performing simple data modelling using ER Studio. But this was mostly guided, so I don't feel like I learned or accomplished much during that period of time."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-modeling"
+        ]
+      }
     ]
   },
   "excel": {
@@ -132,6 +270,30 @@
       {
         "title": "background",
         "text": "Microsoft Excel is basic knowledge for any job that involves computers. But I think my most impactful experience with Excel comes during my time in <<../merits/experiences/data-analytics>>Data Analytics</>, where I used <<../merits/technologies/pandas>>Pandas</> to preprocess and manipulate data stored within Excel files. Besides that, I am decent at using excel formulas, macros as well as VBA, but I wouldn't say that I'm close to mastering them (since they are better done using proper programming languages). Nevertheless, Excel is ok."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "gea1000"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics",
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-visualisation"
+        ]
       }
     ]
   },
@@ -150,6 +312,29 @@
         "title": "background",
         "text": "I used Express.js when developing the <<../projects/coding/note-together>>NoteTogether</> application. It was a lot of work, but there's nothing much else."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "note-together"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cp2106"
+        ]
+      }
     ]
   },
   "flask": {
@@ -167,6 +352,38 @@
         "title": "background",
         "text": "My first introduction to Flask was during my <<../merits/experiences/data-analytics>>NS</>, where I had to maintain a piece of optimisation software written in Flask. At the same time, I developed a Flask application for searching music chords, serving as the application layer for a Python script that I made previously. I still prefer Django, though, as I am now more familiar with it than with Flask."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "api-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "dynamic-resource-optimiser",
+          "chords-search-engine"
+        ]
+      }
     ]
   },
   "gcp": {
@@ -183,6 +400,44 @@
       {
         "title": "background",
         "text": "All of my active Telegram Bots are written in Google Apps Script and deployed on Google Cloud Platform. Apart from that, I've tried delving into cloud computing, but I'm scared of being overcharged for their services. So I mostly work on local now, ever since Heroku free tier got taken down."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "telegram-bots"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "halal-recommender",
+          "notes-telegram-bot"
+        ]
       }
     ]
   },
@@ -235,6 +490,16 @@
         "title": "background",
         "text": "As for my experience in using IntelliJ, I heavily used it during my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module, where the team is tasked with developing a small Java application. Through my 18,000 lines of contributed code, I can safely say that I have used IntelliJ enough to give myself a median proficiency level.\nBesides Java, I also use IntelliJ for my Rust projects, as it makes the entire development process much easier."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "rust",
+          "java"
+        ]
+      }
     ]
   },
   "jest": {
@@ -251,6 +516,29 @@
       {
         "title": "background",
         "text": "I used Jest for testing the application that I developed during my internship."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "bus-routes-optimiser"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
       }
     ]
   },
@@ -269,6 +557,29 @@
         "title": "background",
         "text": "I mainly used JUnit testing during my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module, where I wrote over 9,000 lines of test code, to achieve close to 100% test coverage. So I think I'm quite comfortable using it by now."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2103t"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "edumate"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      }
     ]
   },
   "jupyter": {
@@ -286,6 +597,31 @@
         "title": "background",
         "text": "I use Jupyter Notebook very extensively throughout my <<../merits/experiences/data-analytics>>NS</> life and beyond. Indeed, before developing in VSCode, I test out my Python scripts in Jupyter to make sure they work, before properly putting all the pieces together in VSCode.\nBesides Python development, I also conduct all of my data science projects and visualisations in Jupyter Notebook. There is simply no other option but to do so. With over 100 notebooks, I can safely say that I am quite familiar with using Jupyter to work on my personal projects."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "data-visualisation"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "mrt-paths-analysis"
+        ]
+      }
     ]
   },
   "mongo-db": {
@@ -302,6 +638,43 @@
       {
         "title": "background",
         "text": "I took a couple of free courses on Mongo University (such as Data Modeling) to learn the technology. As for development work, I did most of the database design in the <<../projects/coding/note-together>>NoteTogether</> project, which was a MEVN application with complex functionality. I am also quite familiar with Mongoose, as well as working with Mongo Atlas (which is the free online service in Mongo). Overall, it was relatively easy to set up and maintain, which made it suitable as my first deployed database."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cp2106"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "note-together"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-modeling"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+          "mongo-data-modeling"
+        ]
       }
     ]
   },
@@ -337,6 +710,37 @@
         "title": "background",
         "text": "I only used Node.js when developing the <<../projects/coding/note-together>>NoteTogether</> application. It was still a lot of API routing to be done, but it was quite effective."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "api-development"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cp2106"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "note-together"
+        ]
+      }
     ]
   },
   "pandas": {
@@ -353,6 +757,49 @@
       {
         "title": "background",
         "text": "Pandas is by far my most used programming tool. It started during my <<../merits/experiences/data-analytics>>NS</> in 2019, where I learned to work with csv and excel files properly. At the time, I used Pandas for all sorts of tasks. I mainly used it for <<../merits/skills/operational-analysis>>Operational Analysis</>, where I first cleaned the data before performing visualizations. But I also used it for data compilation, where I created pipelines to produce analytics reports and master files. Nowadays, I use Pandas in nearly every single one of my projects, and all my datasets were created with the help of Pandas.\nWith Polars releasing soon, however, I don't know whether I will switch completely."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "data-visualisation",
+          "data-cleaning",
+          "operational-analysis"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2109s"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "malls-of-singapore",
+          "geospatial-management",
+          "dynamic-resource-optimiser",
+          "geospatial-extraction"
+        ]
       }
     ]
   },
@@ -371,6 +818,22 @@
         "title": "background",
         "text": "The bulk of my PlantUML knowledge comes from my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module, where groups have to document their code using PlantUML. <<https://ay2223s2-cs2103t-w14-2.github.io/tp/DeveloperGuide.html>>Here is ours</>. We had to create Class, Object, Sequence and Activity Diagrams."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2103t"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "documentation"
+        ]
+      }
     ]
   },
   "postgresql": {
@@ -387,6 +850,29 @@
       {
         "title": "background",
         "text": "I used PostgreSQL during my time in <<../merits/experiences/data-management>>Enterprise Information Management</>, where I worked on data pipelines. I also used it for my <<../merits/modules/cs2102>>CS2102 Database Systems</> module, where we worked with PostgreSQL along with PGAdmin to complete our group projects."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2102"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "sql"
+        ]
       }
     ]
   },
@@ -405,6 +891,39 @@
         "title": "background",
         "text": "For the <<../projects/coding/note-together>>NoteTogether</> project, I comprehensively tested our backend API, performing Unit, Integration and System testing. This testing was good enough for our project to be considered for the highest level of achievement (Artemis).\nDespite its ease of use on small-scale testing, it does slow down a lot as it is a web program. As such, I'd much rather use Python's Request library to run the tests."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "software-testing",
+          "web-development",
+          "api-development"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cp2106"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "note-together",
+          "bus-routes-optimiser"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      }
     ]
   },
   "power-bi": {
@@ -421,6 +940,23 @@
       {
         "title": "background",
         "text": "I used PowerBI during my time in <<../merits/experiences/data-management>>Enterprise Information Management</> where I was tasked with creating dashboards for displaying foreign workers data. I had a good mentor that helped me learn the fundamentals of dashboard design, as well as how to properly write the necessary queries whilst not overloading the database server with 'select *' requests."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-visualisation",
+          "data-science"
+        ]
       }
     ]
   },
@@ -439,6 +975,30 @@
         "title": "background",
         "text": "I only used Pytorch for the <<../merits/modules/cs2109s>>CS2109S Introduction to AI and ML</> module, where knowledge of the technology was expected. The finals also used Pytorch, so I'd say that's where I got my experience from."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2109s"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "machine-learning"
+        ]
+      }
     ]
   },
   "qgis": {
@@ -455,6 +1015,24 @@
       {
         "title": "background",
         "text": "I was introduced to QGIS in 2019, where I had to create visualisations of geospatial data (I think it was for MyResponder). Afterwards, I used it a couple more times during <<../merits/experiences/data-analytics>>NS</> for various other projects.\nAfter NS, I used QGIS to create visualisations for a data analytics competition, which involved Grab data."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "geospatial-analytics",
+          "data-visualisation",
+          "data-science"
+        ]
       }
     ]
   },
@@ -473,6 +1051,31 @@
         "title": "background",
         "text": "Firstly, I was involved in the development, maintenance and operation of an optimisation software, where part of it was written in Rails. Naturally, I had to pick it up and make modifications and fixes along the way in order to continue operating the software.\nSecondly, during my internship, I also used Rails to serve as the backend for a web application that showcased the compeny's geospatial APIs. Through these two experiences, I became more familiar with Rails."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern",
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "dynamic-resource-optimiser",
+          "bus-routes-optimiser"
+        ]
+      }
     ]
   },
   "react-js": {
@@ -489,6 +1092,38 @@
       {
         "title": "background",
         "text": "React.js has become my primary frontend framework, starting from 2022 when I built my personal website using React. Since then, I have utilised React extensively for various projects, including the current version of my website you are viewing. During my internship, I leveraged React to develop a geospatial API web application, gaining valuable experience in request handling, form validation, and error handling with tools like Formik and Yup. This journey has deepened my understanding and appreciation for React's capabilities and its role in creating dynamic and robust web applications."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "website-react",
+          "bus-routes-optimiser"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "fullstack-intern"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "frontend"
+        ]
       }
     ]
   },
@@ -507,6 +1142,23 @@
         "title": "background",
         "text": "I utilised Rocket.rs to create my Travel Optimiser application, which aimed to provide route suggestions for reaching specific destinations. I am currently in the process of enhancing my knowledge and skills in this technology as I continue to explore its capabilities and dive deeper into its implementation."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "rust"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "api-development"
+        ]
+      }
     ]
   },
   "selenium": {
@@ -523,6 +1175,31 @@
       {
         "title": "background",
         "text": "I mainly use Selenium to test out the frontend of my web applications, such as the <<../projects/coding/note-together>>NoteTogether</> application. Besides that, I sometimes use Selenium to perform web-scraping, but I mostly just use my <<../projects/coding/spiderman>>SpiderMan</> web scraper to do so, as it is much easier for me to use."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "software-testing",
+          "web-scraping"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "note-together",
+          "malls-of-singapore"
+        ]
       }
     ]
   },
@@ -541,6 +1218,23 @@
         "title": "background",
         "text": "I only have minimal knowledge of Java Spring, as I followed a tutorial online. I haven't created anything worth bringing up."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "java"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "api-development"
+        ]
+      }
     ]
   },
   "ssms": {
@@ -557,6 +1251,29 @@
       {
         "title": "background",
         "text": "I used SSMS when creating data pipelines for my role in <<../merits/experiences/data-management>>Enterprise Information Management</>."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "sql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-management"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-modeling"
+        ]
       }
     ]
   },
@@ -592,6 +1309,23 @@
         "title": "background",
         "text": "I have experimented with Svelte to create simple web applications such as a calculator and a to-do list. These were heavily guided, so I wouldn't say that I'm comfortable with using Svelte on a day-to-day basis."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "frontend"
+        ]
+      }
     ]
   },
   "tableau": {
@@ -608,6 +1342,30 @@
       {
         "title": "background",
         "text": "The main bulk of my Tableau experience comes from my time in <<../merits/experiences/data-analytics>>NS</>, where I had to do up a few dashboards and create a few visualisations to aid the higher-ups in making informed decisions. One of the more memorable projects that the team needed to do was to create a dashboard for fire alarm data, which helps the Ops team figure out trends and anomalies in the data."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-visualisation",
+          "data-science"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "dynamic-resource-optimiser"
+        ]
       }
     ]
   },
@@ -626,6 +1384,30 @@
         "title": "background",
         "text": "Telegram Bots allow me to do various tasks when I'm not at home, which has since improved my productivity during long commutes. As such, I made quite a lot of Telegram Bots for different things. For example, some Bots are used for language-learning, some Bots are for finding Halal food, some Bots are for studying course material."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "gcp"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "halal-recommender",
+          "notes-telegram-bot"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      }
     ]
   },
   "tensorflow": {
@@ -643,6 +1425,64 @@
         "title": "background",
         "text": "Although I've used TensorFlow quite a lot over the past few years, there's still so much to learn. Mainly because AI/ML is such a deep topic, so I can't say I'm that proficient at it. Sure, if you allow me to Google things, then I can do pretty well, but without access to Internet, I forget much of the basic syntax, and can't even do simple tasks."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+          "deep-learning-tensorflow"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "machine-learning",
+          "data-visualisation"
+        ]
+      }
+    ]
+  },
+  "unity": {
+    "title": "Unity",
+    "imgPath": "unity.svg",
+    "importance": 2,
+    "date": 2020,
+    "proficiency": 1,
+    "description": [
+      {
+        "title": "description",
+        "text": "Unity is an all purpose game engine that supports 2D and 3D graphics and scripting through C#."
+      },
+      {
+        "title": "background",
+        "text": "My experience with Unity was very brief, as I've only experimented with it a couple of times (mainly trying to develop my malls card game)."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "c-sharp"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "game-development"
+        ]
+      }
     ]
   },
   "vex": {
@@ -659,6 +1499,15 @@
       {
         "title": "background",
         "text": "VEX Robotics was a major part of my short Robotics journey. After all, the club did participate in a VEX competition, and held some events of our own. But I think my main contribution to the team would be teaching the juniors how to code in RobotC, which was the language used to program the robots. Besides that, I've mostly forgotten how to use VEX."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "robotics"
+        ]
       }
     ]
   },
@@ -693,6 +1542,37 @@
       {
         "title": "background",
         "text": "For <<../projects/coding/note-together>>NoteTogether</>, my partner and I decided to use Vue.js as our frontend framework. Despite the great reviews, this turned out to be a difficult experience, as many packages lacked support in Vue; we had to make do with what's available. Despite this, I'm glad our combined frontend skills were sufficient in producing a neat final design."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cp2106"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "note-together"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "frontend",
+          "web-development"
+        ]
       }
     ]
   }

@@ -7,7 +7,43 @@
     "startDate": "May'23",
     "endDate": "Aug'23",
     "overview": "Designed a web app that showcases the company's geospatial APIs",
-    "description": []
+    "description": [],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "ruby-on-rails",
+          "react-js",
+          "vscode"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "web-development",
+          "software-testing",
+          "frontend",
+          "documentation"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "bus-routes-optimiser"
+        ]
+      }
+    ]
   },
   "data-management": {
     "title": "Data Management",
@@ -21,6 +57,40 @@
       {
         "title": "key achievements",
         "text": "I created Power BI dashboards and ER Studio data models to facilitate analytics. I also designed an organisation-wide Data Governance Portal in an effort to enforce good data management practices in the ministry. I further worked on managing user permissions data, implementing scripts to reduce the workflow by over 80%."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "sql",
+          "c-sharp",
+          "html",
+          "css"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "power-bi",
+          "ssms",
+          "excel",
+          "aws",
+          "er-studio"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-cleaning",
+          "data-modeling",
+          "data-management",
+          "data-visualisation",
+          "operational-analysis"
+        ]
       }
     ]
   },
@@ -37,6 +107,61 @@
         "title": "key achievements",
         "text": "I worked on and operated a data science model that optimised the placement of SCDF appliances; I proposed and implemented pipelines that reduced workflow by 67%. I further used it to produce analytics reports and predictions to assist in the decision-making process.\nI further conducted operational analysis on over a dozen projects from the 6 departments (Medical, Technology, Operations, Finance, Training, Logistics).\nI also supervised and trained a team of 4 juniors in the creation of Tableau dashboards and data science models."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "r",
+          "ruby",
+          "vba"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "jupyter",
+          "excel",
+          "flask",
+          "ruby-on-rails",
+          "tensorflow",
+          "tableau",
+          "qgis",
+          "gcp",
+          "anaconda",
+          "sublime",
+          "pandas",
+          "telegram-bots"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "web-development",
+          "geospatial-analytics",
+          "data-visualisation",
+          "web-scraping",
+          "data-cleaning",
+          "data-mining",
+          "operational-analysis",
+          "software-testing",
+          "api-development",
+          "problem-solving",
+          "machine-learning"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "dynamic-resource-optimiser"
+        ]
+      }
     ]
   },
   "robotics": {
@@ -51,6 +176,22 @@
       {
         "title": "key achievements",
         "text": "As a speciality head, I organised training sessions to impart relevant coding knowledge upon other club-members, guiding them to win competitions. I also developed robotics programs using Python and C, participating in various robotics competitions. Besides that, as an executive committee member, I played a role in organising events such as camps and other club activities."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "vex"
+        ]
       }
     ]
   }

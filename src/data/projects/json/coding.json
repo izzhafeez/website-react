@@ -1,4 +1,11 @@
 {
+  "auto-gitter": {
+    "title": "Auto-Gitter",
+    "imgPath": "github.svg",
+    "importance": 1,
+    "date": "Sep'22",
+    "overview": "Individually commits every file changed within a directory"
+  },
   "bus-routes-optimiser": {
     "title": "Bus Route Optimiser (Web)",
     "imgPath": "qi.png",
@@ -140,6 +147,14 @@
     "date": "Jun'23",
     "repo": "https://github.com/mynameizzhafeez/svg-converter",
     "overview": "Converts GeoJson objects into SVG format"
+  },
+  "sz-matrix": {
+    "title": "Self-Zooming Matrix",
+    "imgPath": "cpp.svg",
+    "importance": 2,
+    "date": "Apr'22",
+    "repo": "https://github.com/mynameizzhafeez/SZMatrix",
+    "overview": "Space-partitioning data structure to improve queries for clustered points in 2D space"
   },
   "website-react": {
     "title": "Personal React Website",
