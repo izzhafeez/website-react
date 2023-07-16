@@ -1,5 +1,6 @@
 import './style.scss';
 import Items from '../Items';
+import Sizes from '../Sizes';
 
 class Merits extends Items {
   constructor(fields) {
@@ -9,16 +10,16 @@ class Merits extends Items {
     });
   }
 
-  getClassNames() {
+  getSize() {
     switch (this.type) {
       case 'technologies':
       case 'languages':
       case 'skills':
-        return 'row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2'
+        return Sizes.SMALL;
       case 'experiences':
-        return 'row row-cols-lg-2 row-cols-1 g-2'
+        return Sizes.LARGE;
       default:
-        return 'row row-cols-xl-3 row-cols-lg-2 row-cols-1 g-2'
+        return Sizes.MEDIUM;
     }
   }
 }

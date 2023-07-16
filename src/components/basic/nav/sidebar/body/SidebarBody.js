@@ -8,17 +8,17 @@ const SidebarBody = () => {
   return (
     <nav className='offcanvas-body text-start py-2'>
       {routesData.map(route => (
-        <Row key={route.label}>
+        <Row key={route.category}>
           <RouteWithIcon
-            imgPath={`png/${route.imgPath}`}
+            imgPath={`types/${route.category}.svg`}
             path={route.path}
             category={route.category}
           />
-          {route.subroutes.map(subroute => (
+          {route.types.map(type => (
             <Subroute
-              key={subroute.type}
+              key={type}
               category={route.category}
-              subroute={subroute}
+              subroute={type}
             />
           ))}
         </Row>

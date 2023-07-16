@@ -2,17 +2,16 @@ import Project from "../Project";
 
 class Coding extends Project {
   constructor({ date, overview, ...fields }) {
-    super(fields);
+    super({
+      type: 'coding',
+      ...fields
+    });
     this.date = date;
     this.overview = overview;
   };
 
-  getLink() {
-    return `/projects/coding/${this.key}`;
-  };
-
   getPreview() {
-    let classNames = 'projects container preview-lg border border-info merit row align-items-center';
+    let classNames = 'projects container preview-lg merit row align-items-center';
     if (this.isStarred()) {
       classNames += ' starred';
     }

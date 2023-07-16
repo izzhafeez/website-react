@@ -77,7 +77,7 @@
         "type": "skills",
         "items": [
           "web-development",
-          "frontend"
+          "frontend-development"
         ]
       }
     ]
@@ -168,7 +168,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "frontend",
+          "frontend-development",
           "web-development"
         ]
       },
@@ -1122,7 +1122,7 @@
         "type": "skills",
         "items": [
           "web-development",
-          "frontend"
+          "frontend-development"
         ]
       }
     ]
@@ -1323,7 +1323,7 @@
         "type": "skills",
         "items": [
           "web-development",
-          "frontend"
+          "frontend-development"
         ]
       }
     ]
@@ -1570,7 +1570,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "frontend",
+          "frontend-development",
           "web-development"
         ]
       }

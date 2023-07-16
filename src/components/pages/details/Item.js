@@ -4,8 +4,10 @@ import MacroIcon from "components/basic/img/MacroIcon";
 import MicroIcon from "components/basic/img/MicroIcon";
 
 class Item {
-  constructor({ key, title, imgPath, importance, description, related }) {
+  constructor({ key, category, type, title, imgPath, importance, description, related }) {
     this.key = key;
+    this.category = category;
+    this.type = type;
     this.title = title;
     this.imgPath = imgPath;
     this.importance = importance || 0;
@@ -13,14 +15,18 @@ class Item {
     this.related = related || [];
   };
 
+  getImgPath() {
+    return `${this.category}/${this.type}/${this.imgPath}`;
+  }
+
   getImage(isBig) {
     if (this.imgPath === undefined) {
       return "";
     }
     if (isBig) {
-      return <MacroIcon imgPath={this.imgPath} type={this.key}/>
+      return <MacroIcon imgPath={this.getImgPath()} type={this.key}/>
     }
-    return <MicroIcon imgPath={this.imgPath} type={this.key}/>;
+    return <MicroIcon imgPath={this.getImgPath()} type={this.key}/>;
   }
 
   getTitle() {
@@ -28,11 +34,11 @@ class Item {
   }
 
   getSubtitle() {
-    return this.title;
+    return '';
   };
 
   getLink() {
-    return '/';
+    return `/${this.category}/${this.type}/${this.key}`;
   }
 
   getHyperlink() {
@@ -60,9 +66,20 @@ class Item {
     return '';
   }
 
+  isLarge() {
+    return false;
+  }
+
   getClassNames() {
     // class names for the preview element.
-    return '';
+    let classNames = this.category + ' container row align-items-center preview';
+    if (this.isLarge()) {
+      classNames += '-lg';
+    }
+    if (this.isStarred()) {
+      classNames += ' starred';
+    }
+    return classNames;
   }
 
   getPreview() {
@@ -104,12 +121,12 @@ class Item {
     );
   }
 
-  getBackLink(_) {
+  getBackLink() {
     // the link back to the parent.
-    return '';
+    return `/${this.category}/${this.type}`;
   }
   
-  getPage(type) {
+  getPage() {
     // element for the page view for the item.
     return <article className='container p-4'>
       {this.getImage(true)}
@@ -118,7 +135,7 @@ class Item {
         {this.getDetails().getParsed()}
         {this.description.getParsed()}
         <h3>
-          <a href={this.getBackLink(type)} className='link-body-emphasis'>
+          <a href={this.getBackLink()} className='link-body-emphasis'>
             GO BACK
           </a>
         </h3>

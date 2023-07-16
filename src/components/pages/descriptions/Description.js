@@ -21,7 +21,8 @@ class Description {
       case 'link':
         return parseLinkSection(text);
       case 'proficiency':
-        return parseProficiency(text);
+      case 'complexity':
+        return parseProficiency(title, text);
       default:
         return parseParagraphSection(title, text);
     }

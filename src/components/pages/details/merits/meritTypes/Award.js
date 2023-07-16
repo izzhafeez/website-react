@@ -2,7 +2,10 @@ import Merit from "../Merit";
 
 class Award extends Merit {
   constructor({ date, level, link, ...fields }) {
-    super(fields);
+    super({
+      type: 'awards',
+      ...fields
+    });
     this.date = date;
     this.level = level;
     this.link = link;
@@ -11,10 +14,6 @@ class Award extends Merit {
   getSubtitle() {
     const subtitleFields = [ this.level, this.date ].filter(field => field);
     return subtitleFields.join(' | ');
-  };
-
-  getLink() {
-    return `/merits/awards/${this.key}`;
   };
 
   getFields() {

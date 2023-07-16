@@ -8,19 +8,21 @@ class Related {
   }
 
   getItems() {
-    return this.relatedItems.map(related => {
-      const data = allData[related.category][related.type];
-      const itemsDict = related.items.reduce((map, item) => {
-        map[item] = data[item];
-        return map;
-      }, {});
-      return ItemsFactory.getConstructor(related.category)({
-        type: related.type,
-        data: itemsDict
-      }).getPreview({
-        withReturnButton: false
+    return this.relatedItems
+      .sort((a, b) => a.type.localeCompare(b.type))
+      .map(related => {
+        const data = allData[related.category].data[related.type].data;
+        const itemsDict = related.items.reduce((map, item) => {
+          map[item] = data[item];
+          return map;
+        }, {});
+        return ItemsFactory.getConstructor(related.category)({
+          type: related.type,
+          data: itemsDict
+        }).getPreview({
+          withReturnButton: false
+        });
       });
-    });
   }
 };
 

@@ -64,7 +64,7 @@
         "items": [
           "software-engineering",
           "web-development",
-          "frontend"
+          "frontend-development"
         ]
       }
     ]
@@ -466,7 +466,7 @@
       }
     ]
   },
-  "frontend": {
+  "frontend-development": {
     "title": "Frontend Dev",
     "imgPath": "frontend.svg",
     "importance": 8,
@@ -567,7 +567,7 @@
       },
       {
         "title": "background",
-        "text": "Due to my deep interest in geography, Geospatial Analytics is what I spend most of my coding time on. Be it malls, schools, buses, roads, MRT or others, a lot of my projects involve Singapore's urban geography in one way or another.\nA typical project would first include the data extraction process, which means either performing <<../merits/skills/web-scraping>>Web Scraping</> or calling data from API. Next, using my <<../projects/coding/geospatial-management>>Geospatial Management Framework</>, I process this data and perform <<../merits/skills/data-cleaning>>Data Cleaning</>.\nI'd say Geospatial Analytics best describes my work during my <<../merits/experience/data-analytics>>National Service</>. Be it predicting and optimising ambulance response times, to finding trends in fire alarm data, this skill was intensely practiced during my time there.\nBut I think I'm most proud of my <<../projects/coding/malls-card-game>>Malls Card Game</>, which really was the culmination of all the geospatial skills I've picked up till then."
+        "text": "Due to my deep interest in geography, Geospatial Analytics is what I spend most of my coding time on. Be it malls, schools, buses, roads, MRT or others, a lot of my projects involve Singapore's urban geography in one way or another.\nA typical project would first include the data extraction process, which means either performing <<../merits/skills/web-scraping>>Web Scraping</> or calling data from API. Next, using my <<../projects/coding/geospatial-management>>Geospatial Management Framework</>, I process this data and perform <<../merits/skills/data-cleaning>>Data Cleaning</>.\nI'd say Geospatial Analytics best describes my work during my <<../merits/experience/data-analytics>>National Service</>. Be it predicting and optimising ambulance response times, to finding trends in fire alarm data, this skill was intensely practiced during my time there.\nBut I think I'm most proud of my <<../projects/coding/malls-of-singapore>>Malls Card Game</>, which really was the culmination of all the geospatial skills I've picked up till then."
       }
     ],
     "related": [
@@ -890,7 +890,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "frontend",
+          "frontend-development",
           "api-development",
           "software-testing"
         ]

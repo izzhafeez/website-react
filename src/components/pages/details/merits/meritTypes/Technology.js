@@ -3,16 +3,15 @@ import Merit from "../Merit";
 
 class Technology extends Merit {
   constructor({ proficiency, ...fields }) {
-    super(fields);
+    super({
+      type: 'technologies',
+      ...fields
+    });
     this.proficiency = proficiency;
   };
 
   getSubtitle() {
     return this.proficiency !== undefined ? <StarScale value={this.proficiency}/> : <></>;
-  };
-
-  getLink() {
-    return `/merits/technologies/${this.key}`;
   };
 
   getFields() {

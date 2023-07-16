@@ -1,5 +1,6 @@
 import { Award, Certificate, Experience, Language, Module, Skill, Technology } from "./merits/meritTypes";
 import Coding from "./projects/projectTypes/Coding";
+import Graph from "./projects/projectTypes/Graph";
 import Music from "./projects/projectTypes/Music";
 
 class ItemFactory {
@@ -53,6 +54,8 @@ class ItemFactory {
         return params => new Coding(params);
       case 'music':
         return params => new Music(params);
+      case 'graphs':
+        return params => new Graph(params);
       default:
         throw new Error(`Type unknown: ${type}.`);
     }

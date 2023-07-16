@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import routesData from "routes/routes";
 import './style.scss';
+import Page from "./pages/Page";
+import Landing from "./pages/Landing";
 
 const Main = () => {
   return (
@@ -11,28 +13,36 @@ const Main = () => {
             <Route
               key={route.category}
               path={route.category}
-              element={route.element()}
+              element={<Landing
+                category={route.category}
+                types={[]}
+                constructor={route.constructor}
+                data={route.data}
+              />}
             />
           )}
-          {routesData.map(route => 
+          {routesData.map(route => [...route.types, 'all'].map(type =>
             <Route
-              key={route.category+'-all'}
-              path={route.category+'/all'}
-              element={route.element('all')}
-            />
-          )}
-          {routesData.map(route => route.subroutes.map(subroute =>
-            <Route
-              key={`/${subroute.type}`}
-              path={`${route.category}/${subroute.type}`}
-              element={route.element(subroute.type)}
+              key={`/${type}`}
+              path={`${route.category}/${type}`}
+              element={<Landing
+                category={route.category}
+                types={route.types}
+                constructor={route.constructor}
+                data={route.data}
+                type={type}
+              />}
             />
           ))}
-          {routesData.map(route => route.subroutes.map(subroute =>
+          {routesData.map(route => route.types.map(type =>
             <Route
-              key={`/${subroute.type}-page`}
-              path={`${route.category}/${subroute.type}`+'/:page'}
-              element={route.pageElement(subroute.type)}
+              key={`/${type}-page`}
+              path={`${route.category}/${type}/:page`}
+              element={<Page
+                category={route.category}
+                type={type}
+                data={route.data}
+              />}
             />
           ))}
         </Routes>

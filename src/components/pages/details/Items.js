@@ -1,4 +1,5 @@
 import ItemFactory from './ItemFactory';
+import Sizes from './Sizes';
 import './style.scss';
 
 class Items {
@@ -13,6 +14,7 @@ class Items {
 
   getItems() {
     const constructor = ItemFactory.getConstructor(this.category)(this.type);
+    console.log(this.data);
     let items = ItemFactory.getList(this.data, constructor);
     const length = items.length;
     const seeMore = constructor({ key: '', title: 'See More', link: this.getPath() });
@@ -61,8 +63,21 @@ class Items {
     </div>;
   }
 
+  getSize() {
+    return Sizes.MEDIUM;
+  }
+
   getClassNames() {
-    return '';
+    switch (this.getSize()) {
+      case Sizes.SMALL: 
+        return 'row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2';
+      case Sizes.MEDIUM:
+        return 'row row-cols-xl-3 row-cols-lg-2 row-cols-1 g-2';
+      case Sizes.LARGE:
+        return 'row row-cols-lg-2 row-cols-1 g-2';
+      default:
+        throw new Error('Size not given');
+    }
   }
 
   getPreview({ withHeader=true, withReturnButton=true }) {

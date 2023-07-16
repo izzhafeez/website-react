@@ -8,11 +8,11 @@ const Subroute = ({ category, subroute }) => {
       <Col className='col-2'></Col>
       <Col xs='auto'>
         <NavLink
-          to={`${category}/${subroute.type}`}
+          to={`${category}/${subroute}`}
           className={'nav-link px-2 py-1 rounded subroute ' + category}
           activeclassname='active'
         >
-          {capitalise(subroute.type)}
+          {capitalise(subroute)}
         </NavLink>
       </Col>
     </Row>

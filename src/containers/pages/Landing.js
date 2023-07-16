@@ -2,7 +2,7 @@ import MacroIcon from 'components/basic/img/MacroIcon';
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const Landing = ({ category, constructor, data, routesData, type }) => {
+const Landing = ({ category, types, type, constructor, data }) => {
   // category is merits, projects etc.
   // data is meritsData etc.
   // routesData is meritsRoutesData etc.
@@ -12,8 +12,7 @@ const Landing = ({ category, constructor, data, routesData, type }) => {
   const limit = isHome ? 5 : Number.POSITIVE_INFINITY;
   const navigate = useNavigate();
 
-  const possibleTypes = routesData
-    .map(routeData => routeData.type)
+  const possibleTypes = types
     .filter(type => type !== 'all');
 
   useEffect(() => {
@@ -31,7 +30,7 @@ const Landing = ({ category, constructor, data, routesData, type }) => {
   const backLink = isHome || isAll ? '/' : `/${category}`;
 
   return <div className='col'>
-    <MacroIcon imgPath={title+'.svg'} type={type}/>
+    <MacroIcon imgPath={'types/'+title+'.svg'} type={type}/>
     <h2 className='display-6 text-start ps-4'>
       {title.toUpperCase()}&nbsp;
       (<Link to={backLink} className='link-body-emphasis'>GO BACK</Link>)
@@ -39,7 +38,7 @@ const Landing = ({ category, constructor, data, routesData, type }) => {
     {sections.map(section => {
       const items = constructor({
         type: section,
-        data: data[section],
+        data: data[section].data,
         limit: limit,
         isHome: isHome || isAll
       });

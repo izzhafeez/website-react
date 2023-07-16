@@ -1,9 +1,13 @@
-import { meritsData } from "./merits";
-import { projectsData } from "./projects";
+import meritsData from "./merits";
+import projectsData from "./projects";
 
 const allData = {
-  merits: meritsData,
-  projects: projectsData
+  merits: {
+    data: meritsData
+  },
+  projects: {
+    data: projectsData
+  }
 };
 
 export default allData;

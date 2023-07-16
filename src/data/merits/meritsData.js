@@ -7,13 +7,27 @@ import skillsData from './json/skills.json';
 import technologiesData from './json/technologies.json';
 
 const meritsData = {
-  awards: awardsData,
-  certificates: certificatesData,
-  experiences: experiencesData,
-  languages: languagesData,
-  modules: modulesData,
-  skills: skillsData,
-  technologies: technologiesData
+  awards: {
+    data: awardsData
+  },
+  certificates: {
+    data: certificatesData
+  },
+  experiences: {
+    data: experiencesData
+  },
+  languages: {
+    data: languagesData
+  },
+  modules: {
+    data: modulesData
+  },
+  skills: {
+    data: skillsData
+  },
+  technologies: {
+    data: technologiesData
+  },
 };
 
 export default meritsData;

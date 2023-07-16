@@ -1,17 +1,17 @@
 import './style.scss';
 
-const MacroIcon = ({ imgPath, type }) => {
+const MegaIcon = ({ imgPath, type }) => {
   return <div className='container my-4'>
     <div className='justify-content-center row'>
       <div className='col-auto'>
         {/* col-auto is to center the image */}
         <div
-          className='rounded-circle border border-5 border-success bg-white'
+          className='border border-5 border-success bg-white'
         >
           <img
             src={'/img/'+imgPath}
             alt={type}
-            className='rounded-circle macro-icon col'
+            className='mega-icon col'
           />
         </div>
       </div>
@@ -19,4 +19,4 @@ const MacroIcon = ({ imgPath, type }) => {
   </div>;
 };
 
-export default MacroIcon;
+export default MegaIcon;

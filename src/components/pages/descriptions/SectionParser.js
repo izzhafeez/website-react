@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 export const parseLinkSection = text => {
   return <section key='link'>
     <h3>LINK</h3>
-    <p><Link to={text}>Click here to view link.</Link></p>
+    <p><Link to={text}>Visit site.</Link></p>
   </section>;
 };
 
-export const parseProficiency = text => {
+export const parseProficiency = (title, text) => {
   return <section key='proficiency'>
-    <h3>PROFICIENCY</h3>
+    <h3>{title.toUpperCase()}</h3>
     <p><StarScale value={text}/></p>
   </section>
 }

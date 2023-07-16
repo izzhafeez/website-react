@@ -1,4 +1,5 @@
 import Items from '../Items';
+import Sizes from '../Sizes';
 
 class Projects extends Items {
   constructor(fields) {
@@ -8,14 +9,15 @@ class Projects extends Items {
     });
   }
 
-  getClassNames() {
+  getSize() {
     switch (this.type) {
       case 'coding':
-        return 'row row-cols-lg-2 row-cols-1 g-2'
+        return Sizes.LARGE;
       case 'music':
-        return 'row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2'
+      case 'graphs':
+        return Sizes.SMALL;
       default:
-        return 'row row-cols-xl-3 row-cols-lg-2 row-cols-1 g-2'
+        return Sizes.MEDIUM;
     }
   }
 }

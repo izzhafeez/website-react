@@ -4,7 +4,8 @@ class Module extends Merit {
   constructor({ semester, grade, name, ...fields }) {
     super({
       ...fields,
-      imgPath: 'nus.png'
+      imgPath: 'nus.png',
+      type: 'modules'
     });
     this.name = name;
     this.semester = semester;
@@ -40,10 +41,6 @@ class Module extends Merit {
 
   getSubtitle() {
     return this.name;
-  };
-
-  getLink() {
-    return `/merits/modules/${this.key}`;
   };
 
   getHeader() {

@@ -2,7 +2,10 @@ import Merit from '../Merit';
 
 class Experience extends Merit {
   constructor({ startDate, endDate, organisation, overview, ...fields }) {
-    super(fields);
+    super({
+      type: 'experiences',
+      ...fields
+    });
     this.startDate = startDate;
     this.endDate = endDate;
     this.date = this.getDate();
@@ -15,16 +18,12 @@ class Experience extends Merit {
     return subtitleFields.join(' - ');
   };
 
-  getLink() {
-    return `/merits/experiences/${this.key}`;
-  };
+  isLarge() {
+    return true;
+  }
 
   getPreview() {
-    let classNames = 'merits container preview-lg border border-info merit row align-items-center';
-    if (this.isStarred()) {
-      classNames += ' starred';
-    }
-    return <article className={classNames}>
+    return <article className={this.getClassNames()}>
       {this.getImage(false)}
       <section className='col text-start'>
         <small className='card-subtitle'>{this.getDate()}</small>
