@@ -3,21 +3,20 @@ import routesData from "routes/routes";
 import './style.scss';
 import Page from "./pages/Page";
 import Landing from "./pages/Landing";
+import Home from "./pages/Home";
 
 const Main = () => {
   return (
     <main className='pb-5 d-flex justify-content-center'>
       <div id='routes-container'>
         <Routes>
-          {routesData.map(route => 
+          <Route path='' element={<Home/>}/>
+          {routesData.slice(1).map(route => 
             <Route
               key={route.category}
               path={route.category}
               element={<Landing
-                category={route.category}
-                types={[]}
-                constructor={route.constructor}
-                data={route.data}
+                route={route}
               />}
             />
           )}
@@ -26,10 +25,7 @@ const Main = () => {
               key={`/${type}`}
               path={`${route.category}/${type}`}
               element={<Landing
-                category={route.category}
-                types={route.types}
-                constructor={route.constructor}
-                data={route.data}
+                route={route}
                 type={type}
               />}
             />

@@ -50,7 +50,7 @@ class Items {
   }
 
   getHeader(withReturnButton) {
-    return <h3 className='mt-2'>
+    return <h3 className={`mt-2 ${this.category}`}>
       <span>{this.getLink()} {withReturnButton && this.getReturnButton()}</span>
     </h3>;
   };

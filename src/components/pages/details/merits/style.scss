@@ -1,9 +1,13 @@
 @import '/src/assets/colors/mrt.css';
 
-.merits:hover {
-  background-color: var(--ew-v-light);
+article.merits:hover {
+  background-color: var(--ns-v-light);
 }
 
-.merits {
-  border: 1px solid var(--ew);
+article.merits {
+  border: 1px solid var(--ns);
+}
+
+h3.merits {
+  color: var(--ns);
 }

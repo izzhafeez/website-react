@@ -11,7 +11,10 @@ class Item {
     this.title = title;
     this.imgPath = imgPath;
     this.importance = importance || 0;
-    this.description = new Description(description);
+    this.description = new Description({
+      category: category,
+      description: description
+    });
     this.related = related || [];
   };
 
@@ -24,7 +27,7 @@ class Item {
       return "";
     }
     if (isBig) {
-      return <MacroIcon imgPath={this.getImgPath()} type={this.key}/>
+      return <MacroIcon imgPath={this.getImgPath()} category={this.category} key={this.key}/>
     }
     return <MicroIcon imgPath={this.getImgPath()} type={this.key}/>;
   }
@@ -97,12 +100,16 @@ class Item {
     </article>;
   };
 
+  getHeaderText() {
+    return this.getTitle().toUpperCase();
+  }
+
   getHeader() {
     // the header for the item's page.
     return <header>
-      <h2 className='display-6'>
-        {this.getTitle().toUpperCase()}
-      </h2>
+      <h3 className={`display-6`}>
+        {this.getHeaderText()}
+      </h3>
     </header>
   }
 
@@ -113,12 +120,13 @@ class Item {
 
   getDetails() {
     // converts the item's fields into information sections on the page.
-    return new Description(
-      this.getFields().map(field => ({
+    return new Description({
+      category: this.category,
+      description: this.getFields().map(field => ({
         title: field,
         text: this[field]
       })).filter(field => field.text !== undefined)
-    );
+    });
   }
 
   getBackLink() {

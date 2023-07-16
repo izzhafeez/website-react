@@ -1,3 +1,5 @@
+@import '/src/assets/colors/mrt.css';
+
 .micro-icon {
   width: 3rem;
   height: 3rem;
@@ -8,6 +10,18 @@
   width: 14rem;
   height: 14rem;
   object-fit: contain;
+}
+
+.icon-container.home {
+  border: 0.5rem solid var(--ew);
+}
+
+.icon-container.merits {
+  border: 0.5rem solid var(--ns);
+}
+
+.icon-container.projects {
+  border: 0.5rem solid var(--ne);
 }
 
 .mega-icon {

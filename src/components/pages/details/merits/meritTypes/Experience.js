@@ -15,7 +15,7 @@ class Experience extends Merit {
 
   getDate() {
     const subtitleFields = [ this.startDate, this.endDate ].filter(field => field);
-    return subtitleFields.join(' - ');
+    return subtitleFields.length ? undefined : subtitleFields.join(' - ');
   };
 
   isLarge() {
@@ -33,7 +33,7 @@ class Experience extends Merit {
           {this.getStar()}
         </h5>
         <small className='card-subtitle'>{this.organisation}</small>
-        <br/>
+        {this.organisation && <br/>}
         <small className='card-subtitle'>{this.overview}</small>
       </section>
     </article>;

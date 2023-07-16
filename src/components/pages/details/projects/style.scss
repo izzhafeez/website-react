@@ -1,9 +1,13 @@
 @import '/src/assets/colors/mrt.css';
 
-.projects:hover {
-  background-color: var(--ns-v-light);
+article.projects:hover {
+  background-color: var(--ne-v-light);
 }
 
-.projects { 
-  border: 1px solid var(--ns);
+article.projects { 
+  border: 1px solid var(--ne);
+}
+
+h3.projects {
+  color: var(--ne);
 }

@@ -1,16 +1,16 @@
 import './style.scss';
 
-const MegaIcon = ({ imgPath, type }) => {
+const MegaIcon = ({ imgPath, category }) => {
   return <div className='container my-4'>
     <div className='justify-content-center row'>
       <div className='col-auto'>
         {/* col-auto is to center the image */}
         <div
-          className='border border-5 border-success bg-white'
+          className={`bg-white icon-container ${category}`}
         >
           <img
             src={'/img/'+imgPath}
-            alt={type}
+            alt={category}
             className='mega-icon col'
           />
         </div>

@@ -7,7 +7,9 @@ const Page = ({ category, type, data }) => {
   const pageData = data[type].data[page]; // Merit type
   const constructor = ItemFactory.getConstructor(category)(type);
   const item = constructor(pageData);
-  const related = pageData.related !== undefined ? new Related(pageData.related).getItems() : '';
+  const related = pageData.related !== undefined
+    ? new Related(pageData.related).getItems()
+    : '';
   return <div>
     {item.getPage(type)}
     {related}

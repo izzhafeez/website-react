@@ -22,7 +22,7 @@ class Graph extends Project {
       return "";
     }
     if (isBig) {
-      return <MegaIcon imgPath={this.getImgPath()} isXl={true} type={this.key}/>
+      return <MegaIcon imgPath={this.getImgPath()} category={this.category}/>
     }
     return <MicroIcon imgPath={this.getImgPath()} type={this.key}/>;
   }

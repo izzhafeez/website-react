@@ -43,13 +43,8 @@ class Module extends Merit {
     return this.name;
   };
 
-  getHeader() {
-    return <header>
-      <h2 className='display-6'>
-        {this.title.toUpperCase()}&nbsp;
-        {this.name.toUpperCase()}
-      </h2>
-    </header>
+  getHeaderText() {
+    return `${this.title.toUpperCase()} ${this.name.toUpperCase()}`
   }
 
   getFields() {
