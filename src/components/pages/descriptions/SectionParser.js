@@ -1,11 +1,10 @@
 import StarScale from "components/basic/text/star/StarScale";
 import parse from "./TextParser";
-import { Link } from "react-router-dom";
+import Button from "components/basic/button/Button";
 
-export const parseLinkSection = (text, category) => {
-  return <section key='link'>
-    <h3 className={category}>LINK</h3>
-    <p><Link to={text}>Visit site.</Link></p>
+export const parseLinkSection = (link, category, text) => {
+  return <section key='link' className='mb-3'>
+    {new Button({ link: link, className: category, text: text}).getElement()}
   </section>;
 };
 

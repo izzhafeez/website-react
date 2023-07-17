@@ -1,0 +1,25 @@
+@import '/src/assets/colors/mrt.css';
+
+.desc-link.home {
+  color: var(--ew);
+}
+
+.desc-link.home:hover {
+  color: var(--ew-dark);
+}
+
+.desc-link.merits {
+  color: var(--ns);
+}
+
+.desc-link.merits:hover {
+  color: var(--ns-dark);
+}
+
+.desc-link.projects {
+  color: var(--ne);
+}
+
+.desc-link.projects:hover {
+  color: var(--ne-dark);
+}

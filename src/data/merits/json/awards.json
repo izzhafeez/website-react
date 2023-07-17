@@ -94,6 +94,15 @@
         "title": "background",
         "text": "In 2017 and 2018, my favourite past time was creating math art using the Desmos graphing calculator. This eventually led me to participating in design competitions, like this one by Texas Instruments (TI). In the 2018 rendition, the theme was 'Towards a Smart Nation', where I created an <<https://www.desmos.com/calculator/o6ioqimvq6>>AI-inspired design</> that eventually led me to win the Gold Award. It is to be noted that I also participated in the 2017 competition, where I obtained the Silver Award."
       }
+    ],
+    "related": [
+      {
+        "category": "projects",
+        "type": "graphs",
+        "items": [
+          "ti-competition"
+        ]
+      }
     ]
   },
   "smo-2018": {

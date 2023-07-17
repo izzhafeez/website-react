@@ -190,7 +190,7 @@
       },
       {
         "title": "background",
-        "text": "Data Mining perfectly describes my role in <<../merits/experiences/data-analytics>>NS</>, where I was often tasked to extract data to predict and describe outcomes using machine learning processes. This mainly came in the form of the optimisation model that I operated, but I also applied this to my juniors' work, supervising them in the development of data science models for the Logistics Department."
+        "text": "Data Mining perfectly describes my role in <<../merits/experiences/data-analytics>>NS</>, where I was often tasked to extract data to predict and describe outcomes using <<../merits/skills/machine-learning>>machine learning</> processes. This mainly came in the form of the <<../projects/coding/dynamic-resource-optimiser>>optimisation model</> that I operated, but I also applied this to my juniors' work, supervising them in the development of data science models for the Logistics Department."
       }
     ],
     "related": [
@@ -295,10 +295,17 @@
       },
       {
         "title": "background",
-        "text": "My data science journey started when I entered my <<../merits/experiences/data-analytics>>National Service</>, where I was tasked with simple data-cleaning tasks. However, the complexity of my work rapidly increased when I was exposed to the DRO project, which was an analytics model used to optimise the placement of ambulances in Singapore. I operates and closely maintained the model, resolving issues on my own as much as possible. From there, I had to answer analytics queries from various departments using the findings from the model, either by using <<../merits/skills/data-visualisation>>Data Visualisation</> software or simple report files.\nBesides work, however, my interests in Geography and Music took control. For geography, I made many packages and projects to assist in the data science process, which eventually led me to creating my <<../works/puzzles/mrt-puzzle>>MRT Puzzle</>, whose solutions were visualised on Jupyter Notebook.\nOn the other hand, thanks to my knowledge on Deep Learning from my IBM course, I also developed RNN models to predict music chords, although they don't work very well."
+        "text": "My data science journey started when I entered my <<../merits/experiences/data-analytics>>National Service</>, where I was tasked with simple data-cleaning tasks. However, the complexity of my work rapidly increased when I was exposed to the <<../projects/coding/dynamic-resource-optimiser>>DRO</> project, which was an analytics model used to optimise the placement of ambulances in Singapore. I operates and closely maintained the model, resolving issues on my own as much as possible. From there, I had to answer analytics queries from various departments using the findings from the model, either by using <<../merits/skills/data-visualisation>>Data Visualisation</> software or simple report files.\nBesides work, however, my interests in Geography and Music took control. For geography, I made many packages and projects to assist in the data science process, which eventually led me to creating my <<../projects/coding/mrt-paths-analysis>>MRT Puzzle</>, whose solutions were visualised on <<../merits/technologies/jupyter>>Jupyter</> Notebook.\nOn the other hand, thanks to my knowledge on <<../merits/certificates/deep-learning-tensorflow>>Deep Learning from my IBM course</>, I also developed RNN models to predict music chords, although they don't work very well."
       }
     ],
     "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+          "deep-learning-tensorflow"
+        ]
+      },
       {
         "category": "merits",
         "type": "languages",
@@ -479,7 +486,7 @@
       },
       {
         "title": "background",
-        "text": "I've done a lot of personal websites over the years. This is version 6 of my personal website, based entirely in <<../merits/technologies/react-js>>React</>. But before this, I have practiced quite a bit of UI/UX skills, incorporating design elements inspired by different sites out there.\nAs for personal projects, I've used many frameworks over the years. For example, I've used <<../merits/technologies/vue-js>>Vue</> to develop the <<../projects/coding/note-together>>NoteTogther</> project, and I've used <<../merits/technologies/angular-js>>Angular</> and <<../merits/technologies/svelte-js>>Svelte</> for other projects as well. Then there's also <<../merits/technologies/bootstrap>>Bootstrap</>, which I heavily use to style the frontend.\nBesides that, for my internship, I created a web application using React that showcased the company's geospatial API, so I got to apply my frontend knowledge to a proper application. Also, I've designed an organisation-wide data governance portal during my time in the <<../merits/experiences/data-management>>Ministry of Manpower</>, which aimed at enforcing sound data management principles. During my time in <<../merits/experiences/data-analytics>>National Service</>, I also assisted in the development of the department website."
+        "text": "I've done a lot of personal websites over the years. This is version 6 of my personal website, based entirely in <<../merits/technologies/react-js>>React</>. But before this, I have practiced quite a bit of UI/UX skills, incorporating design elements inspired by different sites out there.\nAs for personal projects, I've used many frameworks over the years. For example, I've used <<../merits/technologies/vue-js>>Vue</> to develop the <<../projects/coding/note-together>>NoteTogether</> project, and I've used <<../merits/technologies/angular-js>>Angular</> and <<../merits/technologies/svelte-js>>Svelte</> for other projects as well. Then there's also <<../merits/technologies/bootstrap>>Bootstrap</>, which I heavily use to style the frontend.\nBesides that, for my internship, I created a web application using React that showcased the company's geospatial API, so I got to apply my frontend knowledge to a proper application. Also, I've designed an organisation-wide data governance portal during my time in the <<../merits/experiences/data-management>>Ministry of Manpower</>, which aimed at enforcing sound <<../merits/skills/data-management>>data management</> principles. During my time in <<../merits/experiences/data-analytics>>National Service</>, I also assisted in the development of the department website."
       }
     ],
     "related": [
@@ -761,7 +768,7 @@
       },
       {
         "title": "background",
-        "text": "If we're walking about pure desktop applications, I think my most fruitful contribution was during my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module. The projects were built using Java, and we had to extend an existing application (Address Book 3). Due to my over-zealousness during that semester, I ended up contributing 18,000+ lines of code to the codebase. As such, I think I have enough Software Engineering experience for now, or at least in Java.\nBesides that, I've done some software development on Rust, where I made modifications to the <<../projects/coding/neothesia>>Neothesia</> project, which I adapted to suit my needs."
+        "text": "If we're walking about pure desktop applications, I think my most fruitful contribution was during my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module. The projects were built using <<../merits/languages/java>>Java</>, and we had to extend an existing application (Address Book 3). Due to my over-zealousness during that semester, I ended up contributing 18,000+ lines of code to the codebase. As such, I think I have enough Software Engineering experience for now, or at least in Java.\nBesides that, I've done some software development on <<../merits/languages/rust>>Rust</>, where I made modifications to the <<../projects/coding/neothesia>>Neothesia</> project, which I adapted to suit my needs."
       }
     ],
     "related": [
@@ -970,7 +977,7 @@
       },
       {
         "title": "background",
-        "text": "Web scraping is one of my favourite things to do in the world of data science. Exploring different websites, finding patterns within data, and extracting and parsing the relevant information is quite satisfying to me. It gives a much better indication to me whether I did my job properly, as compared to machine learning and AI.\nMy first proper taste of Web Scraping came during my time in National Service, where I had to extract out information pertaining to police stations and police posts, as well as community centres. This involved certain trickeries that were very fun to do.\nAnd while I do have some experience in Selenium, I must say that most of my experience comes from BeautifulSoup and my own creation <<../projects/coding/spiderman-scraper>>Spiderman Scraper</>, which is a custom web scraper I've built."
+        "text": "Web scraping is one of my favourite things to do in the world of data science. Exploring different websites, finding patterns within data, and extracting and parsing the relevant information is quite satisfying to me. It gives a much better indication to me whether I did my job properly, as compared to machine learning and AI.\nMy first proper taste of Web Scraping came during my time in <<../merits/experiences/data-analytics>>National Service</>, where I had to extract out information pertaining to police stations and police posts, as well as community centres. This involved certain trickeries that were very fun to do.\nAnd while I do have some experience in <<../merits/technologies/selenium>>Selenium</>, I must say that most of my experience comes from BeautifulSoup and my own creation <<../projects/coding/spiderman-scraper>>Spiderman Scraper</>, which is a custom web scraper I've built."
       }
     ],
     "related": [

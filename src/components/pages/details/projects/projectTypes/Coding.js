@@ -1,13 +1,14 @@
 import Project from "../Project";
 
 class Coding extends Project {
-  constructor({ date, overview, ...fields }) {
+  constructor({ date, overview, repo, ...fields }) {
     super({
       type: 'coding',
       ...fields
     });
     this.date = date;
     this.overview = overview;
+    this.repo = repo;
   };
 
   getPreview() {
@@ -30,7 +31,7 @@ class Coding extends Project {
   }
 
   getFields() {
-    return ['date', 'overview'];
+    return ['date', 'overview', 'repo'];
   }
 };
 

@@ -1,0 +1,35 @@
+@import '/src/assets/colors/mrt.css';
+
+img.download {
+  height: 1rem;
+}
+
+.button.home {
+  color: white;
+  background-color: var(--ew);
+}
+
+.button.home:hover {
+  color: white;
+  background-color: var(--ew-dark);
+}
+
+.button.merits {
+  color: white;
+  background-color: var(--ns);
+}
+
+.button.merits:hover {
+  color: white;
+  background-color: var(--ns-dark);
+}
+
+.button.projects {
+  color: white;
+  background-color: var(--ne);
+}
+
+.button.projects:hover {
+  color: white;
+  background-color: var(--ne-dark);
+}

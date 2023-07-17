@@ -12,7 +12,7 @@
       },
       {
         "title": "background",
-        "text": "Besides schoolwork, I've done a couple of automation scripts in Bash, including an auto-gitter, which commits individual files in a directory individually."
+        "text": "Besides schoolwork, I've done a couple of automation scripts in Bash, including an <<../projects/coding/auto-gitter>>auto-gitter</>, which commits individual files in a directory individually."
       }
     ],
     "related": [
@@ -42,7 +42,7 @@
     "description": [
       {
         "title": "background",
-        "text": "I started learning Chinese in 2018, where I quickly started and completed the course on Duolingo. After that, I was motivated to try out the 汉语水平考试, which is the standardized test for non-native speakers of the language. I did the HSK 3 test in late 2019, where I scored over 90% in the test. In 2021, I scored just over 70% for the HSK 5 test while in 2022, I scored in the 50-60% range.\nApart from regularly reading my news in Chinese, I have created several coding projects to assist me in my learning journey. Firstly, my language extraction package allows me to search for sample sentences programmatically. Secondly, my language database allows for enhanced search queries. Thirdly, my language-learning telegram bot helps me revise my vocabulary."
+        "text": "I started learning Chinese in 2018, where I quickly started and completed the course on Duolingo. After that, I was motivated to try out the 汉语水平考试, which is the standardized test for non-native speakers of the language. I did the HSK 3 test in late 2019, where I scored over 90% in the test. In 2021, I scored just over 70% for the HSK 5 test while in 2022, I scored in the 50-60% range.\nApart from regularly reading my news in Chinese, I have created several coding projects to assist me in my learning journey. Firstly, my <<../projects/coding/sentence-searcher>>language extraction package</> allows me to search for sample sentences programmatically. Secondly, my language database allows for enhanced search queries. Thirdly, my language-learning telegram bot helps me revise my vocabulary."
       }
     ],
     "related": [
@@ -110,7 +110,7 @@
       },
       {
         "title": "background",
-        "text": "I first learned C++ in 2017, where I was getting to know the basics of programming. Along with <<../merits/languages/python>>Python</>, C++ was one of my first languages. Despite having early exposure to the language, I didn't explore C++ any further, and chose to focus on Python for my regular programming tasks.\nIn 2022, after learning the <<../merits/languages/c>>C language</>, I started creating my own projects in C++. I mainly did projects that allowed me to practice both my <<../merits/skills/data-structures>>Data Structures</> and OOP. For example, I created a self-zooming matrix that allows me to store geospatial points and perform distance queries more easily."
+        "text": "I first learned C++ in 2017, where I was getting to know the basics of programming. Along with <<../merits/languages/python>>Python</>, C++ was one of my first languages. Despite having early exposure to the language, I didn't explore C++ any further, and chose to focus on Python for my regular programming tasks.\nIn 2022, after learning the <<../merits/languages/c>>C language</>, I started creating my own projects in C++. I mainly did projects that allowed me to practice both my <<../merits/skills/data-structures>>Data Structures</> and OOP. For example, I created a <<../projects/coding/sz-matrix>>self-zooming matrix</> that allows me to store geospatial points and perform distance queries more easily."
       }
     ],
     "related": [
@@ -333,7 +333,7 @@
       },
       {
         "title": "background",
-        "text": "Before starting my university, I enrolled in a Java course, which taught me the basics of Java programming, as well as OOP concepts. I must admit that I was quite lazy during this part of my learning. However, I did complete the course, and scored quite high for the tested components.\nI learned most of my Java knowledge in university, though, as there were copious amounts of lecture material as well as programming assignments to practice the language. First, it was <<../merits/modules/cs2030s>>CS2030S</>, which taught programming paradigms, including more advanced topics such as multi-threading and calling APIs. At the same time, <<../merits/modules/cs2040s>>CS2040S</> taught me how to work with more advanced data structures, and how to apply complex algorithms to solve difficult problems.\nUndoubtedly, however, I learn best when creating projects, and not when completing assignments. As such, I found my <<../merits/modules/cs2103t>>CS2103T</> module to be my most fruitful. In essence, our team had to work with an existing codebase, which was a simple address book. I think I went a little overboard, as I wrote over 18,000 lines of Java code, which was far above the expected of 2,000 per student. I think through this experience, I got to learn the different quirks of Java programming, including technologies such as Junit and JavaFX. After facing lots of debugging challenges, I think I am well-equipped in dealing with difficult Java development problems.\nI also worked with <<../merits/technologies/spring-boot>>Spring Boot</>, though I haven't done anything special with it yet."
+        "text": "Before starting my university, I enrolled in a Java course, which taught me the basics of Java programming, as well as OOP concepts. I must admit that I was quite lazy during this part of my learning. However, I did complete the course, and scored quite high for the tested components.\nI learned most of my Java knowledge in university, though, as there were copious amounts of lecture material as well as programming assignments to practice the language. First, it was <<../merits/modules/cs2030s>>CS2030S</>, which taught programming paradigms, including more advanced topics such as multi-threading and calling APIs. At the same time, <<../merits/modules/cs2040s>>CS2040S</> taught me how to work with more advanced data structures, and how to apply complex algorithms to solve difficult problems.\nUndoubtedly, however, I learn best when creating projects, and not when completing assignments. As such, I found my <<../merits/modules/cs2103t>>CS2103T</> module to be my most fruitful. In essence, our team had to improve an existing codebase, which was a simple address book, and build something new with it (see <<../projects/coding/edumate>>EduMate</>). I think I went a little overboard, as I wrote over 18,000 lines of Java code, which was far above the expected of 2,000 per student. I think through this experience, I got to learn the different quirks of Java programming, including technologies such as <<../merits/technologies/junit>>JUnit</> and JavaFX. After facing lots of debugging challenges, I think I am well-equipped in dealing with difficult Java development problems.\nI also worked with <<../merits/technologies/spring-boot>>Spring Boot</>, though I haven't done anything special with it yet."
       }
     ],
     "related": [
@@ -386,7 +386,7 @@
     "description": [
       {
         "title": "description",
-        "text": "JavaScript is a dynamic and versatile programming language primarily used for client-side web development, allowing developers to add interactivity, validate input, manipulate the DOM, handle events, and create dynamic web experiences, while also being used for server-side development with Node.js."
+        "text": "JavaScript is a dynamic and versatile programming language primarily used for client-side <<../merits/skills/web-development>>web development</>, allowing developers to add interactivity, validate input, manipulate the DOM, handle events, and create dynamic web experiences, while also being used for server-side development with <<../merits/technologies/node-js>>Node.js</>."
       },
       {
         "title": "background",
@@ -518,7 +518,7 @@
       },
       {
         "title": "background",
-        "text": "I hate MatLab. It causes my laptop to heat up, uses 1-indexing and very difficult to debug at times. But I can't escape MatLab, since it is used quite frequently in my modules. Linear Algebra I and II were my first introductions to MatLab, where I explored not only the world of matrix manipulation, but also the world of linear spaces and transformations.\nBut I think the bulk of my experience came from <<../merits/modules/cs2108>>CS2108 Introduction to Media Computing</>. This module places heavy emphasis on understanding signals and how to process them. It features weekly programming assignments in MatLab, where we have to implement certain algorithms, and compute certain signal values all in MatLab. These were quite tedious, since the lecturer didn't give us any guidance on how to use the language. Instead, we were left to self-learn the language in order to complete the assignments. They weren't hard. Just tedious. There was also the pair project, where we had to implement the JPEG compression algorithm using Fast Fourier Transform (FFT), instead of Discrete Cosine Transform (DCT). This meant our implementation was bound to be less powerful than the actual JPEG compression, so my partner and I found it quite challenging.\nBut I think this experience has definitely built up my confidence in developing algorithms in MatLab, but unless I'm forced to, I won't use it."
+        "text": "I hate MatLab. It causes my laptop to heat up, uses 1-indexing and very difficult to debug at times. But I can't escape MatLab, since it is used quite frequently in my modules. <<../merits/modules/ma2001>>Linear Algebra I</> and <<../merits/modules/ma2101>>II</> were my first introductions to MatLab, where I explored not only the world of matrix manipulation, but also the world of linear spaces and transformations.\nBut I think the bulk of my experience came from <<../merits/modules/cs2108>>CS2108 Introduction to Media Computing</>. This module places heavy emphasis on understanding signals and how to process them. It features weekly programming assignments in MatLab, where we have to implement certain algorithms, and compute certain signal values all in MatLab. These were quite tedious, since the lecturer didn't give us any guidance on how to use the language. Instead, we were left to self-learn the language in order to complete the assignments. They weren't hard. Just tedious. There was also the pair project, where we had to implement the JPEG compression algorithm using Fast Fourier Transform (FFT), instead of Discrete Cosine Transform (DCT). This meant our implementation was bound to be less powerful than the actual JPEG compression, so my partner and I found it quite challenging.\nBut I think this experience has definitely built up my confidence in developing algorithms in MatLab, but unless I'm forced to, I won't use it."
       }
     ],
     "related": [
@@ -571,15 +571,15 @@
       },
       {
         "title": "background",
-        "text": "Python is my favourite language for all sorts of development. Mainly because of the enriched ecosystem; basically everything has a comprehensive library for it.\nMy first exposure to Python was the Coursera course by the University of Michigan, where I learned all sorts of Python development, from web scraping, to data clearning, to SQL queries. Due to this prior experience, I was selected to become the <<../merits/experiences/robotics>>Programming Head</> of my school's Robotics Club. In July that year, I organized training sessions to teach Python to the other members of the club (even if it didn't go that well). I further used Python to participate in the National Olympiad for Informatics."
+        "text": "Python is my favourite language for all sorts of development. Mainly because of the enriched ecosystem; basically everything has a comprehensive library for it.\nMy first exposure to Python was the <<../merits/certificates/python-for-everybody>>Coursera course by the University of Michigan</>, where I learned all sorts of Python development, from <<../merits/skills/web-scraping>>web scraping</>, to <<../merits/skills/data-cleaning>>data cleaning</>, to <<../merits/languages/sql>>SQL</> queries. Due to this prior experience, I was selected to become the <<../merits/experiences/robotics>>Programming Head</> of my school's Robotics Club. In July that year, I organized training sessions to teach Python to the other members of the club (even if it didn't go that well). I further used Python to participate in the National Olympiad for Informatics."
       },
       {
         "title": "national service",
-        "text": "I was also selected for the Data Analytics position during my National Service, where 95% of the work was Python-based. Coupled with <<../merits/technologies/pandas>>Pandas</>, I used Python to perform <<../merits/skills/operational-analysis>>Operational Analysis</> and <<../merits/skills/data-cleaning>>Data Cleaning</> for several projects. But my proudest achievement in Python during this period of time was my development work on the DRO project, where I managed to greatly streamline and optimise workflows."
+        "text": "I was also selected for the Data Analytics position during my National Service, where 95% of the work was Python-based. Coupled with <<../merits/technologies/pandas>>Pandas</>, I used Python to perform <<../merits/skills/operational-analysis>>Operational Analysis</> and <<../merits/skills/data-cleaning>>Data Cleaning</> for several projects. But my proudest achievement in Python during this period of time was my development work on the <<../projects/coding/dynamic-resource-optimiser>>DRO project</>, where I managed to greatly streamline and optimise workflows."
       },
       {
         "title": "personal projects",
-        "text": "Outside of that, I've developed quite a lot of Python projects; Some were for data science, some were Python packages. Among them, I think my geospatial projects are the most prominent, as they all build upon each other, eventually leading up to my <<../projects/coding/malls-of-singapore>>Malls Card Game</>."
+        "text": "Outside of that, I've developed quite a lot of Python projects; Some were for <<../merits/skills/data-science>>data science</>, some were Python packages. Among them, I think my geospatial projects are the most prominent, as they all build upon each other, eventually leading up to my <<../projects/coding/malls-of-singapore>>Malls Card Game</>."
       }
     ],
     "related": [
@@ -664,7 +664,7 @@
       },
       {
         "title": "background",
-        "text": "R is also another language that I love using, mainly because of its %>% pipeline operator, which makes the data science process very enjoyable. Firstly, I learned R programming mostly from EDX, under the HarvardX course on Data Science. I then quickly applied it to my work in National Service, where I developed and maintained data cleaning processes in R. I also was involved in the mass-migration of R scripts into Python, which meant proficiency in both languages.\nHowever, R's capabilities pretty much stop at data science, as it is not at all optimised for any kind of development. As such, nowadays, I rarely use it at all."
+        "text": "R is also another language that I loved using, mainly because of its %>% pipeline operator, which makes the data science process very enjoyable. Firstly, I learned R programming mostly from <<../merits/certificates/harvardx-data-science>>EDX, under the HarvardX course on Data Science</>. I then quickly applied it to my work in <<../merits/experiences/data-analytics>>National Service</>, where I developed and maintained <<../merits/skills/data-cleaning>>data cleaning</> processes in R. I also was involved in the mass-migration of R scripts into <<../merits/languages/python>>Python</>, which meant proficiency in both languages.\nHowever, R's capabilities pretty much stop at <<../merits/skills/data-science>>data science</>, as it is not at all optimised for any kind of development. As such, nowadays, I rarely use it at all."
       }
     ],
     "related": [
@@ -696,15 +696,15 @@
     "description": [
       {
         "title": "description",
-        "text": "Ruby is a dynamic and elegant programming language known for its simplicity and productivity, emphasising readability and flexibility, making it a popular choice for web development, scripting, and automation, with a focus on developer happiness and code readability."
+        "text": "Ruby is a dynamic and elegant programming language known for its simplicity and productivity, emphasising readability and flexibility, making it a popular choice for <<../merits/skills/web-development>>web development</>, scripting, and automation, with a focus on developer happiness and code readability."
       },
       {
         "title": "background",
-        "text": "During my National Service, I maintained and made minor modifications to quite a lot of Ruby scripts. This involved a lot of stack tracing, and making sense of Ruby's object system and weird abstractions, but I managed to get it done.\nAt the same time, I managed to learn <<../merits/technologies/ruby-on-rails>>Ruby on Rails</>, and managed to create a simple web app."
+        "text": "During my <<../merits/experiences/data-analytics>>National Service</>, I maintained and made minor modifications to quite a lot of Ruby scripts. This involved a lot of stack tracing, and making sense of Ruby's object system and weird abstractions, but I managed to get it done.\nAt the same time, I managed to learn <<../merits/technologies/ruby-on-rails>>Ruby on Rails</>, and managed to create a simple web app."
       },
       {
         "title": "internship",
-        "text": "I think my most valuable experience in Ruby development comes from my internship. During my internship, I was tasked with developing a web application that showcases the company's geospatial APIs. As such, I used a Rails backend and a React frontend to accomplish this task. The Ruby side required me to develop APIs, with validation and databases, and ample API testing using Rswag. I was also required to write code documentation for the project, which was quite a hassle. I think the project turned out fine, though it doesn't fully meet my expectations. Nonetheless, it was a good experience in Ruby."
+        "text": "I think my most valuable experience in Ruby development comes from my <<../merits/experiences/fullstack-intern>>internship</>. During my internship, I was tasked with developing a web application that showcases the company's geospatial APIs. As such, I used a Rails backend and a React frontend to accomplish this task. The Ruby side required me to develop APIs, with validation and databases, and ample API testing using Rswag. I was also required to write code documentation for the project, which was quite a hassle. I think the project turned out fine, though it doesn't fully meet my expectations. Nonetheless, it was a good experience in Ruby."
       }
     ],
     "related": [
@@ -746,7 +746,7 @@
       },
       {
         "title": "background",
-        "text": "Although Rust introduces additional complexity to C++, I find it quite enjoyable to code in Rust, and I've been using it for all sorts of things. Firstly, to practice my Data Structures, I used Rust to find optimal routes for navigating Singapore. This includes working with Rocket (the Rust backend framework), Diesel (the Rust database interactor), as well as Yew (the Rust frontend framework). Secondly, I used Rust to create a CLI for practicing languages, which I sometimes use."
+        "text": "Although Rust introduces additional complexity to <<../merits/languages/cpp>>C++</>, I find it quite enjoyable to code in Rust, and I've been using it for all sorts of things. Firstly, to practice my <<../merits/skills/data-structures>>Data Structures</>, I used Rust to find optimal routes for navigating Singapore. This includes working with <<../merits/technologies/rocket-rs>>Rocket</> (the Rust backend framework), Diesel (the Rust database interactor), as well as Yew (the Rust frontend framework). Secondly, I used Rust to create a <<../projects/coding/jap-vocab-trainer>>CLI for practicing languages</>, which I sometimes use."
       }
     ],
     "related": [
@@ -824,11 +824,11 @@
     "description": [
       {
         "title": "description",
-        "text": "SQL (Structured Query Language) is a standard programming language used for managing relational databases, allowing users to store, retrieve, manipulate, and analyze data, perform complex queries, and define the structure and relationships of database tables, providing a powerful tool for data management and interaction with database systems."
+        "text": "SQL (Structured Query Language) is a standard programming language used for managing relational databases, allowing users to store, retrieve, manipulate, and analyse data, perform complex queries, and define the structure and relationships of database tables, providing a powerful tool for <<../merits/skills/data-management>>data management</> and interaction with database systems."
       },
       {
         "title": "background",
-        "text": "I think the main bulk of my SQL knowledge comes from my time at the <<../merits/experiences/data-management>>Enterprise Information Management</>. In that role, I used SQL to extract and transform data for use in <<../merits/technologies/power-bi>>Power BI</> dashboards. I also used SQL to create scripts in SQL Server Management Studio (SSMS) as part of data pipeline development."
+        "text": "I think the main bulk of my SQL knowledge comes from my time at the <<../merits/experiences/data-management>>Enterprise Information Management</>. In that role, I used SQL to extract and transform data for use in <<../merits/technologies/power-bi>>Power BI</> dashboards. I also used SQL to create scripts in <<../merits/technologies/ssms>>SQL Server Management Studio (SSMS)</> as part of data pipeline development."
       },
       {
         "title": "coursework",
@@ -885,7 +885,7 @@
     "description": [
       {
         "title": "description",
-        "text": "TypeScript is a statically typed superset of JavaScript that adds optional type annotations, improved tooling, and modern language features, providing a more robust and scalable development experience, enhancing code quality, and enabling easier maintenance and collaboration in large-scale JavaScript projects."
+        "text": "TypeScript is a statically typed superset of JavaScript that adds optional type annotations, improved tooling, and modern language features, providing a more robust and scalable development experience, enhancing code quality, and enabling easier maintenance and collaboration in large-scale <<../merits/languages/javascript>>JavaScript</> projects."
       },
       {
         "title": "background",

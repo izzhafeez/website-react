@@ -4,6 +4,7 @@
     "imgPath": "github.svg",
     "importance": 1,
     "date": "Sep'22",
+    "repo": "https://github.com/mynameizzhafeez/bash-projects",
     "overview": "Individually commits every file changed within a directory",
     "description": [
       {

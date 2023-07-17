@@ -1,4 +1,7 @@
+import DownloadButton from "components/basic/button/DownloadButton";
 import Project from "../Project";
+import Button from "components/basic/button/Button";
+import YoutubeButton from "components/basic/button/YoutubeButton";
 
 class Music extends Project {
   constructor({ artist, link, imgPath, ...fields }) {
@@ -31,14 +34,17 @@ class Music extends Project {
         {this.getHeader()}
         {this.getDetails().getParsed()}
         {this.description.getParsed()}
-        <h3><a href={`/music/${this.title}.pdf`} download>DOWNLOAD SHEET MUSIC</a></h3>
-        <h3><a href={`/music/${this.title}.mp3`} download>DOWNLOAD MP3</a></h3>
-        <h3><a href={this.link}>WATCH VIDEO ON YOUTUBE</a></h3>
-        <h3>
-          <a href={this.getBackLink(type)} className='link-body-emphasis'>
-            GO BACK
-          </a>
-        </h3>
+        <section id='buttons' className='row'>
+          <div className='col-auto'>
+            {new DownloadButton({ link: `/music/${this.title}.pdf`, text: 'Sheet Music'}).getElement()}
+          </div>
+          <div className='col-auto'>
+            {new DownloadButton({ link: `/music/${this.title}.mp3`, text: 'MP3'}).getElement()}
+          </div>
+          <div className='col-auto'>
+            {new YoutubeButton({ link: this.link }).getElement()}
+          </div>
+        </section>
       </div>
     </article>
   };

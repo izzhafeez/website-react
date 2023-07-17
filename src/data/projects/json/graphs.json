@@ -325,6 +325,21 @@
     "imgPath": "ti-competition.jpg",
     "importance": 5,
     "complexity": 2,
-    "link": "https://www.desmos.com/calculator/ec8iue2omr"
+    "link": "https://www.desmos.com/calculator/ec8iue2omr",
+    "description": [
+      {
+        "title": "description",
+        "text": "I think this was the most important graph I've made in JC. A little back story for this graph: Texas Instruments holds a competition every year, inviting stuents from all across Singapore to create art using the TI-84 graphing calculator. The theme for 2018 was 'Towards a Smart Nation' and as such, I decided to go for an AI-centric approach, with some miscellaneous science symbolism in the background. I designed the artwork first using Desmos, then copying every equation into the GC. These efforts were what gained me the Gold Award for the competition, which I am quite proud of."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "awards",
+        "items": [
+          "ti-graphing"
+        ]
+      }
+    ]
   }
 }

@@ -195,7 +195,7 @@
       },
       {
         "title": "background",
-        "text": "Django is by far my most used backend framework. This is mainly because most of the libraries I have created were written in Python, making it easier to import them into Django applications such as <<../projects/coding/meetup-maker>>MeetupMaker</>. It is just much easier to get a simple application running, as compared to the more rigid frameworks found in other languages like Java, Go and Rust. I'm sure that when the application becomes more complex, I will start to see the issues with Django. But for most of my development work, I love it."
+        "text": "Django is by far my most used backend framework. This is mainly because most of the libraries I have created were written in Python, making it easier to import them into Django applications such as <<../projects/coding/meetup-maker>>MeetupMaker</>. It is just much easier to get a simple application running, as compared to the more rigid frameworks found in other languages like <<../merits/languages/java>>Java</>, <<../merits/languages/go>>Go</> and <<../merits/languages/rust>>Rust</>. I'm sure that when the application becomes more complex, I will start to see the issues with Django. But for most of my development work, I love it."
       }
     ],
     "related": [
@@ -346,11 +346,11 @@
     "description": [
       {
         "title": "description",
-        "text": "Flask is a lightweight web framework written in Python that allows you to build web applications quickly and efficiently."
+        "text": "Flask is a lightweight web framework written in <<../merits/languages/python>>Python</> that allows you to build web applications quickly and efficiently."
       },
       {
         "title": "background",
-        "text": "My first introduction to Flask was during my <<../merits/experiences/data-analytics>>NS</>, where I had to maintain a piece of optimisation software written in Flask. At the same time, I developed a Flask application for searching music chords, serving as the application layer for a Python script that I made previously. I still prefer Django, though, as I am now more familiar with it than with Flask."
+        "text": "My first introduction to Flask was during my <<../merits/experiences/data-analytics>>NS</>, where I had to maintain a piece of <<../projects/coding/dynamic-resource-optimiser>>optimisation software</> written in Flask. At the same time, I developed a Flask application for searching music chords, serving as the application layer for a Python script that I made previously. I still prefer Django, though, as I am now more familiar with it than with Flask."
       }
     ],
     "related": [
@@ -889,7 +889,7 @@
       },
       {
         "title": "background",
-        "text": "For the <<../projects/coding/note-together>>NoteTogether</> project, I comprehensively tested our backend API, performing Unit, Integration and System testing. This testing was good enough for our project to be considered for the highest level of achievement (Artemis).\nDespite its ease of use on small-scale testing, it does slow down a lot as it is a web program. As such, I'd much rather use Python's Request library to run the tests."
+        "text": "For the <<../projects/coding/note-together>>NoteTogether</> project, I comprehensively tested our backend API, performing <<../merits/skills/software-testing>>Unit, Integration and System testing</>. This testing was good enough for our project to be considered for the highest level of achievement (Artemis).\nDespite its ease of use on small-scale testing, it does slow down a lot as it is a web program. As such, I'd much rather use Python's Request library to run the tests."
       }
     ],
     "related": [
@@ -1045,11 +1045,11 @@
     "description": [
       {
         "title": "description",
-        "text": "Ruby on Rails is a popular web application framework written in Ruby that follows the MVC architectural pattern, providing developers with a productive environment for building robust and scalable web applications with convention-over-configuration principles."
+        "text": "Ruby on Rails is a popular web application framework written in <<../merits/languages/ruby>>Ruby</> that follows the MVC architectural pattern, providing developers with a productive environment for building robust and scalable web applications with convention-over-configuration principles."
       },
       {
         "title": "background",
-        "text": "Firstly, I was involved in the development, maintenance and operation of an optimisation software, where part of it was written in Rails. Naturally, I had to pick it up and make modifications and fixes along the way in order to continue operating the software.\nSecondly, during my internship, I also used Rails to serve as the backend for a web application that showcased the compeny's geospatial APIs. Through these two experiences, I became more familiar with Rails."
+        "text": "Firstly, I was involved in the development, maintenance and operation of an optimisation software, where part of it was written in Rails. Naturally, I had to pick it up and make modifications and fixes along the way in order to continue operating the software.\nSecondly, during my <<../merits/experiences/fullstack-intern>>internship</>, I also used Rails to serve as the backend for a web application that showcased the compeny's geospatial APIs. Through these two experiences, I became more familiar with Rails."
       }
     ],
     "related": [
@@ -1091,7 +1091,7 @@
       },
       {
         "title": "background",
-        "text": "React.js has become my primary frontend framework, starting from 2022 when I built my personal website using React. Since then, I have utilised React extensively for various projects, including the current version of my website you are viewing. During my internship, I leveraged React to develop a geospatial API web application, gaining valuable experience in request handling, form validation, and error handling with tools like Formik and Yup. This journey has deepened my understanding and appreciation for React's capabilities and its role in creating dynamic and robust web applications."
+        "text": "React.js has become my primary frontend framework, starting from 2022 when I built my personal website using React. Since then, I have utilised React extensively for various projects, including the current version of my website you are viewing. During my <<../merits/experiences/fullstack-intern>>internship</>, I leveraged React to develop a geospatial API web application, gaining valuable experience in request handling, form validation, and error handling with tools like **Formik** and **Yup**. This journey has deepened my understanding and appreciation for React's capabilities and its role in creating dynamic and robust web applications."
       }
     ],
     "related": [
@@ -1174,7 +1174,7 @@
       },
       {
         "title": "background",
-        "text": "I mainly use Selenium to test out the frontend of my web applications, such as the <<../projects/coding/note-together>>NoteTogether</> application. Besides that, I sometimes use Selenium to perform web-scraping, but I mostly just use my <<../projects/coding/spiderman>>SpiderMan</> web scraper to do so, as it is much easier for me to use."
+        "text": "I mainly use Selenium to test out the frontend of my web applications, such as the <<../projects/coding/note-together>>NoteTogether</> application. Besides that, I sometimes use Selenium to perform <<../merits/skills/web-scraping>>web-scraping</>, but I mostly just use my <<../projects/coding/spiderman>>SpiderMan</> web scraper to do so, as it is much easier for me to use."
       }
     ],
     "related": [
@@ -1537,7 +1537,7 @@
     "description": [
       {
         "title": "description",
-        "text": "Vue.js is a progressive JavaScript framework for building user interfaces, known for its simplicity, flexibility, and reactivity, allowing developers to create interactive and scalable web applications with ease."
+        "text": "Vue.js is a progressive <<../merits/languages/javascript>>JavaScript</> framework for building user interfaces, known for its simplicity, flexibility, and reactivity, allowing developers to create interactive and scalable web applications with ease."
       },
       {
         "title": "background",

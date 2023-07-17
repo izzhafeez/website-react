@@ -108,7 +108,7 @@ class Item {
     // the header for the item's page.
     return <header>
       <h3 className={`display-6`}>
-        {this.getHeaderText()}
+        {this.getHeaderText()} (<a href={this.getBackLink()} className='link-body-emphasis'>GO BACK</a>)
       </h3>
     </header>
   }
@@ -136,17 +136,12 @@ class Item {
   
   getPage() {
     // element for the page view for the item.
-    return <article className='container p-4'>
+    return <article className='container pt-4 px-4'>
       {this.getImage(true)}
       <div className='text-start'>
         {this.getHeader()}
         {this.getDetails().getParsed()}
         {this.description.getParsed()}
-        <h3>
-          <a href={this.getBackLink()} className='link-body-emphasis'>
-            GO BACK
-          </a>
-        </h3>
       </div>
     </article>
   };

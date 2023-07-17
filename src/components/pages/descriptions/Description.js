@@ -23,7 +23,9 @@ const parseSection = category => descriptionSection => {
 
   switch (title) {
     case 'link':
-      return parseLinkSection(text, category);
+      return parseLinkSection(text, category, 'Visit Site');
+    case 'repo':
+      return parseLinkSection(text, category, 'Visit Repository');
     case 'proficiency':
     case 'complexity':
       return parseProficiency(title, text, category);
