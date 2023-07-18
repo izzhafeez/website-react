@@ -10,19 +10,19 @@ const routesData = [
     types: []
   },
   {
-    category: 'merits',
-    constructor: data => new Merits(data),
-    ...allData.merits,
-    types: [
-      'all', 'experiences', 'awards', 'certificates', 'modules', 'languages', 'technologies', 'skills'
-    ]
-  },
-  {
     category: 'projects',
     constructor: data => new Projects(data),
     ...allData.projects,
     types: [
       'all', 'coding', 'music', 'graphs'
+    ]
+  },
+  {
+    category: 'merits',
+    constructor: data => new Merits(data),
+    ...allData.merits,
+    types: [
+      'all', 'experiences', 'awards', 'certificates', 'modules', 'languages', 'technologies', 'skills'
     ]
   },
 ];

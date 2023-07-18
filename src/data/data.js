@@ -4,7 +4,7 @@ import projectsData from "./projects";
 const allData = {
   home: {
     data: {},
-    description: "Welcome to my website! Here is where I document some of the things I've <<../merits>>learnt</> and <<../projects>>created</> over the years. "
+    description: "I am a third year student at NUS studying <<../merits/modules>>Computer Science and Maths</>. I've held a couple of <<../merits/experiences>>tech-related positions</>, where I learned many <<../merits/languages>>languages</>, <<../merits/technologies>>technologies</> and <<../merits/skills>>skills</>. In my free time, I like to work on personal <<../projects>>projects</>, which include creating <<../projects/music>>music</> and <<../projects/graphs>>art</>. Besides that, I have a deep passion for geography, so you'll often find me exploring geospatial data.\nI'm looking for opportunities to develop applications that make it easier for people like me to learn, create and innovate.\nInterested? Do contact me on any one of my platforms: <<https://www.linkedin.com/in/izzhafeez/>>LinkedIn</> | <<izzhafeez@gmail.com>>Email</> | <<https://www.youtube.com/c/izzhafeez>>YouTube</> | <<https://www.instagram.com/mynameizzhafeez/?hl=en>>Instagram</> | <<https://github.com/mynameizzhafeez>>GitHub</>"
   },
   merits: {
     data: meritsData,

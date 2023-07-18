@@ -11,7 +11,7 @@ export const parseLinkSection = (link, category, text) => {
 export const parseProficiency = (title, text, category) => {
   return <section key='proficiency'>
     <h3 className={category}>{title.toUpperCase()}</h3>
-    <p><StarScale value={text}/></p>
+    <h3><StarScale value={text}/></h3>
   </section>
 }
 

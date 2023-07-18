@@ -13,15 +13,15 @@
 }
 
 .icon-container.home {
+  border: 0.5rem solid var(--lrt);
+}
+
+.icon-container.projects {
   border: 0.5rem solid var(--ew);
 }
 
 .icon-container.merits {
   border: 0.5rem solid var(--ns);
-}
-
-.icon-container.projects {
-  border: 0.5rem solid var(--ne);
 }
 
 .mega-icon {

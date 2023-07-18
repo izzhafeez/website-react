@@ -16,7 +16,6 @@ class DownloadButton extends Button {
       className={`${this.getClassName()}`}
       download
     >
-      {/* <img src='/img/icons/download.svg' className='download col-auto'/> */}
       <i class="fa fa-download"></i>&nbsp;
       {this.text}
     </a>;

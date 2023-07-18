@@ -5,7 +5,7 @@ import musicData from './json/music.json';
 const projectsData = {
   coding: {
     data: codingData,
-    limit: 5,
+    limit: 3,
     description: "I've always enjoyed creating my own things, which was why programming was an outlet for me to be creative. It sounds cliche, yes, but that's just how it is.\nI always push myself to learn new technologies, having the 'Why not' mindset when choosing my stack."
   },
   music: {

@@ -1,10 +1,19 @@
 @import 'assets/colors/mrt.css';
 
 .nav-link.home:hover {
-  background-color: var(--ew-v-light);
+  background-color: var(--lrt-v-light);
 }
 
 .nav-link.home.active {
+  background-color: var(--lrt-light);
+  color: white;
+}
+
+.nav-link.projects:hover {
+  background-color: var(--ew-v-light);
+}
+
+.nav-link.projects.active {
   background-color: var(--ew-light);
   color: white;
 }
@@ -15,15 +24,6 @@
 
 .nav-link.merits.active {
   background-color: var(--ns-light);
-  color: white;
-}
-
-.nav-link.projects:hover {
-  background-color: var(--ne-v-light);
-}
-
-.nav-link.projects.active {
-  background-color: var(--ne-light);
   color: white;
 }
 

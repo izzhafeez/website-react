@@ -1,7 +1,9 @@
+import './style.scss';
+
 const StarScale = ({ value }) => {
   const emptyStar = '☆';
   const fullStar = '★';
-  const halfStar = <span key='half' className='text-muted'>★</span>;
+  const halfStar = <span key='half' className='half-star'>★</span>;
 
   if (!Number.isInteger(value)) {
     throw new Error('Value on the scale must be a number.');
