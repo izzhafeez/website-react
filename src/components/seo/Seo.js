@@ -5,7 +5,7 @@ class Seo {
   constructor({ title, imgPath, category, type, page, description }) {
     this.title = capitalise(title);
     this.imgPath = `/img/${imgPath}`;
-    this.description = description.split(/\.$|\.\s/).slice(0, 2).map(text => text + ".").join(' ');
+    this.description = description !== undefined ? description.split(/\.$|\.\s/).slice(0, 2).map(text => text + ".").join(' ') : '';
     this.url = `https://www.izzhafeez.com`;
     if (category !== undefined) {
       this.url += `/${category}`;

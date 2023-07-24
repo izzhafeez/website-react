@@ -4,7 +4,7 @@ import MacroIcon from "components/basic/img/MacroIcon";
 import MicroIcon from "components/basic/img/MicroIcon";
 
 class Item {
-  constructor({ key, category, type, title, imgPath, importance, description, related }) {
+  constructor({ key, category, type, title, imgPath, importance, description='', related }) {
     this.key = key;
     this.category = category;
     this.type = type;

@@ -16,7 +16,7 @@ class YoutubeButton extends Button {
       download
     >
       {/* <img src='/img/icons/download.svg' className='download col-auto'/> */}
-      <i class="fa fa-youtube"></i>&nbsp;
+      <i className="fa fa-youtube"></i>&nbsp;
       YouTube
     </a>;
   }

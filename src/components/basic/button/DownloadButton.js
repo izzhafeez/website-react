@@ -16,7 +16,7 @@ class DownloadButton extends Button {
       className={`${this.getClassName()}`}
       download
     >
-      <i class="fa fa-download"></i>&nbsp;
+      <i className="fa fa-download"></i>&nbsp;
       {this.text}
     </a>;
   }

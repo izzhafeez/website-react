@@ -4,6 +4,8 @@ class Description {
   constructor({ description, category }) {
     this.description = typeof description === 'string'
       ? [{ text: description }]
+      : description === undefined
+      ? []
       : description;
     this.category = category;
   };

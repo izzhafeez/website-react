@@ -15,7 +15,7 @@ class Button {
       href={this.link}
       className={this.getClassName()}
     >
-      <i class="fa fa-external-link"></i>&nbsp;
+      <i className="fa fa-external-link"></i>&nbsp;
       {this.text}
     </a>
   }
