@@ -10,6 +10,7 @@ class Mall extends BlogPost {
   constructor({ latitude, longitude, station, stores, floors, area, date, ...fields }) {
     super({
       type: 'malls',
+      description: [],
       ...fields
     });
     this.latitude = latitude;
