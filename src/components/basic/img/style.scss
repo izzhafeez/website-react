@@ -24,9 +24,12 @@
   border: 0.5rem solid var(--ns);
 }
 
+.icon-container.blog {
+  border: 0.5rem solid var(--ne);
+}
+
 .mega-icon {
-  width: 24rem;
+  width: 32rem;
   max-width: 100%;
-  aspect-ratio: 1/1;
   object-fit: contain;
 }

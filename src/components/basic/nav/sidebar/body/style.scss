@@ -27,6 +27,15 @@
   color: white;
 }
 
+.nav-link.blog:hover {
+  background-color: var(--ne-v-light);
+}
+
+.nav-link.blog.active {
+  background-color: var(--ne-light);
+  color: white;
+}
+
 .nav-img {
   height: 1.5rem;
 }

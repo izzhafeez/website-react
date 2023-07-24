@@ -14,6 +14,16 @@ img.download {
   background-color: var(--lrt-dark);
 }
 
+.button.projects {
+  color: white;
+  background-color: var(--ew);
+}
+
+.button.projects:hover {
+  color: white;
+  background-color: var(--ew-dark);
+}
+
 .button.merits {
   color: white;
   background-color: var(--ns);
@@ -24,12 +34,12 @@ img.download {
   background-color: var(--ns-dark);
 }
 
-.button.projects {
+.button.blog {
   color: white;
-  background-color: var(--ew);
+  background-color: var(--ne);
 }
 
-.button.projects:hover {
+.button.blog:hover {
   color: white;
-  background-color: var(--ew-dark);
+  background-color: var(--ne-dark);
 }

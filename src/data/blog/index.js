@@ -1,1 +1,1 @@
-export { default as blogRoutesData } from './blogRoutesData';
+export { default } from './blogData';

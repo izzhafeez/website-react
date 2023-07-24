@@ -23,3 +23,19 @@
 .desc-link.merits:hover {
   color: var(--ns-dark);
 }
+
+.desc-link.blog {
+  color: var(--ne);
+}
+
+.desc-link.blog:hover {
+  color: var(--ne-dark);
+}
+
+.desc-link.no-category {
+  color: black;
+}
+
+.desc-link.no-category:hover {
+  color: #444;
+}

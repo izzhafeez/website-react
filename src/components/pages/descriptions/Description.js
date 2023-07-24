@@ -1,4 +1,4 @@
-import { parseLinkSection, parseParagraphSection, parseProficiency } from "./SectionParser";
+import { parseLinkSection, parseParagraphSection, parseProficiency, parseRaw } from "./SectionParser";
 
 class Description {
   constructor({ description, category }) {
@@ -8,18 +8,26 @@ class Description {
     this.category = category;
   };
 
-  getParsed() {
+  getParsed(isRaw) {
     if (this.description === undefined) {
       return <></>;
     }
 
-    return this.description.map(parseSection(this.category));
+    const mapped = this.description.map(parseSection(this.category)(isRaw));
+    if (isRaw) {
+      return mapped.join(' ');
+    }
+    return mapped;
   };
 };
 
-const parseSection = category => descriptionSection => {
+const parseSection = category => isRaw => descriptionSection => {
   const title = descriptionSection.title;
   const text = descriptionSection.text;
+
+  if (isRaw) {
+    return parseRaw(text);
+  }
 
   switch (title) {
     case 'link':

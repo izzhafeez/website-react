@@ -1,5 +1,6 @@
 import MacroIcon from 'components/basic/img/MacroIcon';
 import Description from 'components/pages/descriptions/Description';
+import Seo from 'components/seo/Seo';
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -12,7 +13,11 @@ const Landing = ({ type, route }) => {
 
   const isHome = type === undefined;
   const isAll = type === 'all';
-  const description = isHome || isAll ? route.description : data[type].description;
+  const rawDescription = isHome || isAll ? route.description : data[type].description;
+  const description = new Description({
+    category: category,
+    description: rawDescription
+  });
   const navigate = useNavigate();
 
   const possibleTypes = types
@@ -32,18 +37,24 @@ const Landing = ({ type, route }) => {
   const title = isHome || isAll ? category : type;
   const backLink = isHome || isAll ? '/' : `/${category}`;
 
+  const imgPath = `types/${title}.svg`;
+
+  const seo = new Seo({
+    title: title,
+    imgPath: imgPath,
+    category: category,
+    type: type,
+    description: description.getParsed(true)
+  });
+
   return <div className='col'>
-    <MacroIcon imgPath={'types/'+title+'.svg'} category={category} type={type}/>
+    <MacroIcon imgPath={imgPath} category={category} type={type}/>
     <h3 className={`display-6 text-start ps-4`}>
       {title.toUpperCase()}&nbsp;
       (<Link to={backLink} className='link-body-emphasis'>GO BACK</Link>)
     </h3>
     <section className='px-4'>
-      {new Description({
-        category: category,
-        description: description
-        }).getParsed()
-      }
+      {description.getParsed()}
     </section>
     {sections.map(section => {
       const items = constructor({
@@ -57,6 +68,7 @@ const Landing = ({ type, route }) => {
         withReturnButton: isHome || isAll
       });
     })}
+    {seo.getHelmet()}
   </div>
 };
 

@@ -1,3 +1,4 @@
+import Mall from "./blog/blogTypes/Mall";
 import { Award, Certificate, Experience, Language, Module, Skill, Technology } from "./merits/meritTypes";
 import Coding from "./projects/projectTypes/Coding";
 import Graph from "./projects/projectTypes/Graph";
@@ -22,6 +23,8 @@ class ItemFactory {
         return ItemFactory.getMeritsConstructor;
       case 'projects':
         return ItemFactory.getProjectsConstructor;
+      case 'blog':
+        return ItemFactory.getBlogConstructor;
       default:
         throw new Error(`Category unknown: ${category}.`)
     }
@@ -56,6 +59,15 @@ class ItemFactory {
         return params => new Music(params);
       case 'graphs':
         return params => new Graph(params);
+      default:
+        throw new Error(`Type unknown: ${type}.`);
+    }
+  }
+
+  static getBlogConstructor(type) {
+    switch(type) {
+      case 'malls':
+        return params => new Mall(params);
       default:
         throw new Error(`Type unknown: ${type}.`);
     }

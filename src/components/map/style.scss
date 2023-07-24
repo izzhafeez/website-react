@@ -1,0 +1,18 @@
+@import '/src/assets/colors/mrt.css';
+
+.map-container {
+  width: 100%;
+  aspect-ratio: 1.5/1;
+}
+
+div.blog {
+  border: 10px solid var(--ne);
+}
+
+#map-overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}

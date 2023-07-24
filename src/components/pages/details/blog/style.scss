@@ -1,0 +1,13 @@
+@import '/src/assets/colors/mrt.css';
+
+article.blog:hover {
+  background-color: var(--ne-v-light);
+}
+
+article.blog {
+  border: 1px solid var(--ne);
+}
+
+h3.blog {
+  color: var(--ne);
+}

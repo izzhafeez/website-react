@@ -1,13 +1,19 @@
 import { Link } from 'react-router-dom';
 import './style.scss';
 
+const LINK_REGEX = /<<(.*?)<\/>/ig;
+const BOLD_REGEX = /\*\*/ig;
+
 const parse = (text, index) => {
   return <p key={index}>{parseLinks(text)}</p>;
 };
 
+export const removeFormatting = (text) => {
+  return text.replace(BOLD_REGEX, '').replace(/<<(.*?)>>/ig, '').replace(/<\/>/ig, '');
+}
+
 const parseLinks = (text) => {
-  const linkRegex = /<<(.*?)<\/>/ig;
-  return text.split(linkRegex).map((segment, index) => {
+  return text.split(LINK_REGEX).map((segment, index) => {
     if (index % 2 === 0) {
       return <span key={index}>{parseBold(segment)}</span>;
     }
@@ -18,20 +24,18 @@ const parseLinks = (text) => {
 };
 
 const getCategoryFromLink = (link) => {
-  const possibleCategories = ['merits', 'projects'];
+  const possibleCategories = ['merits', 'projects', 'blog'];
   for (let cat of possibleCategories) {
     if (link.includes(cat)) {
       return cat;
     }
   }
 
-  return '';
+  return 'no-category';
 }
 
 const parseBold = (text) => {
-  const boldRegex = /\*\*/ig;
-
-  return text.split(boldRegex).map((segment, index) => {
+  return text.split(BOLD_REGEX).map((segment, index) => {
     if (index % 2 === 0) {
       return <span key={index}>{segment}</span>;
     }

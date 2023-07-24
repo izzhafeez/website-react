@@ -398,7 +398,7 @@
     "description": [
       {
         "title": "description",
-        "text": "I love learning about Singapore's urban environment, including its shopping malls. As my interest grew, I began researching specific statistics for each mall, creating scripts to scrape the web and process the data.\nThe game I've created is a statistics-driven card game centred around risk-taking and sacrifice. The cards have eight statistics each, which may include Latitude, Longitude, Nearby Bus Services, Number of Stores, Retail Area etc. Each statistic is treated as a separate battle and each round, players will fight four battles at once. As such, players choose which of their cards will fight which battle."
+        "text": "I love learning about Singapore's urban environment, including its <<../blog/malls>>shopping malls</>. As my interest grew, I began researching specific statistics for each mall, creating scripts to scrape the web and process the data.\nThe game I've created is a statistics-driven card game centred around risk-taking and sacrifice. The cards have eight statistics each, which may include Latitude, Longitude, Nearby Bus Services, Number of Stores, Retail Area etc. Each statistic is treated as a separate battle and each round, players will fight four battles at once. As such, players choose which of their cards will fight which battle."
       },
       {
         "title": "development",

@@ -1,3 +1,4 @@
+import BlogPosts from "./blog";
 import Merits from "./merits";
 import Projects from "./projects";
 
@@ -8,6 +9,8 @@ class ItemsFactory {
         return params => new Merits(params);
       case 'projects':
         return params => new Projects(params);
+      case 'blog':
+        return params => new BlogPosts(params);
       default:
         throw new Error(`Category unknown: ${category}.`)
     }
