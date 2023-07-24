@@ -28,7 +28,7 @@ const Landing = ({ type, route }) => {
     if (!isHome && !isAll && !possibleTypes.includes(type)) {
       navigate(`/${category}`);
     }
-  }, []);
+  }, [category, isAll, isHome, navigate, possibleTypes, type]);
 
   const sections = isHome || isAll
     ? possibleTypes

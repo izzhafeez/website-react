@@ -65,7 +65,7 @@ const MapContainer = ({ features }) => {
         padding: [100, 100, 100, 100],
       });
     }
-  }, [features, map, featuresLayer]);
+  }, [features, map, featuresLayer, overlay]);
 
   return <div className='blog'>
       <div ref={mapElement} className='map-container'/>
