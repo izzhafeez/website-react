@@ -1,26 +1,4106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://izzhafeez.com/</loc> </url>
-<url> <loc>https://izzhafeez.com/</loc> </url>
-<url> <loc>https://izzhafeez.com/website-react</loc> </url>
-<url> <loc>https://izzhafeez.com/projects</loc> </url>
-<url> <loc>https://izzhafeez.com/merits</loc> </url>
-<url> <loc>https://izzhafeez.com/blog</loc> </url>
-<url> <loc>https://izzhafeez.com/projects/all</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/all</loc> </url>
-<url> <loc>https://izzhafeez.com/blog/all</loc> </url>
-<url> <loc>https://izzhafeez.com/projects/:type</loc> </url>
-<url> <loc>https://izzhafeez.com/projects/coding/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/projects/music/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/projects/graphs/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/:type</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/experiences/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/awards/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/certificates/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/modules/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/languages/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/skills/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/merits/technologies/:page</loc> </url>
-<url> <loc>https://izzhafeez.com/blog/:type</loc> </url>
-<url> <loc>https://izzhafeez.com/blog/malls/:page</loc> </url>
+  <url>
+    <loc>https://izzhafeez.com/merits</loc>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/merits.svg</image:loc>
+    </image:image>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-07-25</lastmod>
+  </url>
+  <url>
+    <loc>https://izzhafeez.com/merits/all</loc>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/merits.svg</image:loc>
+    </image:image>
+    <priority>0.5</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-07-25</lastmod>
+  </url>
+<url>
+    <loc>https://izzhafeez.com/projects</loc>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/projects.svg</image:loc>
+    </image:image>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-07-25</lastmod>
+  </url>
+  <url>
+    <loc>https://izzhafeez.com/projects/all</loc>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/projects.svg</image:loc>
+    </image:image>
+    <priority>0.5</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-07-25</lastmod>
+  </url>
+<url>
+    <loc>https://izzhafeez.com/blog</loc>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/blog.svg</image:loc>
+    </image:image>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-07-25</lastmod>
+  </url>
+  <url>
+    <loc>https://izzhafeez.com/blog/all</loc>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/blog.svg</image:loc>
+    </image:image>
+    <priority>0.5</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-07-25</lastmod>
+  </url><url>
+      <loc>https://izzhafeez.com/projects/coding/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/coding.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-24</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/auto-gitter</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/github.svg</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/bus-routes-optimiser</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/qi.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/chords-search-engine</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/music.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/dynamic-resource-optimiser</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/scdf.png</image:loc>
+        </image:image>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/edumate</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/nus.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/geospatial-extraction</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/geospatial.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/geospatial-management</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/geospatial.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/halal-recommender</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/halal.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/jap-vocab-trainer</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/japanese.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/malls-of-singapore</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/malls.jpeg</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/meetup-maker</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/geospatial.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/mrt-paths-analysis</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/mrt.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/neothesia</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/music.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/note-together</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/notetogether.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/notes-telegram-bot</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/telegram.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/programming-lines-counter</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/c.svg</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/sentence-searcher</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/languages.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/spiderman-web-scraper</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/spiderman.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/svg-converter</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/geospatial.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/sz-matrix</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/cpp.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/coding/website-react</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/coding/react.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-24</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/projects/music/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/music.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-15</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/alone-part-ii</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/alan-walker.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/bad-liar</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/imagine-dragons.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/down</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/down.jpeg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/eight</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/iu.jpeg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/everything-i-wanted</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/billie-eilish.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/fanfare</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/twice.png</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/i-know-what-you-did-last-summer</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/shawn-mendes.jpeg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/innocence</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/avril-lavigne.jpeg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/me</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/taylor-swift.jpeg</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/meme-medley</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/ndp-piano-medley</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/singapore.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/senorita</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/shawn-mendes.jpeg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/shine-your-light</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/singapore.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/so-am-i</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/so-am-i.jpeg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/speechless</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/naomi-scott.jpeg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/stronger-together</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/singapore.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/the-last-time</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/the-script.png</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/the-road-ahead</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/singapore.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/unity</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/alan-walker.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/music/what-ive-done</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/music/linkin-park.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/projects/graphs/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/graphs.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-17</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/ammonite</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/ammonite.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/asteroid</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/asteroid.png</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/bezier</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/bezier.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/bladed-flower</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/bladed-flower.png</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/bladed-korea</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/bladed-korea.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/block-tiling</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/block-tiling.png</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/bricks</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/bricks.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/circle-noise</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/circle-noise.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/coloured-dots</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/coloured-dots.png</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/coloured-spiral</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/coloured-spiral.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/continuous-shader</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/continuous-shader.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/criss-cross</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/criss-cross.png</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/dense-flora</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/dense-flora.png</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/desmosito</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/desmosito.png</image:loc>
+        </image:image>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/econs</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/econs.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/electric-islands</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/electric-islands.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/false-flower</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/false-flower.png</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/false-star</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/false-star.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/galaxy</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/galaxy.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/grid</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/grid.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/hexagon-flowers</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/hexagon-flowers.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/infinite-bound</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/infinite-bound.png</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/island-panels</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/island-panels.png</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/jumping-flower</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/jumping-flower.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/life-bubble</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/life-bubble.png</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/messy-spiral-logo</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/messy-spiral-logo.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/non-linear-rotation</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/non-linear-rotation.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/number-display</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/number-display.png</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/octa-flower</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/octa-flower.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/octa-noise</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/octa-noise.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/pink-butterfly</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/pink-butterfly.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/plaid</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/plaid.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/plane-model</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/plane-model.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/random-arc-rotations</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/random-arc-rotations.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/random-walks-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/random-walks-square.png</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/random-walks-3d</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/random-walks-3d.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/seahorse</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/seahorse.png</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/self-intersection</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/self-intersection.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/shaded-circles</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/shaded-circles.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/snowball</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/snowball.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/sphere-rotation</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/sphere-rotation.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/spiral-logo</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/spiral-logo.png</image:loc>
+        </image:image>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/spiral-music</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/spiral-music.png</image:loc>
+        </image:image>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/spiral-vines</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/spiral-vines.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/square-noise</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/square-noise.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/star-destroyer</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/star-destroyer.png</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/graphs/ti-competition</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/graphs/ti-competition.jpg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/merits/experiences/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/experiences.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-15</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/merits/experiences/fullstack-intern</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/experiences/qi.png</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/experiences/data-management</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/experiences/mom.png</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/experiences/data-analytics</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/experiences/scdf.png</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/experiences/robotics</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/experiences/vrmc.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/merits/awards/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/awards.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-17</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/dean-list-y1s2</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/dean-list-y2s2</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
+        </image:image>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/top-students-ethics</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/ti-graphing</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/ti.png</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/smo-2018</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/smo-2017</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/smo-2016</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/smo-2015</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/smo-2014</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/smo-2013</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/euclid</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/euclid.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/admin-support</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/scdf.png</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/amc</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/australianmc.png</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/seamo</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/seamo.png</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/noi</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/simc</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/awards/spho</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-17</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/merits/certificates/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/certificates.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-15</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/jlpt-n3</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/jlpt.png</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/mongo-data-modeling</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/mongo.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/hsk-6</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/confucius.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/java-udemy</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/udemy.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/web-developer-udemy</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/udemy.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/hsk-5</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/confucius.png</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/deep-learning-tensorflow</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/ibm.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/harvardx-data-science</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/harvardx.png</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/certificates/python-for-everybody</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/certificates/uom.png</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-15</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/merits/modules/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/modules.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-14</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs1101s</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs1231s</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/ma2001</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/ma1521</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/gess1019</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2030s</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2040s</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/st2334</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/is1103</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/gea1000</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/gec1030</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs1010r</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cp2106</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2100</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/ma2101</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/ma2108</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs3230</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2102</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2101</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2103t</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2109s</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/ma3252</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/ma2104</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2108</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cfg1002</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cp3200</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs3216</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs4243</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs4225</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/cs2106</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/ma3238</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/modules/gen2002x</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-14</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/merits/languages/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/languages.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-18</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/bash</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/bash.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/chinese</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/chinese.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/c</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/c.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/cpp</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/cpp.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/c-sharp</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/c-sharp.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/css</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/css.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/english</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/english.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/french</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/french.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/go</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/go.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/haskell</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/haskell.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/html</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/html.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/japanese</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/japanese.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/java</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/java.svg</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/javascript</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/javascript.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/korean</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/korean.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/latex</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/latex.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/malay</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/malay.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/matlab</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/matlab.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/php</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/php.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/python</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/python.svg</image:loc>
+        </image:image>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/r</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/r.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/ruby</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/ruby.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/rust</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/rust.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/scala</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/scala.svg</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/spanish</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/spanish.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/sql</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/sql.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/swift</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/swift.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/typescript</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/typescript.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/vba</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/vba.svg</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/languages/zig</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/languages/zig.svg</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/merits/technologies/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/technologies.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-18</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/anaconda</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/anaconda.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/angular-js</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/angular.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/aws</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/aws.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/blender</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/blender.svg</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/bootstrap</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/bootstrap.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/django</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/django.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/er-studio</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/erstudio.png</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/excel</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/excel.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/express-js</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/express.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/flask</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/flask.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/gcp</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/gcp.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/github</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/github.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/heroku</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/heroku.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/intellij</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/intellij.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/jest</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/jest.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/junit</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/junit.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/jupyter</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/jupyter.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/mongo-db</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/mongo.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/musescore</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/musescore.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/node-js</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/node.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/pandas</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/pandas.svg</image:loc>
+        </image:image>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/plant-uml</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/plantuml.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/postgresql</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/postgresql.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/postman</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/postman.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/power-bi</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/power-bi.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/pytorch</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/pytorch.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/qgis</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/qgis.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/ruby-on-rails</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/rails.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/react-js</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/react.svg</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/rocket-rs</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/rocket.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/selenium</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/selenium.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/spring</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/spring.svg</image:loc>
+        </image:image>
+        <priority>0.1</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/ssms</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/ssms.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/sublime</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/sublime.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/svelte-js</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/svelte.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/tableau</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/tableau.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/telegram-bots</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/telegram.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/tensorflow</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/tensorflow.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/unity</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/unity.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/vex</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/vex.png</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/vscode</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/vscode.svg</image:loc>
+        </image:image>
+        <priority>0.2</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/technologies/vue-js</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/technologies/vue.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/merits/skills/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/skills.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-18</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/api-development</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/api-development.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/data-cleaning</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/data-cleaning.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/data-management</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/data-management.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/data-mining</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/data-mining.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/data-modeling</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/data-modeling.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/data-science</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/data-science.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/data-structures</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/data-structures.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/data-visualisation</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/data-visualisation.svg</image:loc>
+        </image:image>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/documentation</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/documentation.svg</image:loc>
+        </image:image>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/frontend-development</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/frontend.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/game-development</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/game.svg</image:loc>
+        </image:image>
+        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/geospatial-analytics</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/geospatial.svg</image:loc>
+        </image:image>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/machine-learning</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/machine-learning.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/operational-analysis</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/operational-analysis.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/problem-solving</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/problem-solving.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/software-engineering</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/software-engineering.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/software-testing</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/testing.svg</image:loc>
+        </image:image>
+        <priority>0.6</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/web-development</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/web-development.svg</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/merits/skills/web-scraping</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/merits/skills/web-scraping.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-18</lastmod>
+      </url>
+<url>
+      <loc>https://izzhafeez.com/blog/malls/</loc>
+      <image:image>
+        <image:loc>https://izzhafeez.com/img/types/malls.svg</image:loc>
+      </image:image>
+      <priority>1.0</priority>
+      <changefreq>monthly</changefreq>
+      <lastmod>2023-07-21</lastmod>
+    </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/100-am</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/100-am.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/111-somerset</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/313-somerset</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/313-somerset.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/321-clementi</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/321-clementi.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/888-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/admiralty-place</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/alexandra-central</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/alexandra-central.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/alexandra-retail-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/alexandra-retail-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/amk-hub</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/amk-hub.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/anchorpoint</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/anchorpoint.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/aperia</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/aperia.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/balestier-hill-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/beauty-world-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/beauty-world-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bedok-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/bedok-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bedok-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/bedok-point.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bedok-town-center</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/boon-lay-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/broadway-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/buangkok-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/buangkok-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bugis-cube</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bugis-junction</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/bugis-junction.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bugis-street</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/bugis-street.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bugis-plus</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/bugis-plus.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bukit-panjang-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/bukit-panjang-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bukit-timah-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/bukit-timah-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/bukit-timah-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/bukit-timah-shopping-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/canberra-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/canberra-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/capitol-singapore</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/capitol-singapore.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/cathay-cineleisure-orchard</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/cathay-cineleisure-orchard.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/causeway-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/causeway-point.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/century-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/century-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/changi-airport-t3</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/changi-airport-t4</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/changi-city-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/changi-city-point.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/chinatown-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/chinatown-point.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/city-gate-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/city-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/city-square-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/city-square-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/citylink-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/citylink-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/clarke-quay-central</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/clarke-quay-central.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/clementi-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/clementi-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/compass-one</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/compass-one.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/djitsun-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/djitsun-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/djitsun-mall-bedok</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/djitsun-mall-bedok.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/downtown-east</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/downtown-east.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/duo</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/east-village</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/eastpoint-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/eastpoint-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/elias-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/elias-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/fairprice-hub</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/fairprice-hub.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/fajar-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/far-east-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/far-east-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/funan</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/funan.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/galaxis</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/gek-poh-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/golden-mile-complex</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/golden-mile-complex.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/grandstand</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/grandstand.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/grantral-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/grantral-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/great-world-city</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/great-world-city.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/greenridge-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/greenwich-v</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/greenwich-v.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/harbourfront-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/harbourfront-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/hdb-hub</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/hdb-hub.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/heartland-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/heartland-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/hillion-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/hillion-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/hill-v2</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/hill-v2.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/holland-road-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/holland-road-shopping-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/hougang-1</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/hougang-1.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/hougang-green-shopping-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/hougang-green-shopping-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/hougang-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/hougang-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/i12-katong</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/i12-katong.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/icon-village</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/icon-village.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/ikea-alexandra</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/ikea-alexandra.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/ikea-tampines</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/ikea-tampines.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/i-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/imm</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/imm.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/ion-orchard</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/ion-orchard.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/j-cube</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/j-cube.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/jem</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/jem.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/jewel-changi-airport</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/jewel-changi-airport.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/jubilee-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/jubilee-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/junction-10</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/junction-10.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/junction-8</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/junction-8.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/junction-9</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/junction-9.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/jurong-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/jurong-point.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/kallang-wave-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/kallang-wave-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/katong-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/katong-shopping-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/katong-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/katong-v</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/katong-v.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/keat-hong-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/kinex</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/kinex.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/knightsbridge</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/le-quest</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/le-quest.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/leisure-park-kallang</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/leisure-park-kallang.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/limbang-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/lot-one</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/lot-one.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/loyang-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/loyang-point.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/lucky-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/lucky-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/mandarin-gallery</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/mandarin-gallery.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/mbfc-tower-3</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/marina-bay-link-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/marina-bay-sands-shoppes</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/marina-bay-sands-shoppes.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/marina-one</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/marina-one.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/marina-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/marina-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/marsiling-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/midpoint-orchard</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/millenia-walk</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/millenia-walk.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/mustafa-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/mustafa-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/nex</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/nex.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/ngee-ann-city</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/ngee-ann-city.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/northpoint-city</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/northpoint-city.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/northshore-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/northshore-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/velocity-novena-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/velocity-novena-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/oasis-terraces</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/oasis-terraces.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/one-fullerton</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/one-fullerton.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/one-holland-village</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/one-raffles-place</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/one-raffles-place.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/one-north</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/orchard-central</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/orchard-central.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/orchard-gateway</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/orchard-gateway.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/orchard-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/orchard-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/our-tampines-hub</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/our-tampines-hub.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/palais-renaissance</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/parkway-parade</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/parkway-parade.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/paya-lebar-quarter</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/paya-lebar-quarter.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/paya-lebar-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/paya-lebar-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/peninsula-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/peoples-park-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/peoples-park-complex</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/pioneer-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/pioneer-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/plaza-singapura</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/plaza-singapura.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/punggol-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/punggol-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/queensway-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/queensway-shopping-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/raffles-city</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/raffles-city.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/rail-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/rail-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/resorts-world-sentosa</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/rivervale-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/rivervale-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/rivervale-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/rivervale-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/rochester-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/roxy-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/roxy-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/scotts-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/scotts-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/seletar-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/seletar-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/sembawang-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/sembawang-shopping-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/sengkang-grand-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/sengkang-grand-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/serangoon-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/shaw-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/shaw-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/shaw-house-and-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/sim-lim-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/sim-lim-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/singapore-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/singpost-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/singpost-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/south-beach</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/square-2</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/square-2.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/sun-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/sun-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/sunshine-place</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/sunshine-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/suntec-city</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/suntec-city.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/taman-jurong-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/tampines-1</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/tampines-1.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/tampines-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/tampines-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/tampines-mart</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/tanglin-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/tanjong-pagar-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/tanjong-pagar-centre.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/teck-whye-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/tekka-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/tekka-place</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/tekka-place.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/the-cathay</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/the-cathay.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/the-centrepoint</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/the-centrepoint.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/the-flow</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/the-furniture-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/the-midtown</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/the-midtown.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/the-paragon</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/the-paragon.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/the-poiz</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/the-poiz.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/the-star-vista</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/the-star-vista.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/thomson-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/thomson-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/tiong-bahru-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/tiong-bahru-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/united-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/united-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/upper-serangoon-shopping-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/vista-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/viva-vista</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/viva-vista.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/vivo-city</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/vivo-city.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/waterway-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/waterway-point.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/west-coast-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/west-coast-plaza.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/west-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/west-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/westgate</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/westgate.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/wheelock-place</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/wheelock-place.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/white-sands</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/white-sands.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/wisma-atria</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/wisma-atria.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/wisteria-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/wisteria-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/woodlands-civic-centre</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/woodlands-mart</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/woodlands-north-plaza</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/woodleigh-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/woodleigh-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/woods-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/woods-square.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/yew-tee-point</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/yew-tee-point.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/yew-tee-square</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/blog/malls/zhongshan-mall</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/blog/malls/zhongshan-mall.jpg</image:loc>
+        </image:image>
+        <priority>0.0</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-07-21</lastmod>
+      </url>
 </urlset>

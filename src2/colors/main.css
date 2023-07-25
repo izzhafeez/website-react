@@ -1,9 +1,0 @@
-@import "./mrt.css";
-
-:root {
-  --back: #202020;
-  --dark-text: #aaa;
-  --text: #eee;
-  --secondary: var(--jr);
-  --border: 1px solid var(--dark-text);
-}
