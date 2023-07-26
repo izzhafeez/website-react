@@ -31,7 +31,7 @@ const routesData = [
     constructor: data => new BlogPosts(data),
     ...allData.blog,
     types: [
-      'all', 'malls'
+      'all', 'malls', 'hikes'
     ]
   },
 ];

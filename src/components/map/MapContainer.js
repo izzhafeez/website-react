@@ -15,7 +15,7 @@ const MapContainer = ({ features }) => {
 
   // get ref to div element - OpenLayers will render into this div
   const mapElement = useRef();
-  const selectedFeature = useRef();
+  const selected = useRef();
 
   const mapRef = useRef();
   mapRef.current = map;
@@ -33,7 +33,7 @@ const MapContainer = ({ features }) => {
       mapElement: mapElement,
       mapRef: mapRef,
       overlayRef: overlayRef,
-      selectedFeature: selectedFeature
+      selected: selected
     }));
 
     // save map and vector layer references to state

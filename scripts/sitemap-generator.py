@@ -4,12 +4,13 @@ import os, time, datetime
 
 def get_url_from_type(args) -> str:
   category, type = args
-  path = f'src/data/{category}/json/{type}.json'
+  path = f'../src/data/{category}/json/{type}.json'
   epocTime = os.path.getmtime(path)
   lastmod = time.strftime('%Y-%m-%d', time.localtime(epocTime))
   urls = [
     f"""<url>
       <loc>https://izzhafeez.com/{category}/{type}/</loc>
+      <canonical>https://izzhafeez.com/{category}/{type}/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/{type}.svg</image:loc>
       </image:image>
@@ -25,6 +26,7 @@ def get_url_from_type(args) -> str:
       priority = v.get('importance', 0)
       url = f"""<url>
         <loc>https://izzhafeez.com/{category}/{type}/{k}</loc>
+        <canonical>https://izzhafeez.com/{category}/{type}/{k}</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/{imgPath}</image:loc>
         </image:image>
@@ -46,13 +48,15 @@ types: List[Tuple[str, str]] = [
   ('merits', 'languages'),
   ('merits', 'technologies'),
   ('merits', 'skills'),
-  ('blog', 'malls')
+  ('blog', 'malls'),
+  ('blog', 'hikes')
 ]
 
 def get_url_from_category(category):
   dt = datetime.datetime.now().strftime('%Y-%m-%d')
   url = f"""<url>
     <loc>https://izzhafeez.com/{category}</loc>
+    <canonical>https://izzhafeez.com/{category}</canonical>
     <image:image>
       <image:loc>https://izzhafeez.com/img/types/{category}.svg</image:loc>
     </image:image>
@@ -62,6 +66,7 @@ def get_url_from_category(category):
   </url>
   <url>
     <loc>https://izzhafeez.com/{category}/all</loc>
+    <canonical>https://izzhafeez.com/{category}/all</canonical>
     <image:image>
       <image:loc>https://izzhafeez.com/img/types/{category}.svg</image:loc>
     </image:image>
@@ -80,5 +85,5 @@ xml = f'''<?xml version="1.0" encoding="UTF-8"?>
   {urlset}
 </urlset>'''
 
-with open('public/sitemap.xml', 'w') as f:
+with open('../public/sitemap.xml', 'w') as f:
   f.write(xml)

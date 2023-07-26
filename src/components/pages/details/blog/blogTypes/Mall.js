@@ -4,7 +4,7 @@ import MicroIcon from "components/basic/img/MicroIcon";
 import MapContainer from "components/map/MapContainer";
 import { Feature } from "ol";
 import { Point } from "ol/geom";
-import { style } from "./styles";
+import { mallStyle } from "./styles";
 
 class Mall extends BlogPost {
   constructor({ latitude, longitude, station, stores, floors, area, date, ...fields }) {
@@ -40,7 +40,7 @@ class Mall extends BlogPost {
       geometry: new Point([this.longitude, this.latitude]),
       text: this.title
     });
-    feature.setStyle(style());
+    feature.setStyle(mallStyle());
     return feature;
   }
 

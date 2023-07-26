@@ -1,4 +1,4 @@
-const handlePointerMove = ({ mapElement, mapRef, overlayRef, selectedFeature }) => (event) => {
+const handlePointerMove = ({ mapElement, mapRef, overlayRef, selected }) => (event) => {
   if (!mapElement.current) {
     return;
   }
@@ -15,17 +15,18 @@ const handlePointerMove = ({ mapElement, mapRef, overlayRef, selectedFeature }) 
   if (hit) {
     const features = mapRef.current.getFeaturesAtPixel(pixel);
     if (features.length > 0) {
-      selectedFeature.current = features[0];
-      const text = selectedFeature.current.get('text');
+      selected.current = features[0];
+      const text = selected.current.get('text');
+      selected.current.setStyle(selected.current.get('style')(true));
 
       overlayRef.current.element.innerHTML = text;
       overlayRef.current.setPosition(event.coordinate);
-    } else {
-      selectedFeature.current = null;
-      overlayRef.current.setPosition(undefined);
     }
   } else {
-    selectedFeature.current = null;
+    if (!!selected.current) {
+      selected.current.setStyle(selected.current.get('style')(false));
+    }
+    selected.current = null;
     overlayRef.current.setPosition(undefined);
   }
 };

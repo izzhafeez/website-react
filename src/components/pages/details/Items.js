@@ -14,7 +14,7 @@ class Items {
 
   getItems() {
     const constructor = ItemFactory.getConstructor(this.category)(this.type);
-    console.log(this.data);
+    // console.log(this.data);
     let items = ItemFactory.getList(this.data, constructor);
     const length = items.length;
     const seeMore = constructor({ key: '', title: 'See More', link: this.getPath() });

@@ -1,15 +1,12 @@
-import Mall from "./blog/blogTypes/Mall";
+import { Hike, Mall } from "./blog/blogTypes";
 import { Award, Certificate, Experience, Language, Module, Skill, Technology } from "./merits/meritTypes";
-import Coding from "./projects/projectTypes/Coding";
-import Graph from "./projects/projectTypes/Graph";
-import Music from "./projects/projectTypes/Music";
+import { Coding, Graph, Music } from "./projects/projectTypes";
 
 class ItemFactory {
   static getList(jsonData, constructor) {
     const itemsList = Object.entries(jsonData).map(entry => {
       const [key, value] = entry;
-      value.key = key;
-      return constructor(value);
+      return constructor(key)(value);
     });
     itemsList.sort((a, b) => a.title.localeCompare(b.title));
     itemsList.sort((a, b) => b.importance - a.importance);
@@ -33,19 +30,19 @@ class ItemFactory {
   static getMeritsConstructor(type) {
     switch (type) {
       case 'awards':
-        return params => new Award(params);
+        return page => params => new Award({key: page, ...params});
       case 'certificates':
-        return params => new Certificate(params);
+        return page => params => new Certificate({key: page, ...params});
       case 'experiences':
-        return params => new Experience(params);
+        return page => params => new Experience({key: page, ...params});
       case 'languages':
-        return params => new Language(params);
+        return page => params => new Language({key: page, ...params});
       case 'modules':
-        return params => new Module(params);
+        return page => params => new Module({key: page, ...params});
       case 'skills':
-        return params => new Skill(params);
+        return page => params => new Skill({key: page, ...params});
       case 'technologies':
-        return params => new Technology(params);
+        return page => params => new Technology({key: page, ...params});
       default:
         throw new Error(`Type unknown: ${type}.`);
     };
@@ -54,11 +51,11 @@ class ItemFactory {
   static getProjectsConstructor(type) {
     switch (type) {
       case 'coding':
-        return params => new Coding(params);
+        return page => params => new Coding({key: page, ...params});
       case 'music':
-        return params => new Music(params);
+        return page => params => new Music({key: page, ...params});
       case 'graphs':
-        return params => new Graph(params);
+        return page => params => new Graph({key: page, ...params});
       default:
         throw new Error(`Type unknown: ${type}.`);
     }
@@ -67,7 +64,9 @@ class ItemFactory {
   static getBlogConstructor(type) {
     switch(type) {
       case 'malls':
-        return params => new Mall(params);
+        return page => params => new Mall({key: page, ...params});
+      case 'hikes':
+        return page => params => new Hike({key: page, ...params});
       default:
         throw new Error(`Type unknown: ${type}.`);
     }

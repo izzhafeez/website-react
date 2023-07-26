@@ -14,8 +14,8 @@ class BlogPosts extends Items {
     switch (this.type) {
       case 'malls':
         return Sizes.SMALL;
-      case 'experiences':
-        return Sizes.LARGE;
+      case 'hikes':
+        return Sizes.SMALL;
       default:
         return Sizes.MEDIUM;
     }
