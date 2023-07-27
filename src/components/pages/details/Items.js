@@ -56,7 +56,6 @@ class Items {
   };
 
   getItem(item) {
-    console.log(item);
     return <div
       key={item.key}
     >

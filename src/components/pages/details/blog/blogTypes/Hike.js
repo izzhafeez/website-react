@@ -12,8 +12,10 @@ class Hike extends BlogPost {
       type: 'hikes',
       ...fields
     });
+    console.log(this.key);
     this.date = date;
-    const { route, length } = routesData[this.key];
+    const data = routesData[this.key];
+    const { route, length } = !!data ? data : {};
     this.importance = length;
     this.route = route;
     this.length = `${roundTo1dp(length)}km`;
