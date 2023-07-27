@@ -17,7 +17,7 @@ class Items {
     // console.log(this.data);
     let items = ItemFactory.getList(this.data, constructor);
     const length = items.length;
-    const seeMore = constructor({ key: '', title: 'See More', link: this.getPath() });
+    const seeMore = constructor('see-more')({ key: '', title: 'See More', link: this.getPath() });
     items = items.slice(0, this.limit);
     if (length > this.limit) {
       items.push(seeMore);
@@ -56,6 +56,7 @@ class Items {
   };
 
   getItem(item) {
+    console.log(item);
     return <div
       key={item.key}
     >
