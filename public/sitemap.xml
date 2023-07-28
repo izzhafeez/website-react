@@ -31,26 +31,6 @@
     <lastmod>2023-07-28</lastmod>
   </url>
 <url>
-    <loc>https://izzhafeez.com/projects</loc>
-    <canonical>https://izzhafeez.com/projects</canonical>
-    <image:image>
-      <image:loc>https://izzhafeez.com/img/types/projects.svg</image:loc>
-    </image:image>
-    <priority>1.0</priority>
-    <changefreq>always</changefreq>
-    <lastmod>2023-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://izzhafeez.com/projects/all</loc>
-    <canonical>https://izzhafeez.com/projects/all</canonical>
-    <image:image>
-      <image:loc>https://izzhafeez.com/img/types/projects.svg</image:loc>
-    </image:image>
-    <priority>0.5</priority>
-    <changefreq>always</changefreq>
-    <lastmod>2023-07-28</lastmod>
-  </url>
-<url>
     <loc>https://izzhafeez.com/merits</loc>
     <canonical>https://izzhafeez.com/merits</canonical>
     <image:image>
@@ -65,6 +45,26 @@
     <canonical>https://izzhafeez.com/merits/all</canonical>
     <image:image>
       <image:loc>https://izzhafeez.com/img/types/merits.svg</image:loc>
+    </image:image>
+    <priority>0.5</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-07-28</lastmod>
+  </url>
+<url>
+    <loc>https://izzhafeez.com/projects</loc>
+    <canonical>https://izzhafeez.com/projects</canonical>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/projects.svg</image:loc>
+    </image:image>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-07-28</lastmod>
+  </url>
+  <url>
+    <loc>https://izzhafeez.com/projects/all</loc>
+    <canonical>https://izzhafeez.com/projects/all</canonical>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/projects.svg</image:loc>
     </image:image>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
@@ -1115,7 +1115,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-17</lastmod>
       </url>
@@ -1135,7 +1135,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-17</lastmod>
       </url>
@@ -1155,7 +1155,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/scdf.png</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-17</lastmod>
       </url>
@@ -1165,7 +1165,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/australianmc.png</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-17</lastmod>
       </url>
@@ -1175,7 +1175,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/seamo.png</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-17</lastmod>
       </url>
@@ -1185,7 +1185,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-17</lastmod>
       </url>
@@ -1195,7 +1195,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-17</lastmod>
       </url>
@@ -1205,7 +1205,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-17</lastmod>
       </url>
@@ -1355,7 +1355,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1365,7 +1365,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1395,7 +1395,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1405,7 +1405,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1415,7 +1415,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1435,7 +1435,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1565,7 +1565,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1575,7 +1575,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1585,7 +1585,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1595,7 +1595,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1605,7 +1605,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1615,7 +1615,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1625,7 +1625,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -1635,7 +1635,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-14</lastmod>
       </url>
@@ -2595,7 +2595,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/100-am.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2605,7 +2605,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2615,7 +2615,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/313-somerset.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2625,7 +2625,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/321-clementi.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2635,7 +2635,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2645,7 +2645,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2655,7 +2655,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/alexandra-central.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2665,7 +2665,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/alexandra-retail-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2675,7 +2675,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/amk-hub.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2685,7 +2685,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/anchorpoint.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2695,7 +2695,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/aperia.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2705,7 +2705,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2715,7 +2715,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2725,7 +2725,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2735,7 +2735,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bedok-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2745,7 +2745,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bedok-point.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2755,7 +2755,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2765,7 +2765,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2775,7 +2775,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2785,7 +2785,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/buangkok-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2795,7 +2795,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2805,7 +2805,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bugis-junction.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2815,7 +2815,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bugis-street.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2825,7 +2825,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bugis-plus.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2835,7 +2835,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bukit-panjang-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2845,7 +2845,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bukit-timah-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2855,7 +2855,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bukit-timah-shopping-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2865,7 +2865,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/canberra-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2875,7 +2875,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/capitol-singapore.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2885,7 +2885,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/cathay-cineleisure-orchard.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2895,7 +2895,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/causeway-point.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2905,7 +2905,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/century-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2915,7 +2915,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2925,7 +2925,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2935,7 +2935,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/changi-city-point.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2945,7 +2945,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/chinatown-point.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2955,7 +2955,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2965,7 +2965,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2975,7 +2975,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/city-square-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2985,7 +2985,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/citylink-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -2995,7 +2995,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/clarke-quay-central.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3005,7 +3005,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/clementi-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3015,7 +3015,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/compass-one.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3025,7 +3025,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/djitsun-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3035,7 +3035,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/djitsun-mall-bedok.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3045,7 +3045,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/downtown-east.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3055,7 +3055,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3065,7 +3065,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3075,7 +3075,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/eastpoint-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3085,7 +3085,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/elias-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3095,7 +3095,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/fairprice-hub.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3105,7 +3105,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3115,7 +3115,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/far-east-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3125,7 +3125,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/funan.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3135,7 +3135,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3145,7 +3145,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3155,7 +3155,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/golden-mile-complex.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3165,7 +3165,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/grandstand.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3175,7 +3175,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/grantral-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3185,7 +3185,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/great-world-city.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3195,7 +3195,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3205,7 +3205,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/greenwich-v.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3215,7 +3215,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/harbourfront-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3225,7 +3225,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hdb-hub.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3235,7 +3235,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/heartland-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3245,7 +3245,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hillion-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3255,7 +3255,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hill-v2.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3265,7 +3265,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/holland-road-shopping-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3275,7 +3275,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hougang-1.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3285,7 +3285,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hougang-green-shopping-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3295,7 +3295,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hougang-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3305,7 +3305,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/i12-katong.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3315,7 +3315,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/icon-village.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3325,7 +3325,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/ikea-alexandra.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3335,7 +3335,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/ikea-tampines.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3345,7 +3345,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3355,7 +3355,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/imm.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3365,7 +3365,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/ion-orchard.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3375,7 +3375,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/j-cube.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3385,7 +3385,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/jem.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3395,7 +3395,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/jewel-changi-airport.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3405,7 +3405,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/jubilee-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3415,7 +3415,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/junction-10.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3425,7 +3425,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/junction-8.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3435,7 +3435,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/junction-9.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3445,7 +3445,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/jurong-point.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3455,7 +3455,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/kallang-wave-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3465,7 +3465,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/katong-shopping-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3475,7 +3475,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3485,7 +3485,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/katong-v.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3495,7 +3495,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3505,7 +3505,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/kinex.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3515,7 +3515,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3525,7 +3525,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/le-quest.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3535,7 +3535,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/leisure-park-kallang.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3545,7 +3545,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3555,7 +3555,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/lot-one.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3565,7 +3565,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/loyang-point.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3575,7 +3575,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/lucky-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3585,7 +3585,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/mandarin-gallery.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3595,7 +3595,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3605,7 +3605,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3615,7 +3615,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/marina-bay-sands-shoppes.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3625,7 +3625,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/marina-one.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3635,7 +3635,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/marina-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3645,7 +3645,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3655,7 +3655,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3665,7 +3665,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/millenia-walk.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3675,7 +3675,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/mustafa-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3685,7 +3685,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/nex.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3695,7 +3695,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/ngee-ann-city.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3705,7 +3705,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/northpoint-city.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3715,7 +3715,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/northshore-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3725,7 +3725,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/velocity-novena-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3735,7 +3735,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/oasis-terraces.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3745,7 +3745,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/one-fullerton.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3755,7 +3755,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3765,7 +3765,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/one-raffles-place.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3775,7 +3775,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3785,7 +3785,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/orchard-central.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3795,7 +3795,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/orchard-gateway.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3805,7 +3805,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3815,7 +3815,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3825,7 +3825,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/our-tampines-hub.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3835,7 +3835,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3845,7 +3845,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/parkway-parade.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3855,7 +3855,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/paya-lebar-quarter.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3865,7 +3865,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/paya-lebar-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3875,7 +3875,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3885,7 +3885,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3895,7 +3895,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3905,7 +3905,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/pioneer-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3915,7 +3915,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/plaza-singapura.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3925,7 +3925,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/punggol-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3935,7 +3935,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/queensway-shopping-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3945,7 +3945,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/raffles-city.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3955,7 +3955,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/rail-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3965,7 +3965,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3975,7 +3975,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/rivervale-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3985,7 +3985,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/rivervale-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -3995,7 +3995,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4005,7 +4005,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/roxy-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4015,7 +4015,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/scotts-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4025,7 +4025,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/seletar-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4035,7 +4035,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/sembawang-shopping-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4045,7 +4045,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/sengkang-grand-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4055,7 +4055,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4065,7 +4065,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/shaw-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4075,7 +4075,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4085,7 +4085,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/sim-lim-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4095,7 +4095,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4105,7 +4105,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/singpost-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4115,7 +4115,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4125,7 +4125,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/square-2.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4135,7 +4135,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/sun-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4145,7 +4145,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4155,7 +4155,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4165,7 +4165,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/suntec-city.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4175,7 +4175,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4185,7 +4185,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tampines-1.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4195,7 +4195,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tampines-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4205,7 +4205,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4215,7 +4215,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4225,7 +4225,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tanjong-pagar-centre.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4235,7 +4235,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4245,7 +4245,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4255,7 +4255,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tekka-place.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4265,7 +4265,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-cathay.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4275,7 +4275,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-centrepoint.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4285,7 +4285,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4295,7 +4295,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4305,7 +4305,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-midtown.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4315,7 +4315,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-paragon.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4325,7 +4325,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-poiz.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4335,7 +4335,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-star-vista.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4345,7 +4345,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/thomson-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4355,7 +4355,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tiong-bahru-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4365,7 +4365,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/united-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4375,7 +4375,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4385,7 +4385,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4395,7 +4395,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/viva-vista.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4405,7 +4405,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/vivo-city.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4415,7 +4415,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/waterway-point.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4425,7 +4425,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/west-coast-plaza.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4435,7 +4435,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/west-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4445,7 +4445,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/westgate.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4455,7 +4455,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/wheelock-place.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4465,7 +4465,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/white-sands.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4475,7 +4475,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/wisma-atria.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4485,7 +4485,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/wisteria-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4495,7 +4495,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4505,7 +4505,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4515,7 +4515,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4525,7 +4525,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/woodleigh-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4535,7 +4535,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/woods-square.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4545,7 +4545,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/yew-tee-point.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4555,7 +4555,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4565,7 +4565,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/zhongshan-mall.jpg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-27</lastmod>
       </url>
@@ -4585,7 +4585,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4595,7 +4595,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4605,7 +4605,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4615,7 +4615,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4625,7 +4625,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4635,7 +4635,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4645,7 +4645,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4655,7 +4655,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/journey-to-the-north-east.jpeg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4665,7 +4665,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4675,7 +4675,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4685,7 +4685,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4695,7 +4695,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/plan-for-the-east-coast.jpeg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4705,7 +4705,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/river-flows-in-you.jpeg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4715,7 +4715,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4725,7 +4725,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4735,7 +4735,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4745,7 +4745,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4755,7 +4755,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/the-circle-of-life.jpeg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4765,7 +4765,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/the-way-of-water.jpeg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4775,7 +4775,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4785,7 +4785,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4795,7 +4795,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4805,7 +4805,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
@@ -4815,7 +4815,7 @@
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/wheres-my-shelter.jpeg</image:loc>
         </image:image>
-        <priority>0.0</priority>
+        <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
