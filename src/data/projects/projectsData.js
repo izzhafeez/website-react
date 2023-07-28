@@ -1,6 +1,7 @@
 import codingData from './json/coding.json';
 import graphsData from './json/graphs.json';
 import musicData from './json/music.json';
+import quizzesData from './json/quizzes.json';
 
 const projectsData = {
   coding: {
@@ -17,6 +18,11 @@ const projectsData = {
     data: graphsData,
     limit: 7,
     description: "I started using Desmos in 2017, where it became a major time sink throughout my JC years. Indeed, instead of studying, I would be playing around in Desmos and trying to develop my own equations and graphing techniques. This has led me to win the <<../merits/awards/ti-competition>>Gold Award for the graphing competition by Texas Instruments</>.\nThese are the graphs that I've been bothered to include in this website. They are sorted by how significant they were to my Desmos journey, so you can see the more important ones on top. The stars, on the other hand, represent how complex the artwork was, and how difficult it was to create."
+  },
+  quizzes: {
+    data: quizzesData,
+    limit: 5,
+    description: "I mostly create geography quizzes, so the ones you'll find below are posted either on Jetpunk, or Geoguessr. I plan on releasing more, when I have the time to do it."
   }
 };
 

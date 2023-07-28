@@ -15,7 +15,7 @@ const routesData = [
     constructor: data => new Projects(data),
     ...allData.projects,
     types: [
-      'all', 'coding', 'music', 'graphs'
+      'all', 'coding', 'music', 'graphs', 'quizzes'
     ],
   },
   {

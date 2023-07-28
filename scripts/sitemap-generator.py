@@ -23,7 +23,7 @@ def get_url_from_type(args) -> str:
     data = json.load(f)
     for k, v in data.items():
       imgPath = f"img/{category}/{type}/{v.get('imgPath', '')}"
-      priority = v.get('importance', 0)
+      priority = v.get('importance', v.get('aesthetics', 1))
       url = f"""<url>
         <loc>https://izzhafeez.com/{category}/{type}/{k}</loc>
         <canonical>https://izzhafeez.com/{category}/{type}/{k}</canonical>
@@ -41,6 +41,7 @@ types: List[Tuple[str, str]] = [
   ('projects', 'coding'),
   ('projects', 'music'),
   ('projects', 'graphs'),
+  ('projects', 'quizzes'),
   ('merits', 'experiences'),
   ('merits', 'awards'),
   ('merits', 'certificates'),

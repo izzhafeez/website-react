@@ -1,6 +1,6 @@
 import { Hike, Mall } from "./blog/blogTypes";
 import { Award, Certificate, Experience, Language, Module, Skill, Technology } from "./merits/meritTypes";
-import { Coding, Graph, Music } from "./projects/projectTypes";
+import { Coding, Graph, Music, Quiz } from "./projects/projectTypes";
 
 class ItemFactory {
   static getList(jsonData, constructor) {
@@ -56,6 +56,8 @@ class ItemFactory {
         return page => params => new Music({key: page, ...params});
       case 'graphs':
         return page => params => new Graph({key: page, ...params});
+      case 'quizzes':
+        return page => params => new Quiz({key: page, ...params});
       default:
         throw new Error(`Type unknown: ${type}.`);
     }

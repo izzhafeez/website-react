@@ -1,0 +1,53 @@
+{
+  "bus-stops": {
+    "title": "Bus Stops of Singapore",
+    "imgPath": "geoguessr.svg",
+    "importance": 4,
+    "link": "https://www.geoguessr.com/maps/62c1a3c88b4554410dd849fa/play"
+  },
+  "malls": {
+    "title": "Malls of Singapore",
+    "imgPath": "geoguessr.svg",
+    "importance": 10,
+    "link": "https://www.geoguessr.com/maps/6297626a72047a6dcd1a93a6/play"
+  },
+  "mrt": {
+    "title": "MRT Lines of Singapore",
+    "imgPath": "geoguessr.svg",
+    "importance": 4,
+    "link": "https://www.geoguessr.com/maps/62e00457a0224245be7148ad/play"
+  },
+  "parking-lots": {
+    "title": "Parking Lots of Singapore",
+    "imgPath": "geoguessr.svg",
+    "importance": 3,
+    "link": "https://www.geoguessr.com/maps/62c1a42a5133ade63da10858/play"
+  },
+  "subzones": {
+    "title": "Subzones of Singapore",
+    "imgPath": "jetpunk.png",
+    "importance": 6,
+    "link": "https://www.jetpunk.com/user-quizzes/197076/332-subzones-of-singapore",
+    "description": [
+      {
+        "title": "description",
+        "text": "There are quizzes out there that test the Planning Areas of Singapore. However, subzones are an even smaller subdivision of Singapore. There are 322 of them, so I decided to go into quiz creation so that I can practice it for myself."
+      }
+    ],
+    "related": [
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "svg-converter"
+        ]
+      }
+    ]
+  },
+  "schools": {
+    "title": "Schools of Singapore",
+    "imgPath": "geoguessr.svg",
+    "importance": 9,
+    "link": "https://www.geoguessr.com/maps/62c1a29ef9387d8276d465da/play"
+  }
+}

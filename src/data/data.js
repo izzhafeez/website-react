@@ -13,7 +13,7 @@ const allData = {
   },
   projects: {
     data: projectsData,
-    description: "Welcome to my Projects Page! Here is where I document some of the things I've done and created over the years. To give an overview of what I've done:\n<<../projects/coding>>Coding</> takes up a substantial portion of my time, as I continually learn and apply new programming concepts to my projects. <<../projects/music>>Music</>, once a prominent passion, saw me creating piano covers and medlies of popular songs. <<../projects/graphs>>Graphs</> are the mathematical artworks that I've created and posted on my <<https://www.instagram.com/mynameizzhafeez/?hl=en>>Instagram</>."
+    description: "Welcome to my Projects Page! Here is where I document some of the things I've done and created over the years. To give an overview of what I've done:\n<<../projects/coding>>Coding</> takes up a substantial portion of my time, as I continually learn and apply new programming concepts to my projects. <<../projects/music>>Music</>, once a prominent passion, saw me creating piano covers and medlies of popular songs. <<../projects/graphs>>Graphs</> are the mathematical artworks that I've created and posted on my <<https://www.instagram.com/mynameizzhafeez/?hl=en>>Instagram</>. Nowadays, I'm more invested in Geography than ever before, so I've been doing up quite a lot of such <<../projects/quizzes>>Quizzes</>, so do check them out!"
   },
   blog: {
     data: blogData,
