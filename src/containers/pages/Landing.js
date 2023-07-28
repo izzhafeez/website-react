@@ -65,7 +65,8 @@ const Landing = ({ type, route }) => {
       });
       return items.getPreview({
         withHeader: isHome || isAll,
-        withReturnButton: isHome || isAll
+        withReturnButton: isHome || isAll,
+        withMap: !isHome
       });
     })}
     {seo.getHelmet()}

@@ -30,7 +30,7 @@ const Home = () => {
           data: data[type].data,
           limit: data[type].limit,
           isHome: true
-        }).getPreview({ withHeader: true, withReturnButton: false })
+        }).getPreview({ withHeader: true, withReturnButton: false, withMap: false })
       })
     ))}
     {seo.getHelmet()}
