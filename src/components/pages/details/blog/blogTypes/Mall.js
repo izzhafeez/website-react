@@ -4,10 +4,10 @@ import MicroIcon from "components/basic/img/MicroIcon";
 import MapContainer from "components/map/MapContainer";
 import { Feature } from "ol";
 import { Point } from "ol/geom";
-import { mallStyle } from "./styles";
+import { pointStyle } from "./styles";
 
 class Mall extends BlogPost {
-  constructor({ latitude, longitude, station, stores, floors, area, date, ...fields }) {
+  constructor({ latitude, longitude, station, stores, floors, area, date, aesthetics, ...fields }) {
     super({
       type: 'malls',
       ...fields
@@ -19,7 +19,28 @@ class Mall extends BlogPost {
     this.floors = floors;
     this.area = area;
     this.date = date;
+    this.color = this.getColor();
+    this.aesthetics = aesthetics;
+    this.importance = !!aesthetics ? aesthetics : 0;
   };
+
+  getColor() {
+    if (!this.stores) {
+      return 'WHITE';
+    }
+    switch (true) {
+      case (this.stores < 80):
+        return 'PURPLE_BG';
+      case (this.stores < 150):
+        return 'PURPLE_V_LIGHT';
+      case (this.stores < 250):
+        return 'PURPLE_LIGHT';
+      case (this.stores < 350):
+        return 'PURPLE';
+      default:
+        return 'PURPLE_DARK';
+    }
+  }
 
   getImage(isBig) {
     if (this.imgPath === undefined) {
@@ -35,30 +56,29 @@ class Mall extends BlogPost {
     return this.station;
   };
 
+  getFeatures() {
+    return [this.getFeature()];
+  }
+
   getFeature() {
     const feature = new Feature({
       geometry: new Point([this.longitude, this.latitude]),
-      text: this.title
+      text: this.title,
+      style: pointStyle(this.color)
     });
-    feature.setStyle(mallStyle());
+    feature.setStyle(feature.get('style')());
     return feature;
   }
 
-  getPage() {
-    return <article className='container pt-4 px-4'>
-      {this.getImage(true)}
-      <div className='text-start'>
-        {this.getHeader()}
-        {this.getDetails().getParsed()}
-        {this.description.getParsed()}
-        <h3 className='blog'>LOCATION</h3>
-        <MapContainer features={[this.getFeature()]}/>
-      </div>
-    </article>
+  getMap() {
+    return <section>
+      <h3 className='blog'>LOCATION</h3>
+      <MapContainer features={this.getFeatures()}/>
+    </section>
   }
 
   getFields() {
-    return ['stores', 'floors', 'area', 'date'];
+    return ['stores', 'floors', 'area', 'date', 'aesthetics'];
   }
 };
 

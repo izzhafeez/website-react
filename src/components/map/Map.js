@@ -3,6 +3,7 @@ import TileLayer from "ol/layer/Tile";
 import VectorLayer from "ol/layer/Vector";
 import OSM from "ol/source/OSM";
 import VectorSource from "ol/source/Vector";
+import {FullScreen, defaults as defaultControls} from 'ol/control.js';
 
 const getMap = (mapElement) => {
   const initialFeaturesLayer = new VectorLayer({
@@ -24,7 +25,7 @@ const getMap = (mapElement) => {
       minZoom: 10,
       maxZoom: 19
     }),
-    controls: []
+    controls: defaultControls().extend([new FullScreen()])
   })
 
   return {

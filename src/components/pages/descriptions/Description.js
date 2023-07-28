@@ -38,6 +38,7 @@ const parseSection = category => isRaw => descriptionSection => {
       return parseLinkSection(text, category, 'Visit Repository');
     case 'proficiency':
     case 'complexity':
+    case 'aesthetics':
       return parseProficiency(title, text, category);
     default:
       return parseParagraphSection(title, text, category);

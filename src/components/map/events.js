@@ -15,6 +15,9 @@ const handlePointerMove = ({ mapElement, mapRef, overlayRef, selected }) => (eve
   if (hit) {
     const features = mapRef.current.getFeaturesAtPixel(pixel);
     if (features.length > 0) {
+      if (!!selected.current) {
+        selected.current.setStyle(selected.current.get('style')(false));
+      }
       selected.current = features[0];
       const text = selected.current.get('text');
       selected.current.setStyle(selected.current.get('style')(true));

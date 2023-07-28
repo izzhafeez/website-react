@@ -1,6 +1,7 @@
 import './style.scss';
 import Items from '../Items';
 import Sizes from '../Sizes';
+import MapContainer from 'components/map/MapContainer';
 
 class BlogPosts extends Items {
   constructor(fields) {
@@ -19,6 +20,16 @@ class BlogPosts extends Items {
       default:
         return Sizes.MEDIUM;
     }
+  }
+
+  getMap(withoutRelated) {
+    const features = this.items
+      .map(item => item.getFeatures(withoutRelated))
+      .flat(1);
+    return <section className=''>
+      <h3 className='blog'>MAP</h3>
+      <MapContainer features={features}/>
+    </section>;
   }
 }
 

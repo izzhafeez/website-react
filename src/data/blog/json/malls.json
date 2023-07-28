@@ -7,7 +7,8 @@
     "stores": 56.0,
     "floors": 5.0,
     "year": 2012.0,
-    "area": 121000
+    "area": 121000,
+    "aesthetics": 5
   },
   "111-somerset": {
     "title": "111 Somerset",
@@ -23,7 +24,8 @@
     "stores": 147.0,
     "floors": 9.0,
     "year": 2009.0,
-    "area": 288277
+    "area": 288277,
+    "aesthetics": 8
   },
   "321-clementi": {
     "title": "321 Clementi",
@@ -33,7 +35,8 @@
     "stores": 24.0,
     "floors": 7.0,
     "year": 2011.0,
-    "area": 191000
+    "area": 191000,
+    "aesthetics": 5
   },
   "888-plaza": {
     "title": "888 Plaza",
@@ -49,7 +52,8 @@
     "title": "Alexandra Central",
     "imgPath": "alexandra-central.jpg",
     "latitude": 1.28736,
-    "longitude": 103.80528
+    "longitude": 103.80528,
+    "aesthetics": 3
   },
   "alexandra-retail-centre": {
     "title": "Alexandra Retail Centre",
@@ -59,7 +63,8 @@
     "stores": 68.0,
     "floors": 3.0,
     "year": 1985.0,
-    "area": 89652
+    "area": 89652,
+    "aesthetics": 5
   },
   "amk-hub": {
     "title": "AMK Hub",
@@ -69,7 +74,8 @@
     "stores": 215.0,
     "floors": 6.0,
     "year": 2007.0,
-    "area": 320000
+    "area": 320000,
+    "aesthetics": 6
   },
   "anchorpoint": {
     "title": "Anchorpoint",
@@ -79,7 +85,8 @@
     "stores": 53.0,
     "floors": 2.0,
     "year": 1997.0,
-    "area": 70988
+    "area": 70988,
+    "aesthetics": 2
   },
   "aperia": {
     "title": "Aperia",
@@ -89,7 +96,8 @@
     "stores": 52.0,
     "floors": 3.0,
     "year": 2014.0,
-    "area": 105733
+    "area": 105733,
+    "aesthetics": 8
   },
   "balestier-hill-shopping-centre": {
     "title": "Balestier Hill Shopping Centre",
@@ -114,7 +122,8 @@
     "stores": 194.0,
     "floors": 4.0,
     "year": 2013.0,
-    "area": 220000
+    "area": 220000,
+    "aesthetics": 6
   },
   "bedok-point": {
     "title": "Bedok Point",
@@ -124,7 +133,8 @@
     "stores": 27.0,
     "floors": 5.0,
     "year": 2010.0,
-    "area": 82713
+    "area": 82713,
+    "aesthetics": 5
   },
   "bedok-town-center": {
     "title": "Bedok Town Center",
@@ -150,7 +160,8 @@
     "stores": 43.0,
     "floors": 3.0,
     "year": 2006.0,
-    "area": 53000
+    "area": 53000,
+    "aesthetics": 5
   },
   "bugis-cube": {
     "title": "Bugis Cube",
@@ -166,7 +177,8 @@
     "stores": 248.0,
     "floors": 5.0,
     "year": 1995.0,
-    "area": 397320
+    "area": 397320,
+    "aesthetics": 9
   },
   "bugis-street": {
     "title": "Bugis Street",
@@ -176,7 +188,8 @@
     "stores": 242.0,
     "floors": 3.0,
     "year": 1995.0,
-    "area": 191060
+    "area": 191060,
+    "aesthetics": 2
   },
   "bugis-plus": {
     "title": "Bugis+",
@@ -186,7 +199,8 @@
     "stores": 82.0,
     "floors": 6.0,
     "year": 2009.0,
-    "area": 202680
+    "area": 202680,
+    "aesthetics": 9
   },
   "bukit-panjang-plaza": {
     "title": "Bukit Panjang Plaza",
@@ -196,14 +210,16 @@
     "stores": 126.0,
     "floors": 4.0,
     "year": 1998.0,
-    "area": 152306
+    "area": 152306,
+    "aesthetics": 9
   },
   "bukit-timah-plaza": {
     "title": "Bukit Timah Plaza",
     "imgPath": "bukit-timah-plaza.jpg",
     "latitude": 1.3386316527745,
     "longitude": 103.778585430975,
-    "floors": 4.0
+    "floors": 4.0,
+    "aesthetics": 6
   },
   "bukit-timah-shopping-centre": {
     "title": "Bukit Timah Shopping Centre",
@@ -211,7 +227,8 @@
     "latitude": 1.3432,
     "longitude": 103.77595,
     "floors": 7.0,
-    "year": 1981.0
+    "year": 1981.0,
+    "aesthetics": 3
   },
   "canberra-plaza": {
     "title": "Canberra Plaza",
@@ -221,7 +238,8 @@
     "stores": 45.0,
     "floors": 4.0,
     "year": 2020.0,
-    "area": 88000
+    "area": 88000,
+    "aesthetics": 6
   },
   "capitol-singapore": {
     "title": "Capitol Singapore",
@@ -231,7 +249,8 @@
     "stores": 67.0,
     "floors": 4.0,
     "year": 2015.0,
-    "area": 133822
+    "area": 133822,
+    "aesthetics": 4
   },
   "cathay-cineleisure-orchard": {
     "title": "Cathay Cineleisure Orchard",
@@ -241,7 +260,8 @@
     "stores": 26.0,
     "floors": 8.0,
     "year": 1997.0,
-    "area": 169897
+    "area": 169897,
+    "aesthetics": 6
   },
   "causeway-point": {
     "title": "Causeway Point",
@@ -251,7 +271,8 @@
     "stores": 218.0,
     "floors": 6.0,
     "year": 1998.0,
-    "area": 416301
+    "area": 416301,
+    "aesthetics": 7
   },
   "century-square": {
     "title": "Century Square",
@@ -261,7 +282,8 @@
     "stores": 131.0,
     "floors": 6.0,
     "year": 1995.0,
-    "area": 205000
+    "area": 205000,
+    "aesthetics": 8
   },
   "changi-airport-t3": {
     "title": "Changi Airport T3",
@@ -289,7 +311,8 @@
     "stores": 129.0,
     "floors": 3.0,
     "year": 2011.0,
-    "area": 205007
+    "area": 205007,
+    "aesthetics": 6
   },
   "chinatown-point": {
     "title": "Chinatown Point",
@@ -299,7 +322,8 @@
     "stores": 156.0,
     "floors": 6.0,
     "year": 1990.0,
-    "area": 207726
+    "area": 207726,
+    "aesthetics": 4
   },
   "city-gate-mall": {
     "title": "City Gate Mall",
@@ -323,7 +347,8 @@
     "stores": 186.0,
     "floors": 11.0,
     "year": 2009.0,
-    "area": 450000
+    "area": 450000,
+    "aesthetics": 9
   },
   "citylink-mall": {
     "title": "CityLink Mall",
@@ -333,7 +358,8 @@
     "stores": 70.0,
     "floors": 2.0,
     "year": 2000.0,
-    "area": 67758
+    "area": 67758,
+    "aesthetics": 5
   },
   "clarke-quay-central": {
     "title": "Clarke Quay Central",
@@ -343,7 +369,8 @@
     "stores": 86.0,
     "floors": 6.0,
     "year": 2007.0,
-    "area": 201546
+    "area": 201546,
+    "aesthetics": 5
   },
   "clementi-mall": {
     "title": "Clementi Mall",
@@ -353,7 +380,8 @@
     "stores": 156.0,
     "floors": 6.0,
     "year": 2011.0,
-    "area": 192460
+    "area": 192460,
+    "aesthetics": 6
   },
   "compass-one": {
     "title": "Compass One",
@@ -363,13 +391,15 @@
     "stores": 203.0,
     "floors": 5.0,
     "year": 2002.0,
-    "area": 272881
+    "area": 272881,
+    "aesthetics": 4
   },
   "djitsun-mall": {
     "title": "Djitsun Mall",
     "imgPath": "djitsun-mall.jpg",
     "latitude": 1.3729,
-    "longitude": 103.84765
+    "longitude": 103.84765,
+    "aesthetics": 8
   },
   "djitsun-mall-bedok": {
     "title": "Djitsun Mall Bedok",
@@ -377,7 +407,8 @@
     "latitude": 1.32605,
     "longitude": 103.9296,
     "floors": 4.0,
-    "area": 48000
+    "area": 48000,
+    "aesthetics": 5
   },
   "downtown-east": {
     "title": "Downtown East",
@@ -387,7 +418,8 @@
     "stores": 134.0,
     "floors": 5.0,
     "year": 2000.0,
-    "area": 130000
+    "area": 130000,
+    "aesthetics": 8
   },
   "duo": {
     "title": "DUO",
@@ -407,7 +439,8 @@
     "stores": 131.0,
     "floors": 7.0,
     "year": 1996.0,
-    "area": 207806
+    "area": 207806,
+    "aesthetics": 6
   },
   "elias-mall": {
     "title": "Elias Mall",
@@ -417,7 +450,8 @@
     "stores": 47.0,
     "floors": 2.0,
     "year": 1995.0,
-    "area": 70000
+    "area": 70000,
+    "aesthetics": 3
   },
   "fairprice-hub": {
     "title": "FairPrice Hub",
@@ -427,7 +461,8 @@
     "stores": 28.0,
     "floors": 3.0,
     "year": 2015.0,
-    "area": 130000
+    "area": 130000,
+    "aesthetics": 6
   },
   "fajar-shopping-centre": {
     "title": "Fajar Shopping Centre",
@@ -446,7 +481,8 @@
     "stores": 549.0,
     "floors": 5.0,
     "year": 1982.0,
-    "area": 292160
+    "area": 292160,
+    "aesthetics": 3
   },
   "funan": {
     "title": "Funan",
@@ -456,7 +492,14 @@
     "stores": 199.0,
     "floors": 6.0,
     "year": 2019.0,
-    "area": 324000
+    "area": 324000,
+    "aesthetics": 10,
+    "description_": [
+      {
+        "title": "review (aesthetics)",
+        "text": "I remember growing up and going to Funan on a regular basis. And though I miss it, this is definitely better. So futuristic, so bizarre. Though it doesn't have much natural light near the ground floors, I think this deliberate choice was well made, as it added to the feel of it being a theme park. The railings, the coloured lights, the bridges all sell the feel very well. The bike path definitely made Funan interesting.\nThere's a lot going on for the outside, so I don't fully understand the design choices there, but others may have a better appreciation for it."
+      }
+    ]
   },
   "galaxis": {
     "title": "Galaxis",
@@ -478,7 +521,8 @@
     "stores": 411.0,
     "floors": 6.0,
     "year": 1973.0,
-    "area": 127961
+    "area": 127961,
+    "aesthetics": 1
   },
   "grandstand": {
     "title": "Grandstand Car Mall",
@@ -488,13 +532,15 @@
     "stores": 150.0,
     "floors": 1.0,
     "year": 2012.0,
-    "area": 450000
+    "area": 450000,
+    "aesthetics": 1
   },
   "grantral-mall": {
     "title": "Grantral Mall",
     "imgPath": "grantral-mall.jpg",
     "latitude": 1.31423131705905,
-    "longitude": 103.765097562497
+    "longitude": 103.765097562497,
+    "aesthetics": 4
   },
   "great-world-city": {
     "title": "Great World City",
@@ -504,7 +550,8 @@
     "stores": 303.0,
     "floors": 6.0,
     "year": 1997.0,
-    "area": 420000
+    "area": 420000,
+    "aesthetics": 9
   },
   "greenridge-shopping-centre": {
     "title": "Greenridge Shopping Centre",
@@ -519,7 +566,8 @@
     "stores": 21.0,
     "floors": 2.0,
     "year": 2014.0,
-    "area": 43724
+    "area": 43724,
+    "aesthetics": 6
   },
   "harbourfront-centre": {
     "title": "HarbourFront Centre",
@@ -529,14 +577,16 @@
     "stores": 152.0,
     "floors": 3.0,
     "year": 1977.0,
-    "area": 100000
+    "area": 100000,
+    "aesthetics": 4
   },
   "hdb-hub": {
     "title": "HDB Hub",
     "imgPath": "hdb-hub.jpg",
     "latitude": 1.3319945640368,
     "longitude": 103.8486,
-    "area": 186000
+    "area": 186000,
+    "aesthetics": 2
   },
   "heartland-mall": {
     "title": "Heartland Mall",
@@ -546,7 +596,8 @@
     "stores": 104.0,
     "floors": 3.0,
     "year": 1984.0,
-    "area": 86000
+    "area": 86000,
+    "aesthetics": 5
   },
   "hillion-mall": {
     "title": "Hillion Mall",
@@ -556,7 +607,8 @@
     "stores": 131.0,
     "floors": 4.0,
     "year": 2017.0,
-    "area": 174730
+    "area": 174730,
+    "aesthetics": 4
   },
   "hill-v2": {
     "title": "HillV2",
@@ -566,7 +618,8 @@
     "stores": 26.0,
     "floors": 2.0,
     "year": 2014.0,
-    "area": 53149
+    "area": 53149,
+    "aesthetics": 6
   },
   "holland-road-shopping-centre": {
     "title": "Holland Road Shopping Centre",
@@ -576,7 +629,8 @@
     "stores": 106.0,
     "floors": 4.0,
     "year": 1985.0,
-    "area": 85820
+    "area": 85820,
+    "aesthetics": 1
   },
   "hougang-1": {
     "title": "Hougang 1",
@@ -586,13 +640,15 @@
     "stores": 37.0,
     "floors": 3.0,
     "year": 1999.0,
-    "area": 85915
+    "area": 85915,
+    "aesthetics": 6
   },
   "hougang-green-shopping-mall": {
     "title": "Hougang Green Shopping Mall",
     "imgPath": "hougang-green-shopping-mall.jpg",
     "latitude": 1.37931783471773,
-    "longitude": 103.887847089168
+    "longitude": 103.887847089168,
+    "aesthetics": 3
   },
   "hougang-mall": {
     "title": "Hougang Mall",
@@ -602,7 +658,8 @@
     "stores": 133.0,
     "floors": 6.0,
     "year": 1997.0,
-    "area": 166361
+    "area": 166361,
+    "aesthetics": 7
   },
   "i12-katong": {
     "title": "I12 Katong",
@@ -612,7 +669,8 @@
     "stores": 67.0,
     "floors": 6.0,
     "year": 2011.0,
-    "area": 207160
+    "area": 207160,
+    "aesthetics": 7
   },
   "icon-village": {
     "title": "Icon Village",
@@ -622,7 +680,8 @@
     "stores": 34.0,
     "floors": 1.0,
     "year": 2007.0,
-    "area": 29838
+    "area": 29838,
+    "aesthetics": 3
   },
   "ikea-alexandra": {
     "title": "IKEA Alexandra",
@@ -631,7 +690,8 @@
     "longitude": 103.806034849631,
     "stores": 1.0,
     "year": 1995.0,
-    "area": 400000
+    "area": 400000,
+    "aesthetics": 6
   },
   "ikea-tampines": {
     "title": "IKEA Tampines",
@@ -641,7 +701,8 @@
     "stores": 1.0,
     "floors": 4.0,
     "year": 2006.0,
-    "area": 753473
+    "area": 753473,
+    "aesthetics": 7
   },
   "i-mall": {
     "title": "iMall",
@@ -657,7 +718,8 @@
     "stores": 231.0,
     "floors": 5.0,
     "year": 1991.0,
-    "area": 953002
+    "area": 953002,
+    "aesthetics": 4
   },
   "ion-orchard": {
     "title": "ION Orchard",
@@ -667,7 +729,14 @@
     "stores": 297.0,
     "floors": 9.0,
     "year": 2009.0,
-    "area": 627971
+    "area": 627971,
+    "aesthetics": 10,
+    "description_": [
+      {
+        "title": "aesthetics",
+        "text": "Entering ION feels very different from entering most malls in Singapore. It feels like you're overseas. Spacious pathways, great facilities, and everything is well-lit. The mall is also very tall, with lots of above-ground and underground shops. However, it never feels overwhelming, as you only see part of it at a time.\nAs for the exterior, all I can say is that it's very iconic. Got the tower, the waviness, the glass triangles, and the tree-like structures in front (yes I know no architectural terms). And there's lots of open space out front as well, so it was much easier to take a picture of it. Very photogenic in that sense."
+      }
+    ]
   },
   "j-cube": {
     "title": "JCube",
@@ -677,7 +746,8 @@
     "stores": 114.0,
     "floors": 5.0,
     "year": 2012.0,
-    "area": 210036
+    "area": 210036,
+    "aesthetics": 6
   },
   "jem": {
     "title": "Jem",
@@ -687,7 +757,8 @@
     "stores": 254.0,
     "floors": 7.0,
     "year": 2013.0,
-    "area": 892000
+    "area": 892000,
+    "aesthetics": 8
   },
   "jewel-changi-airport": {
     "title": "Jewel Changi Airport",
@@ -697,7 +768,14 @@
     "stores": 241.0,
     "floors": 7.0,
     "year": 2019.0,
-    "area": 576945
+    "area": 576945,
+    "aesthetics": 10,
+    "description_": [
+      {
+        "title": "review (aesthetics)",
+        "text": "How can I not give the highest rating for Jewel's aesthetics? It is arguably our most iconic and recognisable mall, and is the highlight of everyone's journey to the airport. Very spacious corridors, lots of vegetation and breathable areas, and of course the world-famous rain vortex, the tallest indoor waterfall in the world. Lighting is also excellent, as there's a lot of natural light coming from the central area. Everywhere is well maintained, and looks beautiful!"
+      }
+    ]
   },
   "jubilee-square": {
     "title": "Jubilee Square",
@@ -707,7 +785,8 @@
     "stores": 26.0,
     "floors": 4.0,
     "year": 1996.0,
-    "area": 30000
+    "area": 30000,
+    "aesthetics": 2
   },
   "junction-10": {
     "title": "Junction 10",
@@ -717,7 +796,8 @@
     "stores": 40.0,
     "floors": 2.0,
     "year": 1998.0,
-    "area": 90879
+    "area": 90879,
+    "aesthetics": 2
   },
   "junction-8": {
     "title": "Junction 8",
@@ -727,7 +807,8 @@
     "stores": 166.0,
     "floors": 6.0,
     "year": 1993.0,
-    "area": 252383
+    "area": 252383,
+    "aesthetics": 6
   },
   "junction-9": {
     "title": "Junction Nine",
@@ -737,7 +818,8 @@
     "stores": 131.0,
     "floors": 2.0,
     "year": 2013.0,
-    "area": 95351
+    "area": 95351,
+    "aesthetics": 3
   },
   "jurong-point": {
     "title": "Jurong Point",
@@ -747,7 +829,8 @@
     "stores": 354.0,
     "floors": 9.0,
     "year": 1995.0,
-    "area": 750000
+    "area": 750000,
+    "aesthetics": 7
   },
   "kallang-wave-mall": {
     "title": "Kallang Wave Mall",
@@ -757,7 +840,8 @@
     "stores": 74.0,
     "floors": 3.0,
     "year": 2014.0,
-    "area": 441320
+    "area": 441320,
+    "aesthetics": 7
   },
   "katong-shopping-centre": {
     "title": "Katong Shopping Centre",
@@ -767,7 +851,8 @@
     "stores": 145.0,
     "floors": 7.0,
     "year": 1973.0,
-    "area": 90000
+    "area": 90000,
+    "aesthetics": 1
   },
   "katong-square": {
     "title": "Katong Square",
@@ -782,7 +867,8 @@
     "stores": 31.0,
     "floors": 3.0,
     "year": 2008.0,
-    "area": 47184
+    "area": 47184,
+    "aesthetics": 3
   },
   "keat-hong-shopping-centre": {
     "title": "Keat Hong Shopping Centre",
@@ -797,7 +883,8 @@
     "stores": 88.0,
     "floors": 4.0,
     "year": 2019.0,
-    "area": 202479
+    "area": 202479,
+    "aesthetics": 8
   },
   "knightsbridge": {
     "title": "Knightsbridge",
@@ -812,7 +899,8 @@
     "stores": 38.0,
     "floors": 1.0,
     "year": 2020.0,
-    "area": 45000
+    "area": 45000,
+    "aesthetics": 4
   },
   "leisure-park-kallang": {
     "title": "Leisure Park Kallang",
@@ -822,7 +910,8 @@
     "stores": 60.0,
     "floors": 5.0,
     "year": 1982.0,
-    "area": 188000
+    "area": 188000,
+    "aesthetics": 6
   },
   "limbang-shopping-centre": {
     "title": "Limbang Shopping Centre",
@@ -837,7 +926,8 @@
     "stores": 148.0,
     "floors": 6.0,
     "year": 1996.0,
-    "area": 219836
+    "area": 219836,
+    "aesthetics": 6
   },
   "loyang-point": {
     "title": "Loyang Point",
@@ -847,7 +937,8 @@
     "stores": 77.0,
     "floors": 2.0,
     "year": 1995.0,
-    "area": 75000
+    "area": 75000,
+    "aesthetics": 6
   },
   "lucky-plaza": {
     "title": "Lucky Plaza",
@@ -857,7 +948,8 @@
     "stores": 513.0,
     "floors": 7.0,
     "year": 1977.0,
-    "area": 175200
+    "area": 175200,
+    "aesthetics": 4
   },
   "mandarin-gallery": {
     "title": "Mandarin Gallery",
@@ -867,7 +959,8 @@
     "stores": 100.0,
     "floors": 4.0,
     "year": 2010.0,
-    "area": 126282
+    "area": 126282,
+    "aesthetics": 6
   },
   "mbfc-tower-3": {
     "title": "Marina Bay Financial Centre Tower 3",
@@ -891,7 +984,14 @@
     "stores": 216.0,
     "floors": 5.0,
     "year": 2010.0,
-    "area": 800000
+    "area": 800000,
+    "aesthetics": 10,
+    "description_": [
+      {
+        "title": "review (aesthetics)",
+        "text": "Very spacious in all directions, LOTS of natural light coming from the side, well-maintained facilities. All the traits of a high-end shopping mall. There's also a water vortex, and a canal to top it all off. Just a very cultured place, with connections to the theatre, Gardens, and the occasional Bayfront event.\nLocated at the Marina Bay area, of course, there's gonna be a lot picturesque views of the Singapore skyline. Got front-row seats to fireworks some more."
+      }
+    ]
   },
   "marina-one": {
     "title": "Marina One",
@@ -901,7 +1001,14 @@
     "stores": 41.0,
     "floors": 4.0,
     "year": 2018.0,
-    "area": 140000
+    "area": 140000,
+    "aesthetics": 9,
+    "description": [
+      {
+        "title": "review (aesthetics)",
+        "text": "Another beautifully-designed building! Lots of vegetation, lots of open space, and a scenic ramp up to the upper floors, all makes for a good view of the center. The building itself is one of the tallest in Singapore, and you get the full view of its height just by looking up. So of course an NDP music video was shot here.\nThe outside, however, is a bunch of empty fields and nothingness. The Marina Bay Sands are so far away, the Marina Bay area is not very visible. So it feels very isolated from the rest of the CBD. I feel sorry for those tourists who mistakenly come to this Marina Bay MRT instead of Bayfront or something."
+      }
+    ]
   },
   "marina-square": {
     "title": "Marina Square",
@@ -911,7 +1018,8 @@
     "stores": 190.0,
     "floors": 5.0,
     "year": 1985.0,
-    "area": 780000
+    "area": 780000,
+    "aesthetics": 7
   },
   "marsiling-mall": {
     "title": "Marsiling Mall",
@@ -931,7 +1039,8 @@
     "stores": 188.0,
     "floors": 2.0,
     "year": 1995.0,
-    "area": 322917
+    "area": 322917,
+    "aesthetics": 8
   },
   "mustafa-centre": {
     "title": "Mustafa Centre",
@@ -941,7 +1050,8 @@
     "stores": 1.0,
     "floors": 6.0,
     "year": 1995.0,
-    "area": 400000
+    "area": 400000,
+    "aesthetics": 2
   },
   "nex": {
     "title": "NEX",
@@ -951,7 +1061,8 @@
     "stores": 334.0,
     "floors": 7.0,
     "year": 2010.0,
-    "area": 616000
+    "area": 616000,
+    "aesthetics": 7
   },
   "ngee-ann-city": {
     "title": "Ngee Ann City",
@@ -961,7 +1072,8 @@
     "stores": 171.0,
     "floors": 7.0,
     "year": 1993.0,
-    "area": 255021
+    "area": 255021,
+    "aesthetics": 6
   },
   "northpoint-city": {
     "title": "Northpoint City",
@@ -971,7 +1083,8 @@
     "stores": 412.0,
     "floors": 6.0,
     "year": 1992.0,
-    "area": 500000
+    "area": 500000,
+    "aesthetics": 4
   },
   "northshore-plaza": {
     "title": "Northshore Plaza",
@@ -981,7 +1094,8 @@
     "stores": 38.0,
     "floors": 3.0,
     "year": 2021.0,
-    "area": 62200
+    "area": 62200,
+    "aesthetics": 9
   },
   "velocity-novena-square": {
     "title": "Velocity @ Novena Square",
@@ -991,7 +1105,8 @@
     "stores": 52.0,
     "floors": 3.0,
     "year": 2000.0,
-    "area": 170672
+    "area": 170672,
+    "aesthetics": 6
   },
   "oasis-terraces": {
     "title": "Oasis Terraces",
@@ -1001,7 +1116,8 @@
     "stores": 45.0,
     "floors": 6.0,
     "year": 2018.0,
-    "area": 193750
+    "area": 193750,
+    "aesthetics": 9
   },
   "one-fullerton": {
     "title": "One Fullerton",
@@ -1011,7 +1127,8 @@
     "stores": 14.0,
     "floors": 2.0,
     "year": 1997.0,
-    "area": 60314
+    "area": 60314,
+    "aesthetics": 7
   },
   "one-holland-village": {
     "title": "One Holland Village",
@@ -1029,7 +1146,8 @@
     "stores": 84.0,
     "floors": 6.0,
     "year": 1985.0,
-    "area": 100000
+    "area": 100000,
+    "aesthetics": 5
   },
   "one-north": {
     "title": "one-north",
@@ -1043,7 +1161,8 @@
     "stores": 78.0,
     "floors": 13.0,
     "year": 2009.0,
-    "area": 258912
+    "area": 258912,
+    "aesthetics": 6
   },
   "orchard-gateway": {
     "title": "Orchard Gateway",
@@ -1053,7 +1172,8 @@
     "stores": 114.0,
     "floors": 6.0,
     "year": 2014.0,
-    "area": 170000
+    "area": 170000,
+    "aesthetics": 4
   },
   "orchard-plaza": {
     "title": "Orchard Plaza",
@@ -1073,7 +1193,8 @@
     "stores": 122.0,
     "floors": 7.0,
     "year": 2017.0,
-    "area": 300000
+    "area": 300000,
+    "aesthetics": 9
   },
   "palais-renaissance": {
     "title": "Palais Renaissance",
@@ -1088,7 +1209,8 @@
     "stores": 251.0,
     "floors": 7.0,
     "year": 1983.0,
-    "area": 576000
+    "area": 576000,
+    "aesthetics": 7
   },
   "paya-lebar-quarter": {
     "title": "Paya Lebar Quarter",
@@ -1098,7 +1220,8 @@
     "stores": 191.0,
     "floors": 7.0,
     "year": 2019.0,
-    "area": 340000
+    "area": 340000,
+    "aesthetics": 8
   },
   "paya-lebar-square": {
     "title": "Paya Lebar Square",
@@ -1108,7 +1231,8 @@
     "stores": 106.0,
     "floors": 3.0,
     "year": 2011.0,
-    "area": 95475
+    "area": 95475,
+    "aesthetics": 3
   },
   "peninsula-plaza": {
     "title": "Peninsula Plaza",
@@ -1138,7 +1262,8 @@
     "longitude": 103.6973,
     "stores": 30.0,
     "floors": 4.0,
-    "year": 2004.0
+    "year": 2004.0,
+    "aesthetics": 3
   },
   "plaza-singapura": {
     "title": "Plaza Singapura",
@@ -1148,7 +1273,8 @@
     "stores": 303.0,
     "floors": 9.0,
     "year": 1974.0,
-    "area": 619023
+    "area": 619023,
+    "aesthetics": 9
   },
   "punggol-plaza": {
     "title": "Punggol Plaza",
@@ -1158,7 +1284,8 @@
     "stores": 56.0,
     "floors": 6.0,
     "year": 2004.0,
-    "area": 370000
+    "area": 370000,
+    "aesthetics": 1
   },
   "queensway-shopping-centre": {
     "title": "Queensway Shopping Centre",
@@ -1168,7 +1295,8 @@
     "stores": 138.0,
     "floors": 4.0,
     "year": 1976.0,
-    "area": 66320
+    "area": 66320,
+    "aesthetics": 2
   },
   "raffles-city": {
     "title": "Raffles City",
@@ -1178,7 +1306,8 @@
     "stores": 239.0,
     "floors": 5.0,
     "year": 1986.0,
-    "area": 426830
+    "area": 426830,
+    "aesthetics": 8
   },
   "rail-mall": {
     "title": "Rail Mall",
@@ -1188,7 +1317,8 @@
     "stores": 28.0,
     "floors": 1.0,
     "year": 1947.0,
-    "area": 50000
+    "area": 50000,
+    "aesthetics": 5
   },
   "resorts-world-sentosa": {
     "title": "Resorts World Sentosa",
@@ -1207,13 +1337,15 @@
     "stores": 69.0,
     "floors": 3.0,
     "year": 2000.0,
-    "area": 81160
+    "area": 81160,
+    "aesthetics": 7
   },
   "rivervale-plaza": {
     "title": "Rivervale Plaza",
     "imgPath": "rivervale-plaza.jpg",
     "latitude": 1.385371516087,
-    "longitude": 103.901849634797
+    "longitude": 103.901849634797,
+    "aesthetics": 5
   },
   "rochester-mall": {
     "title": "Rochester Mall",
@@ -1227,13 +1359,15 @@
     "longitude": 103.904060346056,
     "stores": 51.0,
     "year": 2000.0,
-    "area": 36425
+    "area": 36425,
+    "aesthetics": 2
   },
   "scotts-square": {
     "title": "Scotts Square",
     "imgPath": "scotts-square.jpg",
     "latitude": 1.30576292435884,
-    "longitude": 103.83308338186
+    "longitude": 103.83308338186,
+    "aesthetics": 7
   },
   "seletar-mall": {
     "title": "Seletar Mall",
@@ -1243,7 +1377,8 @@
     "stores": 136.0,
     "floors": 6.0,
     "year": 2014.0,
-    "area": 188000
+    "area": 188000,
+    "aesthetics": 7
   },
   "sembawang-shopping-centre": {
     "title": "Sembawang Shopping Centre",
@@ -1253,13 +1388,15 @@
     "stores": 72.0,
     "floors": 4.0,
     "year": 1986.0,
-    "area": 143631
+    "area": 143631,
+    "aesthetics": 6
   },
   "sengkang-grand-mall": {
     "title": "Sengkang Grand Mall",
     "imgPath": "sengkang-grand-mall.jpg",
     "latitude": 1.38277,
-    "longitude": 103.89242
+    "longitude": 103.89242,
+    "aesthetics": 6
   },
   "serangoon-plaza": {
     "title": "Serangoon Plaza",
@@ -1274,7 +1411,8 @@
     "stores": 49.0,
     "floors": 6.0,
     "year": 1972.0,
-    "area": 110000
+    "area": 110000,
+    "aesthetics": 5
   },
   "shaw-house-and-centre": {
     "title": "Shaw House and Centre",
@@ -1292,7 +1430,8 @@
     "stores": 442.0,
     "floors": 7.0,
     "year": 1987.0,
-    "area": 236881
+    "area": 236881,
+    "aesthetics": 2
   },
   "singapore-shopping-centre": {
     "title": "Singapore Shopping Centre",
@@ -1307,7 +1446,8 @@
     "stores": 117.0,
     "floors": 4.0,
     "year": 2017.0,
-    "area": 175000
+    "area": 175000,
+    "aesthetics": 7
   },
   "south-beach": {
     "title": "South Beach",
@@ -1323,7 +1463,8 @@
     "stores": 141.0,
     "floors": 5.0,
     "year": 2007.0,
-    "area": 138396
+    "area": 138396,
+    "aesthetics": 5
   },
   "sun-plaza": {
     "title": "Sun Plaza",
@@ -1333,7 +1474,8 @@
     "stores": 102.0,
     "floors": 6.0,
     "year": 1999.0,
-    "area": 158000
+    "area": 158000,
+    "aesthetics": 4
   },
   "sunshine-place": {
     "title": "Sunshine Place",
@@ -1356,7 +1498,14 @@
     "stores": 351.0,
     "floors": 5.0,
     "year": 1997.0,
-    "area": 888000
+    "area": 888000,
+    "aesthetics": 10,
+    "description_": [
+      {
+        "title": "review (aesthetics)",
+        "text": "Of course Fountain of Wealth must put 10/10 lah. This was one of the OG mall attractions, before all the fancy touristy ones came out. Just so unique, and surrounded by huge towers to make you feel small.\nThe inside is spacious, with tall ceilings, and some natural light if you're in the inner circle, or at some of the atriums. However, I have issues with the layout of Suntec. It is very confusing to navigate. Even after the tens of times I've been to Suntec in the past 2 years, I still don't know how to get to North Atrium, or Tower 3. It's just the the symmetry of the center makes it easy to lose your bearing, and the similar designs for each of the atriums makes it unintuitive to know where to exit. All I remember is that to get to Promenade MRT, you have to go past Hoshino Coffee.\nIf it weren't for the exterior and Fountain of Wealth, I think Suntec would get a 6/10."
+      }
+    ]
   },
   "taman-jurong-shopping-centre": {
     "title": "Taman Jurong Shopping Centre",
@@ -1375,7 +1524,8 @@
     "stores": 167.0,
     "floors": 6.0,
     "year": 2009.0,
-    "area": 260000
+    "area": 260000,
+    "aesthetics": 6
   },
   "tampines-mall": {
     "title": "Tampines Mall",
@@ -1385,7 +1535,8 @@
     "stores": 179.0,
     "floors": 6.0,
     "year": 1995.0,
-    "area": 377437
+    "area": 377437,
+    "aesthetics": 7
   },
   "tampines-mart": {
     "title": "Tampines Mart",
@@ -1411,7 +1562,8 @@
     "stores": 67.0,
     "floors": 3.0,
     "year": 2016.0,
-    "area": 100000
+    "area": 100000,
+    "aesthetics": 4
   },
   "teck-whye-shopping-centre": {
     "title": "Teck Whye Shopping Centre",
@@ -1431,13 +1583,15 @@
     "stores": 24.0,
     "floors": 3.0,
     "year": 2019.0,
-    "area": 70000
+    "area": 70000,
+    "aesthetics": 6
   },
   "the-cathay": {
     "title": "The Cathay",
     "imgPath": "the-cathay.jpg",
     "latitude": 1.2995,
-    "longitude": 103.8478
+    "longitude": 103.8478,
+    "aesthetics": 3
   },
   "the-centrepoint": {
     "title": "The Centrepoint",
@@ -1447,7 +1601,8 @@
     "stores": 121.0,
     "floors": 8.0,
     "year": 1983.0,
-    "area": 371300
+    "area": 371300,
+    "aesthetics": 6
   },
   "the-flow": {
     "title": "The Flow",
@@ -1464,7 +1619,8 @@
     "title": "The Midtown",
     "imgPath": "the-midtown.jpg",
     "latitude": 1.37047940965108,
-    "longitude": 103.895128466923
+    "longitude": 103.895128466923,
+    "aesthetics": 2
   },
   "the-paragon": {
     "title": "The Paragon",
@@ -1474,13 +1630,15 @@
     "stores": 218.0,
     "floors": 8.0,
     "year": 1998.0,
-    "area": 484840
+    "area": 484840,
+    "aesthetics": 9
   },
   "the-poiz": {
     "title": "The Poiz",
     "imgPath": "the-poiz.jpg",
     "latitude": 1.33130351440716,
-    "longitude": 103.868076452861
+    "longitude": 103.868076452861,
+    "aesthetics": 5
   },
   "the-star-vista": {
     "title": "The Star Vista",
@@ -1490,7 +1648,14 @@
     "stores": 102.0,
     "floors": 3.0,
     "year": 2012.0,
-    "area": 162500
+    "area": 162500,
+    "aesthetics": 10,
+    "description_": [
+      {
+        "title": "review (aesthetics)",
+        "text": "Such a unique design! Massively tall ceilings, a large communal stairway, a large central atrium that can be viewed from all around. The entire layout feels like it's welcoming everything from one end.\nThe outside is even better. It is very recognisable from afar, and with the large plot of land outside, it is very easy to spot TSV on the MRT when passing by it. Not blocked by any tall buildings. The good thing is that's the only grass patch around, as there are tall buildings around it to not make it feel lonely or out of place. Well, being the smart people congregation site, it do be like that."
+      }
+    ]
   },
   "thomson-plaza": {
     "title": "Thomson Plaza",
@@ -1500,7 +1665,8 @@
     "stores": 174.0,
     "floors": 4.0,
     "year": 1979.0,
-    "area": 239316
+    "area": 239316,
+    "aesthetics": 4
   },
   "tiong-bahru-plaza": {
     "title": "Tiong Bahru Plaza",
@@ -1510,7 +1676,8 @@
     "stores": 152.0,
     "floors": 5.0,
     "year": 1994.0,
-    "area": 209000
+    "area": 209000,
+    "aesthetics": 5
   },
   "united-square": {
     "title": "United Square",
@@ -1520,7 +1687,8 @@
     "stores": 114.0,
     "floors": 5.0,
     "year": 2000.0,
-    "area": 210111
+    "area": 210111,
+    "aesthetics": 7
   },
   "upper-serangoon-shopping-centre": {
     "title": "Upper Serangoon Shopping Centre",
@@ -1540,7 +1708,8 @@
     "stores": 43.0,
     "floors": 2.0,
     "year": 2018.0,
-    "area": 21054
+    "area": 21054,
+    "aesthetics": 1
   },
   "vivo-city": {
     "title": "VivoCity",
@@ -1550,7 +1719,8 @@
     "stores": 364.0,
     "floors": 5.0,
     "year": 2006.0,
-    "area": 1076251
+    "area": 1076251,
+    "aesthetics": 9
   },
   "waterway-point": {
     "title": "Waterway Point",
@@ -1560,7 +1730,14 @@
     "stores": 216.0,
     "floors": 4.0,
     "year": 2016.0,
-    "area": 371200
+    "area": 371200,
+    "aesthetics": 10,
+    "description_": [
+      {
+        "title": "review (aesthetics)",
+        "text": "From where I took the picture, the view of the mall is amazing. They really put effort into designing the mall as close to the water as possible. Nothing feels to overbearing, and the view is good pretty much all around the mall.\nThe interior is also pretty good for the most part, with tall ceilings at the wing that has the cinema. However, the other side feels a little short, especially the area around Swensens. Idk why they can't just raise that ceiling a little higher. But otherwise, lighting is fine, and the layout is ok."
+      }
+    ]
   },
   "west-coast-plaza": {
     "title": "West Coast Plaza",
@@ -1570,7 +1747,8 @@
     "stores": 82.0,
     "floors": 3.0,
     "year": 1992.0,
-    "area": 151137
+    "area": 151137,
+    "aesthetics": 4
   },
   "west-mall": {
     "title": "West Mall",
@@ -1580,7 +1758,8 @@
     "stores": 112.0,
     "floors": 6.0,
     "year": 1998.0,
-    "area": 183000
+    "area": 183000,
+    "aesthetics": 7
   },
   "westgate": {
     "title": "Westgate",
@@ -1590,7 +1769,8 @@
     "stores": 238.0,
     "floors": 7.0,
     "year": 2013.0,
-    "area": 411272
+    "area": 411272,
+    "aesthetics": 8
   },
   "wheelock-place": {
     "title": "Wheelock Place",
@@ -1600,7 +1780,8 @@
     "stores": 107.0,
     "floors": 7.0,
     "year": 1993.0,
-    "area": 153258
+    "area": 153258,
+    "aesthetics": 5
   },
   "white-sands": {
     "title": "White Sands",
@@ -1610,7 +1791,8 @@
     "stores": 127.0,
     "floors": 7.0,
     "year": 1997.0,
-    "area": 148000
+    "area": 148000,
+    "aesthetics": 7
   },
   "wisma-atria": {
     "title": "Wisma Atria",
@@ -1620,7 +1802,8 @@
     "stores": 107.0,
     "floors": 5.0,
     "year": 1986.0,
-    "area": 127000
+    "area": 127000,
+    "aesthetics": 6
   },
   "wisteria-mall": {
     "title": "Wisteria Mall",
@@ -1630,7 +1813,8 @@
     "stores": 62.0,
     "floors": 2.0,
     "year": 2019.0,
-    "area": 83361
+    "area": 83361,
+    "aesthetics": 6
   },
   "woodlands-civic-centre": {
     "title": "Woodlands Civic Centre",
@@ -1654,7 +1838,8 @@
     "longitude": 103.871670008464,
     "floors": 3.0,
     "year": 2022.0,
-    "area": 96800
+    "area": 96800,
+    "aesthetics": 7
   },
   "woods-square": {
     "title": "Woods Square",
@@ -1664,7 +1849,8 @@
     "stores": 33.0,
     "floors": 4.0,
     "year": 2021.0,
-    "area": 39264
+    "area": 39264,
+    "aesthetics": 3
   },
   "yew-tee-point": {
     "title": "Yew Tee Point",
@@ -1674,7 +1860,8 @@
     "stores": 71.0,
     "floors": 2.0,
     "year": 2006.0,
-    "area": 73699
+    "area": 73699,
+    "aesthetics": 7
   },
   "yew-tee-square": {
     "title": "Yew Tee Square",
@@ -1685,6 +1872,7 @@
     "title": "Zhongshan Mall",
     "imgPath": "zhongshan-mall.jpg",
     "latitude": 1.32694504456951,
-    "longitude": 103.846554377679
+    "longitude": 103.846554377679,
+    "aesthetics": 6
   }
 }

@@ -133,6 +133,10 @@ class Item {
     // the link back to the parent.
     return `/${this.category}/${this.type}`;
   }
+
+  getMap() {
+    return '';
+  }
   
   getPage() {
     // element for the page view for the item.
@@ -142,6 +146,7 @@ class Item {
         {this.getHeader()}
         {this.getDetails().getParsed()}
         {this.description.getParsed()}
+        {this.getMap()}
       </div>
     </article>
   };

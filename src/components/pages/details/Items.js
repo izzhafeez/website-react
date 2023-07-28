@@ -80,11 +80,17 @@ class Items {
     }
   }
 
-  getPreview({ withHeader=true, withReturnButton=true }) {
-    return <div className='text-start ps-4' key={this.type}>
+  getMap() {
+    return '';
+  }
+
+  getPreview({ withHeader=true, withReturnButton=true, withMap=true }) {
+    return <div className='text-start px-4' key={this.type}>
       <header className='align-items-center'>
         {withHeader && this.getHeader(withReturnButton)}
       </header>
+      {withMap && this.getMap(true)}
+      {withMap && <br/>}
       <div className='container'>
         <div className={this.getClassNames()}>
           {this.items.map(this.getItem)}

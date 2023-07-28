@@ -20,7 +20,8 @@ class Related {
           type: related.type,
           data: itemsDict
         }).getPreview({
-          withReturnButton: false
+          withReturnButton: false,
+          withMap: false
         });
       });
   }
