@@ -17,24 +17,39 @@ const Home = () => {
     description: "I'm currently a Computer Science student in NUS. Check out what I've learnt, experienced and created in my 8 years of programming."
   });
 
+  const sections = [
+    ['merits', 'experiences'],
+    ['projects', 'coding'],
+    ['merits', 'languages'],
+    ['merits', 'awards'],
+    ['blog', 'hikes'],
+    ['projects', 'quizzes'],
+    ['merits', 'technologies'],
+    ['merits', 'modules'],
+    ['projects', 'music'],
+    ['merits', 'certificates'],
+    ['blog', 'malls'],
+    ['projects', 'graphs'],
+    ['merits', 'skills']
+  ]
+
   return <div className='col'>
     <MacroIcon imgPath='izzhafeez.png' category='home'/>
     <div className='px-2'>
       <h2 className='display-6 text-start'>HI, MY NAME IZZ HAFEEZ</h2>
       {description.getParsed()}
     </div>
-    {routesData.slice(1).map(({ category, data, types }) => (
-      types.slice(1).map(type => {
-        const constructor = ItemsFactory.getConstructor(category);
-        return constructor({
-          category: category,
-          type: type,
-          data: data[type].data,
-          limit: data[type].limit,
-          isHome: true
-        }).getPreview({ withHeader: true, withReturnButton: false, withMap: false })
-      })
-    ))}
+    {sections.map(([category, type]) => {
+      const data = allData[category].data;
+      const constructor = ItemsFactory.getConstructor(category);
+      return constructor({
+        category: category,
+        type: type,
+        data: data[type].data,
+        limit: data[type].limit,
+        isHome: true
+      }).getPreview({ withHeader: true, withReturnButton: false, withMap: false })
+    })}
     {seo.getHelmet()}
   </div>
 };
