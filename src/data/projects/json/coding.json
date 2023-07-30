@@ -34,7 +34,7 @@
     "imgPath": "qi.png",
     "importance": 6,
     "date": "May'23",
-    "overview": "Optimisation model that recommends the optimal routes for buses to pick up passengers",
+    "overview": "Recommends the optimal routes for buses to pick up passengers",
     "related": [
       {
         "category": "merits",
@@ -124,7 +124,7 @@
     "imgPath": "scdf.png",
     "importance": 10,
     "date": "Feb'19",
-    "overview": "Optimisation model that recommends the optimal placement of emergency vehicles",
+    "overview": "Recommends the optimal placement of emergency vehicles",
     "description": [
       {
         "title": "description",
