@@ -49,11 +49,11 @@ const Landing = ({ type, route }) => {
 
   return <div className='col'>
     <MacroIcon imgPath={imgPath} category={category} type={type}/>
-    <h3 className={`display-6 text-start ps-4`}>
+    <h3 className={`display-6 text-start px-2`}>
       {title.toUpperCase()}&nbsp;
       (<Link to={backLink} className='link-body-emphasis'>GO BACK</Link>)
     </h3>
-    <section className='px-4'>
+    <section className='px-2'>
       {description.getParsed()}
     </section>
     {sections.map(section => {

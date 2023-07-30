@@ -140,7 +140,7 @@ class Item {
   
   getPage() {
     // element for the page view for the item.
-    return <article className='container pt-4 px-4'>
+    return <article className='container pt-4 px-2'>
       {this.getImage(true)}
       <div className='text-start'>
         {this.getHeader()}

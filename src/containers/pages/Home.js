@@ -18,7 +18,7 @@ const Home = () => {
 
   return <div className='col'>
     <MacroIcon imgPath='izzhafeez.png' category='home'/>
-    <div className='px-4'>
+    <div className='px-2'>
       <h2 className='display-6 text-start'>HI, MY NAME IZZ HAFEEZ</h2>
       {description.getParsed()}
     </div>

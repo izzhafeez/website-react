@@ -70,11 +70,11 @@ class Items {
   getClassNames() {
     switch (this.getSize()) {
       case Sizes.SMALL: 
-        return 'row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2';
+        return 'row ms-3 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2';
       case Sizes.MEDIUM:
-        return 'row row-cols-xl-3 row-cols-lg-2 row-cols-1 g-2';
+        return 'row ms-3 row-cols-xl-3 row-cols-lg-2 row-cols-1 g-2';
       case Sizes.LARGE:
-        return 'row row-cols-lg-2 row-cols-1 g-2';
+        return 'row ms-3 row-cols-lg-2 row-cols-1 g-2';
       default:
         throw new Error('Size not given');
     }
@@ -85,13 +85,13 @@ class Items {
   }
 
   getPreview({ withHeader=true, withReturnButton=true, withMap=true }) {
-    return <div className='text-start px-4' key={this.type}>
+    return <div className='text-start px-2' key={this.type}>
       <header className='align-items-center'>
         {withHeader && this.getHeader(withReturnButton)}
       </header>
       {withMap && this.getMap(true)}
       {withMap && <br/>}
-      <div className='container'>
+      <div className=''>
         <div className={this.getClassNames()}>
           {this.items.map(this.getItem)}
         </div>
