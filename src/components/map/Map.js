@@ -22,7 +22,7 @@ const getMap = (mapElement) => {
       projection: 'EPSG:4326',
       center: [103.85, 1.35],
       zoom: 11,
-      minZoom: 10,
+      // minZoom: 10,
       maxZoom: 19
     }),
     controls: defaultControls().extend([new FullScreen()])

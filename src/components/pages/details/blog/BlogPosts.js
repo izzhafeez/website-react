@@ -28,7 +28,7 @@ class BlogPosts extends Items {
       .flat(1);
     return <section className=''>
       <h3 className='blog'>MAP</h3>
-      <MapContainer features={features}/>
+      <MapContainer category='blog' features={features}/>
     </section>;
   }
 }

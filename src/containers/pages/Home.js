@@ -3,6 +3,7 @@ import Description from "components/pages/descriptions/Description";
 import Seo from "components/seo/Seo";
 import allData from "data/data";
 import routesData from "routes/routes";
+import ItemsFactory from "components/pages/details/ItemsFactory";
 
 const Home = () => {
   const description = new Description({
@@ -22,8 +23,9 @@ const Home = () => {
       <h2 className='display-6 text-start'>HI, MY NAME IZZ HAFEEZ</h2>
       {description.getParsed()}
     </div>
-    {routesData.slice(1).map(({ category, constructor, data, types }) => (
+    {routesData.slice(1).map(({ category, data, types }) => (
       types.slice(1).map(type => {
+        const constructor = ItemsFactory.getConstructor(category);
         return constructor({
           category: category,
           type: type,

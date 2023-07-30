@@ -1,30 +1,42 @@
 {
-  "bus-stops": {
-    "title": "Bus Stops of Singapore",
+  "bus-stops-geoguessr": {
+    "title": "Bus Stops of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",
     "importance": 4,
     "link": "https://www.geoguessr.com/maps/62c1a3c88b4554410dd849fa/play"
   },
-  "malls": {
-    "title": "Malls of Singapore",
+  "malls-geoguessr": {
+    "title": "Malls of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",
-    "importance": 10,
+    "importance": 8,
     "link": "https://www.geoguessr.com/maps/6297626a72047a6dcd1a93a6/play"
   },
-  "mrt": {
-    "title": "MRT Lines of Singapore",
+  "malls": {
+    "title": "Malls of Singapore (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 10,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Here are some of the malls in Singapore, including shopping centres and large specialty stores. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to a shade of purple."
+      }
+    ]
+  },
+  "mrt-geoguessr": {
+    "title": "MRT Lines of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",
     "importance": 4,
     "link": "https://www.geoguessr.com/maps/62e00457a0224245be7148ad/play"
   },
-  "parking-lots": {
-    "title": "Parking Lots of Singapore",
+  "parking-lots-geoguessr": {
+    "title": "Parking Lots of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",
     "importance": 3,
     "link": "https://www.geoguessr.com/maps/62c1a42a5133ade63da10858/play"
   },
-  "subzones": {
-    "title": "Subzones of Singapore",
+  "subzones-jetpunk": {
+    "title": "Subzones of Singapore (Jetpunk)",
     "imgPath": "jetpunk.png",
     "importance": 6,
     "link": "https://www.jetpunk.com/user-quizzes/197076/332-subzones-of-singapore",
@@ -44,10 +56,22 @@
       }
     ]
   },
-  "schools": {
-    "title": "Schools of Singapore",
+  "schools-geoguessr": {
+    "title": "Schools of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",
     "importance": 9,
     "link": "https://www.geoguessr.com/maps/62c1a29ef9387d8276d465da/play"
+  },
+  "schools": {
+    "title": "Schools of Singapore (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 10,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Here are some of the schools in Singapore. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to a shade of green."
+      }
+    ]
   }
 }

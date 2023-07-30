@@ -16,18 +16,20 @@ const handlePointerMove = ({ mapElement, mapRef, overlayRef, selected }) => (eve
     const features = mapRef.current.getFeaturesAtPixel(pixel);
     if (features.length > 0) {
       if (!!selected.current) {
-        selected.current.setStyle(selected.current.get('style')(false));
+        selected.current.setStyle(selected.current.get('style')());
       }
       selected.current = features[0];
       const text = selected.current.get('text');
       selected.current.setStyle(selected.current.get('style')(true));
 
-      overlayRef.current.element.innerHTML = text;
-      overlayRef.current.setPosition(event.coordinate);
+      if (!!text) {
+        overlayRef.current.element.innerHTML = text;
+        overlayRef.current.setPosition(event.coordinate);
+      }
     }
   } else {
     if (!!selected.current) {
-      selected.current.setStyle(selected.current.get('style')(false));
+      selected.current.setStyle(selected.current.get('style')());
     }
     selected.current = null;
     overlayRef.current.setPosition(undefined);

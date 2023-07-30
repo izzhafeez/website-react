@@ -7,7 +7,7 @@ import getMap from './Map';
 import handlePointerMove from './events';
 
 // code from https://taylor.callsen.me/using-openlayers-with-react-functional-components/
-const MapContainer = ({ features }) => {
+const MapContainer = ({ category, features, willRecenter=true }) => {
   // set intial state - used to track references to OpenLayers 
   // objects for use in hooks, event handlers, etc.
   const [ map, setMap ] = useState();
@@ -61,13 +61,15 @@ const MapContainer = ({ features }) => {
       const view = map.getView();
 
       // Set the view's extent and resolution
-      view.fit(extent, {
-        padding: [100, 100, 100, 100],
-      });
+      if (willRecenter) {
+        view.fit(extent, {
+          padding: [100, 100, 100, 100],
+        });
+      }
     }
-  }, [features, map, featuresLayer, overlay]);
+  }, [features, map, featuresLayer, overlay, willRecenter]);
 
-  return <div className='blog'>
+  return <div className={category}>
       <div ref={mapElement} className='map-container'/>
     </div>
 }

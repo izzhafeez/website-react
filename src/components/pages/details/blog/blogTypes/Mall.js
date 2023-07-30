@@ -73,7 +73,7 @@ class Mall extends BlogPost {
   getMap() {
     return <section>
       <h3 className='blog'>LOCATION</h3>
-      <MapContainer features={this.getFeatures()}/>
+      <MapContainer category='blog' features={this.getFeatures()}/>
     </section>
   }
 

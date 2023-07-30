@@ -46,6 +46,29 @@ export const pointStyle = color => isActive => {
   ]
 };
 
+export const mutedPointStyle = isActive => {
+  return [
+    new Style({
+      image: new Icon({
+        src: `/img/map/location-fill.svg`,
+        displacement: [0, 5],
+        height: 10,
+        color: [100,100,100]
+      }),
+      zIndex: 2
+    }),
+    new Style({
+      image: new Icon({
+        src: `/img/map/location-border.svg`,
+        displacement: [0, 5],
+        height: 10,
+        color: [0,0,0]
+      }),
+      zIndex: 3
+    }),
+  ]
+}
+
 export const hikeStyle = color => isActive => [
   new Style({
     stroke: new Stroke({

@@ -1,5 +1,6 @@
 import MacroIcon from 'components/basic/img/MacroIcon';
 import Description from 'components/pages/descriptions/Description';
+import ItemsFactory from 'components/pages/details/ItemsFactory';
 import Seo from 'components/seo/Seo';
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -9,7 +10,8 @@ const Landing = ({ type, route }) => {
   // data is meritsData etc.
   // type is languages, skills etc.
   // types is a list containing all the types.
-  const { category, types, constructor, data } = route;
+  const { category, types, data } = route;
+  const constructor = ItemsFactory.getConstructor(category);
 
   const isHome = type === undefined;
   const isAll = type === 'all';

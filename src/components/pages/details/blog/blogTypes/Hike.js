@@ -63,7 +63,7 @@ class Hike extends BlogPost {
         `,
         style: numberStyle(this.color)(index)
       });
-      feature.setStyle(feature.get('style')());
+      feature.setStyle(feature.get('style')({}));
       return feature;
     })
   }
@@ -77,7 +77,7 @@ class Hike extends BlogPost {
       `,
       style: hikeStyle(this.color),
     });
-    feature.setStyle(feature.get('style')(false));
+    feature.setStyle(feature.get('style')());
     return feature;
   }
 
@@ -110,7 +110,7 @@ class Hike extends BlogPost {
   getMap(withoutRelated) {
     return <section>
       <h3 className='blog'>PATH</h3>
-      <MapContainer features={this.getFeatures(withoutRelated)}/>
+      <MapContainer category='blog' features={this.getFeatures(withoutRelated)}/>
     </section>
   }
 
