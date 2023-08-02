@@ -4,8 +4,10 @@ import City from "components/pages/details/projects/projectTypes/quizzes/City";
 import School from "components/pages/details/projects/projectTypes/quizzes/School";
 import citiesData from 'data/projects/json/quizzes/cities.json';
 import mallsData from "data/blog/json/malls.json";
+import mrtData from "data/projects/json/quizzes/mrt.json";
 import schoolsData from 'data/projects/json/quizzes/schools.json';
 import { useState } from "react";
+import Mrt from "components/pages/details/projects/projectTypes/quizzes/Mrt";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
@@ -18,6 +20,10 @@ const QuizPage = ({ type, item }) => {
     case 'schools':
       constructor = p => new School(p);
       data = schoolsData;
+      break;
+    case 'mrt':
+      constructor = p => new Mrt(p);
+      data = mrtData;
       break;
     case 'cities':
       constructor = p => new City(p);
