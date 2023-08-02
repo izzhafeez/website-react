@@ -46,6 +46,8 @@ class Mrt extends Project {
       case 'ST':
       case 'PT':
         return 'GREY';
+      default:
+        return 'WHITE';
     }
   }
 
