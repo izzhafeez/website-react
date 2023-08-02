@@ -53,6 +53,18 @@
       }
     ]
   },
+  "mrt-chinese": {
+    "title": "MRTs of Singapore (Chinese Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 10,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Here are most of the MRT stations in Singapore, including future ones up till the CR Phase 1. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to the colour of the MRT line."
+      }
+    ]
+  },
   "parking-lots-geoguessr": {
     "title": "Parking Lots of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",
