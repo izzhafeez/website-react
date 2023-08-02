@@ -3,13 +3,17 @@ import React, { useEffect, useState } from "react";
 import { mutedPointStyle } from "./blogTypes/styles";
 import { Feature } from "ol";
 import { Point } from "ol/geom";
+import unidecode from "unidecode";
 
 const purify = text => {
-  return text
+  const unascii = unidecode(text);
+  return unascii
     .replaceAll(' ', '')
     .toLowerCase()
+    .replace(/__.*/gi, '')
     .replace(/[^0-9a-z]/gi, '')
-    .replace('school', '');
+    .replace('school', '')
+    .replace('saint', 'st');
 }
 
 const GeoQuiz = ({ data, constructor }) => {
@@ -19,10 +23,20 @@ const GeoQuiz = ({ data, constructor }) => {
   const [completed, setCompleted] = useState({});
   const [correct, setCorrect] = useState(0);
   const [grade, setGrade] = useState('');
+  const [willRecenter, setRecenter] = useState(false);
   
   useEffect(() => {
+    setCorrect(0);
+    setCompleted({});
+    setGrade('');
+    setRecenter(true);
     const allItems = Object.entries(data).map(([k, v], index) => {
-      itemPositions[purify(v.title)] = index;
+      const key = purify(v.title);
+      if (!!itemPositions[key]) {
+        itemPositions[key].push(index);
+      } else {
+        itemPositions[key] = [index];
+      }
       setItemPositions(itemPositions);
       const item = constructor(v);
       return item;
@@ -38,25 +52,31 @@ const GeoQuiz = ({ data, constructor }) => {
       return feature;
     });
     setFeatures(allFeatures);
-  }, [itemPositions, constructor, data])
+  }, [itemPositions, constructor, data]);
 
   const handleGuess = event => {
+    setRecenter(false);
     const guess = purify(event.target.value);
-    const itemPosition = itemPositions[guess];
-    if (!!itemPosition) {
+    const positionsToChange = itemPositions[guess];
+    if (!!positionsToChange) {
       if (!!completed[guess]) {
         return;
       }
 
       completed[guess] = true;
       setCompleted(completed);
-      setCorrect(correct + 1);
-      setFeatures([
-        ...features.slice(0, itemPosition),
-        items[itemPosition].getFeature(),
-        ...features.slice(itemPosition+1, features.length)
-      ]);
+      const totalCorrect = correct + positionsToChange.length;
+      setCorrect(totalCorrect);
+      setFeatures(features.map((f, i) => {
+        if (positionsToChange.includes(i)) {
+          return items[i].getFeature();
+        }
+        return f;
+      }));
       event.target.value = '';
+      if (totalCorrect === features.length) {
+        handleGiveUp(true)();
+      }
     };
   };
 
@@ -79,15 +99,15 @@ const GeoQuiz = ({ data, constructor }) => {
     }
   };
 
-  const handleGiveUp = _ => {
+  const handleGiveUp = isComplete => _ => {
     setCompleted(itemPositions);
-    setGrade(getGrade(correct/features.length));
+    setGrade(getGrade(isComplete ? 1 : correct/features.length));
     setFeatures(items.map(item => item.getFeature()))
   }
 
   return <div className='text-start'>
     <div className='form-group'>
-      <label for='guess'><b>Enter answer here:</b></label>
+      <label htmlFor='guess'><b>Enter answer here:</b></label>
       <input
         type='text'
         id='guess'
@@ -96,9 +116,9 @@ const GeoQuiz = ({ data, constructor }) => {
         onChange={handleGuess}
       />
     </div>
-    <p>{`${correct}/${features.length}`} guessed <button onClick={handleGiveUp} className='btn btn-danger py-1 ms-2'>Give Up</button></p>
+    <p>{`${correct}/${features.length}`} guessed <button onClick={handleGiveUp()} className='btn btn-danger py-1 ms-2'>Give Up</button></p>
     {!!grade && <p><b>Grade:</b><br/>{grade}</p>}
-    <MapContainer category='projects' features={features} willRecenter={false}/>
+    <MapContainer category='projects' features={features} willRecenter={willRecenter}/>
   </div>
 };
 

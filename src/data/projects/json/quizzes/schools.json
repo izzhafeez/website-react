@@ -31,20 +31,20 @@
   },
   "Alexandra Primary School": {
     "title": "Alexandra Primary School",
-    "latitude": 1.291334,
-    "longitude": 103.824425,
+    "latitude": 1.291384,
+    "longitude": 103.823857,
     "level": "Primary"
   },
   "Anchor Green Primary School": {
     "title": "Anchor Green Primary School",
-    "latitude": 1.39037,
-    "longitude": 103.887165,
+    "latitude": 1.390807,
+    "longitude": 103.887107,
     "level": "Primary"
   },
   "Anderson Primary School": {
     "title": "Anderson Primary School",
-    "latitude": 1.384264,
-    "longitude": 103.841392,
+    "latitude": 1.384,
+    "longitude": 103.8414,
     "level": "Primary"
   },
   "Anderson Secondary School": {
@@ -61,14 +61,14 @@
   },
   "Ang Mo Kio Secondary School": {
     "title": "Ang Mo Kio Secondary School",
-    "latitude": 1.367337,
-    "longitude": 103.842155,
+    "latitude": 1.367447,
+    "longitude": 103.842488,
     "level": "Secondary"
   },
   "Anglican High School": {
     "title": "Anglican High School",
-    "latitude": 1.331181,
-    "longitude": 103.941853,
+    "latitude": 1.330327,
+    "longitude": 103.942366,
     "level": "Secondary"
   },
   "Anglo-Chinese School": {
@@ -85,8 +85,8 @@
   },
   "Anglo-Chinese School (Independent)": {
     "title": "Anglo-Chinese School (Independent)",
-    "latitude": 1.303704,
-    "longitude": 103.780363,
+    "latitude": 1.302499,
+    "longitude": 103.780447,
     "level": "Secondary"
   },
   "Anglo-Chinese School (Junior)": {
@@ -97,26 +97,20 @@
   },
   "Angsana Primary School": {
     "title": "Angsana Primary School",
-    "latitude": 1.348553,
-    "longitude": 103.951808,
+    "latitude": 1.3629,
+    "longitude": 103.939,
     "level": "Primary"
   },
   "Assumption English School": {
     "title": "Assumption English School",
-    "latitude": 1.368382,
-    "longitude": 103.766688,
+    "latitude": 1.369231,
+    "longitude": 103.766387,
     "level": "Secondary"
-  },
-  "Balestier Hill Primary School": {
-    "title": "Balestier Hill Primary School",
-    "latitude": 1.3256,
-    "longitude": 103.8422,
-    "level": "Primary"
   },
   "Bartley Secondary School": {
     "title": "Bartley Secondary School",
-    "latitude": 1.339954,
-    "longitude": 103.882806,
+    "latitude": 1.340243,
+    "longitude": 103.88284,
     "level": "Secondary"
   },
   "Beacon Primary School": {
@@ -151,38 +145,38 @@
   },
   "Bedok View Secondary School": {
     "title": "Bedok View Secondary School",
-    "latitude": 1.324157,
-    "longitude": 103.943776,
+    "latitude": 1.324489,
+    "longitude": 103.943499,
     "level": "Secondary"
   },
   "Bendemeer Primary School": {
     "title": "Bendemeer Primary School",
-    "latitude": 1.321813,
-    "longitude": 103.865404,
+    "latitude": 1.322182,
+    "longitude": 103.865127,
     "level": "Primary"
   },
   "Bendemeer Secondary School": {
     "title": "Bendemeer Secondary School",
-    "latitude": 1.324611,
-    "longitude": 103.86097,
+    "latitude": 1.324623,
+    "longitude": 103.860685,
     "level": "Secondary"
   },
   "Blangah Rise Primary School": {
     "title": "Blangah Rise Primary School",
     "latitude": 1.27612,
-    "longitude": 103.808629,
+    "longitude": 103.808628,
     "level": "Primary"
   },
   "Boon Lay Garden Primary School": {
     "title": "Boon Lay Garden Primary School",
-    "latitude": 1.343179,
-    "longitude": 103.713281,
+    "latitude": 1.342987,
+    "longitude": 103.713032,
     "level": "Primary"
   },
   "Boon Lay Secondary School": {
     "title": "Boon Lay Secondary School",
     "latitude": 1.342722,
-    "longitude": 103.701891,
+    "longitude": 103.701892,
     "level": "Secondary"
   },
   "Bowen Secondary School": {
@@ -199,8 +193,8 @@
   },
   "Bukit Batok Secondary School": {
     "title": "Bukit Batok Secondary School",
-    "latitude": 1.348491,
-    "longitude": 103.740874,
+    "latitude": 1.348223,
+    "longitude": 103.740733,
     "level": "Secondary"
   },
   "Bukit Merah Secondary School": {
@@ -211,8 +205,8 @@
   },
   "Bukit Panjang Government High School": {
     "title": "Bukit Panjang Government High School",
-    "latitude": 1.382242,
-    "longitude": 103.738361,
+    "latitude": 1.381906,
+    "longitude": 103.738484,
     "level": "Secondary"
   },
   "Bukit Panjang Primary School": {
@@ -241,14 +235,14 @@
   },
   "Canberra Primary School": {
     "title": "Canberra Primary School",
-    "latitude": 1.45125,
-    "longitude": 103.815859,
+    "latitude": 1.45095,
+    "longitude": 103.815698,
     "level": "Primary"
   },
   "Canberra Secondary School": {
     "title": "Canberra Secondary School",
-    "latitude": 1.453191,
-    "longitude": 103.814204,
+    "latitude": 1.453663,
+    "longitude": 103.814446,
     "level": "Secondary"
   },
   "Canossa Catholic Primary School": {
@@ -269,11 +263,17 @@
     "longitude": 103.95702,
     "level": "Primary"
   },
-  "Catholic High School": {
-    "title": "Catholic High School",
-    "latitude": 1.354389,
-    "longitude": 103.844211,
+  "Catholic High School__P": {
+    "title": "Catholic High School__P",
+    "latitude": 1.354582,
+    "longitude": 103.845149,
     "level": "Primary"
+  },
+  "Catholic High School__S": {
+    "title": "Catholic High School__S",
+    "latitude": 1.354582,
+    "longitude": 103.845149,
+    "level": "Secondary"
   },
   "Cedar Girls' Secondary School": {
     "title": "Cedar Girls' Secondary School",
@@ -283,14 +283,14 @@
   },
   "Cedar Primary School": {
     "title": "Cedar Primary School",
-    "latitude": 1.335589,
-    "longitude": 103.875621,
+    "latitude": 1.33419,
+    "longitude": 103.874235,
     "level": "Primary"
   },
   "Changkat Changi Secondary School": {
     "title": "Changkat Changi Secondary School",
-    "latitude": 1.339506,
-    "longitude": 103.953246,
+    "latitude": 1.34089,
+    "longitude": 103.95271,
     "level": "Secondary"
   },
   "Changkat Primary School": {
@@ -353,11 +353,17 @@
     "longitude": 103.902465,
     "level": "Secondary"
   },
-  "CHIJ St. Nicholas Girls' School": {
-    "title": "CHIJ St. Nicholas Girls' School",
+  "CHIJ St. Nicholas Girls' School__S": {
+    "title": "CHIJ St. Nicholas Girls' School__S",
     "latitude": 1.373477,
     "longitude": 103.834253,
     "level": "Secondary"
+  },
+  "CHIJ St. Nicholas Girls' School__P": {
+    "title": "CHIJ St. Nicholas Girls' School__P",
+    "latitude": 1.373477,
+    "longitude": 103.834253,
+    "level": "Primary"
   },
   "CHIJ St. Theresa's Convent": {
     "title": "CHIJ St. Theresa's Convent",
@@ -374,7 +380,7 @@
   "Chongzheng Primary School": {
     "title": "Chongzheng Primary School",
     "latitude": 1.350707,
-    "longitude": 103.9514,
+    "longitude": 103.951399,
     "level": "Primary"
   },
   "Christ Church Secondary School": {
@@ -397,8 +403,8 @@
   },
   "Chung Cheng High School (Main)": {
     "title": "Chung Cheng High School (Main)",
-    "latitude": 1.305092,
-    "longitude": 103.891653,
+    "latitude": 1.305494,
+    "longitude": 103.891593,
     "level": "Secondary"
   },
   "Chung Cheng High School (Yishun)": {
@@ -443,12 +449,6 @@
     "longitude": 103.736225,
     "level": "Primary"
   },
-  "Coral Primary School": {
-    "title": "Coral Primary School",
-    "latitude": 1.368,
-    "longitude": 103.9486,
-    "level": "Primary"
-  },
   "Corporation Primary School": {
     "title": "Corporation Primary School",
     "latitude": 1.350998,
@@ -461,11 +461,11 @@
     "longitude": 103.817544,
     "level": "Secondary"
   },
-  "Da Qiao Primary School": {
-    "title": "Da Qiao Primary School",
-    "latitude": 0.0,
-    "longitude": 0.0,
-    "level": "Primary"
+  "Crest Secondary School": {
+    "title": "Crest Secondary School",
+    "latitude": 1.3434,
+    "longitude": 103.7429,
+    "level": "Secondary"
   },
   "Damai Primary School": {
     "title": "Damai Primary School",
@@ -503,8 +503,8 @@
     "longitude": 103.744721,
     "level": "Secondary"
   },
-  "Dunman High School": {
-    "title": "Dunman High School",
+  "Dunman High School__S": {
+    "title": "Dunman High School__S",
     "latitude": 1.299962,
     "longitude": 103.882942,
     "level": "Secondary"
@@ -514,12 +514,6 @@
     "latitude": 1.360653,
     "longitude": 103.956214,
     "level": "Secondary"
-  },
-  "East Coast Primary School": {
-    "title": "East Coast Primary School",
-    "latitude": 0.0,
-    "longitude": 0.0,
-    "level": "Primary"
   },
   "East Spring Primary School": {
     "title": "East Spring Primary School",
@@ -532,12 +526,6 @@
     "latitude": 1.356225,
     "longitude": 103.960641,
     "level": "Secondary"
-  },
-  "East View Primary School": {
-    "title": "East View Primary School",
-    "latitude": 1.3469,
-    "longitude": 103.939,
-    "level": "Primary"
   },
   "Edgefield Primary School": {
     "title": "Edgefield Primary School",
@@ -617,6 +605,12 @@
     "longitude": 103.874445,
     "level": "Primary"
   },
+  "Fern Green Primary School": {
+    "title": "Fern Green Primary School",
+    "latitude": 1.39764,
+    "longitude": 103.88002,
+    "level": "Primary"
+  },
   "First Toa Payoh Primary School": {
     "title": "First Toa Payoh Primary School",
     "latitude": 1.340323,
@@ -665,11 +659,17 @@
     "longitude": 103.823734,
     "level": "Secondary"
   },
-  "Geylang Methodist School": {
-    "title": "Geylang Methodist School",
+  "Geylang Methodist School__P": {
+    "title": "Geylang Methodist School__P",
     "latitude": 1.317591,
     "longitude": 103.883846,
     "level": "Primary"
+  },
+  "Geylang Methodist School__S": {
+    "title": "Geylang Methodist School__S",
+    "latitude": 1.317649,
+    "longitude": 103.882661,
+    "level": "Secondary"
   },
   "Gongshang Primary School": {
     "title": "Gongshang Primary School",
@@ -731,6 +731,12 @@
     "longitude": 103.902903,
     "level": "Primary"
   },
+  "Henderson Secondary School": {
+    "title": "Henderson Secondary School",
+    "latitude": 1.28481,
+    "longitude": 103.81986,
+    "level": "Secondary"
+  },
   "Henry Park Primary School": {
     "title": "Henry Park Primary School",
     "latitude": 1.316676,
@@ -740,7 +746,7 @@
   "Hillgrove Secondary School": {
     "title": "Hillgrove Secondary School",
     "latitude": 1.352736,
-    "longitude": 103.752986,
+    "longitude": 103.752987,
     "level": "Secondary"
   },
   "Holy Innocents' High School": {
@@ -764,7 +770,7 @@
   "Hong Wen School": {
     "title": "Hong Wen School",
     "latitude": 1.32176,
-    "longitude": 103.857628,
+    "longitude": 103.857629,
     "level": "Primary"
   },
   "Horizon Primary School": {
@@ -797,8 +803,8 @@
     "longitude": 103.84424,
     "level": "Primary"
   },
-  "Hwa Chong Institution": {
-    "title": "Hwa Chong Institution",
+  "Hwa Chong Institution__S": {
+    "title": "Hwa Chong Institution__S",
     "latitude": 1.325889,
     "longitude": 103.800747,
     "level": "Secondary"
@@ -806,13 +812,13 @@
   "Innova Primary School": {
     "title": "Innova Primary School",
     "latitude": 1.428967,
-    "longitude": 103.790608,
+    "longitude": 103.790607,
     "level": "Primary"
   },
   "Jiemin Primary School": {
     "title": "Jiemin Primary School",
     "latitude": 1.427688,
-    "longitude": 103.830425,
+    "longitude": 103.830426,
     "level": "Primary"
   },
   "Jing Shan Primary School": {
@@ -862,12 +868,6 @@
     "latitude": 1.351289,
     "longitude": 103.728908,
     "level": "Secondary"
-  },
-  "Juying Primary School": {
-    "title": "Juying Primary School",
-    "latitude": 1.339023,
-    "longitude": 103.68777,
-    "level": "Primary"
   },
   "Juying Secondary School": {
     "title": "Juying Secondary School",
@@ -935,23 +935,11 @@
     "longitude": 103.754166,
     "level": "Primary"
   },
-  "Loyang Primary School": {
-    "title": "Loyang Primary School",
-    "latitude": 1.3709,
-    "longitude": 103.9538,
-    "level": "Primary"
-  },
   "Loyang View Secondary School": {
     "title": "Loyang View Secondary School",
     "latitude": 1.366584,
     "longitude": 103.956945,
     "level": "Secondary"
-  },
-  "MacPherson Primary School": {
-    "title": "MacPherson Primary School",
-    "latitude": 0.0,
-    "longitude": 0.0,
-    "level": "Primary"
   },
   "Maha Bodhi School": {
     "title": "Maha Bodhi School",
@@ -965,11 +953,17 @@
     "longitude": 103.90172,
     "level": "Secondary"
   },
-  "Maris Stella High School": {
-    "title": "Maris Stella High School",
+  "Maris Stella High School__P": {
+    "title": "Maris Stella High School__P",
     "latitude": 1.341395,
-    "longitude": 103.877852,
+    "longitude": 103.877853,
     "level": "Primary"
+  },
+  "Maris Stella High School__S": {
+    "title": "Maris Stella High School__S",
+    "latitude": 1.341395,
+    "longitude": 103.877853,
+    "level": "Secondary"
   },
   "Marsiling Primary School": {
     "title": "Marsiling Primary School",
@@ -991,8 +985,8 @@
   },
   "Mayflower Primary School": {
     "title": "Mayflower Primary School",
-    "latitude": 1.376146,
-    "longitude": 103.835805,
+    "latitude": 1.3772,
+    "longitude": 103.8431,
     "level": "Primary"
   },
   "Mayflower Secondary School": {
@@ -1004,7 +998,7 @@
   "Mee Toh School": {
     "title": "Mee Toh School",
     "latitude": 1.394618,
-    "longitude": 103.908589,
+    "longitude": 103.90859,
     "level": "Primary"
   },
   "Meridian Primary School": {
@@ -1019,11 +1013,17 @@
     "longitude": 103.948972,
     "level": "Secondary"
   },
-  "Methodist Girls' School": {
-    "title": "Methodist Girls' School",
+  "Methodist Girls' School__P": {
+    "title": "Methodist Girls' School__P",
     "latitude": 1.349473,
     "longitude": 103.884971,
     "level": "Primary"
+  },
+  "Methodist Girls' School__S": {
+    "title": "Methodist Girls' School__S",
+    "latitude": 1.350968,
+    "longitude": 103.88512,
+    "level": "Secondary"
   },
   "Montfort Junior School": {
     "title": "Montfort Junior School",
@@ -1073,8 +1073,8 @@
     "longitude": 103.80775,
     "level": "Primary"
   },
-  "National Junior College": {
-    "title": "National Junior College",
+  "National Junior College__S": {
+    "title": "National Junior College__S",
     "latitude": 1.330481,
     "longitude": 103.802311,
     "level": "Secondary"
@@ -1127,6 +1127,12 @@
     "longitude": 103.848191,
     "level": "Primary"
   },
+  "North View Secondary School": {
+    "title": "North View Secondary School",
+    "latitude": 1.38121,
+    "longitude": 103.899075,
+    "level": "Secondary"
+  },
   "North Vista Primary School": {
     "title": "North Vista Primary School",
     "latitude": 1.382822,
@@ -1161,6 +1167,12 @@
     "title": "Northoaks Primary School",
     "latitude": 1.456608,
     "longitude": 103.814197,
+    "level": "Primary"
+  },
+  "Northshore Primary School": {
+    "title": "Northshore Primary School",
+    "latitude": 1.418094,
+    "longitude": 103.904667,
     "level": "Primary"
   },
   "NUS High School of Mathematics and Science": {
@@ -1223,11 +1235,17 @@
     "longitude": 103.948963,
     "level": "Secondary"
   },
-  "Paya Lebar Methodist Girls' School": {
-    "title": "Paya Lebar Methodist Girls' School",
+  "Paya Lebar Methodist Girls' School__P": {
+    "title": "Paya Lebar Methodist Girls' School__P",
     "latitude": 1.349473,
     "longitude": 103.884971,
     "level": "Primary"
+  },
+  "Paya Lebar Methodist Girls' School__S": {
+    "title": "Paya Lebar Methodist Girls' School__S",
+    "latitude": 1.350968,
+    "longitude": 103.88512,
+    "level": "Secondary"
   },
   "Pei Chun Public School": {
     "title": "Pei Chun Public School",
@@ -1279,14 +1297,14 @@
   },
   "Pioneer Primary School": {
     "title": "Pioneer Primary School",
-    "latitude": 1.348836,
-    "longitude": 103.695004,
+    "latitude": 1.339023,
+    "longitude": 103.68777,
     "level": "Primary"
   },
   "Poi Ching School": {
     "title": "Poi Ching School",
     "latitude": 1.357651,
-    "longitude": 103.935246,
+    "longitude": 103.935247,
     "level": "Primary"
   },
   "Presbyterian High School": {
@@ -1379,8 +1397,8 @@
     "longitude": 103.843134,
     "level": "Secondary"
   },
-  "Raffles Institution": {
-    "title": "Raffles Institution",
+  "Raffles Institution__S": {
+    "title": "Raffles Institution__S",
     "latitude": 1.346188,
     "longitude": 103.845875,
     "level": "Secondary"
@@ -1430,7 +1448,7 @@
   "Rosyth School": {
     "title": "Rosyth School",
     "latitude": 1.372891,
-    "longitude": 103.875002,
+    "longitude": 103.875001,
     "level": "Primary"
   },
   "Rulang Primary School": {
@@ -1481,12 +1499,6 @@
     "longitude": 103.875218,
     "level": "Primary"
   },
-  "Sengkang Secondary School": {
-    "title": "Sengkang Secondary School",
-    "latitude": 1.386389,
-    "longitude": 103.896957,
-    "level": "Secondary"
-  },
   "Serangoon Garden Secondary School": {
     "title": "Serangoon Garden Secondary School",
     "latitude": 1.369326,
@@ -1505,17 +1517,17 @@
     "longitude": 103.721524,
     "level": "Primary"
   },
-  "Shuqun Secondary School": {
-    "title": "Shuqun Secondary School",
-    "latitude": 1.3405,
-    "longitude": 103.7376,
-    "level": "Secondary"
-  },
   "Si Ling Primary School": {
     "title": "Si Ling Primary School",
     "latitude": 1.432409,
     "longitude": 103.786035,
     "level": "Primary"
+  },
+  "Si Ling Secondary School": {
+    "title": "Si Ling Secondary School",
+    "latitude": 1.4448,
+    "longitude": 103.7746,
+    "level": "Secondary"
   },
   "Singapore Chinese Girls' School": {
     "title": "Singapore Chinese Girls' School",
@@ -1523,8 +1535,8 @@
     "longitude": 103.828165,
     "level": "Secondary"
   },
-  "Singapore Chinese Girls? School": {
-    "title": "Singapore Chinese Girls? School",
+  "Singapore Chinese Girls\u2019 School": {
+    "title": "Singapore Chinese Girls\u2019 School",
     "latitude": 1.320634,
     "longitude": 103.828165,
     "level": "Primary"
@@ -1541,6 +1553,12 @@
     "longitude": 103.746276,
     "level": "Primary"
   },
+  "Spectra Secondary School": {
+    "title": "Spectra Secondary School",
+    "latitude": 1.4365,
+    "longitude": 103.80434,
+    "level": "Secondary"
+  },
   "Springdale Primary School": {
     "title": "Springdale Primary School",
     "latitude": 1.39467,
@@ -1550,7 +1568,7 @@
   "Springfield Secondary School": {
     "title": "Springfield Secondary School",
     "latitude": 1.349573,
-    "longitude": 103.930354,
+    "longitude": 103.930355,
     "level": "Secondary"
   },
   "St. Andrew's Junior School": {
@@ -1607,8 +1625,8 @@
     "longitude": 103.937608,
     "level": "Secondary"
   },
-  "St. Joseph's Institution": {
-    "title": "St. Joseph's Institution",
+  "St. Joseph's Institution__S": {
+    "title": "St. Joseph's Institution__S",
     "latitude": 1.33278,
     "longitude": 103.841203,
     "level": "Secondary"
@@ -1727,8 +1745,8 @@
     "longitude": 103.910934,
     "level": "Primary"
   },
-  "Temasek Junior College": {
-    "title": "Temasek Junior College",
+  "Temasek Junior College__S": {
+    "title": "Temasek Junior College__S",
     "latitude": 1.319011,
     "longitude": 103.933075,
     "level": "Secondary"
@@ -1850,7 +1868,7 @@
   "Woodlands Primary School": {
     "title": "Woodlands Primary School",
     "latitude": 1.4368,
-    "longitude": 103.7896,
+    "longitude": 103.7918,
     "level": "Primary"
   },
   "Woodlands Ring Primary School": {
@@ -1862,7 +1880,7 @@
   "Woodlands Ring Secondary School": {
     "title": "Woodlands Ring Secondary School",
     "latitude": 1.436489,
-    "longitude": 103.800148,
+    "longitude": 103.800149,
     "level": "Secondary"
   },
   "Woodlands Secondary School": {
@@ -1904,7 +1922,7 @@
   "Yangzheng Primary School": {
     "title": "Yangzheng Primary School",
     "latitude": 1.348646,
-    "longitude": 103.868596,
+    "longitude": 103.868595,
     "level": "Primary"
   },
   "Yew Tee Primary School": {
@@ -1994,7 +2012,7 @@
   "Zhenghua Primary School": {
     "title": "Zhenghua Primary School",
     "latitude": 1.379549,
-    "longitude": 103.769314,
+    "longitude": 103.769313,
     "level": "Primary"
   },
   "Zhenghua Secondary School": {
@@ -2012,7 +2030,7 @@
   "Zhonghua Secondary School": {
     "title": "Zhonghua Secondary School",
     "latitude": 1.348407,
-    "longitude": 103.86943,
+    "longitude": 103.869431,
     "level": "Secondary"
   },
   "Anderson Serangoon Junior College": {
@@ -2039,10 +2057,22 @@
     "longitude": 103.835029,
     "level": "Tertiary"
   },
+  "Dunman High School__T": {
+    "title": "Dunman High School__T",
+    "latitude": 1.299125,
+    "longitude": 103.882862,
+    "level": "Tertiary"
+  },
   "Eunoia Junior College": {
     "title": "Eunoia Junior College",
     "latitude": 1.362454,
     "longitude": 103.840484,
+    "level": "Tertiary"
+  },
+  "Hwa Chong Institution__T": {
+    "title": "Hwa Chong Institution__T",
+    "latitude": 1.324893,
+    "longitude": 103.805729,
     "level": "Tertiary"
   },
   "Jurong Pioneer Junior College": {
@@ -2057,6 +2087,18 @@
     "longitude": 103.866499,
     "level": "Tertiary"
   },
+  "National Junior College__T": {
+    "title": "National Junior College__T",
+    "latitude": 1.33043,
+    "longitude": 103.804459,
+    "level": "Tertiary"
+  },
+  "Raffles Institution__T": {
+    "title": "Raffles Institution__T",
+    "latitude": 1.345761,
+    "longitude": 103.845983,
+    "level": "Tertiary"
+  },
   "River Valley Junior College": {
     "title": "River Valley Junior College",
     "latitude": 1.344073,
@@ -2069,16 +2111,22 @@
     "longitude": 103.863481,
     "level": "Tertiary"
   },
-  "St. Joseph's Junior College": {
-    "title": "St. Joseph's Junior College",
-    "latitude": 1.320149,
-    "longitude": 103.832659,
+  "St. Joseph's Institution__T": {
+    "title": "St. Joseph's Institution__T",
+    "latitude": 1.3236,
+    "longitude": 103.8273,
     "level": "Tertiary"
   },
   "Tampines Meridian Junior College": {
     "title": "Tampines Meridian Junior College",
     "latitude": 1.376742,
     "longitude": 103.937553,
+    "level": "Tertiary"
+  },
+  "Temasek Junior College__T": {
+    "title": "Temasek Junior College__T",
+    "latitude": 1.318462,
+    "longitude": 103.935598,
     "level": "Tertiary"
   },
   "Victoria Junior College": {
@@ -2187,6 +2235,12 @@
     "title": "Singapore University of Social Sciences",
     "latitude": 1.328814,
     "longitude": 103.775709,
+    "level": "Tertiary"
+  },
+  "Millenia Institute": {
+    "title": "Millenia Institute",
+    "latitude": 1.3508,
+    "longitude": 103.7414,
     "level": "Tertiary"
   }
 }

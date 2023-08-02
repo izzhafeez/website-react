@@ -9,6 +9,7 @@ class School extends Project {
       type: 'schools',
       ...fields
     });
+    this.title = this.title.replace(/__.*/gi, '');
     this.latitude = latitude;
     this.longitude = longitude;
     this.level = level;

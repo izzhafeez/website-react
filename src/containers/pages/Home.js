@@ -2,7 +2,6 @@ import MacroIcon from "components/basic/img/MacroIcon";
 import Description from "components/pages/descriptions/Description";
 import Seo from "components/seo/Seo";
 import allData from "data/data";
-import routesData from "routes/routes";
 import ItemsFactory from "components/pages/details/ItemsFactory";
 
 const Home = () => {
