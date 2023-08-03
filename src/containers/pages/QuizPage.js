@@ -1,14 +1,12 @@
 import GeoQuiz from "components/pages/details/blog/GeoQuiz";
-import { Mall } from "components/pages/details/blog/blogTypes";
-import City from "components/pages/details/projects/projectTypes/quizzes/City";
-import School from "components/pages/details/projects/projectTypes/quizzes/School";
 import citiesData from 'data/projects/json/quizzes/cities.json';
 import mallsData from "data/blog/json/malls.json";
 import mrtData from "data/projects/json/quizzes/mrt.json";
 import mrtChineseData from "data/projects/json/quizzes/mrt-chinese.json";
 import schoolsData from 'data/projects/json/quizzes/schools.json';
 import { useState } from "react";
-import Mrt from "components/pages/details/projects/projectTypes/quizzes/Mrt";
+import { City, Mrt, School } from "components/map/locations";
+import Mall from "components/map/locations/Mall";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
