@@ -34,7 +34,7 @@ class Items {
       return <span>{this.type.toUpperCase()}</span>;
     }
 
-    return <a href={this.getPath()} className='col link-body-emphasis link-underline-opacity-50 link-underline-opacity-100-hover'>
+    return <a href={this.getPath()} className={`col`}>
       {this.type.toUpperCase()}
     </a>
   }
@@ -70,11 +70,11 @@ class Items {
   getClassNames() {
     switch (this.getSize()) {
       case Sizes.SMALL: 
-        return 'row ms-3 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2';
+        return 'row ms-3 row-cols-xxl-5 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-2';
       case Sizes.MEDIUM:
-        return 'row ms-3 row-cols-xl-3 row-cols-lg-2 row-cols-1 g-2';
+        return 'row ms-3 row-cols-xxl-4 row-cols-xl-3 row-cols-lg-2 row-cols-1 g-2';
       case Sizes.LARGE:
-        return 'row ms-3 row-cols-lg-2 row-cols-1 g-2';
+        return 'row ms-3 row-cols-xxl-3 row-cols-lg-2 row-cols-1 g-2';
       default:
         throw new Error('Size not given');
     }
