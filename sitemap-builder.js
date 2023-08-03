@@ -6,7 +6,7 @@ require("babel-register")({
 require.extensions['.css'] = () => {};
 require.extensions['.png'] = () => {};
 
-const router = require('./src2/router').default;
+const router = require('./src/routes/routes').default;
 const Sitemap = require('react-router-sitemap').default;
 
 function generateSitemap() {
