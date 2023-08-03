@@ -2,6 +2,7 @@ import GoldStar from "components/basic/text/star/GoldStar";
 import Description from "../descriptions/Description";
 import MacroIcon from "components/basic/img/MacroIcon";
 import MicroIcon from "components/basic/img/MicroIcon";
+import './style.scss';
 
 class Item {
   constructor({ key, category, type, title, imgPath, importance, description='', related }) {
@@ -140,7 +141,7 @@ class Item {
   
   getPage() {
     // element for the page view for the item.
-    return <article className='container pt-4 px-2'>
+    return <article className='container pt-4 px-2 m-0' id='content'>
       {this.getImage(true)}
       <div className='text-start'>
         {this.getHeader()}
