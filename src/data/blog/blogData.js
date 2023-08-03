@@ -9,7 +9,7 @@ const blogData = {
   },
   hikes: {
     data: hikesData,
-    limit: 7,
+    limit: 5,
     description: "Hikes hikes hikes"
   }
 };
