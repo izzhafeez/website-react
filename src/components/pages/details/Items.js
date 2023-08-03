@@ -85,8 +85,8 @@ class Items {
   }
 
   getPreview({ withHeader=true, withReturnButton=true, withMap=true }) {
-    return <div className='text-start px-2' key={this.type}>
-      <header className='align-items-center'>
+    return <div className='text-start px-0' key={this.type}>
+      <header className='ps-2'>
         {withHeader && this.getHeader(withReturnButton)}
       </header>
       {withMap && this.getMap(true)}
