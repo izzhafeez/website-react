@@ -25,3 +25,5 @@ yarn-error.log*
 # rust target
 src/assets/logo-registration/target
 
+yarn.lock
+
