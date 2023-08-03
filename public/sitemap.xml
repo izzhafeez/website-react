@@ -51,20 +51,20 @@
     <lastmod>2023-07-30</lastmod>
   </url>
 <url>
-    <loc>https://izzhafeez.com/blog</loc>
-    <canonical>https://izzhafeez.com/blog</canonical>
+    <loc>https://izzhafeez.com/travels</loc>
+    <canonical>https://izzhafeez.com/travels</canonical>
     <image:image>
-      <image:loc>https://izzhafeez.com/img/types/blog.svg</image:loc>
+      <image:loc>https://izzhafeez.com/img/types/travels.svg</image:loc>
     </image:image>
     <priority>1.0</priority>
     <changefreq>always</changefreq>
     <lastmod>2023-07-30</lastmod>
   </url>
   <url>
-    <loc>https://izzhafeez.com/blog/all</loc>
-    <canonical>https://izzhafeez.com/blog/all</canonical>
+    <loc>https://izzhafeez.com/travels/all</loc>
+    <canonical>https://izzhafeez.com/travels/all</canonical>
     <image:image>
-      <image:loc>https://izzhafeez.com/img/types/blog.svg</image:loc>
+      <image:loc>https://izzhafeez.com/img/types/travels.svg</image:loc>
     </image:image>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
@@ -2670,8 +2670,8 @@
         <lastmod>2023-07-18</lastmod>
       </url>
 <url>
-      <loc>https://izzhafeez.com/blog/malls/</loc>
-      <canonical>https://izzhafeez.com/blog/malls/</canonical>
+      <loc>https://izzhafeez.com/travels/malls/</loc>
+      <canonical>https://izzhafeez.com/travels/malls/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/malls.svg</image:loc>
       </image:image>
@@ -2680,1988 +2680,1988 @@
       <lastmod>2023-07-30</lastmod>
     </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/100-am</loc>
-        <canonical>https://izzhafeez.com/blog/malls/100-am</canonical>
+        <loc>https://izzhafeez.com/travels/malls/100-am</loc>
+        <canonical>https://izzhafeez.com/travels/malls/100-am</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/100-am.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/100-am.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/111-somerset</loc>
-        <canonical>https://izzhafeez.com/blog/malls/111-somerset</canonical>
+        <loc>https://izzhafeez.com/travels/malls/111-somerset</loc>
+        <canonical>https://izzhafeez.com/travels/malls/111-somerset</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/313-somerset</loc>
-        <canonical>https://izzhafeez.com/blog/malls/313-somerset</canonical>
+        <loc>https://izzhafeez.com/travels/malls/313-somerset</loc>
+        <canonical>https://izzhafeez.com/travels/malls/313-somerset</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/313-somerset.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/313-somerset.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/321-clementi</loc>
-        <canonical>https://izzhafeez.com/blog/malls/321-clementi</canonical>
+        <loc>https://izzhafeez.com/travels/malls/321-clementi</loc>
+        <canonical>https://izzhafeez.com/travels/malls/321-clementi</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/321-clementi.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/321-clementi.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/888-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/888-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/888-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/888-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/admiralty-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/admiralty-place</canonical>
+        <loc>https://izzhafeez.com/travels/malls/admiralty-place</loc>
+        <canonical>https://izzhafeez.com/travels/malls/admiralty-place</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/alexandra-central</loc>
-        <canonical>https://izzhafeez.com/blog/malls/alexandra-central</canonical>
+        <loc>https://izzhafeez.com/travels/malls/alexandra-central</loc>
+        <canonical>https://izzhafeez.com/travels/malls/alexandra-central</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/alexandra-central.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/alexandra-central.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/alexandra-retail-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/alexandra-retail-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/alexandra-retail-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/alexandra-retail-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/alexandra-retail-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/alexandra-retail-centre.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/amk-hub</loc>
-        <canonical>https://izzhafeez.com/blog/malls/amk-hub</canonical>
+        <loc>https://izzhafeez.com/travels/malls/amk-hub</loc>
+        <canonical>https://izzhafeez.com/travels/malls/amk-hub</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/amk-hub.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/amk-hub.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/anchorpoint</loc>
-        <canonical>https://izzhafeez.com/blog/malls/anchorpoint</canonical>
+        <loc>https://izzhafeez.com/travels/malls/anchorpoint</loc>
+        <canonical>https://izzhafeez.com/travels/malls/anchorpoint</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/anchorpoint.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/anchorpoint.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/aperia</loc>
-        <canonical>https://izzhafeez.com/blog/malls/aperia</canonical>
+        <loc>https://izzhafeez.com/travels/malls/aperia</loc>
+        <canonical>https://izzhafeez.com/travels/malls/aperia</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/aperia.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/aperia.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/balestier-hill-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/balestier-hill-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/balestier-hill-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/balestier-hill-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/beauty-world-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/beauty-world-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/beauty-world-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/beauty-world-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/beauty-world-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/beauty-world-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/beauty-world-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/beauty-world-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bedok-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bedok-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bedok-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bedok-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/bedok-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/bedok-mall.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bedok-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bedok-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bedok-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bedok-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/bedok-point.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/bedok-point.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bedok-town-center</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bedok-town-center</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bedok-town-center</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bedok-town-center</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/boon-lay-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/boon-lay-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/boon-lay-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/boon-lay-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/broadway-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/broadway-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/broadway-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/broadway-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/buangkok-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/buangkok-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/buangkok-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/buangkok-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/buangkok-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/buangkok-square.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bugis-cube</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bugis-cube</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bugis-cube</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bugis-cube</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bugis-junction</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bugis-junction</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bugis-junction</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bugis-junction</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/bugis-junction.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/bugis-junction.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bugis-street</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bugis-street</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bugis-street</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bugis-street</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/bugis-street.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/bugis-street.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bugis-plus</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bugis-plus</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bugis-plus</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bugis-plus</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/bugis-plus.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/bugis-plus.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bukit-panjang-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bukit-panjang-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bukit-panjang-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bukit-panjang-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/bukit-panjang-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/bukit-panjang-plaza.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bukit-timah-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bukit-timah-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bukit-timah-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bukit-timah-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/bukit-timah-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/bukit-timah-plaza.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/bukit-timah-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bukit-timah-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/bukit-timah-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/bukit-timah-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/bukit-timah-shopping-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/bukit-timah-shopping-centre.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/canberra-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/canberra-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/canberra-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/canberra-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/canberra-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/canberra-plaza.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/capitol-singapore</loc>
-        <canonical>https://izzhafeez.com/blog/malls/capitol-singapore</canonical>
+        <loc>https://izzhafeez.com/travels/malls/capitol-singapore</loc>
+        <canonical>https://izzhafeez.com/travels/malls/capitol-singapore</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/capitol-singapore.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/capitol-singapore.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/cathay-cineleisure-orchard</loc>
-        <canonical>https://izzhafeez.com/blog/malls/cathay-cineleisure-orchard</canonical>
+        <loc>https://izzhafeez.com/travels/malls/cathay-cineleisure-orchard</loc>
+        <canonical>https://izzhafeez.com/travels/malls/cathay-cineleisure-orchard</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/cathay-cineleisure-orchard.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/cathay-cineleisure-orchard.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/causeway-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/causeway-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/causeway-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/causeway-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/causeway-point.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/causeway-point.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/century-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/century-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/century-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/century-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/century-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/century-square.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/changi-airport-t3</loc>
-        <canonical>https://izzhafeez.com/blog/malls/changi-airport-t3</canonical>
+        <loc>https://izzhafeez.com/travels/malls/changi-airport-t3</loc>
+        <canonical>https://izzhafeez.com/travels/malls/changi-airport-t3</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/changi-airport-t4</loc>
-        <canonical>https://izzhafeez.com/blog/malls/changi-airport-t4</canonical>
+        <loc>https://izzhafeez.com/travels/malls/changi-airport-t4</loc>
+        <canonical>https://izzhafeez.com/travels/malls/changi-airport-t4</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/changi-city-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/changi-city-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/changi-city-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/changi-city-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/changi-city-point.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/changi-city-point.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/chinatown-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/chinatown-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/chinatown-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/chinatown-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/chinatown-point.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/chinatown-point.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/city-gate-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/city-gate-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/city-gate-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/city-gate-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/city-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/city-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/city-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/city-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/city-square-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/city-square-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/city-square-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/city-square-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/city-square-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/city-square-mall.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/citylink-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/citylink-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/citylink-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/citylink-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/citylink-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/citylink-mall.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/clarke-quay-central</loc>
-        <canonical>https://izzhafeez.com/blog/malls/clarke-quay-central</canonical>
+        <loc>https://izzhafeez.com/travels/malls/clarke-quay-central</loc>
+        <canonical>https://izzhafeez.com/travels/malls/clarke-quay-central</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/clarke-quay-central.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/clarke-quay-central.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/clementi-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/clementi-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/clementi-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/clementi-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/clementi-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/clementi-mall.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/compass-one</loc>
-        <canonical>https://izzhafeez.com/blog/malls/compass-one</canonical>
+        <loc>https://izzhafeez.com/travels/malls/compass-one</loc>
+        <canonical>https://izzhafeez.com/travels/malls/compass-one</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/compass-one.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/compass-one.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/djitsun-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/djitsun-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/djitsun-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/djitsun-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/djitsun-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/djitsun-mall.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/djitsun-mall-bedok</loc>
-        <canonical>https://izzhafeez.com/blog/malls/djitsun-mall-bedok</canonical>
+        <loc>https://izzhafeez.com/travels/malls/djitsun-mall-bedok</loc>
+        <canonical>https://izzhafeez.com/travels/malls/djitsun-mall-bedok</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/djitsun-mall-bedok.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/djitsun-mall-bedok.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/downtown-east</loc>
-        <canonical>https://izzhafeez.com/blog/malls/downtown-east</canonical>
+        <loc>https://izzhafeez.com/travels/malls/downtown-east</loc>
+        <canonical>https://izzhafeez.com/travels/malls/downtown-east</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/downtown-east.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/downtown-east.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/duo</loc>
-        <canonical>https://izzhafeez.com/blog/malls/duo</canonical>
+        <loc>https://izzhafeez.com/travels/malls/duo</loc>
+        <canonical>https://izzhafeez.com/travels/malls/duo</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/east-village</loc>
-        <canonical>https://izzhafeez.com/blog/malls/east-village</canonical>
+        <loc>https://izzhafeez.com/travels/malls/east-village</loc>
+        <canonical>https://izzhafeez.com/travels/malls/east-village</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/eastpoint-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/eastpoint-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/eastpoint-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/eastpoint-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/eastpoint-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/eastpoint-mall.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/elias-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/elias-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/elias-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/elias-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/elias-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/elias-mall.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/fairprice-hub</loc>
-        <canonical>https://izzhafeez.com/blog/malls/fairprice-hub</canonical>
+        <loc>https://izzhafeez.com/travels/malls/fairprice-hub</loc>
+        <canonical>https://izzhafeez.com/travels/malls/fairprice-hub</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/fairprice-hub.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/fairprice-hub.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/fajar-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/fajar-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/fajar-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/fajar-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/far-east-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/far-east-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/far-east-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/far-east-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/far-east-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/far-east-plaza.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/funan</loc>
-        <canonical>https://izzhafeez.com/blog/malls/funan</canonical>
+        <loc>https://izzhafeez.com/travels/malls/funan</loc>
+        <canonical>https://izzhafeez.com/travels/malls/funan</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/funan.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/funan.jpg</image:loc>
         </image:image>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/galaxis</loc>
-        <canonical>https://izzhafeez.com/blog/malls/galaxis</canonical>
+        <loc>https://izzhafeez.com/travels/malls/galaxis</loc>
+        <canonical>https://izzhafeez.com/travels/malls/galaxis</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/gek-poh-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/gek-poh-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/gek-poh-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/gek-poh-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/golden-mile-complex</loc>
-        <canonical>https://izzhafeez.com/blog/malls/golden-mile-complex</canonical>
+        <loc>https://izzhafeez.com/travels/malls/golden-mile-complex</loc>
+        <canonical>https://izzhafeez.com/travels/malls/golden-mile-complex</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/golden-mile-complex.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/golden-mile-complex.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/grandstand</loc>
-        <canonical>https://izzhafeez.com/blog/malls/grandstand</canonical>
+        <loc>https://izzhafeez.com/travels/malls/grandstand</loc>
+        <canonical>https://izzhafeez.com/travels/malls/grandstand</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/grandstand.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/grandstand.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/grantral-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/grantral-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/grantral-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/grantral-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/grantral-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/grantral-mall.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/great-world-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/great-world-city</canonical>
+        <loc>https://izzhafeez.com/travels/malls/great-world-city</loc>
+        <canonical>https://izzhafeez.com/travels/malls/great-world-city</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/great-world-city.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/great-world-city.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/greenridge-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/greenridge-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/greenridge-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/greenridge-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/greenwich-v</loc>
-        <canonical>https://izzhafeez.com/blog/malls/greenwich-v</canonical>
+        <loc>https://izzhafeez.com/travels/malls/greenwich-v</loc>
+        <canonical>https://izzhafeez.com/travels/malls/greenwich-v</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/greenwich-v.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/greenwich-v.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/harbourfront-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/harbourfront-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/harbourfront-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/harbourfront-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/harbourfront-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/harbourfront-centre.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/hdb-hub</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hdb-hub</canonical>
+        <loc>https://izzhafeez.com/travels/malls/hdb-hub</loc>
+        <canonical>https://izzhafeez.com/travels/malls/hdb-hub</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/hdb-hub.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/hdb-hub.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/heartland-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/heartland-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/heartland-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/heartland-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/heartland-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/heartland-mall.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/hillion-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hillion-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/hillion-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/hillion-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/hillion-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/hillion-mall.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/hill-v2</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hill-v2</canonical>
+        <loc>https://izzhafeez.com/travels/malls/hill-v2</loc>
+        <canonical>https://izzhafeez.com/travels/malls/hill-v2</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/hill-v2.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/hill-v2.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/holland-road-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/holland-road-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/holland-road-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/holland-road-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/holland-road-shopping-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/holland-road-shopping-centre.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/hougang-1</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hougang-1</canonical>
+        <loc>https://izzhafeez.com/travels/malls/hougang-1</loc>
+        <canonical>https://izzhafeez.com/travels/malls/hougang-1</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/hougang-1.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/hougang-1.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/hougang-green-shopping-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hougang-green-shopping-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/hougang-green-shopping-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/hougang-green-shopping-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/hougang-green-shopping-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/hougang-green-shopping-mall.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/hougang-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hougang-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/hougang-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/hougang-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/hougang-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/hougang-mall.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/i12-katong</loc>
-        <canonical>https://izzhafeez.com/blog/malls/i12-katong</canonical>
+        <loc>https://izzhafeez.com/travels/malls/i12-katong</loc>
+        <canonical>https://izzhafeez.com/travels/malls/i12-katong</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/i12-katong.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/i12-katong.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/icon-village</loc>
-        <canonical>https://izzhafeez.com/blog/malls/icon-village</canonical>
+        <loc>https://izzhafeez.com/travels/malls/icon-village</loc>
+        <canonical>https://izzhafeez.com/travels/malls/icon-village</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/icon-village.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/icon-village.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/ikea-alexandra</loc>
-        <canonical>https://izzhafeez.com/blog/malls/ikea-alexandra</canonical>
+        <loc>https://izzhafeez.com/travels/malls/ikea-alexandra</loc>
+        <canonical>https://izzhafeez.com/travels/malls/ikea-alexandra</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/ikea-alexandra.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/ikea-alexandra.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/ikea-tampines</loc>
-        <canonical>https://izzhafeez.com/blog/malls/ikea-tampines</canonical>
+        <loc>https://izzhafeez.com/travels/malls/ikea-tampines</loc>
+        <canonical>https://izzhafeez.com/travels/malls/ikea-tampines</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/ikea-tampines.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/ikea-tampines.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/i-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/i-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/i-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/i-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/imm</loc>
-        <canonical>https://izzhafeez.com/blog/malls/imm</canonical>
+        <loc>https://izzhafeez.com/travels/malls/imm</loc>
+        <canonical>https://izzhafeez.com/travels/malls/imm</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/imm.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/imm.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/ion-orchard</loc>
-        <canonical>https://izzhafeez.com/blog/malls/ion-orchard</canonical>
+        <loc>https://izzhafeez.com/travels/malls/ion-orchard</loc>
+        <canonical>https://izzhafeez.com/travels/malls/ion-orchard</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/ion-orchard.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/ion-orchard.jpg</image:loc>
         </image:image>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/j-cube</loc>
-        <canonical>https://izzhafeez.com/blog/malls/j-cube</canonical>
+        <loc>https://izzhafeez.com/travels/malls/j-cube</loc>
+        <canonical>https://izzhafeez.com/travels/malls/j-cube</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/j-cube.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/j-cube.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/jem</loc>
-        <canonical>https://izzhafeez.com/blog/malls/jem</canonical>
+        <loc>https://izzhafeez.com/travels/malls/jem</loc>
+        <canonical>https://izzhafeez.com/travels/malls/jem</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/jem.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/jem.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/jewel-changi-airport</loc>
-        <canonical>https://izzhafeez.com/blog/malls/jewel-changi-airport</canonical>
+        <loc>https://izzhafeez.com/travels/malls/jewel-changi-airport</loc>
+        <canonical>https://izzhafeez.com/travels/malls/jewel-changi-airport</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/jewel-changi-airport.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/jewel-changi-airport.jpg</image:loc>
         </image:image>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/jubilee-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/jubilee-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/jubilee-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/jubilee-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/jubilee-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/jubilee-square.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/junction-10</loc>
-        <canonical>https://izzhafeez.com/blog/malls/junction-10</canonical>
+        <loc>https://izzhafeez.com/travels/malls/junction-10</loc>
+        <canonical>https://izzhafeez.com/travels/malls/junction-10</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/junction-10.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/junction-10.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/junction-8</loc>
-        <canonical>https://izzhafeez.com/blog/malls/junction-8</canonical>
+        <loc>https://izzhafeez.com/travels/malls/junction-8</loc>
+        <canonical>https://izzhafeez.com/travels/malls/junction-8</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/junction-8.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/junction-8.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/junction-9</loc>
-        <canonical>https://izzhafeez.com/blog/malls/junction-9</canonical>
+        <loc>https://izzhafeez.com/travels/malls/junction-9</loc>
+        <canonical>https://izzhafeez.com/travels/malls/junction-9</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/junction-9.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/junction-9.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/jurong-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/jurong-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/jurong-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/jurong-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/jurong-point.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/jurong-point.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/kallang-wave-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/kallang-wave-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/kallang-wave-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/kallang-wave-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/kallang-wave-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/kallang-wave-mall.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/katong-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/katong-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/katong-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/katong-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/katong-shopping-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/katong-shopping-centre.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/katong-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/katong-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/katong-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/katong-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/katong-v</loc>
-        <canonical>https://izzhafeez.com/blog/malls/katong-v</canonical>
+        <loc>https://izzhafeez.com/travels/malls/katong-v</loc>
+        <canonical>https://izzhafeez.com/travels/malls/katong-v</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/katong-v.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/katong-v.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/keat-hong-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/keat-hong-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/keat-hong-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/keat-hong-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/kinex</loc>
-        <canonical>https://izzhafeez.com/blog/malls/kinex</canonical>
+        <loc>https://izzhafeez.com/travels/malls/kinex</loc>
+        <canonical>https://izzhafeez.com/travels/malls/kinex</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/kinex.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/kinex.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/knightsbridge</loc>
-        <canonical>https://izzhafeez.com/blog/malls/knightsbridge</canonical>
+        <loc>https://izzhafeez.com/travels/malls/knightsbridge</loc>
+        <canonical>https://izzhafeez.com/travels/malls/knightsbridge</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/le-quest</loc>
-        <canonical>https://izzhafeez.com/blog/malls/le-quest</canonical>
+        <loc>https://izzhafeez.com/travels/malls/le-quest</loc>
+        <canonical>https://izzhafeez.com/travels/malls/le-quest</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/le-quest.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/le-quest.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/leisure-park-kallang</loc>
-        <canonical>https://izzhafeez.com/blog/malls/leisure-park-kallang</canonical>
+        <loc>https://izzhafeez.com/travels/malls/leisure-park-kallang</loc>
+        <canonical>https://izzhafeez.com/travels/malls/leisure-park-kallang</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/leisure-park-kallang.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/leisure-park-kallang.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/limbang-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/limbang-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/limbang-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/limbang-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/lot-one</loc>
-        <canonical>https://izzhafeez.com/blog/malls/lot-one</canonical>
+        <loc>https://izzhafeez.com/travels/malls/lot-one</loc>
+        <canonical>https://izzhafeez.com/travels/malls/lot-one</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/lot-one.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/lot-one.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/loyang-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/loyang-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/loyang-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/loyang-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/loyang-point.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/loyang-point.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/lucky-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/lucky-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/lucky-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/lucky-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/lucky-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/lucky-plaza.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/mandarin-gallery</loc>
-        <canonical>https://izzhafeez.com/blog/malls/mandarin-gallery</canonical>
+        <loc>https://izzhafeez.com/travels/malls/mandarin-gallery</loc>
+        <canonical>https://izzhafeez.com/travels/malls/mandarin-gallery</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/mandarin-gallery.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/mandarin-gallery.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/mbfc-tower-3</loc>
-        <canonical>https://izzhafeez.com/blog/malls/mbfc-tower-3</canonical>
+        <loc>https://izzhafeez.com/travels/malls/mbfc-tower-3</loc>
+        <canonical>https://izzhafeez.com/travels/malls/mbfc-tower-3</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/marina-bay-link-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marina-bay-link-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/marina-bay-link-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/marina-bay-link-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/marina-bay-sands-shoppes</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marina-bay-sands-shoppes</canonical>
+        <loc>https://izzhafeez.com/travels/malls/marina-bay-sands-shoppes</loc>
+        <canonical>https://izzhafeez.com/travels/malls/marina-bay-sands-shoppes</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/marina-bay-sands-shoppes.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/marina-bay-sands-shoppes.jpg</image:loc>
         </image:image>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/marina-one</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marina-one</canonical>
+        <loc>https://izzhafeez.com/travels/malls/marina-one</loc>
+        <canonical>https://izzhafeez.com/travels/malls/marina-one</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/marina-one.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/marina-one.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/marina-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marina-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/marina-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/marina-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/marina-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/marina-square.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/marsiling-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marsiling-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/marsiling-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/marsiling-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/midpoint-orchard</loc>
-        <canonical>https://izzhafeez.com/blog/malls/midpoint-orchard</canonical>
+        <loc>https://izzhafeez.com/travels/malls/midpoint-orchard</loc>
+        <canonical>https://izzhafeez.com/travels/malls/midpoint-orchard</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/millenia-walk</loc>
-        <canonical>https://izzhafeez.com/blog/malls/millenia-walk</canonical>
+        <loc>https://izzhafeez.com/travels/malls/millenia-walk</loc>
+        <canonical>https://izzhafeez.com/travels/malls/millenia-walk</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/millenia-walk.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/millenia-walk.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/mustafa-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/mustafa-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/mustafa-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/mustafa-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/mustafa-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/mustafa-centre.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/nex</loc>
-        <canonical>https://izzhafeez.com/blog/malls/nex</canonical>
+        <loc>https://izzhafeez.com/travels/malls/nex</loc>
+        <canonical>https://izzhafeez.com/travels/malls/nex</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/nex.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/nex.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/ngee-ann-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/ngee-ann-city</canonical>
+        <loc>https://izzhafeez.com/travels/malls/ngee-ann-city</loc>
+        <canonical>https://izzhafeez.com/travels/malls/ngee-ann-city</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/ngee-ann-city.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/ngee-ann-city.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/northpoint-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/northpoint-city</canonical>
+        <loc>https://izzhafeez.com/travels/malls/northpoint-city</loc>
+        <canonical>https://izzhafeez.com/travels/malls/northpoint-city</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/northpoint-city.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/northpoint-city.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/northshore-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/northshore-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/northshore-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/northshore-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/northshore-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/northshore-plaza.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/velocity-novena-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/velocity-novena-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/velocity-novena-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/velocity-novena-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/velocity-novena-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/velocity-novena-square.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/oasis-terraces</loc>
-        <canonical>https://izzhafeez.com/blog/malls/oasis-terraces</canonical>
+        <loc>https://izzhafeez.com/travels/malls/oasis-terraces</loc>
+        <canonical>https://izzhafeez.com/travels/malls/oasis-terraces</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/oasis-terraces.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/oasis-terraces.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/one-fullerton</loc>
-        <canonical>https://izzhafeez.com/blog/malls/one-fullerton</canonical>
+        <loc>https://izzhafeez.com/travels/malls/one-fullerton</loc>
+        <canonical>https://izzhafeez.com/travels/malls/one-fullerton</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/one-fullerton.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/one-fullerton.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/one-holland-village</loc>
-        <canonical>https://izzhafeez.com/blog/malls/one-holland-village</canonical>
+        <loc>https://izzhafeez.com/travels/malls/one-holland-village</loc>
+        <canonical>https://izzhafeez.com/travels/malls/one-holland-village</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/one-raffles-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/one-raffles-place</canonical>
+        <loc>https://izzhafeez.com/travels/malls/one-raffles-place</loc>
+        <canonical>https://izzhafeez.com/travels/malls/one-raffles-place</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/one-raffles-place.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/one-raffles-place.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/one-north</loc>
-        <canonical>https://izzhafeez.com/blog/malls/one-north</canonical>
+        <loc>https://izzhafeez.com/travels/malls/one-north</loc>
+        <canonical>https://izzhafeez.com/travels/malls/one-north</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/orchard-central</loc>
-        <canonical>https://izzhafeez.com/blog/malls/orchard-central</canonical>
+        <loc>https://izzhafeez.com/travels/malls/orchard-central</loc>
+        <canonical>https://izzhafeez.com/travels/malls/orchard-central</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/orchard-central.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/orchard-central.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/orchard-gateway</loc>
-        <canonical>https://izzhafeez.com/blog/malls/orchard-gateway</canonical>
+        <loc>https://izzhafeez.com/travels/malls/orchard-gateway</loc>
+        <canonical>https://izzhafeez.com/travels/malls/orchard-gateway</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/orchard-gateway.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/orchard-gateway.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/orchard-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/orchard-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/orchard-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/orchard-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/orchard-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/orchard-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/orchard-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/orchard-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/our-tampines-hub</loc>
-        <canonical>https://izzhafeez.com/blog/malls/our-tampines-hub</canonical>
+        <loc>https://izzhafeez.com/travels/malls/our-tampines-hub</loc>
+        <canonical>https://izzhafeez.com/travels/malls/our-tampines-hub</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/our-tampines-hub.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/our-tampines-hub.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/palais-renaissance</loc>
-        <canonical>https://izzhafeez.com/blog/malls/palais-renaissance</canonical>
+        <loc>https://izzhafeez.com/travels/malls/palais-renaissance</loc>
+        <canonical>https://izzhafeez.com/travels/malls/palais-renaissance</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/parkway-parade</loc>
-        <canonical>https://izzhafeez.com/blog/malls/parkway-parade</canonical>
+        <loc>https://izzhafeez.com/travels/malls/parkway-parade</loc>
+        <canonical>https://izzhafeez.com/travels/malls/parkway-parade</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/parkway-parade.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/parkway-parade.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/paya-lebar-quarter</loc>
-        <canonical>https://izzhafeez.com/blog/malls/paya-lebar-quarter</canonical>
+        <loc>https://izzhafeez.com/travels/malls/paya-lebar-quarter</loc>
+        <canonical>https://izzhafeez.com/travels/malls/paya-lebar-quarter</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/paya-lebar-quarter.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/paya-lebar-quarter.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/paya-lebar-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/paya-lebar-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/paya-lebar-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/paya-lebar-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/paya-lebar-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/paya-lebar-square.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/peninsula-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/peninsula-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/peninsula-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/peninsula-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/peoples-park-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/peoples-park-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/peoples-park-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/peoples-park-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/peoples-park-complex</loc>
-        <canonical>https://izzhafeez.com/blog/malls/peoples-park-complex</canonical>
+        <loc>https://izzhafeez.com/travels/malls/peoples-park-complex</loc>
+        <canonical>https://izzhafeez.com/travels/malls/peoples-park-complex</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/pioneer-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/pioneer-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/pioneer-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/pioneer-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/pioneer-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/pioneer-mall.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/plaza-singapura</loc>
-        <canonical>https://izzhafeez.com/blog/malls/plaza-singapura</canonical>
+        <loc>https://izzhafeez.com/travels/malls/plaza-singapura</loc>
+        <canonical>https://izzhafeez.com/travels/malls/plaza-singapura</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/plaza-singapura.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/plaza-singapura.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/punggol-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/punggol-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/punggol-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/punggol-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/punggol-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/punggol-plaza.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/queensway-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/queensway-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/queensway-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/queensway-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/queensway-shopping-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/queensway-shopping-centre.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/raffles-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/raffles-city</canonical>
+        <loc>https://izzhafeez.com/travels/malls/raffles-city</loc>
+        <canonical>https://izzhafeez.com/travels/malls/raffles-city</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/raffles-city.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/raffles-city.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/rail-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/rail-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/rail-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/rail-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/rail-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/rail-mall.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/resorts-world-sentosa</loc>
-        <canonical>https://izzhafeez.com/blog/malls/resorts-world-sentosa</canonical>
+        <loc>https://izzhafeez.com/travels/malls/resorts-world-sentosa</loc>
+        <canonical>https://izzhafeez.com/travels/malls/resorts-world-sentosa</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/rivervale-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/rivervale-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/rivervale-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/rivervale-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/rivervale-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/rivervale-mall.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/rivervale-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/rivervale-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/rivervale-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/rivervale-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/rivervale-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/rivervale-plaza.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/rochester-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/rochester-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/rochester-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/rochester-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/roxy-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/roxy-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/roxy-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/roxy-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/roxy-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/roxy-square.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/scotts-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/scotts-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/scotts-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/scotts-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/scotts-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/scotts-square.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/seletar-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/seletar-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/seletar-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/seletar-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/seletar-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/seletar-mall.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/sembawang-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sembawang-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/sembawang-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/sembawang-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/sembawang-shopping-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/sembawang-shopping-centre.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/sengkang-grand-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sengkang-grand-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/sengkang-grand-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/sengkang-grand-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/sengkang-grand-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/sengkang-grand-mall.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/serangoon-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/serangoon-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/serangoon-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/serangoon-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/shaw-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/shaw-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/shaw-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/shaw-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/shaw-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/shaw-centre.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/shaw-house-and-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/shaw-house-and-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/shaw-house-and-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/shaw-house-and-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/sim-lim-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sim-lim-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/sim-lim-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/sim-lim-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/sim-lim-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/sim-lim-square.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/singapore-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/singapore-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/singapore-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/singapore-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/singpost-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/singpost-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/singpost-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/singpost-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/singpost-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/singpost-centre.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/south-beach</loc>
-        <canonical>https://izzhafeez.com/blog/malls/south-beach</canonical>
+        <loc>https://izzhafeez.com/travels/malls/south-beach</loc>
+        <canonical>https://izzhafeez.com/travels/malls/south-beach</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/square-2</loc>
-        <canonical>https://izzhafeez.com/blog/malls/square-2</canonical>
+        <loc>https://izzhafeez.com/travels/malls/square-2</loc>
+        <canonical>https://izzhafeez.com/travels/malls/square-2</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/square-2.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/square-2.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/sun-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sun-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/sun-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/sun-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/sun-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/sun-plaza.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/sunshine-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sunshine-place</canonical>
+        <loc>https://izzhafeez.com/travels/malls/sunshine-place</loc>
+        <canonical>https://izzhafeez.com/travels/malls/sunshine-place</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/sunshine-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sunshine-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/sunshine-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/sunshine-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/suntec-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/suntec-city</canonical>
+        <loc>https://izzhafeez.com/travels/malls/suntec-city</loc>
+        <canonical>https://izzhafeez.com/travels/malls/suntec-city</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/suntec-city.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/suntec-city.jpg</image:loc>
         </image:image>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/taman-jurong-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/taman-jurong-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/taman-jurong-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/taman-jurong-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/tampines-1</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tampines-1</canonical>
+        <loc>https://izzhafeez.com/travels/malls/tampines-1</loc>
+        <canonical>https://izzhafeez.com/travels/malls/tampines-1</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/tampines-1.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/tampines-1.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/tampines-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tampines-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/tampines-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/tampines-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/tampines-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/tampines-mall.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/tampines-mart</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tampines-mart</canonical>
+        <loc>https://izzhafeez.com/travels/malls/tampines-mart</loc>
+        <canonical>https://izzhafeez.com/travels/malls/tampines-mart</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/tanglin-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tanglin-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/tanglin-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/tanglin-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/tanjong-pagar-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tanjong-pagar-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/tanjong-pagar-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/tanjong-pagar-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/tanjong-pagar-centre.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/tanjong-pagar-centre.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/teck-whye-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/teck-whye-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/teck-whye-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/teck-whye-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/tekka-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tekka-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/tekka-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/tekka-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/tekka-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tekka-place</canonical>
+        <loc>https://izzhafeez.com/travels/malls/tekka-place</loc>
+        <canonical>https://izzhafeez.com/travels/malls/tekka-place</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/tekka-place.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/tekka-place.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/the-cathay</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-cathay</canonical>
+        <loc>https://izzhafeez.com/travels/malls/the-cathay</loc>
+        <canonical>https://izzhafeez.com/travels/malls/the-cathay</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/the-cathay.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/the-cathay.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/the-centrepoint</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-centrepoint</canonical>
+        <loc>https://izzhafeez.com/travels/malls/the-centrepoint</loc>
+        <canonical>https://izzhafeez.com/travels/malls/the-centrepoint</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/the-centrepoint.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/the-centrepoint.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/the-flow</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-flow</canonical>
+        <loc>https://izzhafeez.com/travels/malls/the-flow</loc>
+        <canonical>https://izzhafeez.com/travels/malls/the-flow</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/the-furniture-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-furniture-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/the-furniture-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/the-furniture-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/the-midtown</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-midtown</canonical>
+        <loc>https://izzhafeez.com/travels/malls/the-midtown</loc>
+        <canonical>https://izzhafeez.com/travels/malls/the-midtown</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/the-midtown.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/the-midtown.jpg</image:loc>
         </image:image>
         <priority>0.2</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/the-paragon</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-paragon</canonical>
+        <loc>https://izzhafeez.com/travels/malls/the-paragon</loc>
+        <canonical>https://izzhafeez.com/travels/malls/the-paragon</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/the-paragon.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/the-paragon.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/the-poiz</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-poiz</canonical>
+        <loc>https://izzhafeez.com/travels/malls/the-poiz</loc>
+        <canonical>https://izzhafeez.com/travels/malls/the-poiz</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/the-poiz.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/the-poiz.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/the-star-vista</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-star-vista</canonical>
+        <loc>https://izzhafeez.com/travels/malls/the-star-vista</loc>
+        <canonical>https://izzhafeez.com/travels/malls/the-star-vista</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/the-star-vista.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/the-star-vista.jpg</image:loc>
         </image:image>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/thomson-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/thomson-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/thomson-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/thomson-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/thomson-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/thomson-plaza.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/tiong-bahru-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tiong-bahru-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/tiong-bahru-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/tiong-bahru-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/tiong-bahru-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/tiong-bahru-plaza.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/united-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/united-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/united-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/united-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/united-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/united-square.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/upper-serangoon-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/upper-serangoon-shopping-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/upper-serangoon-shopping-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/upper-serangoon-shopping-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/vista-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/vista-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/vista-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/vista-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/viva-vista</loc>
-        <canonical>https://izzhafeez.com/blog/malls/viva-vista</canonical>
+        <loc>https://izzhafeez.com/travels/malls/viva-vista</loc>
+        <canonical>https://izzhafeez.com/travels/malls/viva-vista</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/viva-vista.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/viva-vista.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/vivo-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/vivo-city</canonical>
+        <loc>https://izzhafeez.com/travels/malls/vivo-city</loc>
+        <canonical>https://izzhafeez.com/travels/malls/vivo-city</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/vivo-city.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/vivo-city.jpg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/waterway-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/waterway-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/waterway-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/waterway-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/waterway-point.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/waterway-point.jpg</image:loc>
         </image:image>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/west-coast-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/west-coast-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/west-coast-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/west-coast-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/west-coast-plaza.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/west-coast-plaza.jpg</image:loc>
         </image:image>
         <priority>0.4</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/west-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/west-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/west-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/west-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/west-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/west-mall.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/westgate</loc>
-        <canonical>https://izzhafeez.com/blog/malls/westgate</canonical>
+        <loc>https://izzhafeez.com/travels/malls/westgate</loc>
+        <canonical>https://izzhafeez.com/travels/malls/westgate</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/westgate.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/westgate.jpg</image:loc>
         </image:image>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/wheelock-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/wheelock-place</canonical>
+        <loc>https://izzhafeez.com/travels/malls/wheelock-place</loc>
+        <canonical>https://izzhafeez.com/travels/malls/wheelock-place</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/wheelock-place.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/wheelock-place.jpg</image:loc>
         </image:image>
         <priority>0.5</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/white-sands</loc>
-        <canonical>https://izzhafeez.com/blog/malls/white-sands</canonical>
+        <loc>https://izzhafeez.com/travels/malls/white-sands</loc>
+        <canonical>https://izzhafeez.com/travels/malls/white-sands</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/white-sands.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/white-sands.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/wisma-atria</loc>
-        <canonical>https://izzhafeez.com/blog/malls/wisma-atria</canonical>
+        <loc>https://izzhafeez.com/travels/malls/wisma-atria</loc>
+        <canonical>https://izzhafeez.com/travels/malls/wisma-atria</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/wisma-atria.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/wisma-atria.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/wisteria-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/wisteria-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/wisteria-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/wisteria-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/wisteria-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/wisteria-mall.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/woodlands-civic-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woodlands-civic-centre</canonical>
+        <loc>https://izzhafeez.com/travels/malls/woodlands-civic-centre</loc>
+        <canonical>https://izzhafeez.com/travels/malls/woodlands-civic-centre</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/woodlands-mart</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woodlands-mart</canonical>
+        <loc>https://izzhafeez.com/travels/malls/woodlands-mart</loc>
+        <canonical>https://izzhafeez.com/travels/malls/woodlands-mart</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/woodlands-north-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woodlands-north-plaza</canonical>
+        <loc>https://izzhafeez.com/travels/malls/woodlands-north-plaza</loc>
+        <canonical>https://izzhafeez.com/travels/malls/woodlands-north-plaza</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/woodleigh-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woodleigh-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/woodleigh-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/woodleigh-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/woodleigh-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/woodleigh-mall.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/woods-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woods-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/woods-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/woods-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/woods-square.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/woods-square.jpg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/yew-tee-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/yew-tee-point</canonical>
+        <loc>https://izzhafeez.com/travels/malls/yew-tee-point</loc>
+        <canonical>https://izzhafeez.com/travels/malls/yew-tee-point</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/yew-tee-point.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/yew-tee-point.jpg</image:loc>
         </image:image>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/yew-tee-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/yew-tee-square</canonical>
+        <loc>https://izzhafeez.com/travels/malls/yew-tee-square</loc>
+        <canonical>https://izzhafeez.com/travels/malls/yew-tee-square</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/malls/zhongshan-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/zhongshan-mall</canonical>
+        <loc>https://izzhafeez.com/travels/malls/zhongshan-mall</loc>
+        <canonical>https://izzhafeez.com/travels/malls/zhongshan-mall</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/malls/zhongshan-mall.jpg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/malls/zhongshan-mall.jpg</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-30</lastmod>
       </url>
 <url>
-      <loc>https://izzhafeez.com/blog/hikes/</loc>
-      <canonical>https://izzhafeez.com/blog/hikes/</canonical>
+      <loc>https://izzhafeez.com/travels/hikes/</loc>
+      <canonical>https://izzhafeez.com/travels/hikes/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/hikes.svg</image:loc>
       </image:image>
@@ -4670,240 +4670,240 @@
       <lastmod>2023-07-28</lastmod>
     </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/balestier-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/balestier-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/balestier-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/balestier-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/bedok-reservoir</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/bedok-reservoir</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/bedok-reservoir</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/bedok-reservoir</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/bukit-panjang-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/bukit-panjang-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/bukit-panjang-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/bukit-panjang-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/coast-2-coast</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/coast-2-coast</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/coast-2-coast</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/coast-2-coast</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/east-coast-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/east-coast-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/east-coast-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/east-coast-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/eastern-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/eastern-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/eastern-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/eastern-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/hortridge-park</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/hortridge-park</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/hortridge-park</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/hortridge-park</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/journey-to-the-north-east</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/journey-to-the-north-east</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/journey-to-the-north-east</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/journey-to-the-north-east</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/journey-to-the-north-east.jpeg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/journey-to-the-north-east.jpeg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/north-coast-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/north-coast-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/north-coast-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/north-coast-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/nus-smu</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/nus-smu</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/nus-smu</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/nus-smu</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/orchard-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/orchard-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/orchard-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/orchard-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/plan-for-the-east-coast</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/plan-for-the-east-coast</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/plan-for-the-east-coast</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/plan-for-the-east-coast</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/plan-for-the-east-coast.jpeg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/plan-for-the-east-coast.jpeg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/river-flows-in-you</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/river-flows-in-you</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/river-flows-in-you</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/river-flows-in-you</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/river-flows-in-you.jpeg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/river-flows-in-you.jpeg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/sengkang-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/sengkang-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/sengkang-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/sengkang-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/south-coast-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/south-coast-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/south-coast-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/south-coast-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/tale-of-two-rivers</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/tale-of-two-rivers</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/tale-of-two-rivers</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/tale-of-two-rivers</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/tel-3</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/tel-3</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/tel-3</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/tel-3</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/the-circle-of-life</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/the-circle-of-life</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/the-circle-of-life</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/the-circle-of-life</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/the-circle-of-life.jpeg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/the-circle-of-life.jpeg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/the-way-of-water</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/the-way-of-water</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/the-way-of-water</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/the-way-of-water</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/the-way-of-water.jpeg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/the-way-of-water.jpeg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/thomson-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/thomson-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/thomson-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/thomson-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/tiong-bahru-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/tiong-bahru-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/tiong-bahru-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/tiong-bahru-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/west-coast-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/west-coast-malls</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/west-coast-malls</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/west-coast-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/what-defu</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/what-defu</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/what-defu</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/what-defu</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
         <lastmod>2023-07-28</lastmod>
       </url>
 <url>
-        <loc>https://izzhafeez.com/blog/hikes/wheres-my-shelter</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/wheres-my-shelter</canonical>
+        <loc>https://izzhafeez.com/travels/hikes/wheres-my-shelter</loc>
+        <canonical>https://izzhafeez.com/travels/hikes/wheres-my-shelter</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/wheres-my-shelter.jpeg</image:loc>
+          <image:loc>https://izzhafeez.com/img/travels/hikes/wheres-my-shelter.jpeg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
