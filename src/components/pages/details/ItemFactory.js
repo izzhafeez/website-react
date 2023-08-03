@@ -1,4 +1,5 @@
-import { Hike, Mall } from "./blog/blogTypes";
+import { HikePost } from "./blog/blogTypes";
+import MallPost from "./blog/blogTypes/MallPost";
 import { Award, Certificate, Experience, Language, Module, Skill, Technology } from "./merits/meritTypes";
 import { Coding, Graph, Music, Quiz } from "./projects/projectTypes";
 
@@ -66,9 +67,9 @@ class ItemFactory {
   static getBlogConstructor(type) {
     switch(type) {
       case 'malls':
-        return page => params => new Mall({key: page, ...params});
+        return page => params => new MallPost({key: page, ...params});
       case 'hikes':
-        return page => params => new Hike({key: page, ...params});
+        return page => params => new HikePost({key: page, ...params});
       default:
         throw new Error(`Type unknown: ${type}.`);
     }

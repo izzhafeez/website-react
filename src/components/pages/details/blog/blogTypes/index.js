@@ -1,2 +1,2 @@
-export { default as Hike } from './Hike';
-export { default as Mall } from './Mall'
+export { default as HikePost } from './HikePost';
+export { default as Mall } from './MallPost'

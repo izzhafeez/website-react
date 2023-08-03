@@ -1,14 +1,16 @@
 import BlogPost from "../BlogPost";
 import MapContainer from "components/map/MapContainer";
+import { Hike } from "components/map/routes";
 import { Feature } from "ol";
-import { hikeStyle, numberStyle, pointStyle } from "./styles";
+import { numberStyle, pointStyle } from "./styles";
 import routesData from "data/blog/hikes/processed.json";
 import mallsData from "data/blog/json/malls.json";
 import { roundTo1dp } from "common/number";
-import Mall from "./Mall";
-import { LineString, Point } from "ol/geom";
+import Mall from "./MallPost";
+import { Point } from "ol/geom";
+import Stop from "components/map/locations/Stop";
 
-class Hike extends BlogPost {
+class HikePost extends BlogPost {
   constructor({ date, start, end, color='BLACK', stops=[], ...fields }) {
     super({
       type: 'hikes',
@@ -23,7 +25,21 @@ class Hike extends BlogPost {
     this.start = start;
     this.end = end;
     this.color = color;
-    this.stops = stops;
+    this.stopFeatures = stops.map((p, i) => new Stop({
+        title: this.title,
+        name: p.name,
+        index: i,
+        latitude: p.lat,
+        longitude: p.lng,
+        color: color
+      }).getFeature()
+    );
+    this.hike = new Hike({
+      color: color,
+      title: this.title,
+      route: route,
+      length: length
+    });
   };
 
   getSubtitle() {
@@ -33,10 +49,10 @@ class Hike extends BlogPost {
 
   getFeatures(withoutRelated) {
     return [
-      this.getLineFeature(),
+      this.hike.getFeature(),
       this.getStartFeature(),
       this.getEndFeature(),
-      ...this.getStopFeatures(),
+      ...this.stopFeatures,
       ...(withoutRelated ? [] : this.getMallFeatures())
     ];
   }
@@ -51,34 +67,6 @@ class Hike extends BlogPost {
         })
       )
       .flat(1);
-  }
-
-  getStopFeatures() {
-    return this.stops.map(({ name, lat, lng }, index) => {
-      const feature = new Feature({
-        geometry: new Point([lng, lat]),
-        text: `
-          <b>${this.title}</b><br/>
-          Stop ${index+1}: ${name}
-        `,
-        style: numberStyle(this.color)(index)
-      });
-      feature.setStyle(feature.get('style')({}));
-      return feature;
-    })
-  }
-
-  getLineFeature() {
-    const feature = new Feature({
-      geometry: new LineString(this.route),
-      text: `
-        <b>${this.title}</b><br/>
-        Distance: ${this.length}
-      `,
-      style: hikeStyle(this.color),
-    });
-    feature.setStyle(feature.get('style')());
-    return feature;
   }
 
   getStartFeature() {
@@ -119,4 +107,4 @@ class Hike extends BlogPost {
   }
 };
 
-export default Hike;
+export default HikePost;
