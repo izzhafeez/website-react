@@ -90,7 +90,7 @@ class Items {
         {withHeader && this.getHeader(withReturnButton)}
       </header>
       {withMap && this.getMap(true)}
-      {withMap && <br/>}
+      {withMap && this.getMap() && <br/>}
       <div className=''>
         <div className={this.getClassNames()}>
           {this.items.map(this.getItem)}
