@@ -70,6 +70,7 @@ fn get_length_of_route(route: &Vec<Coord>) -> f32 {
 }
 
 fn read_file(path: std::path::PathBuf) -> String {
+	println!("{}", path.display());
 	fs::read_to_string(path).expect("Unable to read file")
 }
 
