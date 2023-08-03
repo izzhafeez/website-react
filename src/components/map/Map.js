@@ -4,6 +4,9 @@ import VectorLayer from "ol/layer/Vector";
 import OSM from "ol/source/OSM";
 import VectorSource from "ol/source/Vector";
 import {FullScreen, defaults as defaultControls} from 'ol/control.js';
+import { useGeographic } from "ol/proj";
+
+useGeographic();
 
 const getMap = (mapElement) => {
   const initialFeaturesLayer = new VectorLayer({
@@ -19,7 +22,8 @@ const getMap = (mapElement) => {
     target: mapElement.current,
     layers: [osmLayer, initialFeaturesLayer],
     view: new View({
-      projection: 'EPSG:4326',
+      // projection: 'EPSG:4326',
+      projection: 'EPSG:3857',
       center: [103.85, 1.35],
       zoom: 11,
       // minZoom: 10,

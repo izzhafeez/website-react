@@ -32,7 +32,6 @@ const GeoQuiz = ({ data, constructor }) => {
     setRecenter(true);
     const allItems = Object.entries(data).map(([k, v], index) => {
       const key = purify(v.title);
-      console.log(key);
       if (!!itemPositions[key]) {
         itemPositions[key].push(index);
       } else {

@@ -23,18 +23,6 @@
     "importance": 8,
     "link": "https://www.geoguessr.com/maps/6297626a72047a6dcd1a93a6/play"
   },
-  "malls": {
-    "title": "Malls of Singapore (Live Quiz)",
-    "isLive": true,
-    "imgPath": "openlayers.svg",
-    "importance": 10,
-    "description": [
-      {
-        "title": "instructions",
-        "text": "Here are some of the malls in Singapore, including shopping centres and large specialty stores. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to a shade of purple."
-      }
-    ]
-  },
   "mrt-geoguessr": {
     "title": "MRT Lines of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",
@@ -43,18 +31,6 @@
   },
   "mrt": {
     "title": "MRTs of Singapore (Live Quiz)",
-    "isLive": true,
-    "imgPath": "openlayers.svg",
-    "importance": 10,
-    "description": [
-      {
-        "title": "instructions",
-        "text": "Here are most of the MRT stations in Singapore, including future ones up till the CR Phase 1. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to the colour of the MRT line."
-      }
-    ]
-  },
-  "mrt-chinese": {
-    "title": "MRTs of Singapore (Chinese Live Quiz)",
     "isLive": true,
     "imgPath": "openlayers.svg",
     "importance": 10,

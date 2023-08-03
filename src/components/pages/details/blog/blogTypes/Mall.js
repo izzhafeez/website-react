@@ -3,8 +3,8 @@ import MegaIcon from "components/basic/img/MegaIcon";
 import MicroIcon from "components/basic/img/MicroIcon";
 import MapContainer from "components/map/MapContainer";
 import { Feature } from "ol";
-import { Point } from "ol/geom";
 import { pointStyle } from "./styles";
+import { Point } from "ol/geom";
 
 class Mall extends BlogPost {
   constructor({ latitude, longitude, station, stores, floors, area, date, aesthetics, ...fields }) {
