@@ -16,7 +16,7 @@ class BlogPosts extends Items {
       case 'malls':
         return Sizes.SMALL;
       case 'hikes':
-        return Sizes.SMALL;
+        return Sizes.MEDIUM;
       default:
         return Sizes.MEDIUM;
     }
