@@ -6,7 +6,6 @@ import routesData from "data/blog/hikes/processed.json";
 import mallsData from "data/blog/json/malls.json";
 import { roundTo1dp } from "common/number";
 import Mall from "./Mall";
-import { toLine, toPoint } from "common/geo";
 import { LineString, Point } from "ol/geom";
 
 class Hike extends BlogPost {
