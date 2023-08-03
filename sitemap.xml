@@ -4,7 +4,7 @@
 <url> <loc>https://izzhafeez.com/</loc> </url>
 <url> <loc>https://izzhafeez.com/website-react</loc> </url>
 <url> <loc>https://izzhafeez.com/merits</loc> </url>
-<url> <loc>https://izzhafeez.com/blog</loc> </url>
+<url> <loc>https://izzhafeez.com/travels</loc> </url>
 <url> <loc>https://izzhafeez.com/works</loc> </url>
 <url> <loc>https://izzhafeez.com/merits/experience/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/merits/:kind</loc> </url>
@@ -13,8 +13,8 @@
 <url> <loc>https://izzhafeez.com/merits/languages/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/merits/skills/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/merits/tools/:name</loc> </url>
-<url> <loc>https://izzhafeez.com/blog/:kind</loc> </url>
-<url> <loc>https://izzhafeez.com/blog/modules/:name</loc> </url>
+<url> <loc>https://izzhafeez.com/travels/:kind</loc> </url>
+<url> <loc>https://izzhafeez.com/travels/modules/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/works/notes/:module/:name</loc> </url>
 <url> <loc>https://izzhafeez.com/works/notes/search/:searchTerm</loc> </url>
 <url> <loc>https://izzhafeez.com/works/notes/search</loc> </url>
