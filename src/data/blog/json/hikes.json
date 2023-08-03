@@ -807,6 +807,58 @@
       }
     ]
   },
+  "romance-of-three-kingdoms": {
+    "title": "三国演义",
+    "date": "08/08/23",
+    "start": "Woodlands North MR",
+    "end": "HarbourFront MRT",
+    "color": "CYAN",
+    "stops": [
+      {
+        "name": "Woodlands Waterfront Park",
+        "lat": 1.452571,
+        "lng": 103.778683
+      },
+      {
+        "name": "Marsiling Park",
+        "lat": 1.436686,
+        "lng": 103.770192
+      },
+      {
+        "name": "Rail Corridor North",
+        "lat": 1.422475,
+        "lng": 103.754022
+      },
+      {
+        "name": "Rail Corridor Central",
+        "lat": 1.35124,
+        "lng": 103.77120
+      },
+      {
+        "name": "Bukit Timah Railway Station",
+        "lat": 1.333942,
+        "lng": 103.781243
+      },
+      {
+        "name": "Rail Corridor South",
+        "lat": 1.284089,
+        "lng": 103.806013
+      }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "malls",
+        "items": [
+          "bukit-timah-plaza",
+          "bukit-panjang-plaza",
+          "hillion-mall",
+          "the-star-vista",
+          "vivo-city"
+        ]
+      }
+    ]
+  },
   "sengkang-malls": {
     "title": "Sengkang Malls",
     "date": "14/07/22",

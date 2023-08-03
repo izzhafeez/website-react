@@ -2,7 +2,7 @@ import BlogPost from "../BlogPost";
 import MapContainer from "components/map/MapContainer";
 import { Hike } from "components/map/routes";
 import { Feature } from "ol";
-import { numberStyle, pointStyle } from "./styles";
+import { pointStyle } from "./styles";
 import routesData from "data/blog/hikes/processed.json";
 import mallsData from "data/blog/json/malls.json";
 import { roundTo1dp } from "common/number";
@@ -25,6 +25,7 @@ class HikePost extends BlogPost {
     this.start = start;
     this.end = end;
     this.color = color;
+
     this.stopFeatures = stops.map((p, i) => new Stop({
         title: this.title,
         name: p.name,
@@ -34,11 +35,12 @@ class HikePost extends BlogPost {
         color: color
       }).getFeature()
     );
+
     this.hike = new Hike({
       color: color,
       title: this.title,
       route: route,
-      length: length
+      length: this.length
     });
   };
 

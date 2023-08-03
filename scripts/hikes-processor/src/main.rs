@@ -13,11 +13,11 @@ struct RouteInfo {
 }
 
 fn main() {
-	let dir = "../../src/data/travels/hikes/kml";
+	let dir = "../../src/data/blog/hikes/kml";
 	let paths = get_paths(dir);
 	let map = get_json_from_path(paths);
 	let json = serde_json::to_string_pretty(&map).unwrap();
-	std::fs::write("../../src/data/travels/hikes/processed.json", json.as_bytes())
+	std::fs::write("../../src/data/blog/hikes/processed.json", json.as_bytes())
 		.expect("Couldn't write to file.");
 }
 
