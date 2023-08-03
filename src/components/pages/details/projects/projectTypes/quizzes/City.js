@@ -1,7 +1,7 @@
 import { Feature } from "ol";
 import Project from "../../Project";
 import { pointStyle } from "components/pages/details/blog/blogTypes/styles";
-import { toPoint } from "common/geo";
+import { Point } from "ol/geom";
 
 class City extends Project {
   constructor({ latitude, longitude, population, ...fields }) {
@@ -45,7 +45,7 @@ class City extends Project {
 
   getFeature() {
     const feature = new Feature({
-      geometry: toPoint([this.longitude, this.latitude]),
+      geometry: new Point([this.longitude, this.latitude]),
       text: this.title,
       style: pointStyle(this.getColor())
     });
