@@ -1,4 +1,11 @@
 {
+  "bus-routes":{
+    "title": "Bus Routes of Singapore (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 9,
+    "description": []
+  },
   "bus-stops-geoguessr": {
     "title": "Bus Stops of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",

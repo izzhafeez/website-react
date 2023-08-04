@@ -1,16 +1,20 @@
 import GeoQuiz from "components/pages/details/blog/GeoQuiz";
 import citiesData from 'data/projects/json/quizzes/cities.json';
 import mallsData from "data/blog/json/malls.json";
+import busRoutesData from "data/projects/json/quizzes/bus-routes.json";
 import mrtData from "data/projects/json/quizzes/mrt.json";
 import mrtChineseData from "data/projects/json/quizzes/mrt-chinese.json";
 import schoolsData from 'data/projects/json/quizzes/schools.json';
 import { useState } from "react";
 import { City, Mrt, School } from "components/map/locations";
 import Mall from "components/map/locations/Mall";
+import BusRoute from "components/map/routes/BusRoute";
+import GuessQuiz from "components/pages/details/blog/GuessQuiz";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
   const [country, setCountry] = useState('Japan');
+  let quiz;
   switch (type) {
     case 'malls':
       constructor = p => new Mall(p);
@@ -27,6 +31,10 @@ const QuizPage = ({ type, item }) => {
     case 'mrt-chinese':
       constructor = p => new Mrt(p);
       data = mrtChineseData;
+      break;
+    case 'bus-routes':
+      constructor = p => new BusRoute(p);
+      data = busRoutesData;
       break;
     case 'cities':
       constructor = p => new City(p);
@@ -65,7 +73,9 @@ const QuizPage = ({ type, item }) => {
       </div>
       </div>
     }
-    <GeoQuiz constructor={constructor} data={data}/>
+    {type === 'bus-routes'
+      ? <GuessQuiz constructor={constructor} data={data}/>
+      : <GeoQuiz constructor={constructor} data={data}/>}
   </article>;
 };
 
