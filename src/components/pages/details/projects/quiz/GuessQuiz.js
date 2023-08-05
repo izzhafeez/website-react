@@ -48,8 +48,8 @@ const GuessQuiz = ({ constructor, data }) => {
 
   return <section className='text-start'>
     <div className='my-2'>
-      <b>Current Streak:</b> {score}<br/>
-      <b>Best Streak:</b> {bestScore}<br/>
+      <b>Current Streak:</b> {score}
+      <b className='ms-4'>Best Streak:</b> {bestScore}<br/>
     </div>
     <OptionBox options={options} answer={answer} handleScore={handleScore}/>
     {hasAnswered

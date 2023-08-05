@@ -31,7 +31,6 @@ const OptionBox = ({ options, answer, handleScore }) => {
   }
 
   return <section className='justify-content-start my-2'>
-    <div className='mb-2'><b>Options:</b></div>
     {options.map(option =>
       <button
         className={getClassName(option)}
