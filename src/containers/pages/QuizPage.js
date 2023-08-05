@@ -1,4 +1,4 @@
-import GeoQuiz from "components/pages/details/blog/GeoQuiz";
+import GeoQuiz from "components/pages/details/projects/quiz/GeoQuiz";
 import citiesData from 'data/projects/json/quizzes/cities.json';
 import mallsData from "data/blog/json/malls.json";
 import busRoutesData from "data/projects/json/quizzes/bus-routes.json";
@@ -9,7 +9,7 @@ import { useState } from "react";
 import { City, Mrt, School } from "components/map/locations";
 import Mall from "components/map/locations/Mall";
 import BusRoute from "components/map/routes/BusRoute";
-import GuessQuiz from "components/pages/details/blog/GuessQuiz";
+import GuessQuiz from "components/pages/details/projects/quiz/GuessQuiz";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
