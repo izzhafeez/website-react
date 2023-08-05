@@ -1,6 +1,6 @@
 import MapContainer from "components/map/MapContainer";
 import React, { useEffect, useState } from "react";
-import { mutedPointStyle } from "./blogTypes/styles";
+import { mutedPointStyle } from "../../blog/blogTypes/styles";
 import { Feature } from "ol";
 import { Point } from "ol/geom";
 import unidecode from "unidecode";
