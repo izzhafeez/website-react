@@ -7,7 +7,7 @@ import getMap from './Map';
 import handlePointerMove from './events';
 
 // code from https://taylor.callsen.me/using-openlayers-with-react-functional-components/
-const MapContainer = ({ category, features, willRecenter=true }) => {
+const MapContainer = ({ category, features, willRecenter=true, withOverlay=true }) => {
   // set intial state - used to track references to OpenLayers 
   // objects for use in hooks, event handlers, etc.
   const [ map, setMap ] = useState();
@@ -44,7 +44,7 @@ const MapContainer = ({ category, features, willRecenter=true }) => {
   }, []);
 
   useEffect(() => {
-    if (map) {
+    if (map && withOverlay) {
       mapRef.current.addOverlay(overlay);
     }
 
