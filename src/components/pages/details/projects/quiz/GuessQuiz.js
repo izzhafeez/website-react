@@ -3,7 +3,8 @@ import { useState } from "react";
 import OptionBox from "./OptionBox";
 
 const GuessQuiz = ({ constructor, data }) => {
-  const [allOptions, setAllOptions] = useState(Object.keys(data).sort((a, b) => 0.5 - Math.random()));
+  const randomiser = (a, b) => 0.5 + (a.length - b.length) * 0.3 - Math.random();
+  const [allOptions, setAllOptions] = useState(Object.keys(data).sort(randomiser));
   const parsedData = {};
   Object.entries(data).forEach(([k,v]) => {
     parsedData[k] = constructor({ serviceNo: k, points: v });
