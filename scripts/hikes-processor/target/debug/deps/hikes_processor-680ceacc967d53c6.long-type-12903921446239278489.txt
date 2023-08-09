@@ -1,1 +1,0 @@
-std::iter::Map<Windows<'_, (f32, f32)>, fn((f32, f32), (f32, f32)) -> f32 {get_distance_between_points}>
