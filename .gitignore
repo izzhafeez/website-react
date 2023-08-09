@@ -26,4 +26,4 @@ yarn-error.log*
 src/assets/logo-registration/target
 
 yarn.lock
-
+scripts/hikes-processor/target
