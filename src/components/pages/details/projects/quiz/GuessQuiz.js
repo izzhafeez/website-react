@@ -3,7 +3,11 @@ import { useState } from "react";
 import OptionBox from "./OptionBox";
 
 const GuessQuiz = ({ constructor, data }) => {
-  const randomiser = (a, b) => 0.5 + (a.length - b.length) * 0.3 - Math.random();
+  const letterRegex = /[A-Za-z]/g;
+  const randomiser = (a, b) => 0.5
+    + (a.length - b.length) * 0.05
+    + (!!a.match(letterRegex) - !!b.match(letterRegex)) * 0.1
+    - Math.random();
   const [allOptions, setAllOptions] = useState(Object.keys(data).sort(randomiser));
   const parsedData = {};
   Object.entries(data).forEach(([k,v]) => {
@@ -20,14 +24,18 @@ const GuessQuiz = ({ constructor, data }) => {
 
   const randomise = () => {
     if (!hasAnswered) return;
-    const window = allOptions
-      .slice(0, windowSize)
-      .sort((a, b) => 0.5 - Math.random());
-    const options = window.slice(0, optionsSize);
-    const answer = options[0];
-    setOptions(options.sort((a, b) => 0.5 - Math.random()));
-    setAnswer(answer);
-    setFeatures(parsedData[answer].getFeatures());
+    let newAnswer = answer;
+    let newOptions;
+    while (newAnswer === answer) {
+      const window = allOptions
+        .slice(0, windowSize)
+        .sort((a, b) => 0.5 - Math.random());
+      newOptions = window.slice(0, optionsSize);
+      newAnswer = newOptions[0];
+    }
+    setOptions(newOptions.sort((a, b) => 0.5 - Math.random()));
+    setAnswer(newAnswer);
+    setFeatures(parsedData[newAnswer].getFeatures());
     setHasAnswered(false);
   };
 
