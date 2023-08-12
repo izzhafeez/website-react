@@ -25,7 +25,12 @@ fn get_paths(dir: &str) -> Vec<std::path::PathBuf> {
 	fs::read_dir(dir)
 		.unwrap()
 		.into_iter()
-		.map(|path|	path.unwrap().path())
+		.map(|path| path.unwrap().path())
+		.filter(|path| !path
+			.to_str()
+			.expect("Can't become string")
+			.contains("DS")
+		)
 		.collect()
 }
 
