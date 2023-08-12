@@ -325,7 +325,7 @@
     "date": "30/12/21",
     "start": "Raffles Place MRT",
     "end": "Bedok MRT",
-    "color": "GREEN_V_LIGHT",
+    "color": "GREEN_LIGHT",
     "description": [
       {
         "title": "experience",
@@ -542,6 +542,64 @@
           "sengkang-grand-mall",
           "compass-one",
           "waterway-point"
+        ]
+      }
+    ]
+  },
+  "navi": {
+    "title": "Na'vi",
+    "date": "10/08/23",
+    "start": "Marymount MRT",
+    "end": "Upper Thomson MRT",
+    "color": "PINK",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This walk takes us through MacRitchie and the TreeTop Walk. It is pretty much a standard nature trail in Singapore, and one of the nicest as well. MacRitchie has beautiful views all around, yet never gets stale. The boardwalk, especially, gives us a great view of the reservoir. Not to mention the TreeTop Walk itself, which makes us feel like the Na'vi of Pandora."
+      },
+      {
+        "title": "refreshments",
+        "text": "We had snacks atop the Jelutong Tower, and lunch at Thomson Plaza."
+      }
+    ],
+    "stops": [
+      {
+        "name": "MacRitchie Boardwalk",
+        "lat": 1.3417962327074286,
+        "lng": 103.83189330055102
+      },
+      {
+        "name": "Lornie Trail",
+        "lat": 1.3420013554498391,
+        "lng": 103.82870162703499
+      },
+      {
+        "name": "Chemperai Trail",
+        "lat": 1.3435283797631135,
+        "lng": 103.82109860454602
+      },
+      {
+        "name": "Jelutong Tower",
+        "lat": 1.3512546524918378,
+        "lng": 103.80632571533579
+      },
+      {
+        "name": "TreeTop Walk",
+        "lat": 1.360358690227217,
+        "lng": 103.81195504910106
+      },
+      {
+        "name": "Windsor Nature Park",
+        "lat": 1.3603394671316629,
+        "lng": 103.82306911635315
+      }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "malls",
+        "items": [
+          "thomson-plaza"
         ]
       }
     ]
@@ -866,7 +924,7 @@
   "romance-of-three-kingdoms": {
     "title": "三国演义",
     "date": "08/08/23",
-    "start": "Woodlands North MR",
+    "start": "Woodlands North MRT",
     "end": "HarbourFront MRT",
     "color": "PINK",
     "stops": [
@@ -911,6 +969,51 @@
           "hillion-mall",
           "the-star-vista",
           "vivo-city"
+        ]
+      }
+    ]
+  },
+  "romance-of-two-kingdoms": {
+    "title": "两国演义",
+    "date": "29/09/22",
+    "start": "Woodlands MRT",
+    "end": "Bangkit LRT",
+    "color": "RED_LIGHT",
+    "stops": [
+      {
+        "name": "Admiralty Park",
+        "lat": 1.44474381760186,
+        "lng": 103.78073158061967
+      },
+      {
+        "name": "Woodlands Waterfront Park",
+        "lat": 1.452571,
+        "lng": 103.778683
+      },
+      {
+        "name": "Marsiling Market",
+        "lat": 1.4438933370613418,
+        "lng": 103.77701941295275
+      },
+      {
+        "name": "Marsiling Park",
+        "lat": 1.436686,
+        "lng": 103.770192
+      },
+      {
+        "name": "Bukit Panjang Hawker Centre",
+        "lat": 1.3775850443900561,
+        "lng": 103.7723231982469
+      }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "malls",
+        "items": [
+          "bukit-timah-plaza",
+          "bukit-panjang-plaza",
+          "hillion-mall"
         ]
       }
     ]
@@ -1174,6 +1277,97 @@
       }
     ]
   },
+  "the-forgotten-airport": {
+    "title": "The Forgotten Airport",
+    "date": "13/08/23",
+    "start": "Pasir Ris MRT",
+    "end": "Yishun MRT",
+    "color": "BRIGHT_GREEN",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This walk brings us to Seletar Airport, Lower Seletar Reservoir, and Yishun."
+      }
+    ],
+    "stops": [
+      {
+        "name": "Punggol Waterway",
+        "lat": 1.4046680777417886,
+        "lng": 103.91229417075307
+      },
+      {
+        "name": "Jewel Bridge",
+        "lat": 1.4095433163734645,
+        "lng": 103.89587385886162
+      },
+      {
+        "name": "Punggol Timor Island Bridge",
+        "lat": 1.4231815880384895,
+        "lng": 103.88659370727169
+      },
+      {
+        "name": "Seletar Airport",
+        "lat": 1.4143156920639055,
+        "lng": 103.87177838815037
+      },
+      {
+        "name": "Hampstead Wetlands Park",
+        "lat": 1.4089257508625121,
+        "lng": 103.8692506901618
+      },
+      {
+        "name": "Seletar Airport Boardwalk",
+        "lat": 1.4097362749551363,
+        "lng": 103.86644302593318
+      },
+      {
+        "name": "The Oval",
+        "lat": 1.4079951487554452,
+        "lng": 103.86768920844263
+      },
+      {
+        "name": "Round Island Heritage Trees",
+        "lat": 1.4062904098266593,
+        "lng": 103.86689634668669
+      },
+      {
+        "name": "Seletar Fishing Village View",
+        "lat": 1.4237555967119182,
+        "lng": 103.86588948947963
+      },
+      {
+        "name": "Yishun Dam",
+        "lat": 1.4235050360905097,
+        "lng": 103.86104680554762
+      },
+      {
+        "name": "Nee Soon East Park",
+        "lat": 1.4253106603520347,
+        "lng": 103.84861904919501
+      },
+      {
+        "name": "Yishun Park",
+        "lat": 1.424153023422289,
+        "lng": 103.84298609084419
+      },
+      {
+        "name": "Yishun Pond Park",
+        "lat": 1.4263309500443342,
+        "lng": 103.8397083763736
+      }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "malls",
+        "items": [
+          "northpoint-city",
+          "waterway-point",
+          "white-sands"
+        ]
+      }
+    ]
+  },
   "the-way-of-water": {
     "title": "The Way of Water",
     "imgPath": "the-way-of-water.jpeg",
@@ -1275,7 +1469,7 @@
     "date": "05/05/22",
     "start": "Ang Mo Kio MRT",
     "end": "Upper Thomson MRT",
-    "color": "BROWN",
+    "color": "BROWN_LIGHT",
     "description": [
       {
         "title": "experience",
@@ -1306,7 +1500,7 @@
     "date": "07/08/23",
     "start": "Yio Chu Kang MRT",
     "end": "Boon Keng MRT",
-    "color": "BROWN_LIGHT",
+    "color": "BROWN",
     "stops": [
       {
         "name": "Ang Mo Kio Town Garden West",
@@ -1374,7 +1568,7 @@
     "date": "14/08/21",
     "start": "NUS School of Computing",
     "end": "Clementi MRT",
-    "color": "GREEN_V_LIGHT",
+    "color": "GREEN_LIGHT",
     "description": [
       {
         "title": "experience",
