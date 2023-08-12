@@ -1,6 +1,7 @@
 {
   "balestier-malls": {
     "title": "Balestier Malls",
+    "imgPath": "zhongshan-mall.jpg",
     "date": "04/08/22",
     "start": "Lavender MRT",
     "end": "Bishan MRT",
@@ -168,6 +169,7 @@
   },
   "bukit-panjang-malls": {
     "title": "Bukit Panjang Malls",
+    "imgPath": "bukit-panjang-plaza.jpg",
     "date": "23/09/21",
     "start": "Choa Chu Kang MRT",
     "end": "Hillview MRT",
@@ -322,6 +324,7 @@
   },
   "east-coast-malls": {
     "title": "East Coast Malls",
+    "imgPath": "katong-shopping-centre.jpg",
     "date": "30/12/21",
     "start": "Raffles Place MRT",
     "end": "Bedok MRT",
@@ -398,6 +401,7 @@
   },
   "eastern-malls": {
     "title": "Eastern Malls",
+    "imgPath": "century-square.jpg",
     "date": "17/05/22",
     "start": "Tanah Merah MRT",
     "end": "Pasir Ris MRT",
@@ -485,7 +489,7 @@
   },
   "journey-to-the-north-east": {
     "title": "东北游记",
-    "imgPath": "journey-to-the-north-east.jpeg",
+    "imgPath": "journey-to-the-west.jpg",
     "date": "29/12/22",
     "start": "HarbourFront MRT",
     "end": "Punggol MRT",
@@ -548,6 +552,7 @@
   },
   "navi": {
     "title": "Na'vi",
+    "imgPath": "navi.jpg",
     "date": "10/08/23",
     "start": "Marymount MRT",
     "end": "Upper Thomson MRT",
@@ -606,6 +611,7 @@
   },
   "north-coast-malls": {
     "title": "North Coast Malls",
+    "imgPath": "sun-plaza.jpg",
     "date": "28/03/22",
     "start": "Woodlands MRT",
     "end": "Khatib MRT",
@@ -651,6 +657,7 @@
   },
   "nus-smu": {
     "title": "NUS-SMU",
+    "imgPath": "smu.jpg",
     "date": "23/07/23",
     "start": "Kent Ridge MRT",
     "end": "Bencoolen MRT",
@@ -701,6 +708,7 @@
   },
   "orchard-malls": {
     "title": "Orchard Malls",
+    "imgPath": "313-somerset.jpg",
     "date": "05/09/21",
     "start": "Stevens MRT",
     "end": "Somerset MRT",
@@ -806,7 +814,7 @@
   },
   "plan-for-the-west-coast": {
     "title": "Plan for the West Coast",
-    "imgPath": "plan-for-the-east-coast.jpeg",
+    "imgPath": "nus.jpg",
     "date": "11/08/23",
     "start": "Clementi MRT",
     "end": "Clementi MRT",
@@ -923,6 +931,7 @@
   },
   "romance-of-three-kingdoms": {
     "title": "三国演义",
+    "imgPath": "romance-of-three-kingdoms.jpg",
     "date": "08/08/23",
     "start": "Woodlands North MRT",
     "end": "HarbourFront MRT",
@@ -970,11 +979,19 @@
           "the-star-vista",
           "vivo-city"
         ]
+      },
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "romance-of-two-kingdoms"
+        ]
       }
     ]
   },
   "romance-of-two-kingdoms": {
     "title": "两国演义",
+    "imgPath": "romance-of-three-kingdoms.jpg",
     "date": "29/09/22",
     "start": "Woodlands MRT",
     "end": "Bangkit LRT",
@@ -1015,11 +1032,19 @@
           "bukit-panjang-plaza",
           "hillion-mall"
         ]
+      },
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "romance-of-two-kingdoms"
+        ]
       }
     ]
   },
   "sengkang-malls": {
     "title": "Sengkang Malls",
+    "imgPath": "northshore-plaza.jpg",
     "date": "14/07/22",
     "start": "Punggol MRT",
     "end": "Kovan MRT",
@@ -1068,6 +1093,7 @@
   },
   "south-coast-malls": {
     "title": "South Coast Malls",
+    "imgPath": "vivo-city.jpg",
     "date": "27/10/21",
     "start": "Pasir Panjang MRT",
     "end": "Farrer Park MRT",
@@ -1466,6 +1492,7 @@
   },
   "thomson-malls": {
     "title": "Thomson Malls",
+    "imgPath": "thomson-plaza.jpg",
     "date": "05/05/22",
     "start": "Ang Mo Kio MRT",
     "end": "Upper Thomson MRT",
@@ -1564,6 +1591,7 @@
   },
   "tiong-bahru-malls": {
     "title": "Tiong Bahru Malls",
+    "imgPath": "great-world-city.jpg",
     "date": "25/09/21",
     "start": "Queenstown MRT",
     "end": "Orchard MRT",
@@ -1593,6 +1621,7 @@
   },
   "west-coast-malls": {
     "title": "West Coast Malls",
+    "imgPath": "321-clementi.jpg",
     "date": "14/08/21",
     "start": "NUS School of Computing",
     "end": "Clementi MRT",
