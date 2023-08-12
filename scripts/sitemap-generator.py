@@ -49,8 +49,8 @@ types: List[Tuple[str, str]] = [
   ('merits', 'languages'),
   ('merits', 'technologies'),
   ('merits', 'skills'),
-  ('travels', 'malls'),
-  ('travels', 'hikes')
+  ('blog', 'malls'),
+  ('blog', 'hikes')
 ]
 
 def get_url_from_category(category):
