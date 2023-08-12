@@ -1501,6 +1501,16 @@
     "start": "Yio Chu Kang MRT",
     "end": "Boon Keng MRT",
     "color": "BROWN",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This route explores part of Thomson Road and Whampoa River, as part of an extended Central Urban Loop. I think the main highlight of this walk was the Birdsinging Club near the start of the walk. The rest of the walk was ok, since we didn't get to explore some of the parks."
+      },
+      {
+        "title": "refreshments",
+        "text": "We bought drinks at the 7-eleven near Mayflower MRT, and lunch was at McDonalds at <<../blog/malls/zhongshan-mall>>Zhongshan Mall</>."
+      }
+    ],
     "stops": [
       {
         "name": "Ang Mo Kio Town Garden West",
@@ -1531,6 +1541,24 @@
         "name": "Whampoa",
         "lat": 1.323142,
         "lng": 103.858688
+      }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "malls",
+        "items": [
+          "zhongshan-mall",
+          "thomson-plaza",
+          "broadway-plaza"
+        ]
+      },
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "what-defu"
+        ]
       }
     ]
   },
@@ -1652,6 +1680,13 @@
         "type": "malls",
         "items": [
           "hougang-green-shopping-mall"
+        ]
+      },
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "thomson-whampoa"
         ]
       }
     ]
