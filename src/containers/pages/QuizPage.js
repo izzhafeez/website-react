@@ -9,7 +9,7 @@ import { useState } from "react";
 import { City, Mrt, School } from "components/map/locations";
 import Mall from "components/map/locations/Mall";
 import BusRoute from "components/map/routes/BusRoute";
-import GuessQuiz from "components/pages/details/projects/quiz/GuessQuiz";
+import GuessQuiz from "components/pages/details/projects/quiz/guessQuiz/GuessQuiz";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
