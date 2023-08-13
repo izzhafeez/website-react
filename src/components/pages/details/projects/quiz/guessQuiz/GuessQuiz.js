@@ -33,11 +33,11 @@ const GuessQuiz = ({ constructor, data }) => {
   useEffect(() => {
     const allOptions = sortOptions();
     setAllOptions(allOptions);
+    handleEnd();
     setDefaultWindowSize(setting.window);
     setWindowSize(setting.window);
     setDefaultOptionsSize(setting.options);
     setOptionsSize(setting.options);
-    handleEnd();
     randomise({
       force: true,
       allOptions_: allOptions,
