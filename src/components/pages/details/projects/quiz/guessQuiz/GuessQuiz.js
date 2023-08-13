@@ -34,7 +34,9 @@ const GuessQuiz = ({ constructor, data }) => {
     const allOptions = sortOptions();
     setAllOptions(allOptions);
     setDefaultWindowSize(setting.window);
+    setWindowSize(setting.window);
     setDefaultOptionsSize(setting.options);
+    setOptionsSize(setting.options);
     handleEnd();
     randomise({
       force: true,
