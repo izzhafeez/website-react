@@ -3,7 +3,7 @@
     "title": "Bus Routes of Singapore (Live Quiz)",
     "isLive": true,
     "imgPath": "openlayers.svg",
-    "importance": 9,
+    "importance": 10,
     "description": [
       {
         "title": "instructions",
@@ -45,7 +45,7 @@
     "title": "MRTs of Singapore (Live Quiz)",
     "isLive": true,
     "imgPath": "openlayers.svg",
-    "importance": 10,
+    "importance": 9,
     "description": [
       {
         "title": "instructions",
@@ -90,7 +90,7 @@
     "title": "Schools of Singapore (Live Quiz)",
     "isLive": true,
     "imgPath": "openlayers.svg",
-    "importance": 10,
+    "importance": 9,
     "description": [
       {
         "title": "instructions",
