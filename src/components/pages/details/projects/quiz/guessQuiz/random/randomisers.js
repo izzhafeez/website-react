@@ -9,4 +9,4 @@ export const rotateRandomise = ({ arr, sort }) => {
     ...arr.slice(rotateAmount, arr.length),
     ...arr.slice(0, rotateAmount)
   ];
-}
+};

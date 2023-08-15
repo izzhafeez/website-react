@@ -1,7 +1,7 @@
 import MapContainer from "components/map/MapContainer";
 import { useEffect, useState } from "react";
-import OptionBox from "./OptionBox";
 import settings from "./settings";
+import InputBox from "./input/InputBox";
 
 const GuessQuiz = ({ constructor, data }) => {
   const [setting, setSetting] = useState(settings.easy);
@@ -22,6 +22,7 @@ const GuessQuiz = ({ constructor, data }) => {
 
   const [options, setOptions] = useState(allOptions.slice(0, optionsSize));
   const [answer, setAnswer] = useState(allOptions[0]);
+  const [prevAnswer, setPrevAnswer] = useState('');
   const [features, setFeatures] = useState(parsedData[answer].getFeatures());
   const [hasAnswered, setHasAnswered] = useState(false);
   const [score, setScore] = useState(0);
@@ -44,10 +45,12 @@ const GuessQuiz = ({ constructor, data }) => {
       windowSize_: setting.window,
       optionsSize_: setting.options
     });
+    setPrevAnswer('');
   }, [setting]);
 
   const randomise = ({ force, allOptions_=allOptions, windowSize_=windowSize, optionsSize_=optionsSize }) => {
     if (!hasAnswered && !force) return;
+    setPrevAnswer(answer);
     let newAnswer = answer;
     let newOptions;
     while (newAnswer === answer) {
@@ -82,6 +85,10 @@ const GuessQuiz = ({ constructor, data }) => {
     } else {
       handleEnd();
     }
+
+    if (setting.isFreeText) {
+      randomise({ force: true });
+    }
   }
 
   const handleSetting = e => {
@@ -102,10 +109,13 @@ const GuessQuiz = ({ constructor, data }) => {
       <b>Current Streak:</b> {score}
       <b className='ms-4'>Best {setting.label.toUpperCase()} Streak:</b> {bestScore[setting.label]}<br/>
     </div>
-    <OptionBox options={options} answer={answer} handleScore={handleScore}/>
-    {hasAnswered
+    {InputBox({ options: options, answer: answer, handleScore: handleScore, isFreeText: setting.isFreeText })}
+    {setting.isFreeText && !!prevAnswer &&
+      <div className='mb-2'>{(!!score ? <span className='text-success'>Correct!</span> : <span className='text-danger'>Wrong!</span>)} Answer was: {prevAnswer}</div>
+    }
+    {!setting.isFreeText && (hasAnswered
       ? <button onClick={randomise} className='btn btn-warning mb-2'>Next</button>
-      : <button className='btn btn-outline-warning mb-2' disabled>Next</button>
+      : <button className='btn btn-outline-warning mb-2' disabled>Next</button>)
     }
     <MapContainer category='projects' features={features} withOverlay={false}/>
   </section>;
