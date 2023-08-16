@@ -1,6 +1,6 @@
 export const shuffleRandomise = ({ arr, sort }) => {
   return arr.sort(sort);
-};
+}; // just sort
 
 export const rotateRandomise = ({ arr, sort }) => {
   const sortedArr = arr.sort(sort);
@@ -9,4 +9,4 @@ export const rotateRandomise = ({ arr, sort }) => {
     ...sortedArr.slice(rotateAmount, arr.length),
     ...sortedArr.slice(0, rotateAmount)
   ];
-};
+}; // to allow the quiz to use similar bus numbers
