@@ -2,7 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://izzhafeez.com/</loc>
-    <canonical>https://izzhafeez.com</canonical>
     <image:image>
       <image:loc>https://izzhafeez.com/img/izzhafeez.png</image:loc>
     </image:image>
@@ -12,66 +11,59 @@
   </url>
   <url>
     <loc>https://izzhafeez.com/projects</loc>
-    <canonical>https://izzhafeez.com/projects</canonical>
     <image:image>
       <image:loc>https://izzhafeez.com/img/types/projects.svg</image:loc>
     </image:image>
     <priority>1.0</priority>
     <changefreq>always</changefreq>
-    <lastmod>2023-08-12</lastmod>
+    <lastmod>2023-08-16</lastmod>
   </url>
   <url>
     <loc>https://izzhafeez.com/projects/all</loc>
-    <canonical>https://izzhafeez.com/projects/all</canonical>
     <image:image>
       <image:loc>https://izzhafeez.com/img/types/projects.svg</image:loc>
     </image:image>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
-    <lastmod>2023-08-12</lastmod>
-  </url>
-<url>
-    <loc>https://izzhafeez.com/blog</loc>
-    <canonical>https://izzhafeez.com/blog</canonical>
-    <image:image>
-      <image:loc>https://izzhafeez.com/img/types/blog.svg</image:loc>
-    </image:image>
-    <priority>1.0</priority>
-    <changefreq>always</changefreq>
-    <lastmod>2023-08-12</lastmod>
-  </url>
-  <url>
-    <loc>https://izzhafeez.com/blog/all</loc>
-    <canonical>https://izzhafeez.com/blog/all</canonical>
-    <image:image>
-      <image:loc>https://izzhafeez.com/img/types/blog.svg</image:loc>
-    </image:image>
-    <priority>0.5</priority>
-    <changefreq>always</changefreq>
-    <lastmod>2023-08-12</lastmod>
+    <lastmod>2023-08-16</lastmod>
   </url>
 <url>
     <loc>https://izzhafeez.com/merits</loc>
-    <canonical>https://izzhafeez.com/merits</canonical>
     <image:image>
       <image:loc>https://izzhafeez.com/img/types/merits.svg</image:loc>
     </image:image>
     <priority>1.0</priority>
     <changefreq>always</changefreq>
-    <lastmod>2023-08-12</lastmod>
+    <lastmod>2023-08-16</lastmod>
   </url>
   <url>
     <loc>https://izzhafeez.com/merits/all</loc>
-    <canonical>https://izzhafeez.com/merits/all</canonical>
     <image:image>
       <image:loc>https://izzhafeez.com/img/types/merits.svg</image:loc>
     </image:image>
     <priority>0.5</priority>
     <changefreq>always</changefreq>
-    <lastmod>2023-08-12</lastmod>
+    <lastmod>2023-08-16</lastmod>
+  </url>
+<url>
+    <loc>https://izzhafeez.com/blog</loc>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/blog.svg</image:loc>
+    </image:image>
+    <priority>1.0</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-08-16</lastmod>
+  </url>
+  <url>
+    <loc>https://izzhafeez.com/blog/all</loc>
+    <image:image>
+      <image:loc>https://izzhafeez.com/img/types/blog.svg</image:loc>
+    </image:image>
+    <priority>0.5</priority>
+    <changefreq>always</changefreq>
+    <lastmod>2023-08-16</lastmod>
   </url><url>
       <loc>https://izzhafeez.com/projects/coding/</loc>
-      <canonical>https://izzhafeez.com/projects/coding/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/coding.svg</image:loc>
       </image:image>
@@ -81,7 +73,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/auto-gitter</loc>
-        <canonical>https://izzhafeez.com/projects/coding/auto-gitter</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/github.svg</image:loc>
         </image:image>
@@ -91,7 +82,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/bus-routes-optimiser</loc>
-        <canonical>https://izzhafeez.com/projects/coding/bus-routes-optimiser</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/qi.png</image:loc>
         </image:image>
@@ -101,7 +91,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/chords-search-engine</loc>
-        <canonical>https://izzhafeez.com/projects/coding/chords-search-engine</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/music.svg</image:loc>
         </image:image>
@@ -111,7 +100,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/dynamic-resource-optimiser</loc>
-        <canonical>https://izzhafeez.com/projects/coding/dynamic-resource-optimiser</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/scdf.png</image:loc>
         </image:image>
@@ -121,7 +109,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/edumate</loc>
-        <canonical>https://izzhafeez.com/projects/coding/edumate</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/nus.png</image:loc>
         </image:image>
@@ -131,7 +118,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/geospatial-extraction</loc>
-        <canonical>https://izzhafeez.com/projects/coding/geospatial-extraction</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/geospatial.svg</image:loc>
         </image:image>
@@ -141,7 +127,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/geospatial-management</loc>
-        <canonical>https://izzhafeez.com/projects/coding/geospatial-management</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/geospatial.svg</image:loc>
         </image:image>
@@ -151,7 +136,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/halal-recommender</loc>
-        <canonical>https://izzhafeez.com/projects/coding/halal-recommender</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/halal.png</image:loc>
         </image:image>
@@ -161,7 +145,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/jap-vocab-trainer</loc>
-        <canonical>https://izzhafeez.com/projects/coding/jap-vocab-trainer</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/japanese.svg</image:loc>
         </image:image>
@@ -171,7 +154,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/malls-of-singapore</loc>
-        <canonical>https://izzhafeez.com/projects/coding/malls-of-singapore</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/malls.jpeg</image:loc>
         </image:image>
@@ -181,7 +163,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/meetup-maker</loc>
-        <canonical>https://izzhafeez.com/projects/coding/meetup-maker</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/geospatial.svg</image:loc>
         </image:image>
@@ -191,7 +172,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/mrt-paths-analysis</loc>
-        <canonical>https://izzhafeez.com/projects/coding/mrt-paths-analysis</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/mrt.svg</image:loc>
         </image:image>
@@ -201,7 +181,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/neothesia</loc>
-        <canonical>https://izzhafeez.com/projects/coding/neothesia</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/music.svg</image:loc>
         </image:image>
@@ -211,7 +190,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/note-together</loc>
-        <canonical>https://izzhafeez.com/projects/coding/note-together</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/notetogether.png</image:loc>
         </image:image>
@@ -221,7 +199,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/notes-telegram-bot</loc>
-        <canonical>https://izzhafeez.com/projects/coding/notes-telegram-bot</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/telegram.svg</image:loc>
         </image:image>
@@ -231,7 +208,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/programming-lines-counter</loc>
-        <canonical>https://izzhafeez.com/projects/coding/programming-lines-counter</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/c.svg</image:loc>
         </image:image>
@@ -241,7 +217,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/sentence-searcher</loc>
-        <canonical>https://izzhafeez.com/projects/coding/sentence-searcher</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/languages.svg</image:loc>
         </image:image>
@@ -251,7 +226,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/spiderman-web-scraper</loc>
-        <canonical>https://izzhafeez.com/projects/coding/spiderman-web-scraper</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/spiderman.png</image:loc>
         </image:image>
@@ -261,7 +235,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/svg-converter</loc>
-        <canonical>https://izzhafeez.com/projects/coding/svg-converter</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/geospatial.svg</image:loc>
         </image:image>
@@ -271,7 +244,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/sz-matrix</loc>
-        <canonical>https://izzhafeez.com/projects/coding/sz-matrix</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/cpp.svg</image:loc>
         </image:image>
@@ -281,7 +253,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/coding/website-react</loc>
-        <canonical>https://izzhafeez.com/projects/coding/website-react</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/coding/react.svg</image:loc>
         </image:image>
@@ -291,7 +262,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/projects/music/</loc>
-      <canonical>https://izzhafeez.com/projects/music/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/music.svg</image:loc>
       </image:image>
@@ -301,7 +271,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/alone-part-ii</loc>
-        <canonical>https://izzhafeez.com/projects/music/alone-part-ii</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/alan-walker.png</image:loc>
         </image:image>
@@ -311,7 +280,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/bad-liar</loc>
-        <canonical>https://izzhafeez.com/projects/music/bad-liar</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/imagine-dragons.png</image:loc>
         </image:image>
@@ -321,7 +289,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/down</loc>
-        <canonical>https://izzhafeez.com/projects/music/down</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/down.jpeg</image:loc>
         </image:image>
@@ -331,7 +298,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/eight</loc>
-        <canonical>https://izzhafeez.com/projects/music/eight</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/iu.jpeg</image:loc>
         </image:image>
@@ -341,7 +307,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/everything-i-wanted</loc>
-        <canonical>https://izzhafeez.com/projects/music/everything-i-wanted</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/billie-eilish.png</image:loc>
         </image:image>
@@ -351,7 +316,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/fanfare</loc>
-        <canonical>https://izzhafeez.com/projects/music/fanfare</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/twice.png</image:loc>
         </image:image>
@@ -361,7 +325,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/i-know-what-you-did-last-summer</loc>
-        <canonical>https://izzhafeez.com/projects/music/i-know-what-you-did-last-summer</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/shawn-mendes.jpeg</image:loc>
         </image:image>
@@ -371,7 +334,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/innocence</loc>
-        <canonical>https://izzhafeez.com/projects/music/innocence</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/avril-lavigne.jpeg</image:loc>
         </image:image>
@@ -381,7 +343,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/me</loc>
-        <canonical>https://izzhafeez.com/projects/music/me</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/taylor-swift.jpeg</image:loc>
         </image:image>
@@ -391,7 +352,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/meme-medley</loc>
-        <canonical>https://izzhafeez.com/projects/music/meme-medley</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/</image:loc>
         </image:image>
@@ -401,7 +361,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/ndp-piano-medley</loc>
-        <canonical>https://izzhafeez.com/projects/music/ndp-piano-medley</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/singapore.svg</image:loc>
         </image:image>
@@ -411,7 +370,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/senorita</loc>
-        <canonical>https://izzhafeez.com/projects/music/senorita</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/shawn-mendes.jpeg</image:loc>
         </image:image>
@@ -421,7 +379,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/shine-your-light</loc>
-        <canonical>https://izzhafeez.com/projects/music/shine-your-light</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/singapore.svg</image:loc>
         </image:image>
@@ -431,7 +388,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/so-am-i</loc>
-        <canonical>https://izzhafeez.com/projects/music/so-am-i</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/so-am-i.jpeg</image:loc>
         </image:image>
@@ -441,7 +397,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/speechless</loc>
-        <canonical>https://izzhafeez.com/projects/music/speechless</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/naomi-scott.jpeg</image:loc>
         </image:image>
@@ -451,7 +406,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/stronger-together</loc>
-        <canonical>https://izzhafeez.com/projects/music/stronger-together</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/singapore.svg</image:loc>
         </image:image>
@@ -461,7 +415,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/the-last-time</loc>
-        <canonical>https://izzhafeez.com/projects/music/the-last-time</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/the-script.png</image:loc>
         </image:image>
@@ -471,7 +424,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/the-road-ahead</loc>
-        <canonical>https://izzhafeez.com/projects/music/the-road-ahead</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/singapore.svg</image:loc>
         </image:image>
@@ -481,7 +433,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/unity</loc>
-        <canonical>https://izzhafeez.com/projects/music/unity</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/alan-walker.png</image:loc>
         </image:image>
@@ -491,7 +442,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/music/what-ive-done</loc>
-        <canonical>https://izzhafeez.com/projects/music/what-ive-done</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/music/linkin-park.png</image:loc>
         </image:image>
@@ -501,7 +451,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/projects/graphs/</loc>
-      <canonical>https://izzhafeez.com/projects/graphs/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/graphs.svg</image:loc>
       </image:image>
@@ -511,7 +460,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/ammonite</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/ammonite</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/ammonite.png</image:loc>
         </image:image>
@@ -521,7 +469,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/asteroid</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/asteroid</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/asteroid.png</image:loc>
         </image:image>
@@ -531,7 +478,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/bezier</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/bezier</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/bezier.png</image:loc>
         </image:image>
@@ -541,7 +487,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/bladed-flower</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/bladed-flower</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/bladed-flower.png</image:loc>
         </image:image>
@@ -551,7 +496,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/bladed-korea</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/bladed-korea</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/bladed-korea.png</image:loc>
         </image:image>
@@ -561,7 +505,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/block-tiling</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/block-tiling</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/block-tiling.png</image:loc>
         </image:image>
@@ -571,7 +514,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/bricks</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/bricks</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/bricks.png</image:loc>
         </image:image>
@@ -581,7 +523,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/circle-noise</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/circle-noise</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/circle-noise.png</image:loc>
         </image:image>
@@ -591,7 +532,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/coloured-dots</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/coloured-dots</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/coloured-dots.png</image:loc>
         </image:image>
@@ -601,7 +541,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/coloured-spiral</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/coloured-spiral</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/coloured-spiral.png</image:loc>
         </image:image>
@@ -611,7 +550,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/continuous-shader</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/continuous-shader</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/continuous-shader.png</image:loc>
         </image:image>
@@ -621,7 +559,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/criss-cross</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/criss-cross</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/criss-cross.png</image:loc>
         </image:image>
@@ -631,7 +568,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/dense-flora</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/dense-flora</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/dense-flora.png</image:loc>
         </image:image>
@@ -641,7 +577,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/desmosito</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/desmosito</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/desmosito.png</image:loc>
         </image:image>
@@ -651,7 +586,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/econs</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/econs</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/econs.png</image:loc>
         </image:image>
@@ -661,7 +595,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/electric-islands</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/electric-islands</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/electric-islands.png</image:loc>
         </image:image>
@@ -671,7 +604,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/false-flower</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/false-flower</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/false-flower.png</image:loc>
         </image:image>
@@ -681,7 +613,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/false-star</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/false-star</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/false-star.png</image:loc>
         </image:image>
@@ -691,7 +622,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/galaxy</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/galaxy</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/galaxy.png</image:loc>
         </image:image>
@@ -701,7 +631,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/grid</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/grid</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/grid.png</image:loc>
         </image:image>
@@ -711,7 +640,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/hexagon-flowers</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/hexagon-flowers</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/hexagon-flowers.png</image:loc>
         </image:image>
@@ -721,7 +649,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/infinite-bound</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/infinite-bound</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/infinite-bound.png</image:loc>
         </image:image>
@@ -731,7 +658,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/island-panels</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/island-panels</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/island-panels.png</image:loc>
         </image:image>
@@ -741,7 +667,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/jumping-flower</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/jumping-flower</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/jumping-flower.png</image:loc>
         </image:image>
@@ -751,7 +676,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/life-bubble</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/life-bubble</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/life-bubble.png</image:loc>
         </image:image>
@@ -761,7 +685,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/messy-spiral-logo</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/messy-spiral-logo</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/messy-spiral-logo.png</image:loc>
         </image:image>
@@ -771,7 +694,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/non-linear-rotation</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/non-linear-rotation</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/non-linear-rotation.png</image:loc>
         </image:image>
@@ -781,7 +703,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/number-display</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/number-display</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/number-display.png</image:loc>
         </image:image>
@@ -791,7 +712,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/octa-flower</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/octa-flower</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/octa-flower.png</image:loc>
         </image:image>
@@ -801,7 +721,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/octa-noise</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/octa-noise</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/octa-noise.png</image:loc>
         </image:image>
@@ -811,7 +730,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/pink-butterfly</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/pink-butterfly</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/pink-butterfly.png</image:loc>
         </image:image>
@@ -821,7 +739,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/plaid</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/plaid</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/plaid.png</image:loc>
         </image:image>
@@ -831,7 +748,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/plane-model</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/plane-model</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/plane-model.png</image:loc>
         </image:image>
@@ -841,7 +757,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/random-arc-rotations</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/random-arc-rotations</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/random-arc-rotations.png</image:loc>
         </image:image>
@@ -851,7 +766,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/random-walks-square</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/random-walks-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/random-walks-square.png</image:loc>
         </image:image>
@@ -861,7 +775,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/random-walks-3d</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/random-walks-3d</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/random-walks-3d.png</image:loc>
         </image:image>
@@ -871,7 +784,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/seahorse</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/seahorse</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/seahorse.png</image:loc>
         </image:image>
@@ -881,7 +793,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/self-intersection</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/self-intersection</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/self-intersection.png</image:loc>
         </image:image>
@@ -891,7 +802,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/shaded-circles</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/shaded-circles</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/shaded-circles.png</image:loc>
         </image:image>
@@ -901,7 +811,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/snowball</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/snowball</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/snowball.png</image:loc>
         </image:image>
@@ -911,7 +820,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/sphere-rotation</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/sphere-rotation</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/sphere-rotation.png</image:loc>
         </image:image>
@@ -921,7 +829,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/spiral-logo</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/spiral-logo</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/spiral-logo.png</image:loc>
         </image:image>
@@ -931,7 +838,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/spiral-music</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/spiral-music</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/spiral-music.png</image:loc>
         </image:image>
@@ -941,7 +847,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/spiral-vines</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/spiral-vines</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/spiral-vines.png</image:loc>
         </image:image>
@@ -951,7 +856,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/square-noise</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/square-noise</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/square-noise.png</image:loc>
         </image:image>
@@ -961,7 +865,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/star-destroyer</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/star-destroyer</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/star-destroyer.png</image:loc>
         </image:image>
@@ -971,7 +874,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/graphs/ti-competition</loc>
-        <canonical>https://izzhafeez.com/projects/graphs/ti-competition</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/graphs/ti-competition.jpg</image:loc>
         </image:image>
@@ -981,117 +883,105 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/projects/quizzes/</loc>
-      <canonical>https://izzhafeez.com/projects/quizzes/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/quizzes.svg</image:loc>
       </image:image>
       <priority>1.0</priority>
       <changefreq>monthly</changefreq>
-      <lastmod>2023-08-09</lastmod>
+      <lastmod>2023-08-14</lastmod>
     </url>
 <url>
         <loc>https://izzhafeez.com/projects/quizzes/bus-routes</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/bus-routes</canonical>
-        <image:image>
-          <image:loc>https://izzhafeez.com/img/projects/quizzes/openlayers.svg</image:loc>
-        </image:image>
-        <priority>0.9</priority>
-        <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
-      </url>
-<url>
-        <loc>https://izzhafeez.com/projects/quizzes/bus-stops-geoguessr</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/bus-stops-geoguessr</canonical>
-        <image:image>
-          <image:loc>https://izzhafeez.com/img/projects/quizzes/geoguessr.svg</image:loc>
-        </image:image>
-        <priority>0.4</priority>
-        <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
-      </url>
-<url>
-        <loc>https://izzhafeez.com/projects/quizzes/cities</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/cities</canonical>
-        <image:image>
-          <image:loc>https://izzhafeez.com/img/projects/quizzes/openlayers.svg</image:loc>
-        </image:image>
-        <priority>0.8</priority>
-        <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
-      </url>
-<url>
-        <loc>https://izzhafeez.com/projects/quizzes/malls-geoguessr</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/malls-geoguessr</canonical>
-        <image:image>
-          <image:loc>https://izzhafeez.com/img/projects/quizzes/geoguessr.svg</image:loc>
-        </image:image>
-        <priority>0.8</priority>
-        <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
-      </url>
-<url>
-        <loc>https://izzhafeez.com/projects/quizzes/mrt-geoguessr</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/mrt-geoguessr</canonical>
-        <image:image>
-          <image:loc>https://izzhafeez.com/img/projects/quizzes/geoguessr.svg</image:loc>
-        </image:image>
-        <priority>0.4</priority>
-        <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
-      </url>
-<url>
-        <loc>https://izzhafeez.com/projects/quizzes/mrt</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/mrt</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/quizzes/openlayers.svg</image:loc>
         </image:image>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
+        <lastmod>2023-08-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/quizzes/bus-stops-geoguessr</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/quizzes/geoguessr.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-08-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/quizzes/cities</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/quizzes/openlayers.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-08-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/quizzes/malls-geoguessr</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/quizzes/geoguessr.svg</image:loc>
+        </image:image>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-08-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/quizzes/mrt-geoguessr</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/quizzes/geoguessr.svg</image:loc>
+        </image:image>
+        <priority>0.4</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-08-14</lastmod>
+      </url>
+<url>
+        <loc>https://izzhafeez.com/projects/quizzes/mrt</loc>
+        <image:image>
+          <image:loc>https://izzhafeez.com/img/projects/quizzes/openlayers.svg</image:loc>
+        </image:image>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+        <lastmod>2023-08-14</lastmod>
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/quizzes/parking-lots-geoguessr</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/parking-lots-geoguessr</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/quizzes/geoguessr.svg</image:loc>
         </image:image>
         <priority>0.3</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
+        <lastmod>2023-08-14</lastmod>
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/quizzes/subzones-jetpunk</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/subzones-jetpunk</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/quizzes/jetpunk.png</image:loc>
         </image:image>
         <priority>0.6</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
+        <lastmod>2023-08-14</lastmod>
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/quizzes/schools-geoguessr</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/schools-geoguessr</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/quizzes/geoguessr.svg</image:loc>
         </image:image>
         <priority>0.9</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
+        <lastmod>2023-08-14</lastmod>
       </url>
 <url>
         <loc>https://izzhafeez.com/projects/quizzes/schools</loc>
-        <canonical>https://izzhafeez.com/projects/quizzes/schools</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/projects/quizzes/openlayers.svg</image:loc>
         </image:image>
-        <priority>1.0</priority>
+        <priority>0.9</priority>
         <changefreq>monthly</changefreq>
-        <lastmod>2023-08-09</lastmod>
+        <lastmod>2023-08-14</lastmod>
       </url>
 <url>
       <loc>https://izzhafeez.com/merits/experiences/</loc>
-      <canonical>https://izzhafeez.com/merits/experiences/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/experiences.svg</image:loc>
       </image:image>
@@ -1101,7 +991,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/merits/experiences/fullstack-intern</loc>
-        <canonical>https://izzhafeez.com/merits/experiences/fullstack-intern</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/experiences/qi.png</image:loc>
         </image:image>
@@ -1111,7 +1000,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/experiences/data-management</loc>
-        <canonical>https://izzhafeez.com/merits/experiences/data-management</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/experiences/mom.png</image:loc>
         </image:image>
@@ -1121,7 +1009,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/experiences/data-analytics</loc>
-        <canonical>https://izzhafeez.com/merits/experiences/data-analytics</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/experiences/scdf.png</image:loc>
         </image:image>
@@ -1131,7 +1018,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/experiences/robotics</loc>
-        <canonical>https://izzhafeez.com/merits/experiences/robotics</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/experiences/vrmc.png</image:loc>
         </image:image>
@@ -1141,7 +1027,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/merits/awards/</loc>
-      <canonical>https://izzhafeez.com/merits/awards/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/awards.svg</image:loc>
       </image:image>
@@ -1151,7 +1036,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/dean-list-y1s2</loc>
-        <canonical>https://izzhafeez.com/merits/awards/dean-list-y1s2</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
@@ -1161,7 +1045,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/dean-list-y2s2</loc>
-        <canonical>https://izzhafeez.com/merits/awards/dean-list-y2s2</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
@@ -1171,7 +1054,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/top-students-ethics</loc>
-        <canonical>https://izzhafeez.com/merits/awards/top-students-ethics</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
@@ -1181,7 +1063,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/ti-graphing</loc>
-        <canonical>https://izzhafeez.com/merits/awards/ti-graphing</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/ti.png</image:loc>
         </image:image>
@@ -1191,7 +1072,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/smo-2018</loc>
-        <canonical>https://izzhafeez.com/merits/awards/smo-2018</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
         </image:image>
@@ -1201,7 +1081,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/smo-2017</loc>
-        <canonical>https://izzhafeez.com/merits/awards/smo-2017</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
         </image:image>
@@ -1211,7 +1090,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/smo-2016</loc>
-        <canonical>https://izzhafeez.com/merits/awards/smo-2016</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
         </image:image>
@@ -1221,7 +1099,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/smo-2015</loc>
-        <canonical>https://izzhafeez.com/merits/awards/smo-2015</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
         </image:image>
@@ -1231,7 +1108,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/smo-2014</loc>
-        <canonical>https://izzhafeez.com/merits/awards/smo-2014</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
         </image:image>
@@ -1241,7 +1117,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/smo-2013</loc>
-        <canonical>https://izzhafeez.com/merits/awards/smo-2013</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/sms.png</image:loc>
         </image:image>
@@ -1251,7 +1126,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/euclid</loc>
-        <canonical>https://izzhafeez.com/merits/awards/euclid</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/euclid.png</image:loc>
         </image:image>
@@ -1261,7 +1135,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/admin-support</loc>
-        <canonical>https://izzhafeez.com/merits/awards/admin-support</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/scdf.png</image:loc>
         </image:image>
@@ -1271,7 +1144,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/amc</loc>
-        <canonical>https://izzhafeez.com/merits/awards/amc</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/australianmc.png</image:loc>
         </image:image>
@@ -1281,7 +1153,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/seamo</loc>
-        <canonical>https://izzhafeez.com/merits/awards/seamo</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/seamo.png</image:loc>
         </image:image>
@@ -1291,7 +1162,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/noi</loc>
-        <canonical>https://izzhafeez.com/merits/awards/noi</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
@@ -1301,7 +1171,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/simc</loc>
-        <canonical>https://izzhafeez.com/merits/awards/simc</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
@@ -1311,7 +1180,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/awards/spho</loc>
-        <canonical>https://izzhafeez.com/merits/awards/spho</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/awards/nus.png</image:loc>
         </image:image>
@@ -1321,7 +1189,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/merits/certificates/</loc>
-      <canonical>https://izzhafeez.com/merits/certificates/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/certificates.svg</image:loc>
       </image:image>
@@ -1331,7 +1198,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/jlpt-n3</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/jlpt-n3</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/jlpt.png</image:loc>
         </image:image>
@@ -1341,7 +1207,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/mongo-data-modeling</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/mongo-data-modeling</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/mongo.svg</image:loc>
         </image:image>
@@ -1351,7 +1216,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/hsk-6</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/hsk-6</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/confucius.png</image:loc>
         </image:image>
@@ -1361,7 +1225,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/java-udemy</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/java-udemy</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/udemy.svg</image:loc>
         </image:image>
@@ -1371,7 +1234,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/web-developer-udemy</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/web-developer-udemy</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/udemy.svg</image:loc>
         </image:image>
@@ -1381,7 +1243,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/hsk-5</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/hsk-5</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/confucius.png</image:loc>
         </image:image>
@@ -1391,7 +1252,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/deep-learning-tensorflow</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/deep-learning-tensorflow</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/ibm.svg</image:loc>
         </image:image>
@@ -1401,7 +1261,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/harvardx-data-science</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/harvardx-data-science</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/harvardx.png</image:loc>
         </image:image>
@@ -1411,7 +1270,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/certificates/python-for-everybody</loc>
-        <canonical>https://izzhafeez.com/merits/certificates/python-for-everybody</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/certificates/uom.png</image:loc>
         </image:image>
@@ -1421,7 +1279,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/merits/modules/</loc>
-      <canonical>https://izzhafeez.com/merits/modules/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/modules.svg</image:loc>
       </image:image>
@@ -1431,7 +1288,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs1101s</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs1101s</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1441,7 +1297,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs1231s</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs1231s</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1451,7 +1306,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/ma2001</loc>
-        <canonical>https://izzhafeez.com/merits/modules/ma2001</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1461,7 +1315,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/ma1521</loc>
-        <canonical>https://izzhafeez.com/merits/modules/ma1521</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1471,7 +1324,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/gess1019</loc>
-        <canonical>https://izzhafeez.com/merits/modules/gess1019</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1481,7 +1333,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2030s</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2030s</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1491,7 +1342,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2040s</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2040s</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1501,7 +1351,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/st2334</loc>
-        <canonical>https://izzhafeez.com/merits/modules/st2334</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1511,7 +1360,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/is1103</loc>
-        <canonical>https://izzhafeez.com/merits/modules/is1103</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1521,7 +1369,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/gea1000</loc>
-        <canonical>https://izzhafeez.com/merits/modules/gea1000</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1531,7 +1378,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/gec1030</loc>
-        <canonical>https://izzhafeez.com/merits/modules/gec1030</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1541,7 +1387,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs1010r</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs1010r</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1551,7 +1396,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cp2106</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cp2106</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1561,7 +1405,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2100</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2100</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1571,7 +1414,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/ma2101</loc>
-        <canonical>https://izzhafeez.com/merits/modules/ma2101</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1581,7 +1423,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/ma2108</loc>
-        <canonical>https://izzhafeez.com/merits/modules/ma2108</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1591,7 +1432,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs3230</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs3230</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1601,7 +1441,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2102</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2102</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1611,7 +1450,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2101</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2101</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1621,7 +1459,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2103t</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2103t</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1631,7 +1468,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2109s</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2109s</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1641,7 +1477,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/ma3252</loc>
-        <canonical>https://izzhafeez.com/merits/modules/ma3252</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1651,7 +1486,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/ma2104</loc>
-        <canonical>https://izzhafeez.com/merits/modules/ma2104</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1661,7 +1495,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2108</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2108</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1671,7 +1504,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cfg1002</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cfg1002</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1681,7 +1513,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cp3200</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cp3200</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1691,7 +1522,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs3216</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs3216</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1701,7 +1531,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs4243</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs4243</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1711,7 +1540,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs4225</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs4225</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1721,7 +1549,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/cs2106</loc>
-        <canonical>https://izzhafeez.com/merits/modules/cs2106</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1731,7 +1558,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/ma3238</loc>
-        <canonical>https://izzhafeez.com/merits/modules/ma3238</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1741,7 +1567,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/modules/gen2002x</loc>
-        <canonical>https://izzhafeez.com/merits/modules/gen2002x</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/modules/</image:loc>
         </image:image>
@@ -1751,7 +1576,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/merits/languages/</loc>
-      <canonical>https://izzhafeez.com/merits/languages/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/languages.svg</image:loc>
       </image:image>
@@ -1761,7 +1585,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/bash</loc>
-        <canonical>https://izzhafeez.com/merits/languages/bash</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/bash.svg</image:loc>
         </image:image>
@@ -1771,7 +1594,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/chinese</loc>
-        <canonical>https://izzhafeez.com/merits/languages/chinese</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/chinese.svg</image:loc>
         </image:image>
@@ -1781,7 +1603,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/c</loc>
-        <canonical>https://izzhafeez.com/merits/languages/c</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/c.svg</image:loc>
         </image:image>
@@ -1791,7 +1612,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/cpp</loc>
-        <canonical>https://izzhafeez.com/merits/languages/cpp</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/cpp.svg</image:loc>
         </image:image>
@@ -1801,7 +1621,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/c-sharp</loc>
-        <canonical>https://izzhafeez.com/merits/languages/c-sharp</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/c-sharp.svg</image:loc>
         </image:image>
@@ -1811,7 +1630,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/css</loc>
-        <canonical>https://izzhafeez.com/merits/languages/css</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/css.svg</image:loc>
         </image:image>
@@ -1821,7 +1639,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/english</loc>
-        <canonical>https://izzhafeez.com/merits/languages/english</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/english.svg</image:loc>
         </image:image>
@@ -1831,7 +1648,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/french</loc>
-        <canonical>https://izzhafeez.com/merits/languages/french</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/french.svg</image:loc>
         </image:image>
@@ -1841,7 +1657,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/go</loc>
-        <canonical>https://izzhafeez.com/merits/languages/go</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/go.svg</image:loc>
         </image:image>
@@ -1851,7 +1666,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/haskell</loc>
-        <canonical>https://izzhafeez.com/merits/languages/haskell</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/haskell.svg</image:loc>
         </image:image>
@@ -1861,7 +1675,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/html</loc>
-        <canonical>https://izzhafeez.com/merits/languages/html</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/html.svg</image:loc>
         </image:image>
@@ -1871,7 +1684,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/japanese</loc>
-        <canonical>https://izzhafeez.com/merits/languages/japanese</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/japanese.svg</image:loc>
         </image:image>
@@ -1881,7 +1693,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/java</loc>
-        <canonical>https://izzhafeez.com/merits/languages/java</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/java.svg</image:loc>
         </image:image>
@@ -1891,7 +1702,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/javascript</loc>
-        <canonical>https://izzhafeez.com/merits/languages/javascript</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/javascript.svg</image:loc>
         </image:image>
@@ -1901,7 +1711,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/korean</loc>
-        <canonical>https://izzhafeez.com/merits/languages/korean</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/korean.svg</image:loc>
         </image:image>
@@ -1911,7 +1720,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/latex</loc>
-        <canonical>https://izzhafeez.com/merits/languages/latex</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/latex.svg</image:loc>
         </image:image>
@@ -1921,7 +1729,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/malay</loc>
-        <canonical>https://izzhafeez.com/merits/languages/malay</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/malay.svg</image:loc>
         </image:image>
@@ -1931,7 +1738,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/matlab</loc>
-        <canonical>https://izzhafeez.com/merits/languages/matlab</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/matlab.svg</image:loc>
         </image:image>
@@ -1941,7 +1747,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/php</loc>
-        <canonical>https://izzhafeez.com/merits/languages/php</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/php.svg</image:loc>
         </image:image>
@@ -1951,7 +1756,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/python</loc>
-        <canonical>https://izzhafeez.com/merits/languages/python</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/python.svg</image:loc>
         </image:image>
@@ -1961,7 +1765,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/r</loc>
-        <canonical>https://izzhafeez.com/merits/languages/r</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/r.svg</image:loc>
         </image:image>
@@ -1971,7 +1774,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/ruby</loc>
-        <canonical>https://izzhafeez.com/merits/languages/ruby</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/ruby.svg</image:loc>
         </image:image>
@@ -1981,7 +1783,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/rust</loc>
-        <canonical>https://izzhafeez.com/merits/languages/rust</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/rust.svg</image:loc>
         </image:image>
@@ -1991,7 +1792,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/scala</loc>
-        <canonical>https://izzhafeez.com/merits/languages/scala</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/scala.svg</image:loc>
         </image:image>
@@ -2001,7 +1801,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/spanish</loc>
-        <canonical>https://izzhafeez.com/merits/languages/spanish</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/spanish.svg</image:loc>
         </image:image>
@@ -2011,7 +1810,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/sql</loc>
-        <canonical>https://izzhafeez.com/merits/languages/sql</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/sql.svg</image:loc>
         </image:image>
@@ -2021,7 +1819,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/swift</loc>
-        <canonical>https://izzhafeez.com/merits/languages/swift</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/swift.svg</image:loc>
         </image:image>
@@ -2031,7 +1828,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/typescript</loc>
-        <canonical>https://izzhafeez.com/merits/languages/typescript</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/typescript.svg</image:loc>
         </image:image>
@@ -2041,7 +1837,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/vba</loc>
-        <canonical>https://izzhafeez.com/merits/languages/vba</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/vba.svg</image:loc>
         </image:image>
@@ -2051,7 +1846,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/languages/zig</loc>
-        <canonical>https://izzhafeez.com/merits/languages/zig</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/languages/zig.svg</image:loc>
         </image:image>
@@ -2061,7 +1855,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/merits/technologies/</loc>
-      <canonical>https://izzhafeez.com/merits/technologies/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/technologies.svg</image:loc>
       </image:image>
@@ -2071,7 +1864,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/anaconda</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/anaconda</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/anaconda.svg</image:loc>
         </image:image>
@@ -2081,7 +1873,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/angular-js</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/angular-js</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/angular.svg</image:loc>
         </image:image>
@@ -2091,7 +1882,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/aws</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/aws</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/aws.svg</image:loc>
         </image:image>
@@ -2101,7 +1891,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/blender</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/blender</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/blender.svg</image:loc>
         </image:image>
@@ -2111,7 +1900,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/bootstrap</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/bootstrap</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/bootstrap.svg</image:loc>
         </image:image>
@@ -2121,7 +1909,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/django</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/django</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/django.svg</image:loc>
         </image:image>
@@ -2131,7 +1918,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/er-studio</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/er-studio</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/erstudio.png</image:loc>
         </image:image>
@@ -2141,7 +1927,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/excel</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/excel</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/excel.svg</image:loc>
         </image:image>
@@ -2151,7 +1936,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/express-js</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/express-js</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/express.svg</image:loc>
         </image:image>
@@ -2161,7 +1945,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/flask</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/flask</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/flask.svg</image:loc>
         </image:image>
@@ -2171,7 +1954,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/gcp</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/gcp</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/gcp.svg</image:loc>
         </image:image>
@@ -2181,7 +1963,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/github</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/github</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/github.svg</image:loc>
         </image:image>
@@ -2191,7 +1972,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/heroku</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/heroku</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/heroku.svg</image:loc>
         </image:image>
@@ -2201,7 +1981,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/intellij</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/intellij</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/intellij.svg</image:loc>
         </image:image>
@@ -2211,7 +1990,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/jest</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/jest</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/jest.svg</image:loc>
         </image:image>
@@ -2221,7 +1999,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/junit</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/junit</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/junit.svg</image:loc>
         </image:image>
@@ -2231,7 +2008,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/jupyter</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/jupyter</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/jupyter.svg</image:loc>
         </image:image>
@@ -2241,7 +2017,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/mongo-db</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/mongo-db</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/mongo.svg</image:loc>
         </image:image>
@@ -2251,7 +2026,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/musescore</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/musescore</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/musescore.svg</image:loc>
         </image:image>
@@ -2261,7 +2035,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/node-js</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/node-js</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/node.svg</image:loc>
         </image:image>
@@ -2271,7 +2044,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/pandas</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/pandas</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/pandas.svg</image:loc>
         </image:image>
@@ -2281,7 +2053,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/plant-uml</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/plant-uml</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/plantuml.svg</image:loc>
         </image:image>
@@ -2291,7 +2062,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/postgresql</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/postgresql</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/postgresql.svg</image:loc>
         </image:image>
@@ -2301,7 +2071,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/postman</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/postman</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/postman.svg</image:loc>
         </image:image>
@@ -2311,7 +2080,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/power-bi</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/power-bi</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/power-bi.svg</image:loc>
         </image:image>
@@ -2321,7 +2089,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/pytorch</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/pytorch</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/pytorch.svg</image:loc>
         </image:image>
@@ -2331,7 +2098,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/qgis</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/qgis</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/qgis.svg</image:loc>
         </image:image>
@@ -2341,7 +2107,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/ruby-on-rails</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/ruby-on-rails</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/rails.svg</image:loc>
         </image:image>
@@ -2351,7 +2116,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/react-js</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/react-js</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/react.svg</image:loc>
         </image:image>
@@ -2361,7 +2125,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/rocket-rs</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/rocket-rs</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/rocket.svg</image:loc>
         </image:image>
@@ -2371,7 +2134,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/selenium</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/selenium</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/selenium.svg</image:loc>
         </image:image>
@@ -2381,7 +2143,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/spring</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/spring</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/spring.svg</image:loc>
         </image:image>
@@ -2391,7 +2152,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/ssms</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/ssms</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/ssms.png</image:loc>
         </image:image>
@@ -2401,7 +2161,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/sublime</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/sublime</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/sublime.svg</image:loc>
         </image:image>
@@ -2411,7 +2170,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/svelte-js</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/svelte-js</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/svelte.svg</image:loc>
         </image:image>
@@ -2421,7 +2179,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/tableau</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/tableau</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/tableau.svg</image:loc>
         </image:image>
@@ -2431,7 +2188,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/telegram-bots</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/telegram-bots</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/telegram.svg</image:loc>
         </image:image>
@@ -2441,7 +2197,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/tensorflow</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/tensorflow</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/tensorflow.svg</image:loc>
         </image:image>
@@ -2451,7 +2206,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/unity</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/unity</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/unity.svg</image:loc>
         </image:image>
@@ -2461,7 +2215,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/vex</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/vex</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/vex.png</image:loc>
         </image:image>
@@ -2471,7 +2224,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/vscode</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/vscode</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/vscode.svg</image:loc>
         </image:image>
@@ -2481,7 +2233,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/technologies/vue-js</loc>
-        <canonical>https://izzhafeez.com/merits/technologies/vue-js</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/technologies/vue.svg</image:loc>
         </image:image>
@@ -2491,7 +2242,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/merits/skills/</loc>
-      <canonical>https://izzhafeez.com/merits/skills/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/skills.svg</image:loc>
       </image:image>
@@ -2501,7 +2251,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/api-development</loc>
-        <canonical>https://izzhafeez.com/merits/skills/api-development</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/api-development.svg</image:loc>
         </image:image>
@@ -2511,7 +2260,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/data-cleaning</loc>
-        <canonical>https://izzhafeez.com/merits/skills/data-cleaning</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/data-cleaning.svg</image:loc>
         </image:image>
@@ -2521,7 +2269,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/data-management</loc>
-        <canonical>https://izzhafeez.com/merits/skills/data-management</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/data-management.svg</image:loc>
         </image:image>
@@ -2531,7 +2278,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/data-mining</loc>
-        <canonical>https://izzhafeez.com/merits/skills/data-mining</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/data-mining.svg</image:loc>
         </image:image>
@@ -2541,7 +2287,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/data-modeling</loc>
-        <canonical>https://izzhafeez.com/merits/skills/data-modeling</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/data-modeling.svg</image:loc>
         </image:image>
@@ -2551,7 +2296,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/data-science</loc>
-        <canonical>https://izzhafeez.com/merits/skills/data-science</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/data-science.svg</image:loc>
         </image:image>
@@ -2561,7 +2305,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/data-structures</loc>
-        <canonical>https://izzhafeez.com/merits/skills/data-structures</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/data-structures.svg</image:loc>
         </image:image>
@@ -2571,7 +2314,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/data-visualisation</loc>
-        <canonical>https://izzhafeez.com/merits/skills/data-visualisation</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/data-visualisation.svg</image:loc>
         </image:image>
@@ -2581,7 +2323,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/documentation</loc>
-        <canonical>https://izzhafeez.com/merits/skills/documentation</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/documentation.svg</image:loc>
         </image:image>
@@ -2591,7 +2332,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/frontend-development</loc>
-        <canonical>https://izzhafeez.com/merits/skills/frontend-development</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/frontend.svg</image:loc>
         </image:image>
@@ -2601,7 +2341,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/game-development</loc>
-        <canonical>https://izzhafeez.com/merits/skills/game-development</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/game.svg</image:loc>
         </image:image>
@@ -2611,7 +2350,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/geospatial-analytics</loc>
-        <canonical>https://izzhafeez.com/merits/skills/geospatial-analytics</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/geospatial.svg</image:loc>
         </image:image>
@@ -2621,7 +2359,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/machine-learning</loc>
-        <canonical>https://izzhafeez.com/merits/skills/machine-learning</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/machine-learning.svg</image:loc>
         </image:image>
@@ -2631,7 +2368,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/operational-analysis</loc>
-        <canonical>https://izzhafeez.com/merits/skills/operational-analysis</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/operational-analysis.svg</image:loc>
         </image:image>
@@ -2641,7 +2377,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/problem-solving</loc>
-        <canonical>https://izzhafeez.com/merits/skills/problem-solving</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/problem-solving.svg</image:loc>
         </image:image>
@@ -2651,7 +2386,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/software-engineering</loc>
-        <canonical>https://izzhafeez.com/merits/skills/software-engineering</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/software-engineering.svg</image:loc>
         </image:image>
@@ -2661,7 +2395,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/software-testing</loc>
-        <canonical>https://izzhafeez.com/merits/skills/software-testing</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/testing.svg</image:loc>
         </image:image>
@@ -2671,7 +2404,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/web-development</loc>
-        <canonical>https://izzhafeez.com/merits/skills/web-development</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/web-development.svg</image:loc>
         </image:image>
@@ -2681,7 +2413,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/merits/skills/web-scraping</loc>
-        <canonical>https://izzhafeez.com/merits/skills/web-scraping</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/merits/skills/web-scraping.svg</image:loc>
         </image:image>
@@ -2691,7 +2422,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/blog/malls/</loc>
-      <canonical>https://izzhafeez.com/blog/malls/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/malls.svg</image:loc>
       </image:image>
@@ -2701,7 +2431,6 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/100-am</loc>
-        <canonical>https://izzhafeez.com/blog/malls/100-am</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/100-am.jpg</image:loc>
         </image:image>
@@ -2711,7 +2440,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/111-somerset</loc>
-        <canonical>https://izzhafeez.com/blog/malls/111-somerset</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2721,7 +2449,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/313-somerset</loc>
-        <canonical>https://izzhafeez.com/blog/malls/313-somerset</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/313-somerset.jpg</image:loc>
         </image:image>
@@ -2731,7 +2458,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/321-clementi</loc>
-        <canonical>https://izzhafeez.com/blog/malls/321-clementi</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/321-clementi.jpg</image:loc>
         </image:image>
@@ -2741,7 +2467,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/888-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/888-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2751,7 +2476,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/admiralty-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/admiralty-place</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2761,7 +2485,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/alexandra-central</loc>
-        <canonical>https://izzhafeez.com/blog/malls/alexandra-central</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/alexandra-central.jpg</image:loc>
         </image:image>
@@ -2771,7 +2494,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/alexandra-retail-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/alexandra-retail-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/alexandra-retail-centre.jpg</image:loc>
         </image:image>
@@ -2781,7 +2503,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/amk-hub</loc>
-        <canonical>https://izzhafeez.com/blog/malls/amk-hub</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/amk-hub.jpg</image:loc>
         </image:image>
@@ -2791,7 +2512,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/anchorpoint</loc>
-        <canonical>https://izzhafeez.com/blog/malls/anchorpoint</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/anchorpoint.jpg</image:loc>
         </image:image>
@@ -2801,7 +2521,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/aperia</loc>
-        <canonical>https://izzhafeez.com/blog/malls/aperia</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/aperia.jpg</image:loc>
         </image:image>
@@ -2811,7 +2530,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/balestier-hill-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/balestier-hill-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2821,7 +2539,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/beauty-world-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/beauty-world-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2831,7 +2548,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/beauty-world-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/beauty-world-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2841,7 +2557,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bedok-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bedok-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bedok-mall.jpg</image:loc>
         </image:image>
@@ -2851,7 +2566,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bedok-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bedok-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bedok-point.jpg</image:loc>
         </image:image>
@@ -2861,7 +2575,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bedok-town-center</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bedok-town-center</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2871,7 +2584,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/boon-lay-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/boon-lay-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2881,7 +2593,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/broadway-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/broadway-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2891,7 +2602,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/buangkok-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/buangkok-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/buangkok-square.jpg</image:loc>
         </image:image>
@@ -2901,7 +2611,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bugis-cube</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bugis-cube</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -2911,7 +2620,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bugis-junction</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bugis-junction</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bugis-junction.jpg</image:loc>
         </image:image>
@@ -2921,7 +2629,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bugis-street</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bugis-street</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bugis-street.jpg</image:loc>
         </image:image>
@@ -2931,7 +2638,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bugis-plus</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bugis-plus</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bugis-plus.jpg</image:loc>
         </image:image>
@@ -2941,7 +2647,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bukit-panjang-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bukit-panjang-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bukit-panjang-plaza.jpg</image:loc>
         </image:image>
@@ -2951,7 +2656,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bukit-timah-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bukit-timah-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bukit-timah-plaza.jpg</image:loc>
         </image:image>
@@ -2961,7 +2665,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/bukit-timah-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/bukit-timah-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/bukit-timah-shopping-centre.jpg</image:loc>
         </image:image>
@@ -2971,7 +2674,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/canberra-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/canberra-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/canberra-plaza.jpg</image:loc>
         </image:image>
@@ -2981,7 +2683,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/capitol-singapore</loc>
-        <canonical>https://izzhafeez.com/blog/malls/capitol-singapore</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/capitol-singapore.jpg</image:loc>
         </image:image>
@@ -2991,7 +2692,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/cathay-cineleisure-orchard</loc>
-        <canonical>https://izzhafeez.com/blog/malls/cathay-cineleisure-orchard</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/cathay-cineleisure-orchard.jpg</image:loc>
         </image:image>
@@ -3001,7 +2701,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/causeway-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/causeway-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/causeway-point.jpg</image:loc>
         </image:image>
@@ -3011,7 +2710,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/century-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/century-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/century-square.jpg</image:loc>
         </image:image>
@@ -3021,7 +2719,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/changi-airport-t3</loc>
-        <canonical>https://izzhafeez.com/blog/malls/changi-airport-t3</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3031,7 +2728,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/changi-airport-t4</loc>
-        <canonical>https://izzhafeez.com/blog/malls/changi-airport-t4</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3041,7 +2737,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/changi-city-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/changi-city-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/changi-city-point.jpg</image:loc>
         </image:image>
@@ -3051,7 +2746,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/chinatown-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/chinatown-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/chinatown-point.jpg</image:loc>
         </image:image>
@@ -3061,7 +2755,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/city-gate-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/city-gate-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3071,7 +2764,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/city-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/city-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3081,7 +2773,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/city-square-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/city-square-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/city-square-mall.jpg</image:loc>
         </image:image>
@@ -3091,7 +2782,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/citylink-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/citylink-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/citylink-mall.jpg</image:loc>
         </image:image>
@@ -3101,7 +2791,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/clarke-quay-central</loc>
-        <canonical>https://izzhafeez.com/blog/malls/clarke-quay-central</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/clarke-quay-central.jpg</image:loc>
         </image:image>
@@ -3111,7 +2800,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/clementi-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/clementi-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/clementi-mall.jpg</image:loc>
         </image:image>
@@ -3121,7 +2809,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/compass-one</loc>
-        <canonical>https://izzhafeez.com/blog/malls/compass-one</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/compass-one.jpg</image:loc>
         </image:image>
@@ -3131,7 +2818,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/djitsun-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/djitsun-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/djitsun-mall.jpg</image:loc>
         </image:image>
@@ -3141,7 +2827,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/djitsun-mall-bedok</loc>
-        <canonical>https://izzhafeez.com/blog/malls/djitsun-mall-bedok</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/djitsun-mall-bedok.jpg</image:loc>
         </image:image>
@@ -3151,7 +2836,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/downtown-east</loc>
-        <canonical>https://izzhafeez.com/blog/malls/downtown-east</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/downtown-east.jpg</image:loc>
         </image:image>
@@ -3161,7 +2845,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/duo</loc>
-        <canonical>https://izzhafeez.com/blog/malls/duo</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3171,7 +2854,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/east-village</loc>
-        <canonical>https://izzhafeez.com/blog/malls/east-village</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3181,7 +2863,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/eastpoint-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/eastpoint-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/eastpoint-mall.jpg</image:loc>
         </image:image>
@@ -3191,7 +2872,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/elias-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/elias-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/elias-mall.jpg</image:loc>
         </image:image>
@@ -3201,7 +2881,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/fairprice-hub</loc>
-        <canonical>https://izzhafeez.com/blog/malls/fairprice-hub</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/fairprice-hub.jpg</image:loc>
         </image:image>
@@ -3211,7 +2890,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/fajar-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/fajar-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3221,7 +2899,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/far-east-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/far-east-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/far-east-plaza.jpg</image:loc>
         </image:image>
@@ -3231,7 +2908,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/funan</loc>
-        <canonical>https://izzhafeez.com/blog/malls/funan</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/funan.jpg</image:loc>
         </image:image>
@@ -3241,7 +2917,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/galaxis</loc>
-        <canonical>https://izzhafeez.com/blog/malls/galaxis</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3251,7 +2926,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/gek-poh-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/gek-poh-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3261,7 +2935,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/golden-mile-complex</loc>
-        <canonical>https://izzhafeez.com/blog/malls/golden-mile-complex</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/golden-mile-complex.jpg</image:loc>
         </image:image>
@@ -3271,7 +2944,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/grandstand</loc>
-        <canonical>https://izzhafeez.com/blog/malls/grandstand</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/grandstand.jpg</image:loc>
         </image:image>
@@ -3281,7 +2953,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/grantral-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/grantral-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/grantral-mall.jpg</image:loc>
         </image:image>
@@ -3291,7 +2962,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/great-world-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/great-world-city</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/great-world-city.jpg</image:loc>
         </image:image>
@@ -3301,7 +2971,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/greenridge-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/greenridge-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3311,7 +2980,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/greenwich-v</loc>
-        <canonical>https://izzhafeez.com/blog/malls/greenwich-v</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/greenwich-v.jpg</image:loc>
         </image:image>
@@ -3321,7 +2989,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/harbourfront-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/harbourfront-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/harbourfront-centre.jpg</image:loc>
         </image:image>
@@ -3331,7 +2998,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/hdb-hub</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hdb-hub</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hdb-hub.jpg</image:loc>
         </image:image>
@@ -3341,7 +3007,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/heartland-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/heartland-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/heartland-mall.jpg</image:loc>
         </image:image>
@@ -3351,7 +3016,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/hillion-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hillion-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hillion-mall.jpg</image:loc>
         </image:image>
@@ -3361,7 +3025,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/hill-v2</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hill-v2</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hill-v2.jpg</image:loc>
         </image:image>
@@ -3371,7 +3034,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/holland-road-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/holland-road-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/holland-road-shopping-centre.jpg</image:loc>
         </image:image>
@@ -3381,7 +3043,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/hougang-1</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hougang-1</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hougang-1.jpg</image:loc>
         </image:image>
@@ -3391,7 +3052,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/hougang-green-shopping-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hougang-green-shopping-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hougang-green-shopping-mall.jpg</image:loc>
         </image:image>
@@ -3401,7 +3061,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/hougang-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/hougang-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/hougang-mall.jpg</image:loc>
         </image:image>
@@ -3411,7 +3070,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/i12-katong</loc>
-        <canonical>https://izzhafeez.com/blog/malls/i12-katong</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/i12-katong.jpg</image:loc>
         </image:image>
@@ -3421,7 +3079,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/icon-village</loc>
-        <canonical>https://izzhafeez.com/blog/malls/icon-village</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/icon-village.jpg</image:loc>
         </image:image>
@@ -3431,7 +3088,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/ikea-alexandra</loc>
-        <canonical>https://izzhafeez.com/blog/malls/ikea-alexandra</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/ikea-alexandra.jpg</image:loc>
         </image:image>
@@ -3441,7 +3097,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/ikea-tampines</loc>
-        <canonical>https://izzhafeez.com/blog/malls/ikea-tampines</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/ikea-tampines.jpg</image:loc>
         </image:image>
@@ -3451,7 +3106,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/i-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/i-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3461,7 +3115,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/imm</loc>
-        <canonical>https://izzhafeez.com/blog/malls/imm</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/imm.jpg</image:loc>
         </image:image>
@@ -3471,7 +3124,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/ion-orchard</loc>
-        <canonical>https://izzhafeez.com/blog/malls/ion-orchard</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/ion-orchard.jpg</image:loc>
         </image:image>
@@ -3481,7 +3133,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/j-cube</loc>
-        <canonical>https://izzhafeez.com/blog/malls/j-cube</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/j-cube.jpg</image:loc>
         </image:image>
@@ -3491,7 +3142,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/jem</loc>
-        <canonical>https://izzhafeez.com/blog/malls/jem</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/jem.jpg</image:loc>
         </image:image>
@@ -3501,7 +3151,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/jewel-changi-airport</loc>
-        <canonical>https://izzhafeez.com/blog/malls/jewel-changi-airport</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/jewel-changi-airport.jpg</image:loc>
         </image:image>
@@ -3511,7 +3160,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/jubilee-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/jubilee-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/jubilee-square.jpg</image:loc>
         </image:image>
@@ -3521,7 +3169,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/junction-10</loc>
-        <canonical>https://izzhafeez.com/blog/malls/junction-10</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/junction-10.jpg</image:loc>
         </image:image>
@@ -3531,7 +3178,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/junction-8</loc>
-        <canonical>https://izzhafeez.com/blog/malls/junction-8</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/junction-8.jpg</image:loc>
         </image:image>
@@ -3541,7 +3187,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/junction-9</loc>
-        <canonical>https://izzhafeez.com/blog/malls/junction-9</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/junction-9.jpg</image:loc>
         </image:image>
@@ -3551,7 +3196,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/jurong-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/jurong-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/jurong-point.jpg</image:loc>
         </image:image>
@@ -3561,7 +3205,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/kallang-wave-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/kallang-wave-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/kallang-wave-mall.jpg</image:loc>
         </image:image>
@@ -3571,7 +3214,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/katong-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/katong-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/katong-shopping-centre.jpg</image:loc>
         </image:image>
@@ -3581,7 +3223,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/katong-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/katong-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3591,7 +3232,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/katong-v</loc>
-        <canonical>https://izzhafeez.com/blog/malls/katong-v</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/katong-v.jpg</image:loc>
         </image:image>
@@ -3601,7 +3241,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/keat-hong-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/keat-hong-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3611,7 +3250,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/kinex</loc>
-        <canonical>https://izzhafeez.com/blog/malls/kinex</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/kinex.jpg</image:loc>
         </image:image>
@@ -3621,7 +3259,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/knightsbridge</loc>
-        <canonical>https://izzhafeez.com/blog/malls/knightsbridge</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3631,7 +3268,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/le-quest</loc>
-        <canonical>https://izzhafeez.com/blog/malls/le-quest</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/le-quest.jpg</image:loc>
         </image:image>
@@ -3641,7 +3277,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/leisure-park-kallang</loc>
-        <canonical>https://izzhafeez.com/blog/malls/leisure-park-kallang</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/leisure-park-kallang.jpg</image:loc>
         </image:image>
@@ -3651,7 +3286,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/limbang-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/limbang-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3661,7 +3295,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/lot-one</loc>
-        <canonical>https://izzhafeez.com/blog/malls/lot-one</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/lot-one.jpg</image:loc>
         </image:image>
@@ -3671,7 +3304,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/loyang-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/loyang-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/loyang-point.jpg</image:loc>
         </image:image>
@@ -3681,7 +3313,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/lucky-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/lucky-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/lucky-plaza.jpg</image:loc>
         </image:image>
@@ -3691,7 +3322,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/mandarin-gallery</loc>
-        <canonical>https://izzhafeez.com/blog/malls/mandarin-gallery</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/mandarin-gallery.jpg</image:loc>
         </image:image>
@@ -3701,7 +3331,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/mbfc-tower-3</loc>
-        <canonical>https://izzhafeez.com/blog/malls/mbfc-tower-3</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3711,7 +3340,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/marina-bay-link-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marina-bay-link-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3721,7 +3349,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/marina-bay-sands-shoppes</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marina-bay-sands-shoppes</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/marina-bay-sands-shoppes.jpg</image:loc>
         </image:image>
@@ -3731,7 +3358,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/marina-one</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marina-one</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/marina-one.jpg</image:loc>
         </image:image>
@@ -3741,7 +3367,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/marina-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marina-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/marina-square.jpg</image:loc>
         </image:image>
@@ -3751,7 +3376,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/marsiling-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/marsiling-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3761,7 +3385,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/midpoint-orchard</loc>
-        <canonical>https://izzhafeez.com/blog/malls/midpoint-orchard</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3771,7 +3394,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/millenia-walk</loc>
-        <canonical>https://izzhafeez.com/blog/malls/millenia-walk</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/millenia-walk.jpg</image:loc>
         </image:image>
@@ -3781,7 +3403,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/mustafa-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/mustafa-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/mustafa-centre.jpg</image:loc>
         </image:image>
@@ -3791,7 +3412,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/nex</loc>
-        <canonical>https://izzhafeez.com/blog/malls/nex</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/nex.jpg</image:loc>
         </image:image>
@@ -3801,7 +3421,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/ngee-ann-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/ngee-ann-city</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/ngee-ann-city.jpg</image:loc>
         </image:image>
@@ -3811,7 +3430,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/northpoint-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/northpoint-city</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/northpoint-city.jpg</image:loc>
         </image:image>
@@ -3821,7 +3439,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/northshore-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/northshore-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/northshore-plaza.jpg</image:loc>
         </image:image>
@@ -3831,7 +3448,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/velocity-novena-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/velocity-novena-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/velocity-novena-square.jpg</image:loc>
         </image:image>
@@ -3841,7 +3457,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/oasis-terraces</loc>
-        <canonical>https://izzhafeez.com/blog/malls/oasis-terraces</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/oasis-terraces.jpg</image:loc>
         </image:image>
@@ -3851,7 +3466,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/one-fullerton</loc>
-        <canonical>https://izzhafeez.com/blog/malls/one-fullerton</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/one-fullerton.jpg</image:loc>
         </image:image>
@@ -3861,7 +3475,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/one-holland-village</loc>
-        <canonical>https://izzhafeez.com/blog/malls/one-holland-village</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3871,7 +3484,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/one-raffles-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/one-raffles-place</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/one-raffles-place.jpg</image:loc>
         </image:image>
@@ -3881,7 +3493,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/one-north</loc>
-        <canonical>https://izzhafeez.com/blog/malls/one-north</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3891,7 +3502,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/orchard-central</loc>
-        <canonical>https://izzhafeez.com/blog/malls/orchard-central</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/orchard-central.jpg</image:loc>
         </image:image>
@@ -3901,7 +3511,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/orchard-gateway</loc>
-        <canonical>https://izzhafeez.com/blog/malls/orchard-gateway</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/orchard-gateway.jpg</image:loc>
         </image:image>
@@ -3911,7 +3520,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/orchard-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/orchard-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3921,7 +3529,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/orchard-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/orchard-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3931,7 +3538,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/our-tampines-hub</loc>
-        <canonical>https://izzhafeez.com/blog/malls/our-tampines-hub</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/our-tampines-hub.jpg</image:loc>
         </image:image>
@@ -3941,7 +3547,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/palais-renaissance</loc>
-        <canonical>https://izzhafeez.com/blog/malls/palais-renaissance</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3951,7 +3556,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/parkway-parade</loc>
-        <canonical>https://izzhafeez.com/blog/malls/parkway-parade</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/parkway-parade.jpg</image:loc>
         </image:image>
@@ -3961,7 +3565,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/paya-lebar-quarter</loc>
-        <canonical>https://izzhafeez.com/blog/malls/paya-lebar-quarter</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/paya-lebar-quarter.jpg</image:loc>
         </image:image>
@@ -3971,7 +3574,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/paya-lebar-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/paya-lebar-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/paya-lebar-square.jpg</image:loc>
         </image:image>
@@ -3981,7 +3583,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/peninsula-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/peninsula-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -3991,7 +3592,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/peoples-park-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/peoples-park-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4001,7 +3601,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/peoples-park-complex</loc>
-        <canonical>https://izzhafeez.com/blog/malls/peoples-park-complex</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4011,7 +3610,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/pioneer-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/pioneer-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/pioneer-mall.jpg</image:loc>
         </image:image>
@@ -4021,7 +3619,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/plaza-singapura</loc>
-        <canonical>https://izzhafeez.com/blog/malls/plaza-singapura</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/plaza-singapura.jpg</image:loc>
         </image:image>
@@ -4031,7 +3628,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/punggol-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/punggol-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/punggol-plaza.jpg</image:loc>
         </image:image>
@@ -4041,7 +3637,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/queensway-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/queensway-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/queensway-shopping-centre.jpg</image:loc>
         </image:image>
@@ -4051,7 +3646,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/raffles-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/raffles-city</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/raffles-city.jpg</image:loc>
         </image:image>
@@ -4061,7 +3655,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/rail-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/rail-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/rail-mall.jpg</image:loc>
         </image:image>
@@ -4071,7 +3664,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/resorts-world-sentosa</loc>
-        <canonical>https://izzhafeez.com/blog/malls/resorts-world-sentosa</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4081,7 +3673,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/rivervale-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/rivervale-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/rivervale-mall.jpg</image:loc>
         </image:image>
@@ -4091,7 +3682,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/rivervale-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/rivervale-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/rivervale-plaza.jpg</image:loc>
         </image:image>
@@ -4101,7 +3691,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/rochester-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/rochester-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4111,7 +3700,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/roxy-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/roxy-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/roxy-square.jpg</image:loc>
         </image:image>
@@ -4121,7 +3709,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/scotts-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/scotts-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/scotts-square.jpg</image:loc>
         </image:image>
@@ -4131,7 +3718,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/seletar-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/seletar-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/seletar-mall.jpg</image:loc>
         </image:image>
@@ -4141,7 +3727,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/sembawang-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sembawang-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/sembawang-shopping-centre.jpg</image:loc>
         </image:image>
@@ -4151,7 +3736,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/sengkang-grand-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sengkang-grand-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/sengkang-grand-mall.jpg</image:loc>
         </image:image>
@@ -4161,7 +3745,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/serangoon-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/serangoon-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4171,7 +3754,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/shaw-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/shaw-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/shaw-centre.jpg</image:loc>
         </image:image>
@@ -4181,7 +3763,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/shaw-house-and-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/shaw-house-and-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4191,7 +3772,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/sim-lim-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sim-lim-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/sim-lim-square.jpg</image:loc>
         </image:image>
@@ -4201,7 +3781,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/singapore-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/singapore-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4211,7 +3790,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/singpost-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/singpost-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/singpost-centre.jpg</image:loc>
         </image:image>
@@ -4221,7 +3799,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/south-beach</loc>
-        <canonical>https://izzhafeez.com/blog/malls/south-beach</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4231,7 +3808,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/square-2</loc>
-        <canonical>https://izzhafeez.com/blog/malls/square-2</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/square-2.jpg</image:loc>
         </image:image>
@@ -4241,7 +3817,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/sun-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sun-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/sun-plaza.jpg</image:loc>
         </image:image>
@@ -4251,7 +3826,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/sunshine-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sunshine-place</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4261,7 +3835,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/sunshine-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/sunshine-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4271,7 +3844,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/suntec-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/suntec-city</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/suntec-city.jpg</image:loc>
         </image:image>
@@ -4281,7 +3853,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/taman-jurong-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/taman-jurong-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4291,7 +3862,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/tampines-1</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tampines-1</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tampines-1.jpg</image:loc>
         </image:image>
@@ -4301,7 +3871,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/tampines-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tampines-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tampines-mall.jpg</image:loc>
         </image:image>
@@ -4311,7 +3880,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/tampines-mart</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tampines-mart</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4321,7 +3889,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/tanglin-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tanglin-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4331,7 +3898,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/tanjong-pagar-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tanjong-pagar-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tanjong-pagar-centre.jpg</image:loc>
         </image:image>
@@ -4341,7 +3907,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/teck-whye-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/teck-whye-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4351,7 +3916,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/tekka-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tekka-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4361,7 +3925,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/tekka-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tekka-place</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tekka-place.jpg</image:loc>
         </image:image>
@@ -4371,7 +3934,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/the-cathay</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-cathay</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-cathay.jpg</image:loc>
         </image:image>
@@ -4381,7 +3943,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/the-centrepoint</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-centrepoint</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-centrepoint.jpg</image:loc>
         </image:image>
@@ -4391,7 +3952,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/the-flow</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-flow</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4401,7 +3961,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/the-furniture-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-furniture-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4411,7 +3970,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/the-midtown</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-midtown</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-midtown.jpg</image:loc>
         </image:image>
@@ -4421,7 +3979,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/the-paragon</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-paragon</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-paragon.jpg</image:loc>
         </image:image>
@@ -4431,7 +3988,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/the-poiz</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-poiz</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-poiz.jpg</image:loc>
         </image:image>
@@ -4441,7 +3997,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/the-star-vista</loc>
-        <canonical>https://izzhafeez.com/blog/malls/the-star-vista</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/the-star-vista.jpg</image:loc>
         </image:image>
@@ -4451,7 +4006,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/thomson-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/thomson-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/thomson-plaza.jpg</image:loc>
         </image:image>
@@ -4461,7 +4015,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/tiong-bahru-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/tiong-bahru-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/tiong-bahru-plaza.jpg</image:loc>
         </image:image>
@@ -4471,7 +4024,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/united-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/united-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/united-square.jpg</image:loc>
         </image:image>
@@ -4481,7 +4033,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/upper-serangoon-shopping-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/upper-serangoon-shopping-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4491,7 +4042,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/vista-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/vista-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4501,7 +4051,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/viva-vista</loc>
-        <canonical>https://izzhafeez.com/blog/malls/viva-vista</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/viva-vista.jpg</image:loc>
         </image:image>
@@ -4511,7 +4060,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/vivo-city</loc>
-        <canonical>https://izzhafeez.com/blog/malls/vivo-city</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/vivo-city.jpg</image:loc>
         </image:image>
@@ -4521,7 +4069,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/waterway-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/waterway-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/waterway-point.jpg</image:loc>
         </image:image>
@@ -4531,7 +4078,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/west-coast-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/west-coast-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/west-coast-plaza.jpg</image:loc>
         </image:image>
@@ -4541,7 +4087,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/west-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/west-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/west-mall.jpg</image:loc>
         </image:image>
@@ -4551,7 +4096,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/westgate</loc>
-        <canonical>https://izzhafeez.com/blog/malls/westgate</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/westgate.jpg</image:loc>
         </image:image>
@@ -4561,7 +4105,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/wheelock-place</loc>
-        <canonical>https://izzhafeez.com/blog/malls/wheelock-place</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/wheelock-place.jpg</image:loc>
         </image:image>
@@ -4571,7 +4114,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/white-sands</loc>
-        <canonical>https://izzhafeez.com/blog/malls/white-sands</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/white-sands.jpg</image:loc>
         </image:image>
@@ -4581,7 +4123,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/wisma-atria</loc>
-        <canonical>https://izzhafeez.com/blog/malls/wisma-atria</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/wisma-atria.jpg</image:loc>
         </image:image>
@@ -4591,7 +4132,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/wisteria-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/wisteria-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/wisteria-mall.jpg</image:loc>
         </image:image>
@@ -4601,7 +4141,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/woodlands-civic-centre</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woodlands-civic-centre</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4611,7 +4150,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/woodlands-mart</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woodlands-mart</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4621,7 +4159,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/woodlands-north-plaza</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woodlands-north-plaza</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4631,7 +4168,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/woodleigh-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woodleigh-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/woodleigh-mall.jpg</image:loc>
         </image:image>
@@ -4641,7 +4177,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/woods-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/woods-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/woods-square.jpg</image:loc>
         </image:image>
@@ -4651,7 +4186,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/yew-tee-point</loc>
-        <canonical>https://izzhafeez.com/blog/malls/yew-tee-point</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/yew-tee-point.jpg</image:loc>
         </image:image>
@@ -4661,7 +4195,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/yew-tee-square</loc>
-        <canonical>https://izzhafeez.com/blog/malls/yew-tee-square</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/</image:loc>
         </image:image>
@@ -4671,7 +4204,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/malls/zhongshan-mall</loc>
-        <canonical>https://izzhafeez.com/blog/malls/zhongshan-mall</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/malls/zhongshan-mall.jpg</image:loc>
         </image:image>
@@ -4681,7 +4213,6 @@
       </url>
 <url>
       <loc>https://izzhafeez.com/blog/hikes/</loc>
-      <canonical>https://izzhafeez.com/blog/hikes/</canonical>
       <image:image>
         <image:loc>https://izzhafeez.com/img/types/hikes.svg</image:loc>
       </image:image>
@@ -4691,9 +4222,8 @@
     </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/balestier-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/balestier-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/zhongshan-mall.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4701,7 +4231,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/bedok-reservoir</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/bedok-reservoir</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
@@ -4711,9 +4240,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/bukit-panjang-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/bukit-panjang-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/bukit-panjang-plaza.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4721,7 +4249,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/coast-2-coast</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/coast-2-coast</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
@@ -4731,9 +4258,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/east-coast-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/east-coast-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/katong-shopping-centre.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4741,9 +4267,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/eastern-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/eastern-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/century-square.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4751,7 +4276,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/hortridge-park</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/hortridge-park</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
@@ -4761,9 +4285,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/journey-to-the-north-east</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/journey-to-the-north-east</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/journey-to-the-north-east.jpeg</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/journey-to-the-west.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4771,9 +4294,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/navi</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/navi</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/navi.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4781,9 +4303,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/north-coast-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/north-coast-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/sun-plaza.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4791,9 +4312,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/nus-smu</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/nus-smu</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/smu.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4801,9 +4321,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/orchard-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/orchard-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/313-somerset.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4811,7 +4330,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/plan-for-the-east-coast</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/plan-for-the-east-coast</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/plan-for-the-east-coast.jpeg</image:loc>
         </image:image>
@@ -4821,9 +4339,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/plan-for-the-west-coast</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/plan-for-the-west-coast</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/plan-for-the-east-coast.jpeg</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/nus.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4831,7 +4348,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/river-flows-in-you</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/river-flows-in-you</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/river-flows-in-you.jpeg</image:loc>
         </image:image>
@@ -4841,9 +4357,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/romance-of-three-kingdoms</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/romance-of-three-kingdoms</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/romance-of-three-kingdoms.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4851,9 +4366,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/romance-of-two-kingdoms</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/romance-of-two-kingdoms</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/romance-of-three-kingdoms.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4861,9 +4375,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/sengkang-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/sengkang-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/northshore-plaza.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4871,9 +4384,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/south-coast-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/south-coast-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/vivo-city.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4881,7 +4393,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/tale-of-two-rivers</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/tale-of-two-rivers</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/tale-of-two-rivers.jpg</image:loc>
         </image:image>
@@ -4891,7 +4402,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/tel-3</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/tel-3</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
@@ -4901,7 +4411,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/the-circle-of-life</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/the-circle-of-life</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/the-circle-of-life.jpeg</image:loc>
         </image:image>
@@ -4911,7 +4420,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/the-forgotten-airport</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/the-forgotten-airport</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
@@ -4921,7 +4429,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/the-way-of-water</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/the-way-of-water</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/the-way-of-water.jpeg</image:loc>
         </image:image>
@@ -4931,9 +4438,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/thomson-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/thomson-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/thomson-plaza.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4941,7 +4447,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/thomson-whampoa</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/thomson-whampoa</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
         </image:image>
@@ -4951,9 +4456,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/tiong-bahru-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/tiong-bahru-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/great-world-city.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4961,9 +4465,8 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/west-coast-malls</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/west-coast-malls</canonical>
         <image:image>
-          <image:loc>https://izzhafeez.com/img/blog/hikes/</image:loc>
+          <image:loc>https://izzhafeez.com/img/blog/hikes/321-clementi.jpg</image:loc>
         </image:image>
         <priority>0.1</priority>
         <changefreq>monthly</changefreq>
@@ -4971,7 +4474,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/what-defu</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/what-defu</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/what-defu.jpg</image:loc>
         </image:image>
@@ -4981,7 +4483,6 @@
       </url>
 <url>
         <loc>https://izzhafeez.com/blog/hikes/wheres-my-shelter</loc>
-        <canonical>https://izzhafeez.com/blog/hikes/wheres-my-shelter</canonical>
         <image:image>
           <image:loc>https://izzhafeez.com/img/blog/hikes/wheres-my-shelter.jpeg</image:loc>
         </image:image>
