@@ -36,7 +36,10 @@ const InputBox = ({ options, answer, handleScore, isFreeText }) => {
     }
     
     if (e.key === 'Enter') {
-      const guess = e.target.value
+      const guess = e.target.value;
+      if (!guess) {
+        return;
+      }
       setGuess(guess);
       handleScore(guess === answer);
       e.target.value = '';
