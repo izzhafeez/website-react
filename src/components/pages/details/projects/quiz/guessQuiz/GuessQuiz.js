@@ -2,6 +2,7 @@ import MapContainer from "components/map/MapContainer";
 import { useEffect, useState } from "react";
 import settings from "./settings";
 import InputBox from "./input/InputBox";
+import { getRandom } from "./random/randomisers";
 
 const GuessQuiz = ({ constructor, data }) => {
   const [setting, setSetting] = useState(settings.easy);
@@ -51,16 +52,22 @@ const GuessQuiz = ({ constructor, data }) => {
   const randomise = ({ force, allOptions_=allOptions, windowSize_=windowSize, optionsSize_=optionsSize }) => {
     if (!hasAnswered && !force) return;
     setPrevAnswer(answer);
-    let newAnswer = answer;
-    let newOptions;
-    while (newAnswer === answer) {
-      const window = allOptions_
-        .slice(0, windowSize_)
-        .sort((a, b) => 0.5 - Math.random());
-      newOptions = window.slice(0, optionsSize_);
-      newAnswer = newOptions[0];
+
+    let newOptionsSet = new Set();
+    const correctedWindowSize = Math.min(windowSize_, allOptions.length);
+    while (newOptionsSet.size < optionsSize_) {
+      const randomIndex = Math.floor(getRandom() * correctedWindowSize);
+      const newOption = allOptions_[randomIndex];
+      if (newOption !== answer) {
+        newOptionsSet.add(newOption);
+      }
     }
-    setOptions(newOptions.sort((a, b) => 0.5 - Math.random()));
+
+    const newOptionsArr = [...newOptionsSet];
+    setOptions(newOptionsArr);
+
+    const randomIndex = Math.floor(getRandom() * optionsSize_);
+    const newAnswer = newOptionsArr[randomIndex];
     setAnswer(newAnswer);
     setFeatures(parsedData[newAnswer].getFeatures());
     setHasAnswered(false);
