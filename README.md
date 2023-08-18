@@ -4,4 +4,4 @@ This is the current version of my website, using the React library as my fronten
 
 It contains many other projects within it, accessed through different subpages in the site. Some preprocessing of the JS Scripts and data were done in Rust, Python and Ruby.
 
-[Link to website post about the project](https://www.izzhafeez.com/works/projects/website-react)
+[Link to website post about the project](https://www.izzhafeez.com/projects/coding/website-react)
