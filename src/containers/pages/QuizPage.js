@@ -1,20 +1,21 @@
 import GeoQuiz from "components/pages/details/projects/quiz/GeoQuiz";
-import citiesData from 'data/projects/json/quizzes/cities.json';
+// import citiesData from 'data/projects/json/quizzes/cities.json';
 import mallsData from "data/blog/json/malls.json";
 import busRoutesData from "data/projects/json/quizzes/bus-routes.json";
 import mrtData from "data/projects/json/quizzes/mrt.json";
 import mrtChineseData from "data/projects/json/quizzes/mrt-chinese.json";
+import nusModsData from "data/projects/json/quizzes/nus-mods.json";
 import schoolsData from 'data/projects/json/quizzes/schools.json';
 import { useState } from "react";
 import { City, Mrt, School } from "components/map/locations";
 import Mall from "components/map/locations/Mall";
 import BusRoute from "components/map/routes/BusRoute";
-import GuessQuiz from "components/pages/details/projects/quiz/guessQuiz/GuessQuiz";
+import MapQuiz from "components/pages/details/projects/quiz/guessQuiz/MapQuiz";
+import ModsQuiz from "components/pages/details/projects/quiz/guessQuiz/ModsQuiz";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
   const [country, setCountry] = useState('Japan');
-  let quiz;
   switch (type) {
     case 'malls':
       constructor = p => new Mall(p);
@@ -36,18 +37,34 @@ const QuizPage = ({ type, item }) => {
       constructor = p => new BusRoute(p);
       data = busRoutesData;
       break;
-    case 'cities':
-      constructor = p => new City(p);
-      data = !!citiesData[country] ? citiesData[country] : {};
+    case 'nus-mods':
+      data = nusModsData;
       break;
+    // case 'cities':
+    //   constructor = p => new City(p);
+    //   data = !!citiesData[country] ? citiesData[country] : {};
+    //   break;
     default:
       break;
+  }
+
+  let quiz;
+  switch(type) {
+    case 'bus-routes':
+      quiz = <MapQuiz constructor={constructor} data={data} withMap={true}/>;
+      break;
+    case 'nus-mods':
+      quiz = <ModsQuiz data={data}/>;
+      break;
+    default:
+      quiz = <GeoQuiz constructor={constructor} data={data}/>;
   }
 
   const changeCountry = event => {
     setCountry(event.target.value);
   }
 
+  const citiesData = [];
   const options = Object.entries(citiesData).map(([k, v]) => {
     return k;
   }).sort();
@@ -73,9 +90,7 @@ const QuizPage = ({ type, item }) => {
       </div>
       </div>
     }
-    {type === 'bus-routes'
-      ? <GuessQuiz constructor={constructor} data={data}/>
-      : <GeoQuiz constructor={constructor} data={data}/>}
+    {quiz}
   </article>;
 };
 
