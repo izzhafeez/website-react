@@ -11,23 +11,23 @@
       }
     ]
   },
+  "nus-mods":{
+    "title": "NUS Mods (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 10,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "TBW"
+      }
+    ]
+  },
   "bus-stops-geoguessr": {
     "title": "Bus Stops of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",
     "importance": 4,
     "link": "https://www.geoguessr.com/maps/62c1a3c88b4554410dd849fa/play"
-  },
-  "cities": {
-    "title": "Cities of the World (Live Quiz)",
-    "isLive": true,
-    "imgPath": "openlayers.svg",
-    "importance": 8,
-    "description": [
-      {
-        "title": "instructions",
-        "text": "Here are some of the cities in the world. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to a shade of green. Obtained from <<https://www.kaggle.com/datasets/juanmah/world-cities>>this dataset</>."
-      }
-    ]
   },
   "malls-geoguessr": {
     "title": "Malls of Singapore (Geoguessr)",
