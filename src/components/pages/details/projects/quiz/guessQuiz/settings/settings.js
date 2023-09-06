@@ -43,14 +43,14 @@ const difficulties = {
     label: 'asian',
     sort: randomSort,
     randomiser: rotateRandomise,
-    window: 1000,
+    window: 10000,
     options: 8
   },
   wanggang: {
     label: 'wanggang',
     sort: randomSort,
     randomiser: rotateRandomise,
-    window: 1000,
+    window: 10000,
     options: 1,
     isFreeText: true
   }
