@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const InputBox = ({ options, answer, handleScore, isFreeText }) => {
+const InputBox = ({ options, answer, handleScore, isFreeText, data }) => {
   const [guess, setGuess] = useState('');
 
   const handleClick = e => {
@@ -41,7 +41,11 @@ const InputBox = ({ options, answer, handleScore, isFreeText }) => {
         return;
       }
       setGuess(guess);
-      handleScore(guess === answer);
+      if (data) {
+        handleScore(data[guess] == data[answer]);
+      } else {
+        handleScore(guess === answer);
+      }
       e.target.value = '';
     }
   }

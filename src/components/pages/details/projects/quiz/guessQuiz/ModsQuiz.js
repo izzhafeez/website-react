@@ -6,7 +6,7 @@ import { getRandom } from "./random/randomisers";
 const ModsQuiz = ({ data }) => {
   const [setting, setSetting] = useState(modsQuizSettings.easy);
 
-  const sortOptions = () => setting.randomiser({ arr: Object.keys(data), sort: setting.sort });
+  const sortOptions = (regex) => setting.randomiser({ arr: Object.keys(data).filter(d => regex === undefined || regex.test(d)), sort: setting.sort });
   const [allOptions, setAllOptions] = useState(sortOptions());
 
   const [defaultWindowSize, setDefaultWindowSize] = useState(setting.window);
@@ -99,6 +99,14 @@ const ModsQuiz = ({ data }) => {
     setSetting(modsQuizSettings[e.target.value]);
   }
 
+  const handleRegex = e => {
+    if (e.key === 'Enter') {
+      setAllOptions(sortOptions(new RegExp(e.target.value)));
+      e.target.placeholder = e.target.value;
+      e.target.value = '';
+    }
+  }
+
   return <section className='text-start'>
     <b>Difficulty:</b> <select onChange={handleSetting}>
       {Object.keys(modsQuizSettings).map(d =>
@@ -108,13 +116,14 @@ const ModsQuiz = ({ data }) => {
           value={d}
         />
       )}
-    </select>
+    </select><br/>
+    <b>Regex:</b> <input onKeyDown={handleRegex}/>
     <div className='my-2'>
       <b>Current Streak:</b> {score}
       <b className='ms-4'>Best {setting.label.toUpperCase()} Streak:</b> {bestScore[setting.label]}<br/>
     </div>
     <b>Module Name:</b> {prompt}
-    {InputBox({ options: options, answer: answer, handleScore: handleScore, isFreeText: setting.isFreeText })}
+    {InputBox({ options: options, answer: answer, handleScore: handleScore, isFreeText: setting.isFreeText, data: data })}
     {setting.isFreeText && !!prevAnswer &&
       <div className='mb-2'>{(!!score ? <span className='text-success'>Correct!</span> : <span className='text-danger'>Wrong!</span>)} Answer was: {prevAnswer}</div>
     }
