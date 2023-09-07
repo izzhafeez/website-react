@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import settings from "./settings";
+import { modsQuizSettings } from "./settings";
 import InputBox from "./input/InputBox";
 import { getRandom } from "./random/randomisers";
 
 const ModsQuiz = ({ data }) => {
-  const [setting, setSetting] = useState(settings.easy);
+  const [setting, setSetting] = useState(modsQuizSettings.easy);
 
   const sortOptions = () => setting.randomiser({ arr: Object.keys(data), sort: setting.sort });
   const [allOptions, setAllOptions] = useState(sortOptions());
@@ -21,7 +21,7 @@ const ModsQuiz = ({ data }) => {
   const [prevAnswer, setPrevAnswer] = useState('');
   const [hasAnswered, setHasAnswered] = useState(false);
   const [score, setScore] = useState(0);
-  const [bestScore, setBestScore] = useState(Object.keys(settings).reduce((map, obj) => {
+  const [bestScore, setBestScore] = useState(Object.keys(modsQuizSettings).reduce((map, obj) => {
     map[obj] = 0;
     return map;
   }, {}));
@@ -96,12 +96,12 @@ const ModsQuiz = ({ data }) => {
   }
 
   const handleSetting = e => {
-    setSetting(settings[e.target.value]);
+    setSetting(modsQuizSettings[e.target.value]);
   }
 
   return <section className='text-start'>
     <b>Difficulty:</b> <select onChange={handleSetting}>
-      {Object.keys(settings).map(d =>
+      {Object.keys(modsQuizSettings).map(d =>
         <option
           key={d}
           label={d.toUpperCase()}

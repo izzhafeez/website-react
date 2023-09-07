@@ -1,6 +1,6 @@
 import MapContainer from "components/map/MapContainer";
 import { useEffect, useState } from "react";
-import settings from "./settings";
+import { settings } from "./settings";
 import InputBox from "./input/InputBox";
 import { getRandom } from "./random/randomisers";
 

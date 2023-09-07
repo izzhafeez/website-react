@@ -12,3 +12,11 @@ export const randomSort = (a, b) => 0.5 - getRandom(); // completely random
 export const numberSort = (a, b) => (
   a.match(numberRegex)[0] - b.match(numberRegex)[0]
 ); // sorts buses by their numeric value
+
+export const normalSort = (a, b) => (
+  a.localeCompare(b)
+);
+
+export const noSort = (a, b) => (
+  false
+);
