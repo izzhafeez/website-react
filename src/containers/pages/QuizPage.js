@@ -10,8 +10,8 @@ import { useState } from "react";
 import { City, Mrt, School } from "components/map/locations";
 import Mall from "components/map/locations/Mall";
 import BusRoute from "components/map/routes/BusRoute";
-import MapQuiz from "components/pages/details/projects/quiz/guessQuiz/MapQuiz";
-import ModsQuiz from "components/pages/details/projects/quiz/guessQuiz/ModsQuiz";
+import GuessQuiz from "components/pages/details/projects/quiz/guessQuiz/GuessQuiz";
+import MapContainer from "components/map/MapContainer";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
@@ -51,10 +51,21 @@ const QuizPage = ({ type, item }) => {
   let quiz;
   switch(type) {
     case 'bus-routes':
-      quiz = <MapQuiz constructor={constructor} data={data} withMap={true}/>;
+      // quiz = <MapQuiz constructor={constructor} data={data} withMap={true}/>;
+      quiz = <GuessQuiz
+        data={data}
+        parser={(k, v) => constructor({ serviceNo: k, points: v })}
+        container={MapContainer}
+        isMap={true}
+      />
       break;
     case 'nus-mods':
-      quiz = <ModsQuiz data={data}/>;
+      // quiz = <ModsQuiz data={data}/>;
+      quiz = <GuessQuiz
+        data={data}
+        parser={(k, v) => v}
+        container={({prompt}) => <><b>Module Name:</b> {prompt}</>}
+      />
       break;
     default:
       quiz = <GeoQuiz constructor={constructor} data={data}/>;
