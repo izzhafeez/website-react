@@ -1,13 +1,18 @@
 import { useEffect, useState } from "react";
-import { modsQuizSettings } from "./settings";
+import { settings } from "./settings";
 import InputBox from "./input/InputBox";
 import { getRandom } from "./random/randomisers";
 
-const ModsQuiz = ({ data }) => {
-  const [setting, setSetting] = useState(modsQuizSettings.easy);
+const GuessQuiz = ({ data, parser, container, isMap=false }) => {
+  const [setting, setSetting] = useState(settings.easy);
 
   const sortOptions = (regex) => setting.randomiser({ arr: Object.keys(data).filter(d => regex === undefined || regex.test(d)), sort: setting.sort });
   const [allOptions, setAllOptions] = useState(sortOptions());
+
+  const parsedData = Object.entries(data).reduce((map, [k, v]) => {
+    map[k] = parser(k, v);
+    return map;
+  }, {});
 
   const [defaultWindowSize, setDefaultWindowSize] = useState(setting.window);
   const [windowSize, setWindowSize] = useState(defaultWindowSize);
@@ -21,7 +26,7 @@ const ModsQuiz = ({ data }) => {
   const [prevAnswer, setPrevAnswer] = useState('');
   const [hasAnswered, setHasAnswered] = useState(false);
   const [score, setScore] = useState(0);
-  const [bestScore, setBestScore] = useState(Object.keys(modsQuizSettings).reduce((map, obj) => {
+  const [bestScore, setBestScore] = useState(Object.keys(settings).reduce((map, obj) => {
     map[obj] = 0;
     return map;
   }, {}));
@@ -48,15 +53,12 @@ const ModsQuiz = ({ data }) => {
     setPrevAnswer(answer);
 
     let newOptionsSet = new Set();
-    let newTitlesSet = new Set();
     const correctedWindowSize = Math.min(windowSize_, allOptions.length);
     while (newOptionsSet.size < optionsSize_) {
       const randomIndex = Math.floor(getRandom() * correctedWindowSize);
       const newOption = allOptions_[randomIndex];
-      const newTitle = data[newOption];
-      if (newOption !== answer && !newTitlesSet.has(newTitle)) {
+      if (newOption !== answer) {
         newOptionsSet.add(newOption);
-        newTitlesSet.add(newTitle);
       }
     }
 
@@ -96,7 +98,7 @@ const ModsQuiz = ({ data }) => {
   }
 
   const handleSetting = e => {
-    setSetting(modsQuizSettings[e.target.value]);
+    setSetting(settings[e.target.value]);
   }
 
   const handleRegex = e => {
@@ -107,9 +109,16 @@ const ModsQuiz = ({ data }) => {
     }
   }
 
+  const filledContainer = container({
+    category: 'projects',
+    features: isMap ? parsedData[answer].getFeatures() : undefined,
+    withOverlay: false,
+    prompt: prompt
+  });
+
   return <section className='text-start'>
     <b>Difficulty:</b> <select onChange={handleSetting}>
-      {Object.keys(modsQuizSettings).map(d =>
+      {Object.keys(settings).map(d =>
         <option
           key={d}
           label={d.toUpperCase()}
@@ -122,8 +131,8 @@ const ModsQuiz = ({ data }) => {
       <b>Current Streak:</b> {score}
       <b className='ms-4'>Best {setting.label.toUpperCase()} Streak:</b> {bestScore[setting.label]}<br/>
     </div>
-    <b>Module Name:</b> {prompt}
-    {InputBox({ options: options, answer: answer, handleScore: handleScore, isFreeText: setting.isFreeText, data: data })}
+    {!isMap && filledContainer}
+    {InputBox({ options: options, answer: answer, handleScore: handleScore, isFreeText: setting.isFreeText })}
     {setting.isFreeText && !!prevAnswer &&
       <div className='mb-2'>{(!!score ? <span className='text-success'>Correct!</span> : <span className='text-danger'>Wrong!</span>)} Answer was: {prevAnswer}</div>
     }
@@ -131,7 +140,8 @@ const ModsQuiz = ({ data }) => {
       ? <button onClick={randomise} className='btn btn-warning mb-2'>Next</button>
       : <button className='btn btn-outline-warning mb-2' disabled>Next</button>)
     }
+    {isMap && filledContainer}
   </section>;
 };
 
-export default ModsQuiz;
+export default GuessQuiz;
