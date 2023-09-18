@@ -132,7 +132,7 @@ const GuessQuiz = ({ data, parser, container, isMap=false }) => {
       <b className='ms-4'>Best {setting.label.toUpperCase()} Streak:</b> {bestScore[setting.label]}<br/>
     </div>
     {!isMap && filledContainer}
-    {InputBox({ options: options, answer: answer, handleScore: handleScore, isFreeText: setting.isFreeText })}
+    {InputBox({ options, answer, handleScore, isFreeText: setting.isFreeText, data: parsedData })}
     {setting.isFreeText && !!prevAnswer &&
       <div className='mb-2'>{(!!score ? <span className='text-success'>Correct!</span> : <span className='text-danger'>Wrong!</span>)} Answer was: {prevAnswer}</div>
     }
