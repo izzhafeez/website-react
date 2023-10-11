@@ -54,7 +54,7 @@ class HikePost extends BlogPost {
       this.hike.getFeature(),
       this.getStartFeature(),
       this.getEndFeature(),
-      ...this.stopFeatures,
+      ...(withoutRelated ? [] : this.stopFeatures),
       ...(withoutRelated ? [] : this.getMallFeatures())
     ];
   }
