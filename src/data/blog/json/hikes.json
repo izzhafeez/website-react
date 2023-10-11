@@ -1,11 +1,20 @@
 {
+  "airplanes": {
+    "title": "Airplanes",
+    "date": "TBC",
+    "start": "Changi Airport T4",
+    "end": "Paya Lebar Air Base",
+    "color": "FUTURE",
+    "stops": [],
+    "related": []
+  },
   "balestier-malls": {
     "title": "Balestier Malls",
     "imgPath": "zhongshan-mall.jpg",
     "date": "04/08/22",
     "start": "Lavender MRT",
     "end": "Bishan MRT",
-    "color": "RED",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -58,7 +67,7 @@
     "date": "03/01/23",
     "start": "Pasir Ris MRT",
     "end": "Suntec City",
-    "color": "BLUE_LIGHT",
+    "color": "HYBRID",
     "description": [
       {
         "title": "experience",
@@ -167,13 +176,22 @@
       }
     ]
   },
+  "bukit-brown": {
+    "title": "Bukit Brown",
+    "date": "TBC",
+    "start": "Marymount MRT",
+    "end": "Labrador Park MRT",
+    "color": "FUTURE",
+    "stops": [],
+    "related": []
+  },
   "bukit-panjang-malls": {
     "title": "Bukit Panjang Malls",
     "imgPath": "bukit-panjang-plaza.jpg",
     "date": "23/09/21",
     "start": "Choa Chu Kang MRT",
     "end": "Hillview MRT",
-    "color": "GREY",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -227,7 +245,7 @@
     "date": "01/08/22",
     "start": "Bukit Batok MRT",
     "end": "Samudera LRT",
-    "color": "BLUE_LIGHT",
+    "color": "HYBRID",
     "description": [
       {
         "title": "experience",
@@ -322,13 +340,31 @@
       ]
     }]
   },
+  "deez-nutz": {
+    "title": "Deez Nutz",
+    "date": "TBC",
+    "start": "Hillview MRT",
+    "end": "Bukit Panjang MRT",
+    "color": "FUTURE_NATURE",
+    "stops": [],
+    "related": []
+  },
+  "dream-of-red-line": {
+    "title": "红线梦前段",
+    "date": "TBC",
+    "start": "Marsiling MRT",
+    "end": "Bukit Batok MRT",
+    "color": "FUTURE",
+    "stops": [],
+    "related": []
+  },
   "east-coast-malls": {
     "title": "East Coast Malls",
     "imgPath": "katong-shopping-centre.jpg",
     "date": "30/12/21",
     "start": "Raffles Place MRT",
     "end": "Bedok MRT",
-    "color": "GREEN_LIGHT",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -405,7 +441,7 @@
     "date": "17/05/22",
     "start": "Tanah Merah MRT",
     "end": "Pasir Ris MRT",
-    "color": "GREEN",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -449,12 +485,30 @@
       }
     ]
   },
+  "gangsters-paradise": {
+    "title": "Gangsters' Paradise",
+    "date": "TBC",
+    "start": "Serangoon MRT",
+    "end": "Thanggam LRT",
+    "color": "FUTURE",
+    "stops": [],
+    "related": []
+  },
+  "hawkerman": {
+    "title": "Hawkerman",
+    "date": "TBC",
+    "start": "Kovan MRT",
+    "end": "Bishan MRT",
+    "color": "FUTURE",
+    "stops": [],
+    "related": []
+  },
   "hortridge-park": {
     "title": "HortRidge Park",
     "date": "22/12/20",
     "start": "Buona Vista MRT",
     "end": "HarbourFront MRT",
-    "color": "YELLOW_LIGHT",
+    "color": "NATURE",
     "description": [
       {
         "title": "experience",
@@ -493,7 +547,7 @@
     "date": "29/12/22",
     "start": "HarbourFront MRT",
     "end": "Punggol MRT",
-    "color": "PURPLE",
+    "color": "NE",
     "description": [
       {
         "title": "experience",
@@ -550,13 +604,31 @@
       }
     ]
   },
+  "journey-to-the-west": {
+    "title": "西游记",
+    "date": "TBC",
+    "start": "Tuas Link",
+    "end": "Boon Lay MRT",
+    "color": "NATURE",
+    "stops": [],
+    "related": []
+  },
+  "jurong-lake": {
+    "title": "Jurong Lake",
+    "date": "TBC",
+    "start": "Boon Lay MRT",
+    "end": "Bukit Batok MRT",
+    "color": "FUTURE_NATURE",
+    "stops": [],
+    "related": []
+  },
   "navi": {
     "title": "Na'vi",
     "imgPath": "navi.jpg",
     "date": "10/08/23",
     "start": "Marymount MRT",
     "end": "Upper Thomson MRT",
-    "color": "PINK",
+    "color": "NATURE",
     "description": [
       {
         "title": "experience",
@@ -615,7 +687,7 @@
     "date": "28/03/22",
     "start": "Woodlands MRT",
     "end": "Khatib MRT",
-    "color": "RED",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -655,13 +727,22 @@
       }
     ]
   },
+  "ntu-nus": {
+    "title": "NTU - NUS",
+    "date": "TBC",
+    "start": "Pioneer MRT",
+    "end": "Kent Ridge MRT",
+    "color": "UNI",
+    "stops": [],
+    "related": []
+  },
   "nus-smu": {
     "title": "NUS-SMU",
     "imgPath": "smu.jpg",
     "date": "23/07/23",
     "start": "Kent Ridge MRT",
     "end": "Bencoolen MRT",
-    "color": "YELLOW_V_LIGHT",
+    "color": "UNI",
     "description": [
       {
         "title": "experience",
@@ -712,7 +793,7 @@
     "date": "05/09/21",
     "start": "Stevens MRT",
     "end": "Somerset MRT",
-    "color": "RED_V_LIGHT",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -758,13 +839,22 @@
       }
     ]
   },
+  "pasir-ris-park": {
+    "title": "Pasir Ris Park",
+    "date": "27/09/23",
+    "start": "Pasir Ris MRT",
+    "end": "Pasir Ris MRT",
+    "color": "NATURE",
+    "stops": [],
+    "related": []
+  },
   "plan-for-the-east-coast": {
     "title": "Plan for the East Coast",
     "imgPath": "plan-for-the-east-coast.jpeg",
     "date": "26/12/22",
     "start": "Bedok MRT",
     "end": "Suntec City",
-    "color": "BROWN_V_LIGHT",
+    "color": "NATURE",
     "description": [
       {
         "title": "experience",
@@ -818,7 +908,7 @@
     "date": "11/08/23",
     "start": "Clementi MRT",
     "end": "Clementi MRT",
-    "color": "BRIGHT_GREEN",
+    "color": "UNI",
     "stops": [
       {
         "name": "UTown",
@@ -868,13 +958,22 @@
       }
     ]
   },
+  "rifle-range": {
+    "title": "Rifle Range",
+    "date": "TBC",
+    "start": "Bright Hill MR",
+    "end": "Bukit Batok MRT",
+    "color": "FUTURE_NATURE",
+    "stops": [],
+    "related": []
+  },
   "river-flows-in-you": {
     "title": "River Flows in You",
     "imgPath": "river-flows-in-you.jpeg",
     "date": "07/12/22",
     "start": "Khatib MRT",
     "end": "Suntec City",
-    "color": "RED_V_LIGHT",
+    "color": "HYBRID",
     "description": [
       {
         "title": "experience",
@@ -935,7 +1034,7 @@
     "date": "08/08/23",
     "start": "Woodlands North MRT",
     "end": "HarbourFront MRT",
-    "color": "PINK",
+    "color": "LOOP",
     "stops": [
       {
         "name": "Woodlands Waterfront Park",
@@ -995,7 +1094,7 @@
     "date": "29/09/22",
     "start": "Woodlands MRT",
     "end": "Bangkit LRT",
-    "color": "RED_LIGHT",
+    "color": "HYBRID",
     "stops": [
       {
         "name": "Admiralty Park",
@@ -1048,7 +1147,7 @@
     "date": "14/07/22",
     "start": "Punggol MRT",
     "end": "Kovan MRT",
-    "color": "PURPLE_V_LIGHT",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -1091,13 +1190,31 @@
       }
     ]
   },
+  "sentosa": {
+    "title": "Sentosa",
+    "date": "TBC",
+    "start": "Haw Par Villa MRT",
+    "end": "Palawan Beach",
+    "color": "FUTURE_NATURE",
+    "stops": [],
+    "related": []
+  },
+  "smu-sutd": {
+    "title": "SMU - SUTD",
+    "date": "TBC",
+    "start": "Bencoolen MRT",
+    "end": "Upper Changi MRT",
+    "color": "UNI",
+    "stops": [],
+    "related": []
+  },
   "south-coast-malls": {
     "title": "South Coast Malls",
     "imgPath": "vivo-city.jpg",
     "date": "27/10/21",
     "start": "Pasir Panjang MRT",
     "end": "Farrer Park MRT",
-    "color": "PURPLE_V_LIGHT",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -1135,13 +1252,31 @@
       }
     ]
   },
+  "spring-2-leaf-3": {
+    "title": "Sprínglěaf",
+    "date": "TBC",
+    "start": "Springleaf MRT",
+    "end": "Bright Hill MRT",
+    "color": "FUTURE_NATURE",
+    "stops": [],
+    "related": []
+  },
+  "sungei-buloh": {
+    "title": "Sungei Buloh",
+    "date": "TBC",
+    "start": "Sungei Buloh",
+    "end": "Sungei Buloh",
+    "color": "FUTURE_NATURE",
+    "stops": [],
+    "related": []
+  },
   "tale-of-two-rivers": {
     "title": "Tale of Two Rivers",
     "imgPath": "tale-of-two-rivers.jpg",
     "date": "04/12/22",
     "start": "Jurong East MRT",
     "end": "Suntec City",
-    "color": "GREEN",
+    "color": "NATURE",
     "description": [
       {
         "title": "experience",
@@ -1215,7 +1350,7 @@
     "date": "30/11/22",
     "start": "Stevens MRT",
     "end": "Gardens By The Bay MRT",
-    "color": "BROWN",
+    "color": "TE",
     "description": [
       {
         "title": "experience",
@@ -1256,13 +1391,22 @@
       }
     ]
   },
+  "tel-4": {
+    "title": "TEL 4",
+    "date": "TBC",
+    "start": "Gardens by the Bay MRT",
+    "end": "Sungei Bedok MRT",
+    "color": "TE",
+    "stops": [],
+    "related": []
+  },
   "the-circle-of-life": {
     "title": "The Circle of Life",
     "imgPath": "the-circle-of-life.jpeg",
     "date": "05/05/23",
     "start": "HarbourFront MRT",
     "end": "Nicoll Highway MRT",
-    "color": "YELLOW",
+    "color": "CC",
     "description": [
       {
         "title": "experience",
@@ -1308,7 +1452,7 @@
     "date": "13/08/23",
     "start": "Pasir Ris MRT",
     "end": "Yishun MRT",
-    "color": "BRIGHT_GREEN",
+    "color": "LOOP",
     "description": [
       {
         "title": "experience",
@@ -1394,13 +1538,22 @@
       }
     ]
   },
+  "the-ghettos": {
+    "title": "The Ghettos",
+    "date": "TBC",
+    "start": "Sembawang MRT",
+    "end": "Springleaf MRT",
+    "color": "FUTURE",
+    "stops": [],
+    "related": []
+  },
   "the-way-of-water": {
     "title": "The Way of Water",
     "imgPath": "the-way-of-water.jpeg",
     "date": "03/06/23",
     "start": "Buangkok MRT",
     "end": "Hougang MRT",
-    "color": "GREY_DARK",
+    "color": "NATURE",
     "description": [
       {
         "title": "experience",
@@ -1496,7 +1649,7 @@
     "date": "05/05/22",
     "start": "Ang Mo Kio MRT",
     "end": "Upper Thomson MRT",
-    "color": "BROWN_LIGHT",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -1527,7 +1680,7 @@
     "date": "07/08/23",
     "start": "Yio Chu Kang MRT",
     "end": "Boon Keng MRT",
-    "color": "BROWN",
+    "color": "URBAN",
     "description": [
       {
         "title": "experience",
@@ -1595,7 +1748,7 @@
     "date": "25/09/21",
     "start": "Queenstown MRT",
     "end": "Orchard MRT",
-    "color": "GREEN_V_LIGHT",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -1619,13 +1772,31 @@
       }
     ]
   },
+  "top-of-the-world": {
+    "title": "Top of the World",
+    "date": "TBC",
+    "start": "Beauty World MRT",
+    "end": "Hillview MRT",
+    "color": "FUTURE_NATURE",
+    "stops": [],
+    "related": []
+  },
+  "upper-echelon": {
+    "title": "Upper Echelon",
+    "date": "TBC",
+    "start": "Bukit Panjang MRT",
+    "end": "Bencoolen MRT",
+    "color": "DT",
+    "stops": [],
+    "related": []
+  },
   "west-coast-malls": {
     "title": "West Coast Malls",
     "imgPath": "321-clementi.jpg",
     "date": "14/08/21",
     "start": "NUS School of Computing",
     "end": "Clementi MRT",
-    "color": "GREEN_LIGHT",
+    "color": "MALLS",
     "description": [
       {
         "title": "experience",
@@ -1651,7 +1822,7 @@
     "date": "13/05/23",
     "start": "Yio Chu Kang MRT",
     "end": "Boon Keng MRT",
-    "color": "BRIGHT_GREEN",
+    "color": "URBAN",
     "description": [
       {
         "title": "experience",
@@ -1726,7 +1897,7 @@
     "date": "01/07/23",
     "start": "Pasir Ris MRT",
     "end": "Stadium MRT",
-    "color": "BROWN_LIGHT",
+    "color": "LOOP",
     "description": [
       {
         "title": "experience",
