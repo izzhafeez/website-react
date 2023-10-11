@@ -1,4 +1,21 @@
 export const COLORS = Object.freeze({
+  NATURE: '#009645',
+  LOOP: '#D42E12',
+  NE: '#9900AA',
+  CC: '#FA9E0D',
+  DT: '#005EC4',
+  TE: '#9D5B25',
+  FUTURE_NATURE: '#9D5B25',
+  // FUTURE_NATURE: '#0099AA',
+  HYBRID: '#97C616',
+  UNI: '#FF86FE',
+  URBAN: '#23CAFC',
+  MP: '#9B9900',
+  TW: '#FC4D04',
+  MALLS: '#748477',
+  FUTURE: '#FFFFFF',
+  BLACK: '#000000',
+
   BRIGHT_GREEN: '#97C616',
   PINK: '#FF86FE',
 
@@ -59,10 +76,10 @@ export const COLORS = Object.freeze({
   GREY_V_DARK: '#2E3530',
 
   WHITE: '#FFFFFF',
-  BLACK: '#000000',
 });
 
 const convertColor = color => {
+  console.log(color);
   const hex = COLORS[color];
   if (!hex) {
     return '';
