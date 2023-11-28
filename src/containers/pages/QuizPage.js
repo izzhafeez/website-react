@@ -13,6 +13,7 @@ import Mall from "components/map/locations/Mall";
 import BusRoute from "components/map/routes/BusRoute";
 import GuessQuiz from "components/pages/details/projects/quiz/guessQuiz/GuessQuiz";
 import MapContainer from "components/map/MapContainer";
+import CoverageQuiz from "components/pages/details/projects/quiz/CoverageQuiz";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
@@ -45,6 +46,10 @@ const QuizPage = ({ type, item }) => {
       constructor = p => new Road(p);
       data = roadsData;
       break;
+    case 'roads-coverage':
+      constructor = p => new Road(p);
+      data = roadsData;
+      break;
 
     // case 'cities':
     //   constructor = p => new City(p);
@@ -57,7 +62,6 @@ const QuizPage = ({ type, item }) => {
   let quiz;
   switch(type) {
     case 'bus-routes':
-      // quiz = <MapQuiz constructor={constructor} data={data} withMap={true}/>;
       quiz = <GuessQuiz
         data={data}
         parser={(k, v) => constructor({ serviceNo: k, points: v })}
@@ -66,12 +70,14 @@ const QuizPage = ({ type, item }) => {
       />
       break;
     case 'nus-mods':
-      // quiz = <ModsQuiz data={data}/>;
       quiz = <GuessQuiz
         data={data}
         parser={(k, v) => v}
         container={({prompt}) => <><b>Module Name:</b> {prompt}</>}
       />
+      break;
+    case 'roads-coverage':
+      quiz = <CoverageQuiz constructor={constructor} data={data}/>
       break;
     default:
       quiz = <GeoQuiz constructor={constructor} data={data}/>;

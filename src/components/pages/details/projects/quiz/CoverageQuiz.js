@@ -13,10 +13,12 @@ const purify = text => {
     .replace('saint', 'st');
 }
 
-const GeoQuiz = ({ data, constructor }) => {
+const CoverageQuiz = ({ data, constructor }) => {
   const [features, setFeatures] = useState([]);
   const [itemPositions, setItemPositions] = useState({});
+  const [items, setItems] = useState({});
   const [completed, setCompleted] = useState({});
+  const [covered, setCovered] = useState([]);
   const [correct, setCorrect] = useState(0);
   const [grade, setGrade] = useState('');
   const [willRecenter, setRecenter] = useState(false);
@@ -38,8 +40,8 @@ const GeoQuiz = ({ data, constructor }) => {
       const item = constructor(v);
       return item;
     });
-    const allFeatures = allItems.map(item => item.getFeature());
-    setFeatures(allFeatures);
+    setItems(allItems);
+    setFeatures([]);
   }, [itemPositions, constructor, data]);
 
   const handleGuess = event => {
@@ -53,14 +55,23 @@ const GeoQuiz = ({ data, constructor }) => {
 
       completed[guess] = true;
       setCompleted(completed);
-      const totalCorrect = correct + positionsToChange.length;
+
+      const positionsToCover = new Set([...covered]);
+      for (let p of positionsToChange) {
+        const loc = items[p];
+        items.forEach((_, i) => {
+          const dist = Math.pow(Math.pow(items[i].latitude - loc.latitude, 2) + Math.pow(items[i].longitude - loc.longitude, 2), 0.5) * 111.33;
+          if (dist < 1) {
+            positionsToCover.add(i);
+          }
+        })
+      }
+
+      setCovered(positionsToCover);
+
+      const totalCorrect = positionsToCover.size;
       setCorrect(totalCorrect);
-      setFeatures(features.map((f, i) => {
-        if (positionsToChange.includes(i)) {
-          return undefined;
-        }
-        return f;
-      }));
+      setFeatures(items.filter((_, i) => positionsToCover.has(i)).map(item => item.getFeature()));
       event.target.value = '';
       if (totalCorrect === features.length) {
         handleGiveUp(true)();
@@ -88,7 +99,7 @@ const GeoQuiz = ({ data, constructor }) => {
   };
 
   const handleGiveUp = isComplete => _ => {
-    setGrade(getGrade(isComplete ? 1 : correct/features.length));
+    setGrade(getGrade(isComplete ? 1 : correct/items.length));
     setWithOverlay(true);
   }
 
@@ -103,10 +114,10 @@ const GeoQuiz = ({ data, constructor }) => {
         onChange={handleGuess}
       />
     </div>
-    <p>{`${correct}/${features.length}`} guessed <button onClick={handleGiveUp()} className='btn btn-danger py-1 ms-2'>Give Up</button></p>
+    <p>{`${correct}/${items.length}`} guessed <button onClick={handleGiveUp()} className='btn btn-danger py-1 ms-2'>Give Up</button></p>
     {!!grade && <p><b>Grade:</b><br/>{grade}</p>}
     <MapContainer category='projects' features={features} willRecenter={willRecenter} withOverlay={withOverlay}/>
   </div>
 };
 
-export default GeoQuiz;
+export default CoverageQuiz;

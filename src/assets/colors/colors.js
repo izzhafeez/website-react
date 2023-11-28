@@ -79,7 +79,6 @@ export const COLORS = Object.freeze({
 });
 
 const convertColor = color => {
-  console.log(color);
   const hex = COLORS[color];
   if (!hex) {
     return '';
