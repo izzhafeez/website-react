@@ -5,9 +5,10 @@ import busRoutesData from "data/projects/json/quizzes/bus-routes.json";
 import mrtData from "data/projects/json/quizzes/mrt.json";
 import mrtChineseData from "data/projects/json/quizzes/mrt-chinese.json";
 import nusModsData from "data/projects/json/quizzes/nus-mods.json";
+import roadsData from "data/projects/json/quizzes/roads.json";
 import schoolsData from 'data/projects/json/quizzes/schools.json';
 import { useState } from "react";
-import { City, Mrt, School } from "components/map/locations";
+import { City, Mrt, Road, School } from "components/map/locations";
 import Mall from "components/map/locations/Mall";
 import BusRoute from "components/map/routes/BusRoute";
 import GuessQuiz from "components/pages/details/projects/quiz/guessQuiz/GuessQuiz";
@@ -40,6 +41,11 @@ const QuizPage = ({ type, item }) => {
     case 'nus-mods':
       data = nusModsData;
       break;
+    case 'roads':
+      constructor = p => new Road(p);
+      data = roadsData;
+      break;
+
     // case 'cities':
     //   constructor = p => new City(p);
     //   data = !!citiesData[country] ? citiesData[country] : {};

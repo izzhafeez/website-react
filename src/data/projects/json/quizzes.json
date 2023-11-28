@@ -59,6 +59,18 @@
     "importance": 3,
     "link": "https://www.geoguessr.com/maps/62c1a42a5133ade63da10858/play"
   },
+  "roads":{
+    "title": "Roads of Singapore (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 9,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "TBW"
+      }
+    ]
+  },
   "subzones-jetpunk": {
     "title": "Subzones of Singapore (Jetpunk)",
     "imgPath": "jetpunk.png",

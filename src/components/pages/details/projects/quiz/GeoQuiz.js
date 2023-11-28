@@ -24,6 +24,7 @@ const GeoQuiz = ({ data, constructor }) => {
   const [correct, setCorrect] = useState(0);
   const [grade, setGrade] = useState('');
   const [willRecenter, setRecenter] = useState(false);
+  const [withOverlay, setWithOverlay] = useState(false);
   
   useEffect(() => {
     setCorrect(0);
@@ -31,6 +32,7 @@ const GeoQuiz = ({ data, constructor }) => {
     setGrade('');
     setRecenter(true);
     const allItems = Object.entries(data).map(([k, v], index) => {
+      console.log(v);
       const key = purify(v.title);
       if (!!itemPositions[key]) {
         itemPositions[key].push(index);
@@ -42,15 +44,7 @@ const GeoQuiz = ({ data, constructor }) => {
       return item;
     });
     setItems(allItems);
-    const allFeatures = allItems.map(item => {
-      const feature = new Feature({
-        geometry: new Point([item.longitude, item.latitude]),
-        text: '',
-        style: mutedPointStyle
-      })
-      feature.setStyle(feature.get('style'));
-      return feature;
-    });
+    const allFeatures = allItems.map(item => item.getFeature());
     setFeatures(allFeatures);
   }, [itemPositions, constructor, data]);
 
@@ -69,7 +63,7 @@ const GeoQuiz = ({ data, constructor }) => {
       setCorrect(totalCorrect);
       setFeatures(features.map((f, i) => {
         if (positionsToChange.includes(i)) {
-          return items[i].getFeature();
+          return undefined;
         }
         return f;
       }));
@@ -100,9 +94,8 @@ const GeoQuiz = ({ data, constructor }) => {
   };
 
   const handleGiveUp = isComplete => _ => {
-    setCompleted(itemPositions);
     setGrade(getGrade(isComplete ? 1 : correct/features.length));
-    setFeatures(items.map(item => item.getFeature()))
+    setWithOverlay(true);
   }
 
   return <div className='text-start'>
@@ -118,7 +111,7 @@ const GeoQuiz = ({ data, constructor }) => {
     </div>
     <p>{`${correct}/${features.length}`} guessed <button onClick={handleGiveUp()} className='btn btn-danger py-1 ms-2'>Give Up</button></p>
     {!!grade && <p><b>Grade:</b><br/>{grade}</p>}
-    <MapContainer category='projects' features={features} willRecenter={willRecenter}/>
+    <MapContainer category='projects' features={features} willRecenter={willRecenter} withOverlay={withOverlay}/>
   </div>
 };
 

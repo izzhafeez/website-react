@@ -52,7 +52,7 @@ const MapContainer = ({ category, features, willRecenter=true, withOverlay=true 
       // set features to map
       featuresLayer.setSource(
         new VectorSource({
-          features: features // make sure features is an array
+          features: features.filter(feature => !!feature) // make sure features is an array
         })
       );
 

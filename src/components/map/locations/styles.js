@@ -28,8 +28,8 @@ export const pointStyle = color => isActive => {
     new Style({
       image: new Icon({
         src: `/img/map/location-fill.svg`,
-        displacement: [0, 10],
-        height: 20,
+        displacement: [0, 5],
+        height: 10,
         color: convertColor(color)
       }),
       zIndex: 2
@@ -37,8 +37,8 @@ export const pointStyle = color => isActive => {
     new Style({
       image: new Icon({
         src: `/img/map/location-border.svg`,
-        displacement: [0, 10],
-        height: 20,
+        displacement: [0, 5],
+        height: 10,
         color: convertColor('BLACK')
       }),
       zIndex: 3
