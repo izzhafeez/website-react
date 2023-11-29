@@ -73,7 +73,7 @@ const CoverageQuiz = ({ data, constructor }) => {
       setCorrect(totalCorrect);
       setFeatures(items.filter((_, i) => positionsToCover.has(i)).map(item => item.getFeature()));
       event.target.value = '';
-      if (totalCorrect === features.length) {
+      if (totalCorrect === items.length) {
         handleGiveUp(true)();
       }
     };
