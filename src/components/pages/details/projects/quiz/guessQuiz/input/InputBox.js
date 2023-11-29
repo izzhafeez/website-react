@@ -1,12 +1,9 @@
 import { useState } from "react";
 
-const InputBox = ({ options, answer, handleScore, isFreeText, data }) => {
+const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered }) => {
   const [guess, setGuess] = useState('');
 
   const handleClick = e => {
-    if (!!guess) {
-      return;
-    }
     const newGuess = e.target.value;
     setGuess(newGuess);
     handleScore(newGuess == answer);
@@ -14,7 +11,7 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data }) => {
 
   const getClassName = option => {
     let base = 'btn me-2 ';
-    if (!guess) {
+    if (!guess || !hasAnswered) {
       base += 'btn-info';
     } else if (option == answer) {
       base += 'btn-success';
@@ -27,10 +24,6 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data }) => {
   }
 
   const onKeyDown = e => {
-    if (!!guess) {
-      return;
-    }
-    
     if (e.key === 'Enter') {
       const guess = e.target.value;
       if (!guess) {

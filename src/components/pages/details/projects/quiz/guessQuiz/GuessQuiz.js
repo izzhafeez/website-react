@@ -26,8 +26,8 @@ const GuessQuiz = ({ data, parser, container, isMap=false }) => {
   const [prevAnswer, setPrevAnswer] = useState('');
   const [hasAnswered, setHasAnswered] = useState(false);
   const [score, setScore] = useState(0);
-  const [bestScore, setBestScore] = useState(Object.keys(settings).reduce((map, obj) => {
-    map[obj] = 0;
+  const [bestScore, setBestScore] = useState(Object.values(settings).reduce((map, val) => {
+    map[val.label] = 0;
     return map;
   }, {}));
 
@@ -132,7 +132,7 @@ const GuessQuiz = ({ data, parser, container, isMap=false }) => {
       <b className='ms-4'>Best {setting.label.toUpperCase()} Streak:</b> {bestScore[setting.label]}<br/>
     </div>
     {!isMap && filledContainer}
-    {InputBox({ options, answer, handleScore, isFreeText: setting.isFreeText, data: parsedData })}
+    {InputBox({ options, answer, handleScore, isFreeText: setting.isFreeText, data: parsedData, hasAnswered })}
     {setting.isFreeText && !!prevAnswer &&
       <div className='mb-2'>{(!!score ? <span className='text-success'>Correct!</span> : <span className='text-danger'>Wrong!</span>)} Answer was: {prevAnswer}</div>
     }
