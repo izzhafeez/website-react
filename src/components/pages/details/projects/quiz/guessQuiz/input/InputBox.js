@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const InputBox = ({ options, answer, handleScore, isFreeText, data }) => {
   const [guess, setGuess] = useState('');
@@ -11,10 +11,6 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data }) => {
     setGuess(newGuess);
     handleScore(newGuess == answer);
   };
-
-  useEffect(() => {
-    setGuess('');
-  }, [options, answer])
 
   const getClassName = option => {
     let base = 'btn me-2 ';

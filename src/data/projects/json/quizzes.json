@@ -7,7 +7,19 @@
     "description": [
       {
         "title": "instructions",
-        "text": "The points on the map are the bus stops serviced by a certain bus number. Out of the options provided, choose the correct bus number. Correct answers are marked in green, and wrong answers are marked in red.\nTo make the quiz easier, there is a question bank of possible options; the quiz will only select services from this question bank. For every correct guess you make, a new service is added to this question bank. If you want a different set of options, you can just refresh the page.\nTry to get as many correct in a row. For every 5 correct guesses in a row, the number of options increases by 1. If you guess wrongly, your streak ends, and everything is reset.\nIf you change difficulty, everything is also reset."
+        "text": "What bus service goes through these bus stops? The quiz uses a strict marking scheme, so capitalisation is important."
+      }
+    ]
+  },
+  "bus-stops-completion":{
+    "title": "Bus Stops of Singapore (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 10,
+    "description": [
+      {
+        "title": "instructions",
+        "text": ""
       }
     ]
   },

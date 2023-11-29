@@ -4,7 +4,7 @@ import InputBox from "./input/InputBox";
 import { getRandom } from "./random/randomisers";
 
 const GuessQuiz = ({ data, parser, container, isMap=false }) => {
-  const [setting, setSetting] = useState(settings.easy);
+  const [setting, setSetting] = useState(settings.mcqeasy);
 
   const sortOptions = (regex) => setting.randomiser({ arr: Object.keys(data).filter(d => regex === undefined || regex.test(d)), sort: setting.sort });
   const [allOptions, setAllOptions] = useState(sortOptions());
@@ -118,11 +118,11 @@ const GuessQuiz = ({ data, parser, container, isMap=false }) => {
 
   return <section className='text-start'>
     <b>Difficulty:</b> <select onChange={handleSetting}>
-      {Object.keys(settings).map(d =>
+      {Object.entries(settings).map(([k, v]) =>
         <option
-          key={d}
-          label={d.toUpperCase()}
-          value={d}
+          key={k}
+          label={v.label.toUpperCase()}
+          value={k}
         />
       )}
     </select><br/>

@@ -2,52 +2,60 @@ import { rotateRandomise, shuffleRandomise } from "../random/randomisers";
 import { noLetterSort, numberSort, randomSort } from "../sort/sorters";
 
 const difficulties = {
-  easy: {
-    label: 'easy',
+  mcqeasy: {
+    label: 'mcq (easy)',
     sort: noLetterSort,
     randomiser: shuffleRandomise,
     window: 4,
     options: 2,
   },
-  medium: {
-    label: 'medium',
+  mcqmedium: {
+    label: 'mcq (medium)',
     sort: numberSort,
     randomiser: rotateRandomise,
-    window: 8,
+    window: 16,
     options: 4,
   },
-  hard: {
-    label: 'hard',
+  mcqhard: {
+    label: 'mcq (hard)',
     sort: randomSort,
     randomiser: shuffleRandomise,
-    window: 16,
+    window: 64,
     options: 6
   },
-  extreme: {
-    label: 'extreme',
+  mcqextreme: {
+    label: 'mcq (extreme)',
+    sort: randomSort,
+    randomiser: rotateRandomise,
+    window: 10000,
+    options: 8
+  },
+  freeeasy: {
+    label: 'free text (easy)',
+    sort: noLetterSort,
+    randomiser: shuffleRandomise,
+    window: 4,
+    options: 2,
+    isFreeText: true
+  },
+  freemedium: {
+    label: 'free text (medium)',
     sort: numberSort,
     randomiser: rotateRandomise,
-    window: 32,
+    window: 16,
     options: 1,
     isFreeText: true
   },
-  impossible: {
-    label: 'impossible',
+  freehard: {
+    label: 'free text (hard)',
     sort: randomSort,
     randomiser: shuffleRandomise,
     window: 64,
     options: 1,
     isFreeText: true
   },
-  asian: {
-    label: 'asian',
-    sort: randomSort,
-    randomiser: rotateRandomise,
-    window: 10000,
-    options: 8
-  },
-  wanggang: {
-    label: 'wanggang',
+  freeextreme: {
+    label: 'free text (extreme)',
     sort: randomSort,
     randomiser: rotateRandomise,
     window: 10000,

@@ -2,6 +2,7 @@ import GeoQuiz from "components/pages/details/projects/quiz/GeoQuiz";
 // import citiesData from 'data/projects/json/quizzes/cities.json';
 import mallsData from "data/blog/json/malls.json";
 import busRoutesData from "data/projects/json/quizzes/bus-routes.json";
+import busStopsData from "data/projects/json/quizzes/bus-stops-b.json";
 import mrtData from "data/projects/json/quizzes/mrt.json";
 import mrtChineseData from "data/projects/json/quizzes/mrt-chinese.json";
 import nusModsData from "data/projects/json/quizzes/nus-mods.json";
@@ -14,6 +15,7 @@ import BusRoute from "components/map/routes/BusRoute";
 import GuessQuiz from "components/pages/details/projects/quiz/guessQuiz/GuessQuiz";
 import MapContainer from "components/map/MapContainer";
 import CoverageQuiz from "components/pages/details/projects/quiz/CoverageQuiz";
+import CompletionQuiz from "components/pages/details/projects/quiz/CompletionQuiz";
 
 const QuizPage = ({ type, item }) => {
   let [constructor, data] = ['', ''];
@@ -43,14 +45,14 @@ const QuizPage = ({ type, item }) => {
       data = nusModsData;
       break;
     case 'roads':
-      constructor = p => new Road(p);
-      data = roadsData;
-      break;
     case 'roads-coverage':
       constructor = p => new Road(p);
       data = roadsData;
       break;
-
+    case 'bus-stops-completion':
+    case 'bus-stops-routing':
+      data = busStopsData;
+      break;
     // case 'cities':
     //   constructor = p => new City(p);
     //   data = !!citiesData[country] ? citiesData[country] : {};
@@ -78,6 +80,9 @@ const QuizPage = ({ type, item }) => {
       break;
     case 'roads-coverage':
       quiz = <CoverageQuiz constructor={constructor} data={data}/>
+      break;
+    case 'bus-stops-completion':
+      quiz = <CompletionQuiz data={data} parser={(_, v) => ({ prompt: `${v.desc}, ${v.road}`, answers: v.routes })}/>
       break;
     default:
       quiz = <GeoQuiz constructor={constructor} data={data}/>;
