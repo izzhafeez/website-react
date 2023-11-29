@@ -1,4 +1,9 @@
 import MapContainer from "components/map/MapContainer";
+import { Feature } from "ol";
+import { Circle } from "ol/geom";
+import Fill from "ol/style/Fill";
+import Stroke from "ol/style/Stroke";
+import Style from "ol/style/Style";
 import React, { useEffect, useState } from "react";
 import unidecode from "unidecode";
 
@@ -12,6 +17,16 @@ const purify = text => {
     .replace('school', '')
     .replace('saint', 'st');
 }
+
+const circleStyle = new Style({
+  fill: new Fill({
+    color: 'rgba(127, 127, 255, 0.2)' // Fill color with 20% opacity (red in this case)
+  }),
+  stroke: new Stroke({
+    color: 'blue', // Stroke color
+    width: 2 // Stroke width
+  })
+});
 
 const CoverageQuiz = ({ data, constructor }) => {
   const [features, setFeatures] = useState([]);
@@ -57,21 +72,28 @@ const CoverageQuiz = ({ data, constructor }) => {
       setCompleted(completed);
 
       const positionsToCover = new Set([...covered]);
+      const circles = [];
       for (let p of positionsToChange) {
         const loc = items[p];
+        const circle = new Feature(new Circle([loc.longitude, loc.latitude], 0.0089));
+        circle.setStyle(circleStyle);
+        circles.push(circle);
         items.forEach((_, i) => {
           const dist = Math.pow(Math.pow(items[i].latitude - loc.latitude, 2) + Math.pow(items[i].longitude - loc.longitude, 2), 0.5) * 111.33;
-          if (dist < 1) {
+          if (dist < 1 && !positionsToCover.has(i)) {
             positionsToCover.add(i);
           }
         })
       }
 
-      setCovered(positionsToCover);
+      setCovered([...covered, ...positionsToCover]);
 
       const totalCorrect = positionsToCover.size;
       setCorrect(totalCorrect);
-      setFeatures(items.filter((_, i) => positionsToCover.has(i)).map(item => item.getFeature()));
+      
+      const newPositions = Array.from(positionsToCover).map(p => items[p].getFeature())
+      // setFeatures(items.filter((_, i) => positionsToCover.has(i)).map(item => item.getFeature()));
+      setFeatures([...circles, ...features, ...newPositions]);
       event.target.value = '';
       if (totalCorrect === items.length) {
         handleGiveUp(true)();

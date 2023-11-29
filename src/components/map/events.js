@@ -13,7 +13,7 @@ const handlePointerMove = ({ mapElement, mapRef, overlayRef, selected }) => (eve
   mapElement.current.style.cursor = hit ? 'pointer' : '';
 
   if (hit) {
-    const features = mapRef.current.getFeaturesAtPixel(pixel);
+    const features = mapRef.current.getFeaturesAtPixel(pixel).filter(f => !!f.values_.text);
     if (features.length > 0) {
       if (!!selected.current) {
         selected.current.setStyle(selected.current.get('style')());
