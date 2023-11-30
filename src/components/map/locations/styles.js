@@ -1,4 +1,5 @@
 import convertColor from "assets/colors/colors";
+import Circle from "ol/style/Circle";
 import Fill from "ol/style/Fill";
 import Icon from "ol/style/Icon"
 import Stroke from "ol/style/Stroke";
@@ -23,28 +24,44 @@ export const numberStyle = index => color => isActive => [
   }),
 ]
 
+// export const pointStyle = color => isActive => {
+//   return [
+//     new Style({
+//       image: new Icon({
+//         src: `/img/map/location-fill.svg`,
+//         displacement: [0, 5],
+//         height: 10,
+//         color: convertColor(color)
+//       }),
+//       zIndex: 2
+//     }),
+//     new Style({
+//       image: new Icon({
+//         src: `/img/map/location-border.svg`,
+//         displacement: [0, 5],
+//         height: 10,
+//         color: convertColor('BLACK')
+//       }),
+//       zIndex: 3
+//     }),
+//   ]
+// };
+
 export const pointStyle = color => isActive => {
-  return [
-    new Style({
-      image: new Icon({
-        src: `/img/map/location-fill.svg`,
-        displacement: [0, 5],
-        height: 10,
-        color: convertColor(color)
-      }),
-      zIndex: 2
-    }),
-    new Style({
-      image: new Icon({
-        src: `/img/map/location-border.svg`,
-        displacement: [0, 5],
-        height: 10,
-        color: convertColor('BLACK')
-      }),
-      zIndex: 3
-    }),
-  ]
-};
+  return new Style({
+      image: new Circle({
+        radius: 5, // Radius of the circle
+        fill: new Fill({
+          color: convertColor(color), // Fill color
+          opacity: 0.5
+        }),
+        stroke: new Stroke({
+          color: 'black', // Stroke color
+          width: 2 // Stroke width
+        })
+      })
+    });
+}
 
 export const mutedPointStyle = isActive => {
   return [

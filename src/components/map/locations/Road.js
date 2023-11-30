@@ -12,15 +12,15 @@ class Road extends Location {
     }
     switch (true) {
       case (this.dist < 200):
-        return 'PURPLE_BG';
+        return 'CYAN_BG';
       case (this.dist < 500):
-        return 'PURPLE_V_LIGHT';
+        return 'CYAN_V_LIGHT';
       case (this.dist < 2000):
-        return 'PURPLE_LIGHT';
+        return 'CYAN_LIGHT';
       case (this.dist < 5000):
-        return 'PURPLE';
+        return 'CYAN';
       default:
-        return 'PURPLE_DARK';
+        return 'CYAN_DARK';
     }
   }
 };
