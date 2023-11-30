@@ -50,14 +50,14 @@ export const numberStyle = index => color => isActive => [
 export const pointStyle = color => isActive => {
   return new Style({
       image: new Circle({
-        radius: 5, // Radius of the circle
+        radius: 3, // Radius of the circle
         fill: new Fill({
           color: convertColor(color), // Fill color
           opacity: 0.5
         }),
         stroke: new Stroke({
           color: 'black', // Stroke color
-          width: 2 // Stroke width
+          width: 1 // Stroke width
         })
       })
     });
