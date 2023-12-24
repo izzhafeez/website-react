@@ -176,13 +176,34 @@
       }
     ]
   },
-  "bukit-brown": {
-    "title": "Bukit Brown",
-    "date": "TBC",
-    "start": "Marymount MRT",
+  "vanda-miss-joaquim": {
+    "title": "Vanda Miss Joaquim",
+    "date": "19/12/23",
+    "start": "Stevens MRT",
     "end": "Labrador Park MRT",
-    "color": "FUTURE",
-    "stops": [],
+    "color": "HYBRID",
+    "stops": [
+      {
+        "name": "Botanic Gardens",
+        "lat": 1.32205,
+        "lng": 103.81511
+      },
+      {
+        "name": "NUS Law",
+        "lat": 1.31912,
+        "lng": 103.81699
+      },
+      {
+        "name": "National Orchid Garden",
+        "lat": 1.31156,
+        "lng": 103.81487
+      },
+      {
+        "name": "Dawson Place",
+        "lat": 1.29275,
+        "lng": 103.81062
+      }
+    ],
     "related": []
   },
   "bukit-panjang-malls": {
@@ -342,10 +363,10 @@
   },
   "deez-nutz": {
     "title": "Deez Nutz",
-    "date": "TBC",
+    "date": "21/12/23",
     "start": "Hillview MRT",
     "end": "Bukit Panjang MRT",
-    "color": "FUTURE_NATURE",
+    "color": "NATURE",
     "stops": [],
     "related": []
   },
@@ -496,10 +517,10 @@
   },
   "hawkerman": {
     "title": "Hawkerman",
-    "date": "TBC",
+    "date": "26/12/23",
     "start": "Kovan MRT",
     "end": "Bishan MRT",
-    "color": "FUTURE",
+    "color": "URBAN",
     "stops": [],
     "related": []
   },
@@ -1192,10 +1213,10 @@
   },
   "sentosa": {
     "title": "Sentosa",
-    "date": "TBC",
+    "date": "18/12/23",
     "start": "Haw Par Villa MRT",
     "end": "Palawan Beach",
-    "color": "FUTURE_NATURE",
+    "color": "NATURE",
     "stops": [],
     "related": []
   },
