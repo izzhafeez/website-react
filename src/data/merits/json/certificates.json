@@ -1,4 +1,28 @@
 {
+  "google-ux-design": {
+    "title": "UX Design Professional Certificate",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/fd93dbe21a1be3fc20e6aae265f7ef81",
+    "importance": 9,
+    "description": [
+      {
+        "title": "description",
+        "text": "The course teaches:\n1. Conductng UX Research and Test Early Concepts\n2. Build Dynamic User Interfaces (UI) for Websites\n3. Start the UX Design Process: Empathize, Define, and Ideate\n4. Create High-Fidelity Designs and Prototypes in Figma\n5. Foundations of User Experience (UX) Design\n6. Build Wireframes and Low-Fidelity Prototypes\n7. Design a User Experience for Social Good & Prepare for jobs"
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "frontend-development",
+          "problem-solving"
+        ]
+      }
+    ]
+  },
   "jlpt-n3": {
     "title": "JLPT N3 (86/180)",
     "imgPath": "jlpt.png",
