@@ -876,6 +876,39 @@
       }
     ]
   },
+  "ux-design": {
+    "title": "User Experience (UX) Design",
+    "imgPath": "ux-design.svg",
+    "importance": 8,
+    "date": 2023,
+    "proficiency": 8,
+    "description": [
+      {
+        "title": "description",
+        "text": "UX Design is the process of creating products or services that provide meaningful experiences for users, involving many different areas of product development including branding, usability, function, and design."
+      },
+      {
+        "title": "background",
+        "text": "I think I went through enough hell with the design iteration process. From my experience in Assignment 1 and Final Project in CS3216, I learnt how to design a user-centric application, and how to conduct interviews for research and testing. I think the Google UX Design course gave me more clarity as to the specific reasons why certain things work and why some others don't."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+          "google-ux-design"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "figma"
+        ]
+      }
+    ]
+  },
   "web-development": {
     "title": "Web Dev",
     "imgPath": "web-development.svg",

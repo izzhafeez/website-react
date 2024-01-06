@@ -610,35 +610,71 @@
     "title": "CS3216",
     "name": "Software Product Engineering for Digital Markets",
     "semester": "AY23/24 S1",
-    "grade": "IP",
-    "description": []
+    "grade": "B",
+    "importance": 4,
+    "description": [
+      {
+        "title": "content",
+        "text": "This module is not your typical CS module. Instead of teaching CS, this module teaches the product development process. The prof doesn't teach much, but instead invites external speakers to share their journeys and lessons learnt. The first few lessons focussed primarily on UX Design, and how to have a user-centric approach. Some lessons were about idea-generation, understanding team dynamics, how to raise money, scaling up and generative AI development.\nAssignment 1 required us to produce a mockup of our solution to a problem. This involves the entire design iteration process, with interviews and design reviews. Then for Assignment 2, we were tasked with researching on a real-world Generative AI product and present it to the class, along with our evaluation of it. Afterwards, Assignment 3 was about creating an application surrounding a certain Generative AI model. Finally, the Final Project is about creating a product that addresses the problems of a user."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "python"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "vue-js",
+          "react-js",
+          "postman"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "frontend-development",
+          "web-development"
+        ]
+      }
+    ]
   },
   "cs4243": {
     "title": "CS4243",
     "name": "Computer Vision and Pattern Recognition",
     "semester": "AY23/24 S1",
-    "grade": "IP",
+    "grade": "B+",
+    "importance": 5,
     "description": []
   },
-  "cs4225": {
-    "title": "CS4225",
-    "name": "Big Data Systems for Data Science",
+  "ma3236": {
+    "title": "MA3236",
+    "name": "Non-Linear Programming",
     "semester": "AY23/24 S1",
-    "grade": "IP",
+    "grade": "A",
+    "importance": 5,
     "description": []
   },
   "cs2106": {
     "title": "CS2106",
     "name": "Introduction to Operating Systems",
     "semester": "AY23/24 S1",
-    "grade": "IP",
+    "grade": "A-",
     "description": []
   },
   "ma3238": {
     "title": "MA3238",
     "name": "Stochastic Processes I",
     "semester": "AY23/24 S1",
-    "grade": "IP",
+    "grade": "A-",
+    "importance": 6,
     "description": []
   },
   "gen2002x": {

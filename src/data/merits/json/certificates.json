@@ -1,4 +1,71 @@
 {
+  "google-professional-workspace": {
+    "title": "Google Professional Workspace Administrator",
+    "imgPath": "google.png",
+    "issuer": "Google",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/66456a66d108c935f37e6fcaef6c3ec3",
+    "importance": 4,
+    "description": [
+      {
+        "title": "description",
+        "text": "The course teaches:\n1. Introduction to Google Workspace Administration\n2. Managing Google Workspace\n3. Google Workspace Security\n4. Google Workspace Mail Management\n5. Planning for a Google Workspace Deployment"
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "gcp"
+        ]
+      }
+    ]
+  },
+  "rust-programming": {
+    "title": "Rust Programming",
+    "imgPath": "duke.png",
+    "issuer": "Duke University",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/422b55cee858e7554c665cd5f7dd6220",
+    "importance": 6,
+    "description": [
+      {
+        "title": "description",
+        "text": "The course teaches:\n1. Rust Fundamentals\n2. Data Engineering with Rust\n3. Rust for DevOps\n4. Python and Rust with Linux Command Line Tools\n5. Rust for Large Language Model Operations (LLMOps)"
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "python",
+          "rust"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "gcp",
+          "aws",
+          "pandas",
+          "pytorch"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science",
+          "data-mining",
+          "data-management",
+          "documentation"
+        ]
+      }
+    ]
+  },
   "google-ux-design": {
     "title": "UX Design Professional Certificate",
     "imgPath": "google.png",

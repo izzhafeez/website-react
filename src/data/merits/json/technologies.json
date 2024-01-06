@@ -337,6 +337,39 @@
       }
     ]
   },
+  "figma": {
+    "title": "Figma",
+    "imgPath": "figma.svg",
+    "importance": 8,
+    "date": 2021,
+    "proficiency": 8,
+    "description": [
+      {
+        "title": "description",
+        "text": "Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows."
+      },
+      {
+        "title": "background",
+        "text": "As part of the hell that is CS3216, I have gotten used to using Figma to draft out initial designs for an application. This is further reinforced by the Google UX Design course, which required Figma for the capstone project."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+          "google-ux-design"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "ux-design"
+        ]
+      }
+    ]
+  },
   "flask": {
     "title": "Flask",
     "imgPath": "flask.svg",
