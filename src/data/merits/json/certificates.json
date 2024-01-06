@@ -1,4 +1,27 @@
 {
+  "ibm-generative-ai-data-science": {
+    "title": "Generative AI for Data Scientists",
+    "imgPath": "ibm.svg",
+    "issuer": "IBM",
+    "date": "Jan'24",
+    "link": "https://coursera.org/share/aa6cf88e9c84f46f18af8c231bf5f82f",
+    "importance": 7,
+    "description": [
+      {
+        "title": "description",
+        "text": "The course teaches:\n1. Applications of Generative AI\n2. Prompt Engineering Basics\n3. Elevate Your Data Science Career"
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-science"
+        ]
+      }
+    ]
+  },
   "google-professional-workspace": {
     "title": "Google Professional Workspace Administrator",
     "imgPath": "google.png",
