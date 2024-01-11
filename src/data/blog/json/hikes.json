@@ -628,65 +628,6 @@
     "stops": [],
     "related": []
   },
-  "navi": {
-    "title": "Na'vi",
-    "imgPath": "navi.jpg",
-    "date": "10/08/23",
-    "start": "Marymount MRT",
-    "end": "Upper Thomson MRT",
-    "color": "NATURE",
-    "description": [
-      {
-        "title": "experience",
-        "text": "This walk takes us through MacRitchie and the TreeTop Walk. It is pretty much a standard nature trail in Singapore, and one of the nicest as well. MacRitchie has beautiful views all around, yet never gets stale. The boardwalk, especially, gives us a great view of the reservoir. Not to mention the TreeTop Walk itself, which makes us feel like the Na'vi of Pandora."
-      },
-      {
-        "title": "refreshments",
-        "text": "We had snacks atop the Jelutong Tower, and lunch at Thomson Plaza."
-      }
-    ],
-    "stops": [
-      {
-        "name": "MacRitchie Boardwalk",
-        "lat": 1.3417962327074286,
-        "lng": 103.83189330055102
-      },
-      {
-        "name": "Lornie Trail",
-        "lat": 1.3420013554498391,
-        "lng": 103.82870162703499
-      },
-      {
-        "name": "Chemperai Trail",
-        "lat": 1.3435283797631135,
-        "lng": 103.82109860454602
-      },
-      {
-        "name": "Jelutong Tower",
-        "lat": 1.3512546524918378,
-        "lng": 103.80632571533579
-      },
-      {
-        "name": "TreeTop Walk",
-        "lat": 1.360358690227217,
-        "lng": 103.81195504910106
-      },
-      {
-        "name": "Windsor Nature Park",
-        "lat": 1.3603394671316629,
-        "lng": 103.82306911635315
-      }
-    ],
-    "related": [
-      {
-        "category": "blog",
-        "type": "malls",
-        "items": [
-          "thomson-plaza"
-        ]
-      }
-    ]
-  },
   "north-coast-malls": {
     "title": "North Coast Malls",
     "imgPath": "sun-plaza.jpg",
@@ -1689,8 +1630,8 @@
       }
     ]
   },
-  "thomson-whampoa": {
-    "title": "Thomson - Whampoa",
+  "thomson-and-jerry": {
+    "title": "Thomson and Jerry",
     "date": "07/08/23",
     "start": "Yio Chu Kang MRT",
     "end": "Boon Keng MRT",
@@ -1827,6 +1768,64 @@
       }
     ],
     "related": []
+  },
+  "very-itchy": {
+    "title": "Very Itchy",
+    "date": "10/08/23",
+    "start": "Marymount MRT",
+    "end": "Upper Thomson MRT",
+    "color": "NATURE",
+    "description": [
+      {
+        "title": "experience",
+        "text": "This walk takes us through MacRitchie and the TreeTop Walk. It is pretty much a standard nature trail in Singapore, and one of the nicest as well. MacRitchie has beautiful views all around, yet never gets stale. The boardwalk, especially, gives us a great view of the reservoir. Not to mention the TreeTop Walk itself, which makes us feel like the Na'vi of Pandora."
+      },
+      {
+        "title": "refreshments",
+        "text": "We had snacks atop the Jelutong Tower, and lunch at Thomson Plaza."
+      }
+    ],
+    "stops": [
+      {
+        "name": "MacRitchie Boardwalk",
+        "lat": 1.3417962327074286,
+        "lng": 103.83189330055102
+      },
+      {
+        "name": "Lornie Trail",
+        "lat": 1.3420013554498391,
+        "lng": 103.82870162703499
+      },
+      {
+        "name": "Chemperai Trail",
+        "lat": 1.3435283797631135,
+        "lng": 103.82109860454602
+      },
+      {
+        "name": "Jelutong Tower",
+        "lat": 1.3512546524918378,
+        "lng": 103.80632571533579
+      },
+      {
+        "name": "TreeTop Walk",
+        "lat": 1.360358690227217,
+        "lng": 103.81195504910106
+      },
+      {
+        "name": "Windsor Nature Park",
+        "lat": 1.3603394671316629,
+        "lng": 103.82306911635315
+      }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "malls",
+        "items": [
+          "thomson-plaza"
+        ]
+      }
+    ]
   },
   "west-coast-malls": {
     "title": "West Coast Malls",
