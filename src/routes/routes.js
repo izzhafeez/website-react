@@ -17,7 +17,7 @@ const routesData = [
     category: 'merits',
     ...allData.merits,
     types: [
-      'all', 'experiences', 'awards', 'certificates', 'modules', 'languages', 'technologies', 'skills'
+      'all', 'experiences', 'awards', 'certificates', 'courses', 'modules', 'languages', 'technologies', 'skills'
     ]
   },
   {

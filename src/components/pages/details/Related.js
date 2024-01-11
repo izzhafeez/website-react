@@ -13,16 +13,19 @@ class Related {
       .map(related => {
         const data = allData[related.category].data[related.type].data;
         const itemsDict = related.items.reduce((map, item) => {
-          map[item] = data[item];
+          const value = data[item];
+          if (value) {
+            map[item] = data[item];
+          }
           return map;
         }, {});
-        return ItemsFactory.getConstructor(related.category)({
+        return Object.keys(itemsDict).length ? ItemsFactory.getConstructor(related.category)({
           type: related.type,
           data: itemsDict
         }).getPreview({
           withReturnButton: false,
           withMap: false
-        });
+        }) : '';
       });
   }
 };

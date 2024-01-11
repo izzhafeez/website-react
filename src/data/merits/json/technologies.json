@@ -1069,6 +1069,28 @@
       }
     ]
   },
+  "r-markdown": {
+    "title": "R Markdown",
+    "imgPath": "r-studio.svg",
+    "date": 2019,
+    "description": [
+      {
+        "title": "description",
+        "text": "R Markdown provides an unified authoring framework for data science, combining your code, its results, and your prose commentary. R Markdown documents are fully reproducible and support dozens of output formats, like PDFs, Word files, slideshows, and more."
+      }
+    ]
+  },
+  "r-studio": {
+    "title": "R Studio",
+    "imgPath": "r-studio.svg",
+    "date": 2019,
+    "description": [
+      {
+        "title": "description",
+        "text": "RStudio is an integrated development environment for R, a programming language for statistical computing and graphics. It is available in two formats: RStudio Desktop is a regular desktop application while RStudio Server runs on a remote server and allows accessing RStudio using a web browser."
+      }
+    ]
+  },
   "ruby-on-rails": {
     "title": "Ruby on Rails",
     "imgPath": "rails.svg",

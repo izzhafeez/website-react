@@ -1,7 +1,6 @@
 {
   "api-development": {
     "title": "API Dev",
-    "imgPath": "api-development.svg",
     "importance": 7,
     "date": 2019,
     "proficiency": 8,
@@ -69,9 +68,116 @@
       }
     ]
   },
+  "communication": {
+    "title": "Communication",
+    "description": [
+      {
+        "title": "description",
+        "text": "Communication is commonly defined as the transmission of information. Its precise definition is disputed and there are disagreements about whether unintentional or failed transmissions are included and whether communication not only transmits meaning but also creates it."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "dashboarding": {
+    "title": "Dashboarding",
+    "description": [
+      {
+        "title": "description",
+        "text": "In business computer information systems, a dashboard is a type of graphical user interface which often provides at-a-glance views of key performance indicators relevant to a particular objective or business process."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "data-aggregation": {
+    "title": "Data Aggregation",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data aggregation is the compiling of information from databases with intent to prepare combined datasets for data processing."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+          
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+          "analyze-data-to-answer-questions"
+        ]
+      }
+    ]
+  },
+  "data-analysis": {
+    "title": "Data Analysis",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data analysis is the process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+          "analyze-data-to-answer-questions",
+          "chat-gpt-advanced-data-analysis",
+          "data-analysis-with-r",
+          "ask-questions-to-make-data-driven-decisions","foundations-data-data-everywhere",
+          "generative-ai-elevate",
+          "go-beyond-the-numbers",
+          "google-advanced-data-analytics-capstone",
+          "google-data-analytics-capstone",
+          "share-data-through-the-art-of-visualization"
+        ]
+      }
+    ]
+  },
   "data-cleaning": {
     "title": "Data Cleaning",
-    "imgPath": "data-cleaning.svg",
     "importance": 6,
     "date": 2019,
     "proficiency": 9,
@@ -132,7 +238,6 @@
   },
   "data-management": {
     "title": "Data Management",
-    "imgPath": "data-management.svg",
     "importance": 5,
     "date": 2021,
     "proficiency": 4,
@@ -179,7 +284,6 @@
   },
   "data-mining": {
     "title": "Data Mining",
-    "imgPath": "data-mining.svg",
     "importance": 7,
     "date": 2019,
     "proficiency": 8,
@@ -227,7 +331,6 @@
   },
   "data-modeling": {
     "title": "Data Modeling",
-    "imgPath": "data-modeling.svg",
     "importance": 5,
     "date": 2021,
     "proficiency": 6,
@@ -284,7 +387,6 @@
   },
   "data-science": {
     "title": "Data Science",
-    "imgPath": "data-science.svg",
     "importance": 8,
     "date": 2019,
     "proficiency": 7,
@@ -362,7 +464,6 @@
   },
   "data-structures": {
     "title": "Data Structures",
-    "imgPath": "data-structures.svg",
     "importance": 5,
     "date": 2017,
     "proficiency": 7,
@@ -397,7 +498,6 @@
   },
   "data-visualisation": {
     "title": "Data Visualisation",
-    "imgPath": "data-visualisation.svg",
     "importance": 7,
     "date": 2019,
     "proficiency": 7,
@@ -440,9 +540,33 @@
       }
     ]
   },
+  "decision-making": {
+    "title": "Decision Making",
+    "description": [
+      {
+        "title": "description",
+        "text": "In psychology, decision-making is regarded as the cognitive process resulting in the selection of a belief or a course of action among several possible alternative options. It could be either rational or irrational."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+          "ask-questions-to-make-data-driven-decisions"
+        ]
+      }
+    ]
+  },
   "documentation": {
     "title": "Code Docs",
-    "imgPath": "documentation.svg",
     "importance": 5,
     "date": 2020,
     "proficiency": 5,
@@ -475,7 +599,6 @@
   },
   "frontend-development": {
     "title": "Frontend Dev",
-    "imgPath": "frontend.svg",
     "importance": 8,
     "date": 2019,
     "proficiency": 8,
@@ -530,7 +653,6 @@
   },
   "game-development": {
     "title": "Game Dev",
-    "imgPath": "game.svg",
     "importance": 3,
     "date": 2020,
     "proficiency": 3,
@@ -563,7 +685,6 @@
   },
   "geospatial-analytics": {
     "title": "Geospatial Analytics",
-    "imgPath": "geospatial.svg",
     "importance": 10,
     "date": 2019,
     "proficiency": 10,
@@ -621,7 +742,6 @@
   },
   "machine-learning": {
     "title": "Machine Learning",
-    "imgPath": "machine-learning.svg",
     "importance": 6,
     "date": 2019,
     "proficiency": 5,
@@ -677,9 +797,33 @@
       }
     ]
   },
+  "object-oriented-programming": {
+    "title": "Object-Oriented Programming",
+    "description": [
+      {
+        "title": "description",
+        "text": "Object-oriented programming is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields, and code in the form of procedures. A common feature of objects is that methods are attached to them and can access and modify the object's data fields."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+          "building-objects-in-c"
+        ]
+      }
+    ]
+  },
   "operational-analysis": {
     "title": "Operational Analysis",
-    "imgPath": "operational-analysis.svg",
     "importance": 8,
     "date": 2019,
     "proficiency": 8,
@@ -740,7 +884,6 @@
   },
   "problem-solving": {
     "title": "Problem Solving",
-    "imgPath": "problem-solving.svg",
     "importance": 6,
     "date": 2017,
     "proficiency": 7,
@@ -755,9 +898,85 @@
       }
     ]
   },
+  "prompt-engineering": {
+    "title": "Prompt Engineering",
+    "description": [
+      {
+        "title": "description",
+        "text": "Prompt engineering is the process of structuring text that can be interpreted and understood by a generative AI model.[1][2] A prompt is natural language text describing the task that an AI should perform."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+          "generative-ai-prompt-engineering",
+          "prompt-engineering-for-chat-gpt",
+          "trustworthy-generative-ai"
+        ]
+      }
+    ]
+  },
+  "reporting": {
+    "title": "Reporting",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data reporting is the process of collecting and formatting raw data and translating it into a digestible format to assess the ongoing performance of your organization. Your data reports can answer basic questions about the state of your business."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "sharing-insights": {
+    "title": "Sharing Insights",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data insights are found through the deep analysis of patterns and statistics within data. Through the interpretation of these patterns, organizations transform insights into forecasting customer needs, therefore promoting more effective decision-making."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
   "software-engineering": {
     "title": "Software Engineering",
-    "imgPath": "software-engineering.svg",
     "importance": 8,
     "date": 2019,
     "proficiency": 7,
@@ -809,7 +1028,6 @@
   },
   "software-testing": {
     "title": "Software Testing",
-    "imgPath": "testing.svg",
     "importance": 6,
     "date": 2019,
     "proficiency": 7,
@@ -878,7 +1096,6 @@
   },
   "ux-design": {
     "title": "User Experience (UX) Design",
-    "imgPath": "ux-design.svg",
     "importance": 8,
     "date": 2023,
     "proficiency": 8,
@@ -911,7 +1128,6 @@
   },
   "web-development": {
     "title": "Web Dev",
-    "imgPath": "web-development.svg",
     "importance": 9,
     "date": 2019,
     "proficiency": 9,
@@ -999,7 +1215,6 @@
   },
   "web-scraping": {
     "title": "Web Scraping",
-    "imgPath": "web-scraping.svg",
     "importance": 8,
     "date": 2019,
     "proficiency": 10,
@@ -1058,6 +1273,781 @@
         "type": "experiences",
         "items": [
           "data-analytics"
+        ]
+      }
+    ]
+  },
+  "system-programming": {
+    "title": "System Programming",
+    "description": [
+      {
+        "title": "description",
+        "text": "Systems programming, or system programming, is the activity of programming computer system software."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "data-engineering": {
+    "title": "Data Engineering",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data engineering refers to the building of systems to enable the collection and usage of data. This data is usually used to enable subsequent analysis and data science; which often involves machine learning. Making the data usable usually involves substantial compute and storage, as well as data processing."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "user-experience": {
+    "title": "User Experience",
+    "description": [
+      {
+        "title": "description",
+        "text": "The user experience is how a user interacts with and experiences a product, system or service. It includes a person's perceptions of utility, ease of use, and efficiency."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "usability-testing": {
+    "title": "Usability Testing",
+    "description": [
+      {
+        "title": "description",
+        "text": "Usability testing is a technique used in user-centered interaction design to evaluate a product by testing it on users. This can be seen as an irreplaceable usability practice, since it gives direct input on how real users use the system."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "ux-research": {
+    "title": "UX Research",
+    "description": [
+      {
+        "title": "description",
+        "text": "User experience (UX) research is about diving deep into how customers interact with your brand on a practical, functional level, and observing how easily they can complete their tasks and meet their goals."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "business-intelligence": {
+    "title": "Business Intelligence",
+    "description": [
+      {
+        "title": "description",
+        "text": "Business intelligence (BI) is a technology-driven process for analyzing data and delivering actionable information that helps executives, managers and workers make informed business decisions."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "business-requirements": {
+    "title": "Business Requirements",
+    "description": [
+      {
+        "title": "description",
+        "text": "Business requirements, also known as stakeholder requirements specifications, describe the characteristics of a proposed system from the viewpoint of the system's end user like a CONOPS. Products, systems, software, and processes are ways of how to deliver, satisfy, or meet business requirements."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "cross-functional": {
+    "title": "Cross-Functional",
+    "description": [
+      {
+        "title": "description",
+        "text": "A cross-functional team, also known as a multidisciplinary team or interdisciplinary team, is a group of people with different functional expertise working toward a common goal. It may include people from finance, marketing, operations, and human resources departments."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "team-dynamics": {
+    "title": "Team Dynamics",
+    "description": [
+      {
+        "title": "description",
+        "text": "Team dynamics refers to the relationships and interactions between team members that can affect their productivity and performance. It encompasses how team members communicate, collaborate, and coordinate their efforts to achieve a shared goal."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "project-management": {
+    "title": "Project Management",
+    "description": [
+      {
+        "title": "description",
+        "text": "Project management involves the planning and organization of a company's resources to move a specific task, event, or duty toward completion. It can involve a one-time project or an ongoing activity, and resources managed include personnel, finances, technology, and intellectual property."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "generative-ai": {
+    "title": "Generative AI",
+    "description": [
+      {
+        "title": "description",
+        "text": "Generative AI is a type of artificial intelligence technology that can produce various types of content, including text, imagery, audio and synthetic data."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "data-generation": {
+    "title": "Data Generation",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data generation (DG) refers to creating or producing new data. This can be done through various means, such as collecting data from sources, conducting surveys, performing experiments, or generating data through algorithms and simulations."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "large-language-models": {
+    "title": "large-language-models",
+    "description": [
+      {
+        "title": "description",
+        "text": "A large language model is a language model notable for its ability to achieve general-purpose language understanding and generation. LLMs acquire these abilities by learning statistical relationships from text documents during a computationally intensive self-supervised and semi-supervised training process."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "artificial-intelligence": {
+    "title": "Artificial Intelligence",
+    "description": [
+      {
+        "title": "description",
+        "text": "Artificial intelligence (AI) refers to the convergent fields of computer and data science focused on building machines with human intelligence to perform tasks that would previously have required a human being. For example, learning, reasoning, problem-solving, perception, language understanding and more."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "natural-language-processing": {
+    "title": "Natural Language Processing",
+    "description": [
+      {
+        "title": "description",
+        "text": "Natural language processing (NLP) is a branch of artificial intelligence (AI) that enables computers to comprehend, generate, and manipulate human language. Natural language processing has the ability to interrogate the data with natural language text or voice."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "exploratory-data-analysis": {
+    "title": "Exploratory Data Analysis",
+    "description": [
+      {
+        "title": "description",
+        "text": "In statistics, exploratory data analysis is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "executive-summaries": {
+    "title": "Executive Summaries",
+    "description": [
+      {
+        "title": "description",
+        "text": "An executive summary provides an overview of the main points of a larger report. It is often written to share with individuals who may not have time to review the entire report. The reader should be able to make a decision based only on reading the executive summary."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "data-collection": {
+    "title": "Data Collection",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data collection is the process of gathering and measuring information on variables of interest, in an established systematic fashion that enables one to answer stated research questions, test hypotheses, and evaluate outcomes."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "data-ethics": {
+    "title": "Data Ethics",
+    "description": [
+      {
+        "title": "description",
+        "text": "Big data ethics also known as simply data ethics refers to systemizing, defending, and recommending concepts of right and wrong conduct in relation to data, in particular personal data."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "title": "Metadata",
+    "description": [
+      {
+        "title": "description",
+        "text": "Metadata (or metainformation) is 'data that provides information about other data', but not the content of the data itself, such as the text of a message or the image itself. There are many distinct types of metadata, including: Descriptive metadata – the descriptive information about a resource."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "data-integrity": {
+    "title": "Data Integrity",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data integrity is a concept and process that ensures the accuracy, completeness, consistency, and validity of an organization's data. By following the process, organizations not only ensure the integrity of the data but guarantee they have accurate and correct data in their database."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "regression-analysis": {
+    "title": "Regression Analysis",
+    "description": [
+      {
+        "title": "description",
+        "text": "Regression analysis is a reliable method of identifying which variables have impact on a topic of interest. The process of performing a regression allows you to confidently determine which factors matter most, which factors can be ignored, and how these factors influence each other."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "statistical-analysis": {
+    "title": "Statistical Analysis",
+    "description": [
+      {
+        "title": "description",
+        "text": "Statistical analysis is the collection and interpretation of data in order to uncover patterns and trends. It is a component of data analytics. Statistical analysis can be used in situations like gathering research interpretations, statistical modeling or designing surveys and studies."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "predictive-modeling": {
+    "title": "Predictive Modeling",
+    "description": [
+      {
+        "title": "description",
+        "text": "Predictive modeling is a commonly used statistical technique to predict future behavior. Predictive modeling solutions are a form of data-mining technology that works by analyzing historical and current data and generating a model to help predict future outcomes."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "data-transformation": {
+    "title": "Data Transformation",
+    "description": [
+      {
+        "title": "description",
+        "text": "Data transformation is the process of converting, cleansing, and structuring data into a usable format that can be analyzed to support decision making processes, and to propel the growth of an organization. Data transformation is used when data needs to be converted to match that of the destination system."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "database-optimisation": {
+    "title": "Database Optimisation",
+    "description": [
+      {
+        "title": "description",
+        "text": "Query optimization is a feature of many relational database management systems and other databases such as NoSQL and graph databases. The query optimizer attempts to determine the most efficient way to execute a given query by considering the possible query plans."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "extraction-transformation-loading": {
+    "title": "Extraction Transformation Loading (ETL)",
+    "description": [
+      {
+        "title": "description",
+        "text": "Extract, transform, and load (ETL) is the process of combining data from multiple sources into a large, central repository called a data warehouse. ETL uses a set of business rules to clean and organize raw data and prepare it for storage, data analytics, and machine learning (ML)."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "probability": {
+    "title": "Probability",
+    "description": [
+      {
+        "title": "description",
+        "text": "Probability is the branch of mathematics concerning events and numerical descriptions of how likely they are to occur. The probability of an event is a number between 0 and 1; the larger the probability, the more likely an event is to occur."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "hypothesis-testing": {
+    "title": "Hypothesis Testing",
+    "description": [
+      {
+        "title": "description",
+        "text": "A statistical hypothesis test is a method of statistical inference used to decide whether the data at hand sufficiently support a particular hypothesis. More generally, hypothesis testing allows us to make probabilistic statements about population parameters."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "problem-formulation": {
+    "title": "Problem Formulation",
+    "description": [
+      {
+        "title": "description",
+        "text": "The process of defining the specific problem being addressed in, for example, an environmental risk assessment. It involves articulating a question and defining how it may be answered (e.g. by identifying the endpoints to be measured)."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
+        ]
+      }
+    ]
+  },
+  "dev-ops": {
+    "title": "DevOps",
+    "description": [
+      {
+        "title": "description",
+        "text": "DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+
         ]
       }
     ]

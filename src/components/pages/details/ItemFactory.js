@@ -1,6 +1,6 @@
 import { HikePost } from "./blog/blogTypes";
 import MallPost from "./blog/blogTypes/MallPost";
-import { Award, Certificate, Experience, Language, Module, Skill, Technology } from "./merits/meritTypes";
+import { Award, Certificate, Course, Experience, Language, Module, Skill, Technology } from "./merits/meritTypes";
 import { Coding, Graph, Music, Quiz } from "./projects/projectTypes";
 
 class ItemFactory {
@@ -34,6 +34,8 @@ class ItemFactory {
         return page => params => new Award({key: page, ...params});
       case 'certificates':
         return page => params => new Certificate({key: page, ...params});
+      case 'courses':
+        return page => params => new Course({key: page, ...params});
       case 'experiences':
         return page => params => new Experience({key: page, ...params});
       case 'languages':
