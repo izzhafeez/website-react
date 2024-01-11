@@ -30,9 +30,7 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -40,7 +38,8 @@
         "items": [
           "data-aggregation",
           "data-analysis",
-          "data-calculations"
+          "data-calculations",
+          "google-data-analytics"
         ]
       }
     ]
@@ -69,23 +68,20 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "decision-making",
           "data-analysis",
+          "decision-making",
+          "google-data-analytics",
           "problem-solving"
         ]
       }
@@ -122,14 +118,13 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "c-programming-for-everybody",
           "object-oriented-programming"
         ]
       }
@@ -159,21 +154,18 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-analysis",
           "prompt-engineering",
           "prompt-patterns"
         ]
@@ -204,9 +196,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -219,9 +209,10 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "data-visualisation",
           "communication",
           "dashboarding",
+          "data-visualisation",
+          "google-business-intelligence",
           "reporting",
           "sharing-insights"
         ]
@@ -260,16 +251,19 @@
         "category": "merits",
         "type": "technologies",
         "items": [
-          "r-studio",
-          "r-markdown"
+          "r-markdown",
+          "r-studio"
         ]
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-analysis",
           "data-visualisation",
-          "data-analysis"
+          "google-data-analytics",
+          "r-markdown",
+          "r-studio"
         ]
       }
     ]
@@ -299,24 +293,23 @@
         "category": "merits",
         "type": "languages",
         "items": [
-          "rust",
-          "python"
+          "python",
+          "rust"
         ]
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-engineering",
+          "rust-programming",
           "software-testing",
-          "system-programming",
-          "data-engineering"
+          "system-programming"
         ]
       }
     ]
@@ -352,16 +345,15 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "memory-management",
-          "data-structures"
+          "c-programming-for-everybody",
+          "data-structures",
+          "memory-management"
         ]
       }
     ]
@@ -376,38 +368,33 @@
     "description": [
       {
         "title": "lessons learnt",
-        "text": "In this course, I learned to systematically apply each step of the UX design thinking framework – empathize, define, ideate, prototype, and test – to create a dynamic and user-centered website. The curriculum provided practical insights and hands-on experience in understanding user needs, defining design problems, generating creative ideas, prototyping solutions, and iteratively testing and refining the website design.\n\nA significant aspect of the learning process involved planning information architecture and creating sitemaps for effective website designs. I gained skills in organizing content, defining user journeys, and ensuring a logical and intuitive structure for seamless user navigation.\n\nThe course also covered the application of common layouts for web pages. I learned about design principles specific to web interfaces, including the arrangement of elements, visual hierarchy, and responsive design considerations to ensure an optimal user experience across various devices and screen sizes.\n\nA hands-on design project was a key component of the course, providing an opportunity to apply the acquired knowledge and skills to create a complete website design. This project was intended to be included in my professional UX portfolio, showcasing my ability to conceptualize, design, and implement user-centered web experiences.\n\nIn summary, the course equipped me with a practical understanding of applying the UX design thinking framework to web design, planning information architecture, implementing common web page layouts, and completing a comprehensive design project for inclusion in my professional portfolio. This holistic approach ensures that I am well-prepared to create dynamic and user-friendly websites with a strong foundation in UX design principles."
+        "text": "In this course, I learned to systematically apply each step of the UX design thinking framework \u2013 empathize, define, ideate, prototype, and test \u2013 to create a dynamic and user-centered website. The curriculum provided practical insights and hands-on experience in understanding user needs, defining design problems, generating creative ideas, prototyping solutions, and iteratively testing and refining the website design.\n\nA significant aspect of the learning process involved planning information architecture and creating sitemaps for effective website designs. I gained skills in organizing content, defining user journeys, and ensuring a logical and intuitive structure for seamless user navigation.\n\nThe course also covered the application of common layouts for web pages. I learned about design principles specific to web interfaces, including the arrangement of elements, visual hierarchy, and responsive design considerations to ensure an optimal user experience across various devices and screen sizes.\n\nA hands-on design project was a key component of the course, providing an opportunity to apply the acquired knowledge and skills to create a complete website design. This project was intended to be included in my professional UX portfolio, showcasing my ability to conceptualize, design, and implement user-centered web experiences.\n\nIn summary, the course equipped me with a practical understanding of applying the UX design thinking framework to web design, planning information architecture, implementing common web page layouts, and completing a comprehensive design project for inclusion in my professional portfolio. This holistic approach ensures that I am well-prepared to create dynamic and user-friendly websites with a strong foundation in UX design principles."
       }
     ],
     "related": [
       {
         "category": "merits",
         "type": "certificates",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "google-ux-design",
           "usability-testing",
-          "ux-design",
-          "user-experience"
+          "user-experience",
+          "ux-design"
         ]
       }
     ]
@@ -436,25 +423,22 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "google-ux-design",
           "prototype",
-          "ux-research",
+          "user-experience",
           "ux-design",
-          "user-experience"
+          "ux-research"
         ]
       }
     ]
@@ -490,15 +474,13 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          
+          "c-programming-for-everybody"
         ]
       }
     ]
@@ -534,17 +516,16 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "data-visualisation",
+          "data-analysis",
           "data-cleaning",
-          "data-analysis"
+          "data-visualisation",
+          "google-data-analytics"
         ]
       }
     ]
@@ -573,25 +554,22 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "business-requirements",
           "cross-functional",
+          "google-business-intelligence",
           "management",
-          "sharing-insights",
-          "business-requirements"
+          "sharing-insights"
         ]
       }
     ]
@@ -620,25 +598,22 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "communication",
+          "google-advanced-data-analytics",
           "project-management",
           "sharing-insights",
-          "team-dynamics",
-          "communication"
+          "team-dynamics"
         ]
       }
     ]
@@ -667,24 +642,21 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "ux-research",
+          "google-ux-design",
+          "user-experience",
           "ux-design",
-          "user-experience"
+          "ux-research"
         ]
       }
     ]
@@ -713,25 +685,22 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "generative-ai",
-          "data-science",
           "data-analysis",
-          "data-generation"
+          "data-generation",
+          "data-science",
+          "generative-ai",
+          "ibm-generative-ai-data-science"
         ]
       }
     ]
@@ -760,9 +729,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -775,9 +742,10 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "generative-ai",
-          "large-language-models",
           "artificial-intelligence",
+          "generative-ai",
+          "ibm-generative-ai-data-science",
+          "large-language-models",
           "natural-language-processing"
         ]
       }
@@ -807,9 +775,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -822,10 +788,11 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "artificial-intelligence",
           "generative-ai",
-          "prompt-patterns",
+          "ibm-generative-ai-data-science",
           "prompt-engineering",
-          "artificial-intelligence"
+          "prompt-patterns"
         ]
       }
     ]
@@ -870,8 +837,9 @@
         "type": "skills",
         "items": [
           "coding",
+          "data-visualisation",
           "documentation",
-          "data-visualisation"
+          "google-advanced-data-analytics"
         ]
       }
     ]
@@ -916,8 +884,10 @@
         "type": "skills",
         "items": [
           "communication",
+          "data-analysis",
           "data-visualisation",
-          "exploratory-data-analysis"
+          "exploratory-data-analysis",
+          "google-advanced-data-analytics"
         ]
       }
     ]
@@ -953,17 +923,16 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
           "data-analysis",
-          "machine-learning",
-          "executive-summaries"
+          "executive-summaries",
+          "google-advanced-data-analytics",
+          "machine-learning"
         ]
       }
     ]
@@ -992,16 +961,12 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -1009,7 +974,8 @@
         "items": [
           "data-analysis",
           "data-cleaning",
-          "data-visualisation"
+          "data-visualisation",
+          "google-data-analytics"
         ]
       }
     ]
@@ -1038,9 +1004,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -1053,7 +1017,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          
+          "google-professional-workspace"
         ]
       }
     ]
@@ -1082,9 +1046,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -1097,7 +1059,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          
+          "google-professional-workspace"
         ]
       }
     ]
@@ -1126,9 +1088,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -1141,7 +1101,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          
+          "google-professional-workspace"
         ]
       }
     ]
@@ -1170,9 +1130,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -1185,8 +1143,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "ux-design",
-          "user-experience"
+          "google-ux-design",
+          "user-experience",
+          "ux-design"
         ]
       }
     ]
@@ -1215,9 +1174,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -1230,7 +1187,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          
+          "google-professional-workspace"
         ]
       }
     ]
@@ -1259,9 +1216,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -1274,7 +1229,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          
+          "google-professional-workspace"
         ]
       }
     ]
@@ -1310,17 +1265,16 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "metadata",
           "data-collection",
-          "data-ethics"
+          "data-ethics",
+          "google-data-analytics",
+          "metadata"
         ]
       }
     ]
@@ -1356,16 +1310,15 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-cleaning",
           "data-integrity",
-          "data-cleaning"
+          "google-data-analytics"
         ]
       }
     ]
@@ -1401,14 +1354,13 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "c-programming-for-everybody",
           "recursive-function"
         ]
       }
@@ -1438,9 +1390,7 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
@@ -1453,9 +1403,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "large-language-models",
           "prompt-engineering",
-          "prompt-patterns",
-          "large-language-models"
+          "prompt-patterns"
         ]
       }
     ]
@@ -1492,14 +1442,13 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "rust-programming",
           "software-testing",
           "system-programming"
         ]
@@ -1537,63 +1486,17 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "regression-analysis",
-          "statistical-analysis",
           "communication",
-          "predictive-modeling"
-        ]
-      }
-    ]
-  },
-  "rust-llmops": {
-    "title": "Rust for LLMOps",
-    "imgPath": "duke.png",
-    "issuer": "Duke University",
-    "date": "Jan'24",
-    "link": "https://www.coursera.org/account/accomplishments/records/2DQ8CL58GAG7",
-    "importance": 0,
-    "description": [
-      {
-        "title": "lessons learnt",
-        "text": "In this course, I learned how to master deploying Rust for intricate Low-Level Management Operations (LLMOps) workflows. The focus was on developing expertise in using Rust, a systems programming language known for its performance and reliability, within the context of complex LLMOps processes. This course equipped me with advanced knowledge and skills, enabling me to leverage Rust effectively in deploying and managing intricate LLMOps workflows, ensuring optimal performance and reliability in low-level system operations."
-      }
-    ],
-    "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "rust-programming"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "hugging-face"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "machine-learning",
-          "large-language-models"
+          "google-advanced-data-analytics",
+          "predictive-modeling",
+          "regression-analysis",
+          "statistical-analysis"
         ]
       }
     ]
@@ -1637,8 +1540,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "software-testing",
           "dev-ops",
+          "rust-programming",
+          "software-testing",
           "system-programming"
         ]
       }
@@ -1675,16 +1579,61 @@
       {
         "category": "merits",
         "type": "technologies",
+        "items": []
+      },
+      {
+        "category": "merits",
+        "type": "skills",
         "items": [
-          
+          "rust-programming",
+          "software-testing",
+          "system-programming"
+        ]
+      }
+    ]
+  },
+  "rust-llmops": {
+    "title": "Rust for LLMOps",
+    "imgPath": "duke.png",
+    "issuer": "Duke University",
+    "date": "Jan'24",
+    "link": "https://www.coursera.org/account/accomplishments/records/2DQ8CL58GAG7",
+    "importance": 0,
+    "description": [
+      {
+        "title": "lessons learnt",
+        "text": "In this course, I learned how to master deploying Rust for intricate Low-Level Management Operations (LLMOps) workflows. The focus was on developing expertise in using Rust, a systems programming language known for its performance and reliability, within the context of complex LLMOps processes. This course equipped me with advanced knowledge and skills, enabling me to leverage Rust effectively in deploying and managing intricate LLMOps workflows, ensuring optimal performance and reliability in low-level system operations."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+          "rust-programming"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "rust"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "hugging-face"
         ]
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "software-testing",
-          "system-programming"
+          "large-language-models",
+          "machine-learning",
+          "rust-programming"
         ]
       }
     ]
@@ -1713,15 +1662,13 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
         "items": [
-          "tableau"          
+          "tableau"
         ]
       },
       {
@@ -1729,7 +1676,8 @@
         "type": "skills",
         "items": [
           "data-analysis",
-          "data-visualisation"
+          "data-visualisation",
+          "google-data-analytics"
         ]
       }
     ]
@@ -1774,6 +1722,7 @@
         "type": "skills",
         "items": [
           "communication",
+          "google-advanced-data-analytics",
           "predictive-modeling"
         ]
       }
@@ -1796,32 +1745,27 @@
       {
         "category": "merits",
         "type": "certificates",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "extraction-transformation-loading",
-          "data-transformation",
           "data-management",
-          "database-optimisation"
+          "data-transformation",
+          "database-optimisation",
+          "extraction-transformation-loading",
+          "google-business-intelligence"
         ]
       }
     ]
@@ -1857,18 +1801,17 @@
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "statistical-analysis",
           "communication",
+          "google-advanced-data-analytics",
+          "hypothesis-testing",
           "probability",
-          "hypothesis-testing"
+          "statistical-analysis"
         ]
       }
     ]
@@ -1897,23 +1840,20 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
           "generative-ai",
-          "problem-formulation"
+          "problem-formulation",
+          "prompt-engineering"
         ]
       }
     ]
@@ -1942,24 +1882,21 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "google-ux-design",
           "usability-testing",
-          "ux-design",
-          "user-experience"
+          "user-experience",
+          "ux-design"
         ]
       }
     ]
@@ -1988,24 +1925,21 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "google-ux-design",
           "usability-testing",
-          "ux-design",
           "user-experience",
+          "ux-design",
           "ux-research"
         ]
       }
@@ -2035,23 +1969,20 @@
       {
         "category": "merits",
         "type": "languages",
-        "items": [
-
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "technologies",
-        "items": [
-          
-        ]
+        "items": []
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "ux-design",
+          "google-ux-design",
           "user-experience",
+          "ux-design",
           "ux-research"
         ]
       }

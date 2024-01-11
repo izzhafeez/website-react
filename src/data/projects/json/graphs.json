@@ -236,19 +236,19 @@
     "complexity": 5,
     "link": "https://www.desmos.com/calculator/axfz0eo4lj"
   },
-  "random-walks-square": {
-    "title": "Random Walks Square",
-    "imgPath": "random-walks-square.png",
-    "importance": 4,
-    "complexity": 5,
-    "link": "https://www.desmos.com/calculator/fxwigy6ppr"
-  },
   "random-walks-3d": {
     "title": "Random Walks 3D",
     "imgPath": "random-walks-3d.png",
     "importance": 3,
     "complexity": 8,
     "link": "https://www.desmos.com/calculator/d7mpvqo0hc"
+  },
+  "random-walks-square": {
+    "title": "Random Walks Square",
+    "imgPath": "random-walks-square.png",
+    "importance": 4,
+    "complexity": 5,
+    "link": "https://www.desmos.com/calculator/fxwigy6ppr"
   },
   "seahorse": {
     "title": "Seahorse",

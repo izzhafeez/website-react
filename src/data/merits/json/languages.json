@@ -20,8 +20,8 @@
         "category": "projects",
         "type": "coding",
         "items": [
-          "website-react",
-          "auto-gitter"
+          "auto-gitter",
+          "website-react"
         ]
       },
       {
@@ -29,36 +29,6 @@
         "type": "modules",
         "items": [
           "cs2106"
-        ]
-      }
-    ]
-  },
-  "chinese": {
-    "title": "Chinese",
-    "imgPath": "chinese.svg",
-    "importance": 8,
-    "date": 2018,
-    "proficiency": 6,
-    "description": [
-      {
-        "title": "background",
-        "text": "I started learning Chinese in 2018, where I quickly started and completed the course on Duolingo. After that, I was motivated to try out the 汉语水平考试, which is the standardized test for non-native speakers of the language. I did the HSK 3 test in late 2019, where I scored over 90% in the test. In 2021, I scored just over 70% for the HSK 5 test while in 2022, I scored in the 50-60% range.\nApart from regularly reading my news in Chinese, I have created several coding projects to assist me in my learning journey. Firstly, my <<../projects/coding/sentence-searcher>>language extraction package</> allows me to search for sample sentences programmatically. Secondly, my language database allows for enhanced search queries. Thirdly, my language-learning telegram bot helps me revise my vocabulary."
-      }
-    ],
-    "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "hsk-5",
-          "hsk-6"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "sentence-searcher"
         ]
       }
     ]
@@ -84,41 +54,21 @@
         "category": "merits",
         "type": "modules",
         "items": [
+          "building-objects-in-c",
+          "c-programming-for-everybody",
           "cs2100",
-          "cs2106"
+          "cs2106",
+          "data-structures-in-c",
+          "exploring-c",
+          "programming-in-c"
         ]
       },
       {
         "category": "projects",
         "type": "coding",
         "items": [
-          "programming-lines-counter"
-        ]
-      }
-    ]
-  },
-  "cpp": {
-    "title": "C++",
-    "imgPath": "cpp.svg",
-    "importance": 2,
-    "date": 2017,
-    "proficiency": 2,
-    "description": [
-      {
-        "title": "description",
-        "text": "C++ is a powerful object-oriented programming language that extends the capabilities of C with features such as classes, templates, and dynamic memory management, making it suitable for a wide range of applications including game development, high-performance computing, and system-level programming."
-      },
-      {
-        "title": "background",
-        "text": "I first learned C++ in 2017, where I was getting to know the basics of programming. Along with <<../merits/languages/python>>Python</>, C++ was one of my first languages. Despite having early exposure to the language, I didn't explore C++ any further, and chose to focus on Python for my regular programming tasks.\nIn 2022, after learning the <<../merits/languages/c>>C language</>, I started creating my own projects in C++. I mainly did projects that allowed me to practice both my <<../merits/skills/data-structures>>Data Structures</> and OOP. For example, I created a <<../projects/coding/sz-matrix>>self-zooming matrix</> that allows me to store geospatial points and perform distance queries more easily."
-      }
-    ],
-    "related": [
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "sz-matrix"
+          "programming-lines-counter",
+          "website-react"
         ]
       }
     ]
@@ -151,7 +101,79 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "game-development"
+          "data-management",
+          "game-development",
+          "unity"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "malls-of-singapore"
+        ]
+      }
+    ]
+  },
+  "chinese": {
+    "title": "Chinese",
+    "imgPath": "chinese.svg",
+    "importance": 8,
+    "date": 2018,
+    "proficiency": 6,
+    "description": [
+      {
+        "title": "background",
+        "text": "I started learning Chinese in 2018, where I quickly started and completed the course on Duolingo. After that, I was motivated to try out the \u6c49\u8bed\u6c34\u5e73\u8003\u8bd5, which is the standardized test for non-native speakers of the language. I did the HSK 3 test in late 2019, where I scored over 90% in the test. In 2021, I scored just over 70% for the HSK 5 test while in 2022, I scored in the 50-60% range.\nApart from regularly reading my news in Chinese, I have created several coding projects to assist me in my learning journey. Firstly, my <<../projects/coding/sentence-searcher>>language extraction package</> allows me to search for sample sentences programmatically. Secondly, my language database allows for enhanced search queries. Thirdly, my language-learning telegram bot helps me revise my vocabulary."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "certificates",
+        "items": [
+          "hsk-5",
+          "hsk-6"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "sentence-searcher"
+        ]
+      }
+    ]
+  },
+  "cpp": {
+    "title": "C++",
+    "imgPath": "cpp.svg",
+    "importance": 2,
+    "date": 2017,
+    "proficiency": 2,
+    "description": [
+      {
+        "title": "description",
+        "text": "C++ is a powerful object-oriented programming language that extends the capabilities of C with features such as classes, templates, and dynamic memory management, making it suitable for a wide range of applications including game development, high-performance computing, and system-level programming."
+      },
+      {
+        "title": "background",
+        "text": "I first learned C++ in 2017, where I was getting to know the basics of programming. Along with <<../merits/languages/python>>Python</>, C++ was one of my first languages. Despite having early exposure to the language, I didn't explore C++ any further, and chose to focus on Python for my regular programming tasks.\nIn 2022, after learning the <<../merits/languages/c>>C language</>, I started creating my own projects in C++. I mainly did projects that allowed me to practice both my <<../merits/skills/data-structures>>Data Structures</> and OOP. For example, I created a <<../projects/coding/sz-matrix>>self-zooming matrix</> that allows me to store geospatial points and perform distance queries more easily."
+      }
+    ],
+    "related": [
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "sz-matrix"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "data-structures"
         ]
       }
     ]
@@ -184,20 +206,23 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "frontend-development"
+          "bootstrap",
+          "data-management",
+          "frontend-development",
+          "web-developer-udemy",
+          "web-development"
         ]
       },
       {
         "category": "projects",
         "type": "coding",
         "items": [
+          "bus-routes-optimiser",
+          "chords-search-engine",
           "malls-of-singapore",
           "meetup-maker",
           "note-together",
-          "website-react",
-          "bus-routes-optimiser",
-          "chords-search-engine"
+          "website-react"
         ]
       }
     ]
@@ -244,6 +269,14 @@
         "items": [
           "malls-of-singapore"
         ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "api-development",
+          "web-development"
+        ]
       }
     ]
   },
@@ -285,8 +318,19 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "frontend-development"
+          "data-management",
+          "frontend-development",
+          "python-for-everybody",
+          "web-developer-udemy",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "malls-of-singapore",
+          "website-react"
         ]
       }
     ]
@@ -315,6 +359,7 @@
         "category": "projects",
         "type": "coding",
         "items": [
+          "jap-vocab-trainer",
           "sentence-searcher"
         ]
       }
@@ -343,8 +388,8 @@
         "items": [
           "cs2030s",
           "cs2040s",
-          "cs3230",
-          "cs2103t"
+          "cs2103t",
+          "cs3230"
         ]
       },
       {
@@ -372,7 +417,18 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "software-engineering"
+          "api-development",
+          "cs2030s",
+          "cs2040s",
+          "cs2103t",
+          "cs3230",
+          "intellij",
+          "java-udemy",
+          "junit",
+          "software-engineering",
+          "software-testing",
+          "spring",
+          "web-development"
         ]
       }
     ]
@@ -420,42 +476,63 @@
         "category": "merits",
         "type": "technologies",
         "items": [
-          "react-js",
           "angular-js",
-          "vue-js",
+          "express-js",
+          "jest",
+          "node-js",
+          "react-js",
           "svelte-js",
           "telegram-bots",
-          "express-js",
-          "node-js",
-          "jest"
+          "vue-js"
         ]
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "frontend-development",
           "api-development",
-          "software-testing"
+          "frontend-development",
+          "software-testing",
+          "web-development"
         ]
       },
       {
         "category": "projects",
         "type": "coding",
         "items": [
-          "note-together",
-          "website-react",
           "bus-routes-optimiser",
           "halal-recommender",
-          "notes-telegram-bot"
+          "malls-of-singapore",
+          "note-together",
+          "notes-telegram-bot",
+          "website-react"
         ]
       },
       {
         "category": "merits",
         "type": "modules",
         "items": [
-          "cp2106"
+          "angular-js",
+          "api-development",
+          "bootstrap",
+          "cp2106",
+          "cs3216",
+          "data-modeling",
+          "express-js",
+          "frontend-development",
+          "fullstack-intern",
+          "gcp",
+          "jest",
+          "mongo-db",
+          "node-js",
+          "react-js",
+          "software-testing",
+          "svelte-js",
+          "telegram-bots",
+          "typescript",
+          "vue-js",
+          "web-developer-udemy",
+          "web-development"
         ]
       }
     ]
@@ -553,7 +630,8 @@
         "category": "merits",
         "type": "certificates",
         "items": [
-          "web-developer-udemy"
+          "web-developer-udemy",
+          "web-development"
         ]
       }
     ]
@@ -587,66 +665,104 @@
         "category": "merits",
         "type": "technologies",
         "items": [
-          "pandas",
-          "flask",
           "django",
-          "tensorflow",
+          "flask",
+          "pandas",
+          "pytorch",
           "selenium",
-          "pytorch"
+          "tensorflow"
         ]
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "geospatial-analytics",
-          "web-development",
           "api-development",
-          "web-scraping",
-          "operational-analysis",
           "data-cleaning",
-          "data-science",
           "data-mining",
-          "data-structures"
+          "data-science",
+          "data-structures",
+          "geospatial-analytics",
+          "operational-analysis",
+          "web-development",
+          "web-scraping"
         ]
       },
       {
         "category": "projects",
         "type": "coding",
         "items": [
-          "dynamic-resource-optimiser",
-          "malls-of-singapore",
-          "geospatial-management",
-          "meetup-maker",
           "chords-search-engine",
+          "dynamic-resource-optimiser",
           "geospatial-extraction",
+          "geospatial-management",
+          "malls-of-singapore",
+          "meetup-maker",
+          "mrt-paths-analysis",
+          "sentence-searcher",
           "spiderman-web-scraper",
           "svg-converter",
-          "mrt-paths-analysis"
+          "website-react"
         ]
       },
       {
         "category": "merits",
         "type": "modules",
         "items": [
-          "cs2109s",
-          "cp2106"
+          "cp2106",
+          "cs2109s"
         ]
       },
       {
         "category": "merits",
         "type": "certificates",
         "items": [
-          "python-for-everybody",
-          "deep-learning-tensorflow"
+          "deep-learning-tensorflow",
+          "python-for-everybody"
         ]
       },
       {
         "category": "merits",
         "type": "experiences",
         "items": [
+          "anaconda",
+          "api-development",
+          "cp2106",
+          "cs2109s",
+          "cs3216",
           "data-analytics",
-          "robotics"
+          "data-cleaning",
+          "data-engineering-with-rust",
+          "data-mining",
+          "data-science",
+          "data-structures",
+          "data-visualisation",
+          "deep-learning-tensorflow",
+          "django",
+          "flask",
+          "geospatial-analytics",
+          "getting-started-with-python",
+          "go-beyond-the-numbers",
+          "google-advanced-data-analytics",
+          "google-advanced-data-analytics-capstone",
+          "jupyter",
+          "machine-learning",
+          "operational-analysis",
+          "pandas",
+          "python-for-everybody",
+          "python-rust-linux",
+          "pytorch",
+          "regression-analysis",
+          "robotics",
+          "rust-programming",
+          "selenium",
+          "software-engineering",
+          "software-testing",
+          "tensorflow",
+          "the-nuts-and-bolts-of-machine-learning",
+          "the-power-of-statistics",
+          "web-development",
+          "web-scraping"
         ]
       }
     ]
@@ -673,16 +789,27 @@
         "type": "skills",
         "items": [
           "data-cleaning",
+          "data-science",
           "data-visualisation",
-          "machine-learning",
-          "data-science"
+          "machine-learning"
         ]
       },
       {
         "category": "merits",
         "type": "certificates",
         "items": [
-          "harvardx-data-science"
+          "anaconda",
+          "data-analysis-with-r",
+          "data-analytics",
+          "data-cleaning",
+          "data-science",
+          "data-visualisation",
+          "google-data-analytics",
+          "harvardx-data-science",
+          "jupyter",
+          "machine-learning",
+          "operational-analysis",
+          "web-scraping"
         ]
       }
     ]
@@ -727,8 +854,20 @@
         "category": "merits",
         "type": "experiences",
         "items": [
+          "api-development",
+          "data-analytics",
           "fullstack-intern",
-          "data-analytics"
+          "ruby-on-rails",
+          "software-testing"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "bus-routes-optimiser",
+          "dynamic-resource-optimiser",
+          "website-react"
         ]
       }
     ]
@@ -762,8 +901,17 @@
         "type": "skills",
         "items": [
           "api-development",
+          "data-engineering-with-rust",
           "data-structures",
-          "software-engineering"
+          "intellij",
+          "python-rust-linux",
+          "rocket-rs",
+          "rust-for-dev-ops",
+          "rust-fundamentals",
+          "rust-llmops",
+          "rust-programming",
+          "software-engineering",
+          "web-development"
         ]
       },
       {
@@ -771,7 +919,8 @@
         "type": "coding",
         "items": [
           "jap-vocab-trainer",
-          "neothesia"
+          "neothesia",
+          "website-react"
         ]
       }
     ]
@@ -854,7 +1003,26 @@
         "category": "merits",
         "type": "modules",
         "items": [
-          "cs2102"
+          "analyze-data-to-answer-questions",
+          "cs2102",
+          "data-cleaning",
+          "data-management",
+          "data-modeling",
+          "foundations-data-data-everywhere",
+          "google-business-intelligence",
+          "google-data-analytics",
+          "postgresql",
+          "prepare-data-for-exploration",
+          "process-data-from-dirty-to-clean",
+          "python-for-everybody",
+          "ssms"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "meetup-maker"
         ]
       }
     ]
@@ -897,7 +1065,10 @@
         "category": "merits",
         "type": "languages",
         "items": [
-          "javascript"
+          "angular-js",
+          "cp2106",
+          "javascript",
+          "web-development"
         ]
       },
       {

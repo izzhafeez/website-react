@@ -34,8 +34,12 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "building-objects-in-c",
           "computer-architecture",
-          "object-oriented-programming"
+          "data-structures-in-c",
+          "exploring-c",
+          "object-oriented-programming",
+          "programming-in-c"
         ]
       }
     ]
@@ -74,7 +78,9 @@
         "items": [
           "data-science",
           "data-visualisation",
-          "machine-learning"
+          "machine-learning",
+          "python",
+          "tensorflow"
         ]
       }
     ]
@@ -119,21 +125,27 @@
         "items": [
           "jupyter",
           "pandas",
-          "tensorflow",
-          "tableau"
+          "tableau",
+          "tensorflow"
         ]
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "data-science",
           "data-analysis",
+          "data-science",
+          "exploratory-data-analysis",
+          "foundations-of-data-science",
+          "getting-started-with-python",
+          "go-beyond-the-numbers",
+          "google-advanced-data-analytics-capstone",
           "machine-learning",
           "predictive-modeling",
           "regression-analysis",
-          "exploratory-data-analysis",
-          "statistical-analysis"
+          "statistical-analysis",
+          "the-nuts-and-bolts-of-machine-learning",
+          "the-power-of-statistics"
         ]
       }
     ]
@@ -156,8 +168,8 @@
         "category": "merits",
         "type": "courses",
         "items": [
-          "foundations-of-business-intelligence",
           "dashboards-reports",
+          "foundations-of-business-intelligence",
           "the-path-to-insights"
         ]
       },
@@ -172,23 +184,25 @@
         "category": "merits",
         "type": "technologies",
         "items": [
-          "tableau",
-          "big-query"
+          "big-query",
+          "tableau"
         ]
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
+          "business-analysis",
           "business-intelligence",
-          "extraction-transformation-loading",
+          "business-process",
           "dashboarding",
-          "reporting",
+          "dashboards-reports",
           "data-analysis",
           "data-modeling",
-          "business-analysis",
-          "business-process",
-          "data-visualisation"
+          "data-visualisation",
+          "extraction-transformation-loading",
+          "foundations-of-business-intelligence",
+          "reporting"
         ]
       }
     ]
@@ -225,8 +239,8 @@
         "category": "merits",
         "type": "languages",
         "items": [
-          "sql",
-          "r"
+          "r",
+          "sql"
         ]
       },
       {
@@ -240,17 +254,26 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "analyze-data-to-answer-questions",
+          "ask-questions-to-make-data-driven-decisions",
+          "data-aggregation",
           "data-analysis",
-          "data-visualisation",
+          "data-analysis-with-r",
+          "data-calculation",
           "data-cleaning",
           "data-collection",
-          "metadata",
           "data-ethics",
-          "data-aggregation",
-          "data-calculation",
           "data-integrity",
+          "data-visualisation",
           "decision-making",
-          "problem-solving"
+          "foundations-data-data-everywhere",
+          "google-data-analytics-capstone",
+          "metadata",
+          "prepare-data-for-exploration",
+          "problem-solving",
+          "process-data-from-dirty-to-clean",
+          "r",
+          "share-data-through-the-art-of-visualization"
         ]
       }
     ]
@@ -273,18 +296,23 @@
         "category": "merits",
         "type": "courses",
         "items": [
-          "introduction-to-google-workspace-administration",
-          "managing-google-workspace",
-          "google-workspace-security",
+          "google-workspace-deployment",
           "google-workspace-mail-management",
-          "google-workspace-deployment"
+          "google-workspace-security",
+          "introduction-to-google-workspace-administration",
+          "managing-google-workspace"
         ]
       },
       {
         "category": "merits",
         "type": "technologies",
         "items": [
-          "gcp"
+          "gcp",
+          "google-workspace-deployment",
+          "google-workspace-mail-management",
+          "google-workspace-security",
+          "introduction-to-google-workspace-administration",
+          "managing-google-workspace"
         ]
       }
     ]
@@ -327,15 +355,21 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "empathize-define-ideate",
+          "figma",
+          "foundations-of-ux",
           "frontend-development",
+          "high-fidelity-designs-in-figma",
+          "mockup",
           "problem-solving",
-          "wireframe",
           "prototype",
-          "ux-research",
           "usability-testing",
           "user-experience",
           "ux-design",
-          "mockup"
+          "ux-for-social-good",
+          "ux-research",
+          "wireframe",
+          "wireframes-low-fidelity-prototypes"
         ]
       }
     ]
@@ -365,11 +399,12 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-cleaning",
+          "data-mining",
           "data-science",
           "data-visualisation",
-          "data-mining",
-          "data-cleaning",
-          "machine-learning"
+          "machine-learning",
+          "r"
         ]
       }
     ]
@@ -377,7 +412,7 @@
   "hsk-5": {
     "title": "HSK 5 (211/300)",
     "imgPath": "confucius.png",
-    "issuer": "汉语水平考试",
+    "issuer": "\u6c49\u8bed\u6c34\u5e73\u8003\u8bd5",
     "date": "Mar'21",
     "link": "http://www.chinesetest.cn/queryScore.do?sid=c2tActR9Wb%27d1ab44da677955ce3b5c9231ff65ea765c6b8d2a3849b500%2724d7sWsQ5nVUQSwD",
     "importance": 8,
@@ -400,7 +435,7 @@
   "hsk-6": {
     "title": "HSK 6 (157/300)",
     "imgPath": "confucius.png",
-    "issuer": "汉语水平考试",
+    "issuer": "\u6c49\u8bed\u6c34\u5e73\u8003\u8bd5",
     "date": "Jun'22",
     "link": "http://www.chinesetest.cn/searchChengJi.do",
     "importance": 6,
@@ -447,11 +482,14 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "artificial-intelligence",
           "data-science",
           "generative-ai",
-          "prompt-engineering",
+          "generative-ai-elevate",
+          "generative-ai-introduction",
+          "generative-ai-prompt-engineering",
           "machine-learning",
-          "artificial-intelligence"
+          "prompt-engineering"
         ]
       }
     ]
@@ -526,7 +564,8 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "data-modeling"
+          "data-modeling",
+          "mongo-db"
         ]
       }
     ]
@@ -549,8 +588,8 @@
         "category": "merits",
         "type": "courses",
         "items": [
-          "prompt-engineering-for-chat-gpt",
           "chat-gpt-advanced-data-analysis",
+          "prompt-engineering-for-chat-gpt",
           "trustworthy-generative-ai"
         ]
       },
@@ -565,9 +604,12 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "prompt-engineering",
+          "chat-gpt-advanced-data-analysis",
+          "data-analysis",
           "generative-ai",
-          "data-analysis"
+          "prompt-engineering",
+          "prompt-engineering-for-chat-gpt",
+          "trustworthy-generative-ai"
         ]
       }
     ]
@@ -603,8 +645,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-scraping",
-          "data-modeling"
+          "data-modeling",
+          "python",
+          "web-scraping"
         ]
       }
     ]
@@ -627,11 +670,11 @@
         "category": "merits",
         "type": "courses",
         "items": [
-          "rust-llmops",
+          "data-engineering-with-rust",
+          "python-rust-linux",
           "rust-for-dev-ops",
           "rust-fundamentals",
-          "data-engineering-with-rust",
-          "python-rust-linux"
+          "rust-llmops"
         ]
       },
       {
@@ -646,29 +689,34 @@
         "category": "merits",
         "type": "technologies",
         "items": [
-          "gcp",
           "aws",
+          "aws",
+          "cargo",
+          "gcp",
           "pandas",
           "polars",
-          "pytorch",
-          "cargo",
-          "aws"
+          "pytorch"
         ]
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "dev-ops",
-          "data-science",
-          "data-mining",
-          "data-management",
-          "documentation",
+          "cloud-computing",
           "computer-programming",
-          "information-engineering",
           "data-engineering",
+          "data-engineering-with-rust",
+          "data-management",
+          "data-mining",
+          "data-science",
+          "dev-ops",
+          "documentation",
+          "information-engineering",
           "natural-language-processing",
-          "cloud-computing"
+          "python-rust-linux",
+          "rust-for-dev-ops",
+          "rust-fundamentals",
+          "rust-llmops"
         ]
       }
     ]
@@ -701,8 +749,10 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "frontend-development"
+          "frontend-development",
+          "javascript",
+          "php",
+          "web-development"
         ]
       }
     ]

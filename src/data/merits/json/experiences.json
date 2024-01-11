@@ -1,99 +1,4 @@
 {
-  "fullstack-intern": {
-    "title": "Full-Stack Intern",
-    "imgPath": "qi.png",
-    "importance": 7,
-    "organisation": "Quantum Inventions",
-    "startDate": "May'23",
-    "endDate": "Aug'23",
-    "overview": "Designed a web app that showcases the company's geospatial APIs",
-    "description": [],
-    "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "javascript",
-          "ruby"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "ruby-on-rails",
-          "react-js",
-          "vscode"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "web-development",
-          "software-testing",
-          "frontend-development",
-          "documentation"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "bus-routes-optimiser"
-        ]
-      }
-    ]
-  },
-  "data-management": {
-    "title": "Data Management",
-    "imgPath": "mom.png",
-    "importance": 4,
-    "organisation": "Ministry of Manpower",
-    "startDate": "Feb'21",
-    "endDate": "Jul'21",
-    "overview": "Designed data pipelines and dashboards to facilitate analytics",
-    "description": [
-      {
-        "title": "key achievements",
-        "text": "I created Power BI dashboards and ER Studio data models to facilitate analytics. I also designed an organisation-wide Data Governance Portal in an effort to enforce good data management practices in the ministry. I further worked on managing user permissions data, implementing scripts to reduce the workflow by over 80%."
-      }
-    ],
-    "related": [
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "sql",
-          "c-sharp",
-          "html",
-          "css"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "power-bi",
-          "ssms",
-          "excel",
-          "aws",
-          "er-studio"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-cleaning",
-          "data-modeling",
-          "data-management",
-          "data-visualisation",
-          "operational-analysis"
-        ]
-      }
-    ]
-  },
   "data-analytics": {
     "title": "Data Analytics",
     "imgPath": "scdf.png",
@@ -123,36 +28,49 @@
         "category": "merits",
         "type": "technologies",
         "items": [
-          "jupyter",
+          "anaconda",
           "excel",
           "flask",
-          "ruby-on-rails",
-          "tensorflow",
-          "tableau",
-          "qgis",
           "gcp",
-          "anaconda",
-          "sublime",
+          "jupyter",
           "pandas",
-          "telegram-bots"
+          "qgis",
+          "ruby-on-rails",
+          "sublime",
+          "tableau",
+          "telegram-bots",
+          "tensorflow"
         ]
       },
       {
         "category": "merits",
         "type": "skills",
         "items": [
-          "data-science",
-          "web-development",
-          "geospatial-analytics",
-          "data-visualisation",
-          "web-scraping",
+          "anaconda",
+          "api-development",
           "data-cleaning",
           "data-mining",
+          "data-science",
+          "data-visualisation",
+          "excel",
+          "flask",
+          "frontend-development",
+          "gcp",
+          "geospatial-analytics",
+          "machine-learning",
           "operational-analysis",
-          "software-testing",
-          "api-development",
+          "pandas",
           "problem-solving",
-          "machine-learning"
+          "python",
+          "qgis",
+          "ruby",
+          "ruby-on-rails",
+          "software-testing",
+          "sublime",
+          "tableau",
+          "vba",
+          "web-development",
+          "web-scraping"
         ]
       },
       {
@@ -160,6 +78,118 @@
         "type": "coding",
         "items": [
           "dynamic-resource-optimiser"
+        ]
+      }
+    ]
+  },
+  "data-management": {
+    "title": "Data Management",
+    "imgPath": "mom.png",
+    "importance": 4,
+    "organisation": "Ministry of Manpower",
+    "startDate": "Feb'21",
+    "endDate": "Jul'21",
+    "overview": "Designed data pipelines and dashboards to facilitate analytics",
+    "description": [
+      {
+        "title": "key achievements",
+        "text": "I created Power BI dashboards and ER Studio data models to facilitate analytics. I also designed an organisation-wide Data Governance Portal in an effort to enforce good data management practices in the ministry. I further worked on managing user permissions data, implementing scripts to reduce the workflow by over 80%."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "c-sharp",
+          "css",
+          "html",
+          "sql"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "aws",
+          "er-studio",
+          "excel",
+          "power-bi",
+          "ssms"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "aws",
+          "data-cleaning",
+          "data-management",
+          "data-modeling",
+          "data-visualisation",
+          "er-studio",
+          "excel",
+          "frontend-development",
+          "operational-analysis",
+          "postgresql",
+          "power-bi",
+          "sql",
+          "ssms"
+        ]
+      }
+    ]
+  },
+  "fullstack-intern": {
+    "title": "Full-Stack Intern",
+    "imgPath": "qi.png",
+    "importance": 7,
+    "organisation": "Quantum Inventions",
+    "startDate": "May'23",
+    "endDate": "Aug'23",
+    "overview": "Designed a web app that showcases the company's geospatial APIs",
+    "description": [],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "javascript",
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "technologies",
+        "items": [
+          "react-js",
+          "ruby-on-rails",
+          "vscode"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "skills",
+        "items": [
+          "api-development",
+          "bootstrap",
+          "cp3200",
+          "documentation",
+          "frontend-development",
+          "jest",
+          "postman",
+          "react-js",
+          "ruby",
+          "ruby-on-rails",
+          "software-testing",
+          "vscode",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "bus-routes-optimiser"
         ]
       }
     ]
@@ -190,6 +220,7 @@
         "category": "merits",
         "type": "technologies",
         "items": [
+          "python",
           "vex"
         ]
       }

@@ -8,7 +8,16 @@
     "floors": 5.0,
     "year": 2012.0,
     "area": 121000,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "111-somerset": {
     "title": "111 Somerset",
@@ -25,7 +34,16 @@
     "floors": 9.0,
     "year": 2009.0,
     "area": 288277,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "321-clementi": {
     "title": "321 Clementi",
@@ -36,7 +54,17 @@
     "floors": 7.0,
     "year": 2011.0,
     "area": 191000,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "plan-for-the-west-coast",
+          "west-coast-malls"
+        ]
+      }
+    ]
   },
   "888-plaza": {
     "title": "888 Plaza",
@@ -45,7 +73,7 @@
   },
   "admiralty-place": {
     "title": "Admiralty Place",
-    "latitude": 1.44040,
+    "latitude": 1.4404,
     "longitude": 103.80154
   },
   "alexandra-central": {
@@ -53,7 +81,16 @@
     "imgPath": "alexandra-central.jpg",
     "latitude": 1.28736,
     "longitude": 103.80528,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tiong-bahru-malls"
+        ]
+      }
+    ]
   },
   "alexandra-retail-centre": {
     "title": "Alexandra Retail Centre",
@@ -64,7 +101,16 @@
     "floors": 3.0,
     "year": 1985.0,
     "area": 89652,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "amk-hub": {
     "title": "AMK Hub",
@@ -75,7 +121,17 @@
     "floors": 6.0,
     "year": 2007.0,
     "area": 320000,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast",
+          "thomson-malls"
+        ]
+      }
+    ]
   },
   "anchorpoint": {
     "title": "Anchorpoint",
@@ -86,7 +142,16 @@
     "floors": 2.0,
     "year": 1997.0,
     "area": 70988,
-    "aesthetics": 2
+    "aesthetics": 2,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tiong-bahru-malls"
+        ]
+      }
+    ]
   },
   "aperia": {
     "title": "Aperia",
@@ -97,7 +162,16 @@
     "floors": 3.0,
     "year": 2014.0,
     "area": 105733,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "balestier-malls"
+        ]
+      }
+    ]
   },
   "balestier-hill-shopping-centre": {
     "title": "Balestier Hill Shopping Centre",
@@ -123,7 +197,17 @@
     "floors": 4.0,
     "year": 2013.0,
     "area": 220000,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls",
+          "plan-for-the-east-coast"
+        ]
+      }
+    ]
   },
   "bedok-point": {
     "title": "Bedok Point",
@@ -134,7 +218,16 @@
     "floors": 5.0,
     "year": 2010.0,
     "area": 82713,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls"
+        ]
+      }
+    ]
   },
   "bedok-town-center": {
     "title": "Bedok Town Center",
@@ -150,7 +243,16 @@
   "broadway-plaza": {
     "title": "Broadway Plaza",
     "latitude": 1.37193646369426,
-    "longitude": 103.845973776855
+    "longitude": 103.845973776855,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "thomson-whampoa"
+        ]
+      }
+    ]
   },
   "buangkok-square": {
     "title": "Buangkok Square",
@@ -180,17 +282,6 @@
     "area": 397320,
     "aesthetics": 9
   },
-  "bugis-street": {
-    "title": "Bugis Street",
-    "imgPath": "bugis-street.jpg",
-    "latitude": 1.3006,
-    "longitude": 103.8549,
-    "stores": 242.0,
-    "floors": 3.0,
-    "year": 1995.0,
-    "area": 191060,
-    "aesthetics": 2
-  },
   "bugis-plus": {
     "title": "Bugis+",
     "imgPath": "bugis-plus.jpg",
@@ -202,6 +293,17 @@
     "area": 202680,
     "aesthetics": 9
   },
+  "bugis-street": {
+    "title": "Bugis Street",
+    "imgPath": "bugis-street.jpg",
+    "latitude": 1.3006,
+    "longitude": 103.8549,
+    "stores": 242.0,
+    "floors": 3.0,
+    "year": 1995.0,
+    "area": 191060,
+    "aesthetics": 2
+  },
   "bukit-panjang-plaza": {
     "title": "Bukit Panjang Plaza",
     "imgPath": "bukit-panjang-plaza.jpg",
@@ -211,7 +313,18 @@
     "floors": 4.0,
     "year": 1998.0,
     "area": 152306,
-    "aesthetics": 9
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bukit-panjang-malls",
+          "romance-of-three-kingdoms",
+          "romance-of-two-kingdoms"
+        ]
+      }
+    ]
   },
   "bukit-timah-plaza": {
     "title": "Bukit Timah Plaza",
@@ -219,7 +332,18 @@
     "latitude": 1.3386316527745,
     "longitude": 103.778585430975,
     "floors": 4.0,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast",
+          "romance-of-three-kingdoms",
+          "romance-of-two-kingdoms"
+        ]
+      }
+    ]
   },
   "bukit-timah-shopping-centre": {
     "title": "Bukit Timah Shopping Centre",
@@ -228,7 +352,16 @@
     "longitude": 103.77595,
     "floors": 7.0,
     "year": 1981.0,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast"
+        ]
+      }
+    ]
   },
   "canberra-plaza": {
     "title": "Canberra Plaza",
@@ -239,7 +372,16 @@
     "floors": 4.0,
     "year": 2020.0,
     "area": 88000,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "north-coast-malls"
+        ]
+      }
+    ]
   },
   "capitol-singapore": {
     "title": "Capitol Singapore",
@@ -261,7 +403,16 @@
     "floors": 8.0,
     "year": 1997.0,
     "area": 169897,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "causeway-point": {
     "title": "Causeway Point",
@@ -272,7 +423,16 @@
     "floors": 6.0,
     "year": 1998.0,
     "area": 416301,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "north-coast-malls"
+        ]
+      }
+    ]
   },
   "century-square": {
     "title": "Century Square",
@@ -283,7 +443,17 @@
     "floors": 6.0,
     "year": 1995.0,
     "area": 205000,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "eastern-malls"
+        ]
+      }
+    ]
   },
   "changi-airport-t3": {
     "title": "Changi Airport T3",
@@ -323,7 +493,17 @@
     "floors": 6.0,
     "year": 1990.0,
     "area": 207726,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "city-gate-mall": {
     "title": "City Gate Mall",
@@ -348,7 +528,18 @@
     "floors": 11.0,
     "year": 2009.0,
     "area": 450000,
-    "aesthetics": 9
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "balestier-malls",
+          "journey-to-the-north-east",
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "citylink-mall": {
     "title": "CityLink Mall",
@@ -370,7 +561,18 @@
     "floors": 6.0,
     "year": 2007.0,
     "area": 201546,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "south-coast-malls",
+          "tale-of-two-rivers"
+        ]
+      }
+    ]
   },
   "clementi-mall": {
     "title": "Clementi Mall",
@@ -381,7 +583,17 @@
     "floors": 6.0,
     "year": 2011.0,
     "area": 192460,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "plan-for-the-west-coast",
+          "west-coast-malls"
+        ]
+      }
+    ]
   },
   "compass-one": {
     "title": "Compass One",
@@ -392,14 +604,32 @@
     "floors": 5.0,
     "year": 2002.0,
     "area": 272881,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east"
+        ]
+      }
+    ]
   },
   "djitsun-mall": {
     "title": "Djitsun Mall",
     "imgPath": "djitsun-mall.jpg",
     "latitude": 1.3729,
     "longitude": 103.84765,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast"
+        ]
+      }
+    ]
   },
   "djitsun-mall-bedok": {
     "title": "Djitsun Mall Bedok",
@@ -408,7 +638,16 @@
     "longitude": 103.9296,
     "floors": 4.0,
     "area": 48000,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls"
+        ]
+      }
+    ]
   },
   "downtown-east": {
     "title": "Downtown East",
@@ -419,7 +658,16 @@
     "floors": 5.0,
     "year": 2000.0,
     "area": 130000,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "wheres-my-shelter"
+        ]
+      }
+    ]
   },
   "duo": {
     "title": "DUO",
@@ -429,7 +677,16 @@
   "east-village": {
     "title": "East Village",
     "latitude": 1.3317758150305,
-    "longitude": 103.946201241591
+    "longitude": 103.946201241591,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "eastern-malls"
+        ]
+      }
+    ]
   },
   "eastpoint-mall": {
     "title": "Eastpoint Mall",
@@ -440,7 +697,16 @@
     "floors": 7.0,
     "year": 1996.0,
     "area": 207806,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "eastern-malls"
+        ]
+      }
+    ]
   },
   "elias-mall": {
     "title": "Elias Mall",
@@ -482,7 +748,16 @@
     "floors": 5.0,
     "year": 1982.0,
     "area": 292160,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "funan": {
     "title": "Funan",
@@ -498,6 +773,16 @@
       {
         "title": "review (aesthetics)",
         "text": "I remember growing up and going to Funan on a regular basis. And though I miss it, this is definitely better. So futuristic, so bizarre. Though it doesn't have much natural light near the ground floors, I think this deliberate choice was well made, as it added to the feel of it being a theme park. The railings, the coloured lights, the bridges all sell the feel very well. The bike path definitely made Funan interesting.\nThere's a lot going on for the outside, so I don't fully understand the design choices there, but others may have a better appreciation for it."
+      }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "south-coast-malls"
+        ]
       }
     ]
   },
@@ -522,7 +807,16 @@
     "floors": 6.0,
     "year": 1973.0,
     "area": 127961,
-    "aesthetics": 1
+    "aesthetics": 1,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls"
+        ]
+      }
+    ]
   },
   "grandstand": {
     "title": "Grandstand Car Mall",
@@ -533,7 +827,16 @@
     "floors": 1.0,
     "year": 2012.0,
     "area": 450000,
-    "aesthetics": 1
+    "aesthetics": 1,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast"
+        ]
+      }
+    ]
   },
   "grantral-mall": {
     "title": "Grantral Mall",
@@ -551,7 +854,18 @@
     "floors": 6.0,
     "year": 1997.0,
     "area": 420000,
-    "aesthetics": 9
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tale-of-two-rivers",
+          "tel-3",
+          "tiong-bahru-malls"
+        ]
+      }
+    ]
   },
   "greenridge-shopping-centre": {
     "title": "Greenridge Shopping Centre",
@@ -567,7 +881,16 @@
     "floors": 2.0,
     "year": 2014.0,
     "area": 43724,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "sengkang-malls"
+        ]
+      }
+    ]
   },
   "harbourfront-centre": {
     "title": "HarbourFront Centre",
@@ -578,7 +901,18 @@
     "floors": 3.0,
     "year": 1977.0,
     "area": 100000,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "hortridge-park",
+          "south-coast-malls",
+          "the-circle-of-life"
+        ]
+      }
+    ]
   },
   "hdb-hub": {
     "title": "HDB Hub",
@@ -586,7 +920,16 @@
     "latitude": 1.3319945640368,
     "longitude": 103.8486,
     "area": 186000,
-    "aesthetics": 2
+    "aesthetics": 2,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "balestier-malls"
+        ]
+      }
+    ]
   },
   "heartland-mall": {
     "title": "Heartland Mall",
@@ -597,18 +940,17 @@
     "floors": 3.0,
     "year": 1984.0,
     "area": 86000,
-    "aesthetics": 5
-  },
-  "hillion-mall": {
-    "title": "Hillion Mall",
-    "imgPath": "hillion-mall.jpg",
-    "latitude": 1.3785,
-    "longitude": 103.7633,
-    "stores": 131.0,
-    "floors": 4.0,
-    "year": 2017.0,
-    "area": 174730,
-    "aesthetics": 4
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "sengkang-malls"
+        ]
+      }
+    ]
   },
   "hill-v2": {
     "title": "HillV2",
@@ -619,7 +961,39 @@
     "floors": 2.0,
     "year": 2014.0,
     "area": 53149,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bukit-panjang-malls",
+          "coast-2-coast"
+        ]
+      }
+    ]
+  },
+  "hillion-mall": {
+    "title": "Hillion Mall",
+    "imgPath": "hillion-mall.jpg",
+    "latitude": 1.3785,
+    "longitude": 103.7633,
+    "stores": 131.0,
+    "floors": 4.0,
+    "year": 2017.0,
+    "area": 174730,
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bukit-panjang-malls",
+          "romance-of-three-kingdoms",
+          "romance-of-two-kingdoms"
+        ]
+      }
+    ]
   },
   "holland-road-shopping-centre": {
     "title": "Holland Road Shopping Centre",
@@ -641,14 +1015,32 @@
     "floors": 3.0,
     "year": 1999.0,
     "area": 85915,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "sengkang-malls"
+        ]
+      }
+    ]
   },
   "hougang-green-shopping-mall": {
     "title": "Hougang Green Shopping Mall",
     "imgPath": "hougang-green-shopping-mall.jpg",
     "latitude": 1.37931783471773,
     "longitude": 103.887847089168,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "what-defu"
+        ]
+      }
+    ]
   },
   "hougang-mall": {
     "title": "Hougang Mall",
@@ -659,7 +1051,24 @@
     "floors": 6.0,
     "year": 1997.0,
     "area": 166361,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "sengkang-malls",
+          "the-way-of-water"
+        ]
+      }
+    ]
+  },
+  "i-mall": {
+    "title": "iMall",
+    "latitude": 1.30312098084266,
+    "longitude": 103.906545823213,
+    "area": 86500
   },
   "i12-katong": {
     "title": "I12 Katong",
@@ -670,7 +1079,17 @@
     "floors": 6.0,
     "year": 2011.0,
     "area": 207160,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls",
+          "wheres-my-shelter"
+        ]
+      }
+    ]
   },
   "icon-village": {
     "title": "Icon Village",
@@ -681,7 +1100,16 @@
     "floors": 1.0,
     "year": 2007.0,
     "area": 29838,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "ikea-alexandra": {
     "title": "IKEA Alexandra",
@@ -691,7 +1119,16 @@
     "stores": 1.0,
     "year": 1995.0,
     "area": 400000,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tiong-bahru-malls"
+        ]
+      }
+    ]
   },
   "ikea-tampines": {
     "title": "IKEA Tampines",
@@ -704,12 +1141,6 @@
     "area": 753473,
     "aesthetics": 7
   },
-  "i-mall": {
-    "title": "iMall",
-    "latitude": 1.30312098084266,
-    "longitude": 103.906545823213,
-    "area": 86500
-  },
   "imm": {
     "title": "IMM",
     "imgPath": "imm.jpg",
@@ -719,7 +1150,16 @@
     "floors": 5.0,
     "year": 1991.0,
     "area": 953002,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tale-of-two-rivers"
+        ]
+      }
+    ]
   },
   "ion-orchard": {
     "title": "ION Orchard",
@@ -736,6 +1176,17 @@
         "title": "aesthetics",
         "text": "Entering ION feels very different from entering most malls in Singapore. It feels like you're overseas. Spacious pathways, great facilities, and everything is well-lit. The mall is also very tall, with lots of above-ground and underground shops. However, it never feels overwhelming, as you only see part of it at a time.\nAs for the exterior, all I can say is that it's very iconic. Got the tower, the waviness, the glass triangles, and the tree-like structures in front (yes I know no architectural terms). And there's lots of open space out front as well, so it was much easier to take a picture of it. Very photogenic in that sense."
       }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls",
+          "tel-3",
+          "tiong-bahru-malls"
+        ]
+      }
     ]
   },
   "j-cube": {
@@ -747,7 +1198,16 @@
     "floors": 5.0,
     "year": 2012.0,
     "area": 210036,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tale-of-two-rivers"
+        ]
+      }
+    ]
   },
   "jem": {
     "title": "Jem",
@@ -758,7 +1218,16 @@
     "floors": 7.0,
     "year": 2013.0,
     "area": 892000,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tale-of-two-rivers"
+        ]
+      }
+    ]
   },
   "jewel-changi-airport": {
     "title": "Jewel Changi Airport",
@@ -786,7 +1255,16 @@
     "floors": 4.0,
     "year": 1996.0,
     "area": 30000,
-    "aesthetics": 2
+    "aesthetics": 2,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast"
+        ]
+      }
+    ]
   },
   "junction-10": {
     "title": "Junction 10",
@@ -797,7 +1275,16 @@
     "floors": 2.0,
     "year": 1998.0,
     "area": 90879,
-    "aesthetics": 2
+    "aesthetics": 2,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bukit-panjang-malls"
+        ]
+      }
+    ]
   },
   "junction-8": {
     "title": "Junction 8",
@@ -808,7 +1295,19 @@
     "floors": 6.0,
     "year": 1993.0,
     "area": 252383,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "balestier-malls",
+          "river-flows-in-you",
+          "the-circle-of-life",
+          "thomson-malls"
+        ]
+      }
+    ]
   },
   "junction-9": {
     "title": "Junction Nine",
@@ -819,7 +1318,16 @@
     "floors": 2.0,
     "year": 2013.0,
     "area": 95351,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "north-coast-malls"
+        ]
+      }
+    ]
   },
   "jurong-point": {
     "title": "Jurong Point",
@@ -841,7 +1349,19 @@
     "floors": 3.0,
     "year": 2014.0,
     "area": 441320,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "east-coast-malls",
+          "the-circle-of-life",
+          "wheres-my-shelter"
+        ]
+      }
+    ]
   },
   "katong-shopping-centre": {
     "title": "Katong Shopping Centre",
@@ -852,7 +1372,17 @@
     "floors": 7.0,
     "year": 1973.0,
     "area": 90000,
-    "aesthetics": 1
+    "aesthetics": 1,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls",
+          "wheres-my-shelter"
+        ]
+      }
+    ]
   },
   "katong-square": {
     "title": "Katong Square",
@@ -868,7 +1398,17 @@
     "floors": 3.0,
     "year": 2008.0,
     "area": 47184,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls",
+          "wheres-my-shelter"
+        ]
+      }
+    ]
   },
   "keat-hong-shopping-centre": {
     "title": "Keat Hong Shopping Centre",
@@ -889,7 +1429,16 @@
   "knightsbridge": {
     "title": "Knightsbridge",
     "latitude": 1.3029831225958,
-    "longitude": 103.836283923443
+    "longitude": 103.836283923443,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "le-quest": {
     "title": "Le Quest",
@@ -900,7 +1449,16 @@
     "floors": 1.0,
     "year": 2020.0,
     "area": 45000,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast"
+        ]
+      }
+    ]
   },
   "leisure-park-kallang": {
     "title": "Leisure Park Kallang",
@@ -927,7 +1485,16 @@
     "floors": 6.0,
     "year": 1996.0,
     "area": 219836,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bukit-panjang-malls"
+        ]
+      }
+    ]
   },
   "loyang-point": {
     "title": "Loyang Point",
@@ -949,7 +1516,16 @@
     "floors": 7.0,
     "year": 1977.0,
     "area": 175200,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "mandarin-gallery": {
     "title": "Mandarin Gallery",
@@ -960,12 +1536,16 @@
     "floors": 4.0,
     "year": 2010.0,
     "area": 126282,
-    "aesthetics": 6
-  },
-  "mbfc-tower-3": {
-    "title": "Marina Bay Financial Centre Tower 3",
-    "latitude": 1.27912493489912,
-    "longitude": 103.854457600432
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "marina-bay-link-mall": {
     "title": "Marina Bay Link Mall",
@@ -1008,6 +1588,15 @@
         "title": "review (aesthetics)",
         "text": "Another beautifully-designed building! Lots of vegetation, lots of open space, and a scenic ramp up to the upper floors, all makes for a good view of the center. The building itself is one of the tallest in Singapore, and you get the full view of its height just by looking up. So of course an NDP music video was shot here.\nThe outside, however, is a bunch of empty fields and nothingness. The Marina Bay Sands are so far away, the Marina Bay area is not very visible. So it feels very isolated from the rest of the CBD. I feel sorry for those tourists who mistakenly come to this Marina Bay MRT instead of Bayfront or something."
       }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tel-3"
+        ]
+      }
     ]
   },
   "marina-square": {
@@ -1019,17 +1608,40 @@
     "floors": 5.0,
     "year": 1985.0,
     "area": 780000,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls"
+        ]
+      }
+    ]
   },
   "marsiling-mall": {
     "title": "Marsiling Mall",
     "latitude": 1.43351253520759,
     "longitude": 103.779746860157
   },
+  "mbfc-tower-3": {
+    "title": "Marina Bay Financial Centre Tower 3",
+    "latitude": 1.27912493489912,
+    "longitude": 103.854457600432
+  },
   "midpoint-orchard": {
     "title": "Midpoint Orchard",
     "latitude": 1.30178378195546,
-    "longitude": 103.838660627347
+    "longitude": 103.838660627347,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "millenia-walk": {
     "title": "Millenia Walk",
@@ -1040,7 +1652,16 @@
     "floors": 2.0,
     "year": 1995.0,
     "area": 322917,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls"
+        ]
+      }
+    ]
   },
   "mustafa-centre": {
     "title": "Mustafa Centre",
@@ -1051,7 +1672,16 @@
     "floors": 6.0,
     "year": 1995.0,
     "area": 400000,
-    "aesthetics": 2
+    "aesthetics": 2,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east"
+        ]
+      }
+    ]
   },
   "nex": {
     "title": "NEX",
@@ -1062,7 +1692,17 @@
     "floors": 7.0,
     "year": 2010.0,
     "area": 616000,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "the-circle-of-life"
+        ]
+      }
+    ]
   },
   "ngee-ann-city": {
     "title": "Ngee Ann City",
@@ -1073,7 +1713,16 @@
     "floors": 7.0,
     "year": 1993.0,
     "area": 255021,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "northpoint-city": {
     "title": "Northpoint City",
@@ -1084,7 +1733,17 @@
     "floors": 6.0,
     "year": 1992.0,
     "area": 500000,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "north-coast-malls",
+          "the-forgotten-airport"
+        ]
+      }
+    ]
   },
   "northshore-plaza": {
     "title": "Northshore Plaza",
@@ -1095,18 +1754,18 @@
     "floors": 3.0,
     "year": 2021.0,
     "area": 62200,
-    "aesthetics": 9
-  },
-  "velocity-novena-square": {
-    "title": "Velocity Novena Square",
-    "imgPath": "velocity-novena-square.jpg",
-    "latitude": 1.32,
-    "longitude": 103.8439,
-    "stores": 52.0,
-    "floors": 3.0,
-    "year": 2000.0,
-    "area": 170672,
-    "aesthetics": 6
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast",
+          "sengkang-malls",
+          "the-way-of-water"
+        ]
+      }
+    ]
   },
   "oasis-terraces": {
     "title": "Oasis Terraces",
@@ -1117,7 +1776,16 @@
     "floors": 6.0,
     "year": 2018.0,
     "area": 193750,
-    "aesthetics": 9
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "sengkang-malls"
+        ]
+      }
+    ]
   },
   "one-fullerton": {
     "title": "One Fullerton",
@@ -1128,7 +1796,16 @@
     "floors": 2.0,
     "year": 1997.0,
     "area": 60314,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls"
+        ]
+      }
+    ]
   },
   "one-holland-village": {
     "title": "One Holland Village",
@@ -1137,6 +1814,11 @@
     "stores": 22.0,
     "year": 2022.0,
     "area": 81500
+  },
+  "one-north": {
+    "title": "one-north",
+    "latitude": 1.30328664201626,
+    "longitude": 103.789103511502
   },
   "one-raffles-place": {
     "title": "One Raffles Place",
@@ -1147,11 +1829,16 @@
     "floors": 6.0,
     "year": 1985.0,
     "area": 100000,
-    "aesthetics": 5
-  },
-  "one-north": {
-    "title": "one-north",
-    "latitude": 1.30328664201626, "longitude": 103.789103511502
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls"
+        ]
+      }
+    ]
   },
   "orchard-central": {
     "title": "Orchard Central",
@@ -1162,7 +1849,16 @@
     "floors": 13.0,
     "year": 2009.0,
     "area": 258912,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "orchard-gateway": {
     "title": "Orchard Gateway",
@@ -1173,7 +1869,16 @@
     "floors": 6.0,
     "year": 2014.0,
     "area": 170000,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "orchard-plaza": {
     "title": "Orchard Plaza",
@@ -1194,7 +1899,17 @@
     "floors": 7.0,
     "year": 2017.0,
     "area": 300000,
-    "aesthetics": 9
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "eastern-malls"
+        ]
+      }
+    ]
   },
   "palais-renaissance": {
     "title": "Palais Renaissance",
@@ -1210,7 +1925,16 @@
     "floors": 7.0,
     "year": 1983.0,
     "area": 576000,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls"
+        ]
+      }
+    ]
   },
   "paya-lebar-quarter": {
     "title": "Paya Lebar Quarter",
@@ -1221,7 +1945,18 @@
     "floors": 7.0,
     "year": 2019.0,
     "area": 340000,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "east-coast-malls",
+          "the-circle-of-life"
+        ]
+      }
+    ]
   },
   "paya-lebar-square": {
     "title": "Paya Lebar Square",
@@ -1232,7 +1967,18 @@
     "floors": 3.0,
     "year": 2011.0,
     "area": 95475,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "east-coast-malls",
+          "the-circle-of-life"
+        ]
+      }
+    ]
   },
   "peninsula-plaza": {
     "title": "Peninsula Plaza",
@@ -1245,7 +1991,16 @@
     "title": "People's Park Centre",
     "latitude": 1.28584416666666,
     "longitude": 103.843865,
-    "year": 1973.0
+    "year": 1973.0,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "peoples-park-complex": {
     "title": "People's Park Complex",
@@ -1253,7 +2008,16 @@
     "longitude": 103.8426,
     "stores": 214.0,
     "floors": 4.0,
-    "area": 845000
+    "area": 845000,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "pioneer-mall": {
     "title": "Pioneer Mall",
@@ -1274,7 +2038,18 @@
     "floors": 9.0,
     "year": 1974.0,
     "area": 619023,
-    "aesthetics": 9
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "orchard-malls",
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "punggol-plaza": {
     "title": "Punggol Plaza",
@@ -1285,7 +2060,16 @@
     "floors": 6.0,
     "year": 2004.0,
     "area": 370000,
-    "aesthetics": 1
+    "aesthetics": 1,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "sengkang-malls"
+        ]
+      }
+    ]
   },
   "queensway-shopping-centre": {
     "title": "Queensway Shopping Centre",
@@ -1296,7 +2080,16 @@
     "floors": 4.0,
     "year": 1976.0,
     "area": 66320,
-    "aesthetics": 2
+    "aesthetics": 2,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tiong-bahru-malls"
+        ]
+      }
+    ]
   },
   "raffles-city": {
     "title": "Raffles City",
@@ -1307,7 +2100,17 @@
     "floors": 5.0,
     "year": 1986.0,
     "area": 426830,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls",
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "rail-mall": {
     "title": "Rail Mall",
@@ -1318,7 +2121,17 @@
     "floors": 1.0,
     "year": 1947.0,
     "area": 50000,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bukit-panjang-malls",
+          "coast-2-coast"
+        ]
+      }
+    ]
   },
   "resorts-world-sentosa": {
     "title": "Resorts World Sentosa",
@@ -1338,19 +2151,47 @@
     "floors": 3.0,
     "year": 2000.0,
     "area": 81160,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "sengkang-malls"
+        ]
+      }
+    ]
   },
   "rivervale-plaza": {
     "title": "Rivervale Plaza",
     "imgPath": "rivervale-plaza.jpg",
     "latitude": 1.385371516087,
     "longitude": 103.901849634797,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "sengkang-malls",
+          "the-way-of-water"
+        ]
+      }
+    ]
   },
   "rochester-mall": {
     "title": "Rochester Mall",
     "latitude": 1.30540765569962,
-    "longitude": 103.788446680148
+    "longitude": 103.788446680148,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "nus-smu"
+        ]
+      }
+    ]
   },
   "roxy-square": {
     "title": "Roxy Square",
@@ -1360,14 +2201,33 @@
     "stores": 51.0,
     "year": 2000.0,
     "area": 36425,
-    "aesthetics": 2
+    "aesthetics": 2,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "east-coast-malls",
+          "wheres-my-shelter"
+        ]
+      }
+    ]
   },
   "scotts-square": {
     "title": "Scotts Square",
     "imgPath": "scotts-square.jpg",
     "latitude": 1.30576292435884,
     "longitude": 103.83308338186,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "seletar-mall": {
     "title": "Seletar Mall",
@@ -1378,7 +2238,16 @@
     "floors": 6.0,
     "year": 2014.0,
     "area": 188000,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "sengkang-malls"
+        ]
+      }
+    ]
   },
   "sembawang-shopping-centre": {
     "title": "Sembawang Shopping Centre",
@@ -1389,14 +2258,33 @@
     "floors": 4.0,
     "year": 1986.0,
     "area": 143631,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "north-coast-malls"
+        ]
+      }
+    ]
   },
   "sengkang-grand-mall": {
     "title": "Sengkang Grand Mall",
     "imgPath": "sengkang-grand-mall.jpg",
     "latitude": 1.38277,
     "longitude": 103.89242,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "the-way-of-water"
+        ]
+      }
+    ]
   },
   "serangoon-plaza": {
     "title": "Serangoon Plaza",
@@ -1420,7 +2308,16 @@
     "longitude": 103.831527777777,
     "stores": 12.0,
     "floors": 22.0,
-    "year": 1993.0
+    "year": 1993.0,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "sim-lim-square": {
     "title": "Sim Lim Square",
@@ -1431,7 +2328,16 @@
     "floors": 7.0,
     "year": 1987.0,
     "area": 236881,
-    "aesthetics": 2
+    "aesthetics": 2,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "singapore-shopping-centre": {
     "title": "Singapore Shopping Centre",
@@ -1447,7 +2353,18 @@
     "floors": 4.0,
     "year": 2017.0,
     "area": 175000,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "east-coast-malls",
+          "the-circle-of-life"
+        ]
+      }
+    ]
   },
   "south-beach": {
     "title": "South Beach",
@@ -1475,7 +2392,16 @@
     "floors": 6.0,
     "year": 1999.0,
     "area": 158000,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "north-coast-malls"
+        ]
+      }
+    ]
   },
   "sunshine-place": {
     "title": "Sunshine Place",
@@ -1505,6 +2431,21 @@
         "title": "review (aesthetics)",
         "text": "Of course Fountain of Wealth must put 10/10 lah. This was one of the OG mall attractions, before all the fancy touristy ones came out. Just so unique, and surrounded by huge towers to make you feel small.\nThe inside is spacious, with tall ceilings, and some natural light if you're in the inner circle, or at some of the atriums. However, I have issues with the layout of Suntec. It is very confusing to navigate. Even after the tens of times I've been to Suntec in the past 2 years, I still don't know how to get to North Atrium, or Tower 3. It's just the the symmetry of the center makes it easy to lose your bearing, and the similar designs for each of the atriums makes it unintuitive to know where to exit. All I remember is that to get to Promenade MRT, you have to go past Hoshino Coffee.\nIf it weren't for the exterior and Fountain of Wealth, I think Suntec would get a 6/10."
       }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "east-coast-malls",
+          "plan-for-the-east-coast",
+          "river-flows-in-you",
+          "tale-of-two-rivers",
+          "the-circle-of-life",
+          "wheres-my-shelter"
+        ]
+      }
     ]
   },
   "taman-jurong-shopping-centre": {
@@ -1525,7 +2466,17 @@
     "floors": 6.0,
     "year": 2009.0,
     "area": 260000,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "eastern-malls"
+        ]
+      }
+    ]
   },
   "tampines-mall": {
     "title": "Tampines Mall",
@@ -1536,7 +2487,17 @@
     "floors": 6.0,
     "year": 1995.0,
     "area": 377437,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "eastern-malls"
+        ]
+      }
+    ]
   },
   "tampines-mart": {
     "title": "Tampines Mart",
@@ -1552,7 +2513,16 @@
     "latitude": 1.30485342129478,
     "longitude": 103.823883490852,
     "stores": 90.0,
-    "floors": 4.0
+    "floors": 4.0,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tel-3"
+        ]
+      }
+    ]
   },
   "tanjong-pagar-centre": {
     "title": "Tanjong Pagar Centre",
@@ -1563,7 +2533,16 @@
     "floors": 3.0,
     "year": 2016.0,
     "area": 100000,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "teck-whye-shopping-centre": {
     "title": "Teck Whye Shopping Centre",
@@ -1584,7 +2563,17 @@
     "floors": 3.0,
     "year": 2019.0,
     "area": 70000,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "south-coast-malls"
+        ]
+      }
+    ]
   },
   "the-cathay": {
     "title": "The Cathay",
@@ -1602,7 +2591,17 @@
     "floors": 8.0,
     "year": 1983.0,
     "area": 371300,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "nus-smu",
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "the-flow": {
     "title": "The Flow",
@@ -1631,14 +2630,33 @@
     "floors": 8.0,
     "year": 1998.0,
     "area": 484840,
-    "aesthetics": 9
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "the-poiz": {
     "title": "The Poiz",
     "imgPath": "the-poiz.jpg",
     "latitude": 1.33130351440716,
     "longitude": 103.868076452861,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "river-flows-in-you"
+        ]
+      }
+    ]
   },
   "the-star-vista": {
     "title": "The Star Vista",
@@ -1655,6 +2673,18 @@
         "title": "review (aesthetics)",
         "text": "Such a unique design! Massively tall ceilings, a large communal stairway, a large central atrium that can be viewed from all around. The entire layout feels like it's welcoming everything from one end.\nThe outside is even better. It is very recognisable from afar, and with the large plot of land outside, it is very easy to spot TSV on the MRT when passing by it. Not blocked by any tall buildings. The good thing is that's the only grass patch around, as there are tall buildings around it to not make it feel lonely or out of place. Well, being the smart people congregation site, it do be like that."
       }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "nus-smu",
+          "romance-of-three-kingdoms",
+          "tale-of-two-rivers",
+          "the-circle-of-life"
+        ]
+      }
     ]
   },
   "thomson-plaza": {
@@ -1666,7 +2696,18 @@
     "floors": 4.0,
     "year": 1979.0,
     "area": 239316,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "navi",
+          "thomson-malls",
+          "thomson-whampoa"
+        ]
+      }
+    ]
   },
   "tiong-bahru-plaza": {
     "title": "Tiong Bahru Plaza",
@@ -1677,7 +2718,16 @@
     "floors": 5.0,
     "year": 1994.0,
     "area": 209000,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tiong-bahru-malls"
+        ]
+      }
+    ]
   },
   "united-square": {
     "title": "United Square",
@@ -1694,6 +2744,17 @@
     "title": "Upper Serangoon Shopping Centre",
     "latitude": 1.35348088326122,
     "longitude": 103.878828409594
+  },
+  "velocity-novena-square": {
+    "title": "Velocity Novena Square",
+    "imgPath": "velocity-novena-square.jpg",
+    "latitude": 1.32,
+    "longitude": 103.8439,
+    "stores": 52.0,
+    "floors": 3.0,
+    "year": 2000.0,
+    "area": 170672,
+    "aesthetics": 6
   },
   "vista-point": {
     "title": "Vista Point",
@@ -1720,7 +2781,19 @@
     "floors": 5.0,
     "year": 2006.0,
     "area": 1076251,
-    "aesthetics": 9
+    "aesthetics": 9,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "romance-of-three-kingdoms",
+          "south-coast-malls",
+          "the-circle-of-life"
+        ]
+      }
+    ]
   },
   "waterway-point": {
     "title": "Waterway Point",
@@ -1737,6 +2810,17 @@
         "title": "review (aesthetics)",
         "text": "From where I took the picture, the view of the mall is amazing. They really put effort into designing the mall as close to the water as possible. Nothing feels to overbearing, and the view is good pretty much all around the mall.\nThe interior is also pretty good for the most part, with tall ceilings at the wing that has the cinema. However, the other side feels a little short, especially the area around Swensens. Idk why they can't just raise that ceiling a little higher. But otherwise, lighting is fine, and the layout is ok."
       }
+    ],
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east",
+          "sengkang-malls",
+          "the-forgotten-airport"
+        ]
+      }
     ]
   },
   "west-coast-plaza": {
@@ -1748,7 +2832,17 @@
     "floors": 3.0,
     "year": 1992.0,
     "area": 151137,
-    "aesthetics": 4
+    "aesthetics": 4,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "plan-for-the-west-coast",
+          "west-coast-malls"
+        ]
+      }
+    ]
   },
   "west-mall": {
     "title": "West Mall",
@@ -1759,7 +2853,16 @@
     "floors": 6.0,
     "year": 1998.0,
     "area": 183000,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "coast-2-coast"
+        ]
+      }
+    ]
   },
   "westgate": {
     "title": "Westgate",
@@ -1770,7 +2873,16 @@
     "floors": 7.0,
     "year": 2013.0,
     "area": 411272,
-    "aesthetics": 8
+    "aesthetics": 8,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "tale-of-two-rivers"
+        ]
+      }
+    ]
   },
   "wheelock-place": {
     "title": "Wheelock Place",
@@ -1781,7 +2893,16 @@
     "floors": 7.0,
     "year": 1993.0,
     "area": 153258,
-    "aesthetics": 5
+    "aesthetics": 5,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "white-sands": {
     "title": "White Sands",
@@ -1792,7 +2913,19 @@
     "floors": 7.0,
     "year": 1997.0,
     "area": 148000,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bedok-reservoir",
+          "eastern-malls",
+          "the-forgotten-airport",
+          "wheres-my-shelter"
+        ]
+      }
+    ]
   },
   "wisma-atria": {
     "title": "Wisma Atria",
@@ -1803,7 +2936,16 @@
     "floors": 5.0,
     "year": 1986.0,
     "area": 127000,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "orchard-malls"
+        ]
+      }
+    ]
   },
   "wisteria-mall": {
     "title": "Wisteria Mall",
@@ -1814,7 +2956,16 @@
     "floors": 2.0,
     "year": 2019.0,
     "area": 83361,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "north-coast-malls"
+        ]
+      }
+    ]
   },
   "woodlands-civic-centre": {
     "title": "Woodlands Civic Centre",
@@ -1839,7 +2990,16 @@
     "floors": 3.0,
     "year": 2022.0,
     "area": 96800,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "journey-to-the-north-east"
+        ]
+      }
+    ]
   },
   "woods-square": {
     "title": "Woods Square",
@@ -1850,7 +3010,16 @@
     "floors": 4.0,
     "year": 2021.0,
     "area": 39264,
-    "aesthetics": 3
+    "aesthetics": 3,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "north-coast-malls"
+        ]
+      }
+    ]
   },
   "yew-tee-point": {
     "title": "Yew Tee Point",
@@ -1861,7 +3030,16 @@
     "floors": 2.0,
     "year": 2006.0,
     "area": 73699,
-    "aesthetics": 7
+    "aesthetics": 7,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "bukit-panjang-malls"
+        ]
+      }
+    ]
   },
   "yew-tee-square": {
     "title": "Yew Tee Square",
@@ -1873,6 +3051,16 @@
     "imgPath": "zhongshan-mall.jpg",
     "latitude": 1.32694504456951,
     "longitude": 103.846554377679,
-    "aesthetics": 6
+    "aesthetics": 6,
+    "related": [
+      {
+        "category": "blog",
+        "type": "hikes",
+        "items": [
+          "balestier-malls",
+          "thomson-whampoa"
+        ]
+      }
+    ]
   }
 }

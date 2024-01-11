@@ -1,5 +1,5 @@
 {
-  "bus-routes":{
+  "bus-routes": {
     "title": "Bus Routes of Singapore (Live Quiz)",
     "isLive": true,
     "imgPath": "openlayers.svg",
@@ -11,7 +11,7 @@
       }
     ]
   },
-  "bus-stops-completion":{
+  "bus-stops-completion": {
     "title": "Bus Stops of Singapore (Live Quiz)",
     "isLive": true,
     "imgPath": "openlayers.svg",
@@ -20,18 +20,6 @@
       {
         "title": "instructions",
         "text": ""
-      }
-    ]
-  },
-  "nus-mods":{
-    "title": "NUS Mods (Live Quiz)",
-    "isLive": true,
-    "imgPath": "openlayers.svg",
-    "importance": 10,
-    "description": [
-      {
-        "title": "instructions",
-        "text": "TBW"
       }
     ]
   },
@@ -47,12 +35,6 @@
     "importance": 8,
     "link": "https://www.geoguessr.com/maps/6297626a72047a6dcd1a93a6/play"
   },
-  "mrt-geoguessr": {
-    "title": "MRT Lines of Singapore (Geoguessr)",
-    "imgPath": "geoguessr.svg",
-    "importance": 4,
-    "link": "https://www.geoguessr.com/maps/62e00457a0224245be7148ad/play"
-  },
   "mrt": {
     "title": "MRTs of Singapore (Live Quiz)",
     "isLive": true,
@@ -62,6 +44,24 @@
       {
         "title": "instructions",
         "text": "Here are most of the MRT stations in Singapore, including future ones up till the CR Phase 1. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to the colour of the MRT line."
+      }
+    ]
+  },
+  "mrt-geoguessr": {
+    "title": "MRT Lines of Singapore (Geoguessr)",
+    "imgPath": "geoguessr.svg",
+    "importance": 4,
+    "link": "https://www.geoguessr.com/maps/62e00457a0224245be7148ad/play"
+  },
+  "nus-mods": {
+    "title": "NUS Mods (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 10,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "TBW"
       }
     ]
   },
@@ -95,6 +95,24 @@
       }
     ]
   },
+  "schools": {
+    "title": "Schools of Singapore (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 9,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Here are some of the schools in Singapore. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to a shade of green."
+      }
+    ]
+  },
+  "schools-geoguessr": {
+    "title": "Schools of Singapore (Geoguessr)",
+    "imgPath": "geoguessr.svg",
+    "importance": 9,
+    "link": "https://www.geoguessr.com/maps/62c1a29ef9387d8276d465da/play"
+  },
   "subzones-jetpunk": {
     "title": "Subzones of Singapore (Jetpunk)",
     "imgPath": "jetpunk.png",
@@ -113,24 +131,6 @@
         "items": [
           "svg-converter"
         ]
-      }
-    ]
-  },
-  "schools-geoguessr": {
-    "title": "Schools of Singapore (Geoguessr)",
-    "imgPath": "geoguessr.svg",
-    "importance": 9,
-    "link": "https://www.geoguessr.com/maps/62c1a29ef9387d8276d465da/play"
-  },
-  "schools": {
-    "title": "Schools of Singapore (Live Quiz)",
-    "isLive": true,
-    "imgPath": "openlayers.svg",
-    "importance": 9,
-    "description": [
-      {
-        "title": "instructions",
-        "text": "Here are some of the schools in Singapore. Answers are not case or space-sensitive. If you type a correct answer, a grey location marker will change color to a shade of green."
       }
     ]
   }

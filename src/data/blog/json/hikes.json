@@ -1,4 +1,13 @@
 {
+  "aint-no-bukit-high-enough": {
+    "title": "Ain't No Bukit High Enough",
+    "date": "TBC",
+    "start": "Beauty World MRT",
+    "end": "Hillview MRT",
+    "color": "FUTURE_NATURE",
+    "stops": [],
+    "related": []
+  },
   "airplanes": {
     "title": "Airplanes",
     "date": "TBC",
@@ -55,9 +64,9 @@
         "items": [
           "aperia",
           "city-square-mall",
-          "zhongshan-mall",
           "hdb-hub",
-          "junction-8"
+          "junction-8",
+          "zhongshan-mall"
         ]
       }
     ]
@@ -93,7 +102,9 @@
         "name": "Pasir Ris Sports Centre",
         "lat": 1.371419,
         "lng": 103.95189,
-        "types": ["restock"]
+        "types": [
+          "restock"
+        ]
       },
       {
         "name": "Pasir Ris Town Park",
@@ -129,7 +140,9 @@
         "name": "McDonald's Bedok Reservoir",
         "lat": 1.3323,
         "lng": 103.91389,
-        "types": ["food"]
+        "types": [
+          "food"
+        ]
       },
       {
         "name": "Siglap PC",
@@ -162,49 +175,19 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "white-sands",
-          "tampines-mall",
           "century-square",
-          "tampines-1",
-          "our-tampines-hub",
-          "paya-lebar-square",
-          "paya-lebar-quarter",
-          "singpost-centre",
           "kallang-wave-mall",
-          "suntec-city"
+          "our-tampines-hub",
+          "paya-lebar-quarter",
+          "paya-lebar-square",
+          "singpost-centre",
+          "suntec-city",
+          "tampines-1",
+          "tampines-mall",
+          "white-sands"
         ]
       }
     ]
-  },
-  "vanda-miss-joaquim": {
-    "title": "Vanda Miss Joaquim",
-    "date": "19/12/23",
-    "start": "Stevens MRT",
-    "end": "Labrador Park MRT",
-    "color": "HYBRID",
-    "stops": [
-      {
-        "name": "Botanic Gardens",
-        "lat": 1.32205,
-        "lng": 103.81511
-      },
-      {
-        "name": "NUS Law",
-        "lat": 1.31912,
-        "lng": 103.81699
-      },
-      {
-        "name": "National Orchid Garden",
-        "lat": 1.31156,
-        "lng": 103.81487
-      },
-      {
-        "name": "Dawson Place",
-        "lat": 1.29275,
-        "lng": 103.81062
-      }
-    ],
-    "related": []
   },
   "bukit-panjang-malls": {
     "title": "Bukit Panjang Malls",
@@ -250,13 +233,13 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "yew-tee-point",
-          "lot-one",
           "bukit-panjang-plaza",
-          "junction-10",
-          "hillion-mall",
           "hill-v2",
-          "rail-mall"
+          "hillion-mall",
+          "junction-10",
+          "lot-one",
+          "rail-mall",
+          "yew-tee-point"
         ]
       }
     ]
@@ -305,7 +288,7 @@
       {
         "name": "Lornie Nature Corridor",
         "lat": 1.33605,
-        "lng": 103.81860
+        "lng": 103.8186
       },
       {
         "name": "Bishan-AMK Park",
@@ -343,35 +326,37 @@
         "lng": 103.89361
       }
     ],
-    "related": [{
-      "category": "blog",
-      "type": "malls",
-      "items": [
-        "west-mall",
-        "le-quest",
-        "hill-v2",
-        "rail-mall",
-        "bukit-timah-plaza",
-        "bukit-timah-shopping-centre",
-        "grandstand",
-        "amk-hub",
-        "jubilee-square",
-        "djitsun-mall",
-        "northshore-plaza"
-      ]
-    }]
+    "related": [
+      {
+        "category": "blog",
+        "type": "malls",
+        "items": [
+          "amk-hub",
+          "bukit-timah-plaza",
+          "bukit-timah-shopping-centre",
+          "djitsun-mall",
+          "grandstand",
+          "hill-v2",
+          "jubilee-square",
+          "le-quest",
+          "northshore-plaza",
+          "rail-mall",
+          "west-mall"
+        ]
+      }
+    ]
   },
   "deez-nutz": {
     "title": "Deez Nutz",
-    "date": "21/12/23",
+    "date": "TBC",
     "start": "Hillview MRT",
     "end": "Bukit Panjang MRT",
-    "color": "NATURE",
+    "color": "FUTURE_NATURE",
     "stops": [],
     "related": []
   },
   "dream-of-red-line": {
-    "title": "红线梦前段",
+    "title": "\u7ea2\u7ebf\u68a6\u524d\u6bb5",
     "date": "TBC",
     "start": "Marsiling MRT",
     "end": "Bukit Batok MRT",
@@ -414,7 +399,7 @@
       },
       {
         "name": "Stadium",
-        "lat": 1.30450,
+        "lat": 1.3045,
         "lng": 103.8741
       },
       {
@@ -433,25 +418,25 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "suntec-city",
-          "raffles-city",
-          "one-raffles-place",
-          "one-fullerton",
-          "marina-square",
-          "millenia-walk",
-          "golden-mile-complex",
-          "kallang-wave-mall",
-          "paya-lebar-quarter",
-          "paya-lebar-square",
-          "singpost-centre",
-          "katong-v",
-          "katong-shopping-centre",
-          "roxy-square",
-          "parkway-parade",
-          "i12-katong",
           "bedok-mall",
           "bedok-point",
-          "djitsun-mall-bedok"
+          "djitsun-mall-bedok",
+          "golden-mile-complex",
+          "i12-katong",
+          "kallang-wave-mall",
+          "katong-shopping-centre",
+          "katong-v",
+          "marina-square",
+          "millenia-walk",
+          "one-fullerton",
+          "one-raffles-place",
+          "parkway-parade",
+          "paya-lebar-quarter",
+          "paya-lebar-square",
+          "raffles-city",
+          "roxy-square",
+          "singpost-centre",
+          "suntec-city"
         ]
       }
     ]
@@ -495,12 +480,12 @@
         "category": "blog",
         "type": "malls",
         "items": [
+          "century-square",
           "east-village",
           "eastpoint-mall",
+          "our-tampines-hub",
           "tampines-1",
           "tampines-mall",
-          "century-square",
-          "our-tampines-hub",
           "white-sands"
         ]
       }
@@ -518,7 +503,7 @@
   "hawkerman": {
     "title": "Hawkerman",
     "date": "26/12/23",
-    "start": "Kovan MRT",
+    "start": "Mayflower MRT",
     "end": "Bishan MRT",
     "color": "URBAN",
     "stops": [],
@@ -563,7 +548,7 @@
     ]
   },
   "journey-to-the-north-east": {
-    "title": "东北游记",
+    "title": "\u4e1c\u5317\u6e38\u8bb0",
     "imgPath": "journey-to-the-west.jpg",
     "date": "29/12/22",
     "start": "HarbourFront MRT",
@@ -605,28 +590,28 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "vivo-city",
           "chinatown-point",
-          "plaza-singapura",
-          "funan",
-          "clarke-quay-central",
-          "tekka-place",
           "city-square-mall",
-          "mustafa-centre",
-          "the-poiz",
-          "woodleigh-mall",
-          "nex",
+          "clarke-quay-central",
+          "compass-one",
+          "funan",
           "heartland-mall",
           "hougang-mall",
+          "mustafa-centre",
+          "nex",
+          "plaza-singapura",
           "sengkang-grand-mall",
-          "compass-one",
-          "waterway-point"
+          "tekka-place",
+          "the-poiz",
+          "vivo-city",
+          "waterway-point",
+          "woodleigh-mall"
         ]
       }
     ]
   },
   "journey-to-the-west": {
-    "title": "西游记",
+    "title": "\u897f\u6e38\u8bb0",
     "date": "TBC",
     "start": "Tuas Link",
     "end": "Boon Lay MRT",
@@ -736,14 +721,14 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "causeway-point",
-          "woods-square",
-          "sun-plaza",
-          "sembawang-shopping-centre",
           "canberra-plaza",
-          "northpoint-city",
+          "causeway-point",
           "junction-9",
-          "wisteria-mall"
+          "northpoint-city",
+          "sembawang-shopping-centre",
+          "sun-plaza",
+          "wisteria-mall",
+          "woods-square"
         ]
       }
     ]
@@ -802,8 +787,8 @@
         "type": "malls",
         "items": [
           "rochester-mall",
-          "the-star-vista",
-          "the-centrepoint"  
+          "the-centrepoint",
+          "the-star-vista"
         ]
       }
     ]
@@ -838,24 +823,24 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "wheelock-place",
-          "far-east-plaza",
-          "scotts-square",
-          "ion-orchard",
-          "orchard-central",
-          "orchard-gateway",
           "313-somerset",
-          "wisma-atria",
-          "the-paragon",
+          "cathay-cineleisure-orchard",
+          "far-east-plaza",
+          "ion-orchard",
+          "knightsbridge",
           "lucky-plaza",
           "mandarin-gallery",
-          "ngee-ann-city",
-          "knightsbridge",
-          "plaza-singapura",
-          "the-centrepoint",
           "midpoint-orchard",
-          "cathay-cineleisure-orchard",
-          "shaw-house-and-centre"
+          "ngee-ann-city",
+          "orchard-central",
+          "orchard-gateway",
+          "plaza-singapura",
+          "scotts-square",
+          "shaw-house-and-centre",
+          "the-centrepoint",
+          "the-paragon",
+          "wheelock-place",
+          "wisma-atria"
         ]
       }
     ]
@@ -949,7 +934,7 @@
       {
         "name": "NUS School of Computing",
         "lat": 1.294482,
-        "lng": 103.773300
+        "lng": 103.7733
       },
       {
         "name": "NUS Faculty of Science",
@@ -972,8 +957,8 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "clementi-mall",
           "321-clementi",
+          "clementi-mall",
           "west-coast-plaza"
         ]
       }
@@ -1014,7 +999,7 @@
       {
         "name": "Springleaf PCN/Nature Park",
         "lat": 1.40191,
-        "lng": 103.82360
+        "lng": 103.8236
       },
       {
         "name": "Thomson Nature Park",
@@ -1023,7 +1008,7 @@
       },
       {
         "name": "Bishan-AMK Park",
-        "lat": 1.36700,
+        "lat": 1.367,
         "lng": 103.83202
       },
       {
@@ -1043,14 +1028,14 @@
         "type": "malls",
         "items": [
           "junction-8",
-          "the-poiz",
-          "suntec-city"
+          "suntec-city",
+          "the-poiz"
         ]
       }
     ]
   },
   "romance-of-three-kingdoms": {
-    "title": "三国演义",
+    "title": "\u4e09\u56fd\u6f14\u4e49",
     "imgPath": "romance-of-three-kingdoms.jpg",
     "date": "08/08/23",
     "start": "Woodlands North MRT",
@@ -1075,7 +1060,7 @@
       {
         "name": "Rail Corridor Central",
         "lat": 1.35124,
-        "lng": 103.77120
+        "lng": 103.7712
       },
       {
         "name": "Bukit Timah Railway Station",
@@ -1093,8 +1078,8 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "bukit-timah-plaza",
           "bukit-panjang-plaza",
+          "bukit-timah-plaza",
           "hillion-mall",
           "the-star-vista",
           "vivo-city"
@@ -1104,13 +1089,18 @@
         "category": "blog",
         "type": "hikes",
         "items": [
-          "romance-of-two-kingdoms"
+          "bukit-panjang-plaza",
+          "bukit-timah-plaza",
+          "hillion-mall",
+          "romance-of-two-kingdoms",
+          "the-star-vista",
+          "vivo-city"
         ]
       }
     ]
   },
   "romance-of-two-kingdoms": {
-    "title": "两国演义",
+    "title": "\u4e24\u56fd\u6f14\u4e49",
     "imgPath": "romance-of-three-kingdoms.jpg",
     "date": "29/09/22",
     "start": "Woodlands MRT",
@@ -1148,8 +1138,8 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "bukit-timah-plaza",
           "bukit-panjang-plaza",
+          "bukit-timah-plaza",
           "hillion-mall"
         ]
       },
@@ -1157,6 +1147,10 @@
         "category": "blog",
         "type": "hikes",
         "items": [
+          "bukit-panjang-plaza",
+          "bukit-timah-plaza",
+          "hillion-mall",
+          "romance-of-three-kingdoms",
           "romance-of-two-kingdoms"
         ]
       }
@@ -1196,27 +1190,27 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "waterway-point",
+          "greenwich-v",
+          "heartland-mall",
+          "hougang-1",
+          "hougang-mall",
           "northshore-plaza",
           "oasis-terraces",
           "punggol-plaza",
           "rivervale-mall",
           "rivervale-plaza",
           "seletar-mall",
-          "greenwich-v",
-          "hougang-1",
-          "hougang-mall",
-          "heartland-mall"
+          "waterway-point"
         ]
       }
     ]
   },
-  "sentosa": {
-    "title": "Sentosa",
-    "date": "18/12/23",
-    "start": "Haw Par Villa MRT",
-    "end": "Palawan Beach",
-    "color": "NATURE",
+  "singapura-very-strong": {
+    "title": "Singapura Very Strong",
+    "date": "13/01/24",
+    "start": "Labrador Park MRT",
+    "end": "Imbiah Lookout",
+    "color": "HYBRID",
     "stops": [],
     "related": []
   },
@@ -1246,35 +1240,34 @@
         "text": "I bought a drink at <<../blog/malls/vivo-city>>VivoCity</>, and that's pretty much it."
       }
     ],
-    "stops": [
-    ],
+    "stops": [],
     "related": [
       {
         "category": "blog",
         "type": "malls",
         "items": [
-          "alexandra-retail-centre",
-          "harbourfront-centre",
-          "vivo-city",
-          "tanjong-pagar-centre",
           "100-am",
-          "icon-village",
+          "alexandra-retail-centre",
           "chinatown-point",
+          "city-square-mall",
           "clarke-quay-central",
-          "peoples-park-complex",
-          "peoples-park-centre",
           "funan",
+          "harbourfront-centre",
+          "icon-village",
+          "peoples-park-centre",
+          "peoples-park-complex",
           "plaza-singapura",
           "raffles-city",
-          "tekka-place",
           "sim-lim-square",
-          "city-square-mall"
+          "tanjong-pagar-centre",
+          "tekka-place",
+          "vivo-city"
         ]
       }
     ]
   },
   "spring-2-leaf-3": {
-    "title": "Sprínglěaf",
+    "title": "Spr\u00edngl\u011baf",
     "date": "TBC",
     "start": "Springleaf MRT",
     "end": "Bright Hill MRT",
@@ -1315,7 +1308,7 @@
     "stops": [
       {
         "name": "Pandan River",
-        "lat": 1.32660,
+        "lat": 1.3266,
         "lng": 103.75013
       },
       {
@@ -1354,14 +1347,14 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "jem",
-          "westgate",
+          "clarke-quay-central",
+          "great-world-city",
           "imm",
           "j-cube",
-          "the-star-vista",
+          "jem",
           "suntec-city",
-          "great-world-city",
-          "clarke-quay-central"
+          "the-star-vista",
+          "westgate"
         ]
       }
     ]
@@ -1404,10 +1397,10 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "tanglin-mall",
-          "ion-orchard",
           "great-world-city",
-          "marina-one"
+          "ion-orchard",
+          "marina-one",
+          "tanglin-mall"
         ]
       }
     ]
@@ -1454,16 +1447,16 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "vivo-city",
           "harbourfront-centre",
-          "the-star-vista",
           "junction-8",
-          "nex",
           "kallang-wave-mall",
-          "suntec-city",
+          "nex",
           "paya-lebar-quarter",
           "paya-lebar-square",
-          "singpost-centre"
+          "singpost-centre",
+          "suntec-city",
+          "the-star-vista",
+          "vivo-city"
         ]
       }
     ]
@@ -1642,7 +1635,7 @@
       },
       {
         "name": "Serangoon River PC",
-        "lat": 1.38550,
+        "lat": 1.3855,
         "lng": 103.90649
       },
       {
@@ -1656,10 +1649,10 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "sengkang-grand-mall",
-          "northshore-plaza",
           "hougang-mall",
-          "rivervale-plaza"
+          "northshore-plaza",
+          "rivervale-plaza",
+          "sengkang-grand-mall"
         ]
       }
     ]
@@ -1749,16 +1742,19 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "zhongshan-mall",
+          "broadway-plaza",
           "thomson-plaza",
-          "broadway-plaza"
+          "zhongshan-mall"
         ]
       },
       {
         "category": "blog",
         "type": "hikes",
         "items": [
-          "what-defu"
+          "broadway-plaza",
+          "thomson-plaza",
+          "what-defu",
+          "zhongshan-mall"
         ]
       }
     ]
@@ -1782,25 +1778,16 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "queensway-shopping-centre",
           "alexandra-central",
-          "ikea-alexandra",
           "anchorpoint",
-          "tiong-bahru-plaza",
           "great-world-city",
-          "ion-orchard"
+          "ikea-alexandra",
+          "ion-orchard",
+          "queensway-shopping-centre",
+          "tiong-bahru-plaza"
         ]
       }
     ]
-  },
-  "top-of-the-world": {
-    "title": "Top of the World",
-    "date": "TBC",
-    "start": "Beauty World MRT",
-    "end": "Hillview MRT",
-    "color": "FUTURE_NATURE",
-    "stops": [],
-    "related": []
   },
   "upper-echelon": {
     "title": "Upper Echelon",
@@ -1809,6 +1796,36 @@
     "end": "Bencoolen MRT",
     "color": "DT",
     "stops": [],
+    "related": []
+  },
+  "vanda-miss-joaquim": {
+    "title": "Vanda Miss Joaquim",
+    "date": "19/12/23",
+    "start": "Stevens MRT",
+    "end": "Labrador Park MRT",
+    "color": "HYBRID",
+    "stops": [
+      {
+        "name": "Botanic Gardens",
+        "lat": 1.32205,
+        "lng": 103.81511
+      },
+      {
+        "name": "NUS Law",
+        "lat": 1.31912,
+        "lng": 103.81699
+      },
+      {
+        "name": "National Orchid Garden",
+        "lat": 1.31156,
+        "lng": 103.81487
+      },
+      {
+        "name": "Dawson Place",
+        "lat": 1.29275,
+        "lng": 103.81062
+      }
+    ],
     "related": []
   },
   "west-coast-malls": {
@@ -1830,8 +1847,8 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "clementi-mall",
           "321-clementi",
+          "clementi-mall",
           "west-coast-plaza"
         ]
       }
@@ -1907,6 +1924,7 @@
         "category": "blog",
         "type": "hikes",
         "items": [
+          "hougang-green-shopping-mall",
           "thomson-whampoa"
         ]
       }
@@ -1975,14 +1993,14 @@
         "category": "blog",
         "type": "malls",
         "items": [
-          "white-sands",
           "downtown-east",
-          "katong-v",
           "i12-katong",
-          "katong-shopping-centre",
-          "roxy-square",
           "kallang-wave-mall",
-          "suntec-city"
+          "katong-shopping-centre",
+          "katong-v",
+          "roxy-square",
+          "suntec-city",
+          "white-sands"
         ]
       }
     ]

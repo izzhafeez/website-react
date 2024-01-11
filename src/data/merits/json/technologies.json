@@ -42,7 +42,8 @@
         "category": "merits",
         "type": "modules",
         "items": [
-          "cs2109s"
+          "cs2109s",
+          "data-analytics"
         ]
       }
     ]
@@ -76,8 +77,16 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "frontend-development"
+          "frontend-development",
+          "javascript",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "malls-of-singapore"
         ]
       }
     ]
@@ -110,6 +119,8 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-management",
+          "rust-programming",
           "web-development"
         ]
       }
@@ -153,8 +164,8 @@
         "category": "merits",
         "type": "languages",
         "items": [
-          "javascript",
-          "css"
+          "css",
+          "javascript"
         ]
       },
       {
@@ -168,6 +179,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "css",
           "frontend-development",
           "web-development"
         ]
@@ -210,8 +222,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "api-development"
+          "api-development",
+          "python",
+          "web-development"
         ]
       },
       {
@@ -251,6 +264,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-management",
           "data-modeling"
         ]
       }
@@ -292,7 +306,13 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "data-visualisation"
+          "data-analytics",
+          "data-management",
+          "data-science",
+          "data-visualisation",
+          "gea1000",
+          "geospatial-analytics",
+          "operational-analysis"
         ]
       }
     ]
@@ -332,7 +352,10 @@
         "category": "merits",
         "type": "modules",
         "items": [
-          "cp2106"
+          "api-development",
+          "cp2106",
+          "javascript",
+          "web-development"
         ]
       }
     ]
@@ -365,6 +388,8 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "google-ux-design",
+          "high-fidelity-designs-in-figma",
           "ux-design"
         ]
       }
@@ -405,16 +430,19 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "api-development"
+          "api-development",
+          "data-analytics",
+          "python",
+          "web-development"
         ]
       },
       {
         "category": "projects",
         "type": "coding",
         "items": [
+          "chords-search-engine",
           "dynamic-resource-optimiser",
-          "chords-search-engine"
+          "malls-of-singapore"
         ]
       }
     ]
@@ -461,7 +489,17 @@
         "category": "merits",
         "type": "technologies",
         "items": [
-          "telegram-bots"
+          "data-analytics",
+          "google-professional-workspace",
+          "google-workspace-deployment",
+          "google-workspace-mail-management",
+          "google-workspace-security",
+          "introduction-to-google-workspace-administration",
+          "managing-google-workspace",
+          "rust-programming",
+          "telegram-bots",
+          "web-development",
+          "web-scraping"
         ]
       },
       {
@@ -489,6 +527,23 @@
         "title": "background",
         "text": "The bulk of my GitHub knowledge comes from my experience in my <<../merits/modules/cs2103t>>CS2103T Software Engineering</> module, where we had to work in a team to develop a Java product. In this module, I was very motivated, and made full use of GitHub's features. From its feature tracker, CI/CD, as well as the PR review system (where I commented over 300 times on other developers' PRs). Apart from this, my internship used GitHub for version control so there's that."
       }
+    ],
+    "related": [
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "auto-gitter",
+          "note-together"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cs2103t"
+        ]
+      }
     ]
   },
   "heroku": {
@@ -505,6 +560,24 @@
       {
         "title": "background",
         "text": "Before its free tier was taken down, I deployed 5 applications on Heroku during my web development phase. This includes setting up environment variables and CI/CD. But ever since the free tier is gone, I have stopped deploying my projects altogether."
+      }
+    ],
+    "related": [
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "meetup-maker",
+          "note-together"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "modules",
+        "items": [
+          "cp2106",
+          "web-development"
+        ]
       }
     ]
   },
@@ -529,8 +602,11 @@
         "category": "merits",
         "type": "languages",
         "items": [
+          "cs2040s",
+          "cs2103t",
+          "java",
           "rust",
-          "java"
+          "software-engineering"
         ]
       }
     ]
@@ -570,7 +646,8 @@
         "category": "merits",
         "type": "languages",
         "items": [
-          "javascript"
+          "javascript",
+          "software-testing"
         ]
       }
     ]
@@ -610,7 +687,11 @@
         "category": "merits",
         "type": "languages",
         "items": [
-          "java"
+          "cs2103t",
+          "java",
+          "software-engineering",
+          "software-testing",
+          "web-development"
         ]
       }
     ]
@@ -644,8 +725,14 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "anaconda",
+          "cs2109s",
+          "data-analytics",
           "data-science",
-          "data-visualisation"
+          "data-visualisation",
+          "getting-started-with-python",
+          "google-advanced-data-analytics",
+          "web-scraping"
         ]
       },
       {
@@ -706,7 +793,10 @@
         "category": "merits",
         "type": "certificates",
         "items": [
-          "mongo-data-modeling"
+          "cp2106",
+          "data-modeling",
+          "mongo-data-modeling",
+          "web-development"
         ]
       }
     ]
@@ -756,15 +846,18 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "api-development"
+          "api-development",
+          "web-development"
         ]
       },
       {
         "category": "merits",
         "type": "modules",
         "items": [
-          "cp2106"
+          "api-development",
+          "cp2106",
+          "javascript",
+          "web-development"
         ]
       },
       {
@@ -804,9 +897,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-cleaning",
           "data-science",
           "data-visualisation",
-          "data-cleaning",
           "operational-analysis"
         ]
       },
@@ -821,17 +914,29 @@
         "category": "merits",
         "type": "experiences",
         "items": [
-          "data-analytics"
+          "data-analytics",
+          "data-cleaning",
+          "data-mining",
+          "data-science",
+          "data-visualisation",
+          "geospatial-analytics",
+          "google-advanced-data-analytics",
+          "machine-learning",
+          "operational-analysis",
+          "python",
+          "rust-programming",
+          "web-scraping"
         ]
       },
       {
         "category": "projects",
         "type": "coding",
         "items": [
-          "malls-of-singapore",
-          "geospatial-management",
           "dynamic-resource-optimiser",
-          "geospatial-extraction"
+          "geospatial-extraction",
+          "geospatial-management",
+          "malls-of-singapore",
+          "svg-converter"
         ]
       }
     ]
@@ -864,7 +969,15 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "cs2103t",
           "documentation"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "edumate"
         ]
       }
     ]
@@ -904,7 +1017,17 @@
         "category": "merits",
         "type": "languages",
         "items": [
-          "sql"
+          "cs2102",
+          "data-modeling",
+          "sql",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "meetup-maker"
         ]
       }
     ]
@@ -930,9 +1053,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "api-development",
           "software-testing",
-          "web-development",
-          "api-development"
+          "web-development"
         ]
       },
       {
@@ -946,15 +1069,19 @@
         "category": "projects",
         "type": "coding",
         "items": [
-          "note-together",
-          "bus-routes-optimiser"
+          "bus-routes-optimiser",
+          "note-together"
         ]
       },
       {
         "category": "merits",
         "type": "experiences",
         "items": [
-          "fullstack-intern"
+          "cp2106",
+          "cs3216",
+          "fullstack-intern",
+          "software-testing",
+          "web-development"
         ]
       }
     ]
@@ -987,8 +1114,10 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-management",
+          "data-science",
           "data-visualisation",
-          "data-science"
+          "operational-analysis"
         ]
       }
     ]
@@ -1028,8 +1157,11 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "cs2109s",
           "data-science",
-          "machine-learning"
+          "machine-learning",
+          "python",
+          "rust-programming"
         ]
       }
     ]
@@ -1062,9 +1194,11 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "geospatial-analytics",
+          "data-analytics",
+          "data-science",
           "data-visualisation",
-          "data-science"
+          "geospatial-analytics",
+          "operational-analysis"
         ]
       }
     ]
@@ -1078,6 +1212,15 @@
         "title": "description",
         "text": "R Markdown provides an unified authoring framework for data science, combining your code, its results, and your prose commentary. R Markdown documents are fully reproducible and support dozens of output formats, like PDFs, Word files, slideshows, and more."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "courses",
+        "items": [
+          "data-analysis-with-r"
+        ]
+      }
     ]
   },
   "r-studio": {
@@ -1089,46 +1232,13 @@
         "title": "description",
         "text": "RStudio is an integrated development environment for R, a programming language for statistical computing and graphics. It is available in two formats: RStudio Desktop is a regular desktop application while RStudio Server runs on a remote server and allows accessing RStudio using a web browser."
       }
-    ]
-  },
-  "ruby-on-rails": {
-    "title": "Ruby on Rails",
-    "imgPath": "rails.svg",
-    "importance": 6,
-    "date": 2019,
-    "proficiency": 6,
-    "description": [
-      {
-        "title": "description",
-        "text": "Ruby on Rails is a popular web application framework written in <<../merits/languages/ruby>>Ruby</> that follows the MVC architectural pattern, providing developers with a productive environment for building robust and scalable web applications with convention-over-configuration principles."
-      },
-      {
-        "title": "background",
-        "text": "Firstly, I was involved in the development, maintenance and operation of an optimisation software, where part of it was written in Rails. Naturally, I had to pick it up and make modifications and fixes along the way in order to continue operating the software.\nSecondly, during my <<../merits/experiences/fullstack-intern>>internship</>, I also used Rails to serve as the backend for a web application that showcased the compeny's geospatial APIs. Through these two experiences, I became more familiar with Rails."
-      }
     ],
     "related": [
       {
         "category": "merits",
-        "type": "languages",
+        "type": "courses",
         "items": [
-          "ruby"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "experiences",
-        "items": [
-          "fullstack-intern",
-          "data-analytics"
-        ]
-      },
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "dynamic-resource-optimiser",
-          "bus-routes-optimiser"
+          "data-analysis-with-r"
         ]
       }
     ]
@@ -1161,8 +1271,8 @@
         "category": "projects",
         "type": "coding",
         "items": [
-          "website-react",
-          "bus-routes-optimiser"
+          "bus-routes-optimiser",
+          "website-react"
         ]
       },
       {
@@ -1176,8 +1286,11 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "frontend-development"
+          "cs3216",
+          "frontend-development",
+          "fullstack-intern",
+          "javascript",
+          "web-development"
         ]
       }
     ]
@@ -1210,8 +1323,54 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "api-development"
+          "api-development",
+          "rust",
+          "web-development"
+        ]
+      }
+    ]
+  },
+  "ruby-on-rails": {
+    "title": "Ruby on Rails",
+    "imgPath": "rails.svg",
+    "importance": 6,
+    "date": 2019,
+    "proficiency": 6,
+    "description": [
+      {
+        "title": "description",
+        "text": "Ruby on Rails is a popular web application framework written in <<../merits/languages/ruby>>Ruby</> that follows the MVC architectural pattern, providing developers with a productive environment for building robust and scalable web applications with convention-over-configuration principles."
+      },
+      {
+        "title": "background",
+        "text": "Firstly, I was involved in the development, maintenance and operation of an optimisation software, where part of it was written in Rails. Naturally, I had to pick it up and make modifications and fixes along the way in order to continue operating the software.\nSecondly, during my <<../merits/experiences/fullstack-intern>>internship</>, I also used Rails to serve as the backend for a web application that showcased the compeny's geospatial APIs. Through these two experiences, I became more familiar with Rails."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "languages",
+        "items": [
+          "ruby"
+        ]
+      },
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "api-development",
+          "data-analytics",
+          "fullstack-intern",
+          "ruby",
+          "web-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "bus-routes-optimiser",
+          "dynamic-resource-optimiser"
         ]
       }
     ]
@@ -1245,15 +1404,20 @@
         "category": "merits",
         "type": "languages",
         "items": [
-          "python"
+          "cp2106",
+          "python",
+          "software-testing",
+          "web-development",
+          "web-scraping"
         ]
       },
       {
         "category": "projects",
         "type": "coding",
         "items": [
+          "malls-of-singapore",
           "note-together",
-          "malls-of-singapore"
+          "sentence-searcher"
         ]
       }
     ]
@@ -1286,8 +1450,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "api-development"
+          "api-development",
+          "java",
+          "web-development"
         ]
       }
     ]
@@ -1327,6 +1492,7 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-management",
           "data-modeling"
         ]
       }
@@ -1346,6 +1512,15 @@
       {
         "title": "background",
         "text": "I used the Sublime text editor during my time in <<../merits/experiences/data-analytics>>NS</>, as that was the editor available to me at the time. For both Python and Ruby code, Sublime was the go-to option for development work. Nothing much else to it."
+      }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "data-analytics"
+        ]
       }
     ]
   },
@@ -1377,8 +1552,9 @@
         "category": "merits",
         "type": "skills",
         "items": [
-          "web-development",
-          "frontend-development"
+          "frontend-development",
+          "javascript",
+          "web-development"
         ]
       }
     ]
@@ -1411,8 +1587,16 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "dashboards-reports",
+          "data-analytics",
+          "data-science",
           "data-visualisation",
-          "data-science"
+          "go-beyond-the-numbers",
+          "google-advanced-data-analytics",
+          "google-business-intelligence",
+          "google-data-analytics",
+          "operational-analysis",
+          "share-data-through-the-art-of-visualization"
         ]
       },
       {
@@ -1460,6 +1644,8 @@
         "category": "merits",
         "type": "languages",
         "items": [
+          "data-analytics",
+          "gcp",
           "javascript"
         ]
       }
@@ -1500,9 +1686,13 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "data-analytics",
           "data-science",
+          "data-visualisation",
+          "deep-learning-tensorflow",
+          "google-advanced-data-analytics",
           "machine-learning",
-          "data-visualisation"
+          "python"
         ]
       }
     ]
@@ -1535,7 +1725,15 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "c-sharp",
           "game-development"
+        ]
+      },
+      {
+        "category": "projects",
+        "type": "coding",
+        "items": [
+          "malls-of-singapore"
         ]
       }
     ]
@@ -1581,6 +1779,17 @@
         "title": "background",
         "text": "VSCode is my most used code editor, and I have created add-ons of my own. But that's pretty much it."
       }
+    ],
+    "related": [
+      {
+        "category": "merits",
+        "type": "experiences",
+        "items": [
+          "cp2106",
+          "fullstack-intern",
+          "software-engineering"
+        ]
+      }
     ]
   },
   "vue-js": {
@@ -1625,7 +1834,10 @@
         "category": "merits",
         "type": "skills",
         "items": [
+          "cp2106",
+          "cs3216",
           "frontend-development",
+          "javascript",
           "web-development"
         ]
       }
