@@ -52,7 +52,7 @@ class Item {
 
     return <a
       href={this.getLink()}
-      className='link-body-emphasis link-underline-opacity-50 link-underline-opacity-100-hover'
+      className='link-dark link-underline-opacity-50 link-underline-opacity-100-hover'
     >
       {this.getTitle()}
     </a>;

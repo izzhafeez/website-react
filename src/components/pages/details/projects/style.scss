@@ -1,7 +1,8 @@
 @import '/src/assets/colors/mrt.css';
 
 article.projects:hover {
-  background-color: var(--ew-v-light);
+  background-color: var(--ew);
+  color: white;
 }
 
 article.projects { 

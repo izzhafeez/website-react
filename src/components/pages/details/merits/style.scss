@@ -1,7 +1,8 @@
 @import '/src/assets/colors/mrt.css';
 
 article.merits:hover {
-  background-color: var(--ns-v-light);
+  background-color: var(--ns-light);
+  color: white;
 }
 
 article.merits {

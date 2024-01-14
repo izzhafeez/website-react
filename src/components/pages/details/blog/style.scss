@@ -1,7 +1,8 @@
 @import '/src/assets/colors/mrt.css';
 
 article.blog:hover {
-  background-color: var(--ne-v-light);
+  background-color: var(--ne-light);
+  color: white;
 }
 
 article.blog {
