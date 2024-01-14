@@ -14,7 +14,7 @@ class Location {
   }
 
   getColor() {
-    return 'CYAN';
+    return 'WHITE';
   }
 
   getStyle() {
