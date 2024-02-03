@@ -8,6 +8,7 @@ import mrtChineseData from "data/projects/json/quizzes/mrt-chinese.json";
 import nusModsData from "data/projects/json/quizzes/nus-mods.json";
 import roadsData from "data/projects/json/quizzes/roads.json";
 import schoolsData from 'data/projects/json/quizzes/schools.json';
+import statusCodesData from 'data/projects/json/quizzes/status-codes.json';
 import { useState } from "react";
 import { City, Mrt, Road, School } from "components/map/locations";
 import Mall from "components/map/locations/Mall";
@@ -44,6 +45,9 @@ const QuizPage = ({ type, item }) => {
     case 'nus-mods':
       data = nusModsData;
       break;
+    case 'status-codes': 
+      data = statusCodesData;
+      break;
     case 'roads':
     case 'roads-coverage':
       constructor = p => new Road(p);
@@ -72,6 +76,7 @@ const QuizPage = ({ type, item }) => {
       />
       break;
     case 'nus-mods':
+    case 'status-codes':
       quiz = <GuessQuiz
         data={data}
         parser={(k, v) => v}
