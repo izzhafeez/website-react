@@ -1,5 +1,6 @@
 import GeoQuiz from "components/pages/details/projects/quiz/GeoQuiz";
 // import citiesData from 'data/projects/json/quizzes/cities.json';
+import awsProductsData from "data/projects/json/quizzes/aws-products.json";
 import mallsData from "data/blog/json/malls.json";
 import busRoutesData from "data/projects/json/quizzes/bus-routes.json";
 import busStopsData from "data/projects/json/quizzes/bus-stops-b.json";
@@ -45,6 +46,9 @@ const QuizPage = ({ type, item }) => {
     case 'nus-mods':
       data = nusModsData;
       break;
+    case 'aws-products':
+      data = awsProductsData;
+      break;
     case 'status-codes': 
       data = statusCodesData;
       break;
@@ -77,6 +81,7 @@ const QuizPage = ({ type, item }) => {
       break;
     case 'nus-mods':
     case 'status-codes':
+    case 'aws-products':
       quiz = <GuessQuiz
         data={data}
         parser={(k, v) => v}

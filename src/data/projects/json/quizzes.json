@@ -1,4 +1,16 @@
 {
+  "aws-products": {
+    "title": "AWS Products (Live Quiz)",
+    "isLive": true,
+    "imgPath": "openlayers.svg",
+    "importance": 6,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Guess the AWS product name given the description."
+      }
+    ]
+  },
   "bus-routes": {
     "title": "Bus Routes of Singapore (Live Quiz)",
     "isLive": true,
