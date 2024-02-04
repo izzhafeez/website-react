@@ -23,6 +23,8 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
     return base;
   }
 
+  const normalise = text => text.replace(/\s+/g, '').toLowerCase();
+
   const onKeyDown = e => {
     if (e.key === 'Enter') {
       const guess = e.target.value;
@@ -30,10 +32,10 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
         return;
       }
       setGuess(guess);
-      if (data) {
-        handleScore(data[guess] == data[answer]);
+      if (data[guess]) {
+        handleScore(normalise(data[guess]) == normalise(data[answer]));
       } else {
-        handleScore(guess === answer);
+        handleScore(normalise(guess) === normalise(answer));
       }
       e.target.value = '';
     }
