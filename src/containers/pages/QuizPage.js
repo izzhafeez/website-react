@@ -4,6 +4,7 @@ import awsProductsData from "data/projects/json/quizzes/aws-products.json";
 import mallsData from "data/blog/json/malls.json";
 import busRoutesData from "data/projects/json/quizzes/bus-routes.json";
 import busStopsData from "data/projects/json/quizzes/bus-stops-b.json";
+import citiesLangData from "data/projects/json/quizzes/cities-lang.json";
 import mrtData from "data/projects/json/quizzes/mrt.json";
 import mrtChineseData from "data/projects/json/quizzes/mrt-chinese.json";
 import nusModsData from "data/projects/json/quizzes/nus-mods.json";
@@ -52,6 +53,9 @@ const QuizPage = ({ type, item }) => {
     case 'status-codes': 
       data = statusCodesData;
       break;
+    case 'cities-lang':
+      data = citiesLangData;
+      break;
     case 'roads':
     case 'roads-coverage':
       constructor = p => new Road(p);
@@ -82,6 +86,7 @@ const QuizPage = ({ type, item }) => {
     case 'nus-mods':
     case 'status-codes':
     case 'aws-products':
+    case 'cities-lang':
       quiz = <GuessQuiz
         data={data}
         parser={(k, v) => v}

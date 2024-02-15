@@ -54,7 +54,8 @@ const GuessQuiz = ({ data, parser, container, isMap=false }) => {
 
     let newOptionsSet = new Set();
     const correctedWindowSize = Math.min(windowSize_, allOptions.length);
-    while (newOptionsSet.size < optionsSize_) {
+    const correctedOptionsSize = Math.min(optionsSize_, allOptions.length);
+    while (newOptionsSet.size < correctedOptionsSize) {
       const randomIndex = Math.floor(getRandom() * correctedWindowSize);
       const newOption = allOptions_[randomIndex];
       if (newOption !== answer) {
@@ -103,7 +104,13 @@ const GuessQuiz = ({ data, parser, container, isMap=false }) => {
 
   const handleRegex = e => {
     if (e.key === 'Enter') {
-      setAllOptions(sortOptions(new RegExp(e.target.value)));
+      const newOptions = sortOptions(new RegExp(e.target.value));
+      if (newOptions.length < 2) {
+        e.target.placeholder = `${e.target.value}: Not enough results!`
+        e.target.value = '';
+        return;
+      }
+      setAllOptions(newOptions);
       e.target.placeholder = e.target.value;
       e.target.value = '';
     }

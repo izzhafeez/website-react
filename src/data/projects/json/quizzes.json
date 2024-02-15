@@ -41,6 +41,18 @@
     "importance": 4,
     "link": "https://www.geoguessr.com/maps/62c1a3c88b4554410dd849fa/play"
   },
+  "cities-lang": {
+    "title": "City Languages (Live Quiz)",
+    "imgPath": "openlayers.svg",
+    "isLive": true,
+    "importance": 8,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Guess the city based on its native language."
+      }
+    ]
+  },
   "malls-geoguessr": {
     "title": "Malls of Singapore (Geoguessr)",
     "imgPath": "geoguessr.svg",

@@ -1,17 +1,17 @@
 import { rotateRandomise, shuffleRandomise } from "../random/randomisers";
-import { noLetterSort, numberSort, randomSort } from "../sort/sorters";
+import { randomSort } from "../sort/sorters";
 
 const difficulties = {
   mcqeasy: {
     label: 'mcq (easy)',
-    sort: noLetterSort,
+    sort: randomSort,
     randomiser: shuffleRandomise,
     window: 4,
     options: 2,
   },
   mcqmedium: {
     label: 'mcq (medium)',
-    sort: numberSort,
+    sort: randomSort,
     randomiser: rotateRandomise,
     window: 16,
     options: 4,
@@ -32,7 +32,7 @@ const difficulties = {
   },
   freeeasy: {
     label: 'free text (easy)',
-    sort: noLetterSort,
+    sort: randomSort,
     randomiser: shuffleRandomise,
     window: 4,
     options: 2,
@@ -40,7 +40,7 @@ const difficulties = {
   },
   freemedium: {
     label: 'free text (medium)',
-    sort: numberSort,
+    sort: randomSort,
     randomiser: rotateRandomise,
     window: 16,
     options: 1,

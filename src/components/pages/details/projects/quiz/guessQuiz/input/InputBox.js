@@ -23,7 +23,11 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
     return base;
   }
 
-  const normalise = text => text.replace(/\s+/g, '').toLowerCase();
+  const normalise = text => {
+    const fixed = text.replace(/\s+/g, '').toLowerCase().replace(/\(.*?\)/g, '')
+    console.log(fixed);
+    return fixed;
+  };
 
   const onKeyDown = e => {
     if (e.key === 'Enter') {
