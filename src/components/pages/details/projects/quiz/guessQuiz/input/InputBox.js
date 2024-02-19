@@ -1,4 +1,5 @@
 import { useState } from "react";
+import unidecode from "unidecode";
 
 const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered }) => {
   const [guess, setGuess] = useState('');
@@ -25,8 +26,7 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
 
   const normalise = text => {
     const fixed = text.replace(/\s+/g, '').toLowerCase().replace(/\(.*?\)/g, '')
-    console.log(fixed);
-    return fixed;
+    return unidecode(fixed);
   };
 
   const onKeyDown = e => {
