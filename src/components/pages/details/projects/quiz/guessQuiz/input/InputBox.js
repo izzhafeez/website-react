@@ -33,6 +33,8 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
     return fixed;
   };
 
+  const removeBrackets = text => text.replace(/\(.*?\)/gi, '');
+
   const normalisedData = useMemo(() => {
     const toReturn = {};
     for (const [k, v] of Object.entries(data)) {
@@ -74,7 +76,7 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
             value={option}
             key={option}
           >
-            {option}
+            {removeBrackets(option)}
           </button>
         )
       }
