@@ -41,7 +41,7 @@
     "importance": 4,
     "link": "https://www.geoguessr.com/maps/62c1a3c88b4554410dd849fa/play"
   },
-  "place-names-lang": {
+  "place-names": {
     "title": "Place Names (Live Quiz)",
     "imgPath": "openlayers.svg",
     "isLive": true,
