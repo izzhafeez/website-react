@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import unidecode from "unidecode";
 
 const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered }) => {
@@ -33,15 +33,29 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
     return fixed;
   };
 
+  const normalisedData = useMemo(() => {
+    const toReturn = {};
+    for (const [k, v] of Object.entries(data)) {
+      const normalisedKey = normalise(k);
+      if (!(normalisedKey in toReturn)) {
+        toReturn[normalisedKey] = new Set();
+      }
+      toReturn[normalisedKey].add(v);
+    }
+    return toReturn;
+  });
+
   const onKeyDown = e => {
     if (e.key === 'Enter') {
-      const guess = e.target.value;
+      const guess = normalise(e.target.value);
       if (!guess) {
         return;
       }
       setGuess(guess);
-      if (data[guess]) {
-        handleScore(normalise(data[guess]) == normalise(data[answer]));
+      if (normalisedData[guess]) {
+        console.log(normalisedData[guess]);
+        console.log(data[answer]);
+        handleScore(normalisedData[guess].has(data[answer]));
       } else {
         handleScore(normalise(guess) === normalise(answer));
       }

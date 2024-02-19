@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { randomSort } from "./guessQuiz/sort/sorters";
 import { rotateRandomise } from "./guessQuiz/random/randomisers";
 
 const CompletionQuiz = ({ data, parser }) => {
-  const parsedData = Object.entries(data).map(([k,v]) => parser(k, v));
-  const sortedData = rotateRandomise({ arr: parsedData, sort: randomSort });
+  const parsedData = useMemo(() => Object.entries(data).map(([k,v]) => parser(k, v)));
+  const sortedData = useMemo(() => rotateRandomise({ arr: parsedData, sort: randomSort }));
 
   const [itemIndex, setItemIndex] = useState(0);
   const [prompt, setPrompt] = useState('');

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { settings } from "./settings";
 import InputBox from "./input/InputBox";
 import { getRandom } from "./random/randomisers";
@@ -9,10 +9,10 @@ const GuessQuiz = ({ data, parser, container, isMap=false }) => {
   const sortOptions = (regex) => setting.randomiser({ arr: Object.keys(data).filter(d => regex === undefined || regex.test(d)), sort: setting.sort });
   const [allOptions, setAllOptions] = useState(sortOptions());
 
-  const parsedData = Object.entries(data).reduce((map, [k, v]) => {
+  const parsedData = useMemo(() => Object.entries(data).reduce((map, [k, v]) => {
     map[k] = parser(k, v);
     return map;
-  }, {});
+  }, {}));
 
   const [defaultWindowSize, setDefaultWindowSize] = useState(setting.window);
   const [windowSize, setWindowSize] = useState(defaultWindowSize);
