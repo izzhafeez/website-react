@@ -41,15 +41,15 @@
     "importance": 4,
     "link": "https://www.geoguessr.com/maps/62c1a3c88b4554410dd849fa/play"
   },
-  "cities-lang": {
-    "title": "City Languages (Live Quiz)",
+  "place-names-lang": {
+    "title": "Place Names (Live Quiz)",
     "imgPath": "openlayers.svg",
     "isLive": true,
     "importance": 8,
     "description": [
       {
         "title": "instructions",
-        "text": "Guess the city based on its native language."
+        "text": "Guess the place."
       }
     ]
   },

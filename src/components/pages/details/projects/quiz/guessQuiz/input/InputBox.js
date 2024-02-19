@@ -25,8 +25,12 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
   }
 
   const normalise = text => {
-    const fixed = text.replace(/\s+/g, '').toLowerCase().replace(/\(.*?\)/g, '')
-    return unidecode(fixed);
+    const fixed = unidecode(text)
+      .replace(/\s+/g, '')
+      .toLowerCase()
+      .replace(/\(.*?\)/gi, '')
+      .replace(/[^0-9a-z]/gi, '')
+    return fixed;
   };
 
   const onKeyDown = e => {
