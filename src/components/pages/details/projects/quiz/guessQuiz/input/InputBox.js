@@ -4,12 +4,6 @@ import unidecode from "unidecode";
 const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered }) => {
   const [guess, setGuess] = useState('');
 
-  const handleClick = e => {
-    const newGuess = e.target.value;
-    setGuess(newGuess);
-    handleScore(newGuess == answer);
-  };
-
   const getClassName = option => {
     let base = 'btn me-2 ';
     if (!guess || !hasAnswered) {
@@ -47,6 +41,20 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
     return toReturn;
   });
 
+  const handleClick = e => {
+    const guess = normalise(e.target.value);
+    console.log(guess);
+    if (!guess) {
+      return;
+    }
+    setGuess(guess);
+    if (normalisedData[guess]) {
+      handleScore(normalisedData[guess].has(data[answer]));
+    } else {
+      handleScore(normalise(guess) === normalise(answer));
+    }
+  };
+
   const onKeyDown = e => {
     if (e.key === 'Enter') {
       const guess = normalise(e.target.value);
@@ -55,8 +63,6 @@ const InputBox = ({ options, answer, handleScore, isFreeText, data, hasAnswered 
       }
       setGuess(guess);
       if (normalisedData[guess]) {
-        console.log(normalisedData[guess]);
-        console.log(data[answer]);
         handleScore(normalisedData[guess].has(data[answer]));
       } else {
         handleScore(normalise(guess) === normalise(answer));
