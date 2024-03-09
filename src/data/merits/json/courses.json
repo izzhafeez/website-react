@@ -13,35 +13,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-aggregation",
-          "data-analysis",
-          "data-calculations",
-          "google-data-analytics"
-        ]
-      }
+      "merits/certificates/google-data-analytics",
+      "merits/languages/sql",
+      "merits/skills/data-aggregation",
+      "merits/skills/data-analysis"
     ]
   },
   "ask-questions-to-make-data-driven-decisions": {
@@ -58,33 +33,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "decision-making",
-          "google-data-analytics",
-          "problem-solving"
-        ]
-      }
+      "merits/certificates/google-data-analytics",
+      "merits/skills/data-analysis",
+      "merits/skills/decision-making",
+      "merits/skills/problem-solving"
     ]
   },
   "building-objects-in-c": {
@@ -101,33 +53,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "c-programming-for-everybody"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "c-programming-for-everybody",
-          "object-oriented-programming"
-        ]
-      }
+      "merits/certificates/c-programming-for-everybody",
+      "merits/languages/c",
+      "merits/skills/object-oriented-programming"
     ]
   },
   "chat-gpt-advanced-data-analysis": {
@@ -144,32 +72,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "prompt-engineering"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "prompt-engineering",
-          "prompt-patterns"
-        ]
-      }
+      "merits/certificates/prompt-engineering",
+      "merits/skills/data-analysis",
+      "merits/skills/prompt-engineering"
     ]
   },
   "dashboards-reports": {
@@ -186,37 +91,13 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-business-intelligence"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "tableau"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "communication",
-          "dashboarding",
-          "data-visualisation",
-          "google-business-intelligence",
-          "reporting",
-          "sharing-insights"
-        ]
-      }
+      "merits/certificates/google-business-intelligence",
+      "merits/technologies/tableau",
+      "merits/skills/communication",
+      "merits/skills/dashboarding",
+      "merits/skills/data-visualisation",
+      "merits/skills/reporting",
+      "merits/skills/sharing-insights"
     ]
   },
   "data-analysis-with-r": {
@@ -233,39 +114,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "r"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "r-markdown",
-          "r-studio"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "data-visualisation",
-          "google-data-analytics",
-          "r-markdown",
-          "r-studio"
-        ]
-      }
+      "merits/certificates/google-data-analytics",
+      "merits/languages/r",
+      "merits/technologies/r-markdown",
+      "merits/technologies/r-studio",
+      "merits/skills/data-analysis",
+      "merits/skills/data-visualisation"
     ]
   },
   "data-engineering-with-rust": {
@@ -282,36 +136,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "rust-programming"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-engineering",
-          "rust-programming",
-          "software-testing",
-          "system-programming"
-        ]
-      }
+      "merits/certificates/rust-programming",
+      "merits/languages/python",
+      "merits/languages/rust",
+      "merits/skills/data-engineering",
+      "merits/skills/software-testing",
+      "merits/skills/system-programming"
     ]
   },
   "data-structures-in-c": {
@@ -328,34 +158,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "c-programming-for-everybody"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "c-programming-for-everybody",
-          "data-structures",
-          "memory-management"
-        ]
-      }
+      "merits/certificates/c-programming-for-everybody",
+      "merits/languages/c",
+      "merits/skills/data-structures"
     ]
   },
   "dynamic-user-interfaces": {
@@ -372,31 +177,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-ux-design",
-          "usability-testing",
-          "user-experience",
-          "ux-design"
-        ]
-      }
+      "merits/skills/usability-testing",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design"
     ]
   },
   "empathize-define-ideate": {
@@ -413,34 +196,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-ux-design"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-ux-design",
-          "prototype",
-          "user-experience",
-          "ux-design",
-          "ux-research"
-        ]
-      }
+      "merits/certificates/google-ux-design",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
     ]
   },
   "exploring-c": {
@@ -457,32 +216,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "c-programming-for-everybody"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "c-programming-for-everybody"
-        ]
-      }
+      "merits/certificates/c-programming-for-everybody",
+      "merits/languages/c"
     ]
   },
   "foundations-data-data-everywhere": {
@@ -499,35 +234,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "data-cleaning",
-          "data-visualisation",
-          "google-data-analytics"
-        ]
-      }
+      "merits/certificates/google-data-analytics",
+      "merits/languages/sql",
+      "merits/skills/data-analysis",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-visualisation"
     ]
   },
   "foundations-of-business-intelligence": {
@@ -544,34 +255,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-business-intelligence"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "business-requirements",
-          "cross-functional",
-          "google-business-intelligence",
-          "management",
-          "sharing-insights"
-        ]
-      }
+      "merits/certificates/google-business-intelligence",
+      "merits/skills/business-requirements",
+      "merits/skills/cross-functional",
+      "merits/skills/sharing-insights"
     ]
   },
   "foundations-of-data-science": {
@@ -588,34 +275,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-advanced-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "communication",
-          "google-advanced-data-analytics",
-          "project-management",
-          "sharing-insights",
-          "team-dynamics"
-        ]
-      }
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/skills/communication",
+      "merits/skills/project-management",
+      "merits/skills/sharing-insights",
+      "merits/skills/team-dynamics"
     ]
   },
   "foundations-of-ux": {
@@ -632,33 +296,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-ux-design"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-ux-design",
-          "user-experience",
-          "ux-design",
-          "ux-research"
-        ]
-      }
+      "merits/certificates/google-ux-design",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
     ]
   },
   "generative-ai-elevate": {
@@ -675,34 +316,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "ibm-generative-ai-data-science"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "data-generation",
-          "data-science",
-          "generative-ai",
-          "ibm-generative-ai-data-science"
-        ]
-      }
+      "merits/certificates/ibm-generative-ai-data-science",
+      "merits/skills/data-analysis",
+      "merits/skills/data-generation",
+      "merits/skills/data-science",
+      "merits/skills/generative-ai"
     ]
   },
   "generative-ai-introduction": {
@@ -719,36 +337,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "ibm-generative-ai-data-science"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "chat-gpt"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "artificial-intelligence",
-          "generative-ai",
-          "ibm-generative-ai-data-science",
-          "large-language-models",
-          "natural-language-processing"
-        ]
-      }
+      "merits/certificates/ibm-generative-ai-data-science",
+      "merits/skills/artificial-intelligence",
+      "merits/skills/generative-ai",
+      "merits/skills/large-language-models",
+      "merits/skills/natural-language-processing"
     ]
   },
   "generative-ai-prompt-engineering": {
@@ -765,36 +358,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "ibm-generative-ai-data-science"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "chat-gpt"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "artificial-intelligence",
-          "generative-ai",
-          "ibm-generative-ai-data-science",
-          "prompt-engineering",
-          "prompt-patterns"
-        ]
-      }
+      "merits/certificates/ibm-generative-ai-data-science",
+      "merits/skills/artificial-intelligence",
+      "merits/skills/generative-ai",
+      "merits/skills/prompt-engineering"
     ]
   },
   "getting-started-with-python": {
@@ -811,37 +378,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-advanced-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "jupyter"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "coding",
-          "data-visualisation",
-          "documentation",
-          "google-advanced-data-analytics"
-        ]
-      }
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/technologies/jupyter",
+      "merits/skills/data-visualisation",
+      "merits/skills/documentation"
     ]
   },
   "go-beyond-the-numbers": {
@@ -858,38 +399,13 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-advanced-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "tableau"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "communication",
-          "data-analysis",
-          "data-visualisation",
-          "exploratory-data-analysis",
-          "google-advanced-data-analytics"
-        ]
-      }
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/technologies/tableau",
+      "merits/skills/communication",
+      "merits/skills/data-analysis",
+      "merits/skills/data-visualisation",
+      "merits/skills/exploratory-data-analysis"
     ]
   },
   "google-advanced-data-analytics-capstone": {
@@ -906,35 +422,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-advanced-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "executive-summaries",
-          "google-advanced-data-analytics",
-          "machine-learning"
-        ]
-      }
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/skills/data-analysis",
+      "merits/skills/executive-summaries",
+      "merits/skills/machine-learning"
     ]
   },
   "google-data-analytics-capstone": {
@@ -951,33 +443,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "data-cleaning",
-          "data-visualisation",
-          "google-data-analytics"
-        ]
-      }
+      "merits/certificates/google-data-analytics",
+      "merits/skills/data-analysis",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-visualisation"
     ]
   },
   "google-workspace-deployment": {
@@ -994,32 +463,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-professional-workspace"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-professional-workspace"
-        ]
-      }
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
     ]
   },
   "google-workspace-mail-management": {
@@ -1036,32 +481,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-professional-workspace"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-professional-workspace"
-        ]
-      }
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
     ]
   },
   "google-workspace-security": {
@@ -1078,32 +499,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-professional-workspace"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-professional-workspace"
-        ]
-      }
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
     ]
   },
   "high-fidelity-designs-in-figma": {
@@ -1120,34 +517,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-ux-design"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "figma"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-ux-design",
-          "user-experience",
-          "ux-design"
-        ]
-      }
+      "merits/certificates/google-ux-design",
+      "merits/technologies/figma",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design"
     ]
   },
   "introduction-to-google-workspace-administration": {
@@ -1164,32 +537,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-professional-workspace"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-professional-workspace"
-        ]
-      }
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
     ]
   },
   "managing-google-workspace": {
@@ -1206,32 +555,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-professional-workspace"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "gcp"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-professional-workspace"
-        ]
-      }
+      "merits/certificates/google-professional-workspace",
+      "merits/technologies/gcp"
     ]
   },
   "prepare-data-for-exploration": {
@@ -1248,35 +573,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-collection",
-          "data-ethics",
-          "google-data-analytics",
-          "metadata"
-        ]
-      }
+      "merits/certificates/google-data-analytics",
+      "merits/languages/sql",
+      "merits/skills/data-collection",
+      "merits/skills/data-ethics",
+      "merits/skills/metadata"
     ]
   },
   "process-data-from-dirty-to-clean": {
@@ -1293,34 +594,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "sql"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-cleaning",
-          "data-integrity",
-          "google-data-analytics"
-        ]
-      }
+      "merits/certificates/google-data-analytics",
+      "merits/languages/sql",
+      "merits/skills/data-cleaning",
+      "merits/skills/data-integrity"
     ]
   },
   "programming-in-c": {
@@ -1337,33 +614,8 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "c-programming-for-everybody"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "c"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "c-programming-for-everybody",
-          "recursive-function"
-        ]
-      }
+      "merits/certificates/c-programming-for-everybody",
+      "merits/languages/c"
     ]
   },
   "prompt-engineering-for-chat-gpt": {
@@ -1380,34 +632,9 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "prompt-engineering"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "chat-gpt"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "large-language-models",
-          "prompt-engineering",
-          "prompt-patterns"
-        ]
-      }
+      "merits/certificates/prompt-engineering",
+      "merits/skills/large-language-models",
+      "merits/skills/prompt-engineering"
     ]
   },
   "python-rust-linux": {
@@ -1424,35 +651,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "rust-programming"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python",
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "rust-programming",
-          "software-testing",
-          "system-programming"
-        ]
-      }
+      "merits/certificates/rust-programming",
+      "merits/languages/python",
+      "merits/languages/rust",
+      "merits/skills/software-testing",
+      "merits/skills/system-programming"
     ]
   },
   "regression-analysis": {
@@ -1469,36 +672,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-advanced-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "communication",
-          "google-advanced-data-analytics",
-          "predictive-modeling",
-          "regression-analysis",
-          "statistical-analysis"
-        ]
-      }
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/skills/communication",
+      "merits/skills/predictive-modeling",
+      "merits/skills/regression-analysis",
+      "merits/skills/statistical-analysis"
     ]
   },
   "rust-for-dev-ops": {
@@ -1515,37 +694,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "rust-programming"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "prometheus"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "dev-ops",
-          "rust-programming",
-          "software-testing",
-          "system-programming"
-        ]
-      }
+      "merits/certificates/rust-programming",
+      "merits/languages/rust",
+      "merits/skills/dev-ops",
+      "merits/skills/software-testing",
+      "merits/skills/system-programming"
     ]
   },
   "rust-fundamentals": {
@@ -1562,34 +715,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "rust-programming"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "rust-programming",
-          "software-testing",
-          "system-programming"
-        ]
-      }
+      "merits/certificates/rust-programming",
+      "merits/languages/rust",
+      "merits/skills/software-testing",
+      "merits/skills/system-programming"
     ]
   },
   "rust-llmops": {
@@ -1606,36 +735,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "rust-programming"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "rust"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "hugging-face"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "large-language-models",
-          "machine-learning",
-          "rust-programming"
-        ]
-      }
+      "merits/certificates/rust-programming",
+      "merits/languages/rust",
+      "merits/skills/large-language-models",
+      "merits/skills/machine-learning"
     ]
   },
   "share-data-through-the-art-of-visualization": {
@@ -1652,34 +755,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "tableau"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-analysis",
-          "data-visualisation",
-          "google-data-analytics"
-        ]
-      }
+      "merits/certificates/google-data-analytics",
+      "merits/technologies/tableau",
+      "merits/skills/data-analysis",
+      "merits/skills/data-visualisation"
     ]
   },
   "the-nuts-and-bolts-of-machine-learning": {
@@ -1696,36 +775,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-advanced-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": [
-          "stack-overflow"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "communication",
-          "google-advanced-data-analytics",
-          "predictive-modeling"
-        ]
-      }
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/skills/communication",
+      "merits/skills/predictive-modeling"
     ]
   },
   "the-path-to-insights": {
@@ -1742,32 +795,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "data-management",
-          "data-transformation",
-          "database-optimisation",
-          "extraction-transformation-loading",
-          "google-business-intelligence"
-        ]
-      }
+      "merits/skills/data-management",
+      "merits/skills/data-transformation",
+      "merits/skills/database-optimisation",
+      "merits/skills/extraction-transformation-loading"
     ]
   },
   "the-power-of-statistics": {
@@ -1784,36 +815,12 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-advanced-data-analytics"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": [
-          "python"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "communication",
-          "google-advanced-data-analytics",
-          "hypothesis-testing",
-          "probability",
-          "statistical-analysis"
-        ]
-      }
+      "merits/certificates/google-advanced-data-analytics",
+      "merits/languages/python",
+      "merits/skills/communication",
+      "merits/skills/hypothesis-testing",
+      "merits/skills/probability",
+      "merits/skills/statistical-analysis"
     ]
   },
   "trustworthy-generative-ai": {
@@ -1830,32 +837,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "prompt-engineering"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "generative-ai",
-          "problem-formulation",
-          "prompt-engineering"
-        ]
-      }
+      "merits/certificates/prompt-engineering",
+      "merits/skills/generative-ai",
+      "merits/skills/problem-formulation",
+      "merits/skills/prompt-engineering"
     ]
   },
   "ux-for-social-good": {
@@ -1872,33 +857,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-ux-design"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-ux-design",
-          "usability-testing",
-          "user-experience",
-          "ux-design"
-        ]
-      }
+      "merits/certificates/google-ux-design",
+      "merits/skills/usability-testing",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design"
     ]
   },
   "ux-research": {
@@ -1915,34 +877,11 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-ux-design"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-ux-design",
-          "usability-testing",
-          "user-experience",
-          "ux-design",
-          "ux-research"
-        ]
-      }
+      "merits/certificates/google-ux-design",
+      "merits/skills/usability-testing",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
     ]
   },
   "wireframes-low-fidelity-prototypes": {
@@ -1959,33 +898,10 @@
       }
     ],
     "related": [
-      {
-        "category": "merits",
-        "type": "certificates",
-        "items": [
-          "google-ux-design"
-        ]
-      },
-      {
-        "category": "merits",
-        "type": "languages",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "technologies",
-        "items": []
-      },
-      {
-        "category": "merits",
-        "type": "skills",
-        "items": [
-          "google-ux-design",
-          "user-experience",
-          "ux-design",
-          "ux-research"
-        ]
-      }
+      "merits/certificates/google-ux-design",
+      "merits/skills/user-experience",
+      "merits/skills/ux-design",
+      "merits/skills/ux-research"
     ]
   }
 }

@@ -41,15 +41,15 @@
     "importance": 4,
     "link": "https://www.geoguessr.com/maps/62c1a3c88b4554410dd849fa/play"
   },
-  "place-names": {
-    "title": "Place Names (Live Quiz)",
-    "imgPath": "openlayers.svg",
+  "hello-world": {
+    "title": "Hello World Quiz",
     "isLive": true,
-    "importance": 8,
+    "imgPath": "openlayers.svg",
+    "importance": 7,
     "description": [
       {
         "title": "instructions",
-        "text": "Guess the place."
+        "text": "Guess the language based on its translation of 'Hello World!'."
       }
     ]
   },
@@ -94,6 +94,18 @@
     "imgPath": "geoguessr.svg",
     "importance": 3,
     "link": "https://www.geoguessr.com/maps/62c1a42a5133ade63da10858/play"
+  },
+  "place-names": {
+    "title": "Place Names (Live Quiz)",
+    "imgPath": "openlayers.svg",
+    "isLive": true,
+    "importance": 8,
+    "description": [
+      {
+        "title": "instructions",
+        "text": "Guess the place."
+      }
+    ]
   },
   "roads": {
     "title": "Roads of Singapore (Live Quiz)",
@@ -161,13 +173,7 @@
       }
     ],
     "related": [
-      {
-        "category": "projects",
-        "type": "coding",
-        "items": [
-          "svg-converter"
-        ]
-      }
+      "projects/coding/svg-converter"
     ]
   }
 }

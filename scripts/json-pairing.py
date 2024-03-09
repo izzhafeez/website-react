@@ -49,30 +49,18 @@ def organise_type(c, t, t_dict, data):
 
 def organise_item(c, t, i, i_dict, data):
   relateds = i_dict.get("related", [])
+  new_relateds = []
   for related in relateds:
-    organise_related(c, t, i, related, data)
-
-def organise_related(c, t, i, related, data):
-  r_category = related['category']
-  r_type = related['type']
-  r_items = related['items']
-  for r_item in r_items:
-    r_dict = data.get(r_category).get(r_type).get(r_item)
-    if not r_dict:
-      continue
-    r_dict_r = r_dict.get('related', [])
-    r_dict['related'] = r_dict_r
-    r = None
-    for r_r in r_dict_r:
-      if r_r.get('category') == c or r_r.get('type') == t:
-        r = r_r
-    if not r:
-      r = {'category': c, 'type': t, 'items': []}
-      r_dict_r.append(r)
-    if i not in r['items']:
-      r['items'].append(i)
-      r['items'] = sorted(r['items'])
-  related['items'] = sorted(related['items'])
+    r_category = related['category']
+    r_type = related['type']
+    r_items = related['items']
+    for r_item in r_items:
+      r_dict = data.get(r_category).get(r_type).get(r_item)
+      if not r_dict:
+        continue
+      new_relateds.append(f"{r_category}/{r_type}/{r_item}")
+  if data[c][t][i].get('related'):
+    data[c][t][i]['related'] = new_relateds
 
 def write_data_dict(data):
   for category in get_folders(ROOT):

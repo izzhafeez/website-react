@@ -5,6 +5,7 @@ import mallsData from "data/blog/json/malls.json";
 import busRoutesData from "data/projects/json/quizzes/bus-routes.json";
 import busStopsData from "data/projects/json/quizzes/bus-stops-b.json";
 import citiesLangData from "data/projects/json/quizzes/place-names.json";
+import helloWorldData from "data/projects/json/quizzes/hello-world.json";
 import mrtData from "data/projects/json/quizzes/mrt.json";
 import mrtChineseData from "data/projects/json/quizzes/mrt-chinese.json";
 import nusModsData from "data/projects/json/quizzes/nus-mods.json";
@@ -56,6 +57,9 @@ const QuizPage = ({ type, item }) => {
     case 'place-names':
       data = citiesLangData;
       break;
+    case 'hello-world':
+      data = helloWorldData;
+      break;
     case 'roads':
     case 'roads-coverage':
       constructor = p => new Road(p);
@@ -87,6 +91,7 @@ const QuizPage = ({ type, item }) => {
     case 'status-codes':
     case 'aws-products':
     case 'place-names':
+    case 'hello-world':
       quiz = <GuessQuiz
         data={data}
         parser={(k, v) => v}

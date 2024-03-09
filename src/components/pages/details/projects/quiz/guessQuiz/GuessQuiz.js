@@ -5,7 +5,6 @@ import { getRandom } from "./random/randomisers";
 
 const GuessQuiz = ({ data, parser, container, isMap=false }) => {
   const [setting, setSetting] = useState(settings.mcqeasy);
-
   const sortOptions = (regex) => setting.randomiser({ arr: Object.keys(data).filter(d => regex === undefined || regex.test(d)), sort: setting.sort });
   const [allOptions, setAllOptions] = useState(sortOptions());
 
